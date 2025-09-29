@@ -1,0 +1,2817 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9833676,
+          20.9503705
+        ]
+      },
+      "properties": {
+        "osm_id": 11381970522,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9778661,
+          20.9537762
+        ]
+      },
+      "properties": {
+        "osm_id": 12786064257,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9780431,
+          20.95313
+        ]
+      },
+      "properties": {
+        "osm_id": 12786064258,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9834289,
+          20.9578055
+        ]
+      },
+      "properties": {
+        "osm_id": 12817107352,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9394734,
+          20.9942756
+        ]
+      },
+      "properties": {
+        "osm_id": 1205399762,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "female": "yes",
+          "male": "yes",
+          "wheelchair": "limited"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9402263,
+          20.9921338
+        ]
+      },
+      "properties": {
+        "osm_id": 1222467976,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9489764,
+          20.9949576
+        ]
+      },
+      "properties": {
+        "osm_id": 1223164988,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9468903,
+          20.9917389
+        ]
+      },
+      "properties": {
+        "osm_id": 1224032230,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "operator": "Vinhomes Ocean Park"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9557606,
+          20.997213
+        ]
+      },
+      "properties": {
+        "osm_id": 1226672989,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "check_date": "2024-06-25",
+          "operator": "Vinhomes Ocean Park"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.948855,
+          20.9994067
+        ]
+      },
+      "properties": {
+        "osm_id": 1294907492,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9442504,
+          20.9937738
+        ]
+      },
+      "properties": {
+        "osm_id": 1294907495,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9441797,
+          20.9971518
+        ]
+      },
+      "properties": {
+        "osm_id": 1295734796,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "check_date": "2024-06-25"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9355774,
+          20.9954006
+        ]
+      },
+      "properties": {
+        "osm_id": 1295787628,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9412944,
+          20.988889
+        ]
+      },
+      "properties": {
+        "osm_id": 1356130095,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.93783,
+          20.9927997
+        ]
+      },
+      "properties": {
+        "osm_id": 1356130096,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7985296,
+          21.0405199
+        ]
+      },
+      "properties": {
+        "osm_id": 12279095912,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7994107,
+          21.003
+        ]
+      },
+      "properties": {
+        "osm_id": 12441121701,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7661008,
+          21.0218943
+        ]
+      },
+      "properties": {
+        "osm_id": 12441121702,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7740499,
+          21.0360799
+        ]
+      },
+      "properties": {
+        "osm_id": 13119577114,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7749391,
+          21.0360642
+        ]
+      },
+      "properties": {
+        "osm_id": 13119577115,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7739621,
+          21.0367407
+        ]
+      },
+      "properties": {
+        "osm_id": 13119577116,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7916872,
+          21.026717
+        ]
+      },
+      "properties": {
+        "osm_id": 1185934766,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7903075,
+          21.0297281
+        ]
+      },
+      "properties": {
+        "osm_id": 1185934778,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7823453,
+          21.0463744
+        ]
+      },
+      "properties": {
+        "osm_id": 1211740012,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "changing_table": "no",
+          "fee": "no",
+          "female": "yes",
+          "male": "yes",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7399449,
+          21.003501
+        ]
+      },
+      "properties": {
+        "osm_id": 1228194740,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "female": "yes",
+          "male": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7991233,
+          21.0415675
+        ]
+      },
+      "properties": {
+        "osm_id": 1251617820,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7993584,
+          21.0394205
+        ]
+      },
+      "properties": {
+        "osm_id": 1251621013,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7537964,
+          21.006438
+        ]
+      },
+      "properties": {
+        "osm_id": 1329845844,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "0",
+          "male": "yes",
+          "room": "toilets",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7542533,
+          21.0063335
+        ]
+      },
+      "properties": {
+        "osm_id": 1329845846,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "0",
+          "male": "yes",
+          "room": "toilets",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7537965,
+          21.0064367
+        ]
+      },
+      "properties": {
+        "osm_id": 1329911731,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "1",
+          "male": "yes",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7555719,
+          21.0057469
+        ]
+      },
+      "properties": {
+        "osm_id": 1329911766,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "1",
+          "male": "yes",
+          "room": "toilets",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7537967,
+          21.0064385
+        ]
+      },
+      "properties": {
+        "osm_id": 1330108357,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "2",
+          "male": "yes",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7555723,
+          21.0057447
+        ]
+      },
+      "properties": {
+        "osm_id": 1330108359,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "female": "yes",
+          "indoor": "room",
+          "level": "2",
+          "male": "yes",
+          "toilets:disposal": "flush",
+          "toilets:position": "seated;urinal"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7556101,
+          21.0058466
+        ]
+      },
+      "properties": {
+        "osm_id": 1330108368,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7556596,
+          21.006059
+        ]
+      },
+      "properties": {
+        "osm_id": 1330108373,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8579618,
+          21.0250908
+        ]
+      },
+      "properties": {
+        "osm_id": 995391097,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8357858,
+          21.0291537
+        ]
+      },
+      "properties": {
+        "osm_id": 1000087307,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "customers",
+          "amenity": "toilets",
+          "fee": "yes",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8416591,
+          21.0116695
+        ]
+      },
+      "properties": {
+        "osm_id": 2577838813,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "check_date": "2024-06-14",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8471069,
+          21.0153044
+        ]
+      },
+      "properties": {
+        "osm_id": 2577864038,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8402978,
+          21.0324203
+        ]
+      },
+      "properties": {
+        "osm_id": 2587513880,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "customers",
+          "amenity": "toilets",
+          "drinking_water": "yes",
+          "fee": "no",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8367718,
+          21.0426059
+        ]
+      },
+      "properties": {
+        "osm_id": 2587513902,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.831924,
+          21.0439241
+        ]
+      },
+      "properties": {
+        "osm_id": 2587513918,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes",
+          "operator": "Free"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8457557,
+          21.040357
+        ]
+      },
+      "properties": {
+        "osm_id": 2587514011,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8405882,
+          21.0435672
+        ]
+      },
+      "properties": {
+        "osm_id": 2587514013,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8291543,
+          21.0398284
+        ]
+      },
+      "properties": {
+        "osm_id": 2587514016,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "fee": "yes",
+          "unisex": "yes",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8361688,
+          21.0444431
+        ]
+      },
+      "properties": {
+        "osm_id": 2587514087,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8382824,
+          21.0486158
+        ]
+      },
+      "properties": {
+        "osm_id": 3494618631,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8329399,
+          21.041629
+        ]
+      },
+      "properties": {
+        "osm_id": 3975727582,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8318167,
+          21.0359694
+        ]
+      },
+      "properties": {
+        "osm_id": 4019320086,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.845446,
+          21.0261655
+        ]
+      },
+      "properties": {
+        "osm_id": 4377069491,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8329831,
+          21.0389651
+        ]
+      },
+      "properties": {
+        "osm_id": 4708487791,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8368973,
+          21.0477218
+        ]
+      },
+      "properties": {
+        "osm_id": 4749008109,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8399375,
+          21.0370484
+        ]
+      },
+      "properties": {
+        "osm_id": 4749017459,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8152445,
+          21.0457206
+        ]
+      },
+      "properties": {
+        "osm_id": 4753067992,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "yes",
+          "wheelchair": "limited"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8224115,
+          21.0655914
+        ]
+      },
+      "properties": {
+        "osm_id": 4753067995,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.812238,
+          21.0687758
+        ]
+      },
+      "properties": {
+        "osm_id": 4753068399,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474841,
+          21.0285496
+        ]
+      },
+      "properties": {
+        "osm_id": 4753068402,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8509919,
+          21.0349938
+        ]
+      },
+      "properties": {
+        "osm_id": 4753068645,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8212819,
+          21.0287632
+        ]
+      },
+      "properties": {
+        "osm_id": 5119304526,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8508056,
+          21.0365851
+        ]
+      },
+      "properties": {
+        "osm_id": 5303026721,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8491565,
+          21.02723
+        ]
+      },
+      "properties": {
+        "osm_id": 5304805821,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512147,
+          21.0348694
+        ]
+      },
+      "properties": {
+        "osm_id": 6466626248,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8390424,
+          21.0368579
+        ]
+      },
+      "properties": {
+        "osm_id": 6539667083,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8438368,
+          21.0233506
+        ]
+      },
+      "properties": {
+        "osm_id": 6662719079,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449474,
+          21.0164146
+        ]
+      },
+      "properties": {
+        "osm_id": 6840349985,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8572218,
+          21.0230587
+        ]
+      },
+      "properties": {
+        "osm_id": 6919616661,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8554421,
+          21.0275464
+        ]
+      },
+      "properties": {
+        "osm_id": 6919663693,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "female": "yes",
+          "male": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849903,
+          21.0397986
+        ]
+      },
+      "properties": {
+        "osm_id": 7140635332,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496722,
+          21.0236886
+        ]
+      },
+      "properties": {
+        "osm_id": 7176665769,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8786051,
+          21.051413
+        ]
+      },
+      "properties": {
+        "osm_id": 7180025610,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468781,
+          21.0021995
+        ]
+      },
+      "properties": {
+        "osm_id": 10114776466,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "changing_table": "no",
+          "portable": "no",
+          "toilets:disposal": "flush",
+          "unisex": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8586901,
+          21.0185019
+        ]
+      },
+      "properties": {
+        "osm_id": 10139319663,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "toilets:disposal": "flush",
+          "unisex": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478081,
+          21.024518
+        ]
+      },
+      "properties": {
+        "osm_id": 10217688609,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "changing_table": "no",
+          "fee": "no",
+          "portable": "no",
+          "toilets:disposal": "flush",
+          "toilets:handwashing": "yes",
+          "unisex": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8343486,
+          21.0382466
+        ]
+      },
+      "properties": {
+        "osm_id": 10636045675,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8198593,
+          21.0549046
+        ]
+      },
+      "properties": {
+        "osm_id": 10945738913,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8315956,
+          21.0119356
+        ]
+      },
+      "properties": {
+        "osm_id": 11262010604,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "female": "yes",
+          "male": "yes",
+          "toilets:disposal": "flush",
+          "toilets:handwashing": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.83292,
+          21.040787
+        ]
+      },
+      "properties": {
+        "osm_id": 11446216930,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.819313,
+          21.0028316
+        ]
+      },
+      "properties": {
+        "osm_id": 11461785755,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "female": "yes",
+          "male": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852222,
+          21.0252214
+        ]
+      },
+      "properties": {
+        "osm_id": 11832128104,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8467027,
+          21.0258446
+        ]
+      },
+      "properties": {
+        "osm_id": 11832472664,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.846357,
+          21.0286696
+        ]
+      },
+      "properties": {
+        "osm_id": 11843072469,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8418159,
+          21.0469598
+        ]
+      },
+      "properties": {
+        "osm_id": 11886820369,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "opening_hours": "24/7"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8044178,
+          21.0296913
+        ]
+      },
+      "properties": {
+        "osm_id": 12174413418,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8500738,
+          21.0388193
+        ]
+      },
+      "properties": {
+        "osm_id": 12279116105,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8597761,
+          21.0246611
+        ]
+      },
+      "properties": {
+        "osm_id": 12287543011,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8522905,
+          21.0307033
+        ]
+      },
+      "properties": {
+        "osm_id": 12289120171,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "wheelchair": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8278716,
+          21.0639972
+        ]
+      },
+      "properties": {
+        "osm_id": 12308536301,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8213896,
+          21.0557113
+        ]
+      },
+      "properties": {
+        "osm_id": 12308841301,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8231022,
+          21.0663876
+        ]
+      },
+      "properties": {
+        "osm_id": 12309492301,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8185063,
+          21.0783256
+        ]
+      },
+      "properties": {
+        "osm_id": 12309492401,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8418382,
+          21.045872
+        ]
+      },
+      "properties": {
+        "osm_id": 12333520401,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8396856,
+          21.0332548
+        ]
+      },
+      "properties": {
+        "osm_id": 12404372336,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8938659,
+          21.050455
+        ]
+      },
+      "properties": {
+        "osm_id": 12412053901,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8059895,
+          21.0055113
+        ]
+      },
+      "properties": {
+        "osm_id": 12441118402,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8561716,
+          21.0322634
+        ]
+      },
+      "properties": {
+        "osm_id": 12555926109,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8305391,
+          21.0390803
+        ]
+      },
+      "properties": {
+        "osm_id": 12570431501,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465492,
+          21.0383859
+        ]
+      },
+      "properties": {
+        "osm_id": 12657768416,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8353399,
+          21.0798704
+        ]
+      },
+      "properties": {
+        "osm_id": 12669562001,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8356217,
+          21.0779127
+        ]
+      },
+      "properties": {
+        "osm_id": 12669604002,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8357608,
+          21.0268609
+        ]
+      },
+      "properties": {
+        "osm_id": 12690280001,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8366365,
+          21.0296565
+        ]
+      },
+      "properties": {
+        "osm_id": 702241314,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8158297,
+          21.0015549
+        ]
+      },
+      "properties": {
+        "osm_id": 892577137,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8158976,
+          21.0005259
+        ]
+      },
+      "properties": {
+        "osm_id": 892577181,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8149167,
+          21.0020792
+        ]
+      },
+      "properties": {
+        "osm_id": 892577184,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8157135,
+          21.0039271
+        ]
+      },
+      "properties": {
+        "osm_id": 892577205,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8160592,
+          21.0038463
+        ]
+      },
+      "properties": {
+        "osm_id": 892577225,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8155512,
+          21.002047
+        ]
+      },
+      "properties": {
+        "osm_id": 892577264,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8149365,
+          21.0020195
+        ]
+      },
+      "properties": {
+        "osm_id": 892577296,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8162848,
+          21.00294
+        ]
+      },
+      "properties": {
+        "osm_id": 892577335,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8158416,
+          21.0005213
+        ]
+      },
+      "properties": {
+        "osm_id": 892577364,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8164469,
+          21.0029286
+        ]
+      },
+      "properties": {
+        "osm_id": 892577382,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "buildingpart": "room",
+          "indoor": "yes",
+          "level": "-1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.816479,
+          21.0019863
+        ]
+      },
+      "properties": {
+        "osm_id": 892577437,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "yes",
+          "level": "-2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8986599,
+          21.0275269
+        ]
+      },
+      "properties": {
+        "osm_id": 899221501,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "0",
+          "room": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9001491,
+          21.0273412
+        ]
+      },
+      "properties": {
+        "osm_id": 899221623,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "indoor": "room",
+          "level": "0",
+          "room": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8988165,
+          21.0273949
+        ]
+      },
+      "properties": {
+        "osm_id": 899476427,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "1",
+          "room": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8987752,
+          21.0274074
+        ]
+      },
+      "properties": {
+        "osm_id": 899514996,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "indoor": "room",
+          "level": "2",
+          "room": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8367056,
+          21.0428587
+        ]
+      },
+      "properties": {
+        "osm_id": 1163326387,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8340231,
+          21.0356075
+        ]
+      },
+      "properties": {
+        "osm_id": 1219283150,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "building:levels": "1",
+          "female": "yes",
+          "male": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521644,
+          21.0316514
+        ]
+      },
+      "properties": {
+        "osm_id": 1220054878,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "building:levels": "1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8535118,
+          21.0292334
+        ]
+      },
+      "properties": {
+        "osm_id": 1220054904,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "building:levels": "1",
+          "fee": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513925,
+          21.0282908
+        ]
+      },
+      "properties": {
+        "osm_id": 1220426400,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "building:levels": "1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8408922,
+          21.0355792
+        ]
+      },
+      "properties": {
+        "osm_id": 1270909900,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8409425,
+          21.0367433
+        ]
+      },
+      "properties": {
+        "osm_id": 1270909907,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478233,
+          21.0063488
+        ]
+      },
+      "properties": {
+        "osm_id": 1272194477,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "building:levels": "1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8319886,
+          21.0353621
+        ]
+      },
+      "properties": {
+        "osm_id": 1289842503,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8331008,
+          21.0328588
+        ]
+      },
+      "properties": {
+        "osm_id": 1301684973,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "female": "yes",
+          "male": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8404896,
+          21.0331305
+        ]
+      },
+      "properties": {
+        "osm_id": 1302250728,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8394426,
+          21.0311671
+        ]
+      },
+      "properties": {
+        "osm_id": 1304785697,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8326028,
+          21.0357617
+        ]
+      },
+      "properties": {
+        "osm_id": 1305753871,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "0",
+          "male": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8325465,
+          21.0354834
+        ]
+      },
+      "properties": {
+        "osm_id": 1305753872,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "female": "yes",
+          "indoor": "room",
+          "level": "0",
+          "male": "yes",
+          "toilets:disposal": "flush"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8074565,
+          21.0322132
+        ]
+      },
+      "properties": {
+        "osm_id": 1315272113,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8451367,
+          21.0164379
+        ]
+      },
+      "properties": {
+        "osm_id": 1333448223,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8459989,
+          21.0142598
+        ]
+      },
+      "properties": {
+        "osm_id": 1333448224,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.900135,
+          21.0265507
+        ]
+      },
+      "properties": {
+        "osm_id": 899221634,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "indoor": "room",
+          "level": "0",
+          "room": "toilets",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9002478,
+          21.0273404
+        ]
+      },
+      "properties": {
+        "osm_id": 899476428,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "fee": "no",
+          "indoor": "room",
+          "level": "1",
+          "room": "toilets"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9207252,
+          21.0308451
+        ]
+      },
+      "properties": {
+        "osm_id": 1231282720,
+        "osm_type": "way",
+        "name": "Nhà vệ sinh công cộng",
+        "tags": {
+          "access": "yes",
+          "amenity": "toilets",
+          "building": "yes",
+          "name": "Nhà vệ sinh công cộng",
+          "portable": "yes",
+          "toilets:handwashing": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9064109,
+          21.0601316
+        ]
+      },
+      "properties": {
+        "osm_id": 1352283650,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "portable": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9056516,
+          21.0627407
+        ]
+      },
+      "properties": {
+        "osm_id": 1352496400,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "portable": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9056255,
+          21.0612524
+        ]
+      },
+      "properties": {
+        "osm_id": 1352496412,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "portable": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9027776,
+          21.0604475
+        ]
+      },
+      "properties": {
+        "osm_id": 1352503458,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "toilets",
+          "building": "yes",
+          "portable": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.871325,
+          21.112906
+        ]
+      },
+      "properties": {
+        "osm_id": 7178799043,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "toilets"
+        }
+      }
+    }
+  ]
+}
