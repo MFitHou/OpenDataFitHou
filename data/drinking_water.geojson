@@ -1,0 +1,367 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.809002,
+          20.9985524
+        ]
+      },
+      "properties": {
+        "osm_id": 4748316721,
+        "osm_type": "node",
+        "name": "54 vũ trọng phụng",
+        "tags": {
+          "amenity": "drinking_water",
+          "name": "54 vũ trọng phụng",
+          "name:vi": "54 vũ trọng phụng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7782313,
+          21.0656762
+        ]
+      },
+      "properties": {
+        "osm_id": 6698948887,
+        "osm_type": "node",
+        "name": "Trà đá Nước mia đá",
+        "tags": {
+          "amenity": "drinking_water",
+          "name": "Trà đá Nước mia đá",
+          "name:en": "Tea"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8650398,
+          21.0051308
+        ]
+      },
+      "properties": {
+        "osm_id": 4758991221,
+        "osm_type": "node",
+        "name": "Quán trà đá",
+        "tags": {
+          "amenity": "drinking_water",
+          "name": "Quán trà đá",
+          "name:vi": "Quán trà đá"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477823,
+          21.0248917
+        ]
+      },
+      "properties": {
+        "osm_id": 5942473585,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502495,
+          21.0263777
+        ]
+      },
+      "properties": {
+        "osm_id": 6292723885,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534447,
+          21.0260995
+        ]
+      },
+      "properties": {
+        "osm_id": 9931507054,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "fee": "no",
+          "fountain": "bubbler"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8547899,
+          21.0275822
+        ]
+      },
+      "properties": {
+        "osm_id": 9931530710,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8445302,
+          21.0038661
+        ]
+      },
+      "properties": {
+        "osm_id": 10114776470,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "access": "yes",
+          "amenity": "drinking_water",
+          "bottle": "yes",
+          "fee": "no"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538234,
+          21.0273522
+        ]
+      },
+      "properties": {
+        "osm_id": 10660753505,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "name:en": "Free drinking water dispenser (water refill)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853708,
+          21.0298177
+        ]
+      },
+      "properties": {
+        "osm_id": 11191573737,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8340434,
+          21.0367523
+        ]
+      },
+      "properties": {
+        "osm_id": 11676700469,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "fountain": "drinking"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514172,
+          21.0280465
+        ]
+      },
+      "properties": {
+        "osm_id": 11834019569,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8466528,
+          21.031276
+        ]
+      },
+      "properties": {
+        "osm_id": 11865316771,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "fountain": "bubbler"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519581,
+          21.0261536
+        ]
+      },
+      "properties": {
+        "osm_id": 11893374272,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8323055,
+          21.03464
+        ]
+      },
+      "properties": {
+        "osm_id": 12086821054,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.854721,
+          21.0272682
+        ]
+      },
+      "properties": {
+        "osm_id": 12129133501,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853901,
+          21.0311419
+        ]
+      },
+      "properties": {
+        "osm_id": 12278326273,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "fountain": "bubbler"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8462172,
+          21.0173765
+        ]
+      },
+      "properties": {
+        "osm_id": 12690411001,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "fountain": "bubbler"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8472437,
+          21.0180172
+        ]
+      },
+      "properties": {
+        "osm_id": 13005736901,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "drinking_water",
+          "fountain": "bubbler"
+        }
+      }
+    }
+  ]
+}
