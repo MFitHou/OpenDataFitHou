@@ -1,0 +1,4024 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7789877,
+          20.9677609
+        ]
+      },
+      "properties": {
+        "osm_id": 5243867642,
+        "osm_type": "node",
+        "name": "Trung tâm y tế dự phòng quận Hà Đông",
+        "tags": {
+          "addr:district": "Hà Đông",
+          "addr:street": "Tô Hiệu",
+          "addr:subdistrict": "Hà Cầu",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "community;general",
+          "name": "Trung tâm y tế dự phòng quận Hà Đông"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7078282,
+          20.9471543
+        ]
+      },
+      "properties": {
+        "osm_id": 7409549828,
+        "osm_type": "node",
+        "name": "Trạm Y tế Phụng Châu",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Chương Mỹ",
+          "addr:province": "Việt Nam",
+          "addr:street": "Phượng Nghĩa",
+          "addr:subdistrict": "Phụng Châu",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế Phụng Châu"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7884888,
+          20.960142
+        ]
+      },
+      "properties": {
+        "osm_id": 9587108043,
+        "osm_type": "node",
+        "name": "Trạm Y Tế Phường KIến Hưng",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y Tế Phường KIến Hưng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7928536,
+          20.984612
+        ]
+      },
+      "properties": {
+        "osm_id": 9875885617,
+        "osm_type": "node",
+        "name": "Bệnh viện Tuệ Tĩnh",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Tuệ Tĩnh"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7965721,
+          20.9908736
+        ]
+      },
+      "properties": {
+        "osm_id": 10893013871,
+        "osm_type": "node",
+        "name": "Bệnh viện Đại học Quốc gia Hà Nội",
+        "tags": {
+          "addr:housenumber": "182",
+          "addr:street": "Đường Lương Thế Vinh",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đại học Quốc gia Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7751087,
+          20.9789324
+        ]
+      },
+      "properties": {
+        "osm_id": 12135053693,
+        "osm_type": "node",
+        "name": "Trạm y tế Phường Vạn Phúc",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm y tế Phường Vạn Phúc"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7560256,
+          20.9954672
+        ]
+      },
+      "properties": {
+        "osm_id": 12999257910,
+        "osm_type": "node",
+        "name": "Trạm y tế phường Tây Mỗ (Cơ sở 1)",
+        "tags": {
+          "addr:housenumber": "371",
+          "addr:province": "thành phố Hà Nội",
+          "addr:street": "Đường Đại Mỗ",
+          "addr:subdistrict": "phường Tây Mỗ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm y tế phường Tây Mỗ (Cơ sở 1)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7974841,
+          20.993668
+        ]
+      },
+      "properties": {
+        "osm_id": 591338735,
+        "osm_type": "way",
+        "name": "Bệnh viện Đại học Y Dược",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Xuân",
+          "addr:province": "Hà Nội",
+          "addr:street": "Nguyễn Quý Đức",
+          "addr:subdistrict": "Thanh Xuân Bắc",
+          "amenity": "hospital",
+          "contact:phone": "+84 24 3553 0621",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đại học Y Dược",
+          "name:en": "Medical and Pharmaceutical University Hospital",
+          "name:tr": "Tıp ve Eczacılık Üniversitesi Hastanesi",
+          "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00; Sa 08:00-12:00",
+          "operator": "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7688713,
+          20.9628226
+        ]
+      },
+      "properties": {
+        "osm_id": 755118878,
+        "osm_type": "way",
+        "name": "Bệnh viện Công an thành phố Hà Nội",
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "building:levels": "8",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Công an thành phố Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7892377,
+          20.9961682
+        ]
+      },
+      "properties": {
+        "osm_id": 849686727,
+        "osm_type": "way",
+        "name": "Bệnh viện Y học cổ truyền Bộ Công an",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Nam Từ Liêm",
+          "addr:housenumber": "278",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Lương Thế Vinh",
+          "addr:subdistrict": "Trung Văn",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Y học cổ truyền Bộ Công an",
+          "operator": "Bộ Công an",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7791314,
+          20.9676018
+        ]
+      },
+      "properties": {
+        "osm_id": 879842500,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Hà Đông",
+        "tags": {
+          "addr:district": "Hà Đông",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Tô Hiệu",
+          "addr:subdistrict": "Nguyễn Trãi",
+          "amenity": "hospital",
+          "building:levels": "2",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Hà Đông"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7900215,
+          20.9676247
+        ]
+      },
+      "properties": {
+        "osm_id": 881184688,
+        "osm_type": "way",
+        "name": "Bệnh viện Quân y 103",
+        "tags": {
+          "addr:district": "Quận Hà Đông",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Đường Phùng Hưng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Quân y 103"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7924112,
+          20.9667742
+        ]
+      },
+      "properties": {
+        "osm_id": 881515775,
+        "osm_type": "way",
+        "name": "Bệnh viện Bỏng Quốc gia Lê Hữu Trác",
+        "tags": {
+          "addr:district": "Quận Hà Đông",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Đường Phùng Hưng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Bỏng Quốc gia Lê Hữu Trác"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7744735,
+          20.9713454
+        ]
+      },
+      "properties": {
+        "osm_id": 914749544,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Hà Đông",
+        "tags": {
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Hà Đông",
+          "name:en": "Ha Dong General Hospital",
+          "name:tr": "Ha Dong Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7995597,
+          20.9636109
+        ]
+      },
+      "properties": {
+        "osm_id": 938437548,
+        "osm_type": "way",
+        "name": "Bệnh viện K - Cơ sở Tân Triều",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Trì",
+          "addr:housenumber": "30",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Cầu Bươu",
+          "addr:subdistrict": "Tân Triều",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện K - Cơ sở Tân Triều",
+          "name:en": "Vietnam National Cancer Hospital - Campus 3",
+          "name:tr": "Vietnam Ulusal Kanser Hastanesi 3. Yerleşkesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7729964,
+          20.970065
+        ]
+      },
+      "properties": {
+        "osm_id": 942415500,
+        "osm_type": "way",
+        "name": "Bệnh viện Da liễu Hà Nội (cơ sở 2)",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Da liễu Hà Nội (cơ sở 2)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7715441,
+          20.9708813
+        ]
+      },
+      "properties": {
+        "osm_id": 942477938,
+        "osm_type": "way",
+        "name": "Bệnh viện Y học cổ truyền Hà Đông",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Y học cổ truyền Hà Đông"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7440708,
+          20.9621783
+        ]
+      },
+      "properties": {
+        "osm_id": 1296804724,
+        "osm_type": "way",
+        "name": "Bệnh viện Nhi Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hà Đông",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Nguyễn Trác",
+          "addr:subdistrict": "Dương Nội",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "paediatrics",
+          "name": "Bệnh viện Nhi Hà Nội",
+          "operator": "Sở Y tế Hà Nội",
+          "operator:type": "public/government",
+          "start_date": "2024-10-09"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7730029,
+          20.9716065
+        ]
+      },
+      "properties": {
+        "osm_id": 1313139535,
+        "osm_type": "way",
+        "name": "Bệnh viện Mắt Hà Nội (Cơ sở Hà Đông)",
+        "tags": {
+          "addr:housenumber": "2D",
+          "addr:street": "Phố Nguyễn Viết Xuân",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Mắt Hà Nội (Cơ sở Hà Đông)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7765643,
+          20.9721687
+        ]
+      },
+      "properties": {
+        "osm_id": 1395275680,
+        "osm_type": "way",
+        "name": "Bệnh viện Phụ sản Hà Nội (cơ sở 3)",
+        "tags": {
+          "addr:district": "Quận Hà Đông",
+          "addr:housenumber": "10",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Đường Quang Trung",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Phụ sản Hà Nội (cơ sở 3)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7376105,
+          20.9544907
+        ]
+      },
+      "properties": {
+        "osm_id": 1424527847,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Yên Nghĩa",
+        "tags": {
+          "addr:street": "Ngách 234/22 Đường Quyết Thắng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Yên Nghĩa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8384237,
+          20.9542742
+        ]
+      },
+      "properties": {
+        "osm_id": 2874225019,
+        "osm_type": "node",
+        "name": "Bệnh Viện Đa Khoa Thăng Long",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:country": "VN",
+          "addr:housenumber": "60",
+          "addr:street": "Tựu Liệt, Tam Hiệp, Thanh Trì",
+          "amenity": "hospital",
+          "ele": "4",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh Viện Đa Khoa Thăng Long",
+          "phone": "+84 4 3687 3058"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.882146,
+          20.921967
+        ]
+      },
+      "properties": {
+        "osm_id": 5620874321,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481456,
+          20.9301069
+        ]
+      },
+      "properties": {
+        "osm_id": 9005878157,
+        "osm_type": "node",
+        "name": "Trung tâm tiêm ᴄhủng Fivevac",
+        "tags": {
+          "addr:city": "Hanoi",
+          "addr:district": "Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam",
+          "addr:housenumber": "Km 13",
+          "addr:postcode": "100000",
+          "addr:street": "Đường Ngọc Hồi",
+          "addr:subdistrict": "Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Trung tâm tiêm ᴄhủng Fivevac",
+          "operator": "person",
+          "operator:type": "government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8141044,
+          20.9992267
+        ]
+      },
+      "properties": {
+        "osm_id": 9658535627,
+        "osm_type": "node",
+        "name": "Thu Cúc TCI Thanh Xuân",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Xuân",
+          "addr:housenumber": "136",
+          "addr:province": "Hà Nội",
+          "addr:street": "Nguyễn Trãi",
+          "addr:subdistrict": "Thanh Xuân Trung",
+          "amenity": "hospital",
+          "description": "Cơ sở Nguyễn Trãi của hệ thống bệnh viện đa khoa quốc tế Thu Cúc",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Thu Cúc TCI Thanh Xuân",
+          "name:en": "Thu Cuc International General Hospital",
+          "opening_hours": "Mo-Su 08:00-17:00",
+          "phone": "+84 936 188 584",
+          "website": "https://benhvienthucuc.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8166469,
+          20.9920389
+        ]
+      },
+      "properties": {
+        "osm_id": 10316420839,
+        "osm_type": "node",
+        "name": "Trạm y tế Khương Hạ",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm y tế Khương Hạ"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8885189,
+          20.9245983
+        ]
+      },
+      "properties": {
+        "osm_id": 10855401102,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8908793,
+          20.924333
+        ]
+      },
+      "properties": {
+        "osm_id": 10855443211,
+        "osm_type": "node",
+        "name": "Nhà thuốc đông y Bùi Tộc",
+        "tags": {
+          "addr:city": "Thanh Trì",
+          "addr:district": "Duyên Hà",
+          "addr:province": "Hà Nội",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Nhà thuốc đông y Bùi Tộc"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8399598,
+          20.9868669
+        ]
+      },
+      "properties": {
+        "osm_id": 12595017771,
+        "osm_type": "node",
+        "name": "Bệnh viện chuyên khoa Nam học và Hiếm muộn Việt - Bỉ",
+        "tags": {
+          "addr:housenumber": "23",
+          "addr:street": "Phố Nguyễn Văn Trỗi, quận Thanh Xuân, thành phố Hà Nội",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện chuyên khoa Nam học và Hiếm muộn Việt - Bỉ",
+          "name:en": "Vietnam - Belgium Andrology and Infertility Hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8048434,
+          20.9994521
+        ]
+      },
+      "properties": {
+        "osm_id": 12651700759,
+        "osm_type": "node",
+        "name": "Bệnh viện phục hồi chức năng",
+        "tags": {
+          "addr:housenumber": "35",
+          "addr:street": "Phố Lê Văn Thiêm",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện phục hồi chức năng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8651351,
+          20.9965075
+        ]
+      },
+      "properties": {
+        "osm_id": 12944186097,
+        "osm_type": "node",
+        "name": "Bệnh viện Dệt May",
+        "tags": {
+          "addr:street": "Ngõ 454 Minh Khai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Dệt May"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8394004,
+          21.0018102
+        ]
+      },
+      "properties": {
+        "osm_id": 218625367,
+        "osm_type": "way",
+        "name": "Bệnh viện Bạch Mai",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "78",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Giải Phóng",
+          "addr:subdistrict": "Phương Mai",
+          "amenity": "hospital",
+          "designation": "Ministry of Health",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Bạch Mai",
+          "name:en": "Bach Mai Hospital",
+          "name:fr": "L'Hôpitale de Bach Mai",
+          "name:id": "Rumah Sakit Bach Mai",
+          "name:tr": "Bach Mai Hastanesi",
+          "name:zh": "白梅医院",
+          "source": "public",
+          "wikidata": "Q1074095",
+          "wikimedia_commons": "Category:Bạch Mai Hospital",
+          "wikipedia": "vi:Bệnh viện Bạch Mai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8233726,
+          20.9727944
+        ]
+      },
+      "properties": {
+        "osm_id": 856220237,
+        "osm_type": "way",
+        "name": "Viện Y học cổ truyền Quân đội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàng Mai",
+          "addr:housenumber": "442",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Kim Giang",
+          "addr:subdistrict": "Đại Kim",
+          "amenity": "hospital",
+          "contact:website": "http://yhoccotruyenqd.vn/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Viện Y học cổ truyền Quân đội",
+          "name:en": "Military Institute of Traditional Medicine",
+          "name:tr": "Askeri Geleneksel Tıp Enstitüsü",
+          "operator": "Bộ Quốc phòng",
+          "operator:type": "military"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8200923,
+          20.980888
+        ]
+      },
+      "properties": {
+        "osm_id": 885744682,
+        "osm_type": "way",
+        "name": "Viện Y học phóng xạ và U bướu Quân đội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàng Mai",
+          "addr:housenumber": "18",
+          "addr:province": "Hà Nội",
+          "addr:street": "Định Công Thượng",
+          "addr:subdistrict": "Định Công",
+          "amenity": "hospital",
+          "contact:phone": "+84 24 3855 2353",
+          "contact:website": "https://ungthutuyengiap.org/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "oncology;radiology",
+          "name": "Viện Y học phóng xạ và U bướu Quân đội",
+          "name:en": "Military Institute of Medical Radiology and Oncology",
+          "name:tr": "Askeri Tıbbi Radyoloji ve Onkoloji Enstitüsü",
+          "opening_hours": "Mo-Fr 07:30-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510255,
+          20.9522962
+        ]
+      },
+      "properties": {
+        "osm_id": 891004233,
+        "osm_type": "way",
+        "name": "Bệnh viện Nội tiết Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Trì",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Nguyễn Bồ",
+          "addr:subdistrict": "Tứ Hiệp",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Nội tiết Trung ương",
+          "name:en": "National Hospital of Endocrinology",
+          "name:tr": "Ulusal Endokrinoloji Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8257561,
+          21.0002165
+        ]
+      },
+      "properties": {
+        "osm_id": 903697302,
+        "osm_type": "way",
+        "name": "Viện Y học Phòng không - Không quân",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Viện Y học Phòng không - Không quân"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8463085,
+          20.9487155
+        ]
+      },
+      "properties": {
+        "osm_id": 914889895,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Thanh Trì",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Trì",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Thanh Trì",
+          "name:en": "Thanh Tri General Hospital",
+          "name:tr": "Thanh Tri Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8019723,
+          20.9605402
+        ]
+      },
+      "properties": {
+        "osm_id": 942477943,
+        "osm_type": "way",
+        "name": "Bệnh viện 09",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện 09"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8322985,
+          20.9546381
+        ]
+      },
+      "properties": {
+        "osm_id": 965302176,
+        "osm_type": "way",
+        "name": "Bệnh viện K (cơ sở 2)",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Trì",
+          "addr:subdistrict": "Tam Hiệp",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện K (cơ sở 2)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8464991,
+          20.9682141
+        ]
+      },
+      "properties": {
+        "osm_id": 973471796,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Hoàng Mai",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàng Mai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Hoàng Mai",
+          "operator": "Sở Y tế Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8123873,
+          20.9909108
+        ]
+      },
+      "properties": {
+        "osm_id": 974596748,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Thanh Xuân",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Thanh Xuân",
+          "addr:housenumber": "23",
+          "addr:province": "Hà Nội",
+          "addr:street": "Ngõ 282 Đường Khương Đình",
+          "addr:subdistrict": "Hạ Đình",
+          "amenity": "hospital",
+          "contact:phone": "+84 24 3858 7155",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Thanh Xuân",
+          "name:en": "Thanh Xuan district Medical Center",
+          "name:tr": "Thanh Xuan Bölge Tıp Merkezi",
+          "operator": "Sở Y tế Hà Nội",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533418,
+          20.9211478
+        ]
+      },
+      "properties": {
+        "osm_id": 1066900817,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Nông nghiệp",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Nông nghiệp"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8289681,
+          20.9703122
+        ]
+      },
+      "properties": {
+        "osm_id": 1149665138,
+        "osm_type": "way",
+        "name": "Phòng Khám Đa Khoa Linh Đàm",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàng Mai",
+          "addr:housenumber": "M4TT6",
+          "addr:postcode": "100000",
+          "addr:province": "Hà Nội",
+          "addr:street": "Bắc Linh Đàm",
+          "addr:subdistrict": "Đại Kim",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Phòng Khám Đa Khoa Linh Đàm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8405781,
+          20.9996733
+        ]
+      },
+      "properties": {
+        "osm_id": 1192868593,
+        "osm_type": "way",
+        "name": "Bệnh viện Tai-Mũi-Họng Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "78",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Giải Phóng",
+          "addr:subdistrict": "Phương Mai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Tai-Mũi-Họng Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8666473,
+          20.9959685
+        ]
+      },
+      "properties": {
+        "osm_id": 1205244304,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+        "tags": {
+          "addr:housenumber": "458",
+          "addr:street": "Phố Minh Khai",
+          "amenity": "hospital",
+          "contact:website": "https://www.vinmec.com/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Quốc tế Vinmec Times City",
+          "name:en": "Vinmec Times City International Hospital",
+          "name:tr": "Uluslararası Vinmec Times City Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8690338,
+          20.9786327
+        ]
+      },
+      "properties": {
+        "osm_id": 1208987601,
+        "osm_type": "way",
+        "name": "Bệnh viện Đại học Y Hà Nội - Cơ sở Hoàng Mai",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàng Mai",
+          "addr:province": "Hà Nội",
+          "addr:street": "Ngõ 587 Tam Trinh",
+          "addr:subdistrict": "Yên Sở",
+          "amenity": "hospital",
+          "contact:email": "benhviendaihocyhanoi@hmuh.vn",
+          "contact:facebook": "https://www.facebook.com/HMUHospital",
+          "contact:phone": "+84 19006422",
+          "contact:website": "http://benhviendaihocyhanoi.com/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đại học Y Hà Nội - Cơ sở Hoàng Mai",
+          "name:en": "Hanoi Medical University Hospital - Hoang Mai Campus",
+          "name:tr": "Hanoi Tıp Üniversitesi Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.831309,
+          20.990462
+        ]
+      },
+      "properties": {
+        "osm_id": 1318933629,
+        "osm_type": "way",
+        "name": "Bệnh viện Bưu điện",
+        "tags": {
+          "addr:housenumber": "49",
+          "addr:street": "Phố Trần Điền",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Bưu điện",
+          "name:en": "Hospital of Post and Telecommunications",
+          "name:vi": "Bệnh viện Bưu điện",
+          "phone": "+84 24 36402308"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8393028,
+          20.9887265
+        ]
+      },
+      "properties": {
+        "osm_id": 1321543806,
+        "osm_type": "way",
+        "name": "Bệnh viện Than - Khoáng sản",
+        "tags": {
+          "addr:street": "Ngõ 1 Phan Đình Giót",
+          "amenity": "hospital",
+          "email": "benhvienthankhoangsan@gmail.com",
+          "emergency": "yes",
+          "fax": "+84 24 36646186",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Than - Khoáng sản",
+          "name:en": "Vinacomin Hospital",
+          "name:vi": "Bệnh viện Than - Khoáng sản"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9018259,
+          20.9777275
+        ]
+      },
+      "properties": {
+        "osm_id": 10019105710,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "source": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9441322,
+          20.9510699
+        ]
+      },
+      "properties": {
+        "osm_id": 242483921,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế huyện Văn Giang",
+        "tags": {
+          "addr:district": "Văn Giang",
+          "addr:province": "Hưng Yên",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế huyện Văn Giang",
+          "name:en": "Van Giang District Medical Centre"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9231751,
+          20.9832401
+        ]
+      },
+      "properties": {
+        "osm_id": 244408869,
+        "osm_type": "way",
+        "name": "Bệnh viện Sông Hồng",
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "name": "Bệnh viện Sông Hồng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9217564,
+          20.9825824
+        ]
+      },
+      "properties": {
+        "osm_id": 570594021,
+        "osm_type": "way",
+        "name": "Bệnh viện sông Hồng",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện sông Hồng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9326261,
+          20.9635258
+        ]
+      },
+      "properties": {
+        "osm_id": 1339401910,
+        "osm_type": "way",
+        "name": "Bệnh viện KUSUMI",
+        "tags": {
+          "addr:district": "Văn Giang",
+          "addr:housenumber": "ST-01",
+          "addr:place": "Khu đô thị Ecopark",
+          "addr:province": "Hưng Yên",
+          "amenity": "hospital",
+          "email": "info@tokyo-human.edu.vn",
+          "healthcare": "hospital",
+          "name": "Bệnh viện KUSUMI",
+          "operator": "Trường Đại học Y khoa Tokyo Việt Nam",
+          "operator:type": "private",
+          "phone": "+84 1900 86 86 90",
+          "website": "https://kusumihospital.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9572254,
+          20.9402137
+        ]
+      },
+      "properties": {
+        "osm_id": 1432272636,
+        "osm_type": "way",
+        "name": null,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7472566,
+          21.039913
+        ]
+      },
+      "properties": {
+        "osm_id": 8317321610,
+        "osm_type": "node",
+        "name": "Trung tâm Chăm sóc Sức khoẻ Người cao tuổi Hoa Sen - Lotus Care",
+        "tags": {
+          "addr:district": "quận Nam Từ Liêm",
+          "addr:postcode": "10000",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trịnh Văn Bô",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "geriatrics;elderly_care",
+          "name": "Trung tâm Chăm sóc Sức khoẻ Người cao tuổi Hoa Sen - Lotus Care",
+          "name:en": "Lotus Care"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7628554,
+          21.0651797
+        ]
+      },
+      "properties": {
+        "osm_id": 8360208001,
+        "osm_type": "node",
+        "name": "Nha Khoa",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Nha Khoa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.790782,
+          21.0511017
+        ]
+      },
+      "properties": {
+        "osm_id": 9788576207,
+        "osm_type": "node",
+        "name": "Trung tâm Nghiên cứu và Ứng dụng Y học cổ truyền CTA",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Bắc Từ Liêm",
+          "addr:housenumber": "25 An Sinh",
+          "addr:postcode": "10000",
+          "addr:street": "Ngõ 208 Trần Cung",
+          "addr:subdistrict": "Phường Cổ Nhuế 1",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "health",
+          "name": "Trung tâm Nghiên cứu và Ứng dụng Y học cổ truyền CTA",
+          "operator": "Lương y Đỗ Tuấn Nam",
+          "operator:type": "public"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7616027,
+          21.0689223
+        ]
+      },
+      "properties": {
+        "osm_id": 10166537628,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7714164,
+          21.0334322
+        ]
+      },
+      "properties": {
+        "osm_id": 11104405789,
+        "osm_type": "node",
+        "name": "Bệnh viện Quốc tế Dolife",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Nam Từ Liêm",
+          "addr:housenumber": "108",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Nguyễn Hoàng",
+          "addr:subdistrict": "Mỹ Đình 2",
+          "amenity": "hospital",
+          "email": "info@dolifehospital.vn",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Quốc tế Dolife",
+          "opening_hours": "Mo-Su 07:00-16:30",
+          "operator": "Công ty Cổ phần Trung Tín",
+          "operator:type": "private",
+          "phone": "+84 1900 1984",
+          "website": "https://dolifehospital.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7760138,
+          21.0701905
+        ]
+      },
+      "properties": {
+        "osm_id": 11152952450,
+        "osm_type": "node",
+        "name": null,
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819381,
+          21.0662593
+        ]
+      },
+      "properties": {
+        "osm_id": 11169202590,
+        "osm_type": "node",
+        "name": "Duck's Hospital",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "dentist",
+          "name": "Duck's Hospital"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7836205,
+          21.0576234
+        ]
+      },
+      "properties": {
+        "osm_id": 11190957339,
+        "osm_type": "node",
+        "name": "Tram Xa Co Nhue",
+        "tags": {
+          "addr:street": "Đường Trần Cung",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Tram Xa Co Nhue"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7512096,
+          21.0018973
+        ]
+      },
+      "properties": {
+        "osm_id": 11591853849,
+        "osm_type": "node",
+        "name": "Trạm y tế phường Tây Mỗ (Cơ sở 2)",
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Ngõ 27 Đường Tây Mỗ",
+          "addr:subdistrict": "Phường Tây Mỗ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm y tế phường Tây Mỗ (Cơ sở 2)",
+          "wheelchair": "limited"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7496348,
+          21.0040429
+        ]
+      },
+      "properties": {
+        "osm_id": 11882973176,
+        "osm_type": "node",
+        "name": "Bệnh viện Hữu nghị Quốc tế Hà Nội",
+        "tags": {
+          "addr:city": "Phường Tây Mỗ",
+          "addr:district": "Quận Nam Từ Liêm",
+          "addr:housenumber": "68",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Tây Mỗ, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội",
+          "addr:subdistrict": "Phường Tây Mỗ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Hữu nghị Quốc tế Hà Nội",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7910343,
+          21.0350951
+        ]
+      },
+      "properties": {
+        "osm_id": 13124579065,
+        "osm_type": "node",
+        "name": "Phòng khám đa khoa Bệnh viện Đại học Y Hà Nội - Cơ sở Cầu Giấy",
+        "tags": {
+          "addr:housenumber": "10",
+          "addr:street": "phố Trương Công Giai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Phòng khám đa khoa Bệnh viện Đại học Y Hà Nội - Cơ sở Cầu Giấy"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7614767,
+          21.0231218
+        ]
+      },
+      "properties": {
+        "osm_id": 136271003,
+        "osm_type": "way",
+        "name": "Bệnh viện Thể thao Việt Nam",
+        "tags": {
+          "amenity": "hospital",
+          "building": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Thể thao Việt Nam"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7750912,
+          21.0699424
+        ]
+      },
+      "properties": {
+        "osm_id": 570572630,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Phương Đông",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:street": "Phố Viên",
+          "addr:subdistrict": "Cổ Nhuế 2",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "layer": "1",
+          "name": "Bệnh viện Đa khoa Phương Đông",
+          "name:zh": "东方多科医院"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7657416,
+          21.038789
+        ]
+      },
+      "properties": {
+        "osm_id": 874998865,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Nam Từ Liêm",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Nam Từ Liêm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7883827,
+          21.0504338
+        ]
+      },
+      "properties": {
+        "osm_id": 896079120,
+        "osm_type": "way",
+        "name": "Bệnh viện E",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Bắc Từ Liêm",
+          "addr:housenumber": "87-89",
+          "addr:street": "Đường Trần Cung",
+          "addr:subdistrict": "Phường Cổ Nhuế 1",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện E",
+          "name:en": "Hospital E",
+          "name:tr": "Hastane E",
+          "name:vi": "Bệnh viện E",
+          "operator": "Bộ Y tế",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7883187,
+          21.0246967
+        ]
+      },
+      "properties": {
+        "osm_id": 905275452,
+        "osm_type": "way",
+        "name": "Viện Huyết học - Truyền máu Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Cầu Giấy",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Phạm Văn Bạch",
+          "addr:subdistrict": "Yên Hòa",
+          "amenity": "hospital",
+          "contact:mobile": "+84 967 891 616",
+          "contact:website": "https://vienhuyethoc.vn/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "haematology;blood_check",
+          "name": "Viện Huyết học - Truyền máu Trung ương",
+          "name:en": "National Institute of Hematology and Blood Transfusion",
+          "name:tr": "Ulusal Hematoloji ve Kan Nakli Enstitüsü"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7794551,
+          21.0346916
+        ]
+      },
+      "properties": {
+        "osm_id": 942415511,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Y học cổ truyền Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Cầu Giấy",
+          "addr:housenumber": "8",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Phạm Hùng",
+          "addr:subdistrict": "Mai Dịch",
+          "amenity": "hospital",
+          "contact:website": "http://bvdkyhoccotruyenhanoi.vn/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Y học cổ truyền Hà Nội",
+          "name:en": "Hanoi Hospital of Traditional Medicine",
+          "name:tr": "Hanoi Geleneksel Tıp Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7021556,
+          21.0563858
+        ]
+      },
+      "properties": {
+        "osm_id": 992727740,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Hoài Đức",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoài Đức",
+          "addr:subdistrict": "Đức Giang",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Hoài Đức",
+          "name:en": "Hoai Duc General Hospital",
+          "name:tr": "Hoai Duc Bölge Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7473049,
+          21.0078176
+        ]
+      },
+      "properties": {
+        "osm_id": 1011384362,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Quốc tế Vinmec Smart City",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Nam Từ Liêm",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Tây Mỗ",
+          "addr:subdistrict": "Tây Mỗ",
+          "amenity": "hospital",
+          "contact:facebook": "https://www.facebook.com/Vinmec/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Quốc tế Vinmec Smart City",
+          "name:en": "Vinmec Smart City International Hospital",
+          "operator": "Công ty Cổ phần Bệnh viện Đa khoa Quốc tế Vinmec",
+          "operator:type": "private",
+          "phone": "+84 24 3208 5678",
+          "start_date": "2024-10-21",
+          "website": "https://www.vinmec.com/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7692152,
+          21.009478
+        ]
+      },
+      "properties": {
+        "osm_id": 1164641686,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Hồng Ngọc - Phúc Trường Minh",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Nam Từ Liêm",
+          "addr:housenumber": "8",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Châu Văn Liêm",
+          "addr:subdistrict": "Phú Đô",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Hồng Ngọc - Phúc Trường Minh",
+          "website": "https://hongngochospital.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.793479,
+          21.0332587
+        ]
+      },
+      "properties": {
+        "osm_id": 1251028877,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Dịch Vọng",
+        "tags": {
+          "addr:district": "Quận Cầu Giấy",
+          "addr:province": "Thành phố Hà Nội",
+          "addr:street": "Phố Dịch Vọng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Dịch Vọng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7520043,
+          21.0387401
+        ]
+      },
+      "properties": {
+        "osm_id": 1318805350,
+        "osm_type": "way",
+        "name": "Bệnh viện Đại Học Phenikaa",
+        "tags": {
+          "addr:street": "Phố Kiều Mai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đại Học Phenikaa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7757929,
+          21.0117954
+        ]
+      },
+      "properties": {
+        "osm_id": 1413271461,
+        "osm_type": "way",
+        "name": "Trạm y tế Mễ Trì",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm y tế Mễ Trì"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7778031,
+          21.0332335
+        ]
+      },
+      "properties": {
+        "osm_id": 16842443,
+        "osm_type": "relation",
+        "name": "Bệnh viện 19-8",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Cầu Giấy",
+          "addr:housenumber": "9",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trần Bình",
+          "addr:subdistrict": "Mai Dịch",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện 19-8",
+          "operator": "Bộ Công an",
+          "operator:type": "public/government",
+          "type": "multipolygon"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8400348,
+          21.0492003
+        ]
+      },
+      "properties": {
+        "osm_id": 3752331075,
+        "osm_type": "node",
+        "name": "Paris Miki Vietnam",
+        "tags": {
+          "addr:city": "Hanoi",
+          "addr:country": "VN",
+          "addr:district": "Quận Ba Đình",
+          "addr:housenumber": "32",
+          "addr:street": "Phố Đức Chính",
+          "addr:subdistrict": "Phường Trúc Bạch",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Paris Miki Vietnam",
+          "operator": "Paris Miki Vietnam",
+          "website": "https://www.paris-miki.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521434,
+          21.0933795
+        ]
+      },
+      "properties": {
+        "osm_id": 4886715161,
+        "osm_type": "node",
+        "name": "Trạm y tế xã Xuân Canh",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đông Anh",
+          "addr:province": "Hà Nội",
+          "addr:subdistrict": "Xuân Canh",
+          "amenity": "hospital",
+          "name": "Trạm y tế xã Xuân Canh",
+          "operator": "Xã Xuân Canh"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8382699,
+          21.0101268
+        ]
+      },
+      "properties": {
+        "osm_id": 5808582515,
+        "osm_type": "node",
+        "name": "Phòng khám Đa khoa Quốc tế Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hà Nội",
+          "addr:housenumber": "152",
+          "addr:postcode": "100000",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Xã Đàn",
+          "addr:subdistrict": "Đống Đa",
+          "amenity": "hospital",
+          "description": "Địa chỉ phòng khám đa khoa quốc tế Hà nội chuyên điều trị bệnh nam khoa, phụ khoa bệnh xã hội uy tín tại Việt Nam",
+          "emergency": "no",
+          "healthcare": "hospital",
+          "healthcare:speciality": "clinic",
+          "name": "Phòng khám Đa khoa Quốc tế Hà Nội",
+          "website": "https://ytequocte.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548261,
+          21.024432
+        ]
+      },
+      "properties": {
+        "osm_id": 5839478946,
+        "osm_type": "node",
+        "name": "Nhà hộ sinh A",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàn Kiếm",
+          "addr:housenumber": "36",
+          "addr:postcode": "10000",
+          "addr:province": "Hà Nội",
+          "addr:street": "Ngô Quyền",
+          "addr:subdistrict": "Hàng Bài",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general;internal",
+          "name": "Nhà hộ sinh A",
+          "operator": "Trung tâm y tế Hoàn Kiếm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8140405,
+          21.0472605
+        ]
+      },
+      "properties": {
+        "osm_id": 8588635222,
+        "osm_type": "node",
+        "name": "Phòng Khám Đa Khoa Medlatec",
+        "tags": {
+          "addr:city": "Phường Bưởi",
+          "addr:housenumber": "99",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trích Sài",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Phòng Khám Đa Khoa Medlatec"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8711851,
+          21.0431119
+        ]
+      },
+      "properties": {
+        "osm_id": 9587086998,
+        "osm_type": "node",
+        "name": "Bệnh Viện Đa Khoa Quốc Tế Bắc Hà",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh Viện Đa Khoa Quốc Tế Bắc Hà"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849466,
+          21.0168006
+        ]
+      },
+      "properties": {
+        "osm_id": 11601353636,
+        "osm_type": "node",
+        "name": "Bệnh viện Mắt Kỹ thuật cao Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "51-53-55",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trần Nhân Tông",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Bệnh viện Mắt Kỹ thuật cao Hà Nội",
+          "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00; Sa-Su 07:30-12:00,13:30-18:00",
+          "phone": "+84 984 122 153",
+          "website": "https://benhvienmat.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502987,
+          21.0145775
+        ]
+      },
+      "properties": {
+        "osm_id": 11625397936,
+        "osm_type": "node",
+        "name": "Bệnh viện Mắt Việt Nhật",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "122",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Triệu Việt Vương",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "contact:email": "info@matvietnhat.com.vn",
+          "contact:facebook": "https://www.facebook.com/matvietnhat",
+          "contact:phone": "+84 24 3974 8307",
+          "contact:website": "https://matvietnhat.com.vn/",
+          "emergency": "no",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Bệnh viện Mắt Việt Nhật",
+          "name:en": "Vietnam - Japan Eye Hospital",
+          "name:tr": "Vietnam-Japonya Göz Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8472708,
+          21.039512
+        ]
+      },
+      "properties": {
+        "osm_id": 11683961268,
+        "osm_type": "node",
+        "name": "Trạm Y tế phường Hàng Mã",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Hoàn Kiếm",
+          "addr:housenumber": "5",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Hàng Cót",
+          "addr:subdistrict": "Phường Hàng Mã",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Hàng Mã"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8209988,
+          21.0135889
+        ]
+      },
+      "properties": {
+        "osm_id": 11949875397,
+        "osm_type": "node",
+        "name": "Bệnh viện đa khoa Nông nghiệp 2",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện đa khoa Nông nghiệp 2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458691,
+          21.0471714
+        ]
+      },
+      "properties": {
+        "osm_id": 12000027489,
+        "osm_type": "node",
+        "name": "Bệnh viện Đa khoa Hoè Nhai - Cơ sở 2",
+        "tags": {
+          "addr:street": "Ngõ 53 Tân Ấp",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Hoè Nhai - Cơ sở 2"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8104566,
+          21.0115478
+        ]
+      },
+      "properties": {
+        "osm_id": 12621772111,
+        "osm_type": "node",
+        "name": "Bệnh viện mắt Sài Gòn Hà Nội 1",
+        "tags": {
+          "addr:housenumber": "532",
+          "addr:street": "đường Láng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện mắt Sài Gòn Hà Nội 1"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8388831,
+          21.0021332
+        ]
+      },
+      "properties": {
+        "osm_id": 136258986,
+        "osm_type": "way",
+        "name": "Bệnh viện Bệnh Nhiệt đới Trung ương",
+        "tags": {
+          "amenity": "hospital",
+          "building": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Bệnh Nhiệt đới Trung ương",
+          "wheelchair": "yes",
+          "wikidata": "Q61132632",
+          "wikipedia": "vi:Bệnh viện Bệnh nhiệt đới Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8150138,
+          21.0123966
+        ]
+      },
+      "properties": {
+        "osm_id": 136259226,
+        "osm_type": "way",
+        "name": "Bệnh viện Nội tiết Trung ương",
+        "tags": {
+          "addr:housenumber": "80",
+          "addr:street": "Ngõ 82 Yên Lãng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Nội tiết Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8120457,
+          21.0400936
+        ]
+      },
+      "properties": {
+        "osm_id": 159949212,
+        "osm_type": "way",
+        "name": "Bệnh viện Quân y 354",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Ba Đình",
+          "addr:housenumber": "120",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Đốc Ngữ",
+          "addr:subdistrict": "Phường Vĩnh Phúc",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Quân y 354",
+          "operator": "Bộ Quốc phòng",
+          "operator:type": "military"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8267948,
+          21.0155559
+        ]
+      },
+      "properties": {
+        "osm_id": 163711327,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Đống Đa",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:street": "Ngõ 180 Nguyễn Lương Bằng",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Đống Đa",
+          "name:en": "Dong Da General Hospital",
+          "name:tr": "Dong Da Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8134109,
+          21.0423434
+        ]
+      },
+      "properties": {
+        "osm_id": 163764047,
+        "osm_type": "way",
+        "name": "Bệnh viện Phổi Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Ba Đình",
+          "addr:housenumber": "463",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Hoàng Hoa Thám",
+          "addr:subdistrict": "Phường Vĩnh Phúc",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Phổi Trung ương",
+          "name:vi": "Bệnh viện Phổi Trung ương",
+          "website": "https://bvptw.org/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8274354,
+          21.0637284
+        ]
+      },
+      "properties": {
+        "osm_id": 196084598,
+        "osm_type": "way",
+        "name": "Phòng Khám Y Tế Nha Khoa Quốc Tế SOS",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Phòng Khám Y Tế Nha Khoa Quốc Tế SOS"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8074644,
+          21.0268213
+        ]
+      },
+      "properties": {
+        "osm_id": 199148844,
+        "osm_type": "way",
+        "name": "Bệnh viện Phụ sản Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:province": "Hà Nội",
+          "addr:street": "Ngõ 933 Đê La Thành",
+          "addr:subdistrict": "Ngọc Khánh",
+          "amenity": "hospital",
+          "contact:phone": "+84 24 3211 5944",
+          "contact:website": "https://benhvienphusanhanoi.vn/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "maternity;gynaecology",
+          "name": "Bệnh viện Phụ sản Hà Nội",
+          "name:en": "Hanoi Obstetrics & Gynecology Hospital",
+          "name:ru": "Родильный дом Ханоя",
+          "name:tr": "Hanoi Obstetri ve Jinekoloji Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8083673,
+          21.0249118
+        ]
+      },
+      "properties": {
+        "osm_id": 199148846,
+        "osm_type": "way",
+        "name": "Bệnh viện Nhi Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "18",
+          "addr:province": "Hà Nội",
+          "addr:street": "Ngõ 879 La Thành",
+          "addr:subdistrict": "Láng Thượng",
+          "amenity": "hospital",
+          "contact:email": "chamsockhachhang@nch.gov.vn",
+          "contact:fax": "+84 24 6273 8573",
+          "contact:phone": "+84 24 6273 8532",
+          "contact:website": "https://benhviennhitrunguong.gov.vn/",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "paediatrics",
+          "name": "Bệnh viện Nhi Trung ương",
+          "name:en": "Vietnam National Children's Hospital",
+          "name:ru": "Вьетнамский Национальный центр педиатрии",
+          "name:tr": "Viyetnam Ulusal Çocuk Hastalıkları Hastanesi",
+          "name:vi": "Bệnh viện Nhi Trung ương",
+          "wikidata": "Q7928527",
+          "wikipedia": "vi:Bệnh viện Nhi Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8351549,
+          21.0312292
+        ]
+      },
+      "properties": {
+        "osm_id": 217792888,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Xanh Pôn",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Ba Đình",
+          "addr:housenumber": "12",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Chu Văn An",
+          "addr:subdistrict": "Phường Điện Biên",
+          "amenity": "hospital",
+          "contact:website": "http://bvxanhpon.vn/",
+          "designation": "Department of Health Hanoi",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Xanh Pôn",
+          "name:en": "Saint Paul's Hospital",
+          "name:fr": "L’Hôpital à Saint Paul",
+          "name:id": "Rumah Sakit Saint Paul",
+          "name:ja": "セントポール病院",
+          "name:ms": "Rumah Sehat Saint Paul",
+          "name:ru": "больница Сен-Поль",
+          "name:tr": "Aziz Paul Hastanesi",
+          "name:zh-Hant": "聖保羅多科醫院",
+          "source": "https://commons.wikimedia.org/wiki/File:S%C6%A1_%C4%91%E1%BB%93_b%E1%BB%87nh_vi%E1%BB%87n_Xanh_P%C3%B4n,_H%C3%A0_N%E1%BB%99i_001.JPG",
+          "wikidata": "Q7402043",
+          "wikimedia_commons": "Category:Saint Paul Hospital, Hanoi",
+          "wikipedia": "vi:Bệnh viện Đa khoa Xanh Pôn"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8606157,
+          21.0163854
+        ]
+      },
+      "properties": {
+        "osm_id": 218631146,
+        "osm_type": "way",
+        "name": "Bệnh viện Trung ương Quân đội 108",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Ba Trung",
+          "addr:housenumber": "1",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trần Hưng Đạo",
+          "addr:subdistrict": "Bạch Đằng",
+          "amenity": "hospital",
+          "designation": "Ministry of Health",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Trung ương Quân đội 108",
+          "name:en": "108 Military Central Hospital",
+          "name:tr": "108. Askeri Merkez Hastanesi",
+          "operator": "Bộ Quốc phòng",
+          "operator:type": "military",
+          "source": "public",
+          "wikidata": "Q4546769",
+          "wikimedia_commons": "Category:108 Hospital",
+          "wikipedia": "vi:Bệnh viện Trung ương Quân đội 108"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8301557,
+          21.0021905
+        ]
+      },
+      "properties": {
+        "osm_id": 438373210,
+        "osm_type": "way",
+        "name": "Bệnh viện Đại học Y Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "1",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Tôn Thất Tùng",
+          "addr:subdistrict": "Kim Liên",
+          "amenity": "hospital",
+          "building": "hospital",
+          "ele": "20m",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đại học Y Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8025875,
+          21.0261377
+        ]
+      },
+      "properties": {
+        "osm_id": 570573930,
+        "osm_type": "way",
+        "name": "Bệnh viện Giao thông Vận tải",
+        "tags": {
+          "amenity": "hospital",
+          "email": "info@giaothonghospital.vn",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Giao thông Vận tải",
+          "phone": "+84 911 233 209",
+          "source": "grab_hanoi_2018_t3",
+          "website": "https://giaothonghospital.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8768692,
+          21.040591
+        ]
+      },
+      "properties": {
+        "osm_id": 581439612,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Tâm Anh",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Long Biên",
+          "addr:housenumber": "108",
+          "addr:street": "Phố Hoàng Như Tiếp",
+          "addr:subdistrict": "Bồ Đề",
+          "amenity": "hospital",
+          "emergency": "no",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Tâm Anh",
+          "name:en": "Tam Anh Hospital",
+          "name:tr": "Tam Anh Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8144621,
+          21.0451209
+        ]
+      },
+      "properties": {
+        "osm_id": 699905197,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Quốc tế Thu Cúc",
+        "tags": {
+          "addr:housenumber": "286",
+          "addr:street": "Phố Thụy Khuê",
+          "amenity": "hospital",
+          "building": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Quốc tế Thu Cúc"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8443367,
+          21.0424358
+        ]
+      },
+      "properties": {
+        "osm_id": 700671946,
+        "osm_type": "way",
+        "name": "Bệnh Viện Đa Khoa Hồng Ngọc",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh Viện Đa Khoa Hồng Ngọc"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523965,
+          21.0350369
+        ]
+      },
+      "properties": {
+        "osm_id": 700840699,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Hoàn Kiếm",
+        "tags": {
+          "addr:housenumber": "26",
+          "addr:street": "Phố Lương Ngọc Quyết",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Hoàn Kiếm"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8385861,
+          21.0281103
+        ]
+      },
+      "properties": {
+        "osm_id": 702456216,
+        "osm_type": "way",
+        "name": "Bệnh viện Da liễu Hà Nội",
+        "tags": {
+          "addr:city": "Ha Noi",
+          "addr:country": "VN",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "79B",
+          "addr:street": "Phố Nguyễn Khuyến",
+          "addr:subdistrict": "Văn Miếu",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Da liễu Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8390572,
+          21.0268166
+        ]
+      },
+      "properties": {
+        "osm_id": 702456223,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Quốc tế Hồng Hà",
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Phố Nguyễn Như Đổ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Quốc tế Hồng Hà"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8162833,
+          21.0796638
+        ]
+      },
+      "properties": {
+        "osm_id": 702787884,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Tây Hồ",
+        "tags": {
+          "addr:housenumber": "695",
+          "addr:street": "Đường Lạc Long Quân",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Tây Hồ"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8469248,
+          21.0266842
+        ]
+      },
+      "properties": {
+        "osm_id": 703386640,
+        "osm_type": "way",
+        "name": "Bệnh viện Phụ sản Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàn Kiếm",
+          "addr:housenumber": "43",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Tràng Thi",
+          "addr:subdistrict": "Hàng Bông",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Phụ sản Trung ương",
+          "name:en": "National Hospital of Obstetrics and Gynecology",
+          "name:fr": "Hôpital National de Gynécologie Obstétrique",
+          "name:tr": "Ulusal Obstetri ve Jinekoloji Hastanesi",
+          "wikidata": "Q10743502",
+          "wikipedia": "vi:Bệnh viện Phụ sản Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8461355,
+          21.0268963
+        ]
+      },
+      "properties": {
+        "osm_id": 703386650,
+        "osm_type": "way",
+        "name": "Bệnh viện K",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàn Kiếm",
+          "addr:housenumber": "43",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Quán Sứ",
+          "addr:subdistrict": "Hàng Bông",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện K",
+          "name:en": "Vietnam National Cancer Hospital",
+          "name:tr": "Viyetnam Ulusal Kanser Hastanesi",
+          "wikidata": "Q49055374",
+          "wikipedia": "vi:Bệnh viện K"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470046,
+          21.0285801
+        ]
+      },
+      "properties": {
+        "osm_id": 703386657,
+        "osm_type": "way",
+        "name": "Bệnh viện Hữu nghị Việt Đức",
+        "tags": {
+          "addr:country": "VN",
+          "addr:housenumber": "40",
+          "addr:street": "Phố Phủ Doãn",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Hữu nghị Việt Đức",
+          "name:en": "Vietnam - Germany Hospital",
+          "name:id": "Rumah Sakit Vietnam - Jerman",
+          "name:tr": "Viyetnam - Almanya Hastanesi",
+          "name:zh": "越德医院",
+          "old_name:vi": "Nhà thương Phủ Doãn",
+          "wikidata": "Q4456887",
+          "wikipedia": "vi:Bệnh viện Việt Đức"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8464388,
+          21.0277635
+        ]
+      },
+      "properties": {
+        "osm_id": 703386658,
+        "osm_type": "way",
+        "name": "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:country": "VN",
+          "addr:district": "Hoàn Kiếm",
+          "addr:housenumber": "40B",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Tràng Thi",
+          "addr:subdistrict": "Hàng Bông",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội",
+          "name:en": "National Hospital of Odonto-Stomatology",
+          "name:tr": "Ulusal Odonto-Stomatoloji Hastanesi",
+          "wikidata": "Q10743507",
+          "wikipedia": "vi:Bệnh viện Răng Hàm Mặt Trung ương Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8503409,
+          21.024085
+        ]
+      },
+      "properties": {
+        "osm_id": 704147393,
+        "osm_type": "way",
+        "name": "Bệnh viện Mắt Hà Nội (Trụ sở chính)",
+        "tags": {
+          "addr:housenumber": "37",
+          "addr:street": "Phố Hai Bà Trưng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Mắt Hà Nội (Trụ sở chính)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8617595,
+          21.0154534
+        ]
+      },
+      "properties": {
+        "osm_id": 838076289,
+        "osm_type": "way",
+        "name": "Bệnh viện Hữu Nghị",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Ba Trung",
+          "addr:housenumber": "1",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Trần Khánh Dư",
+          "addr:subdistrict": "Bạch Đằng",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Hữu Nghị",
+          "name:en": "Friendship Hospital",
+          "name:tr": "Dostluk Hastanesi",
+          "wikidata": "Q49055113",
+          "wikipedia": "vi:Bệnh viện Hữu Nghị"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495995,
+          21.0176301
+        ]
+      },
+      "properties": {
+        "osm_id": 842605269,
+        "osm_type": "way",
+        "name": "Bệnh viện Mắt Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "85",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Bà Triệu",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "contact:email": "bvmtw@vnio.vn",
+          "contact:fax": "+84 24 3945 4956",
+          "contact:phone": "+84 24 3826 3966",
+          "contact:website": "https://vnio.vn/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Bệnh viện Mắt Trung ương",
+          "name:en": "Vietnam National Eye Hospital",
+          "name:tr": "Viyetnam Ulusal Göz Hastanesi",
+          "operator": "Bộ Y tế",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8379891,
+          21.0093319
+        ]
+      },
+      "properties": {
+        "osm_id": 857438584,
+        "osm_type": "way",
+        "name": "Bệnh viện Đông Đô",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "5",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Xã Đàn",
+          "addr:subdistrict": "Phương Liên – Trung Tự",
+          "amenity": "hospital",
+          "building": "hospital",
+          "building:levels": "10",
+          "contact:facebook": "https://www.facebook.com/benhviendongdoHN/",
+          "email": "dongdohospital@gmail.com",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đông Đô",
+          "phone": "+84 1900 1965",
+          "website": "http://benhviendongdo.com.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496681,
+          21.0129915
+        ]
+      },
+      "properties": {
+        "osm_id": 863234980,
+        "osm_type": "way",
+        "name": "Bệnh viện Mắt Quốc tế DND",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "126-128",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Bùi Thị Xuân",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "building": "hospital",
+          "contact:mobile": "+84 969 128 128",
+          "contact:website": "https://matquocte.vn/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "ophthalmology",
+          "name": "Bệnh viện Mắt Quốc tế DND",
+          "name:en": "DND International Eye Hospital",
+          "name:tr": "DND Uluslararası Göz Hastanesi",
+          "opening_hours": "Mo-Sa 08:00-17:00, Su 08:00-12:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8590785,
+          21.0038701
+        ]
+      },
+      "properties": {
+        "osm_id": 863796136,
+        "osm_type": "way",
+        "name": "Bệnh viện Thanh Nhàn",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "42",
+          "addr:street": "Phố Thanh Nhàn",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Thanh Nhàn",
+          "name:en": "Thanh Nhan Hospital",
+          "name:tr": "Thanh Nhan Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8593391,
+          21.0040116
+        ]
+      },
+      "properties": {
+        "osm_id": 863796137,
+        "osm_type": "way",
+        "name": "Bệnh viện Ung bướu Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "42A",
+          "addr:street": "Phố Thanh Nhàn",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "oncology",
+          "name": "Bệnh viện Ung bướu Hà Nội",
+          "name:en": "Hanoi Oncology Hospital",
+          "name:tr": "Hanoi Onkoloji Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583866,
+          21.0033713
+        ]
+      },
+      "properties": {
+        "osm_id": 863796138,
+        "osm_type": "way",
+        "name": "Bệnh viện Phổi Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "44",
+          "addr:street": "Phố Thanh Nhàn",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Phổi Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8982071,
+          21.0613371
+        ]
+      },
+      "properties": {
+        "osm_id": 863797895,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Đức Giang",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Long Biên",
+          "addr:housenumber": "57",
+          "addr:street": "Phố Trường Lâm",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Đức Giang"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8439728,
+          21.0240047
+        ]
+      },
+      "properties": {
+        "osm_id": 871151846,
+        "osm_type": "way",
+        "name": "Bệnh viện Tim Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hoàn Kiếm",
+          "addr:housenumber": "92",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trần Hưng Đạo",
+          "addr:subdistrict": "Cửa Nam",
+          "amenity": "hospital",
+          "building": "hospital",
+          "building:levels": "4",
+          "contact:website": "http://benhvientimhanoi.vn/",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Tim Hà Nội",
+          "name:en": "Hanoi Heart Hospital",
+          "name:tr": "Hanoi Kalp Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.830624,
+          21.000572
+        ]
+      },
+      "properties": {
+        "osm_id": 900842178,
+        "osm_type": "way",
+        "name": "Bệnh viện Thẩm mỹ Kangnam Hàn Quốc",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "190",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Trường Chinh",
+          "addr:subdistrict": "Khương Thượng",
+          "amenity": "hospital",
+          "building": "hospital",
+          "building:levels": "9",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Thẩm mỹ Kangnam Hàn Quốc"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8064109,
+          21.0189013
+        ]
+      },
+      "properties": {
+        "osm_id": 906732062,
+        "osm_type": "way",
+        "name": "Bệnh viện Thận Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "70",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Nguyễn Chí Thanh",
+          "addr:subdistrict": "Láng Thượng",
+          "amenity": "hospital",
+          "building": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Thận Hà Nội",
+          "name:en": "Hanoi Nephrology Hospital",
+          "name:tr": "Hanoi Nefroloji Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8460314,
+          21.040858
+        ]
+      },
+      "properties": {
+        "osm_id": 914894808,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Hoè Nhai",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Hoè Nhai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8072261,
+          21.0683662
+        ]
+      },
+      "properties": {
+        "osm_id": 942415491,
+        "osm_type": "way",
+        "name": "Bệnh viện Tim Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Tây Hồ",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Võ Chí Công",
+          "addr:subdistrict": "Xuân La",
+          "amenity": "hospital",
+          "contact:website": "http://benhvientimhanoi.vn/",
+          "healthcare": "hospital",
+          "healthcare:speciality": "cardiology",
+          "name": "Bệnh viện Tim Hà Nội",
+          "name:en": "Hanoi Heart Hospital",
+          "name:tr": "Hanoi Kalp Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8570629,
+          21.0165979
+        ]
+      },
+      "properties": {
+        "osm_id": 974596720,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Hai Bà Trưng",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "36A",
+          "addr:street": "Phố Phạm Đình Hổ",
+          "addr:subdistrict": "Phạm Đình Hổ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Hai Bà Trưng",
+          "operator": "Sở Y tế Hà Nội",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8396918,
+          21.0426295
+        ]
+      },
+      "properties": {
+        "osm_id": 974596745,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Ba Đình",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Quận Ba Đình",
+          "addr:housenumber": "101",
+          "addr:street": "Phố Quán Thánh",
+          "addr:subdistrict": "Phường Quán Thánh",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Ba Đình",
+          "operator": "Sở Y tế Hà Nội",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.841644,
+          21.0183636
+        ]
+      },
+      "properties": {
+        "osm_id": 1051883527,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Hồng Phát",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "219",
+          "addr:province": "Hà Nội",
+          "addr:street": "Đường Lê Duẩn",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Hồng Phát",
+          "opening_hours": "24/7",
+          "phone": "+84 962 279 115",
+          "website": "https://benhvienhongphat.vn/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8408994,
+          21.014218
+        ]
+      },
+      "properties": {
+        "osm_id": 1051883528,
+        "osm_type": "way",
+        "name": "Bệnh Viện Đức Phúc",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "48",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Ô Đồng Lầm",
+          "addr:subdistrict": "Phương Liên",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "maternity",
+          "name": "Bệnh Viện Đức Phúc",
+          "opening_hours": "24/7",
+          "phone": "+84 971 295 050",
+          "website": "https://benhvienducphuc.com/"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521234,
+          21.0112634
+        ]
+      },
+      "properties": {
+        "osm_id": 1063191491,
+        "osm_type": "way",
+        "name": "Bệnh viện Bưu Điện",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Bưu Điện"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8404443,
+          21.0036321
+        ]
+      },
+      "properties": {
+        "osm_id": 1158639496,
+        "osm_type": "way",
+        "name": "Bệnh viện Việt Pháp",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "1",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Phương Mai",
+          "addr:subdistrict": "Phương Mai",
+          "amenity": "hospital",
+          "contact:phone": "+84 24 3577 1100",
+          "contact:website": "https://www.hfh.com.vn",
+          "emergency": "yes",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Việt Pháp",
+          "name:en": "Hanoi French Hospital",
+          "name:tr": "Hanoi Fransız Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8103421,
+          21.0480654
+        ]
+      },
+      "properties": {
+        "osm_id": 1165535247,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế quận Tây Hồ",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế quận Tây Hồ",
+          "operator": "Bộ Y tế Hà Nội",
+          "operator:type": "government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8395966,
+          21.0036323
+        ]
+      },
+      "properties": {
+        "osm_id": 1192868591,
+        "osm_type": "way",
+        "name": "Bệnh viện Lão khoa Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "1A",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Phương Mai",
+          "addr:subdistrict": "Phương Mai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Lão khoa Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8387631,
+          21.003801
+        ]
+      },
+      "properties": {
+        "osm_id": 1192868592,
+        "osm_type": "way",
+        "name": "Bệnh viện Da liễu Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "15A",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Phương Mai",
+          "addr:subdistrict": "Phương Mai",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Da liễu Trung ương"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8217867,
+          21.0121436
+        ]
+      },
+      "properties": {
+        "osm_id": 1215063381,
+        "osm_type": "way",
+        "name": "Viện Y học dự phòng Quân đội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đống Đa",
+          "addr:housenumber": "21",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Trung Liệt",
+          "addr:subdistrict": "Trung Liệt",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "landuse": "military",
+          "name": "Viện Y học dự phòng Quân đội",
+          "operator": "Cục Quân y",
+          "operator:type": "military"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8332492,
+          21.0169494
+        ]
+      },
+      "properties": {
+        "osm_id": 1245995569,
+        "osm_type": "way",
+        "name": "Nhà hộ sinh Đống Đa",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Nhà hộ sinh Đống Đa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8602894,
+          21.0110832
+        ]
+      },
+      "properties": {
+        "osm_id": 1395273007,
+        "osm_type": "way",
+        "name": "Bệnh viện Phụ sản Hà Nội (cơ sở 2)",
+        "tags": {
+          "addr:housenumber": "38",
+          "addr:street": "Phố Cảm Hội",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Phụ sản Hà Nội (cơ sở 2)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8353259,
+          21.0256896
+        ]
+      },
+      "properties": {
+        "osm_id": 1421773641,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Tràng An",
+        "tags": {
+          "addr:street": "Ngõ Thông Phong",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Đa khoa Tràng An"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502197,
+          21.0246213
+        ]
+      },
+      "properties": {
+        "osm_id": 9790506,
+        "osm_type": "relation",
+        "name": "Bệnh viện Việt Nam - Cuba",
+        "tags": {
+          "addr:country": "VN",
+          "addr:housenumber": "37",
+          "addr:street": "Phố Hai Bà Trưng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Bệnh viện Việt Nam - Cuba",
+          "name:en": "Vietnam Cuba Hospital",
+          "name:id": "Rumah Sakit Vietnam - Kuba",
+          "name:zh": "越南古巴医院",
+          "type": "multipolygon"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482711,
+          21.0161461
+        ]
+      },
+      "properties": {
+        "osm_id": 17177480,
+        "osm_type": "relation",
+        "name": "Bệnh viện Y học cổ truyền Trung ương",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Hai Bà Trưng",
+          "addr:housenumber": "29",
+          "addr:province": "Hà Nội",
+          "addr:street": "Phố Nguyễn Bỉnh Khiêm",
+          "addr:subdistrict": "Nguyễn Du",
+          "amenity": "hospital",
+          "emergency": "yes",
+          "fax": "+84 24 38229353",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Y học cổ truyền Trung ương",
+          "name:en": "National Hospital of Traditional Medicine",
+          "operator": "Bộ Y tế",
+          "operator:type": "public/government",
+          "phone": "+84 24 38263616",
+          "type": "multipolygon",
+          "website": "https://nhtm.gov.vn/",
+          "wheelchair": "yes"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9439877,
+          21.0093543
+        ]
+      },
+      "properties": {
+        "osm_id": 384534300,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Gia Lâm",
+        "tags": {
+          "addr:district": "Gia Lâm",
+          "addr:province": "Hà Nội",
+          "addr:subdistrict": "Trâu Quỳ",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Gia Lâm",
+          "name:en": "Gia Lam General Hospital",
+          "name:tr": "Gia Lam Hastanesi",
+          "operator": "Sở Y tế Hà Nội"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9095715,
+          21.034976
+        ]
+      },
+      "properties": {
+        "osm_id": 942415496,
+        "osm_type": "way",
+        "name": "Bệnh viện Tâm thần Hà Nội",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Long Biên",
+          "addr:street": "Ngõ 467 Nguyễn Văn Linh",
+          "addr:subdistrict": "Sài Đồng",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "psychiatry",
+          "name": "Bệnh viện Tâm thần Hà Nội",
+          "name:en": "Hanoi Psychiatric Hospital",
+          "name:tr": "Hanoi Psikiyatri Hastanesi",
+          "operator": "Sở Y tế Hà Nội",
+          "operator:type": "public/government"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9693752,
+          21.0943287
+        ]
+      },
+      "properties": {
+        "osm_id": 1329802284,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Phù Chẩn",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Đường Trần Cố",
+          "addr:subdistrict": "Phường Phù Chẩn",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Phù Chẩn"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9435612,
+          21.0023669
+        ]
+      },
+      "properties": {
+        "osm_id": 1370266208,
+        "osm_type": "way",
+        "name": "area 09",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "area 09"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8576581,
+          21.1633283
+        ]
+      },
+      "properties": {
+        "osm_id": 914889884,
+        "osm_type": "way",
+        "name": "Bệnh viện Bắc Thăng Long",
+        "tags": {
+          "addr:city": "Hà Nội",
+          "addr:district": "Đông Anh",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Bắc Thăng Long",
+          "name:en": "Bac Thang Long Hospital",
+          "name:tr": "Bac Thang Long Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8532536,
+          21.1392083
+        ]
+      },
+      "properties": {
+        "osm_id": 915814813,
+        "osm_type": "way",
+        "name": "Bệnh viện Đa khoa Đông Anh",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Bệnh viện Đa khoa Đông Anh",
+          "name:en": "Dong Anh General Hospital",
+          "name:tr": "Dong Anh Hastanesi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9301084,
+          21.1676281
+        ]
+      },
+      "properties": {
+        "osm_id": 1926545806,
+        "osm_type": "node",
+        "name": "Trạm y tế Văn Môn",
+        "tags": {
+          "amenity": "hospital",
+          "name": "Trạm y tế Văn Môn"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.953696,
+          21.1123583
+        ]
+      },
+      "properties": {
+        "osm_id": 576742571,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế phường Đình Bảng",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Phố Vạn Hạnh",
+          "addr:subdistrict": "Phường Đình Bảng",
+          "amenity": "hospital",
+          "building:levels": "2",
+          "healthcare": "hospital",
+          "name": "Trung tâm Y tế phường Đình Bảng"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9722042,
+          21.1239128
+        ]
+      },
+      "properties": {
+        "osm_id": 577155075,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế thành phố Từ Sơn",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Đường Minh Khai",
+          "addr:subdistrict": "Phường Đồng Nguyên",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Trung tâm Y tế thành phố Từ Sơn",
+          "name:en": "Tu Son City Medical Centre"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9352137,
+          21.1414976
+        ]
+      },
+      "properties": {
+        "osm_id": 647253537,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Phù Khê",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Đường Nguyễn Văn Cừ",
+          "addr:subdistrict": "Phường Phù Khê",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Phù Khê"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9543014,
+          21.1992903
+        ]
+      },
+      "properties": {
+        "osm_id": 993373128,
+        "osm_type": "way",
+        "name": "Trung tâm Y tế huyện Yên Phong",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "healthcare:speciality": "general",
+          "name": "Trung tâm Y tế huyện Yên Phong"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.952939,
+          21.1200809
+        ]
+      },
+      "properties": {
+        "osm_id": 1337346596,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Trang Hạ",
+        "tags": {
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Trang Hạ"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9287852,
+          21.1140789
+        ]
+      },
+      "properties": {
+        "osm_id": 1337759918,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Châu Khê",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:housenumber": "129",
+          "addr:province": "Bắc Ninh",
+          "addr:street": "Đường Lý Thường Kiệt",
+          "addr:subdistrict": "Phường Châu Khê",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Châu Khê"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9707744,
+          21.1468655
+        ]
+      },
+      "properties": {
+        "osm_id": 1418941444,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Tam Sơn",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Đường Nghìn Việc Tốt",
+          "addr:subdistrict": "Phường Tam Sơn",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Tam Sơn"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9728589,
+          21.1274214
+        ]
+      },
+      "properties": {
+        "osm_id": 1423823582,
+        "osm_type": "way",
+        "name": "Trạm Y tế phường Đồng Nguyên",
+        "tags": {
+          "addr:city": "Bắc Ninh",
+          "addr:district": "Thành phố Từ Sơn",
+          "addr:province": "Bac Ninh",
+          "addr:street": "Đường Nguyễn Quán Quang",
+          "addr:subdistrict": "Phường Đồng Nguyên",
+          "amenity": "hospital",
+          "healthcare": "hospital",
+          "name": "Trạm Y tế phường Đồng Nguyên"
+        }
+      }
+    }
+  ]
+}
