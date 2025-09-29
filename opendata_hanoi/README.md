@@ -1,0 +1,1 @@
+Thư mục chứa data dạng GeoJson
