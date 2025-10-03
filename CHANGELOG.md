@@ -20,7 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2025-10-03
 ### Added
-- Initial release of OpenDataFitHou project
 - Overpass API integration for collecting geographical data from OpenStreetMap
 - RDF/Turtle data conversion functionality
 - Support for multiple data types:
