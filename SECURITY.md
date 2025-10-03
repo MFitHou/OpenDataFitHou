@@ -16,7 +16,6 @@ Các bản thử nghiệm (beta, draft) có thể không nhận được cập n
 Nếu bạn phát hiện lỗ hổng bảo mật hoặc rủi ro trong quá trình thu thập dữ liệu, vui lòng thông báo cho chúng tôi qua:  
 
 - **Email**: honganh068204@gmail.com  
-- **GitHub Security Advisories**: [Tạo báo cáo bảo mật](../../security/advisories/new)  
 
 ### Quy trình xử lý
 
