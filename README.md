@@ -26,3 +26,5 @@ Repo gồm các thành phần chính:
    git clone https://github.com/MFitHou/OpenDataFitHou.git
    cd OpenDataFitHou
    ```
+2. Sử dụng dữ liệu
+- Có thể cào lại dữ liệu theo *.ipynb hoặc đưa các file dữ liệu vào fuseki để thực hiện truy vấn thử nghiệm
