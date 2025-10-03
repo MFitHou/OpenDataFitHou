@@ -23,5 +23,6 @@ Repo gồm các thành phần chính:
 ## 📖 Hướng dẫn sử dụng
 1. Clone repo:
    ```bash
-   git clone https://github.com/<username>/OpenDataFitHou.git
+   git clone https://github.com/MFitHou/OpenDataFitHou.git
    cd OpenDataFitHou
+   ```
