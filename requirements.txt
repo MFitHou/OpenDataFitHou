@@ -1,0 +1,8 @@
+requests>=2.31.0
+pandas>=2.0.0
+rdflib>=7.0.0
+jupyter>=1.0.0
+notebook>=7.0.0
+matplotlib>=3.7.0
+folium>=0.14.0
+geopandas>=0.13.0
