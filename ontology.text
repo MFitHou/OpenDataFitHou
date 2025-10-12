@@ -1,0 +1,291 @@
+# ONTOLOGY DESIGN FOR OPENDATAFITHOU
+# Phân tích Classes và Properties từ dữ liệu TTL
+# Date: October 4, 2025
+
+## ==========================================
+## 1. CLASSES (Lớp) - OWL Classes
+## ==========================================
+
+### A. HIERARCHY CỦA CLASSES:
+
+```
+owl:Thing
+└── ex:PointOfInterest (POI gốc)
+    ├── ex:TransportationFacility (Cơ sở giao thông)
+    │   └── ex:BusStop (Trạm xe buýt)
+    │
+    ├── ex:FinancialService (Dịch vụ tài chính)
+    │   └── ex:ATM (Máy ATM)
+    │
+    ├── ex:HealthcareFacility (Cơ sở y tế)
+    │   └── ex:Hospital (Bệnh viện)
+    │
+    ├── ex:EducationalFacility (Cơ sở giáo dục)
+    │   └── ex:School (Trường học)
+    │
+    ├── ex:RecreationalFacility (Cơ sở giải trí)
+    │   └── ex:Playground (Sân chơi)
+    │
+    └── ex:PublicFacility (Cơ sở công cộng)
+        ├── ex:Toilet (Nhà vệ sinh)
+        └── ex:DrinkingWater (Nước uống)
+```
+
+### B. GEOMETRY CLASSES (từ GeoSPARQL):
+- geo:Geometry (Hình học gốc)
+- geo:Point (Điểm)
+- geo:Polygon (Đa giác)
+- geo:LineString (Đường)
+
+## ==========================================
+## 2. PROPERTIES (Thuộc tính)
+## ==========================================
+
+### A. OBJECT PROPERTIES (Quan hệ giữa objects):
+
+#### Geometric Relations:
+- geo:hasGeometry: POI → Geometry
+- rdfs:seeAlso: POI → External Resource (Wikidata)
+
+#### Spatial Relations (có thể mở rộng):
+- ex:locatedIn: POI → Location
+- ex:nearBy: POI → POI
+- ex:serves: Facility → Area
+
+### B. DATATYPE PROPERTIES (Thuộc tính dữ liệu):
+
+#### 1. GENERAL PROPERTIES (Chung cho tất cả POI):
+- rdfs:label: string (Tên POI)
+- ex:source: string ("OpenStreetMap")
+- ex:osmType: string ("node", "way", "relation")
+- ex:amenity: string (Loại tiện ích OSM)
+
+#### 2. ADDRESS PROPERTIES (Địa chỉ):
+- addr:city: string
+- addr:district: string  
+- addr:province: string
+- addr:street: string
+- addr:housenumber: string
+- addr:subdistrict: string
+
+#### 3. CONTACT PROPERTIES (Liên hệ):
+- ex:phone: string
+- ex:website: string
+- contact:facebook: string
+- contact:email: string
+
+#### 4. ACCESS PROPERTIES (Truy cập):
+- ex:access: string ("yes", "no", "customers", "private")
+- ex:fee: string ("yes", "no")
+- ex:wheelchair: string ("yes", "no", "limited")
+
+#### 5. SPECIALIZED PROPERTIES BY CLASS:
+
+##### BusStop Properties:
+- ex:highway: string ("bus_stop")
+- ex:public_transport: string ("platform", "stop_position")
+- ex:bus: string ("yes")
+- ex:shelter: string ("yes", "no")
+
+##### ATM Properties:
+- ex:brand: string (Tên ngân hàng)
+- ex:operator: string (Nhà điều hành)
+- brand:wikidata: string (Wikidata ID)
+- operator:wikidata: string (Wikidata ID)
+- ex:currency: string ("VND")
+
+##### Hospital Properties:
+- ex:healthcare: string ("hospital", "clinic")
+- ex:emergency: string ("yes", "no")
+- healthcare:speciality: string ("general", "speciality")
+- operator:type: string ("private", "public")
+- ex:start_date: date
+
+##### School Properties:
+- ex:grades: string ("1-5", "6-9", "10-12")
+- ex:religion: string ("none", "buddhist", "christian")
+- name:en: string (Tên tiếng Anh)
+
+##### Playground Properties:
+- ex:leisure: string ("playground")
+- ex:surface: string ("artificial_turf", "grass", "sand")
+- ex:min_age: integer
+- ex:max_age: integer
+
+##### Toilet Properties:
+- toilets:disposal: string ("flush", "pit_latrine")
+- toilets:handwashing: string ("yes", "no")
+- ex:unisex: string ("yes", "no")
+- ex:male: string ("yes", "no")
+- ex:female: string ("yes", "no")
+- ex:changing_table: string ("yes", "no")
+- ex:portable: string ("yes", "no")
+
+##### DrinkingWater Properties:
+- ex:fountain: string ("drinking", "bubbler")
+- ex:bottle: string ("yes", "no")
+
+#### 6. GEOMETRY PROPERTIES:
+- geo:asWKT: geo:wktLiteral (Tọa độ WKT)
+
+## ==========================================
+## 3. SƠ ĐỒ ONTOLOGY TỔNG QUAN
+## ==========================================
+
+```
+                    owl:Thing
+                        │
+                ex:PointOfInterest
+                 │    │    │    │
+      ┌──────────┼────┼────┼────┼──────────┐
+      │          │    │    │    │          │
+TransportationFacility │  │  RecreationalFacility
+      │          │    │    │    │          │
+   BusStop   FinancialService │ Playground PublicFacility
+                 │    │    │              │        │
+                ATM   │  EducationalFacility   Toilet  DrinkingWater
+                      │    │
+                HealthcareFacility
+                      │
+                   Hospital
+                      │
+                    School
+
+PROPERTIES MAPPING:
+┌─────────────────┬──────────────────────────────────────┐
+│   CLASS         │           KEY PROPERTIES             │
+├─────────────────┼──────────────────────────────────────┤
+│ BusStop         │ highway, public_transport, shelter   │
+│ ATM             │ brand, operator, currency           │
+│ Hospital        │ healthcare, emergency, speciality   │
+│ School          │ grades, religion, operator          │
+│ Playground      │ surface, min_age, max_age           │
+│ Toilet          │ disposal, handwashing, wheelchair   │
+│ DrinkingWater   │ fountain, bottle, fee               │
+└─────────────────┴──────────────────────────────────────┘
+
+COMMON PROPERTIES FOR ALL:
+- rdfs:label (name)
+- geo:hasGeometry (location)
+- addr:* (address)
+- ex:access, ex:fee (accessibility)
+- rdfs:seeAlso (external links)
+```
+
+## ==========================================
+## 4. RELATIONSHIPS DIAGRAM
+## ==========================================
+
+```
+POI ──geo:hasGeometry──► Geometry
+ │                         │
+ │                    geo:asWKT
+ │                         │
+ ▼                         ▼
+Location              WKT_Literal
+ │
+addr:city, addr:district
+ │
+ ▼
+"Hà Nội", "Nam Từ Liêm"
+
+POI ──rdfs:seeAlso──► Wikidata_URI
+ │
+brand:wikidata, operator:wikidata
+ │
+ ▼
+<https://www.wikidata.org/wiki/Q...>
+```
+
+## ==========================================
+## 5. USAGE PATTERNS
+## ==========================================
+
+### SPARQL Query Examples:
+
+1. **Tìm tất cả trạm xe buýt:**
+```sparql
+SELECT ?busStop ?label WHERE {
+    ?busStop a ex:BusStop ;
+             rdfs:label ?label .
+}
+```
+
+2. **Tìm ATM theo ngân hàng:**
+```sparql
+SELECT ?atm ?location WHERE {
+    ?atm a ex:ATM ;
+         ex:brand "BIDV" ;
+         geo:hasGeometry ?geom .
+    ?geom geo:asWKT ?location .
+}
+```
+
+3. **Tìm trường học theo cấp:**
+```sparql
+SELECT ?school ?label WHERE {
+    ?school a ex:School ;
+            ex:grades "10-12" ;
+            rdfs:label ?label .
+}
+```
+
+## ==========================================
+## 6. VALIDATION RULES
+## ==========================================
+
+### Required Properties:
+- Mọi POI PHẢI có: rdfs:label, geo:hasGeometry
+- BusStop PHẢI có: ex:highway "bus_stop"
+- ATM PHẢI có: ex:amenity "atm"
+- Hospital PHẢI có: ex:healthcare "hospital"
+- School PHẢI có: ex:amenity "school"
+- Playground PHẢI có: ex:leisure "playground"
+- Toilet PHẢI có: ex:amenity "toilets"
+- DrinkingWater PHẢI có: ex:amenity "drinking_water"
+
+### Data Quality Constraints:
+- Tọa độ phải trong phạm vi Hà Nội
+- Phone number phải format +84
+- Website phải là valid URL
+- Grades phải thuộc {"1-5", "6-9", "10-12"}
+- Access phải thuộc {"yes", "no", "customers", "private"}
+
+## ==========================================
+## 7. NAMESPACE DECLARATIONS
+## ==========================================
+
+```turtle
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ex: <http://opendatafithou.org/ontology/> .
+@prefix poi: <http://opendatafithou.org/poi/> .
+@prefix playground: <http://opendatafithou.org/playground/> .
+```
+
+## ==========================================
+## 8. STATISTICS SUMMARY
+## ==========================================
+
+```
+CLASS               | COUNT    | KEY DISTINGUISHING PROPERTY
+--------------------|----------|---------------------------
+BusStop            | ~37,000  | highway="bus_stop"
+ATM                | ~21,000  | amenity="atm"  
+School             | ~14,600  | amenity="school"
+Hospital           | ~2,700   | amenity="hospital"
+Playground         | ~1,400   | leisure="playground"
+Toilet             | ~1,700   | amenity="toilets"
+DrinkingWater      | ~216     | amenity="drinking_water"
+--------------------|----------|---------------------------
+TOTAL POIs         | ~78,616  |
+```
+
+Ontology này cung cấp framework hoàn chỉnh để:
+✅ Classify và query POI data
+✅ Spatial analysis với GeoSPARQL  
+✅ Integration với external knowledge bases
+✅ Extensible cho các POI types mới
