@@ -1,0 +1,75 @@
+services:
+  # ============================================
+  # PostgreSQL Database
+  # ============================================
+  postgres:
+    image: postgres:15-alpine
+    container_name: opendata-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: opendata_fithou
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres123
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - opendata-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # ============================================
+  # pgAdmin - PostgreSQL GUI
+  # ============================================
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: opendata-pgadmin
+    ports:
+      - "8000:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    depends_on:
+      - postgres
+    networks:
+      - opendata-network
+    restart: unless-stopped
+
+  # ============================================
+  # InfluxDB
+  # ============================================
+  influxdb:
+    image: influxdb:2-alpine
+    container_name: opendata-influxdb
+    ports:
+      - "8086:8086"
+    environment:
+      DOCKER_INFLUXDB_INIT_MODE: setup
+      DOCKER_INFLUXDB_INIT_USERNAME: admin
+      DOCKER_INFLUXDB_INIT_PASSWORD: admin123456
+      DOCKER_INFLUXDB_INIT_ORG: opendata_fithou
+      DOCKER_INFLUXDB_INIT_BUCKET: weather_air_quality
+      DOCKER_INFLUXDB_INIT_RETENTION: 30d
+      DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: opendata_fithou_token_secret
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+    networks:
+      - opendata-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8086/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+networks:
+  opendata-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
+  influxdb-data:
