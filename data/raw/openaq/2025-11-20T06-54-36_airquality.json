@@ -1,0 +1,436 @@
+[
+  {
+    "location": "US Diplomatic Post: Hanoi",
+    "coordinates": {
+      "latitude": 21.02177,
+      "longitude": 105.819002
+    },
+    "pm25": 42.0,
+    "pm10": null,
+    "timestamp": {
+      "utc": "2016-01-30T01:00:00Z",
+      "local": "2016-01-30T08:00:00+07:00"
+    },
+    "aqi_pm25": 117
+  },
+  {
+    "location": "Hanoi",
+    "coordinates": {
+      "latitude": 21.021939,
+      "longitude": 105.818806
+    },
+    "pm25": 14.4,
+    "pm10": null,
+    "timestamp": {
+      "utc": "2016-11-09T18:00:00Z",
+      "local": "2016-11-10T01:00:00+07:00"
+    },
+    "aqi_pm25": 56
+  },
+  {
+    "location": "SPARTAN - Vietnam Acad. Sci.",
+    "coordinates": {
+      "latitude": 21.0478,
+      "longitude": 105.8
+    },
+    "pm25": 50.1,
+    "pm10": null,
+    "timestamp": {
+      "utc": "2019-11-28T03:00:00Z",
+      "local": "2019-11-28T10:00:00+07:00"
+    },
+    "aqi_pm25": 137
+  },
+  {
+    "location": "An Khánh",
+    "coordinates": {
+      "latitude": 21.0024,
+      "longitude": 105.7181
+    },
+    "pm25": 41.0,
+    "pm10": 56.5,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 115
+  },
+  {
+    "location": "Cầu Diễn",
+    "coordinates": {
+      "latitude": 21.0398,
+      "longitude": 105.7652
+    },
+    "pm25": 23.1,
+    "pm10": 32.9,
+    "timestamp": {
+      "utc": "2024-01-22T01:00:00Z",
+      "local": "2024-01-22T08:00:00+07:00"
+    },
+    "aqi_pm25": 74
+  },
+  {
+    "location": "Số 46, phố Lưu Quang Vũ",
+    "coordinates": {
+      "latitude": 21.0152,
+      "longitude": 105.7999
+    },
+    "pm25": 45.71,
+    "pm10": 75.05,
+    "timestamp": {
+      "utc": "2024-01-29T16:00:00Z",
+      "local": "2024-01-29T23:00:00+07:00"
+    },
+    "aqi_pm25": 126
+  },
+  {
+    "location": "Cung thiếu nhi",
+    "coordinates": {
+      "latitude": 21.0284,
+      "longitude": 105.8556
+    },
+    "pm25": 39.9,
+    "pm10": 78.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 112
+  },
+  {
+    "location": "Đầm Trấu",
+    "coordinates": {
+      "latitude": 21.0119,
+      "longitude": 105.8644
+    },
+    "pm25": 29.6,
+    "pm10": 66.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 88
+  },
+  {
+    "location": "Đào Duy Từ",
+    "coordinates": {
+      "latitude": 21.0354,
+      "longitude": 105.8529
+    },
+    "pm25": 35.2,
+    "pm10": 46.0,
+    "timestamp": {
+      "utc": "2024-01-15T07:00:00Z",
+      "local": "2024-01-15T14:00:00+07:00"
+    },
+    "aqi_pm25": 100
+  },
+  {
+    "location": "Đông Kinh Nghĩa Thục",
+    "coordinates": {
+      "latitude": 21.032,
+      "longitude": 105.8515
+    },
+    "pm25": 38.7,
+    "pm10": 66.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 109
+  },
+  {
+    "location": "Hàng Đậu",
+    "coordinates": {
+      "latitude": 21.0399,
+      "longitude": 105.8473
+    },
+    "pm25": 57.8,
+    "pm10": 145.7,
+    "timestamp": {
+      "utc": "2024-01-29T07:00:00Z",
+      "local": "2024-01-29T14:00:00+07:00"
+    },
+    "aqi_pm25": 152
+  },
+  {
+    "location": "Hoàn Kiếm",
+    "coordinates": {
+      "latitude": 21.0263,
+      "longitude": 105.8515
+    },
+    "pm25": 27.1,
+    "pm10": 44.6,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 83
+  },
+  {
+    "location": "Khương Trung",
+    "coordinates": {
+      "latitude": 20.9949,
+      "longitude": 105.8167
+    },
+    "pm25": 41.1,
+    "pm10": 59.8,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 115
+  },
+  {
+    "location": "Kim Liên",
+    "coordinates": {
+      "latitude": 21.0074,
+      "longitude": 105.8358
+    },
+    "pm25": 38.6,
+    "pm10": 61.7,
+    "timestamp": {
+      "utc": "2024-01-29T07:00:00Z",
+      "local": "2024-01-29T14:00:00+07:00"
+    },
+    "aqi_pm25": 109
+  },
+  {
+    "location": "Lê Trực",
+    "coordinates": {
+      "latitude": 21.0327,
+      "longitude": 105.8329
+    },
+    "pm25": 30.5,
+    "pm10": 42.6,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 90
+  },
+  {
+    "location": "Minh Khai - Bắc Từ Liêm",
+    "coordinates": {
+      "latitude": 21.05,
+      "longitude": 105.74
+    },
+    "pm25": 8.15,
+    "pm10": 99.63,
+    "timestamp": {
+      "utc": "2024-01-29T16:00:00Z",
+      "local": "2024-01-29T23:00:00+07:00"
+    },
+    "aqi_pm25": 34
+  },
+  {
+    "location": "Mỹ Đình",
+    "coordinates": {
+      "latitude": 21.0269,
+      "longitude": 105.7731
+    },
+    "pm25": 54.5,
+    "pm10": 71.3,
+    "timestamp": {
+      "utc": "2024-01-28T22:00:00Z",
+      "local": "2024-01-29T05:00:00+07:00"
+    },
+    "aqi_pm25": 148
+  },
+  {
+    "location": "Phạm Văn Đồng",
+    "coordinates": {
+      "latitude": 21.05,
+      "longitude": 105.782
+    },
+    "pm25": 24.6,
+    "pm10": 53.5,
+    "timestamp": {
+      "utc": "2024-01-22T07:00:00Z",
+      "local": "2024-01-22T14:00:00+07:00"
+    },
+    "aqi_pm25": 77
+  },
+  {
+    "location": "Pháp Vân",
+    "coordinates": {
+      "latitude": 20.9481,
+      "longitude": 105.8493
+    },
+    "pm25": 36.8,
+    "pm10": 37.9,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 104
+  },
+  {
+    "location": "Tân Mai",
+    "coordinates": {
+      "latitude": 20.9883,
+      "longitude": 105.8549
+    },
+    "pm25": 29.8,
+    "pm10": 40.9,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 88
+  },
+  {
+    "location": "Tây Hồ Tây",
+    "coordinates": {
+      "latitude": 21.0563,
+      "longitude": 105.7974
+    },
+    "pm25": 42.6,
+    "pm10": 45.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 118
+  },
+  {
+    "location": "Tây Mỗ",
+    "coordinates": {
+      "latitude": 21.0058,
+      "longitude": 105.7485
+    },
+    "pm25": 31.2,
+    "pm10": 41.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 91
+  },
+  {
+    "location": "Thành Công",
+    "coordinates": {
+      "latitude": 21.0197,
+      "longitude": 105.8147
+    },
+    "pm25": 51.2,
+    "pm10": 80.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 140
+  },
+  {
+    "location": "Tứ Liên",
+    "coordinates": {
+      "latitude": 21.0639,
+      "longitude": 105.8338
+    },
+    "pm25": 36.3,
+    "pm10": 57.4,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 103
+  },
+  {
+    "location": "Vân Hà",
+    "coordinates": {
+      "latitude": 21.1476,
+      "longitude": 105.9159
+    },
+    "pm25": 55.8,
+    "pm10": 61.0,
+    "timestamp": {
+      "utc": "2024-01-29T15:00:00Z",
+      "local": "2024-01-29T22:00:00+07:00"
+    },
+    "aqi_pm25": 151
+  },
+  {
+    "location": "Văn Quán",
+    "coordinates": {
+      "latitude": 20.972,
+      "longitude": 105.7856
+    },
+    "pm25": 44.7,
+    "pm10": 63.3,
+    "timestamp": {
+      "utc": "2024-01-29T06:00:00Z",
+      "local": "2024-01-29T13:00:00+07:00"
+    },
+    "aqi_pm25": 124
+  },
+  {
+    "location": "Võng La",
+    "coordinates": {
+      "latitude": 21.1105,
+      "longitude": 105.7605
+    },
+    "pm25": 26.2,
+    "pm10": 37.1,
+    "timestamp": {
+      "utc": "2024-01-15T07:00:00Z",
+      "local": "2024-01-15T14:00:00+07:00"
+    },
+    "aqi_pm25": 81
+  },
+  {
+    "location": "556 Nguyễn Văn Cừ",
+    "coordinates": {
+      "latitude": 21.0491,
+      "longitude": 105.8831
+    },
+    "pm25": 31.96,
+    "pm10": 64.44,
+    "timestamp": {
+      "utc": "2025-07-03T15:40:00Z",
+      "local": "2025-07-03T22:40:00+07:00"
+    },
+    "aqi_pm25": 93
+  },
+  {
+    "location": "Công viên hồ điều hòa Nhân Chính, Khuất Duy Tiến",
+    "coordinates": {
+      "latitude": 21.0031,
+      "longitude": 105.79470000000002
+    },
+    "pm25": 22.28,
+    "pm10": 41.23,
+    "timestamp": {
+      "utc": "2025-07-03T15:40:00Z",
+      "local": "2025-07-03T22:40:00+07:00"
+    },
+    "aqi_pm25": 72
+  },
+  {
+    "location": "ĐH Bách Khoa - cổng Parabol đường Giải Phóng",
+    "coordinates": {
+      "latitude": 21.0052,
+      "longitude": 105.84180000000002
+    },
+    "pm25": 4.6,
+    "pm10": 22.39,
+    "timestamp": {
+      "utc": "2025-07-03T15:40:00Z",
+      "local": "2025-07-03T22:40:00+07:00"
+    },
+    "aqi_pm25": 19
+  },
+  {
+    "location": "OceanPark",
+    "coordinates": {
+      "latitude": 20.9933,
+      "longitude": 105.9441
+    },
+    "pm25": 27.5,
+    "pm10": null,
+    "timestamp": {
+      "utc": "2025-11-08T06:00:00Z",
+      "local": "2025-11-08T13:00:00+07:00"
+    },
+    "aqi_pm25": 83
+  }
+]
