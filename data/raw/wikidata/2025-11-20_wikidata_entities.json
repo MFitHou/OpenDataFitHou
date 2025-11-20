@@ -1,0 +1,42 @@
+{
+  "Q16917": {
+    "label": {
+      "vi": "bệnh viện",
+      "en": "hospital"
+    },
+    "description": "là một tổ chức chăm sóc sức khỏe cung cấp điều trị bệnh",
+    "instance_of": ""
+  },
+  "Q3918": {
+    "label": {
+      "vi": "viện đại học",
+      "en": "university"
+    },
+    "description": "cơ sở giáo dục hàn lâm",
+    "instance_of": "Q112872396"
+  },
+  "Q12418": {
+    "label": {
+      "vi": "",
+      "en": "Mona Lisa"
+    },
+    "description": "bức tranh của Leonardo da Vinci",
+    "instance_of": "Q3305213"
+  },
+  "Q43229": {
+    "label": {
+      "vi": "tổ chức",
+      "en": "organization"
+    },
+    "description": "",
+    "instance_of": "Q131362181"
+  },
+  "Q33506": {
+    "label": {
+      "vi": "viện bảo tàng",
+      "en": "museum"
+    },
+    "description": "",
+    "instance_of": "Q117023459"
+  }
+}
