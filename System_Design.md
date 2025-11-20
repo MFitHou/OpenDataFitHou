@@ -34,28 +34,32 @@ Tác giả: (Điền tên)
 
 ### 2.2 Sơ đồ kiến trúc (mermaid)
 
-```mermaid
-flowchart LR
-  subgraph Client
-    A[Browser: Map UI / Chat UI / Query UI]
-  end
-  subgraph Backend
-    BAPI[API: open_data_backend]
-    BService[FusekiService]
-    BProxy[OverpassProxy?]
-  end
-  subgraph Data
-    Fuseki[Apache Jena Fuseki]
-    Overpass[Overpass API]
-    Wikidata[Wikidata SPARQL]
-  end
+```plantuml
+@startuml
+package "Client" {
+  ["Browser: Map UI / Chat UI / Query UI"] as Browser
+}
 
-  A -->|REST / WebSocket| BAPI
-  BAPI -->|SPARQL| Fuseki
-  BAPI -->|HTTP| Overpass
-  BAPI -->|SPARQL| Wikidata
-  A -->|Direct (optional)| Overpass
-  A -->|Direct (optional)| Wikidata
+package "Backend" {
+  ["API: open_data_backend"] as BAPI
+  ["FusekiService"] as BService
+  ["OverpassProxy?"] as BProxy
+}
+
+package "Data" {
+  ["Apache Jena Fuseki"] as Fuseki
+  ["Overpass API"] as Overpass
+  ["Wikidata SPARQL"] as Wikidata
+}
+
+Browser --> BAPI : "REST / WebSocket"
+BAPI --> Fuseki : "SPARQL"
+BAPI --> Overpass : "HTTP"
+BAPI --> Wikidata : "SPARQL"
+Browser --> Overpass : "Direct (optional)"
+Browser --> Wikidata : "Direct (optional)"
+
+@enduml
 ```
 
 > Ghi chú: sơ đồ trên là bản tóm tắt — có thể chuyển thành PlantUML nếu cần.
@@ -93,46 +97,57 @@ flowchart LR
 
 ### 3.3 Use Case Diagram (mermaid)
 
-```mermaid
-usecase
-  :User: as U
-  rectangle System {
-    U --> (Search Nearby)
-    U --> (Inspect POI)
-    U --> (Export RDF/XML)
-    U --> (Chat with Bot)
-    (Search Nearby) ..> (Inspect POI)
-  }
+```plantuml
+@startuml
+actor "User" as U
+package "System" {
+  usecase "Search Nearby" as UC_Search
+  usecase "Inspect POI" as UC_Inspect
+  usecase "Export RDF/XML" as UC_Export
+  usecase "Chat with Bot" as UC_Chat
+}
+
+U --> UC_Search
+U --> UC_Inspect
+U --> UC_Export
+U --> UC_Chat
+UC_Search ..> UC_Inspect
+
+@enduml
 ```
 
 ### 3.4 Activity Diagrams
 - Activity diagram (UC-1: Search Nearby)
 
-```mermaid
-flowchart TD
-  Start --> GetParams[Get lon/lat/radius]
-  GetParams --> Validate
-  Validate --> BuildBBox
-  BuildBBox --> SPARQLQuery
-  SPARQLQuery --> FusekiCall
-  FusekiCall --> ParseBindings
-  ParseBindings --> ComputeDistance
-  ComputeDistance --> FilterSort
-  FilterSort --> ReturnJSON
-  ReturnJSON --> End
+```plantuml
+@startuml
+start
+:Get lon/lat/radius;
+:Validate;
+:BuildBBox;
+:SPARQLQuery;
+:Call Fuseki;
+:ParseBindings;
+:ComputeDistance;
+:FilterSort;
+:ReturnJSON;
+stop
+@enduml
 ```
 
 - Activity diagram (UC-4: SPARQL Query)
 
-```mermaid
-flowchart TD
-  Start --> InputQuery
-  InputQuery --> ValidateSELECT
-  ValidateSELECT --> ForwardToFuseki
-  ForwardToFuseki --> Fuseki
-  Fuseki --> ParseResults
-  ParseResults --> ReturnResults
-  ReturnResults --> End
+```plantuml
+@startuml
+start
+:Input Query;
+:Validate SELECT;
+:Forward to Fuseki;
+:Fuseki returns results;
+:Parse Results;
+:Return Results;
+stop
+@enduml
 ```
 
 ---
@@ -163,39 +178,43 @@ flowchart TD
 ### 4.2 Sequence diagrams (mermaid) — examples
 - Sequence: Search Nearby (UC-1)
 
-```mermaid
-sequenceDiagram
-  participant U as User Browser
-  participant FE as Frontend
-  participant API as Backend API
-  participant S as Fuseki
+```plantuml
+@startuml
+participant User as U
+participant Frontend as FE
+participant Backend as API
+participant Fuseki as S
 
-  U->>FE: Click "Search Nearby"
-  FE->>API: GET /fuseki/{category}/nearby?lon&lat&radius
-  API->>API: validate params, build SPARQL (bbox)
-  API->>S: SPARQL query
-  S-->>API: SPARQL JSON
-  API->>API: parse bindings, compute Haversine, filter/sort
-  API-->>FE: JSON { items }
-  FE-->>U: Render markers/list
+U -> FE: Click "Search Nearby"
+FE -> API: GET /fuseki/{category}/nearby?lon&lat&radius
+API -> API: validate params, build SPARQL (bbox)
+API -> S: SPARQL query
+S --> API: SPARQL JSON
+API -> API: parse bindings, compute Haversine, filter/sort
+API --> FE: JSON { items }
+FE --> U: Render markers/list
+
+@enduml
 ```
 
 - Sequence: SPARQL Query (UC-4)
 
-```mermaid
-sequenceDiagram
-  participant Dev as User
-  participant FE as Frontend Query UI
-  participant API as Backend
-  participant S as Fuseki
+```plantuml
+@startuml
+participant Dev
+participant Frontend as FE
+participant Backend as API
+participant Fuseki as S
 
-  Dev->>FE: Enter SPARQL SELECT
-  FE->>API: POST /fuseki/query { query }
-  API->>API: validate is SELECT, enforce limits
-  API->>S: forward query
-  S-->>API: SPARQL JSON
-  API-->>FE: mapped JSON
-  FE-->>Dev: display results
+Dev -> FE: Enter SPARQL SELECT
+FE -> API: POST /fuseki/query { query }
+API -> API: validate is SELECT, enforce limits
+API -> S: forward query
+S --> API: SPARQL JSON
+API --> FE: mapped JSON
+FE --> Dev: display results
+
+@enduml
 ```
 
 ### 4.3 Thiết kế cơ sở dữ liệu (RDF Schema / Ontology)
