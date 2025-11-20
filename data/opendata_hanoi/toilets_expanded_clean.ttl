@@ -1,0 +1,1690 @@
+@prefix ex: <http://opendatafithou.org/poi/> .
+@prefix geo1: <http://www.opendatafithou.net/ont/geosparql#> .
+@prefix ns1: <http://opendatafithou.org/poi/building:> .
+@prefix ns2: <http://opendatafithou.org/poi/toilets:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:1000087307 ex:access "customers" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    ex:wheelchair "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1000087307/geometry> .
+
+ex:10114776466 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:changing_table "no" ;
+    ex:portable "no" ;
+    ns2:disposal "flush" ;
+    ex:unisex "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/10114776466/geometry> .
+
+ex:10139319663 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ns2:disposal "flush" ;
+    ex:unisex "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/10139319663/geometry> .
+
+ex:10217688609 ex:amenity "toilets" ;
+    ex:changing_table "no" ;
+    ex:fee "no" ;
+    ex:portable "no" ;
+    ns2:disposal "flush" ;
+    ns2:handwashing "yes" ;
+    ex:unisex "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/10217688609/geometry> .
+
+ex:10636045675 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/10636045675/geometry> .
+
+ex:10945738913 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/10945738913/geometry> .
+
+ex:11262010604 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    ns2:handwashing "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11262010604/geometry> .
+
+ex:11381970522 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11381970522/geometry> .
+
+ex:11446216930 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11446216930/geometry> .
+
+ex:11461785755 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11461785755/geometry> .
+
+ex:1163326387 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1163326387/geometry> .
+
+ex:11832128104 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11832128104/geometry> .
+
+ex:11832472664 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11832472664/geometry> .
+
+ex:11843072469 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11843072469/geometry> .
+
+ex:1185934766 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1185934766/geometry> .
+
+ex:1185934778 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1185934778/geometry> .
+
+ex:11886820369 ex:amenity "toilets" ;
+    ex:opening_hours "24/7" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/11886820369/geometry> .
+
+ex:1205399762 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    ex:wheelchair "limited" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1205399762/geometry> .
+
+ex:1211740012 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:changing_table "no" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    ex:wheelchair "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1211740012/geometry> .
+
+ex:12174413418 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12174413418/geometry> .
+
+ex:1219283150 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns1:levels "1" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1219283150/geometry> .
+
+ex:1220054878 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns1:levels "1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1220054878/geometry> .
+
+ex:1220054904 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns1:levels "1" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1220054904/geometry> .
+
+ex:1220426400 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns1:levels "1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1220426400/geometry> .
+
+ex:1222467976 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1222467976/geometry> .
+
+ex:1223164988 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1223164988/geometry> .
+
+ex:1224032230 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:operator "Vinhomes Ocean Park" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1224032230/geometry> .
+
+ex:1226672989 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:check_date "2024-06-25" ;
+    ex:operator "Vinhomes Ocean Park" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1226672989/geometry> .
+
+ex:12279095912 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12279095912/geometry> .
+
+ex:12279116105 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12279116105/geometry> .
+
+ex:1228194740 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1228194740/geometry> .
+
+ex:12287543011 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12287543011/geometry> .
+
+ex:12289120171 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:wheelchair "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12289120171/geometry> .
+
+ex:12308536301 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12308536301/geometry> .
+
+ex:12308841301 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12308841301/geometry> .
+
+ex:12309492301 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12309492301/geometry> .
+
+ex:12309492401 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12309492401/geometry> .
+
+ex:1231282720 rdfs:label "Nhà vệ sinh công cộng" ;
+    ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:portable "yes" ;
+    ns2:handwashing "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1231282720/geometry> .
+
+ex:12333520401 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12333520401/geometry> .
+
+ex:12404372336 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12404372336/geometry> .
+
+ex:12412053901 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12412053901/geometry> .
+
+ex:12441118402 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12441118402/geometry> .
+
+ex:12441121701 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12441121701/geometry> .
+
+ex:12441121702 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12441121702/geometry> .
+
+ex:1251617820 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1251617820/geometry> .
+
+ex:1251621013 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1251621013/geometry> .
+
+ex:12555926109 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12555926109/geometry> .
+
+ex:12570431501 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12570431501/geometry> .
+
+ex:12657768416 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12657768416/geometry> .
+
+ex:12669562001 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12669562001/geometry> .
+
+ex:12669604002 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12669604002/geometry> .
+
+ex:12690280001 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12690280001/geometry> .
+
+ex:1270909900 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1270909900/geometry> .
+
+ex:1270909907 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1270909907/geometry> .
+
+ex:1272194477 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns1:levels "1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1272194477/geometry> .
+
+ex:12786064257 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12786064257/geometry> .
+
+ex:12786064258 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12786064258/geometry> .
+
+ex:12817107352 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/12817107352/geometry> .
+
+ex:1289842503 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1289842503/geometry> .
+
+ex:1294907492 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1294907492/geometry> .
+
+ex:1294907495 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1294907495/geometry> .
+
+ex:1295734796 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:check_date "2024-06-25" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1295734796/geometry> .
+
+ex:1295787628 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1295787628/geometry> .
+
+ex:1301684973 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1301684973/geometry> .
+
+ex:1302250728 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1302250728/geometry> .
+
+ex:1304785697 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1304785697/geometry> .
+
+ex:1305753871 ex:amenity "toilets" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1305753871/geometry> .
+
+ex:1305753872 ex:amenity "toilets" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1305753872/geometry> .
+
+ex:13119577114 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/13119577114/geometry> .
+
+ex:13119577115 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/13119577115/geometry> .
+
+ex:13119577116 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/13119577116/geometry> .
+
+ex:1315272113 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1315272113/geometry> .
+
+ex:1329845844 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:male "yes" ;
+    ex:room "toilets" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1329845844/geometry> .
+
+ex:1329845846 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:male "yes" ;
+    ex:room "toilets" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1329845846/geometry> .
+
+ex:1329911731 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "1" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1329911731/geometry> .
+
+ex:1329911766 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "1" ;
+    ex:male "yes" ;
+    ex:room "toilets" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1329911766/geometry> .
+
+ex:1330108357 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "2" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1330108357/geometry> .
+
+ex:1330108359 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:female "yes" ;
+    ex:indoor "room" ;
+    ex:level "2" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    ns2:position "seated;urinal" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1330108359/geometry> .
+
+ex:1330108368 ex:amenity "toilets" ;
+    ex:indoor "room" ;
+    ex:level "2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1330108368/geometry> .
+
+ex:1330108373 ex:amenity "toilets" ;
+    ex:indoor "room" ;
+    ex:level "2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1330108373/geometry> .
+
+ex:1333448223 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:fee "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1333448223/geometry> .
+
+ex:1333448224 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1333448224/geometry> .
+
+ex:1352283650 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:portable "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1352283650/geometry> .
+
+ex:1352496400 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:portable "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1352496400/geometry> .
+
+ex:1352496412 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:portable "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1352496412/geometry> .
+
+ex:1352503458 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    ex:portable "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1352503458/geometry> .
+
+ex:1356130095 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1356130095/geometry> .
+
+ex:1356130096 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/1356130096/geometry> .
+
+ex:2577838813 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:check_date "2024-06-14" ;
+    ex:fee "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2577838813/geometry> .
+
+ex:2577864038 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2577864038/geometry> .
+
+ex:2587513880 ex:access "customers" ;
+    ex:amenity "toilets" ;
+    ex:drinking_water "yes" ;
+    ex:fee "no" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587513880/geometry> .
+
+ex:2587513902 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587513902/geometry> .
+
+ex:2587513918 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    ex:operator "Free" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587513918/geometry> .
+
+ex:2587514011 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587514011/geometry> .
+
+ex:2587514013 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    ex:wheelchair "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587514013/geometry> .
+
+ex:2587514016 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:changing_table "no" ;
+    ex:fee "yes" ;
+    ex:unisex "yes" ;
+    ex:wheelchair "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587514016/geometry> .
+
+ex:2587514087 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/2587514087/geometry> .
+
+ex:3494618631 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/3494618631/geometry> .
+
+ex:3975727582 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/3975727582/geometry> .
+
+ex:4019320086 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4019320086/geometry> .
+
+ex:4377069491 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4377069491/geometry> .
+
+ex:4708487791 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4708487791/geometry> .
+
+ex:4749008109 ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4749008109/geometry> .
+
+ex:4749017459 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4749017459/geometry> .
+
+ex:4753067992 ex:amenity "toilets" ;
+    ex:fee "yes" ;
+    ex:wheelchair "limited" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4753067992/geometry> .
+
+ex:4753067995 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4753067995/geometry> .
+
+ex:4753068399 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4753068399/geometry> .
+
+ex:4753068402 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4753068402/geometry> .
+
+ex:4753068645 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/4753068645/geometry> .
+
+ex:5119304526 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/5119304526/geometry> .
+
+ex:5303026721 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/5303026721/geometry> .
+
+ex:5304805821 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/5304805821/geometry> .
+
+ex:6466626248 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6466626248/geometry> .
+
+ex:6539667083 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6539667083/geometry> .
+
+ex:6662719079 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6662719079/geometry> .
+
+ex:6840349985 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6840349985/geometry> .
+
+ex:6919616661 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6919616661/geometry> .
+
+ex:6919663693 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    ex:female "yes" ;
+    ex:male "yes" ;
+    ns2:disposal "flush" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/6919663693/geometry> .
+
+ex:702241314 ex:amenity "toilets" ;
+    ex:building "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/702241314/geometry> .
+
+ex:7140635332 ex:access "yes" ;
+    ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/7140635332/geometry> .
+
+ex:7176665769 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/7176665769/geometry> .
+
+ex:7178799043 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/7178799043/geometry> .
+
+ex:7180025610 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/7180025610/geometry> .
+
+ex:892577137 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577137/geometry> .
+
+ex:892577181 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577181/geometry> .
+
+ex:892577184 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577184/geometry> .
+
+ex:892577205 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577205/geometry> .
+
+ex:892577225 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577225/geometry> .
+
+ex:892577264 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577264/geometry> .
+
+ex:892577296 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577296/geometry> .
+
+ex:892577335 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577335/geometry> .
+
+ex:892577364 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577364/geometry> .
+
+ex:892577382 ex:amenity "toilets" ;
+    ex:buildingpart "room" ;
+    ex:indoor "yes" ;
+    ex:level "-1" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577382/geometry> .
+
+ex:892577437 ex:amenity "toilets" ;
+    ex:indoor "yes" ;
+    ex:level "-2" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/892577437/geometry> .
+
+ex:899221501 ex:amenity "toilets" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:room "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899221501/geometry> .
+
+ex:899221623 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:room "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899221623/geometry> .
+
+ex:899221634 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:indoor "room" ;
+    ex:level "0" ;
+    ex:room "toilets" ;
+    ex:wheelchair "yes" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899221634/geometry> .
+
+ex:899476427 ex:amenity "toilets" ;
+    ex:indoor "room" ;
+    ex:level "1" ;
+    ex:room "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899476427/geometry> .
+
+ex:899476428 ex:amenity "toilets" ;
+    ex:fee "no" ;
+    ex:indoor "room" ;
+    ex:level "1" ;
+    ex:room "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899476428/geometry> .
+
+ex:899514996 ex:amenity "toilets" ;
+    ex:indoor "room" ;
+    ex:level "2" ;
+    ex:room "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/899514996/geometry> .
+
+ex:995391097 ex:amenity "toilets" ;
+    geo1:hasGeometry <http://opendatafithou.org/poi/995391097/geometry> .
+
+<http://opendatafithou.org/poi/1000087307/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8357858 21.0291537)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/10114776466/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8468781 21.0021995)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/10139319663/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8586901 21.0185019)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/10217688609/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8478081 21.024518)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/10636045675/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8343486 21.0382466)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/10945738913/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8198593 21.0549046)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11262010604/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8315956 21.0119356)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11381970522/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9833676 20.9503705)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11446216930/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.83292 21.040787)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11461785755/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.819313 21.0028316)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1163326387/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8367056 21.0428587)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11832128104/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.852222 21.0252214)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11832472664/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8467027 21.0258446)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11843072469/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.846357 21.0286696)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1185934766/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7916872 21.026717)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1185934778/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7903075 21.0297281)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/11886820369/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8418159 21.0469598)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1205399762/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9394734 20.9942756)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1211740012/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7823453 21.0463744)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12174413418/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8044178 21.0296913)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1219283150/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8340231 21.0356075)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1220054878/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8521644 21.0316514)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1220054904/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8535118 21.0292334)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1220426400/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8513925 21.0282908)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1222467976/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9402263 20.9921338)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1223164988/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9489764 20.9949576)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1224032230/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9468903 20.9917389)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1226672989/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9557606 20.997213)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12279095912/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7985296 21.0405199)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12279116105/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8500738 21.0388193)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1228194740/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7399449 21.003501)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12287543011/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8597761 21.0246611)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12289120171/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8522905 21.0307033)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12308536301/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8278716 21.0639972)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12308841301/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8213896 21.0557113)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12309492301/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8231022 21.0663876)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12309492401/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8185063 21.0783256)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1231282720/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9207252 21.0308451)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12333520401/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8418382 21.045872)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12404372336/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8396856 21.0332548)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12412053901/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8938659 21.050455)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12441118402/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8059895 21.0055113)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12441121701/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7994107 21.003)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12441121702/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7661008 21.0218943)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1251617820/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7991233 21.0415675)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1251621013/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7993584 21.0394205)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12555926109/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8561716 21.0322634)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12570431501/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8305391 21.0390803)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12657768416/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8465492 21.0383859)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12669562001/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8353399 21.0798704)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12669604002/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8356217 21.0779127)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12690280001/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8357608 21.0268609)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1270909900/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8408922 21.0355792)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1270909907/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8409425 21.0367433)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1272194477/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8478233 21.0063488)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12786064257/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9778661 20.9537762)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12786064258/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9780431 20.95313)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/12817107352/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9834289 20.9578055)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1289842503/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8319886 21.0353621)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1294907492/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.948855 20.9994067)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1294907495/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9442504 20.9937738)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1295734796/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9441797 20.9971518)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1295787628/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9355774 20.9954006)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1301684973/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8331008 21.0328588)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1302250728/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8404896 21.0331305)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1304785697/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8394426 21.0311671)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1305753871/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8326028 21.0357617)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1305753872/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8325465 21.0354834)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/13119577114/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7740499 21.0360799)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/13119577115/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7749391 21.0360642)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/13119577116/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7739621 21.0367407)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1315272113/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8074565 21.0322132)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1329845844/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7537964 21.006438)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1329845846/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7542533 21.0063335)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1329911731/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7537965 21.0064367)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1329911766/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7555719 21.0057469)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1330108357/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7537967 21.0064385)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1330108359/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7555723 21.0057447)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1330108368/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7556101 21.0058466)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1330108373/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.7556596 21.006059)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1333448223/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8451367 21.0164379)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1333448224/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8459989 21.0142598)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1352283650/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9064109 21.0601316)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1352496400/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9056516 21.0627407)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1352496412/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9056255 21.0612524)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1352503458/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9027776 21.0604475)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1356130095/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9412944 20.988889)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/1356130096/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.93783 20.9927997)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2577838813/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8416591 21.0116695)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2577864038/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8471069 21.0153044)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587513880/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8402978 21.0324203)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587513902/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8367718 21.0426059)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587513918/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.831924 21.0439241)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587514011/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8457557 21.040357)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587514013/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8405882 21.0435672)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587514016/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8291543 21.0398284)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/2587514087/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8361688 21.0444431)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/3494618631/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8382824 21.0486158)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/3975727582/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8329399 21.041629)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4019320086/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8318167 21.0359694)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4377069491/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.845446 21.0261655)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4708487791/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8329831 21.0389651)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4749008109/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8368973 21.0477218)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4749017459/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8399375 21.0370484)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4753067992/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8152445 21.0457206)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4753067995/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8224115 21.0655914)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4753068399/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.812238 21.0687758)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4753068402/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8474841 21.0285496)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/4753068645/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8509919 21.0349938)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/5119304526/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8212819 21.0287632)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/5303026721/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8508056 21.0365851)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/5304805821/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8491565 21.02723)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6466626248/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8512147 21.0348694)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6539667083/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8390424 21.0368579)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6662719079/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8438368 21.0233506)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6840349985/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8449474 21.0164146)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6919616661/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8572218 21.0230587)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/6919663693/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8554421 21.0275464)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/702241314/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8366365 21.0296565)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/7140635332/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.849903 21.0397986)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/7176665769/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8496722 21.0236886)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/7178799043/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.871325 21.112906)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/7180025610/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8786051 21.051413)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577137/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8158297 21.0015549)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577181/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8158976 21.0005259)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577184/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8149167 21.0020792)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577205/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8157135 21.0039271)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577225/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8160592 21.0038463)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577264/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8155512 21.002047)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577296/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8149365 21.0020195)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577335/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8162848 21.00294)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577364/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8158416 21.0005213)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577382/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8164469 21.0029286)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/892577437/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.816479 21.0019863)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899221501/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8986599 21.0275269)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899221623/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9001491 21.0273412)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899221634/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.900135 21.0265507)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899476427/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8988165 21.0273949)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899476428/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.9002478 21.0273404)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/899514996/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8987752 21.0274074)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
+<http://opendatafithou.org/poi/995391097/geometry> a geo1:Point ;
+    ex:leisure "playground" ;
+    ex:osmType "way" ;
+    ex:source "OpenStreetMap" ;
+    geo1:asWKT "POINT(105.8579618 21.0250908)" ;
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q10793991> .
+
