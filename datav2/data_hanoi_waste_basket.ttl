@@ -1,0 +1,414 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Waste_Basket data from OpenStreetMap
+# Generated on 2025-11-30 09:15:54
+# Total records: 40
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321985
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9496493 20.9916206)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321985"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321987
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9493891 20.9915993)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321987"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321988
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9495256 20.9914794)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321988"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321989
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9496832 20.9913989)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321989"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321990
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9494253 20.9916988)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321990"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321997
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.949816 20.9914823)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321997"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321998
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9501053 20.9913258)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000321998"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322002
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9498381 20.9912754)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000322002"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322003
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9500477 20.9912061)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000322003"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322005
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.95031 20.9912494)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000322005"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322009
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9504481 20.9909698)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12000322009"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725946
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9486028 20.9997058)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12005725946"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725948
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9482718 20.9999025)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12005725948"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12007163117
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9441718 20.9948028)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12007163117"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12007163118
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.944101 20.9946476)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12007163118"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11578133307
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7820138 21.0459259)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11578133307"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11597711898
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7819911 21.0397047)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11597711898"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11597711899
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7822791 21.0396955)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11597711899"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11609372862
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7834077 21.0367785)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11609372862"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6549314206
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8349453 21.0377597)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6549314206"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6549314207
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8349976 21.0380414)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6549314207"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:7085692613
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8397259 21.0336686)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "7085692613"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11308870555
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.851378 21.0282315)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11308870555"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11871144869
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8535533 21.0224693)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11871144869"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886588769
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8397965 21.0503624)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886588769"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886590069
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8394385 21.0500771)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886590069"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886807569
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8402926 21.0484978)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886807569"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886818269
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8413329 21.0479455)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886818269"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886844169
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8400622 21.0456195)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886844169"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886845669
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8402598 21.0451924)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886845669"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886845671
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8410348 21.0446322)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886845671"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886849569
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.840794 21.0447056)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886849569"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12093721781
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8328161 21.0356188)"^^geo:wktLiteral
+    ] ;
+    ext:level "1" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12093721781"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12093721782
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8328014 21.0355435)"^^geo:wktLiteral
+    ] ;
+    ext:level "1" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12093721782"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12495501500
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8053023 21.0307332)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12495501500"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12535756761
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8448243 21.0160584)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12535756761"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6924038648
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9115272 21.0641752)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6924038648"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6924038673
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9116118 21.0644102)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6924038673"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725956
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9478267 21.0003709)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12005725956"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11819176214
+    a fiware:PointOfInterest, schema:WasteContainer ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8468734 21.1408637)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11819176214"^^xsd:integer .
+

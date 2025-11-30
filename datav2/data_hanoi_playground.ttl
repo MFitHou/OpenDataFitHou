@@ -1,0 +1,1765 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Playground data from OpenStreetMap
+# Generated on 2025-11-30 09:19:24
+# Total records: 145
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:663176008
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "San" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7448167 20.9957454)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "663176008"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:727529130
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.787667 20.9987822)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "727529130"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:788141644
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Khu vui chơi Cầu Trắng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7804766 20.9732422)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "788141644"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1188890479
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân tòa CT5" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7635305 20.9735239)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1188890479"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1229594696
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7814705 20.9829514)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229594696"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1229594697
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7813962 20.9828922)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229594697"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12067360421
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8665928 20.998919)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12067360421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:548076512
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Khu Vui Chơi Trẻ Em" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8539399 20.9634661)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "548076512"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:677795949
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8732711 20.9452442)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:surface "paved" ;
+    ext:osm_type "way" ;
+    ext:osm_id "677795949"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:677796536
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8724287 20.9486605)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:surface "compacted" ;
+    ext:osm_type "way" ;
+    ext:osm_id "677796536"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1015968511
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8757321 20.96994)"^^geo:wktLiteral
+    ] ;
+    ext:access "private" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1015968511"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1271711421
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8570719 20.9990888)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1271711421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1451574667
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.801934 20.9890967)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1451574667"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:11482888934
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.977247 20.9581799)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11482888934"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1218063061
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Swan Lake Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9278966 20.9572045)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Ecopark" ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:name_en "Swan Lake Playground" ;
+    ext:name_vi "Khu vui chơi gỗ Hồ Thiên Nga" ;
+    ext:surface "ground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1218063061"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1218063064
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Swan Lake Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.933205 20.9561985)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Ecopark" ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:name_en "Swan Lake Playground" ;
+    ext:name_vi "Khu vui chơi gỗ Hồ Thiên Nga" ;
+    ext:playground_theme "adventure" ;
+    ext:surface "grass" ;
+    ext:wheelchair "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1218063064"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1218063069
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Swan Lake Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.927815 20.9576626)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:name_en "Swan Lake Playground" ;
+    ext:name_vi "Khu vui chơi gỗ Hồ Thiên Nga" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1218063069"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223164942
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9468878 20.997054)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223164942"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223164982
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.948239 20.9948447)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223164982"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223164983
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9486103 20.9946028)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223164983"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223408392
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.946323 20.9983977)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223408392"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223408408
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9466577 20.9980252)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223408408"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1223408409
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9467777 20.9981375)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1223408409"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1224032231
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9469337 20.9915278)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1224032231"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1226672987
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9559687 20.9974307)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1226672987"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1226672988
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9563072 20.9970439)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1226672988"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1226679157
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9534575 20.9909941)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1226679157"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1226679160
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9537325 20.9912198)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1226679160"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295625747
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9416755 20.9929437)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295625747"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295734805
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9425719 20.9903288)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295734805"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295967061
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9532179 20.998342)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295967061"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1356127548
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9546871 20.9941917)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1356127548"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1425204627
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.981067 20.9459623)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1425204627"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:10199648449
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân kho kĩ thuật" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7613506 21.068572)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10199648449"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:11556273317
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7842039 21.0441185)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11556273317"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:11573064917
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7873183 21.0418021)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11573064917"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:13265987907
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7941025 21.0041793)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13265987907"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:548065666
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Điểm vui chơi Hòe Thị" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7400585 21.0352736)"^^geo:wktLiteral
+    ] ;
+    schema:address "Hòe Thị, Hà Nội" ;
+    ext:addr_street "Hòe Thị" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_street "Hòe Thị" ;
+    ext:leisure "playground" ;
+    ext:name_en "Hoe Thi Playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "548065666"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:726804072
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7860947 21.0008344)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "726804072"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:874998860
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7670187 21.0362101)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "874998860"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:874998861
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7665673 21.0347746)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "874998861"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:876122674
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7978245 21.0768902)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:lit "yes" ;
+    ext:max_age "12" ;
+    ext:min_age "4" ;
+    ext:sport "multi" ;
+    ext:osm_type "way" ;
+    ext:osm_id "876122674"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:898010414
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7784952 21.0673323)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "898010414"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:967020816
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7392186 21.017031)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "967020816"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1004201150
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7713544 21.0247089)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1004201150"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1007899331
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7851052 21.0438358)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Đặng Thùy Trâm, Cầu Giấy, Hà Nội" ;
+    ext:addr_street "Đường Đặng Thùy Trâm" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:access "yes" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Đường Đặng Thùy Trâm" ;
+    ext:leisure "playground" ;
+    ext:max_age "15" ;
+    ext:min_age "0" ;
+    ext:surface "artificial_turf" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1007899331"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1008340682
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7903944 21.0166058)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:surface "artificial_turf" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1008340682"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1185931488
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7900021 21.029264)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1185931488"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196001335
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7525519 21.0054693)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196001335"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196001336
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7512627 21.0059433)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196001336"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196001337
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7518131 21.0055517)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196001337"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196273474
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7412232 21.0007441)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196273474"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1213225190
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7938438 21.043383)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1213225190"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1217694044
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7877122 21.022677)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1217694044"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1228194745
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7401134 21.0046159)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1228194745"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1228194746
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7398883 21.0044387)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1228194746"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1228194747
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.740404 21.00411)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1228194747"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1229058065
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.784798 21.0313009)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229058065"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1229058066
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7843761 21.0316399)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229058066"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1229058067
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7855439 21.0310781)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229058067"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1242686100
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7821809 21.0360767)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1242686100"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1243476221
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7887221 21.0423512)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1243476221"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1244516607
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7844983 21.0442771)"^^geo:wktLiteral
+    ] ;
+    ext:access "private" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1244516607"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1244784624
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7846787 21.043952)"^^geo:wktLiteral
+    ] ;
+    ext:access "private" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1244784624"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1251880183
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7970071 21.0399137)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:surface "artificial_turf" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1251880183"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1318588420
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.762646 21.033955)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1318588420"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1328336052
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Mễ Trì Park Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7726067 21.0079046)"^^geo:wktLiteral
+    ] ;
+    schema:operator "The Matrix One" ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:surface "paved" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1328336052"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1330098153
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Wolfoo City" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7535005 21.0063313)"^^geo:wktLiteral
+    ] ;
+    ext:indoor "room" ;
+    ext:leisure "playground" ;
+    ext:level "2" ;
+    ext:ref "L3-38" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1330098153"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1330098166
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Kubo" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.754807 21.0059717)"^^geo:wktLiteral
+    ] ;
+    ext:indoor "room" ;
+    ext:leisure "playground" ;
+    ext:level "2" ;
+    ext:ref "L3-10" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1330098166"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1333686607
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7831835 21.0207311)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1333686607"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1333686608
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7850761 21.0235793)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1333686608"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1333686610
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7849706 21.0232995)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1333686610"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1337578407
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "The Matrix One Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7742317 21.0097768)"^^geo:wktLiteral
+    ] ;
+    schema:operator "The Matrix One" ;
+    ext:access "customers" ;
+    ext:leisure "playground" ;
+    ext:name_ko "매트릭스원 놀이터" ;
+    ext:surface "paved" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1337578407"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1365437941
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân Xphomes CT2" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7023038 21.0738307)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Xphomes" ;
+    schema:address "23 Đường Bát Phúc, Huyện Đan Phượng, Xã Tân Lập" ;
+    ext:addr_housenumber "23" ;
+    ext:addr_street "Đường Bát Phúc" ;
+    ext:addr_district "Huyện Đan Phượng" ;
+    ext:addr_city "Xã Tân Lập" ;
+    ext:access "yes" ;
+    ext:addr_city "Xã Tân Lập" ;
+    ext:addr_district "Huyện Đan Phượng" ;
+    ext:addr_housenumber "23" ;
+    ext:addr_postcode "153360" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Bát Phúc" ;
+    ext:addr_subdistrict "Tân Lập" ;
+    ext:leisure "playground" ;
+    ext:max_age "200" ;
+    ext:min_age "0" ;
+    ext:opening_hours "24/7" ;
+    ext:operator_type "public" ;
+    ext:surface "concrete" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1365437941"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1368396782
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "sân XPhomes CT1" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7007665 21.0746749)"^^geo:wktLiteral
+    ] ;
+    schema:operator "XPhomes" ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:max_age "200" ;
+    ext:min_age "0" ;
+    ext:surface "concrete" ;
+    ext:wheelchair "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1368396782"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:4753112934
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8656477 21.0465989)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4753112934"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:4888882768
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Nhà văn hóa thôn Văn Tinh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8502954 21.0904878)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4888882768"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:4894487321
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8166395 21.0730187)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Nhật Chiêu" ;
+    ext:addr_street "Phố Nhật Chiêu" ;
+    ext:addr_street "Phố Nhật Chiêu" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4894487321"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:5701412125
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.829671 21.0392673)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5701412125"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:5818328453
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8551917 21.0285338)"^^geo:wktLiteral
+    ] ;
+    ext:description "Playground, entrance d 20,000. Ballenbak, trampoline, slide" ;
+    ext:description_nl "Speeltuin, entree d 20.000. Ballenbak, trampoline, glijbaan" ;
+    ext:fee "20000" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5818328453"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:10728910779
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8452772 21.0151036)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10728910779"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:10765202472
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Adventure Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.856997 21.0448021)"^^geo:wktLiteral
+    ] ;
+    ext:access "customers" ;
+    ext:leisure "playground" ;
+    ext:name_en "Adventure Playground" ;
+    ext:name_vi "Sân Chơi Phiêu Lưu Cộng Đồng Bãi Giữa" ;
+    ext:website "https://www.sanchoi.org/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10765202472"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:11886274969
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8350798 21.0278497)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Think Playgrounds!" ;
+    ext:leisure "playground" ;
+    ext:opening_hours "24/7" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886274969"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12050985878
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8335445 21.0110569)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12050985878"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12050985881
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8303727 21.0139259)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12050985881"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12050999269
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.832073 21.0122638)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12050999269"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12051000669
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8313043 21.0116152)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12051000669"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:12690252201
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8347953 21.0264416)"^^geo:wktLiteral
+    ] ;
+    ext:access "customers" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12690252201"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:13305914101
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8151082 21.0732538)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13305914101"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:199297709
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8084447 21.0432303)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "199297709"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:199297711
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8087475 21.0430647)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "199297711"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:200132466
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8087174 21.0426512)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "200132466"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:245591046
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Coconut Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8030304 21.0752954)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "245591046"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:245591047
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Banana Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.804829 21.0751303)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "245591047"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:568075172
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Thủy đình Nhân Chính" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8112823 21.0029093)"^^geo:wktLiteral
+    ] ;
+    schema:address "Quan Nhân" ;
+    ext:addr_street "Quan Nhân" ;
+    ext:addr_street "Quan Nhân" ;
+    ext:landuse "grass" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "568075172"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:691421443
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân H" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8363822 21.0205458)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "691421443"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:691421445
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân E" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8372355 21.0210968)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "691421445"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:691421446
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân B" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8352211 21.0213775)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "691421446"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:817570461
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8341668 21.0065296)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "817570461"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:822118443
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Sân Chơi Cây Xanh Quan Nhân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8092391 21.004097)"^^geo:wktLiteral
+    ] ;
+    ext:area "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "822118443"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:826029898
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Khu vui chơi giải trí Quận Đống Đa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8210385 21.0166298)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:min_age "0" ;
+    ext:osm_type "way" ;
+    ext:osm_id "826029898"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:826029903
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.814226 21.0107191)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "826029903"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:858242831
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8330901 21.0094409)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:surface "paving_stones" ;
+    ext:osm_type "way" ;
+    ext:osm_id "858242831"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:858242833
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8333903 21.0096856)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:surface "paving_stones" ;
+    ext:osm_type "way" ;
+    ext:osm_id "858242833"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:899514991
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Tini World" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9002669 21.0260648)"^^geo:wktLiteral
+    ] ;
+    ext:indoor "room" ;
+    ext:leisure "playground" ;
+    ext:level "2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899514991"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:947208581
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8280651 21.0053025)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "947208581"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:972951559
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unis playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.807254 21.0747398)"^^geo:wktLiteral
+    ] ;
+    ext:access "private" ;
+    ext:leisure "playground" ;
+    ext:name_cs "Unis dětské hřiště" ;
+    ext:name_vi "Sân chơi Unis" ;
+    ext:osm_type "way" ;
+    ext:osm_id "972951559"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:974063113
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8018521 21.0742469)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "974063113"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1021093561
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8128078 21.0870047)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1021093561"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1021332444
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8365723 21.006838)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1021332444"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1023619558
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8349852 21.0078096)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1023619558"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1023619559
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.834807 21.0081379)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1023619559"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1023619563
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8355325 21.008516)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1023619563"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1023619564
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8361764 21.0090624)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1023619564"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1023619575
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8387448 21.0060005)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1023619575"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1162630370
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8035352 21.0450078)"^^geo:wktLiteral
+    ] ;
+    ext:access "private" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1162630370"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1187339511
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8983181 21.0700572)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1187339511"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1216770940
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8319546 21.0157498)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1216770940"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1219936092
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8315872 21.0160066)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1219936092"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1290162931
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8312514 21.0391784)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1290162931"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1290162942
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8313701 21.0403173)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1290162942"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1368360535
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.836595 21.0777028)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1368360535"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1370518270
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8216304 21.0555594)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1370518270"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1425341618
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8723189 21.058993)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1425341618"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1425341621
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8718774 21.058936)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1425341621"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1425528609
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8730762 21.0576345)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1425528609"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:6916344413
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9112653 21.0651435)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6916344413"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:6916344426
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9116475 21.0643021)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6916344426"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:6916346298
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9117066 21.0640421)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6916346298"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:6917941532
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9074169 21.0579975)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6917941532"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:6917941574
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9137691 21.0600393)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6917941574"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:9665887042
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9086119 21.0645146)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9665887042"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:479832646
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Viglacera Community Playground" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9498351 21.0191222)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "479832646"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:899476421
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Kidzooona" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9004235 21.0261146)"^^geo:wktLiteral
+    ] ;
+    ext:indoor "room" ;
+    ext:leisure "playground" ;
+    ext:level "1" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899476421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:899514990
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Funzone" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.900707 21.0263877)"^^geo:wktLiteral
+    ] ;
+    ext:indoor "room" ;
+    ext:leisure "playground" ;
+    ext:level "2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899514990"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1119385382
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9386725 21.0361988)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1119385382"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1180263378
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9401606 21.0103067)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1180263378"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196682601
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9006742 21.0515297)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196682601"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196682602
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.900341 21.0516277)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196682602"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1196682603
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9006967 21.0517509)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1196682603"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295606685
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9437965 21.0002759)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:surface "grass" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295606685"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295606688
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9429188 21.0010738)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:surface "grass" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295606688"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1295606689
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9435168 21.0014712)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Vinhomes Ocean Park" ;
+    ext:access "permissive" ;
+    ext:check_date "2024-06-25" ;
+    ext:leisure "playground" ;
+    ext:surface "grass" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1295606689"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1315473362
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9067869 21.0197719)"^^geo:wktLiteral
+    ] ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1315473362"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:playground:1334965419
+    a fiware:PointOfInterest, schema:Playground ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9458317 21.0022231)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:leisure "playground" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1334965419"^^xsd:integer .
+

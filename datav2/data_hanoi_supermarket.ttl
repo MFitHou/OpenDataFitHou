@@ -1,0 +1,4248 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Supermarket data from OpenStreetMap
+# Generated on 2025-11-30 09:21:15
+# Total records: 239
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5059466323
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.749619 20.9640138)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "T Mart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5059466323"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5616868222
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7892184 20.9746026)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Nguyễn Khuyến, Hà Đông" ;
+    ext:addr_street "Phố Nguyễn Khuyến" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Nguyễn Khuyến" ;
+    ext:description "Toà CT7A, Khu đô thị Văn Quán" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5616868222"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5618765421
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Đức Thành" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.75863 20.9727956)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Tố Hữu" ;
+    ext:addr_street "Phố Tố Hữu" ;
+    ext:addr_street "Phố Tố Hữu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5618765421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5619162221
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Mường Thanh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7998171 20.9601717)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Cầu Bươu" ;
+    ext:addr_street "Đường Cầu Bươu" ;
+    ext:addr_street "Đường Cầu Bươu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5619162221"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5639988476
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Co.opmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7902001 20.9825538)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5639988476"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5639988477
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tops Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7854355 20.9789425)"^^geo:wktLiteral
+    ] ;
+    schema:brand "Tops Market" ;
+    ext:branch "Hà Đông" ;
+    ext:shop "supermarket" ;
+    ext:website "https://topsmarket.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5639988477"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6169690585
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Lan Thu Viện Bỏng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7939538 20.9639976)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6169690585"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6373396052
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Cutepets - Siêu Thị Chó Mèo" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7800263 20.9791873)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Petshophanoi.com" ;
+    schema:address "171 Thanh Bình, Hà Đông, Hà Nội" ;
+    ext:addr_housenumber "171" ;
+    ext:addr_street "Thanh Bình" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_housenumber "171" ;
+    ext:addr_postcode "120406" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Thanh Bình" ;
+    ext:addr_subdistrict "Mỗ Lao" ;
+    ext:description "Chuyên bán buôn - bán lẻ phụ kiện, thức ăn đồ dùng cho thú cưng tại Hà Nội và trong toàn quốc.\n➡Địa chỉ shop: \nCS1: 171 Thanh Bình, Mỗ Lao, Hà Đông, HN \nCS2: 113 Ngõ 110 Hoàng Quốc Việt, Cầu Giấy, Hà Nội \n➡SĐT/Zalo/fb: 0949.111.520 (Thành)" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_coins "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_visa "yes" ;
+    ext:phone "0949111520" ;
+    ext:shop "supermarket" ;
+    ext:website "Petshophanoi.com" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6373396052"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7848826898
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Lanchi Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7129633 20.9288418)"^^geo:wktLiteral
+    ] ;
+    ext:air_conditioning "yes" ;
+    ext:currency_VND "yes" ;
+    ext:description "Siêu thị Lan Chi Mart" ;
+    ext:email "info@lanchi.vn" ;
+    ext:fax "0433 833 778" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_visa "yes" ;
+    ext:shop "supermarket" ;
+    ext:website "https://lanchi.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7848826898"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8831932484
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Chợ Xanh Văn Quán" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7914454 20.9742689)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8831932484"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11243880807
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7916407 20.9635026)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Hạnh Hoa, Quận Hà Đông, Phường Kiến Hưng" ;
+    ext:addr_street "Phố Hạnh Hoa" ;
+    ext:addr_district "Quận Hà Đông" ;
+    ext:addr_city "Phường Kiến Hưng" ;
+    ext:addr_city "Phường Kiến Hưng" ;
+    ext:addr_district "Quận Hà Đông" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Hạnh Hoa" ;
+    ext:addr_subdistrict "Phường Kiến Hưng" ;
+    ext:description "Toà CT1AB Xa La" ;
+    ext:opening_hours "Mo-Su 08:00-22:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_contactless "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_visa "yes" ;
+    ext:phone "+842471066866" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11243880807"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12240739572
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tops Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7563084 20.9657517)"^^geo:wktLiteral
+    ] ;
+    ext:opening_hours "Mo-Su 07:00-22:00" ;
+    ext:phone "+84 86 565 1274" ;
+    ext:shop "supermarket" ;
+    ext:website "https://topsmarket.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12240739572"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12914997411
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.777435 20.9725969)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "8 Đường Quang Trung, Quận Hà Đông" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Đường Quang Trung" ;
+    ext:addr_district "Quận Hà Đông" ;
+    ext:addr_district "Quận Hà Đông" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Quang Trung" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12914997411"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1491047942
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Trần Anh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8418973 20.9700253)"^^geo:wktLiteral
+    ] ;
+    schema:address "1283 Đường Giải Phóng, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "1283" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "1283" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_subdistrict "Thịnh Liệt" ;
+    ext:opening_hours "8:00 - 20:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "1491047942"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3799178113
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Cửa Hàng Tiện Ích Bảo Long" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8320905 20.9648945)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Kiot 3 Nơ 5 Bán Đảo Linh Đàm" ;
+    schema:address "kiot 3 Nơ 5 Bán đảo linh đàm, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "kiot 3 Nơ 5" ;
+    ext:addr_street "Bán đảo linh đàm" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "kiot 3 Nơ 5" ;
+    ext:addr_street "Bán đảo linh đàm" ;
+    ext:ele "Gia dụng" ;
+    ext:level "Văn_Phòng_phẩm" ;
+    ext:opening_hours "24/7" ;
+    ext:phone "0904508589" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3799178113"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4091988292
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Pizza Hut" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8447621 20.9805134)"^^geo:wktLiteral
+    ] ;
+    schema:brand "Pizza Hut" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q191615> ;
+    schema:legalName "Pizza Hut"@vi , "Pizza Hut"@en ;
+    schema:description "American restaurant chain and international franchise"@en ;
+    schema:url <https://www.pizzahut.com/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20Athens%20OH%20USA.JPG> ;
+    schema:address "609 Trương Định, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "609" ;
+    ext:addr_street "Trương Định" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "609" ;
+    ext:addr_street "Trương Định" ;
+    ext:addr_subdistrict "Thịnh Liệt" ;
+    ext:branch "Hoàng Mai" ;
+    ext:cuisine "pizza" ;
+    ext:delivery "yes" ;
+    ext:opening_hours "10:00-22:00" ;
+    ext:shop "supermarket" ;
+    ext:takeaway "yes" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4091988292"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4285828706
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "VNJ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8052876 20.9863879)"^^geo:wktLiteral
+    ] ;
+    schema:address "21b-250 Nguyễn Xiển, Thanh Xuan, Ha Noi" ;
+    ext:addr_housenumber "21b-250" ;
+    ext:addr_street "Nguyễn Xiển" ;
+    ext:addr_district "Thanh Xuan" ;
+    ext:addr_city "Ha Noi" ;
+    ext:addr_city "Ha Noi" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Thanh Xuan" ;
+    ext:addr_housenumber "21b-250" ;
+    ext:addr_postcode "1000001" ;
+    ext:addr_province "Hanoi" ;
+    ext:addr_street "Nguyễn Xiển" ;
+    ext:addr_subdistrict "Ha Dinh" ;
+    ext:opening_hours "08:00-21:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4285828706"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4578730790
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị V+" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870358 20.9994822)"^^geo:wktLiteral
+    ] ;
+    ext:name_vi "siêu thị V+. Hòa bình green city" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4578730790"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4750152424
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị gia đình" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8525636 20.9986173)"^^geo:wktLiteral
+    ] ;
+    schema:address "118 Hồng Mai" ;
+    ext:addr_housenumber "118" ;
+    ext:addr_street "Hồng Mai" ;
+    ext:addr_housenumber "118" ;
+    ext:addr_street "Hồng Mai" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4750152424"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4877067121
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Hằng Vui" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8327165 20.9653352)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nơ 2 BĐ Linh Đàm" ;
+    ext:addr_housenumber "Nơ 2" ;
+    ext:addr_street "BĐ Linh Đàm" ;
+    ext:addr_housenumber "Nơ 2" ;
+    ext:addr_street "BĐ Linh Đàm" ;
+    ext:name_en "Hang Vui supermarket" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4877067121"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5123787182
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Đức Thành" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.859713 20.9839016)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5123787182"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485804469
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị T-Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8361347 20.9753211)"^^geo:wktLiteral
+    ] ;
+    schema:address "Lô 9B Nguyễn Công Thái, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "Lô 9B" ;
+    ext:addr_street "Nguyễn Công Thái" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "Lô 9B" ;
+    ext:addr_street "Nguyễn Công Thái" ;
+    ext:addr_subdistrict "Đại Kim" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485804469"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485830477
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị T-Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8361596 20.9713145)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nguyễn Cảnh Dị, Hoàng Mai, Hà Nội" ;
+    ext:addr_street "Nguyễn Cảnh Dị" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_street "Nguyễn Cảnh Dị" ;
+    ext:addr_subdistrict "Đại Kim" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485830477"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5526778624
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8225074 20.9641395)"^^geo:wktLiteral
+    ] ;
+    schema:operator "WinMart" ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Văn Tân, Quận Hoàng Mai" ;
+    ext:addr_street "Phố Văn Tân" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Văn Tân" ;
+    ext:description "Tầng 1, Toà Bắc - Rice City Linh Đàm" ;
+    ext:payment_american_express "yes" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_jcb "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_unionpay "yes" ;
+    ext:payment_visa "yes" ;
+    ext:shop "supermarket" ;
+    ext:website "https://winmart.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5526778624"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5593636925
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8443272 20.9794717)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Chung Cư Nam Đô Complex CT1, Quận Hoàng Mai" ;
+    ext:addr_street "Đường Chung Cư Nam Đô Complex CT1" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Chung Cư Nam Đô Complex CT1" ;
+    ext:description "Tầng 1, Chung cư Nam Đô Complex CT1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5593636925"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5593660421
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Mường Thanh H1" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8259662 20.9642759)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5593660421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5593662121
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Mường Thanh H2" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8273063 20.9648992)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5593662121"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603389634
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Qmart Vĩnh Hưng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8800623 20.9990338)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603389634"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5606598224
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tops Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8286292 20.9998667)"^^geo:wktLiteral
+    ] ;
+    schema:operator "CÔNG TY TNHH DỊCH VỤ EB" ;
+    schema:address "3 Phố Lê Trọng Tấn, Thanh Xuân, Hà Nội" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:addr_subdistrict "Khương Mai" ;
+    ext:branch "Lê Trọng Tấn" ;
+    ext:opening_hours "Mo-Su 08:00-22:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_qr_pay "yes" ;
+    ext:phone "+84 865 671 423" ;
+    ext:shop "supermarket" ;
+    ext:website "https://topsmarket.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5606598224"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5611266121
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Thành Công" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.828332 20.9987006)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Lê Trọng Tấn" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5611266121"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5627922722
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Mega Ngọc Hồi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8521478 20.9143597)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5627922722"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5632029722
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8374033 20.9997316)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Ngõ 102 Trường Chinh, Quận Đống Đa" ;
+    ext:addr_street "Ngõ 102 Trường Chinh" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Ngõ 102 Trường Chinh" ;
+    ext:branch "Trường Chinh" ;
+    ext:description "Tầng 1, Toà HH1 Meco Complex" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5632029722"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5757756521
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Thành Đô 193 Vĩnh Hưng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8774569 20.9881788)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5757756521"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5757769521
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Thành Đô - 285 Lĩnh Nam" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8744568 20.9839977)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5757769521"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5920578385
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Unikmart sảnh D" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8027216 20.9976544)"^^geo:wktLiteral
+    ] ;
+    schema:address "143 Nguyễn Tuân" ;
+    ext:addr_housenumber "143" ;
+    ext:addr_street "Nguyễn Tuân" ;
+    ext:addr_housenumber "143" ;
+    ext:addr_street "Nguyễn Tuân" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5920578385"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6206888191
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AV Food" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8029066 20.9974193)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6206888191"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6223959585
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Thành Đô 23 Tả Thanh Oai" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8099682 20.9543037)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6223959585"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6573674285
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Easy Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8058362 20.9946631)"^^geo:wktLiteral
+    ] ;
+    schema:address "47 Đường Nguyễn Tuân" ;
+    ext:addr_housenumber "47" ;
+    ext:addr_street "Đường Nguyễn Tuân" ;
+    ext:addr_housenumber "47" ;
+    ext:addr_street "Đường Nguyễn Tuân" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6573674285"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6630407485
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tops Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8085208 20.9832736)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Cty TNHH TMQT&DV SThi Big C" ;
+    schema:address "286 Đường Nguyễn Xiển, Thanh Trì, Hà Nội" ;
+    ext:addr_housenumber "286" ;
+    ext:addr_street "Đường Nguyễn Xiển" ;
+    ext:addr_district "Thanh Trì" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Trì" ;
+    ext:addr_housenumber "286" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Nguyễn Xiển" ;
+    ext:addr_subdistrict "Tân Triều" ;
+    ext:opening_hours "Mo-Th 08:00-22:00, Fr-Su 08:00-22:30" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_qr_code "yes" ;
+    ext:phone "+84 243 202 2018" ;
+    ext:shop "supermarket" ;
+    ext:website "https://topsmarket.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6630407485"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6648651486
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Skymart Đền Lừ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8579805 20.9860147)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6648651486"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6725510486
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8781521 20.9702249)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Gamuda Garden 2-2, Quận Hoàng Mai" ;
+    ext:addr_street "Đường Gamuda Garden 2-2" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Gamuda Garden 2-2" ;
+    ext:description "WinMart Yên Sở, Tầng 1, Chung cư The TWO Residence" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6725510486"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6794340541
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Minh Đức Green" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8296484 20.9706077)"^^geo:wktLiteral
+    ] ;
+    schema:address "12 Đặng Xuân Bảng, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Đặng Xuân Bảng" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đặng Xuân Bảng" ;
+    ext:addr_subdistrict "Đại Kim" ;
+    ext:opening_hours "Mo-Sa 08:00-18:00" ;
+    ext:shop "supermarket" ;
+    ext:website "https://minhducgreen.com" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6794340541"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7056057519
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "siêu thị 24h ninja mark" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.809927 20.982949)"^^geo:wktLiteral
+    ] ;
+    schema:address "121 Đường Nguyễn Xiển, Thanh Xuân, Hà Nội" ;
+    ext:addr_housenumber "121" ;
+    ext:addr_street "Đường Nguyễn Xiển" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "121" ;
+    ext:addr_province "hà nội" ;
+    ext:addr_street "Đường Nguyễn Xiển" ;
+    ext:addr_subdistrict "tân triều" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7056057519"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7094805085
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "TH MART ĐỘI 3 Lạc Thị" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8346774 20.92349)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7094805085"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7657313796
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "TH Mart Nguyễn Lân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8364139 20.9950659)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7657313796"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7788139069
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Tòa nhà Huy Hoàng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8079419 20.9927898)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Nguyễn Trãi" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7788139069"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8267269060
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Mega Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8407123 20.9858419)"^^geo:wktLiteral
+    ] ;
+    schema:address "360 Đường Giải Phóng, Thanh Xuân, Hà Nội" ;
+    ext:addr_housenumber "360" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "360" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_subdistrict "Phương Liệt" ;
+    ext:level "-1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8267269060"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8940145717
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "SIÊU THỊ ĐỨC THÀNH" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8523881 20.9834182)"^^geo:wktLiteral
+    ] ;
+    schema:address "152 Phố Tân Mai" ;
+    ext:addr_housenumber "152" ;
+    ext:addr_street "Phố Tân Mai" ;
+    ext:addr_housenumber "152" ;
+    ext:addr_street "Phố Tân Mai" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8940145717"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8956733283
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8142339 20.990925)"^^geo:wktLiteral
+    ] ;
+    schema:operator "AEON" ;
+    schema:address "349 Phố Vũ Tông Phan, Thanh Xuân, Hà Nội" ;
+    ext:addr_housenumber "349" ;
+    ext:addr_street "Phố Vũ Tông Phan" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "349" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Vũ Tông Phan" ;
+    ext:addr_subdistrict "Khương Đình" ;
+    ext:email "riverside.smpt@aeon.com.vn" ;
+    ext:opening_hours "Mo-Su 06:00-22:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:phone "+84 246 686 6046" ;
+    ext:shop "supermarket" ;
+    ext:website "https://www.aeon.com.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8956733283"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9738862198
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu Linh Đàm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8230327 20.9640845)"^^geo:wktLiteral
+    ] ;
+    schema:operator "AEON" ;
+    schema:address "Văn Tân, Hoàng Mai, Hà Nội" ;
+    ext:addr_street "Văn Tân" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Văn Tân" ;
+    ext:addr_subdistrict "Hoàng Liệt" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_jcb "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_visa "yes" ;
+    ext:payment_visa_debit "yes" ;
+    ext:phone "024 6651 8086" ;
+    ext:shop "supermarket" ;
+    ext:website "https://aeonmaxvalu.com.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9738862198"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10229783479
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Máy Photocopy TNT, đại lý máy photo giá rẻ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8260919 20.9711523)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Đại lý Máy Photo" ;
+    schema:address "A1 TT1 Bắc Linh Đàm, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "A1 TT1" ;
+    ext:addr_street "Bắc Linh Đàm" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "A1 TT1" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Bắc Linh Đàm" ;
+    ext:addr_subdistrict "Bắc Linh Đàm" ;
+    ext:currency_VND "yes" ;
+    ext:description "Đại lý máy photo TNT cam kết mang đến cho quý khách dịch vụ sau bán hàng tốt nhất. Sẵn sàng hỗ trợ kỹ thuật 24/24 cũng như cung cấp đầy đủ linh/phụ kiện xuyên suốt vòng đời của máy." ;
+    ext:image "https://dailymayphoto.vn/image/catalog/dai-ly-may-photo-logo.png" ;
+    ext:opening_hours "24/7" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:phone "+84 972 368 368" ;
+    ext:ref_vatin "0107594412" ;
+    ext:shop "supermarket" ;
+    ext:website "https://dailymayphoto.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10229783479"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10855443205
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8876602 20.9248566)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10855443205"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12570970072
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Văn Khấn Cúng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8344162 20.9644845)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Văn Khấn Cúng" ;
+    ext:currency_VND "yes" ;
+    ext:description "Văn Khấn Cúng - Tất cả văn khấn cho mọi dịp lễ cúng. vankhancung.com" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:payment_cash "yes" ;
+    ext:shop "supermarket" ;
+    ext:website "https://vankhancung.com/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12570970072"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:457932534
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hapro Thanh Xuân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8015612 20.9908724)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nguyễn Trãi, Thanh Xuân, Hà Nội" ;
+    ext:addr_street "Nguyễn Trãi" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_street "Nguyễn Trãi" ;
+    ext:addr_subdistrict "Thanh xuân Bắc" ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "457932534"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:570572174
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8444399 20.9963876)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "163A Phố Đại La, Trương ĐỊnh, Hà Nội" ;
+    ext:addr_housenumber "163A" ;
+    ext:addr_street "Phố Đại La" ;
+    ext:addr_district "Trương ĐỊnh" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Trương ĐỊnh" ;
+    ext:addr_housenumber "163A" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Đại La" ;
+    ext:addr_subdistrict "Đồng Tâm" ;
+    ext:branch "Đại La" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "570572174"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:954362675
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Mega Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8660782 20.9695151)"^^geo:wktLiteral
+    ] ;
+    schema:address "126 Đường Tam Trinh, Hoàng Mai, Hà Nội" ;
+    ext:addr_housenumber "126" ;
+    ext:addr_street "Đường Tam Trinh" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "126" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Tam Trinh" ;
+    ext:addr_subdistrict "Yên Sở" ;
+    ext:building "yes" ;
+    ext:old_name "Metro" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "954362675"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1331638454
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8695724 20.9938892)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:indoor "room" ;
+    ext:level "-1" ;
+    ext:ref "TN-2" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1331638454"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7763514085
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9389933 20.9533568)"^^geo:wktLiteral
+    ] ;
+    schema:operator "AEON" ;
+    schema:address "Văn Giang, Hà Nội" ;
+    ext:addr_housenumber "A3 Sky2" ;
+    ext:addr_district "Văn Giang" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Văn Giang" ;
+    ext:addr_housenumber "A3 Sky2" ;
+    ext:addr_province "Hưng Yên" ;
+    ext:addr_subdistrict "Xuân Quan" ;
+    ext:opening_hours "Mo-Su 06:00-22:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_qr_pay "yes" ;
+    ext:phone "+84 221 220 8668" ;
+    ext:shop "supermarket" ;
+    ext:website "https://aeonmaxvalu.com.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7763514085"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12388640280
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9318572 20.9545348)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12388640280"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12388640283
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.933709 20.9505741)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12388640283"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12921157660
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9442984 20.9932694)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12921157660"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1303833201
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Phương Hải" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9974766 20.9606108)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1303833201"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3471347683
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "SFarm©" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7992667 21.0451847)"^^geo:wktLiteral
+    ] ;
+    schema:address "24 Hoàng Sâm" ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Hoàng Sâm" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Hoàng Sâm" ;
+    ext:organic "only" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3471347683"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4554110090
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Big C" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7781996 21.0155361)"^^geo:wktLiteral
+    ] ;
+    schema:brand "Big C" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q858665> ;
+    schema:legalName "Big C"@vi , "Big C"@en ;
+    schema:description "Thai department store chain"@en ;
+    schema:url <https://www.bigc.co.th> ;
+    ext:brand_en "Big C" ;
+    ext:brand_th "บิ๊กซี" ;
+    ext:brand_wikipedia "en:Big C" ;
+    ext:internet_access "wlan" ;
+    ext:level "-1" ;
+    ext:name_en "Big C" ;
+    ext:name_th "บิ๊กซี" ;
+    ext:opening_hours "Mo-Fr 10:00-22:00; Sa-Su 9:30-22:00" ;
+    ext:phone "04 3787 5500" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4554110090"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5319383822
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Nông sản sạch miền núi phía Bắc" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7625887 21.0445738)"^^geo:wktLiteral
+    ] ;
+    schema:address "8 Phố Phú Diễn" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Phú Diễn" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Phú Diễn" ;
+    ext:name_en "Mountain Veggies" ;
+    ext:shop "supermarket" ;
+    ext:website "https://mountainveggies.com/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5319383822"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485793231
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Mỹ Phẩm Jesse Store" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7737717 21.0771397)"^^geo:wktLiteral
+    ] ;
+    schema:address "56 Cầu Vồng, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_housenumber "56" ;
+    ext:addr_street "Cầu Vồng" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "56" ;
+    ext:addr_postcode "1000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Cầu Vồng" ;
+    ext:addr_subdistrict "Cổ Nhuế" ;
+    ext:opening_hours "Mo-Sa 08:00-18:00" ;
+    ext:payment_cash "yes" ;
+    ext:phone "0987890567" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485793231"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485847900
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "T Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7826551 21.0644931)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phạm Văn Đồng, Từ Liêm, Ha Noi" ;
+    ext:addr_street "Phạm Văn Đồng" ;
+    ext:addr_district "Từ Liêm" ;
+    ext:addr_city "Ha Noi" ;
+    ext:addr_city "Ha Noi" ;
+    ext:addr_district "Từ Liêm" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Phạm Văn Đồng" ;
+    ext:addr_subdistrict "Cổ Nhuế 2" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485847900"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485879595
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị điện máy Trần Anh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7984778 21.024315)"^^geo:wktLiteral
+    ] ;
+    schema:address "1174 Đường Láng" ;
+    ext:addr_housenumber "1174" ;
+    ext:addr_street "Đường Láng" ;
+    ext:addr_housenumber "1174" ;
+    ext:addr_street "Đường Láng" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485879595"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5605957125
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Thành Đô - Hồ Tùng Mậu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7648531 21.0406192)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Hồ Tùng Mậu" ;
+    ext:addr_street "Đường Hồ Tùng Mậu" ;
+    ext:addr_street "Đường Hồ Tùng Mậu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5605957125"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6658577897
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7687784 21.0284021)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "89 Đường Lê Đức Thọ, Nam Từ Liêm, Hà Nội" ;
+    ext:addr_housenumber "89" ;
+    ext:addr_street "Đường Lê Đức Thọ" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_housenumber "89" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Lê Đức Thọ" ;
+    ext:addr_subdistrict "Mỹ Đình 2" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6658577897"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6685429311
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7655417 21.0370876)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:traffic_calming "rumble_strip" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6685429311"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6685558879
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.796293 21.0143653)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Vũ Phạm Hàm, Quận Cầu Giấy" ;
+    ext:addr_street "Phố Vũ Phạm Hàm" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Vũ Phạm Hàm" ;
+    ext:description "Winmart Trung Yên, Tầng 1, Toà nhà Trung Yên 1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6685558879"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6795015291
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Tiện Lợi KT Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7920778 21.0476134)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6795015291"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6811944360
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7834359 21.0012178)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nam Từ Liêm, Hanoi" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hanoi" ;
+    ext:addr_city "Hanoi" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_subdistrict "Mễ Trì" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6811944360"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6849107685
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "VM+ 15/35 Tu Hoàng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7396857 21.034972)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6849107685"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7147892985
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7961018 21.0067651)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "119 Đường Trần Duy Hưng, Cầu Giấy, Hà Nội" ;
+    ext:addr_housenumber "119" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_floor "2" ;
+    ext:addr_housenumber "119" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_subdistrict "Trung Hòa" ;
+    ext:branch "Trần Duy Hưng" ;
+    ext:check_date "2025-10-28" ;
+    ext:description "Tầng 1, Vincom Center Trần Duy Hưng" ;
+    ext:level "1" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:shop "supermarket" ;
+    ext:wheelchair "yes" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7147892985"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8140616824
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Nhà sách Sư phạm TVHL" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7400574 21.0265945)"^^geo:wktLiteral
+    ] ;
+    schema:address "OV2.43 XP.5, Xuân Phương, Nam Từ Liêm" ;
+    ext:addr_housenumber "OV2.43" ;
+    ext:addr_street "XP.5" ;
+    ext:addr_district "Xuân Phương" ;
+    ext:addr_city "Nam Từ Liêm" ;
+    ext:addr_city "Nam Từ Liêm" ;
+    ext:addr_district "Xuân Phương" ;
+    ext:addr_housenumber "OV2.43" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "XP.5" ;
+    ext:addr_subdistrict "KĐT Xuân Phương Viglacera" ;
+    ext:opening_hours "Mo-Su 07:30-21:30" ;
+    ext:phone "+84 964 27 09 77" ;
+    ext:shop "supermarket" ;
+    ext:website "https://thuvienhoclieu.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8140616824"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8334822633
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7727685 21.0714041)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8334822633"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8348032117
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị gia đình Thúy tĩnh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7780219 21.0838054)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8348032117"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8354756783
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7772691 21.0707826)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8354756783"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8356702103
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7772475 21.0681574)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8356702103"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8359608322
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.777606 21.0700638)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8359608322"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8360335974
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Sản Vật Việt Bắc" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7619606 21.065421)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8360335974"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8361021993
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị bếp gas Sinh Viên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7344516 21.0536682)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8361021993"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8618217365
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hazu Shop" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7728934 21.0348579)"^^geo:wktLiteral
+    ] ;
+    schema:address "số 50 Phố Dương Khuê, Cầu Giấy, Hà Nội" ;
+    ext:addr_housenumber "số 50" ;
+    ext:addr_street "Phố Dương Khuê" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "số 50" ;
+    ext:addr_postcode "100925" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Dương Khuê" ;
+    ext:addr_subdistrict "Mai Dịch" ;
+    ext:phone "84965160040" ;
+    ext:shop "supermarket" ;
+    ext:website "https://hazushop.com/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8618217365"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8887233359
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7753232 21.0445526)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8887233359"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9593560395
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-Market - Splendora" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7230641 21.0159966)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9593560395"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9811836141
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Sakuko Japanese Store" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7374138 21.0082198)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:website "https://sakukostore.com.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9811836141"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9811836143
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Daily Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7379071 21.0079794)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9811836143"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9980248118
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "GO!" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.793202 21.0075494)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Central Retail Vietnam" ;
+    schema:address "222 Đường Trần Duy Hưng, Cầu Giấy, Hà Nội" ;
+    ext:addr_housenumber "222" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "222" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_subdistrict "Trung Hòa" ;
+    ext:opening_hours "Mo-Su 08:00-22:00" ;
+    ext:phone "+84 243 78 48 596" ;
+    ext:shop "supermarket" ;
+    ext:website "https://go-vietnam.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9980248118"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10035906583
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7815895 21.0200135)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Phạm Hùng, Quận Nam Từ Liêm" ;
+    ext:addr_street "Đường Phạm Hùng" ;
+    ext:addr_district "Quận Nam Từ Liêm" ;
+    ext:addr_district "Quận Nam Từ Liêm" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Phạm Hùng" ;
+    ext:description "Tầng 1, Vincom Plaza Skylake" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10035906583"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10166537622
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Quán tạp hóa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7615789 21.0697305)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10166537622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10223164766
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7221254 21.0160616)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10223164766"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10255177794
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Shop 10k Nga Ngố" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7746032 21.0740589)"^^geo:wktLiteral
+    ] ;
+    ext:addr_housenumber "51 P. Lê Văn Hiến, phường Đức Thắng Quận, Bắc Từ Liêm, Hà Nội 10858, Việt Nam" ;
+    ext:addr_housenumber "51 P. Lê Văn Hiến, phường Đức Thắng Quận, Bắc Từ Liêm, Hà Nội 10858, Việt Nam" ;
+    ext:opening_hours "Mo-Su 06:30-22:30" ;
+    ext:phone "974478386" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10255177794"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10648151771
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Trung tâm kính cường lực cũ Phúc Trung Kiên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7732403 21.0571467)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Trung tâm kính cường lực cũ Phúc Trung Kiên" ;
+    schema:address "329 Phan Bá Vành, cạnh đường tàu, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_housenumber "329" ;
+    ext:addr_street "Phan Bá Vành, cạnh đường tàu" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "329" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hanoi" ;
+    ext:addr_street "Phan Bá Vành, cạnh đường tàu" ;
+    ext:addr_subdistrict "Cổ Nhuế 2" ;
+    ext:image "https://phuctrungkien.net/" ;
+    ext:opening_hours "Mo-Sa 08:00-18:00" ;
+    ext:payment_cash "yes" ;
+    ext:payment_wire_transfer "yes" ;
+    ext:phone "0943778586" ;
+    ext:second_hand "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10648151771"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11152959981
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "siêu thị 24/7" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7732193 21.0722689)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngách 2 Ngõ 32 Phố Viên" ;
+    ext:addr_street "Ngách 2 Ngõ 32 Phố Viên" ;
+    ext:addr_street "Ngách 2 Ngõ 32 Phố Viên" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11152959981"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11167471087
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hà Đăng Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.793548 21.028823)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Thành Thái, Cầu Giấy, Hà Nội" ;
+    ext:addr_street "Phố Thành Thái" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Thành Thái" ;
+    ext:addr_subdistrict "Dịch Vọng" ;
+    ext:level "1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11167471087"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11617459420
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Sinh viên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7819984 21.0409025)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11617459420"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12072786766
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7597621 21.0360639)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Toà A1 - Vinhomes Gardenia" ;
+    ext:addr_street "Toà A1 - Vinhomes Gardenia" ;
+    ext:addr_street "Toà A1 - Vinhomes Gardenia" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12072786766"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12072961918
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7858607 21.0272402)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Tôn Thất Thuyết, Cầu Giấy" ;
+    ext:addr_street "Phố Tôn Thất Thuyết" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Tôn Thất Thuyết" ;
+    ext:description "Tầng 1, Sky Park Residence" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12072961918"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12117964070
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7009532 21.0740473)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Vạn Xuân, Huyện Đan Phượng" ;
+    ext:addr_street "Đường Vạn Xuân" ;
+    ext:addr_district "Huyện Đan Phượng" ;
+    ext:addr_district "Huyện Đan Phượng" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Vạn Xuân" ;
+    ext:description "Tầng 1, Toà CT1A, KĐT Tân Tây Đô" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12117964070"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12277048846
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Youth Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7832399 21.0174777)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12277048846"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12277048848
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7840355 21.0183484)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12277048848"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12277048852
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7844497 21.0168081)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12277048852"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12372330758
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7740509 21.009303)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Kmarketvina" ;
+    schema:address "1 Đường Lê Quang Đạo, Nam Từ Liêm, Phường Mễ Trì" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Đường Lê Quang Đạo" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Phường Mễ Trì" ;
+    ext:addr_city "Phường Mễ Trì" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Lê Quang Đạo" ;
+    ext:addr_subdistrict "Mễ Trì" ;
+    ext:name_ko "케이마켓" ;
+    ext:opening_hours "Mo-Su 07:00-00:00" ;
+    ext:payment_app "yes" ;
+    ext:payment_cards "yes" ;
+    ext:payment_cash "yes" ;
+    ext:payment_contactless "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_v_pay "yes" ;
+    ext:payment_visa "yes" ;
+    ext:phone "+84 24 3201 5145" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12372330758"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12843468536
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7879846 21.0183057)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12843468536"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12857874390
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7932648 21.00299)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12857874390"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12863854992
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7949624 21.063478)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12863854992"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:291706206
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7964721 21.0468146)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Hoàng Quốc Việt, Hà Nội" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:branch "Hoàng Quốc Việt" ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "291706206"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:899395271
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7768756 21.0671922)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899395271"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1003540406
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "MM Mega Market Thăng Long" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7801036 21.0543348)"^^geo:wktLiteral
+    ] ;
+    schema:address "236 Đường Phạm Văn Đồng, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    ext:addr_subdistrict "Cổ Nhuế" ;
+    ext:building "yes" ;
+    ext:opening_hours "Mo-Su 06:00-21:00" ;
+    ext:payment_QR_Pay "yes" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:phone "+84 977 074 603" ;
+    ext:shop "supermarket" ;
+    ext:website "https://online.mmvietnam.com/trung-tam/mm-thang-long/" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1003540406"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1116252727
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7940253 21.0382695)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Winmart" ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "18 Phố Trần Đăng Ninh, Cầu Giấy, Hà Nội" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Phố Trần Đăng Ninh" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Phố Trần Đăng Ninh" ;
+    ext:addr_subdistrict "Dịch Vọng" ;
+    ext:branch "Thăng Long" ;
+    ext:building "yes" ;
+    ext:building_levels "4" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1116252727"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1329845845
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.754367 21.0061313)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:air_conditioning "yes" ;
+    ext:indoor "room" ;
+    ext:internet_access "wlan" ;
+    ext:internet_access_fee "no" ;
+    ext:level "0" ;
+    ext:opening_hours "Mo-Su 10:00-21:30" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_jcb "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_visa "yes" ;
+    ext:ref "L1-04" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1329845845"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:442977400
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8495236 21.0115759)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:branch "Bà Triệu" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:level "3" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "442977400"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:442994566
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8061561 21.028523)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "442994566"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:977647385
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Japan Supermarket" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8458111 21.0294273)"^^geo:wktLiteral
+    ] ;
+    schema:address "131 Phố Hàng Bông" ;
+    ext:addr_housenumber "131" ;
+    ext:addr_street "Phố Hàng Bông" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "131" ;
+    ext:addr_street "Phố Hàng Bông" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "977647385"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:977668079
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8482851 21.0307067)"^^geo:wktLiteral
+    ] ;
+    schema:address "35 Phố Hàng Bông" ;
+    ext:addr_housenumber "35" ;
+    ext:addr_street "Phố Hàng Bông" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "35" ;
+    ext:addr_street "Phố Hàng Bông" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "977668079"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1724947875
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8000567 21.0341584)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "1724947875"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:2021225711
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.81112 21.024243)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2021225711"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3150526966
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8553923 21.029586)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "27A Phố Lý Thái Tổ" ;
+    ext:addr_housenumber "27A" ;
+    ext:addr_street "Phố Lý Thái Tổ" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "27A" ;
+    ext:addr_street "Phố Lý Thái Tổ" ;
+    ext:branch "27A Lý Thái Tổ" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3150526966"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3937714031
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Pet Mart Kim Mã" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8246645 21.0318491)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Hệ Thống Siêu Thị Thú Cưng Pet Mart" ;
+    schema:address "206 Kim Mã, Quận Ba Đình, Hà Nội" ;
+    ext:addr_housenumber "206" ;
+    ext:addr_street "Kim Mã" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "206" ;
+    ext:addr_postcode "118508" ;
+    ext:addr_street "Kim Mã" ;
+    ext:addr_subdistrict "Kim Mã" ;
+    ext:opening_hours "09:00-22:00" ;
+    ext:phone "0471069906" ;
+    ext:shop "supermarket" ;
+    ext:website "https://www.petmart.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3937714031"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3937714032
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Pet Mart Đại Cồ Việt" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8511563 21.0084427)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Hệ Thống Siêu Thị Thú Cưng Pet Mart" ;
+    schema:address "3 Đường Đại Cồ Việt, Hai Bà Trưng, Hà Nội" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Đường Đại Cồ Việt" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Đường Đại Cồ Việt" ;
+    ext:addr_subdistrict "Cầu Dền" ;
+    ext:opening_hours "09:00-22:00" ;
+    ext:phone "04 7106 9906" ;
+    ext:shop "supermarket" ;
+    ext:website "https://www.petmart.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3937714032"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4155614990
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Street Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8387225 21.026708)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4155614990"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4423192489
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8501184 21.0301114)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Circle K" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4423192489"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4458010392
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8534205 21.0357863)"^^geo:wktLiteral
+    ] ;
+    schema:address "21 Mã Mây" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Mã Mây" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Mã Mây" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4458010392"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4631390667
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Đầm Trấu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8647486 21.0122959)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4631390667"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4741290347
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Cửa Hàng Tự Chọn GT Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8465822 21.0040643)"^^geo:wktLiteral
+    ] ;
+    schema:address "44/30 Tạ Quang Bửu" ;
+    ext:addr_housenumber "44/30" ;
+    ext:addr_street "Tạ Quang Bửu" ;
+    ext:addr_housenumber "44/30" ;
+    ext:addr_street "Tạ Quang Bửu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4741290347"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4776220022
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8416221 21.0245405)"^^geo:wktLiteral
+    ] ;
+    schema:address "119 Lê Duẩn" ;
+    ext:addr_housenumber "119" ;
+    ext:addr_street "Lê Duẩn" ;
+    ext:addr_housenumber "119" ;
+    ext:addr_street "Lê Duẩn" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4776220022"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4781116321
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8500272 21.0351507)"^^geo:wktLiteral
+    ] ;
+    schema:address "2 Lãn Ông" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Lãn Ông" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Lãn Ông" ;
+    ext:name_en "Miniso" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4781116321"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4785798523
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8583853 21.0189202)"^^geo:wktLiteral
+    ] ;
+    schema:address "13 Phố Hàn Thuyên" ;
+    ext:addr_housenumber "13" ;
+    ext:addr_street "Phố Hàn Thuyên" ;
+    ext:addr_housenumber "13" ;
+    ext:addr_street "Phố Hàn Thuyên" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4785798523"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4907004322
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8378919 21.028469)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "T Mart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4907004322"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5003334222
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Co-op Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8663369 21.0452716)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Co-op Mart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5003334222"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5205741622
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Gấu Bon Sumo" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8314415 21.0343991)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Gau Bon Sumo" ;
+    ext:name_vi "Gấu Bon Sumo" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5205741622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5302018622
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700266 21.0420279)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:name_en "fivi mart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5302018622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5332620421
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8402 21.0422916)"^^geo:wktLiteral
+    ] ;
+    schema:address "11 Phố Nguyễn Biểu" ;
+    ext:addr_housenumber "11" ;
+    ext:addr_street "Phố Nguyễn Biểu" ;
+    ext:addr_housenumber "11" ;
+    ext:addr_street "Phố Nguyễn Biểu" ;
+    ext:name_en "MaruMart" ;
+    ext:opening_hours "Mo-Su 07:30-21:30" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5332620421"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5378024622
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Long Biên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8509208 21.0410353)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5378024622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5436612021
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Strassenmarkt" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8510354 21.0387182)"^^geo:wktLiteral
+    ] ;
+    ext:check_date "2025-08-17" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5436612021"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485666060
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị điện máy Mediamart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8123132 21.029254)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Mediamart" ;
+    schema:address "18 Nguyễn Chí Thanh, Quận Ba Đình, Hà Nội" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Nguyễn Chí Thanh" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Nguyễn Chí Thanh" ;
+    ext:addr_subdistrict "Ngọc Khánh" ;
+    ext:opening_hours "Mo-Su 09:00-21:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485666060"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485816793
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Minh Hoa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.822998 21.013239)"^^geo:wktLiteral
+    ] ;
+    schema:address "12 Đặng Tiến Đông" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Đặng Tiến Đông" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Đặng Tiến Đông" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485816793"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5485850279
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "FPT Shop" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8020389 21.0201337)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT" ;
+    schema:address "886 Đường Láng, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "886" ;
+    ext:addr_street "Đường Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "886" ;
+    ext:addr_street "Đường Láng" ;
+    ext:addr_subdistrict "Láng Thượng" ;
+    ext:phone "1800 6601" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485850279"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5579554621
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Seikamart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8477851 21.0115978)"^^geo:wktLiteral
+    ] ;
+    schema:address "51 Lê Đại Hành" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Lê Đại Hành" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Lê Đại Hành" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5579554621"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5579625721
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8937923 21.0647882)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5579625721"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5593898821
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8328793 21.0281849)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5593898821"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5595959521
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8321759 21.0060945)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "2 Phố Phạm Ngọc Thạch, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:addr_subdistrict "Trung Tự" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:level "-1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5595959521"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603479821
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Minh Hoa Thái Hà" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8197131 21.013353)"^^geo:wktLiteral
+    ] ;
+    schema:address "Thái Hà" ;
+    ext:addr_street "Thái Hà" ;
+    ext:addr_street "Thái Hà" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603479821"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603611822
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Hoàng Cầu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8258285 21.0176252)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Trần Quang Diệu" ;
+    ext:addr_street "Phố Trần Quang Diệu" ;
+    ext:addr_street "Phố Trần Quang Diệu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603611822"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603809224
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Intimex" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8177924 21.0293755)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Ngọc Khánh" ;
+    ext:addr_street "Phố Ngọc Khánh" ;
+    ext:addr_street "Phố Ngọc Khánh" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603809224"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603878921
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Intimex" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8251982 21.028135)"^^geo:wktLiteral
+    ] ;
+    schema:address "Giảng Võ" ;
+    ext:addr_street "Giảng Võ" ;
+    ext:addr_street "Giảng Võ" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603878921"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5603879232
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unimart Giảng Võ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8226439 21.0260451)"^^geo:wktLiteral
+    ] ;
+    schema:address "Giảng Võ" ;
+    ext:addr_street "Giảng Võ" ;
+    ext:addr_street "Giảng Võ" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5603879232"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5608461621
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "BRG Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8351653 21.0063252)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Lương Định Của" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5608461621"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5619165232
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8157284 21.0226588)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5619165232"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5621495822
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Intimex" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8080023 21.0515919)"^^geo:wktLiteral
+    ] ;
+    schema:address "Lạc Long Quân" ;
+    ext:addr_street "Lạc Long Quân" ;
+    ext:addr_street "Lạc Long Quân" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5621495822"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5638848622
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unik mart Thuỵ Khuê" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8229993 21.0432384)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 152 Thụy Khuê" ;
+    ext:addr_street "Ngõ 152 Thụy Khuê" ;
+    ext:addr_street "Ngõ 152 Thụy Khuê" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5638848622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5769451454
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Intimex" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.87763 21.0441004)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 390 Nguyễn Văn Cừ" ;
+    ext:addr_street "Ngõ 390 Nguyễn Văn Cừ" ;
+    ext:addr_street "Ngõ 390 Nguyễn Văn Cừ" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5769451454"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5814793053
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Brgmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.850622 21.0288967)"^^geo:wktLiteral
+    ] ;
+    schema:address "120 Phố Hàng Trống" ;
+    ext:addr_housenumber "120" ;
+    ext:addr_street "Phố Hàng Trống" ;
+    ext:addr_housenumber "120" ;
+    ext:addr_street "Phố Hàng Trống" ;
+    ext:internet_access "wlan" ;
+    ext:name_en "Brgmart" ;
+    ext:name_vi "Brgmart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5814793053"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5918039687
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hàng Đức" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.834472 21.0528046)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5918039687"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6014427285
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8473135 21.0302694)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6014427285"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6017147489
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.822333 21.0673913)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Naturally Vietnam - Organic Market" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6017147489"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6024114885
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "H Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8592192 21.0165116)"^^geo:wktLiteral
+    ] ;
+    schema:brand "H Mart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5636306> ;
+    schema:legalName "H Mart"@en ;
+    schema:description "Asian supermarket chain"@en ;
+    schema:url <https://www.hmart.com/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/20140809-0072%20Diamond%20Jamboree.JPG> ;
+    schema:address "Phố Trần Hưng Đạo" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:alt_name_ko "H 마트" ;
+    ext:brand_wikipedia "en:H Mart" ;
+    ext:cuisine "asian" ;
+    ext:name_en "H Mart" ;
+    ext:name_ko "한아름" ;
+    ext:name_zh-Hans "韩亚龙" ;
+    ext:name_zh-Hant "韓亞龍" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6024114885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6031199885
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8613508 21.0013398)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6031199885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6155720287
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8506108 21.0323778)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6155720287"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6243862587
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unikmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8021921 21.0027355)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6243862587"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6243895186
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unikmart 2 LVT" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8034543 21.0012625)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6243895186"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6419223349
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Thanh Do" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8654104 21.0029358)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6419223349"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6437524885
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8505197 21.028295)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6437524885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6621648085
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "K-market Xuân Diệ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8264692 21.0662921)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6621648085"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6621785885
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8259918 21.0407594)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Hoàng Hoa Thám, Quận Tây Hồ" ;
+    ext:addr_street "Đường Hoàng Hoa Thám" ;
+    ext:addr_district "Quận Tây Hồ" ;
+    ext:addr_district "Quận Tây Hồ" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Đường Hoàng Hoa Thám" ;
+    ext:description "Tầng hầm B1, Toà nhà Sun Grand City" ;
+    ext:level "-1" ;
+    ext:name_en "WinMart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6621785885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6652529904
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Fuji Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.841208 21.0184193)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6652529904"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6968319585
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Annam Gourmet" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8280816 21.0639402)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Annam Gourmet" ;
+    schema:address "51 Đường Xuân Diệu, Tây Hồ, Hà Nội" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Đường Xuân Diệu" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Xuân Diệu" ;
+    ext:addr_subdistrict "Quảng An" ;
+    ext:opening_hours "Mo-Fr 07:00-21:00, Sa-Su 08:30-21:30" ;
+    ext:payment_QR_Pay "yes" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:phone "+84 246 673 9661" ;
+    ext:shop "supermarket" ;
+    ext:website "https://annam-gourmet.com/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6968319585"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6979569185
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8163946 21.0033595)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Huge supermarket (B2)" ;
+    ext:name_ru "Огромный супермаркет (этаж B2)" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6979569185"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6992010985
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "BRGMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8514825 21.0388642)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6992010985"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7134960186
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.801833 21.0074716)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Hoàng Đạo Thúy, Quận Cầu Giấy" ;
+    ext:addr_street "Phố Hoàng Đạo Thúy" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Hoàng Đạo Thúy" ;
+    ext:branch "Trung Hoà" ;
+    ext:description "WinMart Trung Hoà, tầng B1 N05, KĐT Trung Hòa Nhân Chính" ;
+    ext:level "-1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7134960186"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:7230076587
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "The Oasis" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8320611 21.0611067)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Marco Sarli" ;
+    schema:address "84 To Ngoc Van, Hà Nội" ;
+    ext:addr_housenumber "84" ;
+    ext:addr_street "To Ngoc Van" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "84" ;
+    ext:addr_street "To Ngoc Van" ;
+    ext:addr_subdistrict "Quang An" ;
+    ext:name_en "Oasis Grocery Store and Gourmet Shop" ;
+    ext:name_vi "Oasis Grocery Store and Gourmet Shop" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:phone "02437191196" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7230076587"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8204154517
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870501 21.0459882)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8204154517"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8389055279
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tinh Dầu 100" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8622289 21.003113)"^^geo:wktLiteral
+    ] ;
+    schema:address "32B Phố Lạc Trung, Hai Bà Trưng, Phường Thanh Lương" ;
+    ext:addr_housenumber "32B" ;
+    ext:addr_street "Phố Lạc Trung" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Phường Thanh Lương" ;
+    ext:addr_city "Phường Thanh Lương" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "32B" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Lạc Trung" ;
+    ext:addr_subdistrict "Thanh Lương" ;
+    ext:ele "1" ;
+    ext:opening_hours "Mo-Su 08:30-20:30" ;
+    ext:phone "+84972168805" ;
+    ext:shop "supermarket" ;
+    ext:website "https://tinhdau100.vn" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8389055279"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8900260998
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8137396 21.0791125)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Ngõ 689 Lạc Long Quân" ;
+    ext:addr_street "Ngõ 689 Lạc Long Quân" ;
+    ext:addr_street "Ngõ 689 Lạc Long Quân" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:description "Tầng 1, Tòa nhà Vườn Đào" ;
+    ext:level "0" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8900260998"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8943684244
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8278952 21.02091)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "170 Đường La Thành, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "170" ;
+    ext:addr_street "Đường La Thành" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "170" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường La Thành" ;
+    ext:addr_subdistrict "Ô Chợ Dừa" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:description "Tầng 1, tòa nhà 170 La Thành" ;
+    ext:level "0" ;
+    ext:phone "+84 24 710 66866" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8943684244"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:9395684499
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hico Trung Tâm Mua Sắm Online Uy Tín" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8047926 21.0171575)"^^geo:wktLiteral
+    ] ;
+    schema:address "số 47 Ngõ 159 Phố Pháo Đài Láng, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "số 47" ;
+    ext:addr_street "Ngõ 159 Phố Pháo Đài Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "số 47" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Ngõ 159 Phố Pháo Đài Láng" ;
+    ext:addr_subdistrict "Láng Thượng" ;
+    ext:shop "supermarket" ;
+    ext:website "https://hico.vn" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9395684499"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10002340409
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "GO!" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8932747 21.0508114)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Central Group" ;
+    schema:address "Savico Megamall 7-9 Đ Nguyễn Văn Linh, Long Biên, Hà Nội" ;
+    ext:addr_housenumber "Savico Megamall 7-9 Đ" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "Savico Megamall 7-9 Đ" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:addr_subdistrict "Gia Thụy" ;
+    ext:branch "Long Biên" ;
+    ext:level "-1" ;
+    ext:opening_hours "Mo-Th 08:00-22:00; Fr-Su 08:00-22:30" ;
+    ext:phone "+842462573573" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10002340409"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10621408635
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8094935 21.0233096)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:changing_table "no" ;
+    ext:level "-1" ;
+    ext:opening_hours "Mo-Su 09:00-22:00" ;
+    ext:organic "yes" ;
+    ext:payment_app "yes" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_debit_cards "yes" ;
+    ext:payment_mastercard "yes" ;
+    ext:payment_qr_code "yes" ;
+    ext:payment_visa "yes" ;
+    ext:shop "supermarket" ;
+    ext:wheelchair "yes" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10621408635"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10621408645
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.815145 21.0312281)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10621408645"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10653373905
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8436493 21.0284379)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10653373905"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10709719739
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hoa lụa nhà trồng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8724139 21.0416208)"^^geo:wktLiteral
+    ] ;
+    schema:operator "uyên" ;
+    schema:brand "Hoa lụa nhà trồng" ;
+    schema:address "21 Ngõ 162 Nguyễn Văn Cừ, Long Biên, Hà Nội" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Ngõ 162 Nguyễn Văn Cừ" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Ngõ 162 Nguyễn Văn Cừ" ;
+    ext:addr_subdistrict "Ngoc Lam" ;
+    ext:image "https://hoaluanhatrong.com/wp-content/uploads/2022/07/hoa-lua-nha-trong-logo.png" ;
+    ext:opening_hours "24/7" ;
+    ext:payment_cash "yes" ;
+    ext:payment_credit_cards "yes" ;
+    ext:payment_paypal "yes" ;
+    ext:phone "+84332121212" ;
+    ext:shop "supermarket" ;
+    ext:website "https://hoaluanhatrong.com/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10709719739"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10839011533
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8506288 21.028926)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "BRGMART" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10839011533"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:10872918341
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "BRGMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8091209 21.0519815)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10872918341"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11152625106
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tomibun" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8548727 21.0213583)"^^geo:wktLiteral
+    ] ;
+    schema:address "16 Phố Phan Chu Trinh, Hoàn Kiếm, Hà Nội" ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Phan Chu Trinh" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "16" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Phan Chu Trinh" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11152625106"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11461525804
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Organica" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.857578 21.0255339)"^^geo:wktLiteral
+    ] ;
+    schema:address "6A Phố Lý Đạo Thành, Hoàn Kiếm, Hà Nội" ;
+    ext:addr_housenumber "6A" ;
+    ext:addr_street "Phố Lý Đạo Thành" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "6A" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Lý Đạo Thành" ;
+    ext:addr_subdistrict "Tràng Tiền" ;
+    ext:contact_facebook "https://www.facebook.com/thucphamhuucoorganica" ;
+    ext:email "sales@organica.vn" ;
+    ext:mobile "+84 89 899 1535" ;
+    ext:organic "only" ;
+    ext:phone "+84 24 3201 3235" ;
+    ext:shop "supermarket" ;
+    ext:website "https://www.organica.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11461525804"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11672849003
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "APG Eco-mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8505773 21.0095423)"^^geo:wktLiteral
+    ] ;
+    schema:address "132 Phố Mai Hắc Đế, Hai Bà Trưng, Hà Nội" ;
+    ext:addr_housenumber "132" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "132" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:addr_subdistrict "Lê Đại Hành" ;
+    ext:contact_facebook "https://www.facebook.com/APGECOVIETNAM/" ;
+    ext:shop "supermarket" ;
+    ext:website "https://apgeco.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11672849003"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11765598470
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8499669 21.0318336)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11765598470"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11886910769
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.841007 21.0450045)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Nguyễn Khắc Hiếu" ;
+    ext:addr_street "Phố Nguyễn Khắc Hiếu" ;
+    ext:addr_street "Phố Nguyễn Khắc Hiếu" ;
+    ext:opening_hours "24/7" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11886910769"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12065665803
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8026643 21.04395)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "1 Phố Phùng Chí Kiên, Quận Cầu Giấy, Phường Nghĩa Đô" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Phùng Chí Kiên" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Phường Nghĩa Đô" ;
+    ext:addr_city "Phường Nghĩa Đô" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Phùng Chí Kiên" ;
+    ext:addr_subdistrict "Phường Nghĩa Đô" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12065665803"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12085369604
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8036339 21.0006808)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Lê Văn Thiêm, Thanh Xuân" ;
+    ext:addr_street "Phố Lê Văn Thiêm" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Lê Văn Thiêm" ;
+    ext:description "Winmart Lê Văn Thiêm, Tầng 1, Toà nhà Stellar Garden" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12085369604"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12104684989
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "ShikiMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8512238 21.0161962)"^^geo:wktLiteral
+    ] ;
+    schema:address "116 Phố Huế, Hoàn Kiếm, Hà Nội" ;
+    ext:addr_housenumber "116" ;
+    ext:addr_street "Phố Huế" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "116" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Huế" ;
+    ext:addr_subdistrict "Nguyễn Du" ;
+    ext:contact_facebook "https://www.facebook.com/shikimart116phohue" ;
+    ext:phone "+84967779666" ;
+    ext:shop "supermarket" ;
+    ext:website "https://shikimart.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12104684989"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12118006235
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8550689 21.0034959)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "99A Phố Võ Thị Sáu, Quận Hai Bà Trưng" ;
+    ext:addr_housenumber "99A" ;
+    ext:addr_street "Phố Võ Thị Sáu" ;
+    ext:addr_district "Quận Hai Bà Trưng" ;
+    ext:addr_district "Quận Hai Bà Trưng" ;
+    ext:addr_housenumber "99A" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Võ Thị Sáu" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12118006235"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12213546992
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.821519 21.0077764)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Phố Nguyễn Văn Tuyết, Quận Đống Đa" ;
+    ext:addr_street "Phố Nguyễn Văn Tuyết" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Phố Nguyễn Văn Tuyết" ;
+    ext:description "Có thể vào từ cổng 98 Thái Thịnh hoặc cổng phố Nguyễn Văn Tuyết" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12213546992"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12228968664
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị B11 Kim Liên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.83513 21.0075497)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Hoàng Tích Trí" ;
+    ext:addr_street "Phố Hoàng Tích Trí" ;
+    ext:addr_street "Phố Hoàng Tích Trí" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12228968664"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12252610131
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Fuji Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.818248 21.0433213)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12252610131"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12287492374
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Lotte Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8129155 21.076605)"^^geo:wktLiteral
+    ] ;
+    ext:not_brand_wikidata "Q489905" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12287492374"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12378781694
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8279935 21.0640797)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "51 Đường Xuân Diệu" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Đường Xuân Diệu" ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Đường Xuân Diệu" ;
+    ext:level "1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12378781694"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12473015244
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8747613 21.0780299)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Đông Hội" ;
+    ext:addr_street "Đường Đông Hội" ;
+    ext:addr_street "Đường Đông Hội" ;
+    ext:description "Hầm B1, Eurowindow River Park" ;
+    ext:level "-1" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12473015244"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12511798979
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8226869 21.0195364)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:description "Toà nhà D\\'Le Pont D\\'or" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12511798979"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12549262758
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "FujiMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8219659 21.0055645)"^^geo:wktLiteral
+    ] ;
+    schema:address "324 Phố Tây Sơn, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "324" ;
+    ext:addr_street "Phố Tây Sơn" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "324" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Tây Sơn" ;
+    ext:addr_subdistrict "Thịnh Quang" ;
+    ext:opening_hours "Mo-Su 07:30-22:00" ;
+    ext:phone "+84 24 3205 2324" ;
+    ext:shop "supermarket" ;
+    ext:website "https://fujimart.vn/" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12549262758"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12757792515
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8069288 21.0656732)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "Đường Võ Chí Công" ;
+    ext:addr_street "Đường Võ Chí Công" ;
+    ext:addr_street "Đường Võ Chí Công" ;
+    ext:description "Tầng 1, chung cư nhà F Xuân La" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12757792515"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12829686367
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8633466 21.0111335)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "3 Phố Lương Yên" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Lương Yên" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Lương Yên" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12829686367"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:12840330523
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "AEON MaxValu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8168794 21.0364155)"^^geo:wktLiteral
+    ] ;
+    schema:address "345 Phố Đội Cấn" ;
+    ext:addr_housenumber "345" ;
+    ext:addr_street "Phố Đội Cấn" ;
+    ext:addr_housenumber "345" ;
+    ext:addr_street "Phố Đội Cấn" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12840330523"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:13238906601
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8477414 21.0116782)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Fujimart" ;
+    ext:opening_hours "Mo-Su 07:30-22:00" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13238906601"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:13240102801
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8321394 21.0322095)"^^geo:wktLiteral
+    ] ;
+    schema:address "67 Tran Phu Street" ;
+    ext:addr_housenumber "67" ;
+    ext:addr_street "Tran Phu Street" ;
+    ext:addr_housenumber "67" ;
+    ext:addr_street "Tran Phu Street" ;
+    ext:name_en "Fujimart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13240102801"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:13340116815
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Brgmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8499739 21.0302632)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13340116815"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:159948946
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Fivimart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8078232 21.0470781)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "159948946"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:709289367
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Đồng Tâm Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8425582 21.0019479)"^^geo:wktLiteral
+    ] ;
+    schema:address "238 Phố Lê Thanh Nghị" ;
+    ext:addr_housenumber "238" ;
+    ext:addr_street "Phố Lê Thanh Nghị" ;
+    ext:addr_housenumber "238" ;
+    ext:addr_street "Phố Lê Thanh Nghị" ;
+    ext:phone "0366172566, 0988707148" ;
+    ext:shop "supermarket" ;
+    ext:wheelchair "no" ;
+    ext:osm_type "way" ;
+    ext:osm_id "709289367"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:858242836
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "BRG Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8333111 21.0074827)"^^geo:wktLiteral
+    ] ;
+    schema:address "8 Phố Phạm Ngọc Thạch, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:addr_subdistrict "Kim Liên" ;
+    ext:building "retail" ;
+    ext:building_levels "3" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "858242836"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:892577254
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8162266 21.003404)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:buildingpart "room" ;
+    ext:description "Tầng hầm B2, toà R4, Vincom Royal City" ;
+    ext:indoor "yes" ;
+    ext:level "-2" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "892577254"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:899221486
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị AEON" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8981925 21.0280364)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:indoor "room" ;
+    ext:level "0" ;
+    ext:room "shop" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899221486"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:904135117
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Tôm Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8324625 21.0129038)"^^geo:wktLiteral
+    ] ;
+    schema:address "74 Phố Nam Đồng, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "74" ;
+    ext:addr_street "Phố Nam Đồng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "74" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Nam Đồng" ;
+    ext:addr_subdistrict "Nam Đồng" ;
+    ext:building "yes" ;
+    ext:building_levels "5" ;
+    ext:shop "supermarket" ;
+    ext:website "https://tommart.vn/" ;
+    ext:osm_type "way" ;
+    ext:osm_id "904135117"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:966677780
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8081843 21.0157889)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    schema:address "19 Phố Trúc Khê, Đống Đa, Hà Nội" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Trúc Khê" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Trúc Khê" ;
+    ext:addr_subdistrict "Láng Hạ" ;
+    ext:brand_wikipedia "vi:VinMart" ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "966677780"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1235776416
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Lotus Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8506592 21.0134105)"^^geo:wktLiteral
+    ] ;
+    schema:address "21 Phố Tô Hiến Thành, Hai Bà Trưng, Hà Nội" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Phố Tô Hiến Thành" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Tô Hiến Thành" ;
+    ext:addr_subdistrict "Nguyễn Du" ;
+    ext:building "yes" ;
+    ext:building_levels "2" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1235776416"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4388678293
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Chợ Phúc Đồng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9027786 21.0397757)"^^geo:wktLiteral
+    ] ;
+    ext:name_vi "Chợ Phúc Đồng" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4388678293"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5579660621
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "WinMart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9162056 21.050733)"^^geo:wktLiteral
+    ] ;
+    schema:brand "WinMart" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q60245505> ;
+    schema:legalName "WinMart"@vi , "WinMart"@en ;
+    schema:description "Vietnamese supermarket chain"@en , "hệ thống siêu thị tại Việt Nam"@vi ;
+    schema:url <https://winmart.vn/> ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/VinMart%20in%20Vietnam.jpg> ;
+    ext:brand_wikipedia "vi:WinMart" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5579660621"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6917933675
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9114894 21.0637936)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6917933675"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6917941516
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "True Mart+" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9139557 21.0595919)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6917941516"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6917941591
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9073563 21.0657753)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6917941591"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6924038647
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Sói Biên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9109651 21.0627267)"^^geo:wktLiteral
+    ] ;
+    ext:addr_housenumber "D86" ;
+    ext:addr_housenumber "D86" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6924038647"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:11821698442
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9533631 21.0165706)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11821698442"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:908992994
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị điện máy HC" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9188806 21.028944)"^^geo:wktLiteral
+    ] ;
+    schema:address "765A Nguyễn Văn Linh, Long Biên, Hà Nội" ;
+    ext:addr_housenumber "765A" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "765A" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:addr_subdistrict "Sài Đồng" ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "908992994"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:1235239091
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu thị Hapromart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9375658 21.020468)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1235239091"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6120794885
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị Hapro" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7751531 21.1292221)"^^geo:wktLiteral
+    ] ;
+    schema:address "A4 ( ĐN 1) Quốc lộ 23" ;
+    ext:addr_housenumber "A4 ( ĐN 1)" ;
+    ext:addr_street "Quốc lộ 23" ;
+    ext:addr_housenumber "A4 ( ĐN 1)" ;
+    ext:addr_street "Quốc lộ 23" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6120794885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8763403938
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Big C" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7826693 21.1863594)"^^geo:wktLiteral
+    ] ;
+    schema:brand "Big C" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q858665> ;
+    schema:legalName "Big C"@vi , "Big C"@en ;
+    schema:description "Thai department store chain"@en ;
+    schema:url <https://www.bigc.co.th> ;
+    schema:address "Km8 Đường Võ Văn Kiệt, Mê Linh" ;
+    ext:addr_housenumber "Km8" ;
+    ext:addr_street "Đường Võ Văn Kiệt" ;
+    ext:addr_district "Mê Linh" ;
+    ext:addr_district "Mê Linh" ;
+    ext:addr_housenumber "Km8" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Võ Văn Kiệt" ;
+    ext:addr_subdistrict "Quang Minh" ;
+    ext:branch "Mê Linh" ;
+    ext:brand_wikipedia "en:Big C" ;
+    ext:level "0" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8763403938"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:3644820386
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Hệ Thống Siêu Thị Mái Ấm Online" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8142732 21.1183065)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Xóm Trai, Đông Anh, Hà Nội" ;
+    ext:addr_street "Đường Xóm Trai" ;
+    ext:addr_district "Đông Anh" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đông Anh" ;
+    ext:addr_street "Đường Xóm Trai" ;
+    ext:addr_subdistrict "Vĩnh Ngọc" ;
+    ext:opening_hours "07:00-20:00" ;
+    ext:phone "+840982569439" ;
+    ext:shop "supermarket" ;
+    ext:website "http://maiam.vn" ;
+    ext:osm_type "node" ;
+    ext:osm_id "3644820386"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5694054027
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Vin+ 38 Đào Cam Mộc" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8685287 21.1412624)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5694054027"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5694054028
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Vin+ Tổ 25 Đ.Anh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8443361 21.1708102)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5694054028"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5694054122
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Vin +19 T22 Đ.Anh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8568805 21.1696205)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5694054122"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8577311117
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị BRG" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8567809 21.1383517)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8577311117"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8577357417
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị BRG" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8768821 21.1114121)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8577357417"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:8961553518
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Vinmart + 67 Phú Minh, Sóc Sơn" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8233685 21.1983835)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "8961553518"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:2090705706
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Chợ Văn Môn" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9291563 21.169101)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2090705706"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:4625392008
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Nội Thất Đồ Gỗ Được Phát" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9075773 21.1400505)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Đỗ Văn Duy" ;
+    schema:address "Giao Tác, Đông Anh, Hà Nội" ;
+    ext:addr_street "Giao Tác" ;
+    ext:addr_district "Đông Anh" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:addr_district "Đông Anh" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Giao Tác" ;
+    ext:addr_subdistrict "Liên Hà" ;
+    ext:email "noithatduocphat@gmail.com" ;
+    ext:internet_access "yes" ;
+    ext:opening_hours "24/7" ;
+    ext:phone "0372853629" ;
+    ext:shop "supermarket" ;
+    ext:website "https://noithatduocphat.com" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4625392008"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:5583587721
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "SIÊU THỊ TRƯỜNG GIANG" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9280329 21.1487127)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nguyễn Văn Cừ" ;
+    ext:addr_street "Nguyễn Văn Cừ" ;
+    ext:addr_street "Nguyễn Văn Cừ" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5583587721"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:6449316846
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Kho Hàng sieuthitranh.net" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9675955 21.1206202)"^^geo:wktLiteral
+    ] ;
+    ext:shop "supermarket" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6449316846"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:supermarket:685175181
+    a fiware:PointOfInterest, schema:GroceryStore ;
+    schema:name "Siêu Thị điện máy Anh Đức" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9754443 21.1187216)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:shop "supermarket" ;
+    ext:osm_type "way" ;
+    ext:osm_id "685175181"^^xsd:integer .
+

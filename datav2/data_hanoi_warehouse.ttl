@@ -1,0 +1,1615 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Warehouse data from OpenStreetMap
+# Generated on 2025-11-30 09:23:43
+# Total records: 143
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362670
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho Eco3D" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618976 20.9792342)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "954362670"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362671
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Công ty TNHH TMDV Phụ tùng Ôtô P&S" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.861698 20.9795142)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "954362671"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362673
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho Công ty ENTECH Việt Nam" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618513 20.979916)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "954362673"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362674
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Tổng kho Điện máy 68" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618795 20.9803242)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "954362674"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1416992351
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho hàng Năm Châu Foods" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8017714 20.9758846)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1416992351"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436565
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho GHTK" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618896 20.9800909)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1445436565"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436566
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Aquatech" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618571 20.9796878)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1445436566"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436567
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Công ty Thiết bị Hoàng Phong" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8620176 20.9795122)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1445436567"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436568
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho Điện máy Việt Phát" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618806 20.9804899)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1445436568"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1433522995
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.941261 20.9281608)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1433522995"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1433523004
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9414319 20.9288048)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1433523004"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1437064255
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9472652 20.942545)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1437064255"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1447891825
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9583125 20.9411348)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1447891825"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1450289481
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Kho" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9605342 20.9297544)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1450289481"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1452265184
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9520273 20.9436064)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1452265184"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1452265185
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9521405 20.9435658)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1452265185"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899163626
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7783443 21.0673922)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 449 Cổ Nhuế" ;
+    ext:addr_street "Ngõ 449 Cổ Nhuế" ;
+    ext:addr_street "Ngõ 449 Cổ Nhuế" ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899163626"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899165226
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7779709 21.0675537)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899165226"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899520312
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.777525 21.0685435)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:building "warehouse" ;
+    ext:building_levels "2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899520312"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1040732273
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7815101 21.0271237)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:import "grabremote" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1040732273"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1040732654
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7805763 21.0270486)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:import "grabremote" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1040732654"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768434
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8716596 21.0046883)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768434"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768435
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8717455 21.0049696)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768435"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768436
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.87133 21.0050936)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768436"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768437
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8719246 21.0037078)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768437"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768438
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8715359 21.0038529)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768438"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768439
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8716931 21.0037578)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768439"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768440
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8713407 21.0039403)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768440"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768441
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8707832 21.0043582)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768441"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768442
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8710208 21.0042165)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768442"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768443
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8716045 21.0044414)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768443"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768444
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8713588 21.0045727)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768444"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768445
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.871129 21.0046605)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768445"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768446
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8699653 21.005323)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768446"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768447
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700968 21.0050636)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768447"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768448
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8702129 21.0049323)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768448"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768449
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8705173 21.0052139)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768449"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768450
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8706402 21.0054352)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768450"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768451
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8706793 21.0058779)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768451"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768452
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8703427 21.0059127)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768452"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768453
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8708259 21.0055454)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768453"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768454
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8709575 21.0057497)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768454"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768455
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8710148 21.0052346)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768455"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768456
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8711023 21.0054897)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768456"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768457
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8725723 21.0040218)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768457"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768458
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8723293 21.0035527)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768458"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768459
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8721719 21.0033543)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768459"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768460
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8725514 21.003346)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840768460"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867181
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.872822 21.0031932)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867181"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867182
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8732809 21.0030608)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867182"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867183
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8735299 21.0034677)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867183"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867184
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8739803 21.0032874)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867184"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867187
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8762727 21.0026334)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "2" ;
+    ext:height "7" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867187"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867188
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.875715 21.002682)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867188"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867189
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8755094 21.0028991)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867189"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867190
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8765476 21.0025258)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867190"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867191
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8767638 21.002464)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867191"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867192
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8769591 21.0023946)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "2" ;
+    ext:height "10" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867192"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867193
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8772977 21.0022823)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867193"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867194
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8774942 21.0021218)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867194"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867195
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8776391 21.0020684)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867195"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867196
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8778114 21.002061)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867196"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867197
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8779663 21.0020079)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867197"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867198
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8787349 21.0017899)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867198"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868654
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8784546 21.0019346)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "2" ;
+    ext:height "10" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868654"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868655
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.87823 21.0019844)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868655"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868656
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8783307 21.0015316)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868656"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868657
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8781383 21.0016275)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868657"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868658
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8785032 21.0014041)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868658"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868659
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8790132 21.0017516)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868659"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868660
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8787305 21.0013004)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868660"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868661
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8792856 21.0015345)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "6" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868661"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868662
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8790514 21.0011156)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868662"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868663
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.879343 21.0010337)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "10" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868663"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868664
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8797321 21.0016297)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868664"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868665
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8802428 21.0016242)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "7" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868665"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868666
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8806206 21.0013181)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:height "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868666"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868667
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8810162 21.0013256)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "1" ;
+    ext:height "7" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868667"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868668
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8792315 21.0017181)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868668"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868669
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8796681 21.0013248)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "8" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840868669"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:893874547
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8273725 21.0075896)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "893874547"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590433
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8711651 21.0314909)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "908590433"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590434
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8710441 21.0313622)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "908590434"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590435
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8710129 21.0312333)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "908590435"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590437
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.871285 21.0315951)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "908590437"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446624
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8706871 21.0312522)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446624"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446625
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8709112 21.0310283)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446625"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446626
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870852 21.0311736)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446626"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446627
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8707567 21.0310743)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446627"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446629
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.871218 21.0307746)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446629"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446630
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8713431 21.0307105)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446630"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446631
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8714712 21.0305837)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446631"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446632
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870808 21.0318448)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446632"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446633
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8706391 21.0319329)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446633"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446634
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8705381 21.0323099)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446634"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446635
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8704992 21.0322222)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913446635"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913700028
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8707428 21.0311796)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913700028"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757669
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870605 21.0315815)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757669"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757673
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8702762 21.0318975)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757673"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757674
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8701348 21.0321574)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757674"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757675
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.870026 21.032362)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757675"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757676
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8701762 21.031856)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757676"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757677
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700811 21.0320296)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757677"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757678
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700106 21.0321537)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757678"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757679
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700578 21.0315955)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757679"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757680
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8702191 21.0316888)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757680"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757681
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8704264 21.0321634)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757681"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757682
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8699665 21.0322337)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757682"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757683
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8699501 21.0317547)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757683"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757684
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8698141 21.0318004)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757684"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757685
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.869815 21.0316026)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757685"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757686
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8698148 21.0319357)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757686"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757687
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.869612 21.0317898)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757687"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757700
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8711609 21.0327816)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757700"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757733
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.869318 21.0333223)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757733"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757734
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8690898 21.0332041)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757734"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757738
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8708516 21.0329243)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757738"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757739
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8667968 21.0368457)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757739"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757740
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.866639 21.0371326)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757740"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757741
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8669594 21.037277)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757741"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757742
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8668804 21.0372208)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913757742"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765768
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8659585 21.0375838)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913765768"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765769
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.865894 21.0375217)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913765769"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765774
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8671766 21.0361803)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913765774"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765777
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8698845 21.035088)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913765777"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770424
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8692511 21.0330144)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770424"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770425
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8687887 21.032748)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770425"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770426
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8688358 21.0329238)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770426"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770428
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8687204 21.0331712)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770428"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770430
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8685287 21.0327365)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770430"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770431
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8685626 21.032934)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770431"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770432
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8684258 21.0328876)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913770432"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799967
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8699035 21.0314815)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913799967"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799968
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8700633 21.0313749)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913799968"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799969
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8701473 21.0311732)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913799969"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799971
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8697054 21.0312313)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913799971"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799973
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8698886 21.0309428)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "913799973"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1092144105
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8942318 21.050873)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:building_levels "1" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1092144105"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1208965895
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8950712 21.046722)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1208965895"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1208965896
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8954586 21.0469176)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1208965896"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1216878750
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8311211 21.01446)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1216878750"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:812492625
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7689824 21.1192367)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "812492625"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:812492626
+    a fiware:PointOfInterest, schema:Warehouse ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7692088 21.1192939)"^^geo:wktLiteral
+    ] ;
+    ext:building "warehouse" ;
+    ext:osm_type "way" ;
+    ext:osm_id "812492626"^^xsd:integer .
+

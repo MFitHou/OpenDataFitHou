@@ -1,0 +1,2149 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Marketplace data from OpenStreetMap
+# Generated on 2025-11-30 09:20:35
+# Total records: 170
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1685291681
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Chiều Thắng Lợi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7455509 20.9723698)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "1685291681"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:2471647464
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phùng Khoang" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7937986 20.9858966)"^^geo:wktLiteral
+    ] ;
+    ext:addr_housenumber "số 2" ;
+    ext:addr_country "VN" ;
+    ext:addr_housenumber "số 2" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2471647464"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7229303135
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7179216 20.9013465)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "7229303135"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:8185432737
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trước Cổng Trung Tâm Y Tế" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7788857 20.9680682)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "8185432737"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:8282900558
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7232177 20.9038065)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "8282900558"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12995557127
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Mỗ Lao" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7827636 20.9801728)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường 18M" ;
+    ext:addr_street "Đường 18M" ;
+    ext:addr_street "Đường 18M" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12995557127"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:792416732
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phượng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7060491 20.9489781)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Đê Mới, Chương Mỹ, Hà Nội" ;
+    ext:addr_street "Đường Đê Mới" ;
+    ext:addr_district "Chương Mỹ" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Chương Mỹ" ;
+    ext:addr_province "Việt Nam" ;
+    ext:addr_street "Đường Đê Mới" ;
+    ext:addr_subdistrict "Phụng Châu" ;
+    ext:osm_type "way" ;
+    ext:osm_id "792416732"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:939812622
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hà Đông" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7797034 20.9698536)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "939812622"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1009721987
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7175372 20.9007712)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1009721987"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1010822773
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7030128 20.9191335)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1010822773"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1010822774
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7029027 20.9189587)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1010822774"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1010822775
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7030047 20.919016)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1010822775"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1286768581
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ đầu mối Nam Hà Nội" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7609852 20.9262842)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1286768581"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:3234578992
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đại Từ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8325149 20.9704793)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "3234578992"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:3389007927
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nhân Chính" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8093027 20.9983875)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "3389007927"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:6849181831
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Xanh Linh Đàm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.83422 20.9658478)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6849181831"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7055975987
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "TK mark" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8080635 20.9891267)"^^geo:wktLiteral
+    ] ;
+    schema:address "190 Phố Hạ Đình, thanh xuân, hà nội" ;
+    ext:addr_housenumber "190" ;
+    ext:addr_street "Phố Hạ Đình" ;
+    ext:addr_district "thanh xuân" ;
+    ext:addr_city "hà nội" ;
+    ext:addr_city "hà nội" ;
+    ext:addr_district "thanh xuân" ;
+    ext:addr_housenumber "190" ;
+    ext:addr_province "hà nội" ;
+    ext:addr_street "Phố Hạ Đình" ;
+    ext:addr_subdistrict "thanh xuân trung" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7055975987"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:9587087000
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Xanh Định Công" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.833731 20.9848352)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "9587087000"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:11506051549
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ dân sinh HH" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8268188 20.9629327)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Linh Đường, Hoàng Mai, Hà Nội" ;
+    ext:addr_street "Phố Linh Đường" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_postcode "1000000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Linh Đường" ;
+    ext:addr_subdistrict "Hoàng Liệt" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11506051549"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:11936494469
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8187521 20.9671325)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11936494469"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13323664905
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nguyễn An Ninh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8452483 20.9909813)"^^geo:wktLiteral
+    ] ;
+    ext:opening_hours "24/7" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13323664905"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13323664906
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cóc" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8452582 20.9914966)"^^geo:wktLiteral
+    ] ;
+    ext:opening_hours "24/7" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13323664906"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13336702955
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trương Định" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8467547 20.984654)"^^geo:wktLiteral
+    ] ;
+    ext:layer "-1" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13336702955"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:251612236
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bằng A" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.821799 20.9611682)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "251612236"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:344262457
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ đầu mối phía Nam" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8618544 20.9827123)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "344262457"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:650440567
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Yên Duyên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8708697 20.9676776)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "650440567"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:675940105
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngõ Chùa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.873711 20.9449178)"^^geo:wktLiteral
+    ] ;
+    ext:addr_province "Yên Mỹ" ;
+    ext:addr_subdistrict "Xóm 8" ;
+    ext:building "yes" ;
+    ext:opening_hours "Mo-Su 07:00-21:00" ;
+    ext:osm_type "way" ;
+    ext:osm_id "675940105"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:755113658
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Xanh, Định Công" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8338254 20.9848281)"^^geo:wktLiteral
+    ] ;
+    ext:opening_hours "Mo-Su 06:00-19:00" ;
+    ext:osm_type "way" ;
+    ext:osm_id "755113658"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:755377951
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Kim Giang" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8151733 20.9827126)"^^geo:wktLiteral
+    ] ;
+    schema:address "68 Đường Kim Giang" ;
+    ext:addr_housenumber "68" ;
+    ext:addr_street "Đường Kim Giang" ;
+    ext:addr_housenumber "68" ;
+    ext:addr_street "Đường Kim Giang" ;
+    ext:osm_type "way" ;
+    ext:osm_id "755377951"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:885744701
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Thượng Đình" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8122974 20.9982747)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "885744701"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:899388714
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ 8-3" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8612738 20.9991155)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "899388714"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:957452577
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Kim Giang" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8144684 20.9838997)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "957452577"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1044297775
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Kim Lũ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8207887 20.9780868)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 278 Kim Giang, Hoàng Mai, Hà Nội" ;
+    ext:addr_street "Ngõ 278 Kim Giang" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Ngõ 278 Kim Giang" ;
+    ext:addr_subdistrict "Đại Kim" ;
+    ext:building "roof" ;
+    ext:opening_hours "sunrise-sunset" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1044297775"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1157172138
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Tứ Hiệp" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8508382 20.9423066)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1157172138"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1451711146
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đồng Tâm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8461559 20.9950852)"^^geo:wktLiteral
+    ] ;
+    schema:address "22 Ngách 20 Ngõ Trại Cá" ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Ngách 20 Ngõ Trại Cá" ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Ngách 20 Ngõ Trại Cá" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1451711146"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1454185283
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ chim Vĩnh Hoàng / Đền Lừ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8695202 20.9823836)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1454185283"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:4712969789
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9117762 20.9750222)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Ceramic market" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4712969789"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13038657789
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "chợ Sở Đông" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9518538 20.9323889)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "13038657789"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13197034196
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nghĩa Trụ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9889774 20.9557048)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "13197034196"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13284616889
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ xã Nghĩa Trụ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9578643 20.9422669)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "13284616889"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13325635551
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9522852 20.9525442)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "13325635551"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:243115931
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cái" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9998101 20.9581434)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "243115931"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:244377898
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bún" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9288916 20.9853782)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "244377898"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1435808414
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9884738 20.9558856)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1435808414"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1447896108
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9580309 20.9418155)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1447896108"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1453028467
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9521127 20.9525129)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1453028467"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:8938435127
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Vitalmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7961933 21.0115909)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "8938435127"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:9584817367
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Siêu Thị K" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7768155 21.0150675)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "9584817367"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12033021597
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Hà Đăng Mart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7825427 21.0151651)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Hà Đăng Mart" ;
+    schema:address "Nam Từ Liêm, Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_subdistrict "Phường Mễ Trì" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12033021597"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12177717116
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Mễ Trì" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7788194 21.0103485)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 32 Đỗ Đức Dục, Quận Nam Từ Liêm" ;
+    ext:addr_street "Ngõ 32 Đỗ Đức Dục" ;
+    ext:addr_district "Quận Nam Từ Liêm" ;
+    ext:addr_district "Quận Nam Từ Liêm" ;
+    ext:addr_province "Thành phố Hà Nội" ;
+    ext:addr_street "Ngõ 32 Đỗ Đức Dục" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12177717116"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12769662336
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phú Diễn" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7581687 21.0520228)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12769662336"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12769681330
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Canh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7418874 21.0343959)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12769681330"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12814113704
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cốm Mễ Trì Hạ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7801751 21.0136877)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12814113704"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12980196296
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vân Canh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7373662 21.034708)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12980196296"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:487142233
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vẽ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7782495 21.0913579)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "487142233"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:503329943
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7850883 21.0784834)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "503329943"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:570571437
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hợp Nhất" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7911515 21.0207714)"^^geo:wktLiteral
+    ] ;
+    schema:address "259 Trung Kính, Cầu giấy, Hà nội" ;
+    ext:addr_housenumber "259" ;
+    ext:addr_street "Trung Kính" ;
+    ext:addr_district "Cầu giấy" ;
+    ext:addr_city "Hà nội" ;
+    ext:addr_city "Hà nội" ;
+    ext:addr_district "Cầu giấy" ;
+    ext:addr_housenumber "259" ;
+    ext:addr_province "TP Hà Nội" ;
+    ext:addr_street "Trung Kính" ;
+    ext:addr_subdistrict "Yên hòa" ;
+    ext:osm_type "way" ;
+    ext:osm_id "570571437"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:570587788
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đồng Xa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7744891 21.0427159)"^^geo:wktLiteral
+    ] ;
+    schema:address "241 Phố Mai Dịch, Cầu Giấy, Hà Nội" ;
+    ext:addr_housenumber "241" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "241" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:addr_subdistrict "Mai Dịch" ;
+    ext:opening_hours "Mo-Su 08:00-22:00" ;
+    ext:osm_type "way" ;
+    ext:osm_id "570587788"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:645296158
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Sơn Đồng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7035727 21.0476717)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "645296158"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:699065704
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cổ Nhuế" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7809068 21.0607478)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Co Nhue Market" ;
+    ext:name_id "Pasar Co Nhue" ;
+    ext:name_zh "古芮市场" ;
+    ext:osm_type "way" ;
+    ext:osm_id "699065704"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:699218395
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Thôn Trù" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7798463 21.0656934)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "699218395"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:699218397
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7798403 21.0657055)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "699218397"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:880260998
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nghĩa Tân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7942037 21.0451778)"^^geo:wktLiteral
+    ] ;
+    schema:operator "Ban quản lý chợ quận Cầu Giấy" ;
+    ext:description "Chợ đầu mối quận Cầu Giấy" ;
+    ext:landuse "retail" ;
+    ext:name_en "Nghĩa Tân Market" ;
+    ext:osm_type "way" ;
+    ext:osm_id "880260998"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:897568869
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7728812 21.0809554)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "897568869"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:901510761
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.776289 21.0740265)"^^geo:wktLiteral
+    ] ;
+    schema:address "Nông Lâm Đường Lê Văn Hiến, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_housenumber "Nông Lâm" ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "Nông Lâm" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:addr_subdistrict "Đông Ngạc" ;
+    ext:osm_type "way" ;
+    ext:osm_id "901510761"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:965816709
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trung Hoà" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7986059 21.0113926)"^^geo:wktLiteral
+    ] ;
+    ext:building "commercial" ;
+    ext:description "Wet Market" ;
+    ext:osm_type "way" ;
+    ext:osm_id "965816709"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:965945328
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trung Kính" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7992969 21.0132259)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Trung Kính, Cầu Giấy, Hà Nội" ;
+    ext:addr_street "Phố Trung Kính" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Trung Kính" ;
+    ext:addr_subdistrict "Trung Hòa" ;
+    ext:building "roof" ;
+    ext:description "Wet Market" ;
+    ext:osm_type "way" ;
+    ext:osm_id "965945328"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:966146652
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Vitalmart" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7962031 21.0115878)"^^geo:wktLiteral
+    ] ;
+    schema:address "Cầu Giấy, Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_subdistrict "Trung Hòa" ;
+    ext:description "Small grocery store" ;
+    ext:opening_hours "24/7" ;
+    ext:osm_type "way" ;
+    ext:osm_id "966146652"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:967022598
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ làng Miêu Nha" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7377647 21.0156765)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "967022598"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1090377184
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phú Diễn" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7581463 21.0516313)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1090377184"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1115557681
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "chợ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7787019 21.0600602)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngõ 119 Cổ Nhuế, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_street "Ngõ 119 Cổ Nhuế" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_street "Ngõ 119 Cổ Nhuế" ;
+    ext:addr_subdistrict "Cổ Nhuế 2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1115557681"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1115559899
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "cửa hàng tiện lợi xuân spest" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7780145 21.0608886)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngách 120/64 Cổ Nhuế, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_street "Ngách 120/64 Cổ Nhuế" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_street "Ngách 120/64 Cổ Nhuế" ;
+    ext:addr_subdistrict "Cổ Nhuế 2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1115559899"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1115561574
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "thức ăn chăn nuôi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7784167 21.0601264)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngách 120/64 Đường Cổ Nhuế, Bắc Từ Liêm, Hà Nội" ;
+    ext:addr_street "Ngách 120/64 Đường Cổ Nhuế" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_street "Ngách 120/64 Đường Cổ Nhuế" ;
+    ext:addr_subdistrict "Cổ Nhuế 2" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1115561574"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1116246887
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nhà Xanh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7860583 21.0378844)"^^geo:wktLiteral
+    ] ;
+    schema:sameAs <http://www.wikidata.org/entity/Q86005924> ;
+    schema:legalName "Chợ Nhà Xanh"@vi ;
+    schema:description "khu chợ tại quận Cầu Giấy, Hà Nội"@vi ;
+    ext:building "yes" ;
+    ext:wikipedia "vi:Chợ Nhà Xanh" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1116246887"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1117758768
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7221448 21.0168007)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1117758768"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1117758769
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7221119 21.0161631)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1117758769"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1202447567
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7876037 21.0691063)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1202447567"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1206047791
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Mỹ Đình" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7779682 21.0309136)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1206047791"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1213238763
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Quan Hoa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7999961 21.0346768)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1213238763"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1229058063
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7851874 21.0315927)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229058063"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1229058093
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ 337 Dịch Vọng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7924739 21.0325499)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1229058093"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1253824080
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7849153 21.0345235)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1253824080"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:16437918
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Trung tâm thương mại dịch vụ Nghĩa Đô" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7949172 21.0447858)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "relation" ;
+    ext:osm_id "16437918"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:2136318858
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hoa Quảng Bá" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8272643 21.0682495)"^^geo:wktLiteral
+    ] ;
+    ext:name_de "Frischmarkt" ;
+    ext:name_ja "マーケット" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2136318858"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:2136318878
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8360083 21.0770945)"^^geo:wktLiteral
+    ] ;
+    ext:sport "soccer" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2136318878"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:2290037023
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8478962 21.024853)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Book Market and Cafes" ;
+    ext:osm_type "node" ;
+    ext:osm_id "2290037023"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:2297911469
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8927714 21.0596487)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "2297911469"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:4489385889
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đêm Hàng Đào – Đồng Xuân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8509571 21.0335078)"^^geo:wktLiteral
+    ] ;
+    schema:address "Hàng Đào" ;
+    ext:addr_street "Hàng Đào" ;
+    ext:addr_street "Hàng Đào" ;
+    ext:name_en "Hanoi Weekend Night Market" ;
+    ext:name_fr "Marché de nuit d\\'Hanoi" ;
+    ext:name_ko "하노이 야시장" ;
+    ext:name_zh "河内夜市" ;
+    ext:opening_hours "Fr-Su 18:00-00:00" ;
+    ext:tourism "attraction" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4489385889"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:4572907889
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đêm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8523763 21.0332192)"^^geo:wktLiteral
+    ] ;
+    schema:address "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_country "VN" ;
+    ext:name_de "Nachtmarkt" ;
+    ext:name_en "Night Market" ;
+    ext:name_zh "夜市" ;
+    ext:opening_hours "Fr-Su 19:00-22:00" ;
+    ext:tourism "attraction" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4572907889"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5485651759
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Sáng Trần Quang Diệu" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8270102 21.0170546)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485651759"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5485657266
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Tình Sapa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8133716 21.008478)"^^geo:wktLiteral
+    ] ;
+    schema:address "1 Quan Nhân" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Quan Nhân" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Quan Nhân" ;
+    ext:takeaway "no" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485657266"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5485660083
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Láng Thượng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8048715 21.0236535)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485660083"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5485665267
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hoa Quảng An" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8272796 21.0679022)"^^geo:wktLiteral
+    ] ;
+    schema:address "236 Đường Âu Cơ" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_street "Đường Âu Cơ" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_street "Đường Âu Cơ" ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485665267"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5485711487
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.841697 21.0282006)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "5485711487"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:6685404399
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Viet Mark" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8614475 21.0066433)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Kim Ngưu" ;
+    ext:addr_street "Phố Kim Ngưu" ;
+    ext:addr_street "Phố Kim Ngưu" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6685404399"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:6685506998
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8010869 21.0201039)"^^geo:wktLiteral
+    ] ;
+    ext:button_operated "no" ;
+    ext:crossing "traffic_signals" ;
+    ext:traffic_signals_direction "forward" ;
+    ext:traffic_signals_sound "no" ;
+    ext:traffic_signals_vibration "no" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6685506998"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7061733386
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8125797 21.032155)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Lotte Centre" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7061733386"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7202554793
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8530217 21.032633)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "7202554793"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:9237323772
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Tư Đình" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8871527 21.0273881)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "9237323772"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:9976457533
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trung Tự" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8330627 21.0086201)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "9976457533"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:9976457534
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nam Đồng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8283958 21.0117663)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "9976457534"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:10720585225
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bách Khoa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.845399 21.0016618)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "10720585225"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:10858085458
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bưởi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8066076 21.0481877)"^^geo:wktLiteral
+    ] ;
+    ext:opening_hours "PH,Mo-Su 07:00-21:30" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10858085458"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:11644919775
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vĩnh Tuy" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8716876 21.0017434)"^^geo:wktLiteral
+    ] ;
+    schema:address "Hai Bà Trưng, Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_subdistrict "Vĩnh Tuy" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11644919775"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:12694077466
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Thành Công" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8153118 21.0227967)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12694077466"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:28847036
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hàng Da" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8463455 21.0314652)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:name_en "Hang Da Galleria" ;
+    ext:osm_type "way" ;
+    ext:osm_id "28847036"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:244102704
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8266546 21.0364197)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "244102704"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:568394248
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Gia Thụy" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8875135 21.0517615)"^^geo:wktLiteral
+    ] ;
+    schema:address "Ngách 640/21 Đường Nguyễn Văn Cừ, Long Biên, Hà Nội" ;
+    ext:addr_street "Ngách 640/21 Đường Nguyễn Văn Cừ" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_street "Ngách 640/21 Đường Nguyễn Văn Cừ" ;
+    ext:addr_subdistrict "Gia Thụy" ;
+    ext:description "11 nóc mái tôn đỏ, cọc sắt, 1 tầng, họp chợ sáng," ;
+    ext:osm_type "way" ;
+    ext:osm_id "568394248"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:573038806
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phú Gia" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8105261 21.0855009)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "573038806"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:698273221
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cống Vị" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8144196 21.037261)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Cong Vi Marketplace" ;
+    ext:osm_type "way" ;
+    ext:osm_id "698273221"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:699905182
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Tam Đa" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8189366 21.0430985)"^^geo:wktLiteral
+    ] ;
+    ext:building "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "699905182"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:700627459
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cầu Đông" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8503712 21.0379366)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Cau Dong Market" ;
+    ext:name_fr "Marché de Cau Dong" ;
+    ext:name_id "Pasar Cau Dong" ;
+    ext:name_zh "桥东市场" ;
+    ext:osm_type "way" ;
+    ext:osm_id "700627459"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:700671941
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Châu Long" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.841917 21.0439068)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Chau Long Market" ;
+    ext:name_id "Pasar Chau Long" ;
+    ext:name_zh "珠龙市场" ;
+    ext:osm_type "way" ;
+    ext:osm_id "700671941"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:702456227
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngô Sĩ Liên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8392143 21.0270923)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Ngo Si Lien Market" ;
+    ext:name_id "Pasar Ngo Si Lien" ;
+    ext:name_zh "吴士连市场" ;
+    ext:osm_type "way" ;
+    ext:osm_id "702456227"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:704159180
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Gia Lâm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8754879 21.0469542)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:name_en "Gia Lam Market" ;
+    ext:osm_type "way" ;
+    ext:osm_id "704159180"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:704159193
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngọc Lâm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8649337 21.0436664)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:name_en "Ngoc Lam Market" ;
+    ext:osm_type "way" ;
+    ext:osm_id "704159193"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:704250708
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bồ Đề" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8701895 21.0338268)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "704250708"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:704292524
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngọc Thuỵ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.867257 21.0556313)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "704292524"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:704292579
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Gia Quất" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8784702 21.0536735)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "704292579"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:840803809
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngã Tư Sở" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8183919 21.0026637)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "840803809"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:840867180
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Kim Liên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8355452 21.0060492)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Lương Định Của, Đống Đa, Hà Nội" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:addr_subdistrict "Kim Liên" ;
+    ext:osm_type "way" ;
+    ext:osm_id "840867180"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:888367936
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Khương Thượng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8313907 21.0055499)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "888367936"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:930229621
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Long Biên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8510447 21.0414139)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "930229621"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:943911446
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Thái Hà" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8227268 21.0139879)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "943911446"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1063191459
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Linh Lang" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8103342 21.0342446)"^^geo:wktLiteral
+    ] ;
+    schema:address "53 P. Linh Lang, Ba Đình, Hà Nội" ;
+    ext:addr_housenumber "53" ;
+    ext:addr_street "P. Linh Lang" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_housenumber "53" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "P. Linh Lang" ;
+    ext:addr_subdistrict "Cống Vị" ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1063191459"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1114925845
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngọc Thụy 2" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.872203 21.0611998)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1114925845"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1114927597
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Thượng Thanh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8906461 21.0696863)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1114927597"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1178261607
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8196745 21.0558237)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1178261607"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1178261620
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8200582 21.0566204)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1178261620"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1213883582
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nghĩa Đô" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8076723 21.0519642)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1213883582"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1213885337
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Cầu Giấy" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8006321 21.0302053)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1213885337"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1253565814
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vĩnh Tuy" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.871544 21.0018938)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Vĩnh Tuy, Hai Bà Trưng, Hà Nội" ;
+    ext:addr_street "Phố Vĩnh Tuy" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Vĩnh Tuy" ;
+    ext:addr_subdistrict "Vĩnh Tuy" ;
+    ext:building "commercial" ;
+    ext:opening_hours "Mo-Su 05:00-18:00" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1253565814"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1255852379
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đồng Xuân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8494308 21.0380927)"^^geo:wktLiteral
+    ] ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1094375> ;
+    schema:legalName "Chợ Đồng Xuân"@vi , "Dong Xuan Market"@en ;
+    schema:description "market in Hanoi, Vietnam"@en ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dong%20Xuan%20market.jpg> ;
+    ext:building "yes" ;
+    ext:name_en "Dong Xuan Market" ;
+    ext:name_es "Mercado Dong Xuan" ;
+    ext:name_fr "Le marché de Dong Xuan" ;
+    ext:name_id "Pasar Dong Xuan" ;
+    ext:name_ja "ドンスアン市場" ;
+    ext:name_ko "동 쑤언 시장" ;
+    ext:name_ms "Pasar Dong Xuan" ;
+    ext:name_th "ตลาดด่งซวน" ;
+    ext:name_tr "Dong Xuan Pazarı" ;
+    ext:name_vi "Chợ Đồng Xuân" ;
+    ext:name_vi-Hani "𢄂同春" ;
+    ext:name_zh "同春市场" ;
+    ext:name_zh-Hans "同春市场" ;
+    ext:name_zh-Hant "同春市場" ;
+    ext:opening_hours "Mo-Su 06:00-19:00" ;
+    ext:wikipedia "vi:Chợ Đồng Xuân" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1255852379"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1255852382
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Bắc Qua" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8500567 21.0383428)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:name_en "Bac Qua Market" ;
+    ext:name_es "Mercado Bac Qua" ;
+    ext:name_tr "Bac Qua Pazarı" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1255852382"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1301719963
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Ngọc Hà" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.831597 21.0337197)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Ngoc Ha Marketplace" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1301719963"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7112202
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ đêm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8503955 21.0345923)"^^geo:wktLiteral
+    ] ;
+    ext:description "For more information see http://www.hanoiweather.info/2015/09/hanoi-night-market.html" ;
+    ext:name_de "Nachtmarkt" ;
+    ext:name_en "Night Market" ;
+    ext:name_zh "夜市" ;
+    ext:opening_hours "Fr-Su 18:00-23:00" ;
+    ext:tourism "attraction" ;
+    ext:osm_type "relation" ;
+    ext:osm_id "7112202"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:11623141
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Hôm" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8517902 21.0171532)"^^geo:wktLiteral
+    ] ;
+    schema:address "79 Phố Huế, Hai Bà Trưng, Hà Nội" ;
+    ext:addr_housenumber "79" ;
+    ext:addr_street "Phố Huế" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "79" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Huế" ;
+    ext:addr_subdistrict "Ngô Thì Nhậm" ;
+    ext:building "commercial" ;
+    ext:building_levels "3" ;
+    ext:osm_type "relation" ;
+    ext:osm_id "11623141"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:4698571049
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9911384 21.0248258)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "4698571049"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:11989415196
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Baza" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9408587 21.0857314)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11989415196"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:479832688
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Viglacera Community Market" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9456344 21.0170588)"^^geo:wktLiteral
+    ] ;
+    ext:description "Small shops and stalls sell fresh produce, meat, tofu and prepared goods. Some small restaurants are present." ;
+    ext:osm_type "way" ;
+    ext:osm_id "479832688"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:659860833
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vân" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.919518 21.0867681)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "659860833"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:659915520
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Nành" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9475208 21.0788666)"^^geo:wktLiteral
+    ] ;
+    ext:building "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "659915520"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:660703617
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Lã Côi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9201939 21.0975157)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "660703617"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:660703679
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Dốc Lã" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9289634 21.0960443)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:opening_hours "24/7" ;
+    ext:osm_type "way" ;
+    ext:osm_id "660703679"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:660703726
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đầu Mối Quy Mông" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.931252 21.098461)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "660703726"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:661138415
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Yên Thường" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9175627 21.0985124)"^^geo:wktLiteral
+    ] ;
+    ext:building "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "661138415"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:661451818
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9835169 21.0962282)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "661451818"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1074490447
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vũ Xuân Thiều" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9154165 21.0309369)"^^geo:wktLiteral
+    ] ;
+    schema:address "42 Phố Vũ Xuân Thiều, Long Biên, Hà Nội" ;
+    ext:addr_housenumber "42" ;
+    ext:addr_street "Phố Vũ Xuân Thiều" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "42" ;
+    ext:addr_province "Hà Nội" ;
+    ext:addr_street "Phố Vũ Xuân Thiều" ;
+    ext:addr_subdistrict "Sài Đồng" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1074490447"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1122930513
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Vàng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9421053 21.0317097)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1122930513"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1153847221
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ sinh viên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9352389 21.0057177)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1153847221"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1187339538
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phúc Lợi" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9258521 21.0430171)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1187339538"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1212720895
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trâu Quỳ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9385273 21.0121178)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1212720895"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1231344672
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9028028 21.0398071)"^^geo:wktLiteral
+    ] ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1231344672"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1251537938
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Giang Biên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9166642 21.0624538)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1251537938"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1315451332
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9114584 21.0356943)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1315451332"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1408786497
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ May 10" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.916726 21.0379637)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1408786497"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:7178806762
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8772089 21.1098019)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Sa Market" ;
+    ext:osm_type "node" ;
+    ext:osm_id "7178806762"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1185629560
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Dục Tú" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8961356 21.1169897)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1185629560"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1185901824
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Trung tâm Đông Anh" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8456087 21.1384612)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "way" ;
+    ext:osm_id "1185901824"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:5618095144
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Chờ" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9557221 21.1945675)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "5618095144"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:13230939183
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ đầu mối thủy hải sản đêm khu phố Nguyễn Giáo - phường Đồng Nguyên" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9652309 21.1226782)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Ngô Gia Tự, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_subdistrict "Phường Đồng Nguyên" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13230939183"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:576742681
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Từ Sơn" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9612733 21.1167611)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "576742681"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:646860252
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Phù Khê Thượng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9320416 21.1467514)"^^geo:wktLiteral
+    ] ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "646860252"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:647253455
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Mai Động" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9450916 21.1542366)"^^geo:wktLiteral
+    ] ;
+    ext:building "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "647253455"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:647396968
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Viềng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.980146 21.1289171)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Viềng A, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_street "Phố Viềng A" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_street "Phố Viềng A" ;
+    ext:addr_subdistrict "Phường Đồng Nguyên" ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "647396968"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:650062691
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đình" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9410642 21.1377217)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Nguyễn Văn Cừ, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_street "Đường Nguyễn Văn Cừ" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_street "Đường Nguyễn Văn Cừ" ;
+    ext:addr_subdistrict "Phường Đồng Kỵ" ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "650062691"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:661161579
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Me" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9286885 21.1550983)"^^geo:wktLiteral
+    ] ;
+    schema:address "Đường Đàm Thận Huy, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_street "Đường Đàm Thận Huy" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_street "Đường Đàm Thận Huy" ;
+    ext:addr_subdistrict "Phường Hương Mạc" ;
+    ext:landuse "retail" ;
+    ext:osm_type "way" ;
+    ext:osm_id "661161579"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:661161636
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Đa Hội" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9204199 21.1224102)"^^geo:wktLiteral
+    ] ;
+    schema:address "Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_subdistrict "Phường Châu Khê" ;
+    ext:building "yes" ;
+    ext:osm_type "way" ;
+    ext:osm_id "661161636"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:685172229
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ mới Yên Lã" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9726116 21.1153481)"^^geo:wktLiteral
+    ] ;
+    schema:address "Phố Yên Lã, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_street "Phố Yên Lã" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_street "Phố Yên Lã" ;
+    ext:addr_subdistrict "Phường Tân Hồng" ;
+    ext:osm_type "way" ;
+    ext:osm_id "685172229"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:marketplace:1433740849
+    a fiware:PointOfInterest, schema:Market ;
+    schema:name "Chợ Tiến Bào" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.9349688 21.1357303)"^^geo:wktLiteral
+    ] ;
+    schema:address "Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_province "Bac Ninh" ;
+    ext:addr_subdistrict "Phường Phù Khê" ;
+    ext:osm_type "way" ;
+    ext:osm_id "1433740849"^^xsd:integer .
+

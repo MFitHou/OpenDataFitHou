@@ -1,0 +1,220 @@
+
+@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix schema: <https://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+
+# OpenData FitHou - Drinking_Water data from OpenStreetMap
+# Generated on 2025-11-30 09:14:49
+# Total records: 19
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4748316721
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "54 vũ trọng phụng" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.809002 20.9985524)"^^geo:wktLiteral
+    ] ;
+    ext:name_vi "54 vũ trọng phụng" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4748316721"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6698948887
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Trà đá Nước mia đá" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.7782313 21.0656762)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Tea" ;
+    ext:osm_type "node" ;
+    ext:osm_id "6698948887"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4758991221
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Quán trà đá" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8650398 21.0051308)"^^geo:wktLiteral
+    ] ;
+    ext:name_vi "Quán trà đá" ;
+    ext:osm_type "node" ;
+    ext:osm_id "4758991221"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:5942473585
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8477823 21.0248917)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "5942473585"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6292723885
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8502495 21.0263777)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "6292723885"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931507054
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8534447 21.0260995)"^^geo:wktLiteral
+    ] ;
+    ext:bottle "yes" ;
+    ext:fee "no" ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9931507054"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931530710
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8547899 21.0275822)"^^geo:wktLiteral
+    ] ;
+    ext:bottle "yes" ;
+    ext:fee "no" ;
+    ext:osm_type "node" ;
+    ext:osm_id "9931530710"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10114776470
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8445302 21.0038661)"^^geo:wktLiteral
+    ] ;
+    ext:access "yes" ;
+    ext:bottle "yes" ;
+    ext:fee "no" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10114776470"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10660753505
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8538234 21.0273522)"^^geo:wktLiteral
+    ] ;
+    ext:name_en "Free drinking water dispenser (water refill)" ;
+    ext:osm_type "node" ;
+    ext:osm_id "10660753505"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11191573737
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.853708 21.0298177)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11191573737"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11676700469
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8340434 21.0367523)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "drinking" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11676700469"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11834019569
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8514172 21.0280465)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11834019569"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11865316771
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8466528 21.031276)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "11865316771"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11893374272
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8519581 21.0261536)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "11893374272"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12086821054
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8323055 21.03464)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12086821054"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12129133501
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.854721 21.0272682)"^^geo:wktLiteral
+    ] ;
+    ext:osm_type "node" ;
+    ext:osm_id "12129133501"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12278326273
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.853901 21.0311419)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12278326273"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12690411001
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8462172 21.0173765)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "12690411001"^^xsd:integer .
+
+urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:13005736901
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    schema:name "Unknown" ;
+    geo:hasGeometry [
+        a geo:Point ;
+        geo:asWKT "POINT(105.8472437 21.0180172)"^^geo:wktLiteral
+    ] ;
+    ext:fountain "bubbler" ;
+    ext:osm_type "node" ;
+    ext:osm_id "13005736901"^^xsd:integer .
+
