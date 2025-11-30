@@ -7,6 +7,20 @@ và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0
 
 ## Chưa phát hành
 
+### ✨ Đã thêm
+- Add Smart Translation Lookup Module for Vietnamese POI names ([@honganhss](https://github.com/honganhss) in [aeb7d19](https://github.com/MFitHou/OpenDataFitHou/commit/aeb7d194dcec541ee86b868c2f6dc52a0d14e7b6))
+- **copilot**: add custom instructions for GitHub Copilot integration ([@honganhss](https://github.com/honganhss) in [25a8cf7](https://github.com/MFitHou/OpenDataFitHou/commit/25a8cf7c6262877138ce97468c2b415ed7e04bcb))
+- **deployment**: Add deployment scripts and configuration for IoT Collector ([@honganhss](https://github.com/honganhss) in [aeb1702](https://github.com/MFitHou/OpenDataFitHou/commit/aeb1702c02e30b2ba190cc28910e836e8a2975e7))
+
+### 📝 Các thay đổi khác
+- Add configuration for git-cliff to manage changelog generation ([@honganhss](https://github.com/honganhss) in [81b7c1c](https://github.com/MFitHou/OpenDataFitHou/commit/81b7c1ca95d8e2d59e9ec5fdedbc15bda7366c35))
+- Add comprehensive tests for InfluxDB connection, OpenAQ API, realistic simulations, and simulation functions ([@honganhss](https://github.com/honganhss) in [bd57ee8](https://github.com/MFitHou/OpenDataFitHou/commit/bd57ee8e1863cbf0ffd1606441db949092995f87))
+- Merge pull request #23 from MFitHou/refactor-add-IoT-data ([@Hồng Ánh](https://github.com/Hồng Ánh) in [69bbd7e](https://github.com/MFitHou/OpenDataFitHou/commit/69bbd7e27eb26c9593227c282253e8c40d94847a))
+
+### 🔧 Maintenance
+- add license headers and metadata to all Python files ([@honganhss](https://github.com/honganhss) in [7a03c89](https://github.com/MFitHou/OpenDataFitHou/commit/7a03c89396fef014e43c593c57d3e5a49c4e3843))
+## 1.1.0
+
 ### 📝 Các thay đổi khác
 - Update README ([@Tống Tâm Xuân](https://github.com/Tống Tâm Xuân) in [5acafa1](https://github.com/MFitHou/OpenDataFitHou/commit/5acafa1c35f6484c11031847d98fef494e9523ab))
 - update readme + scripts setup auto ([@honganhss](https://github.com/honganhss) in [747f1eb](https://github.com/MFitHou/OpenDataFitHou/commit/747f1ebf6f676303cc9657416ed111ee69982903))
@@ -25,6 +39,7 @@ và dự án này tuân thủ [Semantic Versioning](https://semver.org/spec/v2.0
 - thu thập dữ liệu ([@honganhss](https://github.com/honganhss) in [4616ada](https://github.com/MFitHou/OpenDataFitHou/commit/4616ada840cd028821b03a6d174fa859a732ad62))
 - clean dữ liệu theo khu vực địa lý. Loại bỏ các mã id OSM thay thành tên cụ thể + tạo linked data ([@honganhss](https://github.com/honganhss) in [9950ad1](https://github.com/MFitHou/OpenDataFitHou/commit/9950ad1b0947d085da4da324583ed943d95ba3d1))
 - loại bỏ theo dõi các file trong thư mục raw data + cache ([@honganhss](https://github.com/honganhss) in [d924f6a](https://github.com/MFitHou/OpenDataFitHou/commit/d924f6a0eb7803b791953f0aa39bcfe72d4b7edb))
+- Merge pull request #22 from MFitHou/refactor-add-IoT-data ([@Hồng Ánh](https://github.com/Hồng Ánh) in [d344bda](https://github.com/MFitHou/OpenDataFitHou/commit/d344bda56471033a092e4d07e7f7108fd256f9ec))
 ## 1.0
 
 ### 📝 Các thay đổi khác
