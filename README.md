@@ -5,10 +5,46 @@
 **OpenDataFitHou** là repo thu thập và xử lý **dữ liệu mở** từ nhiều nguồn khác nhau nhằm phục vụ nghiên cứu và ứng dụng trong **chuyển đổi số**.  
 
 ## 📂 Cấu trúc repo
-Repo gồm các thành phần chính:
-- `*.ipynb` : Notebook Jupyter dùng để xử lý, chuyển đổi và trực quan hóa dữ liệu.
-- `data/` : Thư mục chứa dữ liệu **GeoJSON** thu thập từ Overpass API (OpenStreetMap).
-- `opendata_hanoi/` : Các file dữ liệu đã chuyển đổi sang dạng **RDF (.ttl)**.
+
+```
+OpenDataFitHou/
+├── src/                          # Mã nguồn chính
+│   ├── fetchers/                 # Modules thu thập dữ liệu
+│   │   └── osm_data_fetcher.py   # Thu thập từ OpenStreetMap
+│   ├── processors/               # Modules xử lý dữ liệu
+│   │   ├── batch_processor.py    # Xử lý batch
+│   │   ├── clean_*.py           # Các scripts làm sạch dữ liệu
+│   │   └── generate_topology.py  # Tạo topology
+│   ├── validators/               # Modules kiểm tra validation
+│   │   └── verify_*.py          # Các scripts verify
+│   └── utils/                    # Utilities
+│       └── smart_translate_lookup.py
+├── tests/                        # Unit tests và integration tests
+│   ├── test_*.py                # Test cases
+│   ├── check_*.py               # Validation checks
+│   └── debug_*.py               # Debug scripts
+├── notebooks/                    # Jupyter notebooks
+│   ├── OverpassApi.ipynb        # Thu thập dữ liệu OSM
+│   └── ParseRDF.ipynb           # Chuyển đổi sang RDF
+├── scripts/                      # Utility scripts
+│   └── example_topology_queries.py
+├── config/                       # Configuration files
+│   └── config_amenity_types.py
+├── data/                         # Dữ liệu
+│   ├── *.geojson                # Dữ liệu GeoJSON
+│   ├── ontology.owl             # Ontology definition
+│   ├── translation_cache.json   # Cache dịch thuật
+│   └── opendata_hanoi/          # Dữ liệu RDF đã xử lý
+├── datav2/                       # Dữ liệu phiên bản 2
+│   ├── data_hanoi_*.ttl         # Các file RDF theo loại
+│   └── cleaned/                  # Dữ liệu đã làm sạch
+├── docs/                         # Documentation
+├── .env.example                  # Environment variables mẫu
+├── requirements.txt              # Python dependencies
+├── Dockerfile                    # Docker configuration
+├── docker-compose.yml            # Docker compose setup
+└── README.md                     # File này
+```
 
 ## 🌐 Nguồn dữ liệu
 - **Overpass API (OpenStreetMap)**: Thu thập dữ liệu địa lý mở (ATM, trường học, bệnh viện, bến xe bus, v.v.).
