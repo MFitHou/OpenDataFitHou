@@ -1,0 +1,1074 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:444394873>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "444394873"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Văn Mỗ"@vi ,
+                "Buu Cuc Van Mo"@en ;
+    geo:asWKT "POINT(105.7922468 20.9835021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:6516239487>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "6516239487"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Dương Nội"@vi ,
+                "Buu Dien Duong Noi"@en ;
+    geo:asWKT "POINT(105.7486076 20.9799614)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7409549830>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7409549830"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Phụng Châu"@vi ,
+                "Buu Dien Phung Chau"@en ;
+    ext:addr_street "Phượng Nghĩa" ;
+    ext:addr_district "Chương Mỹ" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7070441 20.9488979)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7893470209>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7893470209"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Biên Giang"@vi ,
+                "Buu Dien Bien Giang"@en ;
+    geo:asWKT "POINT(105.7173654 20.9304682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9042218607>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9042218607"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Vạn Phúc"@vi ,
+                "Buu Dien Van Phuc"@en ;
+    geo:asWKT "POINT(105.7747903 20.9798928)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1236192822>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1236192822"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Hà Đông"@vi ,
+                "Buu dien Ha Dong"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Đường Quang Trung" ;
+    geo:asWKT "POINT(105.7783508 20.9734088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1267913616>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1267913616"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện huyện Chương Mỹ"@vi ,
+                "Buu dien huyen Chuong My"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_postcode "13400" ;
+    geo:asWKT "POINT(105.7051649 20.9240304)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1755806889>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1755806889"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Giải Phóng"@vi ,
+                "Buu Cuc Giai Phong"@en ;
+    ext:addr_housenumber "811" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8414593 20.9832502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:4945035121>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "4945035121"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "VNPT VINAPHONE KHU VỰC 6"@vi ,
+                "VNPT VINAPHONE ZONE 6"@en ;
+    schema:operator "Phòng BHKV6 - TTKD VNPT HÀ NỘI" ;
+    ext:addr_street "Khu Công Nghiệp Ngọc Hồi- Thanh Trì - Hà Nội" ;
+    schema:telephone "+84 24 3684 0271" ;
+    schema:openingHours "Mo-Su 08:00-19:00" ;
+    schema:url <https://hanoi.vnpt.vn/> ;
+    geo:asWKT "POINT(105.8521009 20.9139305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:5485799797>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "5485799797"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "ViettelPost"@vi ,
+                "ViettelPost"@en ;
+    ext:addr_street "Nguyễn Cảnh Dị" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8357819 20.9740337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:6346457447>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "6346457447"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Yên Mỹ"@vi ,
+                "Buu Dien Yen My"@en ;
+    schema:operator "Goverment" ;
+    schema:openingHours "Mo-Su 08:00-21:00" ;
+    geo:asWKT "POINT(105.8733014 20.9454795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856622550>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856622550"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Chợ Mơ"@vi ,
+                "Buu Cuc Market Mo"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Minh Khai" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8500913 20.9956981)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420432154>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420432154"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Khương Mai"@vi ,
+                "Khuong Mai Post Office"@en ;
+    schema:operator "Bưu điện Trung tâm 3" ;
+    ext:addr_housenumber "185" ;
+    ext:addr_street "Phố Nguyễn Ngọc Nại" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8267585 20.9973974)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420438149>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420438149"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Thanh Xuân Bắc"@vi ,
+                "Buu Dien Thanh Xuan Bac"@en ;
+    schema:operator "Bưu điện Trung tâm 3" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8019257 20.9910172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420438150>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420438150"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Khương Đình"@vi ,
+                "Buu Dien Khuong Dinh"@en ;
+    schema:operator "Bưu điện Trung tâm 3" ;
+    ext:addr_housenumber "20" ;
+    ext:addr_street "Đường Khương Đình" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8134581 20.9976955)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9422173850>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9422173850"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Việt Nam"@vi ,
+                "Vietnam Post"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Phố Nguyễn An Ninh" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8468199 20.9887626)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9683330882>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9683330882"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Việt Nam"@vi ,
+                "Vietnam Post"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 243 641 4342" ;
+    schema:openingHours "Mo-Sa 07:30-18:00; Su 08:00-17:00" ;
+    schema:url <http://www.vnpost.vn/> ;
+    geo:asWKT "POINT(105.8268207 20.9697129)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1040467292>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1040467292"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu Cục Hạ Đình"@vi ,
+                "Buu Cuc Ha Dinh"@en ;
+    geo:asWKT "POINT(105.807634 20.9895454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1168580666>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1168580666"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Định Công"@vi ,
+                "Buu dien Dinh Cong"@en ;
+    geo:asWKT "POINT(105.83176 20.9877374)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1236192820>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1236192820"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Thanh Xuân"@vi ,
+                "Buu dien Thanh Xuan"@en ;
+    schema:operator "Vietnam Post" ;
+    geo:asWKT "POINT(105.8092415 20.9979239)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1267912606>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1267912606"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện huyện Thanh Trì"@vi ,
+                "Buu dien huyen Thanh Tri"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "5-7" ;
+    ext:addr_street "Đường Nguyễn Bặc" ;
+    ext:addr_postcode "12500" ;
+    schema:telephone "+84 024 3861 5218" ;
+    schema:openingHours "Mo-Sa 07:30-12:00,13:30-19:00; Su,PH 08:00-12:00,13:30-18:00" ;
+    geo:asWKT "POINT(105.8452026 20.9454432)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1267912610>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1267912610"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Đông Mỹ"@vi ,
+                "Buu dien Dong My"@en ;
+    schema:operator "Vietnam Post" ;
+    geo:asWKT "POINT(105.8667536 20.9177718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:13284616828>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "13284616828"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Nghĩa Trụ"@vi ,
+                "Buu Cuc Nghia Tru"@en ;
+    schema:operator "Vietnam Post" ;
+    geo:asWKT "POINT(105.958249 20.9413793)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1447891820>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1447891820"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Vietnam Post"@vi ,
+                "Vietnam Post Post Office"@en ;
+    schema:operator "Vietnam Post" ;
+    geo:asWKT "POINT(105.9582448 20.9414048)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:2545040241>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "2545040241"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Cầu Giấy"@vi ,
+                "Buu Dien Cau Giay"@en ;
+    ext:addr_housenumber "165" ;
+    ext:addr_street "Đường Cầu Giấy" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7984274 21.0325341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:5296689023>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "5296689023"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Xuân Phương"@vi ,
+                "Xuan Phuong Post Office"@en ;
+    geo:asWKT "POINT(105.747028 21.0346495)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:8361003166>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "8361003166"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Viettel Post"@vi ,
+                "Viettel Post"@en ;
+    geo:asWKT "POINT(105.7854675 21.0888885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:8363303883>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "8363303883"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện tại Đường Cổ Nhuế"@vi ,
+                "Post Office at Duong Co Nhue"@en ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    geo:asWKT "POINT(105.7779461 21.0696153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420492209>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420492209"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Hoàng Quốc Việt"@vi ,
+                "Buu Dien Hoang Quoc Viet"@en ;
+    schema:operator "Bưu điện Trung tâm 3" ;
+    ext:addr_housenumber "393" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.79117 21.04587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420492210>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420492210"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Nghĩa Tân"@vi ,
+                "Buu dien Nghia Tan"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7945201 21.0442446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420492211>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420492211"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện tại Phố Hoàng Sâm"@vi ,
+                "Post Office at Pho Hoang Sam"@en ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Hoàng Sâm" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.79928 21.0455958)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:10248628298>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "10248628298"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "AAL Express"@vi ,
+                "AAL Express"@en ;
+    schema:operator "AAL Express JSC" ;
+    ext:addr_housenumber "243" ;
+    ext:addr_street "Phố Trần Quốc Hoàn" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7821546 21.0416739)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11564316606>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11564316606"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "247Express"@vi ,
+                "247Express"@en ;
+    schema:operator "247Express" ;
+    ext:addr_housenumber "73" ;
+    ext:addr_street "Đường Đặng Thùy Trâm" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7860537 21.0439306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11568907802>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11568907802"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Viettel Post"@vi ,
+                "Viettel Post"@en ;
+    schema:operator "Viettel Post" ;
+    ext:addr_housenumber "42" ;
+    ext:addr_street "Phố Đặng Thùy Trâm" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.785706 21.0438508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11571556924>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11571556924"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "J&T Express"@vi ,
+                "J&T Express"@en ;
+    ext:addr_housenumber "51" ;
+    ext:addr_street "Ngõ 3 Phạm Tuấn Tài" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7847432 21.0438806)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:874998873>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "874998873"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Nam Từ Liêm"@vi ,
+                "Buu dien Nam Tu Liem"@en ;
+    geo:asWKT "POINT(105.7648852 21.0398786)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:965945333>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "965945333"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Trung tâm Cầu Giấy"@vi ,
+                "Buu dien Trung tam Cau Giay"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "50" ;
+    ext:addr_street "Phố Lưu Quang Vũ" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7995466 21.0149128)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1231794774>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1231794774"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Mỹ Đình 2"@vi ,
+                "Buu dien My Dinh 2"@en ;
+    ext:addr_housenumber "14" ;
+    ext:addr_street "Phố Nguyễn Cơ Thạch" ;
+    geo:asWKT "POINT(105.7665554 21.0374125)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1318588365>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1318588365"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Mỹ Đình 2"@vi ,
+                "Buu dien My Dinh 2"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Nguyễn Cơ Thạch" ;
+    geo:asWKT "POINT(105.7653878 21.0319294)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:2297871686>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "2297871686"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Gia Lâm"@vi ,
+                "Buu Cuc Gia Lam"@en ;
+    geo:asWKT "POINT(105.8797466 21.0462468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:2810708201>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "2810708201"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Quốc tế"@vi ,
+                "International Post Office"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "75B" ;
+    ext:addr_street "Phố Đinh Tiên Hoàng" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "11054" ;
+    schema:openingHours "Mo-Su 07:30-19:00" ;
+    geo:asWKT "POINT(105.8536135 21.0261709)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:4406493092>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "4406493092"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Lương Văn Can"@vi ,
+                "Buu dien Luong Van Can"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "66" ;
+    ext:addr_street "Phố Lương Văn Can" ;
+    ext:addr_postcode "11057" ;
+    geo:asWKT "POINT(105.8509139 21.0314261)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:4536058095>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "4536058095"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "VIETTEL POST"@vi ,
+                "VIETTEL POST"@en ;
+    ext:addr_street "Ngõ 118 Nguyễn Khánh Toàn" ;
+    geo:asWKT "POINT(105.801133 21.0380589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:4571873590>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "4571873590"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Tràng Tiền"@vi ,
+                "Buu dien Trang Tien"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "66" ;
+    ext:addr_street "Phố Tràng Tiền" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.853585 21.02542)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:4734482024>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "4734482024"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Hàng Cót"@vi ,
+                "Buu Cuc Hang Cot"@en ;
+    ext:addr_housenumber "16D" ;
+    ext:addr_street "Phố Phùng Hưng" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8462541 21.0379952)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:5239480022>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "5239480022"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục EMS Tràng Tiền"@vi ,
+                "EMS Vietnam"@en ;
+    ext:addr_housenumber "18C" ;
+    ext:addr_street "Phố Hàng Vôi" ;
+    geo:asWKT "POINT(105.8560389 21.030761)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:5281622724>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "5281622724"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện #5281622724"@vi ,
+                "Post Office #5281622724"@en ;
+    geo:asWKT "POINT(105.8432765 21.045069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:5485727933>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "5485727933"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Giảng Võ"@vi ,
+                "Buu Cuc Giang Vo"@en ;
+    ext:addr_street "Giảng Võ" ;
+    geo:asWKT "POINT(105.8228123 21.0264169)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:6707397286>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "6707397286"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Trung Tâm 4"@vi ,
+                "Buu Dien Trung Tam 4"@en ;
+    schema:operator "VNPT" ;
+    ext:addr_housenumber "155C" ;
+    ext:addr_street "Đội Cấn" ;
+    geo:asWKT "POINT(105.8261919 21.0348514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7040081085>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7040081085"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "DHL"@vi ,
+                "DHL"@en ;
+    schema:brand "DHL" ;
+    geo:asWKT "POINT(105.8541885 21.0271277)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7178787481>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7178787481"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Đồng Xuân"@vi ,
+                "Buu dien Dong Xuan"@en ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Phố Đồng Xuân" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "11058" ;
+    geo:asWKT "POINT(105.8487138 21.0379903)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7612528481>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7612528481"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Kim Liên"@vi ,
+                "Buu dien Kim Lien"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8353822 21.0065216)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856211553>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856211553"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Giao Dịch EMS Hồng Hà"@vi ,
+                "Buu Cuc Giao Dich EMS Hong Ha"@en ;
+    ext:addr_housenumber "783" ;
+    ext:addr_street "Đường Hồng Hà" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8562032 21.0329252)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856211555>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856211555"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Cửa Nam"@vi ,
+                "Buu dien Cua Nam"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Phố Cửa Nam" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "11060" ;
+    geo:asWKT "POINT(105.8424213 21.0278903)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856350176>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856350176"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Trần Khát Chân"@vi ,
+                "Buu Dien Tran Khat Chan"@en ;
+    ext:addr_housenumber "393" ;
+    ext:addr_street "Đường Trần Khát Chân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8510034 21.0084292)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856350177>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856350177"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Giao Dịch EMS Hai Bà Trưng 1"@vi ,
+                "Buu Cuc Giao Dich EMS Hai Ba Trung 1"@en ;
+    ext:addr_housenumber "116" ;
+    ext:addr_street "Đường Trần Khát Chân" ;
+    geo:asWKT "POINT(105.8643299 21.0089127)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856383102>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856383102"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục Vân Hồ"@vi ,
+                "Buu Cuc Van Ho"@en ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Vân Hồ 3" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8464544 21.0103393)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856383103>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856383103"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Nguyễn Công Trứ"@vi ,
+                "Buu Dien Nguyen Cong Tru"@en ;
+    geo:asWKT "POINT(105.8535445 21.0131152)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856383104>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856383104"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Lò Đúc"@vi ,
+                "Buu Dien Lo Duc"@en ;
+    ext:addr_housenumber "114" ;
+    ext:addr_street "Phố Lò Đúc" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8577703 21.0132818)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856383105>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856383105"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện #7856383105"@vi ,
+                "Post Office #7856383105"@en ;
+    geo:asWKT "POINT(105.850939 21.0185045)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856622549>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856622549"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu cục Bách Khoa"@vi ,
+                "Buu cuc Bach Khoa"@en ;
+    ext:addr_street "Phố Tạ Quang Bửu" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8478062 21.0037079)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856622551>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856622551"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục KHL Hai Bà Trưng"@vi ,
+                "Buu Cuc KHL Hai Ba Trung"@en ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Phố Lạc Trung" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8672343 21.0025185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856622554>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856622554"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Đống Đa"@vi ,
+                "Buu dien Dong Da"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "35" ;
+    ext:addr_street "Phố Thái Thịnh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8211615 21.0071157)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7856622555>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7856622555"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Cục EMS Cát Linh"@vi ,
+                "Buu Cuc EMS Cat Linh"@en ;
+    schema:operator "Bưu điện Trung tâm 3" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Cát Linh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8319705 21.0284652)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:8709095325>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "8709095325"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Láng Trung"@vi ,
+                "Buu dien Lang Trung"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "95" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8081382 21.0190068)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420107280>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420107280"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Cống Vị"@vi ,
+                "Buu Dien Cong Vi"@en ;
+    schema:operator "Bưu điện Trung tâm 1" ;
+    ext:addr_housenumber "218" ;
+    ext:addr_street "Phố Đội Cấn" ;
+    geo:asWKT "POINT(105.8200541 21.0352365)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420364736>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420364736"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Đốc Ngữ"@vi ,
+                "Buu Dien Doc Ngu"@en ;
+    geo:asWKT "POINT(105.8106089 21.0377555)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9420432152>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9420432152"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu cục Đặng Tiến Đông"@vi ,
+                "Buu cuc Dang Tien Dong"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "47" ;
+    ext:addr_street "Phố Đặng Tiến Đông" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8244412 21.011343)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9422173848>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9422173848"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Yên Phụ"@vi ,
+                "Buu Dien Yen Phu"@en ;
+    ext:addr_housenumber "16A" ;
+    ext:addr_street "Phố Yên Phụ" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8389528 21.0511524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9422173849>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9422173849"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Ngọc Lâm"@vi ,
+                "Buu Dien Ngoc Lam"@en ;
+    ext:addr_housenumber "366" ;
+    ext:addr_street "Phố Ngọc Lâm" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.874248 21.0480822)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:9791862120>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "9791862120"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Trung tâm 1"@vi ,
+                "Buu dien Trung tam 1"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "75B" ;
+    ext:addr_street "Phố Đinh Tiên Hoàng" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Su 07:30-19:00" ;
+    geo:asWKT "POINT(105.8537314 21.0260817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:10181794617>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "10181794617"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện #10181794617"@vi ,
+                "Post Office #10181794617"@en ;
+    geo:asWKT "POINT(105.8479847 21.0371665)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:10846733402>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "10846733402"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu Điện Yên Thái"@vi ,
+                "Buu Dien Yen Thai"@en ;
+    schema:brand "Vietnam Post" ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "552" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8079641 21.0484811)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:10848062753>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "10848062753"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Giao hàng Tiết kiệm"@vi ,
+                "Giaohangtietkiem"@en ;
+    schema:brand "Giaohangtietkiem.vn" ;
+    schema:operator "Giao hàng Tiết kiệm" ;
+    schema:url <https://giaohangtietkiem.vn/> ;
+    geo:asWKT "POINT(105.8095512 21.0482088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11212149507>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11212149507"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "DHL"@vi ,
+                "DHL"@en ;
+    schema:brand "DHL" ;
+    ext:addr_housenumber "20B7" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3775 6937" ;
+    schema:openingHours "Mo-Sa 08:00-12:00,13:00-18:00" ;
+    geo:asWKT "POINT(105.8355154 21.0095505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11263842275>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11263842275"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Chuyển phát nhanh Văn Minh"@vi ,
+                "Chuyen phat nhanh Van Minh"@en ;
+    ext:addr_housenumber "189" ;
+    ext:addr_street "Phố Xã Đàn" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8327861 21.0152833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11285982899>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11285982899"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện Thành phố Hà Nội"@vi ,
+                "Hanoi Post"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "75" ;
+    ext:addr_street "Phố Đinh Tiên Hoàng" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3825 4403" ;
+    schema:email "cskh.bdhn@vnpost.vn" ;
+    schema:openingHours "Mo-Su 07:30-19:00" ;
+    schema:url <http://hanoi.vnpost.vn/> ;
+    geo:asWKT "POINT(105.8536733 21.0266979)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11461525769>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11461525769"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu cục Giao dịch EMS Hoàn Kiếm"@vi ,
+                "Buu cuc Giao dich EMS Hoan Kiem"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Phố Tràng Tiền" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8560267 21.0248007)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:11672848994>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "11672848994"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Viettel Post"@vi ,
+                "Viettel Post"@en ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Lê Đại Hành" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84352036739" ;
+    schema:url <https://viettelpost.com.vn/> ;
+    geo:asWKT "POINT(105.8503157 21.0097723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:12082718342>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "12082718342"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện CP16"@vi ,
+                "CP16 Postal office"@en ;
+    schema:operator "Cục Bưu điện Trung ương" ;
+    ext:addr_housenumber "5" ;
+    ext:addr_street "Phố Ông Ích Khiêm" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "10199" ;
+    geo:asWKT "POINT(105.8338256 21.033627)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:527710969>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "527710969"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện #527710969"@vi ,
+                "Post Office #527710969"@en ;
+    geo:asWKT "POINT(105.8034487 21.0666777)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:947778232>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "947778232"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Trung tâm 5"@vi ,
+                "Buu dien Trung tam 5"@en ;
+    schema:operator "Bưu điện thành phố Hà Nội" ;
+    ext:addr_housenumber "79" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    geo:asWKT "POINT(105.8902513 21.058198)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:974063116>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "974063116"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Ciputra"@vi ,
+                "Ciputra Post Office"@en ;
+    schema:brand "Vietnam Post" ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_street "Plutus Street" ;
+    ext:addr_city "Hanoi" ;
+    geo:asWKT "POINT(105.804575 21.0730295)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1021370764>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1021370764"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Nguyễn Thái Học"@vi ,
+                "Nguyen Thai Hoc Post Office"@en ;
+    schema:operator "Bưu điện Trung tâm 1" ;
+    ext:addr_housenumber "49" ;
+    ext:addr_street "Phố Nguyễn Thái Học" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3831 3366" ;
+    geo:asWKT "POINT(105.8407582 21.0288446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1021404967>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1021404967"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Thanh Niên"@vi ,
+                "Buu dien Thanh Nien"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Trấn Vũ" ;
+    geo:asWKT "POINT(105.8366116 21.0440396)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1235777136>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1235777136"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Quán Thánh"@vi ,
+                "Buu dien Cafe Thanh"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    geo:asWKT "POINT(105.8470411 21.0404355)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1236491877>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1236491877"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Xã Đàn"@vi ,
+                "Buu dien Xa Dan"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "40" ;
+    ext:addr_street "Phố Trung Phụng" ;
+    geo:asWKT "POINT(105.8349485 21.0151861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:923758556>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "923758556"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Việt Nam"@vi ,
+                "Vietnam Post"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "111" ;
+    ext:addr_street "Đường Cổ Bi" ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.9414754 21.030944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1220667775>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1220667775"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Việt Nam"@vi ,
+                "Buu dien Viet Nam"@en ;
+    schema:operator "Vietnam Post" ;
+    geo:asWKT "POINT(105.9323077 21.0173743)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1227308458>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1227308458"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu cục Gia Lâm"@vi ,
+                "Buu cuc Gia Lam"@en ;
+    schema:operator "Bưu điện Trung tâm 5" ;
+    ext:addr_housenumber "197" ;
+    ext:addr_street "Đường Nguyễn Đức Thuận" ;
+    ext:addr_postcode "131000" ;
+    geo:asWKT "POINT(105.9374893 21.0217262)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1271977348>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1271977348"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu diện Trung tâm Mê Linh"@vi ,
+                "Buu dien Trung tam Me Linh"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_postcode "12500" ;
+    geo:asWKT "POINT(105.7214049 21.186242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7178789277>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7178789277"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện #7178789277"@vi ,
+                "Post Office #7178789277"@en ;
+    geo:asWKT "POINT(105.8767858 21.1117148)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:7178811275>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "7178811275"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bưu điện #7178811275"@vi ,
+                "Post Office #7178811275"@en ;
+    geo:asWKT "POINT(105.8853485 21.1004035)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:1272771553>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "1272771553"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu cục Đông Anh"@vi ,
+                "Buu cuc Dong Anh"@en ;
+    schema:operator "Vietnam Post" ;
+    ext:addr_housenumber "9" ;
+    ext:addr_street "Đường Cao Lỗ" ;
+    geo:asWKT "POINT(105.8462513 21.1413942)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:410145935>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "410145935"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện Thành phố Từ Sơn"@vi ,
+                "Buu dien Thanh pho Tu Son"@en ;
+    ext:addr_housenumber "319" ;
+    ext:addr_street "Đường Trần Phú" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9563957 21.1158114)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:post_office:419402268>
+    a fiware:PointOfInterest, schema:PostOffice ;
+    ext:osm_id "419402268"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bưu điện văn hóa xã Hòa Tiến"@vi ,
+                "Buu dien van hoa xa Hoa Tien"@en ;
+    geo:asWKT "POINT(105.9182905 21.1998966)"^^geo:wktLiteral .
+

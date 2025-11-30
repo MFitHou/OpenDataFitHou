@@ -1,0 +1,1244 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10129746010>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10129746010"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10129746010"@vi ,
+                "Point #10129746010"@en ;
+    geo:asWKT "POINT(105.8500598 20.9618544)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10129746011>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10129746011"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10129746011"@vi ,
+                "Point #10129746011"@en ;
+    geo:asWKT "POINT(105.8505234 20.9652094)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10129746012>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10129746012"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10129746012"@vi ,
+                "Point #10129746012"@en ;
+    geo:asWKT "POINT(105.8508288 20.9590623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331638459>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331638459"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331638459"@vi ,
+                "Point #1331638459"@en ;
+    geo:asWKT "POINT(105.8683024 20.9935397)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331638481>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331638481"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331638481"@vi ,
+                "Point #1331638481"@en ;
+    geo:asWKT "POINT(105.868223 20.9958918)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331658940>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331658940"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331658940"@vi ,
+                "Point #1331658940"@en ;
+    geo:asWKT "POINT(105.8693145 20.996678)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331658945>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331658945"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331658945"@vi ,
+                "Point #1331658945"@en ;
+    geo:asWKT "POINT(105.8696092 20.9959679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331658954>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331658954"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331658954"@vi ,
+                "Point #1331658954"@en ;
+    geo:asWKT "POINT(105.8696078 20.9953804)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331658993>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331658993"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331658993"@vi ,
+                "Point #1331658993"@en ;
+    geo:asWKT "POINT(105.8695166 20.9948337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1331962913>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1331962913"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1331962913"@vi ,
+                "Point #1331962913"@en ;
+    geo:asWKT "POINT(105.8685622 20.9945284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11381970522>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11381970522"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11381970522"@vi ,
+                "Point #11381970522"@en ;
+    geo:asWKT "POINT(105.9833676 20.9503705)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12786064257>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12786064257"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12786064257"@vi ,
+                "Point #12786064257"@en ;
+    geo:asWKT "POINT(105.9778661 20.9537762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12786064258>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12786064258"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12786064258"@vi ,
+                "Point #12786064258"@en ;
+    geo:asWKT "POINT(105.9780431 20.95313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12817107352>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12817107352"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12817107352"@vi ,
+                "Point #12817107352"@en ;
+    geo:asWKT "POINT(105.9834289 20.9578055)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:13282483246>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "13282483246"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #13282483246"@vi ,
+                "Point #13282483246"@en ;
+    geo:asWKT "POINT(105.9530081 20.9369575)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1205399762>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1205399762"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1205399762"@vi ,
+                "Point #1205399762"@en ;
+    geo:asWKT "POINT(105.9394734 20.9942756)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1222467976>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1222467976"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1222467976"@vi ,
+                "Point #1222467976"@en ;
+    geo:asWKT "POINT(105.9402263 20.9921338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1223164988>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1223164988"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1223164988"@vi ,
+                "Point #1223164988"@en ;
+    geo:asWKT "POINT(105.9489764 20.9949576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1224032230>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1224032230"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Vinhomes Ocean Park"@vi ,
+                "Vinhomes Ocean Park Point"@en ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9468903 20.9917389)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1226672989>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1226672989"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Vinhomes Ocean Park"@vi ,
+                "Vinhomes Ocean Park Point"@en ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9557606 20.997213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1294907492>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1294907492"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1294907492"@vi ,
+                "Point #1294907492"@en ;
+    geo:asWKT "POINT(105.948855 20.9994067)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1294907495>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1294907495"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1294907495"@vi ,
+                "Point #1294907495"@en ;
+    geo:asWKT "POINT(105.9442504 20.9937738)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1295734796>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1295734796"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1295734796"@vi ,
+                "Point #1295734796"@en ;
+    geo:asWKT "POINT(105.9441797 20.9971518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1295787628>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1295787628"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1295787628"@vi ,
+                "Point #1295787628"@en ;
+    geo:asWKT "POINT(105.9355774 20.9954006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1356130095>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1356130095"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1356130095"@vi ,
+                "Point #1356130095"@en ;
+    geo:asWKT "POINT(105.9412944 20.988889)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1356130096>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1356130096"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1356130096"@vi ,
+                "Point #1356130096"@en ;
+    geo:asWKT "POINT(105.93783 20.9927997)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1430154590>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1430154590"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1430154590"@vi ,
+                "Point #1430154590"@en ;
+    geo:asWKT "POINT(105.9994977 20.9464615)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1447348319>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1447348319"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1447348319"@vi ,
+                "Point #1447348319"@en ;
+    geo:asWKT "POINT(105.9530191 20.9369741)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12279095912>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12279095912"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12279095912"@vi ,
+                "Point #12279095912"@en ;
+    geo:asWKT "POINT(105.7985296 21.0405199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12441121701>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12441121701"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12441121701"@vi ,
+                "Point #12441121701"@en ;
+    geo:asWKT "POINT(105.7994107 21.003)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12441121702>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12441121702"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12441121702"@vi ,
+                "Point #12441121702"@en ;
+    geo:asWKT "POINT(105.7661008 21.0218943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:13119577114>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "13119577114"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #13119577114"@vi ,
+                "Point #13119577114"@en ;
+    geo:asWKT "POINT(105.7740499 21.0360799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:13119577115>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "13119577115"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #13119577115"@vi ,
+                "Point #13119577115"@en ;
+    geo:asWKT "POINT(105.7749391 21.0360642)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:13119577116>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "13119577116"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #13119577116"@vi ,
+                "Point #13119577116"@en ;
+    geo:asWKT "POINT(105.7739621 21.0367407)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1185934766>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1185934766"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1185934766"@vi ,
+                "Point #1185934766"@en ;
+    geo:asWKT "POINT(105.7916872 21.026717)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1185934778>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1185934778"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1185934778"@vi ,
+                "Point #1185934778"@en ;
+    geo:asWKT "POINT(105.7903075 21.0297281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1211740012>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1211740012"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1211740012"@vi ,
+                "Point #1211740012"@en ;
+    geo:asWKT "POINT(105.7823453 21.0463744)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1228194740>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1228194740"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1228194740"@vi ,
+                "Point #1228194740"@en ;
+    geo:asWKT "POINT(105.7399449 21.003501)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1251617820>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1251617820"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1251617820"@vi ,
+                "Point #1251617820"@en ;
+    geo:asWKT "POINT(105.7991233 21.0415675)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1251621013>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1251621013"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1251621013"@vi ,
+                "Point #1251621013"@en ;
+    geo:asWKT "POINT(105.7993584 21.0394205)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1329845844>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1329845844"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1329845844"@vi ,
+                "Point #1329845844"@en ;
+    geo:asWKT "POINT(105.7537964 21.006438)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1329845846>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1329845846"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1329845846"@vi ,
+                "Point #1329845846"@en ;
+    geo:asWKT "POINT(105.7542533 21.0063335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1329911731>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1329911731"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1329911731"@vi ,
+                "Point #1329911731"@en ;
+    geo:asWKT "POINT(105.7537965 21.0064367)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1329911766>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1329911766"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1329911766"@vi ,
+                "Point #1329911766"@en ;
+    geo:asWKT "POINT(105.7555719 21.0057469)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1330108357>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1330108357"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1330108357"@vi ,
+                "Point #1330108357"@en ;
+    geo:asWKT "POINT(105.7537967 21.0064385)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1330108359>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1330108359"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1330108359"@vi ,
+                "Point #1330108359"@en ;
+    geo:asWKT "POINT(105.7555723 21.0057447)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1330108368>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1330108368"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1330108368"@vi ,
+                "Point #1330108368"@en ;
+    geo:asWKT "POINT(105.7556101 21.0058466)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1330108373>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1330108373"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1330108373"@vi ,
+                "Point #1330108373"@en ;
+    geo:asWKT "POINT(105.7556596 21.006059)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:995391097>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "995391097"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #995391097"@vi ,
+                "Point #995391097"@en ;
+    geo:asWKT "POINT(105.8579618 21.0250908)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1000087307>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1000087307"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #1000087307"@vi ,
+                "Point #1000087307"@en ;
+    geo:asWKT "POINT(105.8357858 21.0291537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2577838813>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2577838813"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2577838813"@vi ,
+                "Point #2577838813"@en ;
+    geo:asWKT "POINT(105.8416591 21.0116695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2577864038>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2577864038"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2577864038"@vi ,
+                "Point #2577864038"@en ;
+    geo:asWKT "POINT(105.8471069 21.0153044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587513880>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587513880"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587513880"@vi ,
+                "Point #2587513880"@en ;
+    geo:asWKT "POINT(105.8402978 21.0324203)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587513902>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587513902"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587513902"@vi ,
+                "Point #2587513902"@en ;
+    geo:asWKT "POINT(105.8367718 21.0426059)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587513918>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587513918"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm Free"@vi ,
+                "Free Point"@en ;
+    schema:operator "Free" ;
+    geo:asWKT "POINT(105.831924 21.0439241)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587514011>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587514011"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587514011"@vi ,
+                "Point #2587514011"@en ;
+    geo:asWKT "POINT(105.8457557 21.040357)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587514013>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587514013"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587514013"@vi ,
+                "Point #2587514013"@en ;
+    geo:asWKT "POINT(105.8405882 21.0435672)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587514016>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587514016"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587514016"@vi ,
+                "Point #2587514016"@en ;
+    geo:asWKT "POINT(105.8291543 21.0398284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:2587514087>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "2587514087"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #2587514087"@vi ,
+                "Point #2587514087"@en ;
+    geo:asWKT "POINT(105.8361688 21.0444431)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:3494618631>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "3494618631"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #3494618631"@vi ,
+                "Point #3494618631"@en ;
+    geo:asWKT "POINT(105.8382824 21.0486158)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:3975727582>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "3975727582"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #3975727582"@vi ,
+                "Point #3975727582"@en ;
+    geo:asWKT "POINT(105.8329399 21.041629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4019320086>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4019320086"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4019320086"@vi ,
+                "Point #4019320086"@en ;
+    geo:asWKT "POINT(105.8318167 21.0359694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4377069491>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4377069491"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4377069491"@vi ,
+                "Point #4377069491"@en ;
+    geo:asWKT "POINT(105.845446 21.0261655)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4708487791>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4708487791"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4708487791"@vi ,
+                "Point #4708487791"@en ;
+    geo:asWKT "POINT(105.8329831 21.0389651)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4749008109>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4749008109"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4749008109"@vi ,
+                "Point #4749008109"@en ;
+    geo:asWKT "POINT(105.8368973 21.0477218)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4749017459>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4749017459"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4749017459"@vi ,
+                "Point #4749017459"@en ;
+    geo:asWKT "POINT(105.8399375 21.0370484)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4753067992>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4753067992"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4753067992"@vi ,
+                "Point #4753067992"@en ;
+    geo:asWKT "POINT(105.8152445 21.0457206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4753067995>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4753067995"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4753067995"@vi ,
+                "Point #4753067995"@en ;
+    geo:asWKT "POINT(105.8224115 21.0655914)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4753068399>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4753068399"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4753068399"@vi ,
+                "Point #4753068399"@en ;
+    geo:asWKT "POINT(105.812238 21.0687758)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4753068402>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4753068402"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4753068402"@vi ,
+                "Point #4753068402"@en ;
+    geo:asWKT "POINT(105.8474841 21.0285496)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:4753068645>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "4753068645"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #4753068645"@vi ,
+                "Point #4753068645"@en ;
+    geo:asWKT "POINT(105.8509919 21.0349938)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:5119304526>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "5119304526"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #5119304526"@vi ,
+                "Point #5119304526"@en ;
+    geo:asWKT "POINT(105.8212819 21.0287632)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:5303026721>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "5303026721"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #5303026721"@vi ,
+                "Point #5303026721"@en ;
+    geo:asWKT "POINT(105.8508056 21.0365851)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:5304805821>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "5304805821"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #5304805821"@vi ,
+                "Point #5304805821"@en ;
+    geo:asWKT "POINT(105.8491565 21.02723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6466626248>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6466626248"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6466626248"@vi ,
+                "Point #6466626248"@en ;
+    geo:asWKT "POINT(105.8512147 21.0348694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6539667083>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6539667083"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6539667083"@vi ,
+                "Point #6539667083"@en ;
+    geo:asWKT "POINT(105.8389243 21.0368587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6662719079>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6662719079"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6662719079"@vi ,
+                "Point #6662719079"@en ;
+    geo:asWKT "POINT(105.8438368 21.0233506)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6840349985>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6840349985"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6840349985"@vi ,
+                "Point #6840349985"@en ;
+    geo:asWKT "POINT(105.8449474 21.0164146)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6919616661>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6919616661"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6919616661"@vi ,
+                "Point #6919616661"@en ;
+    geo:asWKT "POINT(105.8572218 21.0230587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:6919663693>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "6919663693"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #6919663693"@vi ,
+                "Point #6919663693"@en ;
+    geo:asWKT "POINT(105.8554421 21.0275464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:7140635332>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "7140635332"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #7140635332"@vi ,
+                "Point #7140635332"@en ;
+    geo:asWKT "POINT(105.849903 21.0397986)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:7176665769>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "7176665769"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #7176665769"@vi ,
+                "Point #7176665769"@en ;
+    geo:asWKT "POINT(105.8496722 21.0236886)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:7180025610>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "7180025610"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #7180025610"@vi ,
+                "Point #7180025610"@en ;
+    geo:asWKT "POINT(105.8786051 21.051413)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10114776466>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10114776466"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10114776466"@vi ,
+                "Point #10114776466"@en ;
+    geo:asWKT "POINT(105.8468781 21.0021995)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10139319663>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10139319663"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10139319663"@vi ,
+                "Point #10139319663"@en ;
+    geo:asWKT "POINT(105.8586901 21.0185019)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10217688609>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10217688609"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10217688609"@vi ,
+                "Point #10217688609"@en ;
+    geo:asWKT "POINT(105.8478081 21.024518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10636045675>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10636045675"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10636045675"@vi ,
+                "Point #10636045675"@en ;
+    geo:asWKT "POINT(105.8343486 21.0382466)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:10945738913>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "10945738913"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #10945738913"@vi ,
+                "Point #10945738913"@en ;
+    geo:asWKT "POINT(105.8198593 21.0549046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11262010604>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11262010604"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11262010604"@vi ,
+                "Point #11262010604"@en ;
+    geo:asWKT "POINT(105.8315956 21.0119356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11446216930>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11446216930"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11446216930"@vi ,
+                "Point #11446216930"@en ;
+    geo:asWKT "POINT(105.83292 21.040787)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11461785755>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11461785755"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11461785755"@vi ,
+                "Point #11461785755"@en ;
+    geo:asWKT "POINT(105.819313 21.0028316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11832128104>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11832128104"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11832128104"@vi ,
+                "Point #11832128104"@en ;
+    geo:asWKT "POINT(105.852222 21.0252214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11832472664>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11832472664"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11832472664"@vi ,
+                "Point #11832472664"@en ;
+    geo:asWKT "POINT(105.8467027 21.0258446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11843072469>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11843072469"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11843072469"@vi ,
+                "Point #11843072469"@en ;
+    geo:asWKT "POINT(105.846357 21.0286696)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:11886820369>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "11886820369"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #11886820369"@vi ,
+                "Point #11886820369"@en ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.8418159 21.0469598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12174413418>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12174413418"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12174413418"@vi ,
+                "Point #12174413418"@en ;
+    geo:asWKT "POINT(105.8044178 21.0296913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12279116105>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12279116105"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12279116105"@vi ,
+                "Point #12279116105"@en ;
+    geo:asWKT "POINT(105.8500738 21.0388193)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12287543011>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12287543011"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12287543011"@vi ,
+                "Point #12287543011"@en ;
+    geo:asWKT "POINT(105.8597761 21.0246611)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12289120171>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12289120171"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12289120171"@vi ,
+                "Point #12289120171"@en ;
+    geo:asWKT "POINT(105.8522905 21.0307033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12308841301>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12308841301"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12308841301"@vi ,
+                "Point #12308841301"@en ;
+    geo:asWKT "POINT(105.8213896 21.0557113)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12309492301>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12309492301"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12309492301"@vi ,
+                "Point #12309492301"@en ;
+    geo:asWKT "POINT(105.8231022 21.0663876)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12309492401>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12309492401"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12309492401"@vi ,
+                "Point #12309492401"@en ;
+    geo:asWKT "POINT(105.8185063 21.0783256)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12333520401>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12333520401"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12333520401"@vi ,
+                "Point #12333520401"@en ;
+    geo:asWKT "POINT(105.8418382 21.045872)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12404372336>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12404372336"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12404372336"@vi ,
+                "Point #12404372336"@en ;
+    geo:asWKT "POINT(105.8396856 21.0332548)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12412053901>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12412053901"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12412053901"@vi ,
+                "Point #12412053901"@en ;
+    geo:asWKT "POINT(105.8938659 21.050455)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12441118402>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12441118402"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12441118402"@vi ,
+                "Point #12441118402"@en ;
+    geo:asWKT "POINT(105.8059895 21.0055113)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12555926109>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12555926109"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12555926109"@vi ,
+                "Point #12555926109"@en ;
+    geo:asWKT "POINT(105.8561716 21.0322634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12570431501>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12570431501"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12570431501"@vi ,
+                "Point #12570431501"@en ;
+    geo:asWKT "POINT(105.8305391 21.0390803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12657768416>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12657768416"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12657768416"@vi ,
+                "Point #12657768416"@en ;
+    geo:asWKT "POINT(105.8465492 21.0383859)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12669562001>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12669562001"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12669562001"@vi ,
+                "Point #12669562001"@en ;
+    geo:asWKT "POINT(105.8353399 21.0798704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12669604002>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12669604002"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12669604002"@vi ,
+                "Point #12669604002"@en ;
+    geo:asWKT "POINT(105.8356217 21.0779127)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:12690280001>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "12690280001"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #12690280001"@vi ,
+                "Point #12690280001"@en ;
+    geo:asWKT "POINT(105.8357608 21.0268609)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:13271879876>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "13271879876"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #13271879876"@vi ,
+                "Point #13271879876"@en ;
+    geo:asWKT "POINT(105.8592001 21.0244762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:702241314>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "702241314"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #702241314"@vi ,
+                "Point #702241314"@en ;
+    geo:asWKT "POINT(105.8366365 21.0296565)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577137>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577137"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577137"@vi ,
+                "Point #892577137"@en ;
+    geo:asWKT "POINT(105.8158297 21.0015549)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577181>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577181"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577181"@vi ,
+                "Point #892577181"@en ;
+    geo:asWKT "POINT(105.8158976 21.0005259)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577184>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577184"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577184"@vi ,
+                "Point #892577184"@en ;
+    geo:asWKT "POINT(105.8149167 21.0020792)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577205>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577205"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577205"@vi ,
+                "Point #892577205"@en ;
+    geo:asWKT "POINT(105.8157135 21.0039271)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577225>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577225"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577225"@vi ,
+                "Point #892577225"@en ;
+    geo:asWKT "POINT(105.8160592 21.0038463)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577264>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577264"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577264"@vi ,
+                "Point #892577264"@en ;
+    geo:asWKT "POINT(105.8155512 21.002047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577296>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577296"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577296"@vi ,
+                "Point #892577296"@en ;
+    geo:asWKT "POINT(105.8149365 21.0020195)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577335>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577335"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577335"@vi ,
+                "Point #892577335"@en ;
+    geo:asWKT "POINT(105.8162848 21.00294)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577364>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577364"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577364"@vi ,
+                "Point #892577364"@en ;
+    geo:asWKT "POINT(105.8158416 21.0005213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577382>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577382"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577382"@vi ,
+                "Point #892577382"@en ;
+    geo:asWKT "POINT(105.8164469 21.0029286)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:892577437>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "892577437"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #892577437"@vi ,
+                "Point #892577437"@en ;
+    geo:asWKT "POINT(105.816479 21.0019863)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899221501>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899221501"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899221501"@vi ,
+                "Point #899221501"@en ;
+    geo:asWKT "POINT(105.8986599 21.0275269)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899221623>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899221623"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899221623"@vi ,
+                "Point #899221623"@en ;
+    geo:asWKT "POINT(105.9001491 21.0273412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899476427>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899476427"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899476427"@vi ,
+                "Point #899476427"@en ;
+    geo:asWKT "POINT(105.8988165 21.0273949)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899514996>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899514996"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899514996"@vi ,
+                "Point #899514996"@en ;
+    geo:asWKT "POINT(105.8987752 21.0274074)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1163326387>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1163326387"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1163326387"@vi ,
+                "Point #1163326387"@en ;
+    geo:asWKT "POINT(105.8367056 21.0428587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1219283150>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1219283150"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1219283150"@vi ,
+                "Point #1219283150"@en ;
+    geo:asWKT "POINT(105.8340231 21.0356075)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1220054878>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1220054878"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1220054878"@vi ,
+                "Point #1220054878"@en ;
+    geo:asWKT "POINT(105.8521644 21.0316514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1220054904>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1220054904"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1220054904"@vi ,
+                "Point #1220054904"@en ;
+    geo:asWKT "POINT(105.8535118 21.0292334)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1220426400>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1220426400"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1220426400"@vi ,
+                "Point #1220426400"@en ;
+    geo:asWKT "POINT(105.8513925 21.0282908)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1270909900>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1270909900"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1270909900"@vi ,
+                "Point #1270909900"@en ;
+    geo:asWKT "POINT(105.8408922 21.0355792)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1270909907>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1270909907"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1270909907"@vi ,
+                "Point #1270909907"@en ;
+    geo:asWKT "POINT(105.8409425 21.0367433)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1272194477>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1272194477"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1272194477"@vi ,
+                "Point #1272194477"@en ;
+    geo:asWKT "POINT(105.8478233 21.0063488)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1289842503>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1289842503"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1289842503"@vi ,
+                "Point #1289842503"@en ;
+    geo:asWKT "POINT(105.8319886 21.0353621)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1301684973>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1301684973"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1301684973"@vi ,
+                "Point #1301684973"@en ;
+    geo:asWKT "POINT(105.8331008 21.0328588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1302250728>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1302250728"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1302250728"@vi ,
+                "Point #1302250728"@en ;
+    geo:asWKT "POINT(105.8404896 21.0331305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1304785697>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1304785697"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1304785697"@vi ,
+                "Point #1304785697"@en ;
+    geo:asWKT "POINT(105.8394426 21.0311671)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1305753871>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1305753871"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1305753871"@vi ,
+                "Point #1305753871"@en ;
+    geo:asWKT "POINT(105.8326028 21.0357617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1305753872>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1305753872"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1305753872"@vi ,
+                "Point #1305753872"@en ;
+    geo:asWKT "POINT(105.8325465 21.0354834)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1315272113>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1315272113"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1315272113"@vi ,
+                "Point #1315272113"@en ;
+    geo:asWKT "POINT(105.8074565 21.0322132)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1333448223>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1333448223"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1333448223"@vi ,
+                "Point #1333448223"@en ;
+    geo:asWKT "POINT(105.8451367 21.0164379)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1333448224>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1333448224"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1333448224"@vi ,
+                "Point #1333448224"@en ;
+    geo:asWKT "POINT(105.8459989 21.0142598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899221634>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899221634"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899221634"@vi ,
+                "Point #899221634"@en ;
+    geo:asWKT "POINT(105.900135 21.0265507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:899476428>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "899476428"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #899476428"@vi ,
+                "Point #899476428"@en ;
+    geo:asWKT "POINT(105.9002478 21.0273404)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1231282720>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1231282720"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Nhà vệ sinh công cộng"@vi ,
+                "Nha ve sinh cong cong"@en ;
+    geo:asWKT "POINT(105.9207252 21.0308451)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1352283650>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1352283650"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1352283650"@vi ,
+                "Point #1352283650"@en ;
+    geo:asWKT "POINT(105.9064109 21.0601316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1352496400>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1352496400"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1352496400"@vi ,
+                "Point #1352496400"@en ;
+    geo:asWKT "POINT(105.9056516 21.0627407)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1352496412>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1352496412"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1352496412"@vi ,
+                "Point #1352496412"@en ;
+    geo:asWKT "POINT(105.9056255 21.0612524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:1352503458>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "1352503458"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm #1352503458"@vi ,
+                "Point #1352503458"@en ;
+    geo:asWKT "POINT(105.9027776 21.0604475)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:public_toilet:7178799043>
+    a fiware:PointOfInterest, schema:PublicToilet ;
+    ext:osm_id "7178799043"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm #7178799043"@vi ,
+                "Point #7178799043"@en ;
+    geo:asWKT "POINT(105.871325 21.112906)"^^geo:wktLiteral .
+

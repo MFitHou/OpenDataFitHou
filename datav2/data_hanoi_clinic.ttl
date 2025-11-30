@@ -1,0 +1,1203 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:976633067>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "976633067"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Mỗ Lao"@vi ,
+                "Tram Y te phuong Mo Lao"@en ;
+    geo:asWKT "POINT(105.7837193 20.9851095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1017278305>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1017278305"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Ngãi Cầu"@vi ,
+                "Phong kham Da khoa Ngai Cau"@en ;
+    geo:asWKT "POINT(105.7149984 20.9883234)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1183713535>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1183713535"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Y tế học đường"@vi ,
+                "Y te hoc duong"@en ;
+    geo:asWKT "POINT(105.7474548 20.9595054)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1259622895>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1259622895"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Văn Quán"@vi ,
+                "Tram Y te phuong Van Cafe"@en ;
+    geo:asWKT "POINT(105.7867748 20.9741343)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:9585108830>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "9585108830"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Đa khoa Medlatec - Thanh Xuân"@vi ,
+                "Phong kham Da khoa Medlatec - Thanh Xuan"@en ;
+    geo:asWKT "POINT(105.8017759 20.9928664)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:755376839>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "755376839"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Quốc tế Vinmec Times City"@vi ,
+                "Vinmec Times City International Clinics"@en ;
+    geo:asWKT "POINT(105.8671961 20.9938193)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:944513308>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "944513308"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm trạm Y tế Quỳnh Mai"@vi ,
+                "Diem tram Y te Quynh Mai"@en ;
+    geo:asWKT "POINT(105.8607504 20.998818)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:947208600>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "947208600"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Khương Mai"@vi ,
+                "Tram Y te phuong Khuong Mai"@en ;
+    geo:asWKT "POINT(105.8253051 20.9981037)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:973477509>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "973477509"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Thịnh Liệt"@vi ,
+                "Tram Y te phuong Thinh Liet"@en ;
+    schema:operator "Trung tâm Y tế quận Hoàng Mai" ;
+    geo:asWKT "POINT(105.8457763 20.9711826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1040735711>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1040735711"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Phương Liệt"@vi ,
+                "Tram Y te phuong Phuong Liet"@en ;
+    ext:addr_housenumber "5" ;
+    ext:addr_street "Phố Phương Liệt" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8406903 20.9959662)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1046719158>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1046719158"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Đại Kim"@vi ,
+                "Diem Y te Dai Kim"@en ;
+    schema:operator "Trạm Y tế phường Định Công" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 292 Đường Kim Giang" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3855 2501" ;
+    schema:openingHours "Mo-Fr 07:30-17:00" ;
+    geo:asWKT "POINT(105.8228588 20.9770967)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1153416081>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1153416081"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế xã Tứ Hiệp"@vi ,
+                "Tram y te xa Tu Hiep"@en ;
+    geo:asWKT "POINT(105.8518191 20.9473337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1194674333>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1194674333"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế xã Thanh Trì"@vi ,
+                "Tram y te xa Thanh Tri"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngách 373/37 Ngọc Hồi" ;
+    geo:asWKT "POINT(105.8455312 20.9473486)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1209295530>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1209295530"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Thu Cúc"@vi ,
+                "Phong kham Da khoa Thu Cuc"@en ;
+    schema:operator "Công ty Cổ phần Y khoa & Thẩm mỹ Thu Cúc" ;
+    geo:asWKT "POINT(105.8384086 20.9736451)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1217807977>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1217807977"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Thanh Trì"@vi ,
+                "Tram y te phuong Thanh Tri"@en ;
+    schema:operator "Trung tâm Y tế quận Hoàng Mai" ;
+    ext:addr_street "Phố Đặng Trần Đức" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8856872 20.9945523)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1253595073>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1253595073"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Vĩnh Tuy"@vi ,
+                "Tram Y te phuong Vinh Tuy"@en ;
+    ext:addr_housenumber "70" ;
+    ext:addr_street "Ngõ 100 Nguyễn Văn Viên" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "11622" ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.8737136 20.9995408)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1364436380>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1364436380"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Mai Hương"@vi ,
+                "Phong kham Da khoa Mai Huong"@en ;
+    ext:addr_housenumber "42" ;
+    ext:addr_street "Phố Hồng Mai" ;
+    geo:asWKT "POINT(105.8513578 20.9984795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1414193017>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1414193017"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Yên Mỹ"@vi ,
+                "Diem Y te Yen My"@en ;
+    schema:operator "Trạm Y tế xã Thanh Trì" ;
+    geo:asWKT "POINT(105.8717142 20.945727)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1442277792>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1442277792"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Định Công"@vi ,
+                "Diem Y te Dinh Cong"@en ;
+    schema:operator "Trạm Y tế phường Định Công" ;
+    ext:addr_housenumber "58" ;
+    ext:addr_street "Phố Định Công Hạ" ;
+    geo:asWKT "POINT(105.8286179 20.9825672)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1454227440>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1454227440"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y Tế Tân Mai"@vi ,
+                "Tram Y Te Tan Mai"@en ;
+    geo:asWKT "POINT(105.8471373 20.9851448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:13031058589>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "13031058589"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế xã Nghĩa Trụ"@vi ,
+                "Tram y te xa Nghia Tru"@en ;
+    geo:asWKT "POINT(105.9910021 20.9543047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:13031058590>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "13031058590"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám #13031058590"@vi ,
+                "Clinic #13031058590"@en ;
+    geo:asWKT "POINT(105.9912475 20.9543598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:13165071216>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "13165071216"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế xã Nghĩa Trụ"@vi ,
+                "Tram Y te xa Nghia Tru"@en ;
+    geo:asWKT "POINT(105.9572795 20.9402502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:244393940>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "244393940"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Đa Tốn"@vi ,
+                "Tram Y te xa Da Ton"@en ;
+    ext:addr_street "Đường Đa Tốn" ;
+    geo:asWKT "POINT(105.9312724 20.9857663)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1008406412>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1008406412"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1008406412"@vi ,
+                "Clinic #1008406412"@en ;
+    geo:asWKT "POINT(105.9227492 20.9662082)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1008406413>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1008406413"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1008406413"@vi ,
+                "Clinic #1008406413"@en ;
+    geo:asWKT "POINT(105.9226821 20.9661102)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1432272634>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1432272634"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1432272634"@vi ,
+                "Clinic #1432272634"@en ;
+    geo:asWKT "POINT(105.9570762 20.9401892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1432272635>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1432272635"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1432272635"@vi ,
+                "Clinic #1432272635"@en ;
+    geo:asWKT "POINT(105.9572879 20.9400819)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:5296714077>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "5296714077"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế Vân Canh"@vi ,
+                "Tram y te Van Canh"@en ;
+    geo:asWKT "POINT(105.7318807 21.0357308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:8334779805>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "8334779805"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám KINH DOANH"@vi ,
+                "KINH DOANH Clinic"@en ;
+    schema:operator "KINH DOANH" ;
+    ext:addr_housenumber "50" ;
+    ext:addr_street "Đường Mễ Trì" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Su 08:00-20:00" ;
+    geo:asWKT "POINT(105.7774752 21.0140818)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:10213910252>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "10213910252"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế phường Đức Thắng"@vi ,
+                "Tram y te phuong Duc Thang"@en ;
+    ext:addr_street "đông ngạc" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Phường Đông Ngạc" ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    geo:asWKT "POINT(105.7736253 21.0799477)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11609354508>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11609354508"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám #11609354508"@vi ,
+                "Clinic #11609354508"@en ;
+    geo:asWKT "POINT(105.7851278 21.040515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:12321850801>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "12321850801"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "VNVC Phố Nhổn"@vi ,
+                "VNVC Pho Nhon"@en ;
+    ext:addr_housenumber "109" ;
+    ext:addr_street "Phố Nhổn" ;
+    schema:openingHours "Mo-Su 07:30-17:00" ;
+    schema:url <https://vnvc.vn/> ;
+    geo:asWKT "POINT(105.7304875 21.0555046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:12432303401>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "12432303401"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Tai Mũi Họng 789"@vi ,
+                "ENT Clinic - 789 Apartment complex"@en ;
+    ext:addr_housenumber "D7" ;
+    ext:addr_street "Đường nội khu CC 789" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "0368021398" ;
+    schema:email "taimuihong789@gmail.com" ;
+    schema:openingHours "Mo-Su 16:00-20:00" ;
+    geo:asWKT "POINT(105.7715702 21.0247631)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:699065687>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "699065687"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế Cổ Nhuế"@vi ,
+                "Tram Y te Co Nhue"@en ;
+    geo:asWKT "POINT(105.7801208 21.0617719)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:699218354>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "699218354"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #699218354"@vi ,
+                "Clinic #699218354"@en ;
+    geo:asWKT "POINT(105.7739488 21.0732118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:906732056>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "906732056"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Quốc tế Thu Cúc"@vi ,
+                "Phong kham Da khoa Quoc te Thu Cuc"@en ;
+    ext:addr_housenumber "216" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7957439 21.0083373)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:961810527>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "961810527"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Xuân Phương"@vi ,
+                "Tram Y te phuong Xuan Phuong"@en ;
+    schema:operator "Trung tâm Y tế quận Nam Từ Liêm" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7482537 21.0315556)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:975967883>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "975967883"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Thuỵ Phương"@vi ,
+                "Tram Y te phuong Thuy Phuong"@en ;
+    geo:asWKT "POINT(105.776899 21.0901836)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1004201151>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1004201151"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Dãy Nhà D - Chung cư 789"@vi ,
+                "Day Nha D - Chung cu 789"@en ;
+    geo:asWKT "POINT(105.7715637 21.02461)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1017278300>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1017278300"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Yên Hoà"@vi ,
+                "Phong kham Da khoa Yen Hoa"@en ;
+    geo:asWKT "POINT(105.7861727 21.0219605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1030860268>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1030860268"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Mỹ Đình 1"@vi ,
+                "Tram y te phuong My Dinh 1"@en ;
+    geo:asWKT "POINT(105.7711507 21.0195043)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1030860275>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1030860275"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Cầu Diễn"@vi ,
+                "Tram y te phuong Cau Dien"@en ;
+    geo:asWKT "POINT(105.7595279 21.0374241)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1090377191>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1090377191"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Phú Diễn"@vi ,
+                "Tram y te phuong Phu Dien"@en ;
+    geo:asWKT "POINT(105.7642576 21.0549543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1116240502>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1116240502"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "A19"@vi ,
+                "A19"@en ;
+    schema:operator "Học viện Chính trị Quốc gia Hồ Chí Minh" ;
+    geo:asWKT "POINT(105.7889057 21.0456482)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1117844326>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1117844326"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám số 1 Phan Văn Trường"@vi ,
+                "Phong kham so 1 Phan Van School"@en ;
+    geo:asWKT "POINT(105.786234 21.0398248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1198061247>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1198061247"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Phú Đô"@vi ,
+                "Tram y te phuong Phu Do"@en ;
+    geo:asWKT "POINT(105.7707645 21.0100401)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1213225197>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1213225197"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Nghĩa Tân"@vi ,
+                "Tram Y te phuong Nghia Tan"@en ;
+    geo:asWKT "POINT(105.7956062 21.0443834)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1232434937>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1232434937"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Mỹ Đình 2"@vi ,
+                "Tram y te phuong My Dinh 2"@en ;
+    geo:asWKT "POINT(105.7733134 21.0254414)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1278002279>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1278002279"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã An Khánh"@vi ,
+                "Tram Y te xa An Khanh"@en ;
+    geo:asWKT "POINT(105.7172444 21.0018505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:446031980>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "446031980"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế Trung Hòa"@vi ,
+                "Tram y te Trung Hoa"@en ;
+    geo:asWKT "POINT(105.8035297 21.0080088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:3477864593>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "3477864593"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "PKCK răng hàm mặt"@vi ,
+                "PKCK rang ham mat"@en ;
+    schema:telephone "0462923223" ;
+    geo:asWKT "POINT(105.8125195 21.0078104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:4249866291>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "4249866291"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phú thọ"@vi ,
+                "Phu tho"@en ;
+    ext:addr_street "Phố Cửa Bắc" ;
+    geo:asWKT "POINT(105.842622 21.0428795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:4293898701>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "4293898701"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng Khám Đa Khoa Dr. Binh Tele_Clinic"@vi ,
+                "Dr. Binh Tele_Clinic"@en ;
+    ext:addr_housenumber "11- 13- 15" ;
+    ext:addr_street "Trần Xuân Soạn" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3622 7799" ;
+    schema:email "info@drbinh.com" ;
+    schema:openingHours "Mo-Sa 07:30-12:00, 13:30-17:00" ;
+    schema:url <https://drbinh.com/> ;
+    geo:asWKT "POINT(105.8550422 21.0170098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:5485724753>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "5485724753"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế phường Láng Thượng"@vi ,
+                "Tram Y te phuong Lang Thuong"@en ;
+    ext:addr_housenumber "112 Chùa Láng" ;
+    ext:addr_street "Phố Chùa Láng" ;
+    geo:asWKT "POINT(105.8010989 21.0230053)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:5808615965>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "5808615965"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám cấy ghép tóc y học Quốc tế"@vi ,
+                "International Medical Hair Transplant Clinic"@en ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Nguyễn Du" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "100000" ;
+    schema:telephone "+84 243 219 1111" ;
+    schema:email "phongkham38nguyendu@gmail.com" ;
+    schema:openingHours "Mo-Su 08:00-20:00" ;
+    schema:url <https://cayghepthammy.com> ;
+    geo:asWKT "POINT(105.8489799 21.0188553)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:6610502435>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "6610502435"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Sakura Hà Nội"@vi ,
+                "Phong kham Sakura Ha Noi"@en ;
+    ext:addr_housenumber "65" ;
+    ext:addr_street "Phố Trịnh Công Sơn" ;
+    geo:asWKT "POINT(105.8171115 21.0774175)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:6661539807>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "6661539807"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Vina Medical"@vi ,
+                "Vina Medical"@en ;
+    ext:addr_street "Phố Phương Mai" ;
+    geo:asWKT "POINT(105.8368175 21.0035052)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:6670874098>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "6670874098"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng Khám Chữa Bệnh"@vi ,
+                "Phong Kham Chua Benh"@en ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Phố Nguyễn Biểu" ;
+    geo:asWKT "POINT(105.8400314 21.0426013)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:6707414399>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "6707414399"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Nhi Khoa Đào Minh Tuấn"@vi ,
+                "Phong kham Nhi Khoa Dao Minh Tuan"@en ;
+    schema:operator "GP số 000445/BYT/CCHN" ;
+    ext:addr_housenumber "155B" ;
+    ext:addr_street "Đội Cấn" ;
+    schema:telephone "02437225455" ;
+    schema:openingHours "Mo-Su 16:30-20:30" ;
+    geo:asWKT "POINT(105.8262822 21.034842)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:8855590422>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "8855590422"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế phường Ngã Tư Sở"@vi ,
+                "Tram Y te phuong Nga Tu So"@en ;
+    geo:asWKT "POINT(105.8209508 21.0039199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:9237323773>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "9237323773"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Điểm Y tế Long Biên"@vi ,
+                "Diem Y te Long Bien"@en ;
+    schema:operator "Trạm Y tế phường Long Biên" ;
+    geo:asWKT "POINT(105.8903173 21.0234084)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:10821779874>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "10821779874"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám #10821779874"@vi ,
+                "Clinic #10821779874"@en ;
+    geo:asWKT "POINT(105.8320912 21.0426488)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11463192511>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11463192511"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám quốc tế Diosa"@vi ,
+                "Phong kham quoc te Diosa"@en ;
+    ext:addr_housenumber "155" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 944 949 888" ;
+    schema:openingHours "Mo-Su 08:00-21:00" ;
+    schema:url <https://diosa.vn/> ;
+    geo:asWKT "POINT(105.8500647 21.0129963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11463192513>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11463192513"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Nha khoa & Thẩm mỹ Quốc tế DND"@vi ,
+                "Phong kham Nha khoa & Tham my Quoc te DND"@en ;
+    ext:addr_housenumber "157" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 832 124 124" ;
+    schema:url <https://nhakhoadnd.com/> ;
+    geo:asWKT "POINT(105.8500083 21.0129415)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11510383977>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11510383977"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "ASEAN Institute Clinic"@vi ,
+                "ASEAN Institute Clinic"@en ;
+    ext:addr_housenumber "88" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8498046 21.0148863)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11595494029>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11595494029"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế phường Nguyễn Du"@vi ,
+                "Tram Y te phuong Nguyen Du"@en ;
+    ext:addr_housenumber "103" ;
+    ext:addr_street "Phố Bà Triệu" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8493574 21.0161793)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11615961407>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11615961407"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám YC Việt Nam"@vi ,
+                "Phong kham YC Viet Nam"@en ;
+    ext:addr_housenumber "85" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84971388585" ;
+    schema:url <https://phongkhamyc.com/> ;
+    geo:asWKT "POINT(105.8500021 21.0158219)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11615961411>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11615961411"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Da liễu HD"@vi ,
+                "Phong kham Da lieu HD"@en ;
+    ext:addr_housenumber "99" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84989329889" ;
+    schema:openingHours "Mo-Su 08:00-19:30" ;
+    schema:url <https://hdclinic.vn/> ;
+    geo:asWKT "POINT(105.8499981 21.0154728)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:11685045522>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "11685045522"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Dr. Allen Chiropractic"@vi ,
+                "Dr. Allen Chiropractic"@en ;
+    ext:addr_housenumber "352" ;
+    ext:addr_street "Phố Huế" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:url <https://drallen.com.vn/> ;
+    geo:asWKT "POINT(105.8512894 21.0096816)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:503986577>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "503986577"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm y tế Hàng không"@vi ,
+                "Aviation Medical Centre Hanoi"@en ;
+    geo:asWKT "POINT(105.8793911 21.0399411)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:700671926>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "700671926"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Trúc Bạch"@vi ,
+                "Tram Y te phuong Truc Bach"@en ;
+    geo:asWKT "POINT(105.8419017 21.0459629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:702787884>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "702787884"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Tây Hồ"@vi ,
+                "Tram Y te phuong Tay Ho"@en ;
+    ext:addr_housenumber "695" ;
+    ext:addr_street "Đường Lạc Long Quân" ;
+    geo:asWKT "POINT(105.8162842 21.0796638)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:704250760>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "704250760"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Bồ Đề"@vi ,
+                "Tram Y te phuong Bo De"@en ;
+    geo:asWKT "POINT(105.8714686 21.0382317)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:817570463>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "817570463"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Kim Liên"@vi ,
+                "Phong kham Da khoa Kim Lien"@en ;
+    schema:operator "Trạm Y tế phường Kim Liên" ;
+    ext:addr_street "Phố Đông Tác" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8342592 21.0062206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:860294723>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "860294723"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Văn Chương"@vi ,
+                "Tram Y te phuong Van Chuong"@en ;
+    geo:asWKT "POINT(105.8364719 21.0224164)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:899388713>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "899388713"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Bạch Mai"@vi ,
+                "Tram Y te phuong Bach Mai"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Quỳnh Mai" ;
+    geo:asWKT "POINT(105.8606866 21.0008524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:956996522>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "956996522"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Phương Mai"@vi ,
+                "Diem Y te Phuong Mai"@en ;
+    geo:asWKT "POINT(105.8355419 21.0025465)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:956996523>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "956996523"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Thịnh Quang"@vi ,
+                "Tram Y te phuong Thinh Quang"@en ;
+    geo:asWKT "POINT(105.8186349 21.0048913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:957814767>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "957814767"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Xuân La"@vi ,
+                "Tram Y te phuong Xuan La"@en ;
+    schema:operator "Trung tâm Y tế quận Tây Hồ" ;
+    geo:asWKT "POINT(105.8057539 21.0654965)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:974596720>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "974596720"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Hai Bà Trưng"@vi ,
+                "Tram Y te phuong Hai Ba Trung"@en ;
+    ext:addr_housenumber "36A" ;
+    ext:addr_street "Phố Phạm Đình Hổ" ;
+    schema:telephone "+84 24 3971 3204" ;
+    geo:asWKT "POINT(105.8570629 21.0165979)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:974596745>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "974596745"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Ba Đình"@vi ,
+                "Tram Y te phuong Ba Dinh"@en ;
+    schema:operator "Ủy ban nhân dân phường Ba Đình" ;
+    ext:addr_housenumber "101" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8396918 21.0426295)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1017278306>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1017278306"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Bà Triệu"@vi ,
+                "Phong kham Da khoa Ba Trieu"@en ;
+    ext:addr_housenumber "103" ;
+    ext:addr_street "Phố Bà Triệu" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8494381 21.0162256)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1168231024>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1168231024"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Tomec"@vi ,
+                "Phong kham Da khoa Tomec"@en ;
+    schema:operator "Công ty Cổ phần Bệnh viện Đa khoa Quốc tế Tomec" ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Phố Lê Văn Hưu" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Sa 07:00-18:00" ;
+    schema:url <https://tomec.vn/> ;
+    geo:asWKT "POINT(105.8535965 21.0181919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1219506444>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1219506444"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế Bách khoa"@vi ,
+                "Bach Khoa Medical Center"@en ;
+    schema:operator "Đại học Bách khoa Hà Nội" ;
+    ext:addr_housenumber "5" ;
+    ext:addr_street "Phố Tạ Quang Bửu" ;
+    schema:telephone "+84 24 38692400" ;
+    schema:email "yte@hust.edu.vn" ;
+    geo:asWKT "POINT(105.8475247 21.0058763)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1219690228>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1219690228"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Hưng Thịnh"@vi ,
+                "Phong kham Da khoa Hung Thinh"@en ;
+    ext:addr_housenumber "380" ;
+    ext:addr_street "Phố Xã Đàn" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8339127 21.014931)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1230360617>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1230360617"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Xuân Tảo"@vi ,
+                "Tram y te phuong Xuan Tao"@en ;
+    geo:asWKT "POINT(105.8010849 21.0629649)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1234857565>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1234857565"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế - Môi trường lao động Công Thương"@vi ,
+                "Trung tam Y te - Moi truong lao dong Cong Thuong"@en ;
+    ext:addr_housenumber "99" ;
+    ext:addr_street "Đường Văn Cao" ;
+    geo:asWKT "POINT(105.8159994 21.0391356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1234955609>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1234955609"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Won Clinic"@vi ,
+                "Won Clinic"@en ;
+    ext:addr_housenumber "166" ;
+    ext:addr_street "Phố Triệu Việt Vương" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84911122142" ;
+    schema:email "Wonclinicvn@gmail.com" ;
+    schema:url <https://wonclinic.vn/> ;
+    geo:asWKT "POINT(105.8502425 21.0128129)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1235566726>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1235566726"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế phường Nguyễn Du"@vi ,
+                "Diem Y te phuong Nguyen Du"@en ;
+    schema:operator "Trạm Y tế phường Hai Bà Trưng" ;
+    ext:addr_housenumber "92" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    geo:asWKT "POINT(105.8508985 21.012818)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1249932106>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1249932106"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Liễu Giai"@vi ,
+                "Tram y te phuong Lieu Giai"@en ;
+    geo:asWKT "POINT(105.8153138 21.0410904)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1250198534>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1250198534"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm y tế Phúc Đồng"@vi ,
+                "Diem y te Phuc Dong"@en ;
+    schema:operator "Trạm y tế phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.8970621 21.0427363)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1274310922>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1274310922"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Đồng Nhân"@vi ,
+                "Diem Y te Dong Nhan"@en ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Hương Viên" ;
+    geo:asWKT "POINT(105.8558881 21.0128386)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1302800839>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1302800839"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám 28B Điện Biên Phủ"@vi ,
+                "Phong kham 28B Dien Bien Phu"@en ;
+    ext:addr_housenumber "28B" ;
+    ext:addr_street "Đường Điện Biên Phủ" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8413082 21.0308961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1304059480>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1304059480"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1304059480"@vi ,
+                "Clinic #1304059480"@en ;
+    geo:asWKT "POINT(105.8256174 21.0322388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1304070604>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1304070604"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1304070604"@vi ,
+                "Clinic #1304070604"@en ;
+    geo:asWKT "POINT(105.8327122 21.0319946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1414193006>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1414193006"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Việt Hưng"@vi ,
+                "Diem Y te Viet Hung"@en ;
+    schema:operator "Trạm Y tế phường Việt Hưng" ;
+    ext:addr_housenumber "83" ;
+    ext:addr_street "Ngõ 139 Phố Hoa Lâm" ;
+    geo:asWKT "POINT(105.8983118 21.0579632)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1414193008>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1414193008"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Đức Giang"@vi ,
+                "Diem Y te Duc Giang"@en ;
+    schema:operator "Trạm Y tế phường Việt Hưng" ;
+    ext:addr_street "Ngõ 41 Phố Ô Cách" ;
+    geo:asWKT "POINT(105.8964778 21.059959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1451587784>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1451587784"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm trạm Y tế Bách Khoa"@vi ,
+                "Diem tram Y te Bach Khoa"@en ;
+    ext:addr_housenumber "31" ;
+    ext:addr_street "Phố Lê Thanh Nghị" ;
+    geo:asWKT "POINT(105.8489651 21.0032077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:659910054>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "659910054"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Dương Hà"@vi ,
+                "Tram Y te xa Duong Ha"@en ;
+    geo:asWKT "POINT(105.9300028 21.0716397)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:660703518>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "660703518"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Yên Viên"@vi ,
+                "Tram Y te xa Yen Vien"@en ;
+    geo:asWKT "POINT(105.9160104 21.0960362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:661138409>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "661138409"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Yên Thường"@vi ,
+                "Tram Y te xa Yen Thuong"@en ;
+    geo:asWKT "POINT(105.9161975 21.0977817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:661451768>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "661451768"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Đại Đồng"@vi ,
+                "Tram Y te xa Dai Dong"@en ;
+    geo:asWKT "POINT(105.9882972 21.089937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:863495463>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "863495463"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm trạm y tế Cổ Bi"@vi ,
+                "Diem tram y te Co Bi"@en ;
+    schema:operator "Trung tâm y tế xã Gia Lâm" ;
+    ext:addr_housenumber "113" ;
+    ext:addr_street "Đường Cổ Bi" ;
+    geo:asWKT "POINT(105.9412957 21.0312628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:913350031>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "913350031"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Phúc Lợi"@vi ,
+                "Tram y te phuong Phuc Loi"@en ;
+    ext:addr_housenumber "557" ;
+    ext:addr_street "Đường Nguyễn Văn Linh" ;
+    geo:asWKT "POINT(105.9112145 21.0319022)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:916688844>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "916688844"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế May 10"@vi ,
+                "Tram Y te May 10"@en ;
+    schema:operator "Tổng Công ty May 10" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.9200188 21.0299286)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1124817472>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1124817472"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế thị trấn Trâu Quỳ"@vi ,
+                "Tram y te thi tran Trau Quy"@en ;
+    ext:addr_housenumber "112" ;
+    ext:addr_street "Ngõ 367 phố Ngô Xuân Quảng" ;
+    geo:asWKT "POINT(105.9390373 21.0079518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1201121661>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1201121661"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm Y tế Cự Khối"@vi ,
+                "Diem Y te Cu Khoi"@en ;
+    schema:operator "Trạm Y tế phường Long Biên" ;
+    ext:addr_housenumber "595" ;
+    ext:addr_street "Đường Bát Khối" ;
+    geo:asWKT "POINT(105.9048925 21.0108765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1222284704>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1222284704"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế xã Đặng Xá"@vi ,
+                "Tram y te xa Dang Xa"@en ;
+    geo:asWKT "POINT(105.9593882 21.0289797)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1226916473>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1226916473"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế Cầu 14"@vi ,
+                "Tram y te Cau 14"@en ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Ngõ 95 Phố Vũ Xuân Thiều" ;
+    geo:asWKT "POINT(105.913414 21.0352666)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1251537877>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1251537877"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế phường Giang Biên"@vi ,
+                "Tram y te phuong Giang Bien"@en ;
+    geo:asWKT "POINT(105.9180118 21.0630178)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1311570136>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1311570136"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế xã Gia Lâm"@vi ,
+                "Tram Y te xa Gia Lam"@en ;
+    schema:operator "Ủy ban nhân dân xã Gia Lâm" ;
+    geo:asWKT "POINT(105.9440109 21.0083322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1414193009>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1414193009"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Việt Hưng"@vi ,
+                "Tram Y te phuong Viet Hung"@en ;
+    geo:asWKT "POINT(105.9103408 21.0686796)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1422082083>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1422082083"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Điểm y tế Phúc Lợi"@vi ,
+                "Diem y te Phuc Loi"@en ;
+    schema:operator "Trạm y tế phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.928746 21.0456487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1436337186>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1436337186"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Long Biên"@vi ,
+                "Tram Y te phuong Long Bien"@en ;
+    ext:addr_street "Phố Đồng Dinh" ;
+    geo:asWKT "POINT(105.9150336 21.0232081)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1444629300>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1444629300"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám #1444629300"@vi ,
+                "Clinic #1444629300"@en ;
+    geo:asWKT "POINT(105.9700349 21.0213834)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1017278315>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1017278315"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa khu vực - Trạm y tế xã Liên Hồng"@vi ,
+                "Phong kham Da khoa khu vuc - Tram y te xa Lien Hong"@en ;
+    geo:asWKT "POINT(105.7059766 21.1189746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1271990254>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1271990254"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng khám Đa khoa Đại Thịnh"@vi ,
+                "Phong kham Da khoa Dai Thinh"@en ;
+    geo:asWKT "POINT(105.724104 21.1839855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:1308852110>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "1308852110"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y Tế Xã Thụy Lâm"@vi ,
+                "Tram Y Te Xa Thuy Lam"@en ;
+    geo:asWKT "POINT(105.9003052 21.1736011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:648461422>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "648461422"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y Tế phường Trang Hạ"@vi ,
+                "Tram Y Te phuong Trang Ha"@en ;
+    ext:addr_street "Phố Trang Liệt 1" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9523751 21.1209865)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:648729032>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "648729032"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y Tế phường Tân Hồng"@vi ,
+                "Tram Y Te phuong Tan Hong"@en ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Tân Hưng" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9720579 21.110774)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:clinic:651520366>
+    a fiware:PointOfInterest, schema:MedicalClinic ;
+    ext:osm_id "651520366"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Tương Giang"@vi ,
+                "Tram Y te phuong Tuong Giang"@en ;
+    ext:addr_street "Đường Tương Giang" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9882389 21.1359938)"^^geo:wktLiteral .
+

@@ -1,0 +1,2146 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1000087196> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "53" ;
+    ext:addr_street "Phố Quốc Tử Giám" ;
+    ext:osm_id 1000087196 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Quoc Tu Giam"@en,
+        "Hiệu thuốc tại Phố Quốc Tử Giám"@vi ;
+    geo:asWKT "POINT(105.8359532 21.0269865)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1000087314> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "45" ;
+    ext:addr_street "Phố Quốc Tử Giám" ;
+    ext:osm_id 1000087314 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Quoc Tu Giam"@en,
+        "Hiệu thuốc tại Phố Quốc Tử Giám"@vi ;
+    geo:asWKT "POINT(105.8361952 21.0268873)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10081741321> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_housenumber "3 Bắc Linh Đàm" ;
+    ext:addr_street "Đặng Xuân Bảng" ;
+    ext:osm_id 10081741321 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:openingHours "Mo-Su 06:00-23:30" ;
+    schema:telephone "+84 1800 6821" ;
+    schema:url <https://www.pharmacity.vn/> ;
+    geo:asWKT "POINT(105.829829 20.9705795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10086502383> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "C15" ;
+    ext:addr_street "Nguyễn Quý Đức" ;
+    ext:osm_id 10086502383 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Minh Tien"@en,
+        "Nhà thuốc Minh Tiến"@vi ;
+    schema:openingHours "Mo-Sa 07:15-21:00; Su 07:15-18:30" ;
+    schema:telephone "+84 966 369 299" ;
+    geo:asWKT "POINT(105.8011202 20.9904032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10114776476> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10114776476 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Long Chau"@en,
+        "Nhà thuốc Long Châu"@vi ;
+    geo:asWKT "POINT(105.8270963 21.0132962)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10114776477> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10114776477 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Ho Dac Di"@en,
+        "Nhà thuốc tại Phố Hồ Đắc Di"@vi ;
+    geo:asWKT "POINT(105.8279915 21.0127934)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10114776478> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10114776478 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Ho Dac Di"@en,
+        "Nhà thuốc tại Phố Hồ Đắc Di"@vi ;
+    geo:asWKT "POINT(105.8287076 21.0124492)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10166537644> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10166537644 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Khu B Dai Hoc Mo"@en,
+        "Nhà thuốc tại Khu B Đại Học Mỏ"@vi ;
+    geo:asWKT "POINT(105.7617077 21.067189)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10166537646> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10166537646 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Khu B Dai Hoc Mo"@en,
+        "Nhà thuốc tại Khu B Đại Học Mỏ"@vi ;
+    geo:asWKT "POINT(105.7623933 21.0668185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10213962935> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Phường Đức Thắng" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "152" ;
+    ext:addr_street "Phố Văn Hội" ;
+    ext:osm_id 10213962935 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Huy152"@en,
+        "Nhà thuốc Đức Huy152"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7732071 21.0805879)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10223164765> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10223164765 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Splendora"@en,
+        "Nhà thuốc tại Đường SPLENDORA"@vi ;
+    geo:asWKT "POINT(105.7240109 21.0161255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10248628295> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "237" ;
+    ext:addr_street "Phố Trần Quốc Hoàn" ;
+    ext:osm_id 10248628295 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hoang Minh"@en,
+        "Nhà thuốc Hoàng Minh"@vi ;
+    geo:asWKT "POINT(105.7822704 21.0416695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10255177791> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "9 P. Lê Văn Hiến, Đông Ngạc, Bắc Từ Liêm, Hà Nội 10000, Việt Nam" ;
+    ext:osm_id 10255177791 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy 24/7"@en,
+        "Nhà thuốc 24/7"@vi ;
+    schema:openingHours "Mo-Sun 07:00-22:00" ;
+    geo:asWKT "POINT(105.7751798 21.0741716)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10255708072> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "3QGF+9MW, Đông Ngạc, Bắc Từ Liêm, Hà Nội, Việt Nam" ;
+    ext:osm_id 10255708072 ;
+    ext:osm_type "node" ;
+    schema:name "Thuoc Sau Rang"@en,
+        "thuốc sâu răng"@vi ;
+    schema:openingHours "Mo-Su 05:00-23:00" ;
+    geo:asWKT "POINT(105.7729866 21.0718892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10255708089> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "152-Phố Văn Hội-Đức Thắng-Bắc Từ Liêm-HN" ;
+    ext:osm_id 10255708089 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Huy 152"@en,
+        "Nhà thuốc Đức Huy 152"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7770491 21.0709063)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10257020096> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "3QCC+XXQ, Ng. 32 P. Viên, Đông Ngạc, Bắc Từ Liêm, Hà Nội, Việt Nam" ;
+    ext:osm_id 10257020096 ;
+    ext:osm_type "node" ;
+    schema:name "La Nam Acnes"@en,
+        "Lá nam Acnes"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7741767 21.0774119)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10258564238> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "152-Phố Văn Hội-Đức Thắng-Bắc Từ Liêm-HN" ;
+    ext:osm_id 10258564238 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Huy 152"@en,
+        "Nhà thuốc Đức Huy 152"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7729043 21.0727342)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10262933711> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10262933711 ;
+    ext:osm_type "node" ;
+    schema:name "Thuoc Tri Nam Sau Sinh"@en,
+        "Thuốc Trị nám sau sinh"@vi ;
+    schema:openingHours "Mo-Su 08:00-22:00" ;
+    geo:asWKT "POINT(105.7736738 21.0743589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10262933712> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10262933712 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Linh Lan"@en,
+        "Nhà Thuốc Linh Lan"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    geo:asWKT "POINT(105.7738155 21.0741407)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10262933713> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10262933713 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Trinh Tam"@en,
+        "Nhà Thuốc Trinh Tâm"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    geo:asWKT "POINT(105.7737146 21.0741607)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10728950805> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10728950805 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Nguyen Truong to"@en,
+        "Nhà thuốc tại Phố Nguyễn Trường Tộ"@vi ;
+    geo:asWKT "POINT(105.8428799 21.0432388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10846785313> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10846785313 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Thuy Khue"@en,
+        "Nhà thuốc tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8072874 21.0485786)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10848069827> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10848069827 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Huy"@en,
+        "Nhà thuốc Đức Huy"@vi ;
+    geo:asWKT "POINT(105.8084693 21.048355)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10950095905> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10950095905 ;
+    ext:osm_type "node" ;
+    schema:name "132 Ba Trieu"@en,
+        "132 Bà Triệu"@vi ;
+    geo:asWKT "POINT(105.8500518 21.0171371)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:10969246205> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 10969246205 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Ba Trieu"@en,
+        "Nhà thuốc tại Phố Bà Triệu"@vi ;
+    geo:asWKT "POINT(105.8493886 21.0175857)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11167471086> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Thành Thái" ;
+    ext:osm_id 11167471086 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Truong Huong"@en,
+        "Nhà thuốc Trường Hương"@vi ;
+    geo:asWKT "POINT(105.7936974 21.0287756)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11211915128> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "214" ;
+    ext:addr_street "Ngõ Xã Đàn 2" ;
+    ext:osm_id 11211915128 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Anh Duc"@en,
+        "Nhà thuốc Anh Đức"@vi ;
+    geo:asWKT "POINT(105.8323841 21.0127084)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11212149495> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "25B4" ;
+    ext:addr_street "Ngõ 21 Phạm Ngọc Thạch" ;
+    ext:osm_id 11212149495 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Nam Cuong"@en,
+        "Nhà thuốc Nam Cường"@vi ;
+    geo:asWKT "POINT(105.8361196 21.0098503)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11226865498> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Ngõ 238 Hoàng Quốc Việt" ;
+    ext:osm_id 11226865498 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Bao an So 1"@en,
+        "Quầy thuốc Bảo An số 1"@vi ;
+    geo:asWKT "POINT(105.7831976 21.0471298)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11227192940> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11227192940 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Bac Thu"@en,
+        "Nhà thuốc Bắc Thu"@vi ;
+    geo:asWKT "POINT(105.7840464 21.0491115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11281683476> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "125" ;
+    ext:addr_street "Ngõ Xã Đàn 2" ;
+    ext:osm_id 11281683476 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hang Anh"@en,
+        "Nhà thuốc Hằng Anh"@vi ;
+    geo:asWKT "POINT(105.8316307 21.0153155)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11286510046> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "145" ;
+    ext:addr_street "Đường Đê La Thành" ;
+    ext:osm_id 11286510046 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy So 9"@en,
+        "Nhà thuốc số 9"@vi ;
+    geo:asWKT "POINT(105.8315949 21.0173423)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11295778637> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Đường Đê La Thành" ;
+    ext:osm_id 11295778637 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Bao Phuc Ii"@en,
+        "Nhà thuốc Bảo Phúc II"@vi ;
+    geo:asWKT "POINT(105.8318618 21.0170633)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11301620141> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "362C" ;
+    ext:addr_street "Phố Xã Đàn" ;
+    ext:osm_id 11301620141 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hai Anh"@en,
+        "Nhà thuốc Hải Anh"@vi ;
+    geo:asWKT "POINT(105.8342538 21.01467)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11389436631> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11389436631 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hai Phuong"@en,
+        "Nhà thuốc Hải Phương"@vi ;
+    geo:asWKT "POINT(105.7396842 21.0047947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11500070707> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 11500070707 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Phuong Chinh"@en,
+        "Nhà thuốc Phương Chính"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "+84 1800 6666" ;
+    schema:url <https://nhathuocphuongchinh.com/> ;
+    geo:asWKT "POINT(105.8508795 21.0149411)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11505669794> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "72" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 11505669794 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hong Dang 5"@en,
+        "Nhà thuốc Hồng Đăng 5"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "+84 978 567 077" ;
+    geo:asWKT "POINT(105.8508884 21.0139652)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11513441569> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11513441569 ;
+    ext:osm_type "node" ;
+    schema:name "Vaccination Centre"@en,
+        "Vaccination Centre"@vi ;
+    geo:asWKT "POINT(105.8325824 21.0250692)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11521920509> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11521920509 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy an Pharmacy"@en,
+        "Nhà Thuốc An Pharmacy"@vi ;
+    geo:asWKT "POINT(105.8105443 21.0350276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11521920522> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11521920522 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hiep Oanh"@en,
+        "Nhà Thuốc Hiệp Oanh"@vi ;
+    geo:asWKT "POINT(105.8127952 21.0346799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11521920523> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11521920523 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Hanh"@en,
+        "Nhà thuốc Đức Hạnh"@vi ;
+    geo:asWKT "POINT(105.8130038 21.0357856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11534643042> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "62" ;
+    ext:addr_street "Phố Tô Hiến Thành" ;
+    ext:osm_id 11534643042 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Ha Thu"@en,
+        "Nhà thuốc Hà Thu"@vi ;
+    geo:asWKT "POINT(105.8497577 21.0135845)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11563448508> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "9" ;
+    ext:addr_street "Phố Đặng Thùy Trâm" ;
+    ext:osm_id 11563448508 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hung Gia"@en,
+        "Nhà thuốc Hưng Gia"@vi ;
+    geo:asWKT "POINT(105.7844435 21.0455098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11564316622> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "17" ;
+    ext:addr_street "Đường Đặng Thùy Trâm" ;
+    ext:osm_id 11564316622 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Thanh Duy"@en,
+        "Nhà thuốc Thành Duy"@vi ;
+    geo:asWKT "POINT(105.7845613 21.0450689)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11568935719> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Phạm Tuấn Tài" ;
+    ext:osm_id 11568935719 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    geo:asWKT "POINT(105.7860905 21.0427024)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11571556932> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "23" ;
+    ext:addr_street "Ngõ 3 Phạm Tuấn Tài" ;
+    ext:osm_id 11571556932 ;
+    ext:osm_type "node" ;
+    schema:name "Duo Care"@en,
+        "DUO Care"@vi ;
+    schema:openingHours "Mo-Su 08:00-22:00" ;
+    geo:asWKT "POINT(105.7854321 21.0433255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11586911185> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 62 Đặng Thuỳ Trâm" ;
+    ext:osm_id 11586911185 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Trieu Tan"@en,
+        "Nhà thuốc Triệu Tân"@vi ;
+    geo:asWKT "POINT(105.7861166 21.043525)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11591859671> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Phường Tây Mỗ" ;
+    ext:addr_district "Quận Nam Từ Liêm" ;
+    ext:addr_housenumber "33" ;
+    ext:addr_street "Đường Tây Mỗ" ;
+    ext:osm_id 11591859671 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Long Chau"@en,
+        "Nhà thuốc Long Châu"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "18006928" ;
+    schema:url <https://nhathuoclongchau.com.vn/> ;
+    geo:asWKT "POINT(105.7507217 21.0016599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11633344434> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "129" ;
+    ext:addr_street "Phố Ngọc Lâm" ;
+    ext:osm_id 11633344434 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Ngoc Lam"@en,
+        "Hiệu thuốc tại Phố Ngọc Lâm"@vi ;
+    geo:asWKT "POINT(105.8687308 21.0453505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11633344443> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "103" ;
+    ext:addr_street "Phố Ngọc Lâm" ;
+    ext:osm_id 11633344443 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Thien"@en,
+        "Nhà thuốc Thiện"@vi ;
+    geo:asWKT "POINT(105.8683676 21.0451298)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1163864494> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "70" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    ext:osm_id 1163864494 ;
+    ext:osm_type "way" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:operator "Phamacity" ;
+    geo:asWKT "POINT(105.8267369 21.0414606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11655061819> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Trần Quốc Hoàn" ;
+    ext:osm_id 11655061819 ;
+    ext:osm_type "node" ;
+    schema:name "Bach Vuong Thao"@en,
+        "Bách Vương Thảo"@vi ;
+    geo:asWKT "POINT(105.7869775 21.0414688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11655143936> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11655143936 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hong Dang 5"@en,
+        "Pharmacy Hong Dang 5"@vi ;
+    geo:asWKT "POINT(105.8516154 21.037204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11672849009> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "124" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 11672849009 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Phuong Chinh"@en,
+        "Nhà thuốc Phương Chính"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "+84 337 100 588" ;
+    schema:url <https://nhathuocphuongchinh.com/> ;
+    geo:asWKT "POINT(105.8505521 21.0098826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11685045539> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "169A" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 11685045539 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Phuong Chinh"@en,
+        "Nhà thuốc Phương Chính"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "+84 24 7300 3333" ;
+    schema:url <https://nhathuocphuongchinh.com/> ;
+    geo:asWKT "POINT(105.8508597 21.0095477)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11772806569> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "52 B" ;
+    ext:addr_street "Phố Quán Sứ" ;
+    ext:osm_id 11772806569 ;
+    ext:osm_type "node" ;
+    schema:name "Thu Huong"@en,
+        "Thu hương"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "02438249076" ;
+    geo:asWKT "POINT(105.845955 21.0276281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11829544970> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "56" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    ext:osm_id 11829544970 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Giao Phong"@en,
+        "Nhà thuốc giao phong"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "0981316603" ;
+    geo:asWKT "POINT(105.8455292 21.040574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11846880571> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 11846880571 ;
+    ext:osm_type "node" ;
+    schema:name "Duoc Lao Cai"@en,
+        "Dược Lào Cai"@vi ;
+    geo:asWKT "POINT(105.7878122 21.0324825)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11864413515> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "93" ;
+    ext:addr_street "Phố Nguyễn Trường Tộ" ;
+    ext:osm_id 11864413515 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy an Tam"@en,
+        "Nhà Thuốc An Tâm"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "0933523282" ;
+    schema:url <http://antammed.com> ;
+    geo:asWKT "POINT(105.8442912 21.0427278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:11929783369> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "91E" ;
+    ext:addr_street "Phố Hàng Mã" ;
+    ext:osm_id 11929783369 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc"@en,
+        "Nhà Thuốc Đức"@vi ;
+    schema:telephone "0437186769" ;
+    geo:asWKT "POINT(105.8466192 21.0365517)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12050985875> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Hàng Bún" ;
+    ext:osm_id 12050985875 ;
+    ext:osm_type "node" ;
+    schema:name "Chuyen Ban Le Thuoc Thanh Pham"@en,
+        "Chuyên bán lẻ thuốc thành phẩm"@vi ;
+    schema:telephone "0983111112" ;
+    geo:asWKT "POINT(105.8460037 21.0443011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12091542206> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12091542206 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Chu Van an"@en,
+        "Nhà thuốc tại Phố Chu Văn An"@vi ;
+    geo:asWKT "POINT(105.8346229 21.0310711)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1210089645> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Phố Đông Các" ;
+    ext:osm_id 1210089645 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy Ngoc Han"@en,
+        "Nhà thuốc Ngọc Hân"@vi ;
+    geo:asWKT "POINT(105.8288463 21.0183291)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12129452073> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12129452073 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy So 3 Hospital University Y Ha Noi"@en,
+        "Nhà thuốc số 3 Bệnh viện Đại học Y Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8297194 21.0020378)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12129452074> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12129452074 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy So 5 Hospital University Y Ha Noi"@en,
+        "Nhà thuốc số 5 Bệnh viện Đại học Y Hà Nội"@vi ;
+    geo:asWKT "POINT(105.829947 21.002588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12188220613> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12188220613 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy an Binh So 8"@en,
+        "Nhà Thuốc An Bình Số 8"@vi ;
+    geo:asWKT "POINT(105.7924232 21.0295835)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12434838530> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12434838530 ;
+    ext:osm_type "node" ;
+    schema:brand "Guardian" ;
+    schema:name "Guardian"@en,
+        "Guardian"@vi ;
+    geo:asWKT "POINT(105.8441673 21.0286071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12533006070> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12533006070 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    geo:asWKT "POINT(105.8471177 21.0303792)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12550977801> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12550977801 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho an Duong"@en,
+        "Nhà thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8407884 21.0511717)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1256907124> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "161" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 1256907124 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy Long Chau"@en,
+        "Nhà thuốc Long Châu"@vi ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:telephone "+84 1800 6928" ;
+    schema:url <https://nhathuoclongchau.com.vn/> ;
+    geo:asWKT "POINT(105.8508952 21.0097797)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:12585048508> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 12585048508 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:openingHours "Su-Sa 07:00-23:00" ;
+    geo:asWKT "POINT(105.8201954 21.0352504)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13038657781> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13038657781 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Bach Mai 9999"@en,
+        "Quầy Thuốc Bạch Mai 9999"@vi ;
+    geo:asWKT "POINT(105.95208 20.9320549)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13041251910> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13041251910 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Van Oanh"@en,
+        "Quầy Thuốc Văn Oanh"@vi ;
+    geo:asWKT "POINT(105.9601775 20.9361258)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13155788997> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "243" ;
+    ext:addr_street "Đường Minh Khai" ;
+    ext:osm_id 13155788997 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    geo:asWKT "POINT(105.9686597 21.1228196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13264888449> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13264888449 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy 3p Pharmacy"@en,
+        "Nhà Thuốc 3P Pharmacy"@vi ;
+    geo:asWKT "POINT(105.7959665 21.0065766)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13290859254> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13290859254 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Ngo 116 Mieu Dam"@en,
+        "Nhà thuốc tại Ngõ 116 Miếu Đầm"@vi ;
+    geo:asWKT "POINT(105.7814938 21.0042452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13293879797> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13293879797 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duyen Ii"@en,
+        "Quầy thuốc Duyên II"@vi ;
+    geo:asWKT "POINT(105.9598142 20.930307)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1329845842> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1329845842 ;
+    ext:osm_type "way" ;
+    schema:name "Omipharma"@en,
+        "OmiPharma"@vi ;
+    geo:asWKT "POINT(105.7537708 21.006278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1331638474> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1331638474 ;
+    ext:osm_type "way" ;
+    schema:brand "Guardian" ;
+    schema:name "Guardian"@en,
+        "Guardian"@vi ;
+    geo:asWKT "POINT(105.8692689 20.9943849)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13318568568> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13318568568 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duy Duyen"@en,
+        "Quầy thuốc Duy Duyên"@vi ;
+    geo:asWKT "POINT(105.9517295 20.9435509)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1331876554> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1331876554 ;
+    ext:osm_type "way" ;
+    schema:name "Omipharma"@en,
+        "Omipharma"@vi ;
+    geo:asWKT "POINT(105.8690478 20.9941593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:13340614208> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 13340614208 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    geo:asWKT "POINT(105.7776054 21.0066283)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1448342482> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1448342482 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy at Duong Pho Duc Chinh"@en,
+        "Nhà thuốc tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.9601817 20.93611)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1448555798> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1448555798 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy at Xom Thuy Chinh"@en,
+        "Nhà thuốc tại Xóm Thủy Chính"@vi ;
+    geo:asWKT "POINT(105.9520402 20.9320511)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1448561903> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1448561903 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy at Duong Do Tong"@en,
+        "Nhà thuốc tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9598108 20.9302844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1451287869> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451287869 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy at Duong Do Tong"@en,
+        "Nhà thuốc tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9476485 20.9429118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:1452255775> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Đỗ Tông" ;
+    ext:osm_id 1452255775 ;
+    ext:osm_type "way" ;
+    schema:name "Hieu Thuoc Tai Duong Do Tong"@en,
+        "Hiệu thuốc tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9517165 20.9435278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:2366843089> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 2366843089 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Nguyen Binh Khiem"@en,
+        "Nhà thuốc tại Phố Nguyễn Bỉnh Khiêm"@vi ;
+    geo:asWKT "POINT(105.8485752 21.0173388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3471347685> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Hoàng Sâm" ;
+    ext:osm_id 3471347685 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Huong Sen"@en,
+        "Nhà thuốc Hương Sen"@vi ;
+    schema:openingHours "10:00-22:00" ;
+    schema:operator "Nguyễn Hoàng Tuấn" ;
+    geo:asWKT "POINT(105.7994239 21.0453082)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3541820070> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "47" ;
+    ext:addr_street "Phõ Vũ Ngọc Phan" ;
+    ext:osm_id 3541820070 ;
+    ext:osm_type "node" ;
+    schema:name "Supermarket Thuc Pham Chuc Nang Gpcare"@en,
+        "Siêu thị thực phẩm chức năng GPCare"@vi ;
+    schema:telephone "+84 0996986666" ;
+    schema:url <https://www.gpcare.vn/> ;
+    geo:asWKT "POINT(105.8100527 21.0145412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3541976046> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà nội" ;
+    ext:addr_housenumber "Tầng hầm B1 - Siêu thị Vinmart - Tòa nhà N05" ;
+    ext:addr_street "Hoàng Đạo Thúy" ;
+    ext:osm_id 3541976046 ;
+    ext:osm_type "node" ;
+    schema:name "Supermarket Thuc Pham Chuc Nang Gpcare"@en,
+        "Siêu thị thực phẩm chức năng GPCare"@vi ;
+    schema:operator "Công ty cổ phần dinh dưỡng thiên nhiên GP Hoa Kỳ" ;
+    schema:telephone "0996986666" ;
+    schema:url <https://www.gpcare.vn/> ;
+    geo:asWKT "POINT(105.8009261 21.0084204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3541989300> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "65B" ;
+    ext:addr_street "Trần Hưng Đạo" ;
+    ext:osm_id 3541989300 ;
+    ext:osm_type "node" ;
+    schema:name "Supermarket Thuc Pham Chuc Nang Gpcare - Co So 3 - 65b Tran Hung Dao"@en,
+        "Siêu thị thực phẩm chức năng GPCare - Cơ sở 3 - 65B Trần Hưng Đạo"@vi ;
+    schema:operator "Công ty cổ phần dinh dưỡng thiên nhiên GP Hoa Kỳ" ;
+    schema:telephone "0996986666" ;
+    schema:url <https://www.gpcare.vn/> ;
+    geo:asWKT "POINT(105.8494073 21.0216211)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070799> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "115" ;
+    ext:addr_street "Phố Phủ Doãn" ;
+    ext:osm_id 3565070799 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Phu Doan"@en,
+        "Hiệu thuốc tại Phố Phủ Doãn"@vi ;
+    geo:asWKT "POINT(105.8478418 21.0276048)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070800> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    ext:osm_id 3565070800 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Quan Thanh"@en,
+        "Hiệu thuốc tại Phố Quán Thánh"@vi ;
+    geo:asWKT "POINT(105.8461148 21.0404144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070802> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "99" ;
+    ext:addr_street "Phố Phủ Doãn" ;
+    ext:osm_id 3565070802 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Phu Doan"@en,
+        "Hiệu thuốc tại Phố Phủ Doãn"@vi ;
+    geo:asWKT "POINT(105.8478496 21.0279398)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070810> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 3565070810 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Trieu Quoc Dat"@en,
+        "Nhà thuốc tại Phố Triệu Quốc Đạt"@vi ;
+    geo:asWKT "POINT(105.8477637 21.0266628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070813> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 3565070813 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Trieu Quoc Dat"@en,
+        "Nhà thuốc tại Phố Triệu Quốc Đạt"@vi ;
+    geo:asWKT "POINT(105.847816 21.0268223)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3565070815> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 3565070815 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Phu Doan"@en,
+        "Nhà thuốc tại Phố Phủ Doãn"@vi ;
+    geo:asWKT "POINT(105.847825 21.0299202)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:3975723726> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Trần Phú" ;
+    ext:osm_id 3975723726 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Tran Phu"@en,
+        "Hiệu thuốc tại Phố Trần Phú"@vi ;
+    geo:asWKT "POINT(105.8416558 21.03066)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:4275610311> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 4275610311 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy"@en,
+        "Nha Thuoc"@vi ;
+    geo:asWKT "POINT(105.8516586 21.0357843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:4738219029> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 4738219029 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Hang Ga"@en,
+        "Nhà thuốc tại Phố Hàng Gà"@vi ;
+    geo:asWKT "POINT(105.847097 21.0338951)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:4749008081> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 4749008081 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Bac Cau"@en,
+        "Nhà thuốc tại Phố Bắc Cầu"@vi ;
+    geo:asWKT "POINT(105.8507863 21.073398)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:4749011233> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 4749011233 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Ngach 65 Ngo Thien Hung"@en,
+        "Nhà thuốc tại Ngách 65 Ngõ Thiên Hùng"@vi ;
+    geo:asWKT "POINT(105.8393776 21.0208852)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:4749012340> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "188" ;
+    ext:addr_street "Phố Huế" ;
+    ext:osm_id 4749012340 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Hue"@en,
+        "Hiệu thuốc tại Phố Huế"@vi ;
+    geo:asWKT "POINT(105.8516059 21.0143095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5015817621> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 5015817621 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Ta Hien"@en,
+        "Nhà thuốc tại Phố Tạ Hiện"@vi ;
+    geo:asWKT "POINT(105.851923 21.0354104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5114631122> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 5114631122 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Ta Hien"@en,
+        "Nhà thuốc tại Phố Tạ Hiện"@vi ;
+    geo:asWKT "POINT(105.852076 21.0355167)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5373998023> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 5373998023 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Nguyen Huu Huan"@en,
+        "Nhà thuốc tại Phố Nguyễn Hữu Huân"@vi ;
+    geo:asWKT "POINT(105.8545743 21.0321283)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5398647622> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "65" ;
+    ext:addr_street "Mã Mây" ;
+    ext:osm_id 5398647622 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Pharmacy"@en,
+        "Nha Thuoc Pharmacy"@vi ;
+    schema:openingHours "Mo-Su 07:00-23:00" ;
+    geo:asWKT "POINT(105.8535176 21.0348341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5485756824> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hanoi" ;
+    ext:addr_housenumber "113" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:osm_id 5485756824 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Dat"@en,
+        "Nhà Thuốc Đức Đạt"@vi ;
+    geo:asWKT "POINT(105.7755461 21.0420383)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5485810868> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 5485810868 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Long Tam"@en,
+        "Nhà thuốc Long Tâm"@vi ;
+    geo:asWKT "POINT(105.8414979 21.0020573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:5485850258> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "145" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Trần Đăng Ninh" ;
+    ext:osm_id 5485850258 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Tam an"@en,
+        "Nhà Thuốc Tâm An"@vi ;
+    schema:openingHours "Mo-Su 08:00-22:00" ;
+    schema:telephone "+84 24 6283 1975" ;
+    geo:asWKT "POINT(105.7929932 21.0380968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6533984894> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6533984894 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Ngo 171 Duong Nguyen Ngoc Vu"@en,
+        "Nhà thuốc tại Ngõ 171 Đường Nguyễn Ngọc Vũ"@vi ;
+    geo:asWKT "POINT(105.8063185 21.0108295)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6587191996> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6587191996 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.840941 21.0513387)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6591599725> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "20" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6591599725 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8409155 21.0510808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6602744796> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "72" ;
+    ext:addr_street "Ngõ 445 Lạc Long Quân" ;
+    ext:osm_id 6602744796 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 445 Lac Long Quan"@en,
+        "Hiệu thuốc tại Ngõ 445 Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8053377 21.0562301)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6606208319> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "89" ;
+    ext:addr_street "Phố Định Công Thượng" ;
+    ext:osm_id 6606208319 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Dinh Cong Thuong"@en,
+        "Hiệu thuốc tại Phố Định Công Thượng"@vi ;
+    geo:asWKT "POINT(105.8206417 20.9823606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6610502448> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "103" ;
+    ext:addr_street "Phố Trịnh Công Sơn" ;
+    ext:osm_id 6610502448 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Trinh Cong Son"@en,
+        "Hiệu thuốc tại Phố Trịnh Công Sơn"@vi ;
+    geo:asWKT "POINT(105.81827 21.0784341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617292922> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:osm_id 6617292922 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Le Trong Tan"@en,
+        "Hiệu thuốc tại Phố Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.8281016 21.0004641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617476315> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "93" ;
+    ext:addr_street "Ngõ 192 Lê Trọng Tấn" ;
+    ext:osm_id 6617476315 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 192 Le Trong Tan"@en,
+        "Hiệu thuốc tại Ngõ 192 Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.8291557 20.9928265)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617524041> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Ngõ 192 Lê Trọng Tấn" ;
+    ext:osm_id 6617524041 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 192 Le Trong Tan"@en,
+        "Hiệu thuốc tại Ngõ 192 Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.8308234 20.9939121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617524044> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "57" ;
+    ext:addr_street "Ngõ 192 Lê Trọng Tấn" ;
+    ext:osm_id 6617524044 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 192 Le Trong Tan"@en,
+        "Hiệu thuốc tại Ngõ 192 Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.829884 20.9932522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617524050> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "116" ;
+    ext:addr_street "Ngõ 192 Lê Trọng Tấn" ;
+    ext:osm_id 6617524050 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 192 Le Trong Tan"@en,
+        "Hiệu thuốc tại Ngõ 192 Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.8286662 20.9922844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617783879> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "71" ;
+    ext:addr_street "Phố Tứ Liên" ;
+    ext:osm_id 6617783879 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Tu Lien"@en,
+        "Hiệu thuốc tại Phố Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.8345972 21.0648287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617783883> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "89" ;
+    ext:addr_street "Phố Tứ Liên" ;
+    ext:osm_id 6617783883 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Tu Lien"@en,
+        "Hiệu thuốc tại Phố Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.8353275 21.0653574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617816054> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 464 Âu Cơ" ;
+    ext:osm_id 6617816054 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 464 Au Co"@en,
+        "Hiệu thuốc tại Ngõ 464 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8191283 21.0812864)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6617816055> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "466" ;
+    ext:addr_street "Đường Âu Cơ" ;
+    ext:osm_id 6617816055 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong Au Co"@en,
+        "Hiệu thuốc tại Đường Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8189104 21.0803156)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6620581355> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6620581355 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Ngo 51 Tran Dien"@en,
+        "Nhà thuốc tại Ngõ 51 Trần Điền"@vi ;
+    geo:asWKT "POINT(105.8321652 20.9887346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6621395573> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "75" ;
+    ext:addr_street "Phố Yên Phụ" ;
+    ext:osm_id 6621395573 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Yen Phu"@en,
+        "Hiệu thuốc tại Phố Yên Phụ"@vi ;
+    geo:asWKT "POINT(105.8378012 21.0524622)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6624622117> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "180" ;
+    ext:addr_street "Đường Xuân Diệu" ;
+    ext:osm_id 6624622117 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong Xuan Dieu"@en,
+        "Hiệu thuốc tại Đường Xuân Diệu"@vi ;
+    geo:asWKT "POINT(105.8261493 21.0677174)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6624906079> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Đường Tô Ngọc Vân" ;
+    ext:osm_id 6624906079 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong to Ngoc Van"@en,
+        "Hiệu thuốc tại Đường Tô Ngọc Vân"@vi ;
+    geo:asWKT "POINT(105.8259975 21.0679774)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638268503> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "74" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6638268503 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8399543 21.0541519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638268521> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "37" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6638268521 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8405075 21.0524028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638268530> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "17" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6638268530 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8407402 21.051844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638638930> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Phố Tứ Liên" ;
+    ext:osm_id 6638638930 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Tu Lien"@en,
+        "Hiệu thuốc tại Phố Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.8344558 21.0647161)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638683464> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "77" ;
+    ext:addr_street "Ngõ 172 Âu Cơ" ;
+    ext:osm_id 6638683464 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 172 Au Co"@en,
+        "Hiệu thuốc tại Ngõ 172 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8324629 21.0669944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638909106> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Ngõ 612 Lạc Long Quân" ;
+    ext:osm_id 6638909106 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 612 Lac Long Quan"@en,
+        "Hiệu thuốc tại Ngõ 612 Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8153584 21.076248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6638973770> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Ngõ 294/2 Kim Mã" ;
+    ext:osm_id 6638973770 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 294/2 Kim Ma"@en,
+        "Hiệu thuốc tại Ngõ 294/2 Kim Mã"@vi ;
+    geo:asWKT "POINT(105.8210984 21.0325347)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6641564947> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Trần Điền" ;
+    ext:osm_id 6641564947 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Tran Dien"@en,
+        "Hiệu thuốc tại Trần Điền"@vi ;
+    geo:asWKT "POINT(105.8311057 20.9908369)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6644157934> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 328 Lê Trọng Tấn" ;
+    ext:osm_id 6644157934 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 328 Le Trong Tan"@en,
+        "Hiệu thuốc tại Ngõ 328 Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.8344082 20.9852481)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6644607980> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "7" ;
+    ext:addr_street "Ngõ 464 Âu Cơ" ;
+    ext:osm_id 6644607980 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 464 Au Co"@en,
+        "Hiệu thuốc tại Ngõ 464 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.819021 21.0814337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6644607982> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "466" ;
+    ext:addr_street "Ngõ 464 Âu Cơ" ;
+    ext:osm_id 6644607982 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 464 Au Co"@en,
+        "Hiệu thuốc tại Ngõ 464 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8186321 21.0809876)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6644860767> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Đường Khuê" ;
+    ext:osm_id 6644860767 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Duong Khue"@en,
+        "Hiệu thuốc tại Phố Đường Khuê"@vi ;
+    geo:asWKT "POINT(105.772602 21.0343632)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6647336773> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "25" ;
+    ext:osm_id 6647336773 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Ngoc Thiep"@en,
+        "Nhà Thuốc Ngọc Thiệp"@vi ;
+    geo:asWKT "POINT(105.7388303 20.9916427)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6647646643> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Đường La Dương" ;
+    ext:osm_id 6647646643 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy La Duong"@en,
+        "Nhà Thuốc La Dương"@vi ;
+    geo:asWKT "POINT(105.7379593 20.9910936)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6648357897> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "64" ;
+    ext:addr_street "Ngõ 180 Tây Mỗ" ;
+    ext:osm_id 6648357897 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Quang Minh"@en,
+        "Nhà Thuốc Quang Minh"@vi ;
+    geo:asWKT "POINT(105.7475878 21.0016698)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6651304041> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "180" ;
+    ext:addr_street "Đường Tây Mỗ" ;
+    ext:osm_id 6651304041 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Thu Ha"@en,
+        "Nhà thuốc Thu Hà"@vi ;
+    geo:asWKT "POINT(105.7508004 21.0013799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6651424324> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6651424324 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Gpp"@en,
+        "Nhà Thuốc GPP"@vi ;
+    geo:asWKT "POINT(105.7466805 21.001522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6651744844> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Đường Hữu Hưng" ;
+    ext:osm_id 6651744844 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Phong Phu"@en,
+        "Nhà Thuốc Phong Phú"@vi ;
+    geo:asWKT "POINT(105.7463519 20.9957338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6651744845> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Hữu Hưng" ;
+    ext:osm_id 6651744845 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Yen Long"@en,
+        "Nhà Thuốc Yên Long"@vi ;
+    geo:asWKT "POINT(105.7473658 20.9958403)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6651779534> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6651779534 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Minh Hoa"@en,
+        "Nhà Thuốc Minh Hòa"@vi ;
+    geo:asWKT "POINT(105.74682 20.9964287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6661596868> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "67" ;
+    ext:addr_street "Ngõ 200 Âu Cơ" ;
+    ext:osm_id 6661596868 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 200 Au Co"@en,
+        "Hiệu thuốc tại Ngõ 200 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8320606 21.0668104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6666485218> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Ngách 124/22 Âu Cơ" ;
+    ext:osm_id 6666485218 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngach 124/22 Au Co"@en,
+        "Hiệu thuốc tại Ngách 124/22 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8347388 21.0620497)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6666518590> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "44" ;
+    ext:addr_street "Ngách 124/22 Âu Cơ" ;
+    ext:osm_id 6666518590 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngach 124/22 Au Co"@en,
+        "Hiệu thuốc tại Ngách 124/22 Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8349439 21.0618044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6667986240> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngõ 76 An Dương" ;
+    ext:osm_id 6667986240 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Ngo 76 an Duong"@en,
+        "Hiệu thuốc tại Ngõ 76 An Dương"@vi ;
+    geo:asWKT "POINT(105.8394936 21.0550417)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6668012730> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "70" ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6668012730 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8403017 21.0533146)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6668027758> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố An Dương" ;
+    ext:osm_id 6668027758 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho an Duong"@en,
+        "Hiệu thuốc tại Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8394031 21.0549385)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6670313470> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "48" ;
+    ext:addr_street "Phố Hàng Than" ;
+    ext:osm_id 6670313470 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Hang Than"@en,
+        "Hiệu thuốc tại Phố Hàng Than"@vi ;
+    geo:asWKT "POINT(105.8473706 21.0409754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6672693226> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "113" ;
+    ext:addr_street "Phố Doãn Kế Thiện" ;
+    ext:osm_id 6672693226 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Doan Ke Thien"@en,
+        "Hiệu thuốc tại Phố Doãn Kế Thiện"@vi ;
+    geo:asWKT "POINT(105.7777373 21.0413385)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6672721649> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Doãn Kế Thiện" ;
+    ext:osm_id 6672721649 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Doan Ke Thien"@en,
+        "Hiệu thuốc tại Phố Doãn Kế Thiện"@vi ;
+    geo:asWKT "POINT(105.7765687 21.0416722)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6677255983> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "219" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:osm_id 6677255983 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Mai Dich"@en,
+        "Hiệu thuốc tại Phố Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7748584 21.0415993)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6677277095> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "189" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:osm_id 6677277095 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Mai Dich"@en,
+        "Hiệu thuốc tại Phố Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7747136 21.0409854)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6677277096> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "66" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:osm_id 6677277096 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Mai Dich"@en,
+        "Hiệu thuốc tại Phố Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7748263 21.0409904)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6677449287> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "81" ;
+    ext:addr_street "Đường La Thành" ;
+    ext:osm_id 6677449287 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong La Thanh"@en,
+        "Hiệu thuốc tại Đường La Thành"@vi ;
+    geo:asWKT "POINT(105.8285885 21.0196752)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6677814758> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "109" ;
+    ext:addr_street "Phố Quan Nhân" ;
+    ext:osm_id 6677814758 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Quan Nhan"@en,
+        "Nhà Thuốc Quan Nhân"@vi ;
+    geo:asWKT "POINT(105.8115531 21.0053541)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6684667804> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Trần Khát Chân" ;
+    ext:osm_id 6684667804 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong Tran Khat Chan"@en,
+        "Hiệu thuốc tại Đường Trần Khát Chân"@vi ;
+    geo:asWKT "POINT(105.8517674 21.0089169)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6689533993> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Ngụy Như Kon Tum" ;
+    ext:osm_id 6689533993 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Y Duoc Mph"@en,
+        "Nhà Thuốc Y Dược MPH"@vi ;
+    geo:asWKT "POINT(105.8029174 21.0007545)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6689709221> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Quan Nhân" ;
+    ext:osm_id 6689709221 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Quan Nhan"@en,
+        "Hiệu thuốc tại Phố Quan Nhân"@vi ;
+    geo:asWKT "POINT(105.8131309 21.0084743)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6742138877> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6742138877 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Nhan Dan"@en,
+        "Nha Thuoc Nhan Dan"@vi ;
+    geo:asWKT "POINT(105.8430685 21.0445477)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6742139186> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6742139186 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Tam Khang"@en,
+        "Nha Thuoc Tam Khang"@vi ;
+    geo:asWKT "POINT(105.8421963 21.0463829)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6818298688> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "107D1" ;
+    ext:addr_street "Phố Trần Huy Liệu" ;
+    ext:osm_id 6818298688 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Duc Long"@en,
+        "Pharmacy Đức Long"@vi ;
+    geo:asWKT "POINT(105.8223999 21.0268963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6832269393> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6832269393 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Hai Linh"@en,
+        "nha thuoc Hai Linh"@vi ;
+    geo:asWKT "POINT(105.8427877 21.0430265)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6844634886> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6844634886 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Hang Ga"@en,
+        "Nhà thuốc tại Phố Hàng Gà"@vi ;
+    geo:asWKT "POINT(105.8470922 21.0339977)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6917933671> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6917933671 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Dao Van Tap"@en,
+        "Nhà thuốc tại Phố Đào Văn Tập"@vi ;
+    geo:asWKT "POINT(105.911482 21.0555088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6917941503> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "D68" ;
+    ext:osm_id 6917941503 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy No. D68"@en,
+        "Nhà thuốc số D68"@vi ;
+    geo:asWKT "POINT(105.9113028 21.0632092)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6924044054> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924044054 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Bui Thien Ngo"@en,
+        "Nhà thuốc tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.9110041 21.06402)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:6932043361> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 6932043361 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Van Hanh"@en,
+        "Nhà thuốc tại Phố Vạn Hạnh"@vi ;
+    geo:asWKT "POINT(105.9071312 21.0668866)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:7003675089> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 7003675089 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Hang Ruoi"@en,
+        "Nhà thuốc tại Phố Hàng Rươi"@vi ;
+    geo:asWKT "POINT(105.847784 21.0368217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:7162770779> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 7162770779 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Tran Khanh Du"@en,
+        "Nhà thuốc tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8629404 21.0133229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:7178804578> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 7178804578 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Co Loa"@en,
+        "Nhà thuốc tại Đường Cổ Loa"@vi ;
+    geo:asWKT "POINT(105.8766169 21.1120875)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:7178806298> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 7178806298 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Co Loa"@en,
+        "Nhà thuốc tại Đường Cổ Loa"@vi ;
+    geo:asWKT "POINT(105.8761871 21.1120328)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:7252086136> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 7252086136 ;
+    ext:osm_type "node" ;
+    schema:name "Suong Mai"@en,
+        "Sương Mai"@vi ;
+    geo:asWKT "POINT(105.7807459 21.0621348)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:733355005> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 733355005 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong 800a"@en,
+        "Nhà thuốc tại Đường 800A"@vi ;
+    geo:asWKT "POINT(105.8027129 21.0403345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8212608053> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "197-199" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:osm_id 8212608053 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy So 5 Long Tam"@en,
+        "Nhà thuốc số 5 Long Tâm"@vi ;
+    geo:asWKT "POINT(105.8415217 21.0007712)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8333089557> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8333089557 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Vien"@en,
+        "Nhà thuốc tại Phố Viên"@vi ;
+    geo:asWKT "POINT(105.7724663 21.0712023)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8353950521> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8353950521 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Khanh Linh"@en,
+        "Nhà thuốc Khánh Linh"@vi ;
+    geo:asWKT "POINT(105.772888 21.0720356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8353977344> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8353977344 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Thu Huong"@en,
+        "Nhà thuốc Thu Hương"@vi ;
+    schema:openingHours "Mo-Su 09:00-21:00" ;
+    geo:asWKT "POINT(105.7727994 21.0716341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8360592553> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8360592553 ;
+    ext:osm_type "node" ;
+    schema:name "Tam Duc"@en,
+        "Tâm Đức"@vi ;
+    geo:asWKT "POINT(105.7626155 21.0666562)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8360897983> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8360897983 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Anh Phuong"@en,
+        "Nhà Thuốc Anh Phương"@vi ;
+    geo:asWKT "POINT(105.7855397 21.0895474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8361075490> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_district "Từ Liêm" ;
+    ext:addr_housenumber "54" ;
+    ext:addr_street "Đường Hoàng Tăng Bí" ;
+    ext:osm_id 8361075490 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Minh Tam"@en,
+        "Nhà thuốc Minh Tâm"@vi ;
+    geo:asWKT "POINT(105.7759047 21.083634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8363303881> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 8363303881 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Duong Co Nhue"@en,
+        "Hiệu thuốc tại Đường Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.7778531 21.0701293)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8442194667> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "149" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 8442194667 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy So 9"@en,
+        "Nhà thuốc số 9"@vi ;
+    geo:asWKT "POINT(105.780551 21.0621946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8446491627> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "227" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 8446491627 ;
+    ext:osm_type "node" ;
+    schema:name "V18-pharmacy Dai an 1"@en,
+        "V18-Nhà thuốc Đại An 1"@vi ;
+    geo:asWKT "POINT(105.7797944 21.0635276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8447602002> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "273" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 8447602002 ;
+    ext:osm_type "node" ;
+    schema:name "V26-pharmacy Minh Tam"@en,
+        "V26-Nhà Thuốc Minh Tâm"@vi ;
+    geo:asWKT "POINT(105.7795112 21.0643)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8535593117> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 8535593117 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Hung Cao - 64a"@en,
+        "Nhà Hùng cao - 64A"@vi ;
+    geo:asWKT "POINT(105.8199822 21.0328677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8934731542> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "115" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_street "Phố Trung Phụng" ;
+    ext:osm_id 8934731542 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy Anh Quoc"@en,
+        "Nhà Thuốc Anh Quốc"@vi ;
+    geo:asWKT "POINT(105.8358901 21.0167687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8937618770> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "52" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    ext:osm_id 8937618770 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:openingHours "Mo-Su 06:00-23:30" ;
+    schema:operator "Pharmacity" ;
+    schema:telephone "+84 1800 6821" ;
+    schema:url <https://www.pharmacity.vn/> ;
+    geo:asWKT "POINT(105.8277831 20.9995824)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:8957577167> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "94" ;
+    ext:addr_street "Phố Tô Vĩnh Diện" ;
+    ext:osm_id 8957577167 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:openingHours "Mo-Su 06:00-23:30" ;
+    schema:operator "Pharmacity" ;
+    schema:telephone "+84 1800 6821" ;
+    schema:url <https://www.pharmacity.vn/> ;
+    geo:asWKT "POINT(105.8201338 20.9988127)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:898226389> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "Sông nhuệ p đức thắng" ;
+    ext:osm_id 898226389 ;
+    ext:osm_type "way" ;
+    schema:name "Tiem Thuoc Phuc Hai"@en,
+        "tiệm thuốc phúc hải"@vi ;
+    geo:asWKT "POINT(105.7719829 21.0755685)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:898226397> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "20 Sông nhuệ p đức thắng" ;
+    ext:osm_id 898226397 ;
+    ext:osm_type "way" ;
+    schema:name "Thuoc Tung Anh"@en,
+        "thuốc tùng anh"@vi ;
+    geo:asWKT "POINT(105.7721345 21.0756588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:899332861> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "469" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 899332861 ;
+    ext:osm_type "way" ;
+    schema:name "Hieu Thuoc Tai Duong Co Nhue"@en,
+        "Hiệu thuốc tại Đường Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.7784391 21.0687599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:904729837> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "44" ;
+    ext:addr_street "Phố Lê Đại Hành" ;
+    ext:osm_id 904729837 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy Hapharco"@en,
+        "Nhà thuốc Hapharco"@vi ;
+    geo:asWKT "POINT(105.8484012 21.0115935)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9237323781> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 9237323781 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy"@en,
+        "Quầy thuốc"@vi ;
+    geo:asWKT "POINT(105.8887908 21.0312284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:933680040> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:osm_id 933680040 ;
+    ext:osm_type "way" ;
+    schema:name "Hieu Thuoc Tai Duong Le Van Hien"@en,
+        "Hiệu thuốc tại Đường Lê Văn Hiến"@vi ;
+    geo:asWKT "POINT(105.7742642 21.0741477)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:933680065> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "25" ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:osm_id 933680065 ;
+    ext:osm_type "way" ;
+    schema:name "Hieu Thuoc Tai Duong Le Van Hien"@en,
+        "Hiệu thuốc tại Đường Lê Văn Hiến"@vi ;
+    geo:asWKT "POINT(105.7752773 21.0741234)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:933968153> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:osm_id 933968153 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy Cua Bao"@en,
+        "Quầy thuốc của báo"@vi ;
+    geo:asWKT "POINT(105.7766093 21.074301)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:933968181> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:osm_id 933968181 ;
+    ext:osm_type "way" ;
+    schema:name "Hieu Thuoc Tai Duong Le Van Hien"@en,
+        "Hiệu thuốc tại Đường Lê Văn Hiến"@vi ;
+    geo:asWKT "POINT(105.7747677 21.0742344)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:934948240> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "138/Hoàng Tăng Bí" ;
+    ext:osm_id 934948240 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy"@en,
+        "Quầy thuốc"@vi ;
+    geo:asWKT "POINT(105.7718037 21.0833658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:934950870> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "437/Hoàng Tăng Bí" ;
+    ext:osm_id 934950870 ;
+    ext:osm_type "way" ;
+    schema:name "Pharmacy Thuy"@en,
+        "nhà thuốc Thúy"@vi ;
+    geo:asWKT "POINT(105.7722773 21.0832837)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9555611949> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "29" ;
+    ext:addr_street "Nguyễn Quý Đức" ;
+    ext:osm_id 9555611949 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    schema:openingHours "Mo-Su 06:00-23:30" ;
+    schema:operator "Pharmacity" ;
+    schema:telephone "+84 1800 6821" ;
+    schema:url <https://www.pharmacity.vn/> ;
+    geo:asWKT "POINT(105.7979595 20.992803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9625606922> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 15 Ngọc Hồi" ;
+    ext:osm_id 9625606922 ;
+    ext:osm_type "node" ;
+    schema:name "Nha May Hoang Liet - Cong Ty Co Phan Traphaco"@en,
+        "Nhà máy Hoàng Liệt - Công ty Cổ phần Traphaco"@vi ;
+    schema:openingHours "Mo-Fr 07:30-16:30" ;
+    schema:url <https://traphaco.com.vb> ;
+    geo:asWKT "POINT(105.8451038 20.9614121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:977668016> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 977668016 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Hang Gai"@en,
+        "Nhà thuốc tại Phố Hàng Gai"@vi ;
+    geo:asWKT "POINT(105.8492864 21.0312946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:993037761> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "83" ;
+    ext:addr_street "Phố Phủ Doãn" ;
+    ext:osm_id 993037761 ;
+    ext:osm_type "node" ;
+    schema:name "Hieu Thuoc Tai Pho Phu Doan"@en,
+        "Hiệu thuốc tại Phố Phủ Doãn"@vi ;
+    geo:asWKT "POINT(105.8478432 21.0282092)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9931481408> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931481408 ;
+    ext:osm_type "node" ;
+    schema:brand "Pharmacity" ;
+    schema:name "Pharmacity"@en,
+        "Pharmacity"@vi ;
+    geo:asWKT "POINT(105.8495065 21.0352028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9931504436> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931504436 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Pho Hang Manh"@en,
+        "Nhà thuốc tại Phố Hàng Mành"@vi ;
+    geo:asWKT "POINT(105.8485622 21.0311148)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9931523211> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931523211 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Giai Phong"@en,
+        "Nhà thuốc tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8415399 21.001014)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:pharmacy:9931530762> a schema:Pharmacy,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931530762 ;
+    ext:osm_type "node" ;
+    schema:name "Pharmacy at Duong Giai Phong"@en,
+        "Nhà thuốc tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8415923 21.0031938)"^^geo:wktLiteral .
+

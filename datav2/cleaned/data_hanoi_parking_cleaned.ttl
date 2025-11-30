@@ -1,0 +1,4149 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1003540408> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1003540408 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong So 2"@en,
+        "Bãi đỗ xe tại Đường số 2"@vi ;
+    geo:asWKT "POINT(105.780862 21.0542097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1003540409> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1003540409 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong So 23"@en,
+        "Bãi đỗ xe tại Đường Số 23"@vi ;
+    geo:asWKT "POINT(105.7808883 21.0547887)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10063035517> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10063035517 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Phung Hung"@en,
+        "Bãi đỗ xe tại Phố Phùng Hưng"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.8458776 21.0358511)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1008377649> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1008377649 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Mac Thai to"@en,
+        "Bãi đỗ xe tại Phố Mạc Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.7906358 21.0163432)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10166537632> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10166537632 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Khu B Dai Hoc Mo"@en,
+        "Bãi đỗ xe tại Khu B Đại Học Mỏ"@vi ;
+    geo:asWKT "POINT(105.7614368 21.0673267)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10166537643> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10166537643 ;
+    ext:osm_type "node" ;
+    schema:name "May bay HVCS - Manh"@en,
+        "Máy bay HVCS - Mạnh"@vi ;
+    geo:asWKT "POINT(105.7662868 21.0688098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1030860274> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030860274 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 2 Ngo 86 Nguyen Van Giap"@en,
+        "Bãi đỗ xe tại Ngách 2 Ngõ 86 Nguyễn Văn Giáp"@vi ;
+    geo:asWKT "POINT(105.7596415 21.0377961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1046719160> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1046719160 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 292 Duong Kim Giang"@en,
+        "Bãi đỗ xe tại Ngõ 292 Đường Kim Giang"@vi ;
+    geo:asWKT "POINT(105.8227901 20.9769167)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1047618367> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1047618367 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Vu Tuan Chieu"@en,
+        "Bãi đỗ xe tại Phố Vũ Tuấn Chiêu"@vi ;
+    geo:asWKT "POINT(105.8159375 21.0748642)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10658457960> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10658457960 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Duong Quang Ham"@en,
+        "Bãi đỗ xe tại Đường Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.9450804 20.9272571)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1068888908> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1068888908 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Van Lang"@en,
+        "Bãi đỗ xe tại Đường Văn Lang"@vi ;
+    geo:asWKT "POINT(105.7391645 21.0090144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1082884758> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1082884758 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ha Noi"@en,
+        "Bãi đỗ xe tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9440143 20.989864)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1082884774> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1082884774 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 2"@en,
+        "Bãi đỗ xe tại San Hô 2"@vi ;
+    geo:asWKT "POINT(105.9487322 20.9893255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10845506042> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10845506042 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Thuy Khue"@en,
+        "Bãi đỗ xe tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8151575 21.044374)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1086134786> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1086134786 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Zone 3"@en,
+        "Parking Zone 3"@vi ;
+    geo:asWKT "POINT(105.7380002 20.9975411)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10872918333> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10872918333 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 280 Duong Lac Long Quan"@en,
+        "Bãi đỗ xe tại Ngõ 280 Đường Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8091337 21.0553112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1087368321> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1087368321 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phung Hung"@en,
+        "Bãi đỗ xe tại Đường Phùng Hưng"@vi ;
+    geo:asWKT "POINT(105.791265 20.9671247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1092144096> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1092144096 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Linh"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.8927558 21.0501162)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1092144100> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1092144100 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Viet Hung"@en,
+        "Bãi đỗ xe tại Phố Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.8941459 21.050044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:10945738975> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 10945738975 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 50 Pho Dang Thai Mai"@en,
+        "Bãi đỗ xe tại Ngõ 50 Phố Đặng Thai Mai"@vi ;
+    geo:asWKT "POINT(105.8200318 21.0567705)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11114292235> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11114292235 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 168 Hao Nam"@en,
+        "Bãi đỗ xe tại Ngõ 168 Hào Nam"@vi ;
+    geo:asWKT "POINT(105.8282951 21.0261953)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1112511690> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1112511690 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 168 Kim Giang"@en,
+        "Bãi đỗ xe tại Ngõ 168 Kim Giang"@vi ;
+    geo:asWKT "POINT(105.8162496 20.9771435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1116162378> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116162378 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dinh Nup"@en,
+        "Bãi đỗ xe tại Phố Đinh Núp"@vi ;
+    geo:asWKT "POINT(105.7885254 21.0151455)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1116412194> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116412194 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dinh Nup"@en,
+        "Bãi đỗ xe tại Phố Đinh Núp"@vi ;
+    geo:asWKT "POINT(105.7890729 21.0144213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1116412195> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116412195 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Chanh"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Chánh"@vi ;
+    geo:asWKT "POINT(105.789579 21.014767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11167471043> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11167471043 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Thanh Thai"@en,
+        "Bãi đỗ xe tại Phố Thành Thái"@vi ;
+    geo:asWKT "POINT(105.7934447 21.0289969)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11167471088> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11167471088 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 3 Pho Thanh Thai"@en,
+        "Bãi đỗ xe tại Ngõ 3 Phố Thành Thái"@vi ;
+    geo:asWKT "POINT(105.7937427 21.0287002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11167471355> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11167471355 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 3 Pho Thanh Thai"@en,
+        "Bãi đỗ xe tại Ngõ 3 Phố Thành Thái"@vi ;
+    geo:asWKT "POINT(105.793575 21.0282929)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1117298079> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1117298079 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 196 Duong Ho Tung Mau"@en,
+        "Bãi đỗ xe tại Ngõ 196 Đường Hồ Tùng Mậu"@vi ;
+    geo:asWKT "POINT(105.7713995 21.0425347)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11176949971> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11176949971 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 15 Duong 800a"@en,
+        "Bãi đỗ xe tại Ngõ 15 Đường 800A"@vi ;
+    geo:asWKT "POINT(105.8014473 21.0416386)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11179095958> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11179095958 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.798014 21.0440144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1118221808> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118221808 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 39 Pho Pham Than Duat"@en,
+        "Bãi đỗ xe tại Ngõ 39 Phố Phạm Thận Duật"@vi ;
+    geo:asWKT "POINT(105.7772727 21.044311)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11189845391> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11189845391 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7981596 21.0447112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1119185577> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119185577 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 89 Le Duc Tho"@en,
+        "Bãi đỗ xe tại Ngõ 89 Lê Đức Thọ"@vi ;
+    geo:asWKT "POINT(105.769738 21.0281574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1119542809> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119542809 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Quoc Hoan"@en,
+        "Bãi đỗ xe tại Phố Trần Quốc Hoàn"@vi ;
+    geo:asWKT "POINT(105.782764 21.0422153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11208375966> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375966 ;
+    ext:osm_type "node" ;
+    schema:name "Bai xe ngam Me Tri Ha"@en,
+        "Bãi xe ngầm Mễ Trì Hạ"@vi ;
+    geo:asWKT "POINT(105.7817437 21.014067)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1121013619> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1121013619 ;
+    ext:osm_type "way" ;
+    schema:name "A9"@en,
+        "A9"@vi ;
+    geo:asWKT "POINT(105.7817207 21.0395134)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11210213011> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11210213011 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 234 Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 234 Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7845298 21.0478994)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11210686046> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11210686046 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7853516 21.0465266)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11212433357> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11212433357 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 238/11 Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngách 238/11 Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7828835 21.0483196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11212433358> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11212433358 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 643/28 Duong Pham Van Dong"@en,
+        "Bãi đỗ xe tại Ngách 643/28 Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7827902 21.0486096)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11212488901> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11212488901 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 234/1 Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngách 234/1 Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.783392 21.0485537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11212959365> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11212959365 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 238/11 Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngách 238/11 Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7831463 21.0467116)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1123050058> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1123050058 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 203 Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 203 Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7972591 21.0455102)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1123104306> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1123104306 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7870859 21.0458425)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1123104738> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1123104738 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7877377 21.0458414)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11237948974> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11237948974 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Tran Cung"@en,
+        "Bãi đỗ xe tại Phố Trần Cung"@vi ;
+    geo:asWKT "POINT(105.7879374 21.0542631)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11238001751> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11238001751 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 1 Pho Nghia Do"@en,
+        "Bãi đỗ xe tại Ngõ 1 Phố Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.7949287 21.0467927)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11243896806> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11243896806 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 79 Pho Duong Quang Ham"@en,
+        "Bãi đỗ xe tại Ngõ 79 Phố Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.7980307 21.0349449)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1125660162> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1125660162 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Doan Khue"@en,
+        "Bãi đỗ xe tại Phố Đoàn Khuê"@vi ;
+    geo:asWKT "POINT(105.9089033 21.0483324)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1131599554> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1131599554 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 76 Pho an Duong"@en,
+        "Bãi đỗ xe tại Ngõ 76 Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8400658 21.0551041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11419728362> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11419728362 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Tran Hung Dao"@en,
+        "Bãi đỗ xe tại Phố Trần Hưng Đạo"@vi ;
+    geo:asWKT "POINT(105.8601562 21.0174727)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1145184186> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1145184186 ;
+    ext:osm_type "way" ;
+    schema:name "Nha de xe Hai Au"@en,
+        "Nhà để xe Hải Âu"@vi ;
+    geo:asWKT "POINT(105.9563956 20.9911848)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147074502> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147074502 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 283 Duong Hong Ha"@en,
+        "Bãi đỗ xe tại Ngõ 283 Đường Hồng Hà"@vi ;
+    geo:asWKT "POINT(105.8524863 21.0397242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147661079> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147661079 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phan Trong Tue"@en,
+        "Bãi đỗ xe tại Đường Phan Trọng Tuệ"@vi ;
+    geo:asWKT "POINT(105.8268939 20.9446083)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147661081> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147661081 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phan Trong Tue"@en,
+        "Bãi đỗ xe tại Đường Phan Trọng Tuệ"@vi ;
+    geo:asWKT "POINT(105.826637 20.9464125)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147661083> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147661083 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phan Trong Tue"@en,
+        "Bãi đỗ xe tại Đường Phan Trọng Tuệ"@vi ;
+    geo:asWKT "POINT(105.8274924 20.9463463)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147661084> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147661084 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phan Trong Tue"@en,
+        "Bãi đỗ xe tại Đường Phan Trọng Tuệ"@vi ;
+    geo:asWKT "POINT(105.8281426 20.9460103)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1147793283> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147793283 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Phan Trong Tue"@en,
+        "Bãi đỗ xe tại Đường Phan Trọng Tuệ"@vi ;
+    geo:asWKT "POINT(105.8276711 20.9460861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1149372969> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1149372969 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9411642 20.991926)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1151001165> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1151001165 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Binh"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Bình"@vi ;
+    geo:asWKT "POINT(105.9697997 20.9988209)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1151001166> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1151001166 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Binh"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Bình"@vi ;
+    geo:asWKT "POINT(105.9707638 20.9982229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1152211360> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1152211360 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Linh Lang"@en,
+        "Bãi đỗ xe tại Phố Linh Lang"@vi ;
+    geo:asWKT "POINT(105.8093085 21.0318968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1152958142> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1152958142 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 560 Duong Nguyen Van Cu"@en,
+        "Bãi đỗ xe tại Ngõ 560 Đường Nguyễn Văn Cừ"@vi ;
+    geo:asWKT "POINT(105.8952002 21.0383446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1158567510> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1158567510 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Xuan Nham"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Xuân Nham"@vi ;
+    geo:asWKT "POINT(105.7906895 21.0172447)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11591058311> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11591058311 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.782018 21.0393427)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11613557295> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11613557295 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.783153 21.0370351)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11614903268> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11614903268 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 130 Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Ngõ 130 Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7846918 21.037713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11614945289> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11614945289 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7830028 21.0371894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11617804913> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11617804913 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 199 Tran Quoc Hoan"@en,
+        "Bãi đỗ xe tại Ngõ 199 Trần Quốc Hoàn"@vi ;
+    geo:asWKT "POINT(105.7836074 21.0405303)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1162970034> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1162970034 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thuy Khue"@en,
+        "Bãi đỗ xe tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8283087 21.0410884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1162970054> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1162970054 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Dinh Thi"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Đình Thi"@vi ;
+    geo:asWKT "POINT(105.8282993 21.0417406)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1163512714> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1163512714 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Dinh Thi"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Đình Thi"@vi ;
+    geo:asWKT "POINT(105.8191965 21.0441619)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1166030708> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1166030708 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thuy Khue"@en,
+        "Bãi đỗ xe tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8159455 21.0439894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1166034416> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1166034416 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thuy Khue"@en,
+        "Bãi đỗ xe tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8162408 21.044592)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1166034421> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1166034421 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 2a Duong Van Cao"@en,
+        "Bãi đỗ xe tại Ngõ 2A Đường Văn Cao"@vi ;
+    geo:asWKT "POINT(105.8160438 21.0445564)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11661738042> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11661738042 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Tran Thai Tong"@en,
+        "Bãi đỗ xe tại Phố Trần Thái Tông"@vi ;
+    geo:asWKT "POINT(105.7892447 21.0357397)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11672484868> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11672484868 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7974124 21.0444806)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:11674968888> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 11674968888 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Hang Khoai"@en,
+        "Bãi đỗ xe tại Phố Hàng Khoai"@vi ;
+    geo:asWKT "POINT(105.8495625 21.0386102)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1169602519> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1169602519 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Lac Long Quan"@en,
+        "Bãi đỗ xe tại Đường Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8085685 21.0562846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1173732862> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732862 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 61 Pho Nguyen Khac Vien"@en,
+        "Bãi đỗ xe tại Ngõ 61 phố Nguyễn Khắc Viện"@vi ;
+    geo:asWKT "POINT(105.9138922 21.0635293)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1173732863> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732863 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 63 Pho Nguyen Khac Vien"@en,
+        "Bãi đỗ xe tại Ngõ 63 phố Nguyễn Khắc Viện"@vi ;
+    geo:asWKT "POINT(105.9137447 21.064073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1176521098> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1176521098 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Thuan an"@en,
+        "Bãi đỗ xe tại Phố Thuận An"@vi ;
+    geo:asWKT "POINT(105.9424746 21.0150171)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1176521099> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1176521099 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Khiem Ich"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Khiêm Ích"@vi ;
+    geo:asWKT "POINT(105.9413072 21.0133604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1176521102> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1176521102 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Thuan an"@en,
+        "Bãi đỗ xe tại Phố Thuận An"@vi ;
+    geo:asWKT "POINT(105.9416991 21.0147745)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1182640558> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182640558 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Do Muoi"@en,
+        "Bãi đỗ xe tại Đường Đỗ Mười"@vi ;
+    geo:asWKT "POINT(105.8539299 20.9628973)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1183713529> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1183713529 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Trac"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Trác"@vi ;
+    geo:asWKT "POINT(105.747565 20.9620395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1185727115> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185727115 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cao Lo"@en,
+        "Bãi đỗ xe tại Đường Cao Lỗ"@vi ;
+    geo:asWKT "POINT(105.8506804 21.1431905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1189078918> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1189078918 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Van Hanh"@en,
+        "Bãi đỗ xe tại Phố Vạn Hạnh"@vi ;
+    geo:asWKT "POINT(105.9023784 21.0632634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1192868590> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1192868590 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Giai Phong"@en,
+        "Bãi đỗ xe tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8407981 21.0003852)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1192885703> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1192885703 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Giai Phong"@en,
+        "Bãi đỗ xe tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8390152 21.0010639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1195546195> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1195546195 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 23 Pho Do Quang"@en,
+        "Bãi đỗ xe tại Ngõ 23 Phố Đỗ Quang"@vi ;
+    geo:asWKT "POINT(105.8036008 21.0107939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1196069321> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196069321 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Zone 4"@en,
+        "Parking Zone 4"@vi ;
+    geo:asWKT "POINT(105.7372778 20.9992672)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1196399783> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196399783 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Giai Phong"@en,
+        "Bãi đỗ xe tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.842333 21.0054141)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1196688069> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196688069 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 3 Pho Thanh Thai"@en,
+        "Bãi đỗ xe tại Ngõ 3 Phố Thành Thái"@vi ;
+    geo:asWKT "POINT(105.7939123 21.0282546)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1197003502> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197003502 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Vanh Dai 1"@en,
+        "Bãi đỗ xe tại Đường Vành Đai 1"@vi ;
+    geo:asWKT "POINT(105.8056332 21.0279615)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1197871300> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197871300 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Minh Thao"@en,
+        "Bãi đỗ xe tại Đường Hoàng Minh Thảo"@vi ;
+    geo:asWKT "POINT(105.7893237 21.0632983)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1205399772> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1205399772 ;
+    ext:osm_type "way" ;
+    schema:name "T8 Car Park"@en,
+        "Bãi Đỗ Xe T8"@vi ;
+    geo:asWKT "POINT(105.907876 21.0144783)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12055608081> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12055608081 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Bac Son"@en,
+        "Bãi đỗ xe tại Phố Bắc Sơn"@vi ;
+    geo:asWKT "POINT(105.8324473 21.0369647)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1205935192> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1205935192 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Van Xuan"@en,
+        "Bãi đỗ xe tại Đường Vạn Xuân"@vi ;
+    geo:asWKT "POINT(105.7128265 21.0701446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206013581> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "93" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:osm_id 1206013581 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe Hoc vien Quoc phong"@en,
+        "Bãi đỗ xe Học viện Quốc phòng"@vi ;
+    schema:operator "Học viện Quốc phòng" ;
+    geo:asWKT "POINT(105.8012287 21.0457247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206024234> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206024234 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.8024524 21.0430921)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12061058551> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12061058551 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Dien Bien Phu"@en,
+        "Bãi đỗ xe tại Đường Điện Biên Phủ"@vi ;
+    geo:asWKT "POINT(105.8398585 21.0322143)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206318248> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206318248 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7982953 21.0429644)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206386955> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206386955 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8421287 21.0072269)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206423524> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206423524 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7984313 21.0440066)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12064677193> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12064677193 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8418192 21.0353408)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12064677194> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12064677194 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Ton That Thiep"@en,
+        "Bãi đỗ xe tại Phố Tôn Thất Thiệp"@vi ;
+    geo:asWKT "POINT(105.8432038 21.0350879)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12064681819> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12064681819 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Ton That Thiep"@en,
+        "Bãi đỗ xe tại Phố Tôn Thất Thiệp"@vi ;
+    geo:asWKT "POINT(105.8434653 21.0334962)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206588704> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206588704 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Le Mat"@en,
+        "Bãi đỗ xe tại Phố Lệ Mật"@vi ;
+    geo:asWKT "POINT(105.9006704 21.0519378)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206671105> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206671105 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.844126 21.0051765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206943171> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206943171 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8435396 21.007151)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206943172> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206943172 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8427918 21.0071544)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1206943173> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206943173 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8431215 21.0073199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1207347225> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1207347225 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Xa Dan"@en,
+        "Bãi đỗ xe tại Phố Xã Đàn"@vi ;
+    geo:asWKT "POINT(105.8407348 21.0073675)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208479896> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208479896 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tran Quang Khai"@en,
+        "Bãi đỗ xe tại Đường Trần Quang Khải"@vi ;
+    geo:asWKT "POINT(105.8585774 21.0284275)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800255> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800255 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dang Van Ngu"@en,
+        "Bãi đỗ xe tại Phố Đặng Văn Ngữ"@vi ;
+    geo:asWKT "POINT(105.8316193 21.0118395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800257> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800257 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ham Chui Kim Lien"@en,
+        "Bãi đỗ xe tại Hầm chui Kim Liên"@vi ;
+    geo:asWKT "POINT(105.8383573 21.0091504)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800260> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800260 ;
+    ext:osm_type "way" ;
+    schema:name "Tổng Công ty 36 Parking"@en,
+        "Bãi đỗ xe Tổng Công ty 36"@vi ;
+    schema:operator "Tổng Công ty 36" ;
+    geo:asWKT "POINT(105.8296441 21.0077095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800266> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800266 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe GSM"@en,
+        "Bãi đỗ xe GSM"@vi ;
+    geo:asWKT "POINT(105.7515541 21.0070544)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800267> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800267 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 8 Duong Quang Tien"@en,
+        "Bãi đỗ xe tại Ngõ 8 Đường Quang Tiến"@vi ;
+    geo:asWKT "POINT(105.7562869 21.0033408)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800269> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800269 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Van Lang 2"@en,
+        "Bãi đỗ xe tại Văn Lang 2"@vi ;
+    geo:asWKT "POINT(105.7375485 21.0074262)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800270> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800270 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Van Lang 2"@en,
+        "Bãi đỗ xe tại Văn Lang 2"@vi ;
+    geo:asWKT "POINT(105.7383373 21.0071557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800271> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800271 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Van Lang 2"@en,
+        "Bãi đỗ xe tại Văn Lang 2"@vi ;
+    geo:asWKT "POINT(105.7382565 21.007199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800272> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800272 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Van Lang 2"@en,
+        "Bãi đỗ xe tại Văn Lang 2"@vi ;
+    geo:asWKT "POINT(105.7376407 21.0074106)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800273> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800273 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Van Lang"@en,
+        "Bãi đỗ xe tại Đường Văn Lang"@vi ;
+    geo:asWKT "POINT(105.7392902 21.0063123)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800274> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800274 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Van Lang"@en,
+        "Bãi đỗ xe tại Đường Văn Lang"@vi ;
+    geo:asWKT "POINT(105.7399748 21.0080616)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800275> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800275 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Au Lac"@en,
+        "Bãi đỗ xe tại Đường Âu Lạc"@vi ;
+    geo:asWKT "POINT(105.7378896 21.0027136)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800277> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800277 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Au Lac"@en,
+        "Bãi đỗ xe tại Đường Âu Lạc"@vi ;
+    geo:asWKT "POINT(105.7373738 21.0013767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800278> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800278 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Au Lac"@en,
+        "Bãi đỗ xe tại Đường Âu Lạc"@vi ;
+    geo:asWKT "POINT(105.7368224 20.9999688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208800284> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800284 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Viet 3"@en,
+        "Bãi đỗ xe tại Đại Việt 3"@vi ;
+    geo:asWKT "POINT(105.7405963 21.0026307)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208845644> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208845644 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Kim Dong"@en,
+        "Bãi đỗ xe tại Phố Kim Đồng"@vi ;
+    geo:asWKT "POINT(105.8427887 20.9834328)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208987606> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208987606 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 587 Tam Trinh"@en,
+        "Bãi đỗ xe tại Ngõ 587 Tam Trinh"@vi ;
+    geo:asWKT "POINT(105.8688729 20.9791201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1208987607> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208987607 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 587 Tam Trinh"@en,
+        "Bãi đỗ xe tại Ngõ 587 Tam Trinh"@vi ;
+    geo:asWKT "POINT(105.8681443 20.978764)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1209135812> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1209135812 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe GSM"@en,
+        "Bãi đỗ xe GSM"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.960792 20.9940002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12093006354> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12093006354 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Nguyen Thai Hoc"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Thái Học"@vi ;
+    geo:asWKT "POINT(105.8368985 21.0303948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1209957288> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1209957288 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 7 Ton That Thuyet"@en,
+        "Bãi đỗ xe tại Ngõ 7 Tôn Thất Thuyết"@vi ;
+    geo:asWKT "POINT(105.7829263 21.0269069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210113659> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210113659 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong So 6"@en,
+        "Bãi đỗ xe tại Đường Số 6"@vi ;
+    geo:asWKT "POINT(105.7670753 21.1143142)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210113666> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210113666 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Quoc Lo 23"@en,
+        "Bãi đỗ xe tại Quốc lộ 23"@vi ;
+    geo:asWKT "POINT(105.7659092 21.1156653)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210480417> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210480417 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Binh Khiem"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Bỉnh Khiêm"@vi ;
+    geo:asWKT "POINT(105.8483595 21.0141348)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210514827> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210514827 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 198 Pho Tran Cung"@en,
+        "Bãi đỗ xe tại Ngõ 198 Phố Trần Cung"@vi ;
+    geo:asWKT "POINT(105.7874086 21.0502063)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210768389> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210768389 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Vong Duc"@en,
+        "Bãi đỗ xe tại Phố Vọng Đức"@vi ;
+    geo:asWKT "POINT(105.8528407 21.0223375)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210922081> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210922081 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.941626 20.9945766)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210997736> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210997736 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Le Duan"@en,
+        "Bãi đỗ xe tại Đường Lê Duẩn"@vi ;
+    geo:asWKT "POINT(105.8413197 21.0246184)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1210997737> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210997737 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Le Duan"@en,
+        "Bãi đỗ xe tại Đường Lê Duẩn"@vi ;
+    geo:asWKT "POINT(105.8413049 21.0238795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1211556649> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1211556649 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8454993 21.00552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213065927> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213065927 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Pham Hung"@en,
+        "Bãi đỗ xe tại Đường Phạm Hùng"@vi ;
+    geo:asWKT "POINT(105.7796646 21.027438)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213872779> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213872779 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 76 Ngo 106 Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngách 76 Ngõ 106 Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7946559 21.0498718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213878325> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213878325 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thuy Khue"@en,
+        "Bãi đỗ xe tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8063596 21.048971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213878330> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213878330 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 96 Duong Vo Chi Cong"@en,
+        "Bãi đỗ xe tại Ngõ 96 Đường Võ Chí Công"@vi ;
+    geo:asWKT "POINT(105.8048949 21.0514034)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213883584> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213883584 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 89/2 Duong Lac Long Quan"@en,
+        "Bãi đỗ xe tại Ngách 89/2 Đường Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8071035 21.0512677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1213888478> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213888478 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cau Giay"@en,
+        "Bãi đỗ xe tại Đường Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7909504 21.0363356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1214101843> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1214101843 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Cau Vuot Cau Coc"@en,
+        "Bãi đỗ xe tại Cầu vượt Cầu Cốc"@vi ;
+    geo:asWKT "POINT(105.7495688 21.0058611)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1214703153> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1214703153 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Duc Giang"@en,
+        "Bãi đỗ xe tại Phố Đức Giang"@vi ;
+    geo:asWKT "POINT(105.8918657 21.0670563)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1215489697> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215489697 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 189 Duong Bat Khoi"@en,
+        "Bãi đỗ xe tại Ngõ 189 Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.8879118 21.0250702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1215505864> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215505864 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8401221 21.0334424)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1215505866> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215505866 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8400714 21.0335953)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1215514459> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215514459 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Dieu"@en,
+        "Bãi đỗ xe tại Đường Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.839539 21.0358981)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1216451384> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216451384 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Thai Thinh"@en,
+        "Bãi đỗ xe tại Phố Thái Thịnh"@vi ;
+    geo:asWKT "POINT(105.8221512 21.0057349)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1216451386> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216451386 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tay Son"@en,
+        "Bãi đỗ xe tại Phố Tây Sơn"@vi ;
+    geo:asWKT "POINT(105.8231407 21.0057165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1216970042> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216970042 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ha Trai"@en,
+        "Bãi đỗ xe tại Đường Hạ Trại"@vi ;
+    geo:asWKT "POINT(105.9033672 21.0113138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1216970043> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216970043 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ha Trai"@en,
+        "Bãi đỗ xe tại Đường Hạ Trại"@vi ;
+    geo:asWKT "POINT(105.9003823 21.0118075)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1216970044> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216970044 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 54 Ngo Thong Nhat"@en,
+        "Bãi đỗ xe tại Ngách 54 Ngõ Thống Nhất"@vi ;
+    geo:asWKT "POINT(105.8992785 21.012536)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217050323> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217050323 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 387 Pho Binh Minh"@en,
+        "Bãi đỗ xe tại Ngõ 387 phố Bình Minh"@vi ;
+    geo:asWKT "POINT(105.9434044 21.0187948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217390574> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217390574 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Cat Linh"@en,
+        "Bãi đỗ xe tại Phố Cát Linh"@vi ;
+    geo:asWKT "POINT(105.8302211 21.029309)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217779453> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217779453 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Giang Vo"@en,
+        "Bãi đỗ xe tại Phố Giảng Võ"@vi ;
+    geo:asWKT "POINT(105.8281729 21.0298184)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217779455> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217779455 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 59 Giang Vo"@en,
+        "Bãi đỗ xe tại Ngõ 59 Giảng Võ"@vi ;
+    geo:asWKT "POINT(105.8291373 21.0297944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217933396> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217933396 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Hoang Nhu Tiep"@en,
+        "Bãi đỗ xe tại Phố Hoàng Như Tiếp"@vi ;
+    geo:asWKT "POINT(105.8772576 21.039864)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217933402> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217933402 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Hoang Nhu Tiep"@en,
+        "Bãi đỗ xe tại Phố Hoàng Như Tiếp"@vi ;
+    geo:asWKT "POINT(105.8777963 21.0393296)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1217933406> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217933406 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Hoang Nhu Tiep"@en,
+        "Bãi đỗ xe tại Phố Hoàng Như Tiếp"@vi ;
+    geo:asWKT "POINT(105.8774801 21.0401128)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218063066> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218063066 ;
+    ext:osm_type "way" ;
+    schema:name "Ecopark Parking"@en,
+        "Bãi đỗ xe Ecopark"@vi ;
+    schema:operator "Ecopark" ;
+    geo:asWKT "POINT(105.9310055 20.9591215)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218067466> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218067466 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tinh 378, Phung Cong"@en,
+        "Bãi đỗ xe tại Đường tỉnh 378, Phụng Công"@vi ;
+    geo:asWKT "POINT(105.9264081 20.9560497)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218184042> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218184042 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Luong the Vinh"@en,
+        "Bãi đỗ xe tại Đường Lương Thế Vinh"@vi ;
+    geo:asWKT "POINT(105.7847627 20.9978453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218184052> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218184052 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 2 Tt.dai Mt"@en,
+        "Bãi đỗ xe tại Ngõ 2 TT.Đài MT"@vi ;
+    geo:asWKT "POINT(105.7855729 20.9971817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218337324> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_street "Phố Tôn Thất Đàm" ;
+    ext:osm_id 1218337324 ;
+    ext:osm_type "way" ;
+    schema:name "Ban Quản lý Quảng trường Ba Đình Parking"@en,
+        "Bãi đỗ xe Ban Quản lý Quảng trường Ba Đình"@vi ;
+    schema:operator "Ban Quản lý Quảng trường Ba Đình" ;
+    geo:asWKT "POINT(105.8378709 21.0350117)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1218673055> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218673055 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thanh Nien"@en,
+        "Bãi đỗ xe tại Đường Thanh Niên"@vi ;
+    geo:asWKT "POINT(105.8380552 21.0484537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1219524618> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1219524618 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 167 Doi Can"@en,
+        "Bãi đỗ xe tại Ngõ 167 Đội Cấn"@vi ;
+    geo:asWKT "POINT(105.8255545 21.0353665)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1219524620> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1219524620 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Gia Bong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Gia Bồng"@vi ;
+    geo:asWKT "POINT(105.8802796 21.0602515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1219524621> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1219524621 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Gia Bong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Gia Bồng"@vi ;
+    geo:asWKT "POINT(105.8805074 21.0607537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1221715768> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221715768 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 215/8 Duong Trau Quy"@en,
+        "Bãi đỗ xe tại Ngách 215/8 đường Trâu Quỳ"@vi ;
+    geo:asWKT "POINT(105.9396508 21.0048249)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1223678105> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223678105 ;
+    ext:osm_type "way" ;
+    schema:name "Ruby Parking Garage"@en,
+        "Nhà Để Xe Ruby"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9440747 21.0020502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1225837275> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225837275 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Quy Tri"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Quý Trị"@vi ;
+    geo:asWKT "POINT(105.9484348 20.9846875)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1225837280> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225837280 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Duong"@en,
+        "Bãi đỗ xe tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9424743 20.9875454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1226940206> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1226940206 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ha Trai"@en,
+        "Bãi đỗ xe tại Đường Hạ Trại"@vi ;
+    geo:asWKT "POINT(105.8996362 21.0123209)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1228994353> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228994353 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tran Duy Hung"@en,
+        "Bãi đỗ xe tại Đường Trần Duy Hưng"@vi ;
+    geo:asWKT "POINT(105.7970911 21.008171)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1228994354> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228994354 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tran Duy Hung"@en,
+        "Bãi đỗ xe tại Đường Trần Duy Hưng"@vi ;
+    geo:asWKT "POINT(105.797808 21.0086761)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1229576421> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229576421 ;
+    ext:osm_type "way" ;
+    schema:name "Ecopark Parking"@en,
+        "Bãi đỗ xe Ecopark"@vi ;
+    schema:operator "Ecopark" ;
+    geo:asWKT "POINT(105.93246 20.957528)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1229858807> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229858807 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Ton That Tung"@en,
+        "Bãi đỗ xe tại Phố Tôn Thất Tùng"@vi ;
+    geo:asWKT "POINT(105.8312484 21.0029525)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1229913013> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229913013 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ecopark"@en,
+        "Bãi đỗ xe tại Đại lộ Ecopark"@vi ;
+    geo:asWKT "POINT(105.9403751 20.9500585)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1230887051> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1230887051 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Cao Ba Quat"@en,
+        "Bãi đỗ xe tại Phố Cao Bá Quát"@vi ;
+    geo:asWKT "POINT(105.8402027 21.0302201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1231308577> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1231308577 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Thanh Tong"@en,
+        "Bãi đỗ xe tại Phố Trần Thánh Tông"@vi ;
+    geo:asWKT "POINT(105.8594899 21.017308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1233247864> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1233247864 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Le Thach"@en,
+        "Bãi đỗ xe tại Phố Lê Thạch"@vi ;
+    geo:asWKT "POINT(105.8546921 21.0271989)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1233247865> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1233247865 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Le Lai"@en,
+        "Bãi đỗ xe tại Phố Lê Lai"@vi ;
+    geo:asWKT "POINT(105.8547946 21.0277123)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1233247866> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1233247866 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Ngo Quyen"@en,
+        "Bãi đỗ xe tại Phố Ngô Quyền"@vi ;
+    geo:asWKT "POINT(105.8558241 21.027304)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1233474624> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1233474624 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 169 Pho Doan Ke Thien"@en,
+        "Bãi đỗ xe tại Ngõ 169 Phố Doãn Kế Thiện"@vi ;
+    geo:asWKT "POINT(105.7759831 21.0405396)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1236610060> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1236610060 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Bien"@en,
+        "Bãi đỗ xe tại Phố Biển"@vi ;
+    geo:asWKT "POINT(105.9744497 20.9591705)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1238253013> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238253013 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Vanh Dai 3.5"@en,
+        "Bãi đỗ xe tại Đường Vành đai 3.5"@vi ;
+    geo:asWKT "POINT(105.9840769 20.9589766)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1238253014> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238253014 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Bien 16"@en,
+        "Bãi đỗ xe tại Phố Biển 16"@vi ;
+    geo:asWKT "POINT(105.9811598 20.9602364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1238615594> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238615594 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 61 Bang Liet"@en,
+        "Bãi đỗ xe tại Ngõ 61 Bằng Liệt"@vi ;
+    geo:asWKT "POINT(105.821652 20.9610647)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1239627912> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1239627912 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 318 Duong Ngoc Thuy"@en,
+        "Bãi đỗ xe tại Ngõ 318 đường Ngọc Thụy"@vi ;
+    geo:asWKT "POINT(105.8651874 21.0582077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1239627913> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1239627913 ;
+    ext:osm_type "way" ;
+    schema:name "Khai Son Car Park"@en,
+        "Bãi đỗ xe Khai Sơn"@vi ;
+    schema:operator "Công ty Cổ phần Khai Sơn" ;
+    geo:asWKT "POINT(105.8663477 21.0571641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243461494> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Ngõ 6 Trần Quốc Hoàn" ;
+    ext:osm_id 1243461494 ;
+    ext:osm_type "way" ;
+    schema:name "Parking at Ngo 6 Tran Quoc Hoan"@en,
+        "Bãi đỗ xe tại Ngõ 6 Trần Quốc Hoàn"@vi ;
+    geo:asWKT "POINT(105.7867926 21.042236)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243637638> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243637638 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Pham Tuan Tai"@en,
+        "Bãi đỗ xe tại Phố Phạm Tuấn Tài"@vi ;
+    geo:asWKT "POINT(105.7870518 21.045237)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243639750> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243639750 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Phong Sac"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Phong Sắc"@vi ;
+    geo:asWKT "POINT(105.790164 21.0443375)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243639758> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243639758 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Phong Sac"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Phong Sắc"@vi ;
+    geo:asWKT "POINT(105.7900445 21.0439326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243639763> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243639763 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7883839 21.0441649)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243648181> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243648181 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Phong Sac"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Phong Sắc"@vi ;
+    geo:asWKT "POINT(105.7900936 21.0455223)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243651979> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243651979 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Pham Tuan Tai"@en,
+        "Bãi đỗ xe tại Phố Phạm Tuấn Tài"@vi ;
+    geo:asWKT "POINT(105.7868936 21.0445801)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1243651996> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243651996 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 133/22 Nguyen Phong Sac"@en,
+        "Bãi đỗ xe tại Ngách 133/22 Nguyễn Phong Sắc"@vi ;
+    geo:asWKT "POINT(105.790189 21.0436864)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1244647231> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1244647231 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Chu Huy Man"@en,
+        "Bãi đỗ xe tại Phố Chu Huy Mân"@vi ;
+    geo:asWKT "POINT(105.904611 21.041272)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1244936376> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1244936376 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Quoc Hoan"@en,
+        "Bãi đỗ xe tại Phố Trần Quốc Hoàn"@vi ;
+    geo:asWKT "POINT(105.7881224 21.042257)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1244936377> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "131" ;
+    ext:addr_street "Đường Nguyễn Phong Sắc" ;
+    ext:osm_id 1244936377 ;
+    ext:osm_type "way" ;
+    schema:name "Bai dau xe Dich Vong"@en,
+        "Bãi đậu xe Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.789294 21.0430177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1245137449> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1245137449 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Pham Van Dong"@en,
+        "Bãi đỗ xe tại Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7819309 21.0436252)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1245435787> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1245435787 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7829349 21.045861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12458554805> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_street "Gầm cầu Thanh Trì" ;
+    ext:osm_id 12458554805 ;
+    ext:osm_type "node" ;
+    schema:name "Bai xe tai H13"@en,
+        "Bãi xe tải H13"@vi ;
+    geo:asWKT "POINT(105.8968475 20.9878398)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1246034071> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1246034071 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 154 Pho Viet Hung"@en,
+        "Bãi đỗ xe tại Ngõ 154 phố Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.8968663 21.0523695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1246072763> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1246072763 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7837648 21.0452862)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1246072764> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1246072764 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 487 Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 487 Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7833696 21.0454559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1247629339> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1247629339 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7816728 21.037315)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1248810755> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1248810755 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.784116 21.0383742)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1248964761> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1248964761 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Phan Van Truong"@en,
+        "Bãi đỗ xe tại Phố Phan Văn Trường"@vi ;
+    geo:asWKT "POINT(105.7856221 21.0395842)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1249503159> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249503159 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7847572 21.0368435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1249561352> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249561352 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7826449 21.0377022)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1249561362> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249561362 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 130 Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Ngõ 130 Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.784833 21.037539)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1249561366> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249561366 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7840943 21.037013)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1250249188> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250249188 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Dieu"@en,
+        "Bãi đỗ xe tại Đường Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.8396514 21.040247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1250665184> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250665184 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 222 Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 222 Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7865958 21.0482622)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1250665185> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250665185 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 222 Duong Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 222 Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7864914 21.0484897)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1251537950> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537950 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 95 Pho Ke Tanh"@en,
+        "Bãi đỗ xe tại Ngõ 95 Phố Kẻ Tạnh"@vi ;
+    geo:asWKT "POINT(105.9160567 21.0627459)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1251633896> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251633896 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7980176 21.0409168)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1251924188> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251924188 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Huyen"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Huyên"@vi ;
+    geo:asWKT "POINT(105.7974747 21.041658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1253526772> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1253526772 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nong Quoc Chan"@en,
+        "Bãi đỗ xe tại Phố Nông Quốc Chấn"@vi ;
+    geo:asWKT "POINT(105.762516 20.9730055)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1253894461> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1253894461 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 64 Pho Ngo Xuan Quang"@en,
+        "Bãi đỗ xe tại Ngõ 64 Phố Ngô Xuân Quảng"@vi ;
+    geo:asWKT "POINT(105.9334235 21.0181867)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1255682954> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1255682954 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Thang Long"@en,
+        "Bãi đỗ xe tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7444082 21.0104817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1255682964> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1255682964 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Thang Long"@en,
+        "Bãi đỗ xe tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7440618 21.0108713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1256391889> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256391889 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 106 Hoang Quoc Viet"@en,
+        "Bãi đỗ xe tại Ngõ 106 Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7924678 21.0527723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1256391892> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256391892 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 228 Pho Tran Cung"@en,
+        "Bãi đỗ xe tại Ngõ 228 Phố Trần Cung"@vi ;
+    geo:asWKT "POINT(105.790464 21.0527959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1256391923> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256391923 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Tao"@en,
+        "Bãi đỗ xe tại Đường Xuân Tảo"@vi ;
+    geo:asWKT "POINT(105.7991299 21.0546735)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1256391924> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256391924 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Tao"@en,
+        "Bãi đỗ xe tại Đường Xuân Tảo"@vi ;
+    geo:asWKT "POINT(105.7996433 21.0547475)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1256712631> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256712631 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Pham Van Dong"@en,
+        "Bãi đỗ xe tại Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7807996 21.0486569)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12595244743> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_street "khu đô thị Định Công" ;
+    ext:osm_id 12595244743 ;
+    ext:osm_type "node" ;
+    schema:name "Bai xe so 1 Dinh Cong"@en,
+        "Bãi xe số 1 Định Công"@vi ;
+    geo:asWKT "POINT(105.8313868 20.9877999)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12646866305> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_street "huyện Thanh Trì" ;
+    ext:osm_id 12646866305 ;
+    ext:osm_type "node" ;
+    schema:name "Bai xe 83"@en,
+        "Bãi xe 83"@vi ;
+    geo:asWKT "POINT(105.9021103 20.9867798)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1267662003> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1267662003 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ho Tung Mau"@en,
+        "Bãi đỗ xe tại Đường Hồ Tùng Mậu"@vi ;
+    geo:asWKT "POINT(105.7798825 21.0359454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12814597011> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12814597011 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Kinh Do 3"@en,
+        "Bãi đỗ xe tại Kinh Đô 3"@vi ;
+    geo:asWKT "POINT(105.9782831 20.9462043)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:12814597012> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 12814597012 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Kinh Do"@en,
+        "Bãi đỗ xe tại Đường Kinh Đô"@vi ;
+    geo:asWKT "POINT(105.977048 20.9447982)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1284685273> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1284685273 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cao Toc Ha Noi - Bac Giang"@en,
+        "Bãi đỗ xe tại Đường cao tốc Hà Nội - Bắc Giang"@vi ;
+    geo:asWKT "POINT(105.9645864 21.0961723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1289832761> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1289832761 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xoai"@en,
+        "Bãi đỗ xe tại Đường Xoài"@vi ;
+    geo:asWKT "POINT(105.8326421 21.0401489)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1289836957> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Ngọc Hà" ;
+    ext:osm_id 1289836957 ;
+    ext:osm_type "way" ;
+    schema:name "Bảo tàng Hồ Chí Minh Parking"@en,
+        "Bãi đỗ xe Bảo tàng Hồ Chí Minh"@vi ;
+    schema:operator "Bảo tàng Hồ Chí Minh" ;
+    geo:asWKT "POINT(105.831918 21.0361003)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1296355111> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296355111 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9444783 21.0026149)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1296355116> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296355116 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9435258 21.0022215)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1296565153> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296565153 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9600462 20.9901246)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1296565154> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296565154 ;
+    ext:osm_type "way" ;
+    schema:name "Diem do xe buyt Ocean Park"@en,
+        "Điểm đỗ xe buýt Ocean Park"@vi ;
+    geo:asWKT "POINT(105.9604547 20.9913535)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1298967556> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1298967556 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tu Mo"@en,
+        "Bãi đỗ xe tại Phố Tú Mỡ"@vi ;
+    geo:asWKT "POINT(105.7922473 21.0077384)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1299469583> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1299469583 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Chau Van Liem"@en,
+        "Bãi đỗ xe tại Đường Châu Văn Liêm"@vi ;
+    geo:asWKT "POINT(105.7699333 21.008408)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1299469584> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1299469584 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Chau Van Liem"@en,
+        "Bãi đỗ xe tại Đường Châu Văn Liêm"@vi ;
+    geo:asWKT "POINT(105.7710445 21.0092132)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1299469614> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1299469614 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Thang Long"@en,
+        "Bãi đỗ xe tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7547549 21.0064777)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1301924799> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1301924799 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Phu"@en,
+        "Bãi đỗ xe tại Phố Trần Phú"@vi ;
+    geo:asWKT "POINT(105.8353834 21.0324042)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1301930834> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1301930834 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hung Vuong"@en,
+        "Bãi đỗ xe tại Đường Hùng Vương"@vi ;
+    geo:asWKT "POINT(105.835158 21.033058)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1302800827> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1302800827 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 28b Dien Bien Phu"@en,
+        "Bãi đỗ xe tại Ngõ 28B Điện Biên Phủ"@vi ;
+    geo:asWKT "POINT(105.8417916 21.031461)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1303107862> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303107862 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Hoa Tham"@en,
+        "Bãi đỗ xe tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8218418 21.0413463)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1303107863> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303107863 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 179 Duong Hoang Hoa Tham"@en,
+        "Bãi đỗ xe tại Ngõ 179 Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8223089 21.0409239)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1303107864> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303107864 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 173 Duong Hoang Hoa Tham"@en,
+        "Bãi đỗ xe tại Ngõ 173 Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8225804 21.0404743)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1303670744> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303670744 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Ton That Thiep"@en,
+        "Bãi đỗ xe tại Phố Tôn Thất Thiệp"@vi ;
+    geo:asWKT "POINT(105.8441772 21.0345339)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1304981758> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1304981758 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 180 Pho Ngoc Ha"@en,
+        "Bãi đỗ xe tại Ngõ 180 Phố Ngọc Hà"@vi ;
+    geo:asWKT "POINT(105.8289423 21.0391038)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1305201873> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305201873 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Le Hong Phong"@en,
+        "Bãi đỗ xe tại Phố Lê Hồng Phong"@vi ;
+    geo:asWKT "POINT(105.8354719 21.0335792)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1305626925> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305626925 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 135/31 Pho Doi Can"@en,
+        "Bãi đỗ xe tại Ngách 135/31 Phố Đội Cấn"@vi ;
+    geo:asWKT "POINT(105.8272306 21.0357883)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1305667333> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305667333 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 28b Dien Bien Phu"@en,
+        "Bãi đỗ xe tại Ngõ 28B Điện Biên Phủ"@vi ;
+    geo:asWKT "POINT(105.8414417 21.0315298)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1305860992> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305860992 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 59 Duong Khue"@en,
+        "Bãi đỗ xe tại Ngõ 59 Dương Khuê"@vi ;
+    geo:asWKT "POINT(105.7743939 21.0358452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1307887926> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1307887926 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Bat Khoi"@en,
+        "Bãi đỗ xe tại Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.9022929 21.0198452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13102927790> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927790 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9828189 20.9473051)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13102927791> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927791 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822549 20.9484324)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13102927834> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927834 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9818704 20.943021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13102927835> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927835 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.981794 20.9429721)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1315272153> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315272153 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cau Giay"@en,
+        "Bãi đỗ xe tại Đường Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.8040446 21.0295755)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1315473368> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315473368 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 539 Duong Bat Khoi"@en,
+        "Bãi đỗ xe tại Ngõ 539 Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.906515 21.0190395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1318933641> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1318933641 ;
+    ext:osm_type "way" ;
+    schema:name "Bãi xe số 1 Định Công Parking"@en,
+        "Bãi đỗ xe Bãi xe số 1 Định Công"@vi ;
+    schema:operator "Bãi xe số 1 Định Công" ;
+    geo:asWKT "POINT(105.8311863 20.9874877)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1322830853> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1322830853 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Le Trong Tan"@en,
+        "Bãi đỗ xe tại Đường Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.7561927 20.9662165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13253536743> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13253536743 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Chua Boc"@en,
+        "Bãi đỗ xe tại Phố Chùa Bộc"@vi ;
+    geo:asWKT "POINT(105.8286296 21.0097002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1327061634> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1327061634 ;
+    ext:osm_type "way" ;
+    schema:name "Electric Vehicle Parking"@en,
+        "Bãi đỗ xe điện"@vi ;
+    geo:asWKT "POINT(105.78481 21.0177854)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1327061636> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1327061636 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Pham Hung"@en,
+        "Bãi đỗ xe tại Đường Phạm Hùng"@vi ;
+    geo:asWKT "POINT(105.7845083 21.0166005)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1328336038> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1328336038 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Thang Long"@en,
+        "Bãi đỗ xe tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7587272 21.0059885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1329826232> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1329826232 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Thang Long"@en,
+        "Bãi đỗ xe tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7517384 21.0102641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1329845806> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1329845806 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Cau Vuot Cau Coc"@en,
+        "Bãi đỗ xe tại Cầu vượt Cầu Cốc"@vi ;
+    geo:asWKT "POINT(105.752559 21.0064448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327589769> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327589769 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9838535 20.9465194)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327589785> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327589785 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Dai Duong"@en,
+        "Bãi đỗ xe tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9854307 20.9471993)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327589786> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327589786 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Dai Duong"@en,
+        "Bãi đỗ xe tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9856328 20.9480677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327589793> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327589793 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9851509 20.9490312)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327600201> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327600201 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9846869 20.9499965)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327600208> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327600208 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9842648 20.950894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327600215> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327600215 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9836381 20.9521815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327600236> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327600236 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9813457 20.9516129)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13327600244> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13327600244 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9811419 20.9507997)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13336702952> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13336702952 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 459 Duong Truong Dinh"@en,
+        "Bãi đỗ xe tại Ngõ 459 Đường Trương Định"@vi ;
+    geo:asWKT "POINT(105.8467005 20.9853563)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:13336702954> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 13336702954 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 493/2 Duong Truong Dinh"@en,
+        "Bãi đỗ xe tại Ngách 493/2 Đường Trương Định"@vi ;
+    geo:asWKT "POINT(105.8465285 20.9846581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1333686637> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1333686637 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 7 Ton That Thuyet"@en,
+        "Bãi đỗ xe tại Ngõ 7 Tôn Thất Thuyết"@vi ;
+    geo:asWKT "POINT(105.7842319 21.0246417)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1333686638> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1333686638 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Hoang Quan Chi"@en,
+        "Bãi đỗ xe tại Phố Hoàng Quán Chi"@vi ;
+    geo:asWKT "POINT(105.7841205 21.0213186)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1337332946> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337332946 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cau Dien"@en,
+        "Bãi đỗ xe tại Đường Cầu Diễn"@vi ;
+    geo:asWKT "POINT(105.7346396 21.0519017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1337380570> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337380570 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Huu Nghi"@en,
+        "Bãi đỗ xe tại Đường Hữu Nghị"@vi ;
+    geo:asWKT "POINT(105.967978 21.0789688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1337380571> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337380571 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Huu Nghi"@en,
+        "Bãi đỗ xe tại Đường Hữu Nghị"@vi ;
+    geo:asWKT "POINT(105.967582 21.0788581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1337380572> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337380572 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Huu Nghi"@en,
+        "Bãi đỗ xe tại Đường Hữu Nghị"@vi ;
+    geo:asWKT "POINT(105.967157 21.0789206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1337380578> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337380578 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Huu Nghi"@en,
+        "Bãi đỗ xe tại Đường Hữu Nghị"@vi ;
+    geo:asWKT "POINT(105.966667 21.0789089)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1339401912> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1339401912 ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện KUSUMI Parking"@en,
+        "Bãi đỗ xe Bệnh viện KUSUMI"@vi ;
+    schema:operator "Bệnh viện KUSUMI" ;
+    geo:asWKT "POINT(105.932236 20.9629981)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1346370685> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1346370685 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Doan Khue"@en,
+        "Bãi đỗ xe tại Phố Đoàn Khuê"@vi ;
+    geo:asWKT "POINT(105.9039671 21.0595112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1350379180> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1350379180 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Thuy"@en,
+        "Bãi đỗ xe tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7871696 21.0368302)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1352283656> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1352283656 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Cao Luyen"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Cao Luyện"@vi ;
+    geo:asWKT "POINT(105.9053135 21.0592134)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1352503903> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1352503903 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Doan Khue"@en,
+        "Bãi đỗ xe tại Phố Đoàn Khuê"@vi ;
+    geo:asWKT "POINT(105.9023269 21.0612306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1359824051> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1359824051 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 80 Pho Chua Lang"@en,
+        "Bãi đỗ xe tại Ngõ 80 Phố Chùa Láng"@vi ;
+    geo:asWKT "POINT(105.8065986 21.0227982)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:136255955> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 136255955 ;
+    ext:osm_type "way" ;
+    schema:name "Bãi xe số 2 Định Công Parking"@en,
+        "Bãi đỗ xe Bãi xe số 2 Định Công"@vi ;
+    schema:operator "Bãi xe số 2 Định Công" ;
+    geo:asWKT "POINT(105.8274381 20.9864266)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:136258990> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 136258990 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Giai Phong"@en,
+        "Bãi đỗ xe tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8397618 21.0029907)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1368344175> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1368344175 ;
+    ext:osm_type "way" ;
+    schema:name "Motobike parking"@en,
+        "Motobike parking"@vi ;
+    geo:asWKT "POINT(105.8355872 21.0792505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1383225745> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1383225745 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 5"@en,
+        "Bãi đỗ xe tại Đường 5"@vi ;
+    geo:asWKT "POINT(105.9767478 21.0752618)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1383494527> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1383494527 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Yp4"@en,
+        "Bãi đỗ xe tại Đường YP4"@vi ;
+    geo:asWKT "POINT(105.9931796 21.1987767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1385594807> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1385594807 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoa Ban"@en,
+        "Bãi đỗ xe tại Đường Hoa Ban"@vi ;
+    geo:asWKT "POINT(105.9576357 21.1295318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1387326073> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1387326073 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 6"@en,
+        "Bãi đỗ xe tại Đường 6"@vi ;
+    geo:asWKT "POINT(105.9738282 21.0744712)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1388795034> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1388795034 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 5"@en,
+        "Bãi đỗ xe tại Đường 5"@vi ;
+    geo:asWKT "POINT(105.9777501 21.0753413)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1388795035> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1388795035 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 5"@en,
+        "Bãi đỗ xe tại Đường 5"@vi ;
+    geo:asWKT "POINT(105.9775308 21.0752041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1388795036> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1388795036 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 6"@en,
+        "Bãi đỗ xe tại Đường 6"@vi ;
+    geo:asWKT "POINT(105.9769531 21.0760015)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1388795037> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1388795037 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Huu Nghi"@en,
+        "Bãi đỗ xe tại Đường Hữu Nghị"@vi ;
+    geo:asWKT "POINT(105.9769258 21.0764839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1392139468> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1392139468 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Van Cu"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Cừ"@vi ;
+    geo:asWKT "POINT(105.9325095 21.140686)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1394572585> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1394572585 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ly Thai to"@en,
+        "Bãi đỗ xe tại Đường Lý Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.9673466 21.0757104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1394578605> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1394578605 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ly Thai to"@en,
+        "Bãi đỗ xe tại Đường Lý Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.9682224 21.0790906)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1394899249> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_district "Huyện Thanh Trì" ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Đường Phạm Tu" ;
+    ext:osm_id 1394899249 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe va trung chuyen hang hoa Van Thuan"@en,
+        "Bãi đỗ xe và trung chuyển hàng hóa Vạn Thuận"@vi ;
+    geo:asWKT "POINT(105.8086912 20.9755782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1416271024> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1416271024 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cao Toc Noi Bai – Bac Ninh"@en,
+        "Bãi đỗ xe tại Đường cao tốc Nội Bài – Bắc Ninh"@vi ;
+    geo:asWKT "POINT(105.9829448 21.198402)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1420963260> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1420963260 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Van Tan"@en,
+        "Bãi đỗ xe tại Phố Văn Tân"@vi ;
+    geo:asWKT "POINT(105.8238107 20.9639767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1420982260> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1420982260 ;
+    ext:osm_type "way" ;
+    schema:name "Nha do xe Galaxy"@en,
+        "Nhà đỗ xe Galaxy"@vi ;
+    geo:asWKT "POINT(105.7768911 20.9830124)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425491437> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491437 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 8b"@en,
+        "Bãi đỗ xe tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820657 20.9488329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425491464> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491464 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 16"@en,
+        "Bãi đỗ xe tại San Hô 16"@vi ;
+    geo:asWKT "POINT(105.9826684 20.9475782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425491496> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491496 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9818298 20.9430244)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425491497> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491497 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.981809 20.9429662)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425501464> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425501464 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.982609 20.9425263)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425501465> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425501465 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9830453 20.9423822)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1425501466> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425501466 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Dai Lo Ngoc Trai"@en,
+        "Bãi đỗ xe tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9835062 20.9422316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1433526224> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433526224 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at D. Duong Quang Ham"@en,
+        "Bãi đỗ xe tại Đ. Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.9475057 20.9313112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1441949304> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1441949304 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dong Cam"@en,
+        "Bãi đỗ xe tại Phố Đồng Cẩm"@vi ;
+    geo:asWKT "POINT(105.9649309 21.1293241)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1441949309> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1441949309 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dong Cam"@en,
+        "Bãi đỗ xe tại Phố Đồng Cẩm"@vi ;
+    geo:asWKT "POINT(105.9655244 21.129877)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1442259676> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1442259676 ;
+    ext:osm_type "way" ;
+    schema:name "Khu de xe cho can bo HVNH"@en,
+        "Khu để xe cho cán bộ HVNH"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.829147 21.0087063)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1442635976> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1442635976 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 12 Chua Boc"@en,
+        "Bãi đỗ xe tại Ngõ 12 Chùa Bộc"@vi ;
+    geo:asWKT "POINT(105.8286045 21.0081877)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1444431788> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444431788 ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Ngân Hàng Parking"@en,
+        "Bãi đỗ xe Học viện Ngân Hàng"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.8295823 21.0090317)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1444431789> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444431789 ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Ngân Hàng Parking"@en,
+        "Bãi đỗ xe Học viện Ngân Hàng"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.8294056 21.008832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1445338643> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445338643 ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Ngân Hàng Parking"@en,
+        "Bãi đỗ xe Học viện Ngân Hàng"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.8293847 21.0085964)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1445436558> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436558 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Kdt Den Lu Ii"@en,
+        "Bãi đỗ xe tại KĐT Đền Lừ II"@vi ;
+    geo:asWKT "POINT(105.8600701 20.9862421)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1445436564> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436564 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Kim Nguu B"@en,
+        "Bãi đỗ xe tại Kim Ngưu B"@vi ;
+    geo:asWKT "POINT(105.8628354 20.9829115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1445978414> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445978414 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8420881 21.00691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1446455169> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446455169 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dan Cau Tu Lien"@en,
+        "Bãi đỗ xe tại Đường dẫn Cầu Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.8664631 21.0847894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1446455170> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446455170 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dan Cau Tu Lien"@en,
+        "Bãi đỗ xe tại Đường dẫn Cầu Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.8639045 21.0824311)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1446706932> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446706932 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 225 Pho Nguyen Duc Canh"@en,
+        "Bãi đỗ xe tại Ngõ 225 Phố Nguyễn Đức Cảnh"@vi ;
+    geo:asWKT "POINT(105.8543643 20.9877782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1446781453> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446781453 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thanh Pho Tp5.1"@en,
+        "Bãi đỗ xe tại Đường Thành Phố TP5.1"@vi ;
+    geo:asWKT "POINT(105.8592263 21.0890767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1446781454> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446781454 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Thanh Pho Tp5.1"@en,
+        "Bãi đỗ xe tại Đường Thành Phố TP5.1"@vi ;
+    geo:asWKT "POINT(105.8605285 21.090095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1447145291> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1447145291 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tuong Giang"@en,
+        "Bãi đỗ xe tại Đường Tương Giang"@vi ;
+    geo:asWKT "POINT(105.9906181 21.1402266)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1451711156> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451711156 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 38 Ngo 176 Duong Truong Dinh"@en,
+        "Bãi đỗ xe tại Ngách 38 Ngõ 176 Đường Trương Định"@vi ;
+    geo:asWKT "POINT(105.8464449 20.9918101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1451722447> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451722447 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Gia Thuong"@en,
+        "Bãi đỗ xe tại Đường Gia Thượng"@vi ;
+    geo:asWKT "POINT(105.8785467 21.0694913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453043108> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453043108 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tinh 379"@en,
+        "Bãi đỗ xe tại Đường tỉnh 379"@vi ;
+    geo:asWKT "POINT(105.9474833 20.9256537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453097161> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453097161 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 79 Duong Hoang Mai"@en,
+        "Bãi đỗ xe tại Ngõ 79 Đường Hoàng Mai"@vi ;
+    geo:asWKT "POINT(105.8512919 20.9937404)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263255> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263255 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9838139 20.9464872)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263256> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263256 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Duong"@en,
+        "Bãi đỗ xe tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9852671 20.9471058)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263257> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263257 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Duong"@en,
+        "Bãi đỗ xe tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.985593 20.9481691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263258> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263258 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9851757 20.949035)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263259> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263259 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9847226 20.949974)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263260> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263260 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9842751 20.950907)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263261> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263261 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9836657 20.9521694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263262> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263262 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9829805 20.9523115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263263> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263263 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9821213 20.9519483)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263264> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263264 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at San Ho 25"@en,
+        "Bãi đỗ xe tại San Hô 25"@vi ;
+    geo:asWKT "POINT(105.9813439 20.9516214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1453263265> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263265 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong San Ho"@en,
+        "Bãi đỗ xe tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9811423 20.9507555)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1454185281> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1454185281 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe Market chim Dong Phat"@en,
+        "Bãi đỗ xe Chợ chim Đồng Phát"@vi ;
+    geo:asWKT "POINT(105.8684963 20.9822384)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1454185282> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1454185282 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Vinh Hoang"@en,
+        "Bãi đỗ xe tại Phố Vĩnh Hoàng"@vi ;
+    geo:asWKT "POINT(105.8692438 20.9817248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:159948957> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 159948957 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Hoa Tham"@en,
+        "Bãi đỗ xe tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8080148 21.0468853)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:180075256> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 180075256 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 74 Duong Nguyen Chi Thanh"@en,
+        "Bãi đỗ xe tại Ngõ 74 Đường Nguyễn Chí Thanh"@vi ;
+    geo:asWKT "POINT(105.8061902 21.0178247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:180085328> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 180085328 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 49 Pho Huynh Thuc Khang"@en,
+        "Bãi đỗ xe tại Ngõ 49 Phố Huỳnh Thúc Kháng"@vi ;
+    geo:asWKT "POINT(105.8087772 21.015372)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1803529399> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1803529399 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Pham Hung"@en,
+        "Bãi đỗ xe tại Đường Phạm Hùng"@vi ;
+    geo:asWKT "POINT(105.7813493 21.0180389)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:1803529466> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 1803529466 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Pham Hung"@en,
+        "Bãi đỗ xe tại Đường Phạm Hùng"@vi ;
+    geo:asWKT "POINT(105.78189 21.018557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:185541716> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 185541716 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Dieu"@en,
+        "Bãi đỗ xe tại Đường Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.8404747 21.0395732)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2064569293> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2064569293 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Xuan Dieu"@en,
+        "Bãi đỗ xe tại Đường Xuân Diệu"@vi ;
+    geo:asWKT "POINT(105.8280689 21.0637316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2294332939> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2294332939 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Yen Hoa"@en,
+        "Bãi đỗ xe tại Phố Yên Hoa"@vi ;
+    geo:asWKT "POINT(105.8340317 21.0561954)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2294333471> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2294333471 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Tu Hoa"@en,
+        "Bãi đỗ xe tại Phố Từ Hoa"@vi ;
+    geo:asWKT "POINT(105.8324089 21.0595296)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2294333472> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2294333472 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 5 Pho Tu Hoa"@en,
+        "Bãi đỗ xe tại Ngõ 5 Phố Từ Hoa"@vi ;
+    geo:asWKT "POINT(105.8323821 21.0586935)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2294341637> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2294341637 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nghi Tam"@en,
+        "Bãi đỗ xe tại Đường Nghi Tàm"@vi ;
+    geo:asWKT "POINT(105.8356946 21.0567662)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2294344864> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2294344864 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Tran Vu"@en,
+        "Bãi đỗ xe tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8381623 21.0440173)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2295379842> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2295379842 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 12 Pho Nui Truc"@en,
+        "Bãi đỗ xe tại Ngõ 12 Phố Núi Trúc"@vi ;
+    geo:asWKT "POINT(105.8219856 21.027797)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2297882785> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2297882785 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Van Linh"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.8887212 21.0536012)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2302087705> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2302087705 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Tran Khanh Du"@en,
+        "Bãi đỗ xe tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8616699 21.0209119)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2302087706> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2302087706 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Do Xe Tran Quang Khai 1B"@en,
+        "Bãi Đỗ Xe Trần Quang Khải 1B"@vi ;
+    geo:asWKT "POINT(105.8571737 21.030173)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2302087708> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2302087708 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Tran Quang Khai"@en,
+        "Bãi đỗ xe tại Đường Trần Quang Khải"@vi ;
+    geo:asWKT "POINT(105.8590384 21.0266975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2302087709> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2302087709 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Do Xe Tran Quang Khai 2"@en,
+        "Bãi Đỗ Xe Trần Quang Khải 2"@vi ;
+    geo:asWKT "POINT(105.8581314 21.0282011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:2302087710> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 2302087710 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Tran Khanh Du"@en,
+        "Bãi đỗ xe tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8611788 21.0225765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:292907001> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 292907001 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe Tran Nhat Duat"@en,
+        "Bãi đỗ xe Trần Nhật Duật"@vi ;
+    geo:asWKT "POINT(105.8516544 21.0391968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:3933490776> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_postcode "04" ;
+    ext:addr_street "Nguyễn Cảnh Dị" ;
+    ext:osm_id 3933490776 ;
+    ext:osm_type "node" ;
+    schema:name "Nhan Cho Hang 0983 420420"@en,
+        "Nhận Chở Hàng 0983 420420"@vi ;
+    geo:asWKT "POINT(105.8353257 20.9820138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:3955347819> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 3955347819 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngach 165/2 Pho Duong Quang Ham"@en,
+        "Bãi đỗ xe tại Ngách 165/2 Phố Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.8004486 21.0365691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:402425858> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 402425858 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Hong Do"@en,
+        "Bãi đỗ xe tại Phố Hồng Đô"@vi ;
+    geo:asWKT "POINT(105.7663519 21.0153972)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:428403811> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 428403811 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Do Xe Ngoai Troi"@en,
+        "Bãi Đỗ Xe Ngoài Trời"@vi ;
+    geo:asWKT "POINT(105.8163952 21.0419521)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:446031977> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 446031977 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Nguyen Ngoc Vu"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Ngọc Vũ"@vi ;
+    geo:asWKT "POINT(105.8053548 21.0142815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:446032584> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 446032584 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Nguyen Thi Thap"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Thị Thập"@vi ;
+    geo:asWKT "POINT(105.802732 21.006303)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:446032585> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 446032585 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 7 Pho Hoang Minh Giam"@en,
+        "Bãi đỗ xe tại Ngõ 7 Phố Hoàng Minh Giám"@vi ;
+    geo:asWKT "POINT(105.800271 21.003461)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:446033480> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 446033480 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Lang Ha"@en,
+        "Bãi đỗ xe tại Phố Láng Hạ"@vi ;
+    geo:asWKT "POINT(105.8121691 21.012178)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:446036302> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 446036302 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Thai Ha"@en,
+        "Bãi đỗ xe tại Phố Thái Hà"@vi ;
+    geo:asWKT "POINT(105.8162045 21.0157073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:4659378790> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 4659378790 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Van Mieu"@en,
+        "Bãi đỗ xe tại Phố Văn Miếu"@vi ;
+    geo:asWKT "POINT(105.836555 21.0288555)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:4749011954> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 4749011954 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8456204 21.0083302)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:479832647> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 479832647 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dang Xa 8"@en,
+        "Bãi đỗ xe tại Đường Đặng Xá 8"@vi ;
+    geo:asWKT "POINT(105.9478601 21.0175405)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:487098789> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 487098789 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tu Hoa"@en,
+        "Bãi đỗ xe tại Phố Từ Hoa"@vi ;
+    geo:asWKT "POINT(105.8323058 21.0594713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:487856899> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 487856899 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 76/32 Pho an Duong"@en,
+        "Bãi đỗ xe tại Ngách 76/32 Phố An Dương"@vi ;
+    geo:asWKT "POINT(105.8412557 21.0534948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:487856904> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 487856904 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dang Dung"@en,
+        "Bãi đỗ xe tại Phố Đặng Dung"@vi ;
+    geo:asWKT "POINT(105.8416442 21.0412801)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:487952967> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 487952967 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tu Hoa"@en,
+        "Bãi đỗ xe tại Phố Từ Hoa"@vi ;
+    geo:asWKT "POINT(105.8325175 21.0591194)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:487952968> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 487952968 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 5 Pho Tu Hoa"@en,
+        "Bãi đỗ xe tại Ngõ 5 Phố Từ Hoa"@vi ;
+    geo:asWKT "POINT(105.8327513 21.059217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:499831762> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 499831762 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong So 12a"@en,
+        "Bãi đỗ xe tại Đường số 12A"@vi ;
+    geo:asWKT "POINT(105.7767553 21.0490534)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:5119181408> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 5119181408 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Ngo 84 Pho Ngoc Khanh"@en,
+        "Bãi đỗ xe tại Ngõ 84 Phố Ngọc Khánh"@vi ;
+    geo:asWKT "POINT(105.8162656 21.0270551)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:533838209> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 533838209 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Huu Duc"@en,
+        "Bãi đỗ xe tại Phố Trần Hữu Dực"@vi ;
+    geo:asWKT "POINT(105.7628126 21.0290952)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:548076508> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 548076508 ;
+    ext:osm_type "way" ;
+    schema:name "Công viên Yên Sở Parking"@en,
+        "Bãi đỗ xe Công viên Yên Sở"@vi ;
+    schema:operator "Công viên Yên Sở" ;
+    geo:asWKT "POINT(105.8533092 20.964794)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:549444556> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 549444556 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 84 Pho Ngoc Khanh"@en,
+        "Bãi đỗ xe tại Ngõ 84 Phố Ngọc Khánh"@vi ;
+    geo:asWKT "POINT(105.8166814 21.0270798)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:5683788865> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 5683788865 ;
+    ext:osm_type "node" ;
+    schema:name "Bãi đỗ xe Parking"@en,
+        "Bãi đỗ xe Bãi đỗ xe"@vi ;
+    schema:operator "Bãi đỗ xe" ;
+    geo:asWKT "POINT(105.8217701 20.9610735)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:570570002> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 570570002 ;
+    ext:osm_type "way" ;
+    schema:name "Bai gui xe o to trong cong vien Dong Da"@en,
+        "Bãi gửi xe ô tô trong công viên Đống Đa"@vi ;
+    geo:asWKT "POINT(105.8243064 21.0117192)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:570573275> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 570573275 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Chua Lang"@en,
+        "Bãi đỗ xe tại Phố Chùa Láng"@vi ;
+    geo:asWKT "POINT(105.803153 21.0230196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:570582916> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 570582916 ;
+    ext:osm_type "way" ;
+    schema:name "Bai gui xe Doi Cung"@en,
+        "Bãi gửi xe Đội Cung"@vi ;
+    geo:asWKT "POINT(105.8485926 21.0094912)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:577203282> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Lý Thái Tổ" ;
+    ext:osm_id 577203282 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe Den Do"@en,
+        "Bãi đỗ xe Đền Đô"@vi ;
+    geo:asWKT "POINT(105.9592858 21.1087342)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:583382351> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 583382351 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Huynh Van Nghe"@en,
+        "Bãi đỗ xe tại Phố Huỳnh Văn Nghệ"@vi ;
+    geo:asWKT "POINT(105.9092349 21.0396279)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:587841712> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 587841712 ;
+    ext:osm_type "way" ;
+    schema:name "Bai gui xe"@en,
+        "Bãi gửi xe"@vi ;
+    geo:asWKT "POINT(105.930971 21.0060313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:589659636> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 589659636 ;
+    ext:osm_type "way" ;
+    schema:name "bai gui xe"@en,
+        "bãi gửi xe"@vi ;
+    geo:asWKT "POINT(105.932407 21.0035121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:590074827> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 590074827 ;
+    ext:osm_type "way" ;
+    schema:name "bai gui xe"@en,
+        "bãi gửi xe"@vi ;
+    geo:asWKT "POINT(105.9340021 21.0096001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:590074872> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 590074872 ;
+    ext:osm_type "way" ;
+    schema:name "Bai gui xe"@en,
+        "Bãi gửi xe"@vi ;
+    geo:asWKT "POINT(105.9358557 21.0036552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:5974185476> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 5974185476 ;
+    ext:osm_type "node" ;
+    schema:name "685, duong Linh Nam, phuong Linh Nam, Hoang Mai, Ha Noi"@en,
+        "685, đường Lĩnh Nam, phường Lĩnh Nam, Hoàng Mai, Hà Nội"@vi ;
+    geo:asWKT "POINT(105.892813 20.979603)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:608058162> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 608058162 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Do Cung"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Đỗ Cung"@vi ;
+    geo:asWKT "POINT(105.793033 21.0395747)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:638520456> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 638520456 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe cong cong va dich vu Den Lu"@en,
+        "Bãi đỗ xe công cộng và dịch vụ Đền Lừ"@vi ;
+    geo:asWKT "POINT(105.8631561 20.9812405)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:660703673> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 660703673 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ha Huy Tap"@en,
+        "Bãi đỗ xe tại Đường Hà Huy Tập"@vi ;
+    geo:asWKT "POINT(105.9255517 21.0943157)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:660703674> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 660703674 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ha Huy Tap"@en,
+        "Bãi đỗ xe tại Đường Hà Huy Tập"@vi ;
+    geo:asWKT "POINT(105.9255114 21.0946329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6611118019> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "92" ;
+    ext:addr_street "Phố Nguyễn Chính" ;
+    ext:osm_id 6611118019 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Gui Xe O To"@en,
+        "Bãi Gửi Xe Ô Tô"@vi ;
+    geo:asWKT "POINT(105.8476751 20.9792076)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6665984363> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6665984363 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Luong the Vinh"@en,
+        "Bãi đỗ xe tại Đường Lương Thế Vinh"@vi ;
+    geo:asWKT "POINT(105.7833068 21.0007423)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6689794090> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6689794090 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Duong Tran Khanh Du"@en,
+        "Bãi đỗ xe tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8620752 21.0175003)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6811787476> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6811787476 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Moc Lan"@en,
+        "Bãi đỗ xe tại Mộc Lan"@vi ;
+    geo:asWKT "POINT(105.7846415 21.0011388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6917941578> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6917941578 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Bui Thien Ngo"@en,
+        "Bãi đỗ xe tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.9104327 21.0622229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6917941588> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6917941588 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Bui Thien Ngo"@en,
+        "Bãi đỗ xe tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.9111926 21.0638009)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6917941595> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6917941595 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Bui Thien Ngo"@en,
+        "Bãi đỗ xe tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.911031 21.0642856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6924044140> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924044140 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Lo Nha Vuon"@en,
+        "Bãi đỗ xe tại Lô Nhà Vườn"@vi ;
+    geo:asWKT "POINT(105.9111807 21.0635731)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6924044145> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924044145 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Bui Thien Ngo"@en,
+        "Bãi đỗ xe tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.9108073 21.0651751)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:6924959571> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924959571 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Thep Moi"@en,
+        "Bãi đỗ xe tại Phố Thép Mới"@vi ;
+    geo:asWKT "POINT(105.9092045 21.0632401)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:696389229> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 696389229 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8395778 21.0335255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:696389232> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 696389232 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8393674 21.0344029)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:696389233> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 696389233 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Hoang Dieu"@en,
+        "Bãi đỗ xe tại Đường Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.8391827 21.033401)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:696913692> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 696913692 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Nguyen Tri Phuong"@en,
+        "Bãi đỗ xe tại Đường Nguyễn Tri Phương"@vi ;
+    geo:asWKT "POINT(105.8412295 21.0373771)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:699057518> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 699057518 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 43 Duong Co Nhue"@en,
+        "Bãi đỗ xe tại Ngõ 43 Đường Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.7788006 21.0584563)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:705558493> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 705558493 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 67 to Ngoc Van"@en,
+        "Bãi đỗ xe tại Ngõ 67 Tô Ngọc Vân"@vi ;
+    geo:asWKT "POINT(105.823273 21.066681)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:7055986445> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Nguyễn Lân" ;
+    ext:osm_id 7055986445 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Xe Nguyen Lan"@en,
+        "Bãi Xe Nguyễn Lân"@vi ;
+    geo:asWKT "POINT(105.8363565 20.98752)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:707074846> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 707074846 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Vanh Dai 2.5"@en,
+        "Bãi đỗ xe tại Đường Vành đai 2.5"@vi ;
+    geo:asWKT "POINT(105.8309354 20.9839548)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:726825190> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 726825190 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Thach Thao 6"@en,
+        "Bãi đỗ xe tại Thạch Thảo 6"@vi ;
+    geo:asWKT "POINT(105.7912865 21.0006006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:737314085> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 737314085 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Xuan Tao"@en,
+        "Bãi đỗ xe tại Đường Xuân Tảo"@vi ;
+    geo:asWKT "POINT(105.7972266 21.0470919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:792405387> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 792405387 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dong Ngac"@en,
+        "Bãi đỗ xe tại Đường Đông Ngạc"@vi ;
+    geo:asWKT "POINT(105.781459 21.0927695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:8285607064> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 8285607064 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Xa Dan"@en,
+        "Bãi đỗ xe tại Phố Xã Đàn"@vi ;
+    geo:asWKT "POINT(105.839496 21.0080704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:8285607068> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 8285607068 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Do Xe Tran Quang Khai 1A"@en,
+        "Bãi Đỗ Xe Trần Quang Khải 1A"@vi ;
+    geo:asWKT "POINT(105.8559547 21.03272)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:8357571559> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 8357571559 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Nguyen Dinh Tu"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Đình Tứ"@vi ;
+    geo:asWKT "POINT(105.7784589 21.0716098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:8363029998> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 8363029998 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Dau Xe Dai Hoc Mo - Dia Chat"@en,
+        "Bãi Đậu Xe Đại Học Mỏ - Địa Chất"@vi ;
+    schema:operator "Đại học Mỏ - Địa chất" ;
+    geo:asWKT "POINT(105.7611941 21.0688166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:838093503> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 838093503 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tran Khanh Du"@en,
+        "Bãi đỗ xe tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8623777 21.0148226)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:838258694> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 838258694 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tran Hung Dao"@en,
+        "Bãi đỗ xe tại Phố Trần Hưng Đạo"@vi ;
+    geo:asWKT "POINT(105.8442194 21.0220474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:839871354> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 839871354 ;
+    ext:osm_type "way" ;
+    schema:name "Bãi đỗ ô tô Big C Thăng Long Parking"@en,
+        "Bãi đỗ xe Bãi đỗ ô tô Big C Thăng Long"@vi ;
+    schema:operator "Bãi đỗ ô tô Big C Thăng Long" ;
+    geo:asWKT "POINT(105.7936667 21.0069628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:839899605> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 839899605 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo Xa Dan 2"@en,
+        "Bãi đỗ xe tại Ngõ Xã Đàn 2"@vi ;
+    geo:asWKT "POINT(105.8313528 21.013803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:840041414> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 840041414 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Co Linh"@en,
+        "Bãi đỗ xe tại Đường Cổ Linh"@vi ;
+    geo:asWKT "POINT(105.8989662 21.026604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:840041418> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 840041418 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Ngoc Chan"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Ngọc Chân"@vi ;
+    geo:asWKT "POINT(105.9007287 21.0273582)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:840934120> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 840934120 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Zone 1"@en,
+        "Parking Zone 1"@vi ;
+    geo:asWKT "POINT(105.7427765 21.0083446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:846064163> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 846064163 ;
+    ext:osm_type "way" ;
+    schema:name "Bến Xe Tỉnh Parking"@en,
+        "Bãi đỗ xe Bến Xe Tỉnh"@vi ;
+    schema:operator "Bến Xe Tỉnh" ;
+    geo:asWKT "POINT(105.7022544 20.9208615)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:850152427> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 850152427 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Mieu Dam"@en,
+        "Bãi đỗ xe tại Phố Miếu Đầm"@vi ;
+    geo:asWKT "POINT(105.7829868 21.0034621)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:850152429> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 850152429 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong So 5"@en,
+        "Bãi đỗ xe tại Đường số 5"@vi ;
+    geo:asWKT "POINT(105.7904693 21.006353)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:853859548> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 853859548 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Duong Quang Ham"@en,
+        "Bãi đỗ xe tại Đường Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.945657 20.9290608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:862423886> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 862423886 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Dai Co Viet"@en,
+        "Bãi đỗ xe tại Đường Đại Cồ Việt"@vi ;
+    geo:asWKT "POINT(105.8466238 21.0047476)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:862423888> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 862423888 ;
+    ext:osm_type "way" ;
+    schema:name "Nha xe C5"@en,
+        "Nhà xe C5"@vi ;
+    geo:asWKT "POINT(105.8442314 21.0059569)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:863712767> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "32" ;
+    ext:addr_street "Nguyễn Công Trứ" ;
+    ext:osm_id 863712767 ;
+    ext:osm_type "way" ;
+    schema:name "Bai do xe tren cao Nguyen Cong Tru"@en,
+        "Bãi đỗ xe trên cao Nguyễn Công Trứ"@vi ;
+    schema:operator "Transerco" ;
+    geo:asWKT "POINT(105.8525496 21.0137421)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:872186237> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 872186237 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Du an Ket Noi Duong Qua Cong Ty Xe Bus Voi Du an 423 Minh Khai"@en,
+        "Bãi đỗ xe tại Dự án Kết nối đường qua Công ty xe bus vớI Dự án 423 Minh Khai"@vi ;
+    geo:asWKT "POINT(105.8648186 21.0026893)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:874998853> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 874998853 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Ham Nghi"@en,
+        "Bãi đỗ xe tại Phố Hàm Nghi"@vi ;
+    geo:asWKT "POINT(105.7673054 21.0343842)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:8936032791> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 8936032791 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Trung Kinh"@en,
+        "Bãi đỗ xe tại Phố Trung Kính"@vi ;
+    geo:asWKT "POINT(105.795862 21.0138823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:898008003> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 898008003 ;
+    ext:osm_type "way" ;
+    schema:name "Bai Do Xe"@en,
+        "Bãi Đỗ Xe"@vi ;
+    geo:asWKT "POINT(105.7782816 21.0674834)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:898540591> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 898540591 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Tang Bat Ho"@en,
+        "Bãi đỗ xe tại Phố Tăng Bạt Hổ"@vi ;
+    geo:asWKT "POINT(105.8588766 21.0158444)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:899476438> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 899476438 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Dam Quang Trung"@en,
+        "Bãi đỗ xe tại Phố Đàm Quang Trung"@vi ;
+    geo:asWKT "POINT(105.898348 21.0278808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:899476439> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 899476439 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Co Linh"@en,
+        "Bãi đỗ xe tại Đường Cổ Linh"@vi ;
+    geo:asWKT "POINT(105.8993632 21.0274486)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:899476440> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 899476440 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Co Linh"@en,
+        "Bãi đỗ xe tại Đường Cổ Linh"@vi ;
+    geo:asWKT "POINT(105.9002584 21.0269251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:902641916> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 902641916 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Ly Thai to"@en,
+        "Bãi đỗ xe tại Đường Lý Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.9624046 21.1030282)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:905363922> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 905363922 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Linh Duong"@en,
+        "Bãi đỗ xe tại Phố Linh Đường"@vi ;
+    geo:asWKT "POINT(105.8267745 20.9624713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:911712333> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 911712333 ;
+    ext:osm_type "way" ;
+    schema:name "Vinhomes Ocean Park Parking"@en,
+        "Bãi đỗ xe Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9596513 20.9947145)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:914040105> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 914040105 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 765 Duong Nguyen Van Linh"@en,
+        "Bãi đỗ xe tại Ngõ 765 Đường Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.9208326 21.029786)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:914126537> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 914126537 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Co Bi"@en,
+        "Bãi đỗ xe tại Đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9412143 21.0305355)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:914297432> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 914297432 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 765 Duong Nguyen Van Linh"@en,
+        "Bãi đỗ xe tại Ngõ 765 Đường Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.9179148 21.0326395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916528077> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916528077 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Kim Giang"@en,
+        "Bãi đỗ xe tại Đường Kim Giang"@vi ;
+    geo:asWKT "POINT(105.8242858 20.971861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916600430> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916600430 ;
+    ext:osm_type "way" ;
+    schema:name "Bai gui xe Phuc Loi"@en,
+        "Bãi gửi xe Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.9199401 21.0329903)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916600431> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916600431 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong R-06"@en,
+        "Bãi đỗ xe tại Đường R-06"@vi ;
+    geo:asWKT "POINT(105.9219141 21.0324904)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916688799> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916688799 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong R-01"@en,
+        "Bãi đỗ xe tại Đường R-01"@vi ;
+    geo:asWKT "POINT(105.924525 21.0284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916688840> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916688840 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong R-01"@en,
+        "Bãi đỗ xe tại Đường R-01"@vi ;
+    geo:asWKT "POINT(105.9257366 21.02949)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:916688841> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 916688841 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong R-01"@en,
+        "Bãi đỗ xe tại Đường R-01"@vi ;
+    geo:asWKT "POINT(105.926024 21.0300341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:9169689588> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 9169689588 ;
+    ext:osm_type "node" ;
+    schema:name "Parking Lot at Pho Be Van Dan"@en,
+        "Bãi đỗ xe tại Phố Bế Văn Đàn"@vi ;
+    geo:asWKT "POINT(105.7750946 20.971658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:922520647> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 922520647 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Co Bi"@en,
+        "Bãi đỗ xe tại Đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9407742 21.02886)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:922520652> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 922520652 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 75/2 Duong Co Bi"@en,
+        "Bãi đỗ xe tại Ngách 75/2 đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9402774 21.0290255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:923758581> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 923758581 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngach 195/16 Pho Vu Xuan Thieu"@en,
+        "Bãi đỗ xe tại Ngách 195/16 phố Vũ Xuân Thiều"@vi ;
+    geo:asWKT "POINT(105.9173139 21.0353181)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:932344585> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 932344585 ;
+    ext:osm_type "way" ;
+    schema:name "bãi đậu xe ô tô tài chính Parking"@en,
+        "Bãi đỗ xe bãi đậu xe ô tô tài chính"@vi ;
+    schema:operator "bãi đậu xe ô tô tài chính" ;
+    geo:asWKT "POINT(105.7730831 21.0749264)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:933964484> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 933964484 ;
+    ext:osm_type "way" ;
+    schema:name "Bãi Xe HT Parking"@en,
+        "Bãi đỗ xe Bãi Xe HT"@vi ;
+    schema:operator "Bãi Xe HT" ;
+    geo:asWKT "POINT(105.7971926 21.0491616)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:938437549> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 938437549 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cau Buou"@en,
+        "Bãi đỗ xe tại Đường Cầu Bươu"@vi ;
+    geo:asWKT "POINT(105.7994895 20.9623435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:938437550> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 938437550 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Cau Buou"@en,
+        "Bãi đỗ xe tại Đường Cầu Bươu"@vi ;
+    geo:asWKT "POINT(105.8001744 20.9647193)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:939185289> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 939185289 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 105 Duong Xuan La"@en,
+        "Bãi đỗ xe tại Ngõ 105 Đường Xuân La"@vi ;
+    geo:asWKT "POINT(105.8021392 21.0650515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:9393977622> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 9393977622 ;
+    ext:osm_type "node" ;
+    schema:name "Bai Giu Xe O To - Toa 3 Hung Thinh"@en,
+        "Bãi Giữ Xe Ô Tô - Tòa 3 Hưng Thịnh"@vi ;
+    geo:asWKT "POINT(105.7846878 20.9476264)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:942415472> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 942415472 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Vo Chi Cong"@en,
+        "Bãi đỗ xe tại Đường Võ Chí Công"@vi ;
+    geo:asWKT "POINT(105.8072371 21.0682547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:942512954> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 942512954 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Thai Thinh"@en,
+        "Bãi đỗ xe tại Phố Thái Thịnh"@vi ;
+    geo:asWKT "POINT(105.819929 21.0082997)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:9514109429> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 9514109429 ;
+    ext:osm_type "node" ;
+    schema:name "NoFear Parking"@en,
+        "Bãi đỗ xe NoFear"@vi ;
+    schema:operator "NoFear" ;
+    geo:asWKT "POINT(105.7824291 21.029351)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:952530685> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 952530685 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Phan Chanh"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Phan Chánh"@vi ;
+    geo:asWKT "POINT(105.8281981 20.96457)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:954362677> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 954362677 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho So Thuong"@en,
+        "Bãi đỗ xe tại Phố Sở Thượng"@vi ;
+    geo:asWKT "POINT(105.8658205 20.9703265)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:958652609> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 958652609 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 75 Pho Dang Van Ngu"@en,
+        "Bãi đỗ xe tại Ngõ 75 Phố Đặng Văn Ngữ"@vi ;
+    geo:asWKT "POINT(105.8311074 21.0087255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:965856879> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 965856879 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Ba Khoan"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Bá Khoản"@vi ;
+    geo:asWKT "POINT(105.8010751 21.0165602)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:965945332> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 965945332 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 123 Trung Kinh"@en,
+        "Bãi đỗ xe tại Ngõ 123 Trung Kính"@vi ;
+    geo:asWKT "POINT(105.7960184 21.0138027)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:972951562> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 972951562 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pegasus Street"@en,
+        "Bãi đỗ xe tại Pegasus Street"@vi ;
+    geo:asWKT "POINT(105.808003 21.0722124)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:973038834> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 973038834 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Pho Nguyen Van Luyen"@en,
+        "Bãi đỗ xe tại Phố Nguyễn Văn Luyện"@vi ;
+    geo:asWKT "POINT(105.7519348 20.9891146)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:973038848> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 973038848 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong 70 Moi"@en,
+        "Bãi đỗ xe tại Đường 70 mới"@vi ;
+    geo:asWKT "POINT(105.7520583 20.9910494)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:974063111> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 974063111 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Main Street"@en,
+        "Bãi đỗ xe tại Main Street"@vi ;
+    geo:asWKT "POINT(105.8007741 21.0744229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:974063112> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 974063112 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Main Street"@en,
+        "Bãi đỗ xe tại Main Street"@vi ;
+    geo:asWKT "POINT(105.801498 21.0742328)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:977375274> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 977375274 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 41 Duong Nguyen Chi Thanh"@en,
+        "Bãi đỗ xe tại Ngõ 41 Đường Nguyễn Chí Thanh"@vi ;
+    geo:asWKT "POINT(105.8132063 21.0257739)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:977375275> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 977375275 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Vanh Dai 1"@en,
+        "Bãi đỗ xe tại Đường Vành Đai 1"@vi ;
+    geo:asWKT "POINT(105.8124746 21.0251289)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:977375276> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 977375276 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Ngo 34a Hoang Cau"@en,
+        "Bãi đỗ xe tại Ngõ 34A Hoàng Cầu"@vi ;
+    geo:asWKT "POINT(105.8232115 21.019467)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:parking:977482373> a schema:ParkingFacility,
+        fiware:PointOfInterest ;
+    ext:osm_id 977482373 ;
+    ext:osm_type "way" ;
+    schema:name "Parking Lot at Duong Tran Khanh Du"@en,
+        "Bãi đỗ xe tại Đường Trần Khánh Dư"@vi ;
+    geo:asWKT "POINT(105.8612674 21.0201344)"^^geo:wktLiteral .
+

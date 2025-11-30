@@ -1,0 +1,1463 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:10893013859>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "10893013859"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Giáo dục - ĐHQGHN"@vi ,
+                "School University Giao duc - DHQGHN"@en ;
+    geo:asWKT "POINT(105.7974652 20.991372)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:12614924429>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "12614924429"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Học viện Công nghệ Bưu chính Viễn thông - Cơ sở đào tạo Ngọc Trục"@vi ,
+                "Hoc vien Cong nghe Buu chinh Vien thong - Co so dao tao Ngoc Truc"@en ;
+    ext:addr_street "Đường Đại Mỗ" ;
+    geo:asWKT "POINT(105.7676634 20.984846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:13058303799>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "13058303799"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học CMC (Cơ sở 2)"@vi ,
+                "School University CMC (Co so 2)"@en ;
+    ext:addr_street "Phố Tố Hữu" ;
+    geo:asWKT "POINT(105.7726713 20.9834045)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:308164874>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "308164874"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Công nghệ Giao thông vận tải"@vi ,
+                "School University Cong nghe Giao thong van tai"@en ;
+    schema:operator "Bộ Giao thông vận tải" ;
+    ext:addr_housenumber "54" ;
+    ext:addr_street "Phố Triều Khúc" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q20025751> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Công nghệ Giao thông Vận tải> ;
+    geo:asWKT "POINT(105.7984365 20.9841767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:480680319>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "480680319"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Công nghệ Bưu chính Viễn thông"@vi ,
+                "Posts and Telecommunications Institute of Technology"@en ;
+    ext:addr_housenumber "Km 10" ;
+    ext:addr_street "Nguyễn Trãi" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "100000" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771881> ;
+    schema:url <http://www.ptit.edu.vn> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Posts and Telecommunications Institute of Technology> ;
+    geo:asWKT "POINT(105.787077 20.9809612)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:621979168>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "621979168"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện An ninh Nhân dân"@vi ,
+                "People's Security Academy"@en ;
+    ext:addr_housenumber "125" ;
+    ext:addr_street "Đường Trần Phú" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q25417473> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện An ninh nhân dân> ;
+    geo:asWKT "POINT(105.7919806 20.9807452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:792420834>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "792420834"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Sư phạm Thể dục Thể thao Hà Nội"@vi ,
+                "School University Su pham The duc The thao Ha Noi"@en ;
+    ext:addr_street "Đường Hoa" ;
+    ext:addr_district "Chương Mỹ" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829134> ;
+    schema:url <https://dhsptdtthanoi.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Sư phạm Thể dục Thể thao Hà Nội> ;
+    geo:asWKT "POINT(105.7094315 20.9367721)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:829266414>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "829266414"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Hà Nội"@vi ,
+                "Hanoi University"@en ;
+    ext:addr_housenumber "Km 9" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829049> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Hà Nội> ;
+    geo:asWKT "POINT(105.7957075 20.9892798)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:838172055>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "838172055"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Quân y"@vi ,
+                "Le Huu Trac Medical and Pharmaceutical University"@en ;
+    schema:operator "Bộ Quốc phòng" ;
+    ext:addr_housenumber "160" ;
+    ext:addr_street "Đường Phùng Hưng" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771896> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Quân y (Việt Nam)> ;
+    geo:asWKT "POINT(105.7884356 20.9665518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:876528925>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "876528925"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Chính trị khu vực I"@vi ,
+                "Hoc vien Chinh tri khu vuc I"@en ;
+    ext:addr_housenumber "250" ;
+    ext:addr_street "Phố Vũ Hữu" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7971367 20.9962021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:942415474>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "942415474"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Chính trị"@vi ,
+                "Hoc vien Chinh tri"@en ;
+    geo:asWKT "POINT(105.7697884 20.9738368)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:973215954>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "973215954"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Đại Nam"@vi ,
+                "School University Dai Nam"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Xốm" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_city "Hà Nội" ;
+    schema:url <https://dainam.edu.vn/> ;
+    geo:asWKT "POINT(105.7586107 20.9471049)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:973433275>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "973433275"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại học Phenikaa"@vi ,
+                "Phenikaa University"@en ;
+    ext:addr_street "Phố Nguyễn Trác" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_city "Hà Nội" ;
+    schema:url <https://phenikaa-uni.edu.vn/> ;
+    geo:asWKT "POINT(105.7474566 20.9610991)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1016747264>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1016747264"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Chính sách và Phát triển"@vi ,
+                "Hoc vien Chinh sach va Phat trien"@en ;
+    geo:asWKT "POINT(105.7118519 20.993641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1058111003>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1058111003"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Kiểm sát"@vi ,
+                "School University Kiem sat"@en ;
+    ext:addr_housenumber "59" ;
+    ext:addr_street "Ngõ 230 Ỷ La" ;
+    geo:asWKT "POINT(105.7471484 20.9687173)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077033612>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077033612"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Y Dược học cổ truyền Việt Nam"@vi ,
+                "Hoc vien Y Duoc hoc co truyen Viet Nam"@en ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Đường Trần Phú" ;
+    geo:asWKT "POINT(105.7923929 20.9846905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1165329234>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1165329234"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Phòng cháy chữa cháy"@vi ,
+                "School University Phong chay chua chay"@en ;
+    ext:addr_housenumber "243" ;
+    ext:addr_street "Đường Khuất Duy Tiến" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q20026261> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Phòng cháy chữa cháy (Việt Nam)> ;
+    geo:asWKT "POINT(105.7943455 21.0003064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1172381259>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1172381259"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Kỹ thuật Mật mã"@vi ,
+                "Hoc vien Ky thuat Mat ma"@en ;
+    geo:asWKT "POINT(105.7963145 20.9808071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17749064>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17749064"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Sư phạm Nghệ thuật Trung ương"@vi ,
+                "School University Su pham Nghe thuat Trung uong"@en ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Ngõ 55 Trần Phú" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829133> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Sư phạm Nghệ thuật Trung ương> ;
+    geo:asWKT "POINT(105.7947793 20.9832799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:13266146063>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "13266146063"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Khoa công nghệ thông tin (Đại học Mở hà nội)"@vi ,
+                "Khoa cong nghe thong tin (University Mo ha noi)"@en ;
+    schema:operator "Trường đại học Mở hà nội" ;
+    ext:addr_housenumber "96" ;
+    ext:addr_street "Phố Định Công" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    schema:url <http://fithou.edu.vn> ;
+    geo:asWKT "POINT(105.838694 20.9851702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:264109915>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "264109915"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thăng Long"@vi ,
+                "Thang Long University"@en ;
+    ext:addr_street "Đường Nghiêm Xuân Yêm" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3858 7346" ;
+    schema:email "info@thanglong.edu.vn" ;
+    schema:url <https://thanglong.edu.vn/> ;
+    geo:asWKT "POINT(105.8158322 20.9762365)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:325023914>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "325023914"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Khoa học Tự nhiên"@vi ,
+                "VNU University of Science"@en ;
+    schema:operator "Đại học Quốc gia Hà Nội" ;
+    ext:addr_housenumber "334" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5649339> ;
+    schema:url <https://hus.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/VNU University of Science> ;
+    geo:asWKT "POINT(105.8080085 20.9959393)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:892554716>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "892554716"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Khoa học Xã hội"@vi ,
+                "Hoc vien Khoa hoc Xa hoi"@en ;
+    ext:addr_housenumber "477" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771889> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Khoa học Xã hội> ;
+    geo:asWKT "POINT(105.8011523 20.9894832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:963557982>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "963557982"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Kinh tế Kỹ thuật Công nghiệp"@vi ,
+                "School University Kinh te Ky thuat Cong nghiep"@en ;
+    ext:addr_street "Ngõ 454 Minh Khai" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829072> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Kinh tế – Kỹ thuật Công nghiệp> ;
+    geo:asWKT "POINT(105.8655981 20.9957473)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1058072005>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1058072005"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Đại Nam (cơ sở 2)"@vi ,
+                "School University Dai Nam (co so 2)"@en ;
+    ext:addr_housenumber "56" ;
+    ext:addr_street "Đường Vũ Trọng Phụng" ;
+    geo:asWKT "POINT(105.8088702 20.9993957)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077029480>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077029480"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Quản lý Giáo dục"@vi ,
+                "Hoc vien Quan ly Giao duc"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771899> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Quản lý giáo dục> ;
+    geo:asWKT "POINT(105.8385153 20.9903533)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077637429>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077637429"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Công nghệ và Quản lý Hữu Nghị"@vi ,
+                "School University Cong nghe va Quan ly Huu Nghi"@en ;
+    geo:asWKT "POINT(105.8653503 20.9828041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077637432>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077637432"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp"@vi ,
+                "School University Kinh te - Ky thuat Cong nghiep"@en ;
+    ext:addr_street "Ngõ 218 Lĩnh Nam" ;
+    geo:asWKT "POINT(105.8755903 20.9799841)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1152607802>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1152607802"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Phương Đông"@vi ,
+                "Phuong Dong University"@en ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Ngõ Chùa Hưng Ký" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829112> ;
+    schema:url <https://phuongdong.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Phương Đông (Việt Nam)> ;
+    geo:asWKT "POINT(105.854034 20.994257)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1181961551>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1181961551"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Kinh doanh và Công nghệ Hà Nội"@vi ,
+                "School University Kinh doanh va Cong nghe Ha Noi"@en ;
+    ext:addr_housenumber "29A" ;
+    geo:asWKT "POINT(105.878066 20.9996753)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1322067049>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1322067049"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Khoa học Quân sự"@vi ,
+                "Millitary Science Academy"@en ;
+    ext:addr_housenumber "322E" ;
+    ext:addr_street "Phố Lê Trọng Tấn" ;
+    schema:url <https://hvkhqs.edu.vn> ;
+    geo:asWKT "POINT(105.8332304 20.9878372)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:16092231>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "16092231"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Đại học Kinh tế Quốc dân"@vi ,
+                "National Economics University"@en ;
+    ext:addr_housenumber "207" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q6972380> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Kinh tế Quốc dân> ;
+    geo:asWKT "POINT(105.8449781 20.9994833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17666829>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17666829"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Khoa học Xã hội và Nhân văn"@vi ,
+                "University of Social Sciences and Humanities"@en ;
+    schema:operator "Đại học Quốc gia Hà Nội" ;
+    ext:addr_housenumber "336" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829064> ;
+    schema:url <https://ussh.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.8070351 20.9954594)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:12965560710>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "12965560710"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại Học VinUni"@vi ,
+                "School Dai Hoc VinUni"@en ;
+    schema:operator "VinGroup" ;
+    ext:addr_street "Đường Đại Dương" ;
+    ext:addr_district "Gia Lâm" ;
+    schema:url <https://vinuni.edu.vn/vi/trang-chu/> ;
+    geo:asWKT "POINT(105.9434573 20.9870474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:13208170077>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "13208170077"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại Học Mở Hà Nội"@vi ,
+                "School Dai Hoc Mo Ha Noi"@en ;
+    geo:asWKT "POINT(105.94673 20.9428812)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:777888670>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "777888670"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học VinUni"@vi ,
+                "VinUniversity"@en ;
+    schema:operator "VinGroup" ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 18008189" ;
+    schema:email "info@vinuni.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q86012411> ;
+    schema:url <https://vinuni.edu.vn/> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/VinUniversity> ;
+    geo:asWKT "POINT(105.9460198 20.9889167)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:883081926>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "883081926"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Anh Quốc Việt Nam"@vi ,
+                "British University Vietnam"@en ;
+    ext:addr_district "Văn Giang" ;
+    schema:telephone "+84 221 6 250 250" ;
+    schema:email "info@buv.edu.vn" ;
+    schema:url <https://www.buv.edu.vn/> ;
+    geo:asWKT "POINT(105.9317625 20.9653498)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:895143473>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "895143473"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Nông nghiệp Việt Nam"@vi ,
+                "Vietnam National University of Agriculture"@en ;
+    schema:operator "Bộ Nông nghiệp và Phát triển nông thôn" ;
+    ext:addr_street "Phố Ngô Xuân Quảng" ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5649335> ;
+    schema:url <https://www.vnua.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Nông nghiệp Việt Nam> ;
+    geo:asWKT "POINT(105.9324141 21.0098213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:952866870>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "952866870"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Y khoa Tokyo Việt Nam"@vi ,
+                "School University Y khoa Tokyo Viet Nam"@en ;
+    ext:addr_district "Văn Giang" ;
+    schema:url <https://tokyo-human.edu.vn/> ;
+    geo:asWKT "POINT(105.9336309 20.9643105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1067048735>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1067048735"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Tài chính - Quản trị kinh doanh"@vi ,
+                "School University Tai chinh - Quan tri kinh doanh"@en ;
+    geo:asWKT "POINT(105.9967195 20.9550151)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1067048736>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1067048736"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Tài chính - Quản trị kinh doanh (cơ sở 2)"@vi ,
+                "School University Tai chinh - Quan tri kinh doanh (co so 2)"@en ;
+    geo:asWKT "POINT(105.9811187 20.980091)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1437064257>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1437064257"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại học #1437064257"@vi ,
+                "University #1437064257"@en ;
+    geo:asWKT "POINT(105.9468436 20.9425481)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:9875849047>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "9875849047"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Học viện Dân tộc"@vi ,
+                "Hoc vien Dan toc"@en ;
+    geo:asWKT "POINT(105.7454681 21.0161557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:10048614528>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "10048614528"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Công nghệ Đông Á"@vi ,
+                "East Asia University of Technology"@en ;
+    ext:addr_street "Phố Trịnh Văn Bô" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:url <https://eaut.edu.vn/> ;
+    geo:asWKT "POINT(105.741891 21.0400027)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:10976263692>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "10976263692"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Tài chính - Ngân hàng Hà Nội"@vi ,
+                "School University Tai chinh - Bank Ha Noi"@en ;
+    ext:addr_street "31 P. Dịch Vọng Hậu, Dịch Vọng Hậu, Cầu Giấy, Hà Nội" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "024 3793 1340" ;
+    geo:asWKT "POINT(105.7869939 21.0319516)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:11609443059>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "11609443059"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại học Kinh tế"@vi ,
+                "University of Economics and Business"@en ;
+    schema:operator "Trường Đại học Quốc gia Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5146680> ;
+    schema:url <https://ueb.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Kinh tế, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7828716 21.0379689)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:11609443060>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "11609443060"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại học Luật"@vi ,
+                "University of Law"@en ;
+    schema:operator "Trường Đại học Quốc gia Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q114132145> ;
+    schema:url <https://law.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Luật, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7824482 21.0378978)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:11609443061>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "11609443061"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại học Công nghệ"@vi ,
+                "University of Engineering and Technology"@en ;
+    schema:operator "Trường Đại học Quốc gia Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829028> ;
+    schema:url <https://uet.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7824572 21.0382738)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:11609590538>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "11609590538"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Y Dược"@vi ,
+                "School University Y Duoc"@en ;
+    schema:operator "Đại học Quốc gia Hà Nội" ;
+    ext:addr_housenumber "Y1" ;
+    ext:addr_street "144 Xuân Thuỷ" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Phường Dịch Vọng Hậu" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q105335883> ;
+    schema:url <https://ump.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Y Dược, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7816961 21.040311)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:11943714035>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "11943714035"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Việt Nhật (VJU)"@vi ,
+                "School University Viet Nhat (VJU)"@en ;
+    geo:asWKT "POINT(105.7624123 21.0328695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:12573506643>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "12573506643"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Tòa E3 - Đại học Công Nghệ"@vi ,
+                "Toa E3 - University Cong Nghe"@en ;
+    ext:addr_housenumber "E3" ;
+    ext:addr_street "144 Xuân Thủy" ;
+    geo:asWKT "POINT(105.7826979 21.0382596)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:37770763>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "37770763"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Kĩ thuật Quân sự"@vi ,
+                "Military Technical Academy"@en ;
+    schema:operator "Bộ Quốc phòng" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q4130078> ;
+    schema:url <https://mta.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Kỹ thuật Quân sự> ;
+    geo:asWKT "POINT(105.7856728 21.0483175)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:398276334>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "398276334"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Tài nguyên và Môi trường Hà Nội"@vi ,
+                "Hanoi University of Natural Resources and Environment"@en ;
+    ext:addr_housenumber "41A" ;
+    ext:addr_street "Phú Diễn" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q18461615> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Đại học Tài nguyên và Môi trường Hà Nội> ;
+    geo:asWKT "POINT(105.7621798 21.0462032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:550031669>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "550031669"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Khoa học Quân sự"@vi ,
+                "Military Science Academy"@en ;
+    schema:operator "Bộ Quốc phòng" ;
+    ext:addr_district "Hoài Đức" ;
+    schema:telephone "+84 435659449" ;
+    schema:email "hvkhqs.edu.vn@gmail.com" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771888> ;
+    schema:url <https://hvkhqs.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Khoa học Quân sự> ;
+    geo:asWKT "POINT(105.7182172 21.0688241)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570572176>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570572176"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thương mại"@vi ,
+                "Thuongmai University"@en ;
+    ext:addr_housenumber "79" ;
+    ext:addr_street "Đường Hồ Tùng Mậu" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3764 3219" ;
+    schema:email "mail@tmu.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829142> ;
+    schema:url <https://tmu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Thương mại> ;
+    geo:asWKT "POINT(105.775009 21.036572)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570586967>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570586967"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Tư pháp Việt Nam"@vi ,
+                "Vietnam Judicial Academy"@en ;
+    schema:operator "Bộ Tư pháp" ;
+    ext:addr_street "Phố Trần Vỹ" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771905> ;
+    schema:url <https://www.hocvientuphap.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Tư pháp Việt Nam> ;
+    geo:asWKT "POINT(105.7735714 21.0459415)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570587154>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570587154"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Múa Việt Nam"@vi ,
+                "Vietnam Academy of Dance"@en ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3764 3546" ;
+    schema:email "hvmvn@bvhttdl.gov.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q65172277> ;
+    schema:url <https://www.vnad.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Múa Việt Nam> ;
+    geo:asWKT "POINT(105.775978 21.0381654)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570590702>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570590702"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Khoa Ngôn ngữ và Văn hóa Pháp"@vi ,
+                "Faculty of French Language and Culture"@en ;
+    schema:operator "Trường Đại học Ngoại ngữ" ;
+    schema:url <https://dfr.ulis.vnu.edu.vn/> ;
+    geo:asWKT "POINT(105.7818205 21.0390306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:642181078>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "642181078"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại Học Thành Đô"@vi ,
+                "Dai Hoc Thanh Do"@en ;
+    schema:telephone "0433861791" ;
+    schema:url <https://thanhdo.edu.vn/> ;
+    geo:asWKT "POINT(105.7228102 21.0645559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:699218280>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "699218280"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Cảnh sát Nhân dân"@vi ,
+                "Academy of People's Police"@en ;
+    ext:addr_street "Đường Phạm Văn Nghị" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771884> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Cảnh sát nhân dân> ;
+    geo:asWKT "POINT(105.765308 21.0670452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:699218281>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "699218281"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Y tế Công cộng"@vi ,
+                "Hanoi University of Public Health"@en ;
+    ext:addr_housenumber "1A" ;
+    ext:addr_street "Đường Đức Thắng" ;
+    geo:asWKT "POINT(105.7799987 21.0822026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:699218317>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "699218317"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Tài chính"@vi ,
+                "Academy of Finance - AOF"@en ;
+    schema:operator "Bộ Giáo dục và Đào tạo" ;
+    ext:addr_housenumber "58" ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    geo:asWKT "POINT(105.7728046 21.0757833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:699218338>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "699218338"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Tài nguyên và Môi trường Hà Nội (cơ sở phụ)"@vi ,
+                "University of Natural Resources and Environment"@en ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Đường Đức Thắng" ;
+    schema:telephone "0438385149" ;
+    geo:asWKT "POINT(105.7767951 21.0739332)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:699218352>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "699218352"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Mỏ - Địa chất"@vi ,
+                "Hanoi University of Mining and Geology"@en ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Phố Viên" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:email "hanhchinhtonghop@humg.edu.vn" ;
+    schema:openingHours "Mo-Su 07:00-22:00" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829093> ;
+    schema:url <https://humg.edu.vn> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Mỏ – Địa chất> ;
+    geo:asWKT "POINT(105.7738543 21.0724617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:828691769>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "828691769"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại học Công nghiệp Hà Nội"@vi ,
+                "Hanoi University of Industry"@en ;
+    schema:operator "Bộ Công Thương" ;
+    ext:addr_housenumber "298" ;
+    ext:addr_street "Đường Cầu Diễn" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q16892082> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Công nghiệp Hà Nội> ;
+    geo:asWKT "POINT(105.7352638 21.054247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:829264861>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "829264861"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Điện lực"@vi ,
+                "Electric Power University"@en ;
+    schema:operator "Bộ Công thương" ;
+    ext:addr_housenumber "236" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5357466> ;
+    schema:url <http://epu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Điện lực> ;
+    geo:asWKT "POINT(105.7852095 21.0469274)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:875488223>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "875488223"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Hòa Bình"@vi ,
+                "School University Hoa Binh"@en ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Bùi Xuân Phái" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829052> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Hòa Bình> ;
+    geo:asWKT "POINT(105.7658617 21.0317959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:906733535>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "906733535"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Báo chí và Tuyên truyền"@vi ,
+                "Academy of Journalism and Communication"@en ;
+    ext:addr_housenumber "36" ;
+    ext:addr_street "Đường Xuân Thủy" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771877> ;
+    schema:url <https://ajc.hcma.vn/> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Academy of Journalism and Communication> ;
+    geo:asWKT "POINT(105.7889046 21.0375871)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1047437396>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1047437396"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại học Quốc gia Hà Nội"@vi ,
+                "Vietnam National University, Hanoi"@en ;
+    ext:addr_housenumber "144" ;
+    ext:addr_street "Đường Xuân Thủy" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q1076729> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7824312 21.0388912)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077033616>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077033616"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Phương Đông"@vi ,
+                "School University Phuong Dong"@en ;
+    ext:addr_street "Phố Trung Kính" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7937776 21.0159033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077637439>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077637439"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đại học Công nghiệp Hà Nội (cơ sở 2)"@vi ,
+                "University Cong nghiep Ha Noi (co so 2)"@en ;
+    geo:asWKT "POINT(105.7298171 21.0758913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1181964362>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1181964362"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Tài chính - Ngân hàng Hà Nội"@vi ,
+                "School University Tai chinh - Bank Ha Noi"@en ;
+    ext:addr_housenumber "136" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    geo:asWKT "POINT(105.7855892 21.0759601)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1190565117>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1190565117"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Hành chính và Quản trị công"@vi ,
+                "Hoc vien Hanh chinh va Quan tri cong"@en ;
+    ext:addr_housenumber "371" ;
+    ext:addr_street "Đường Nguyễn Hoàng Tôn" ;
+    geo:asWKT "POINT(105.8004336 21.0727518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1198891357>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1198891357"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Tài chính"@vi ,
+                "Hoc vien Tai chinh"@en ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Đường Đức Thắng" ;
+    geo:asWKT "POINT(105.7796145 21.0792233)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1248223562>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1248223562"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Quản trị Và Kinh Doanh"@vi ,
+                "Hanoi School of Management and Business"@en ;
+    schema:url <https://hsb.edu.vn> ;
+    geo:asWKT "POINT(105.78138 21.0379805)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1294976834>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1294976834"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Mỏ - Địa chất (khu B)"@vi ,
+                "School University Mo - Dia chat (khu B)"@en ;
+    geo:asWKT "POINT(105.7611469 21.0690138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1392935481>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1392935481"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Kỹ thuật Quân sự - Cơ sở Xuân Phương"@vi ,
+                "Hoc vien Ky thuat Quan su - Co so Xuan Phuong"@en ;
+    ext:addr_street "Phố Kiều Mai" ;
+    ext:addr_district "quận Nam Từ Liêm" ;
+    geo:asWKT "POINT(105.7493758 21.0400594)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:16862747>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "16862747"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Sân khấu - Điện ảnh Hà Nội"@vi ,
+                "Hanoi Academy of Theatre and Cinema"@en ;
+    schema:operator "Bộ Văn hóa, Thể thao và Du lịch" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3764 3397" ;
+    schema:email "skda@fpt.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829124> ;
+    schema:url <https://skda.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Sân khấu – Điện ảnh Hà Nội> ;
+    geo:asWKT "POINT(105.7753201 21.0392591)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17161287>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17161287"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Ngoại ngữ"@vi ,
+                "University of Languages and International Studies"@en ;
+    schema:operator "Đại học Quốc gia Hà Nội" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7895616> ;
+    schema:url <https://ulis.vnu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Ngoại ngữ, Đại học Quốc gia Hà Nội> ;
+    geo:asWKT "POINT(105.7822364 21.0397121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17178908>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17178908"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Sư phạm Hà Nội"@vi ,
+                "Hanoi National University of Education"@en ;
+    ext:addr_housenumber "136" ;
+    ext:addr_street "Đường Xuân Thuỷ" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5649329> ;
+    schema:url <https://hnue.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Sư phạm Hà Nội> ;
+    geo:asWKT "POINT(105.7841768 21.0390005)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:444655908>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "444655908"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Khoa Quốc Tế Đại Học Quốc Gia"@vi ,
+                "Khoa Quoc Te Dai Hoc Quoc Gia"@en ;
+    geo:asWKT "POINT(105.8030313 21.0011583)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:2093083282>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "2093083282"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại học RMIT - Cơ sở Hà Nội"@vi ,
+                "RMIT Vietnam Hanoi Campus"@en ;
+    ext:addr_street "Phố Phạm Huy Thông" ;
+    ext:addr_district "Quận Ba Đình" ;
+    geo:asWKT "POINT(105.8115454 21.0291095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:6557784984>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "6557784984"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại Học Nguyễn Trãi"@vi ,
+                "Dai Hoc Nguyen Trai"@en ;
+    geo:asWKT "POINT(105.8159056 21.0361826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:8823695658>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "8823695658"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trường Đại học Khoa học và Công nghệ Hà Nội"@vi ,
+                "University of Science and Technology of Hanoi"@en ;
+    schema:operator "Viện Hàn lâm Khoa học và Công nghệ Việt Nam" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 37 91 69 60" ;
+    schema:email "officeusth@usth.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q15260958> ;
+    schema:url <https://www.usth.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Khoa học và Công nghệ Hà Nội> ;
+    geo:asWKT "POINT(105.8011776 21.048152)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:8823695659>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "8823695659"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Học Viện Khoa Học Và Công Nghệ"@vi ,
+                "Graduate University of Science and Technology"@en ;
+    schema:operator "Viện Hàn lâm Khoa học và Công nghệ Việt Nam" ;
+    schema:url <http://gust.edu.vn/> ;
+    geo:asWKT "POINT(105.8012606 21.0481017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:199150831>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "199150831"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Ngoại thương"@vi ,
+                "Foreign Trade University"@en ;
+    schema:operator "Bộ Giáo dục và Đào tạo" ;
+    ext:addr_housenumber "91" ;
+    ext:addr_street "Chùa Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5468340> ;
+    schema:url <https://www.ftu.edu.vn/> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Foreign Trade University> ;
+    geo:asWKT "POINT(105.8051833 21.0225863)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:217338578>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "217338578"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Xây dựng Hà Nội"@vi ,
+                "Hanoi University of Civil Engineering"@en ;
+    ext:addr_housenumber "55" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q6134439> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Xây dựng Hà Nội> ;
+    geo:asWKT "POINT(105.8430813 21.003234)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:219977469>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "219977469"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Ngân hàng"@vi ,
+                "Banking Academy"@en ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Phố Chùa Bộc" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771894> ;
+    schema:url <https://hvnh.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Ngân hàng (Việt Nam)> ;
+    geo:asWKT "POINT(105.8290544 21.0094586)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570572166>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570572166"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Ngoại giao"@vi ,
+                "Diplomatic Academy of Vietnam"@en ;
+    schema:operator "Bộ Ngoại giao" ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Chùa Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Su 05:00-22:30" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771893> ;
+    schema:url <https://dav.edu.vn> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Ngoại giao (Việt Nam)> ;
+    geo:asWKT "POINT(105.806331 21.0226507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:570573187>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "570573187"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Thanh thiếu niên Việt Nam"@vi ,
+                "Vietnam Youth Academy"@en ;
+    schema:operator "Trung ương Đoàn TNCS Hồ Chí Minh" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Chùa Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3834 3239" ;
+    schema:email "vya@edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q97166894> ;
+    schema:url <http://vya.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Thanh thiếu niên Việt Nam> ;
+    geo:asWKT "POINT(105.8086525 21.0223145)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:704159203>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "704159203"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Dược Hà Nội"@vi ,
+                "Hanoi University of Pharmacy"@en ;
+    ext:addr_housenumber "13-15" ;
+    ext:addr_street "Phố Lê Thánh Tông" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q16944333> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Dược Hà Nội> ;
+    geo:asWKT "POINT(105.858749 21.0211555)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:704159204>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "704159204"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Khoa học Tự nhiên"@vi ,
+                "VNU University of Science"@en ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Lê Thánh Tông" ;
+    ext:addr_district "Hoan Kiem" ;
+    ext:addr_city "Ha Noi" ;
+    geo:asWKT "POINT(105.8587395 21.0209114)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:821395356>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "821395356"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thủy lợi"@vi ,
+                "Thuyloi University"@en ;
+    ext:addr_housenumber "175" ;
+    ext:addr_street "Phố Tây Sơn" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7973360> ;
+    schema:url <http://www.tlu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Thủy lợi> ;
+    geo:asWKT "POINT(105.8257726 21.0066924)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:826346237>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "826346237"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Giao thông Vận tải"@vi ,
+                "University of Transport and Communications"@en ;
+    schema:operator "Bộ Giáo dục & Đào tạo" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Đường Cầu Giấy" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 37663311" ;
+    schema:email "dhgtvt@utc.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829041> ;
+    schema:url <https://www.utc.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Giao thông Vận tải> ;
+    geo:asWKT "POINT(105.8026964 21.0277192)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:857425799>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "857425799"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Mỹ thuật Việt Nam"@vi ,
+                "Vietnam University of Fine Arts"@en ;
+    ext:addr_housenumber "42" ;
+    ext:addr_street "Phố Yết Kiêu" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q3815307> ;
+    schema:url <https://mythuatvietnam.edu.vn/> ;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Vietnam University of Fine Arts> ;
+    geo:asWKT "POINT(105.8424907 21.0221453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:860064003>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "860064003"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Mở Hà Nội"@vi ,
+                "School University Mo Ha Noi"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q86012409> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Mở Hà Nội> ;
+    geo:asWKT "POINT(105.8478913 21.001137)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:862095210>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "862095210"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Mỹ thuật Công nghiệp"@vi ,
+                "University of Arts and Design"@en ;
+    ext:addr_housenumber "360" ;
+    ext:addr_street "Đường La Thành" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_city "Tp Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q16481353> ;
+    schema:url <https://uad.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Mỹ thuật Công nghiệp> ;
+    geo:asWKT "POINT(105.8238275 21.0234315)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:862095212>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "862095212"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Âm nhạc Quốc gia Việt Nam"@vi ,
+                "Vietnam National Academy of Music"@en ;
+    ext:addr_housenumber "77" ;
+    ext:addr_street "Phố Hào Nam" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3851 4969" ;
+    schema:email "hvan@vnam.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5649320> ;
+    schema:url <https://www.vnam.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Âm nhạc Quốc gia Việt Nam> ;
+    geo:asWKT "POINT(105.8259549 21.0229519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:871887395>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "871887395"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Luật Hà Nội"@vi ,
+                "Hanoi Law University"@en ;
+    ext:addr_housenumber "87" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:addr_district "Quận Đống Đa" ;
+    ext:addr_city "Thành phố Hà Nội" ;
+    schema:telephone "+84 24 3835 2630" ;
+    schema:email "admin@hlu.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829088> ;
+    schema:url <https://hlu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Luật Hà Nội> ;
+    geo:asWKT "POINT(105.81003 21.0212581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:875680710>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "875680710"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Hành chính và Quản trị công"@vi ,
+                "Academy of Public Administration and Governance"@en ;
+    ext:addr_housenumber "77" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3834 3223" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771885> ;
+    schema:url <https://apag.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Hành chính và Quản trị công> ;
+    geo:asWKT "POINT(105.8108874 21.0229104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:883183192>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "883183192"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Y Hà Nội"@vi ,
+                "School University Y Ha Noi"@en ;
+    ext:addr_housenumber "48" ;
+    ext:addr_street "Phố Tăng Bạt Hổ" ;
+    geo:asWKT "POINT(105.8588749 21.0140335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:906631345>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "906631345"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Văn hóa Nghệ thuật Quân đội"@vi ,
+                "Military University of Culture and Arts"@en ;
+    schema:operator "Tổng cục Chính trị" ;
+    ext:addr_housenumber "101" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 362663068" ;
+    schema:email "vnq.edu@gmail.com" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829163> ;
+    schema:url <http://vnq.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Văn hóa – Nghệ thuật Quân đội> ;
+    geo:asWKT "POINT(105.8073682 21.0172185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:906732060>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "906732060"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Phụ nữ Việt Nam"@vi ,
+                "Vietnam Women's Academy"@en ;
+    ext:addr_housenumber "68" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3775 9907" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q18458592> ;
+    schema:url <https://hvpnvn.edu.vn> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Phụ nữ Việt Nam> ;
+    geo:asWKT "POINT(105.8071746 21.0194894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:940668400>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "940668400"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thủ đô Hà Nội (cơ sở 3)"@vi ,
+                "School University Thu do Ha Noi (co so 3)"@en ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Phố Vĩnh Phúc" ;
+    geo:asWKT "POINT(105.8098487 21.0447964)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:962493738>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "962493738"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Lao động - Xã hội"@vi ,
+                "University of Labour and Social Affairs"@en ;
+    schema:operator "Bộ Lao động, Thương binh và Xã hội" ;
+    ext:addr_housenumber "43" ;
+    ext:addr_street "Đường Trần Duy Hưng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829085> ;
+    schema:url <http://ulsa.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Lao động - Xã hội> ;
+    geo:asWKT "POINT(105.8024559 21.0122673)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:963557968>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "963557968"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Hành chính và Quản trị công"@vi ,
+                "Hoc vien Hanh chinh va Quan tri cong"@en ;
+    ext:addr_housenumber "36" ;
+    ext:addr_street "Đường Xuân La" ;
+    geo:asWKT "POINT(105.8048867 21.0675252)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1078177954>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1078177954"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thủ đô Hà Nội"@vi ,
+                "School University Thu do Ha Noi"@en ;
+    ext:addr_housenumber "98" ;
+    ext:addr_street "Phố Dương Quảng Hàm" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q97164619> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Thủ đô Hà Nội> ;
+    geo:asWKT "POINT(105.8012079 21.0361362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1175934342>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1175934342"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Hậu cần"@vi ,
+                "Military Academy of Logistics"@en ;
+    schema:operator "Bộ Quốc phòng" ;
+    ext:addr_district "Quận Long Biên" ;
+    ext:addr_city "Thành phố Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10771887> ;
+    schema:url <http://hocvienhaucan.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Học viện Hậu cần (Việt Nam)> ;
+    geo:asWKT "POINT(105.8759807 21.0654832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:16092230>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "16092230"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Đại học Bách khoa Hà Nội"@vi ,
+                "Hanoi University of Science and Technology"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Đường Đại Cồ Việt" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 3869 4242" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q3075696> ;
+    schema:url <https://www.hust.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Đại học Bách khoa Hà Nội> ;
+    geo:asWKT "POINT(105.8455332 21.0043689)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:16802530>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "16802530"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Y Hà Nội"@vi ,
+                "Hanoi Medical University"@en ;
+    schema:operator "Bộ Y tế" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Tôn Thất Tùng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q4383725> ;
+    schema:url <http://hmu.edu.vn> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Y Hà Nội> ;
+    geo:asWKT "POINT(105.8322323 21.002324)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17666269>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17666269"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Công đoàn"@vi ,
+                "Trade Union University"@en ;
+    ext:addr_housenumber "169" ;
+    ext:addr_street "Phố Tây Sơn" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q16480704> ;
+    schema:url <http://dhcd.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Công đoàn> ;
+    geo:asWKT "POINT(105.8265717 21.0096251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:17666773>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "17666773"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Trường Đại học Văn hoá Hà Nội"@vi ,
+                "Hanoi University of Culture"@en ;
+    ext:addr_housenumber "418" ;
+    ext:addr_street "Đường La Thành" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829164> ;
+    schema:url <https://www.huc.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Văn hóa Hà Nội> ;
+    geo:asWKT "POINT(105.8228074 21.0239896)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:649534650>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "649534650"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Cao đẳng Kinh tế, Kỹ thuật và Thủy sản (khu 2)"@vi ,
+                "School Cao dang Kinh te, Ky thuat va Thuy san (khu 2)"@en ;
+    geo:asWKT "POINT(105.9387407 21.0944389)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1077029466>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1077029466"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Học viện Toà án"@vi ,
+                "Hoc vien Toa an"@en ;
+    geo:asWKT "POINT(105.997675 21.0252018)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:287819547>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "287819547"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Thể dục thể thao Bắc Ninh"@vi ,
+                "Bac Ninh Sports University"@en ;
+    ext:addr_street "Đường Nguyễn Văn Cừ" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829143> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Thể dục Thể thao Bắc Ninh> ;
+    geo:asWKT "POINT(105.952464 21.1247164)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:577203289>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "577203289"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Kinh doanh và Công nghệ Hà Nội"@vi ,
+                "School University Kinh doanh va Cong nghe Ha Noi"@en ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9583953 21.1021364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:university:1227272606>
+    a fiware:PointOfInterest, schema:CollegeOrUniversity ;
+    ext:osm_id "1227272606"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trường Đại học Luật Hà Nội"@vi ,
+                "Hanoi Law University"@en ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:telephone "+84 24 38352630" ;
+    schema:email "admin@hlu.edu.vn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10829088> ;
+    schema:url <https://hlu.edu.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Trường Đại học Luật Hà Nội> ;
+    geo:asWKT "POINT(105.9735949 21.1325779)"^^geo:wktLiteral .
+

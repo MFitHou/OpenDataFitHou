@@ -1,0 +1,160 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4748316721>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "4748316721"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "54 vũ trọng phụng"@vi ,
+                "54 vu trong phung"@en ;
+    geo:asWKT "POINT(105.809002 20.9985524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6698948887>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "6698948887"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trà đá Nước mia đá"@vi ,
+                "Tea"@en ;
+    geo:asWKT "POINT(105.7782313 21.0656762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4758991221>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "4758991221"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Quán trà đá"@vi ,
+                "Cafe tra da"@en ;
+    geo:asWKT "POINT(105.8650398 21.0051308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:5942473585>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "5942473585"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #5942473585"@vi ,
+                "Drinking Water #5942473585"@en ;
+    geo:asWKT "POINT(105.8477823 21.0248917)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6292723885>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "6292723885"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #6292723885"@vi ,
+                "Drinking Water #6292723885"@en ;
+    geo:asWKT "POINT(105.8502495 21.0263777)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931507054>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "9931507054"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #9931507054"@vi ,
+                "Drinking Water #9931507054"@en ;
+    geo:asWKT "POINT(105.8534447 21.0260995)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931530710>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "9931530710"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #9931530710"@vi ,
+                "Drinking Water #9931530710"@en ;
+    geo:asWKT "POINT(105.8547899 21.0275822)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10114776470>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "10114776470"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #10114776470"@vi ,
+                "Drinking Water #10114776470"@en ;
+    geo:asWKT "POINT(105.8445302 21.0038661)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10660753505>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "10660753505"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #10660753505"@vi ,
+                "Drinking Water #10660753505"@en ;
+    geo:asWKT "POINT(105.8538234 21.0273522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11191573737>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "11191573737"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #11191573737"@vi ,
+                "Drinking Water #11191573737"@en ;
+    geo:asWKT "POINT(105.853708 21.0298177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11676700469>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "11676700469"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #11676700469"@vi ,
+                "Drinking Water #11676700469"@en ;
+    geo:asWKT "POINT(105.8340434 21.0367523)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11834019569>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "11834019569"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #11834019569"@vi ,
+                "Drinking Water #11834019569"@en ;
+    geo:asWKT "POINT(105.8514172 21.0280465)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11865316771>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "11865316771"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #11865316771"@vi ,
+                "Drinking Water #11865316771"@en ;
+    geo:asWKT "POINT(105.8466528 21.031276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11893374272>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "11893374272"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #11893374272"@vi ,
+                "Drinking Water #11893374272"@en ;
+    geo:asWKT "POINT(105.8519581 21.0261536)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12086821054>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "12086821054"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #12086821054"@vi ,
+                "Drinking Water #12086821054"@en ;
+    geo:asWKT "POINT(105.8323055 21.03464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12129133501>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "12129133501"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #12129133501"@vi ,
+                "Drinking Water #12129133501"@en ;
+    geo:asWKT "POINT(105.854721 21.0272682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12278326273>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "12278326273"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #12278326273"@vi ,
+                "Drinking Water #12278326273"@en ;
+    geo:asWKT "POINT(105.853901 21.0311419)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12690411001>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "12690411001"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #12690411001"@vi ,
+                "Drinking Water #12690411001"@en ;
+    geo:asWKT "POINT(105.8462172 21.0173765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:13005736901>
+    a fiware:PointOfInterest, schema:DrinkingWaterDispenser ;
+    ext:osm_id "13005736901"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nước uống #13005736901"@vi ,
+                "Drinking Water #13005736901"@en ;
+    geo:asWKT "POINT(105.8472437 21.0180172)"^^geo:wktLiteral .
+

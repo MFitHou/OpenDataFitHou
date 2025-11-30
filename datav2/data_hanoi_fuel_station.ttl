@@ -1,0 +1,2760 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:444668632>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "444668632"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Xăng Dầu Số 38"@vi ,
+                "Tram Xang Dau So 38"@en ;
+    geo:asWKT "POINT(105.732 20.940679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787428>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787428"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Dai Ly Ban Le Xang Dau So 9"@vi ,
+                "Dai Ly Ban Le Xang Dau So 9 Gas Station"@en ;
+    schema:operator "Dai Ly Ban Le Xang Dau So 9" ;
+    geo:asWKT "POINT(105.770123 20.9655573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787522>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787522"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cửa hàng Xăng dầu số 41" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7966028 20.9933489)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787561>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787561"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Thuy Loi"@vi ,
+                "Cua Hang Xang Dau Thuy Loi Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Thuy Loi" ;
+    geo:asWKT "POINT(105.7638466 20.9630626)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787566>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787566"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Số 6"@vi ,
+                "Cua Hang Xang Dau So 6"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7516426 20.9520567)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787598>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787598"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cong Ty CP O To Khach Ha Tay - Dai Ly Ban Le Xang Dau" ;
+    ext:addr_street "Đường Trần Phú" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7855967 20.9779748)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787610>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787610"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 39;Cua Hang Xang Dau So 1"@vi ,
+                "Cua Hang Xang Dau So 39;Cua Hang Xang Dau So 1 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 39;Cua Hang Xang Dau So 1" ;
+    geo:asWKT "POINT(105.7968415 20.9988959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787625>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787625"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Đại Lý Xăng Dầu Phú Nghĩa"@vi ,
+                "Dai Ly Xang Dau Phu Nghia"@en ;
+    geo:asWKT "POINT(105.751943 20.9523573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787629>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787629"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cửa Hàng Bán Lẻ Xăng Dầu Trần Đăng Ninh"@vi ,
+                "Cửa Hàng Bán Lẻ Xăng Dầu Trần Đăng Ninh Gas Station"@en ;
+    schema:operator "Cửa Hàng Bán Lẻ Xăng Dầu Trần Đăng Ninh" ;
+    geo:asWKT "POINT(105.7657885 20.9631829)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:2649232874>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "2649232874"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7566329 20.9417746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5126355635>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5126355635"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7688509 20.9845077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5132824421>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5132824421"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #5132824421"@vi ,
+                "Gas Station #5132824421"@en ;
+    geo:asWKT "POINT(105.7587244 20.9665896)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9370397418>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9370397418"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7567526 20.9558823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9860810501>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9860810501"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng dầu số 39"@vi ,
+                "Gas Station dau so 39"@en ;
+    schema:brand "Mipecorp" ;
+    ext:addr_street "Đường Hữu Hưng" ;
+    ext:addr_district "Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 243 789 2703" ;
+    geo:asWKT "POINT(105.7492787 20.9955216)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:12135152816>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "12135152816"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu Mỹ Bảo 2"@vi ,
+                "Cua hang xang dau My Bao 2"@en ;
+    geo:asWKT "POINT(105.7615015 20.9071409)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:707866382>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "707866382"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Phố Phúc La" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.795712 20.9627773)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708562665>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708562665"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng dầu HV Quân Y"@vi ,
+                "Gas Station dau HV Quan Y"@en ;
+    schema:brand "Mipecorp" ;
+    ext:addr_housenumber "86" ;
+    ext:addr_street "Đường Phùng Hưng" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7856828 20.9685623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708604142>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708604142"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    schema:operator "Dai Ly Ban Le Xang Dau Ha Son" ;
+    ext:addr_street "Đường Trần Phú" ;
+    geo:asWKT "POINT(105.783542 20.977117)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708949750>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708949750"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    ext:addr_street "Đường Trần Phú" ;
+    geo:asWKT "POINT(105.7898725 20.9814448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709676493>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709676493"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Hữu Hưng" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7436622 20.9955706)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709676495>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709676495"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Hữu Hưng" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7408784 20.9945826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:710103553>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "710103553"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "MB Petro - Cửa hàng xăng dầu số 68"@vi ,
+                "MB Petro - Cua hang xang dau so 68"@en ;
+    schema:legalName "Ngân hàng TMCP Quân đội"@vi ;
+    schema:legalName "Military Commercial Joint Stock Bank"@en ;
+    schema:brand "Công ty Cổ phần Vật tư xăng dầu Miền Bắc (MB Petro)" ;
+    ext:addr_housenumber "190" ;
+    ext:addr_street "Đại Mỗ" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10795460> ;
+    schema:url <https://mbbank.com.vn> ;
+    geo:asWKT "POINT(105.7610278 20.9934935)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:710285914>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "710285914"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7696606 20.9833313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:710342870>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "710342870"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Lương Thế Vinh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7888422 20.9957445)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711062845>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711062845"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    ext:addr_street "Phố Tố Hữu" ;
+    geo:asWKT "POINT(105.7889587 20.9936132)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711864253>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711864253"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng tại Phố Sa Đôi"@vi ,
+                "Gas Station at Pho Sa Doi"@en ;
+    ext:addr_street "Phố Sa Đôi" ;
+    geo:asWKT "POINT(105.7646664 20.9997998)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015879336>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015879336"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7351983 20.9402517)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015879349>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015879349"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7069491 20.9248694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787466>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787466"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Dai Ly Xang Dau Bao Anh"@vi ,
+                "Dai Ly Xang Dau Bao Anh Gas Station"@en ;
+    schema:operator "Dai Ly Xang Dau Bao Anh" ;
+    geo:asWKT "POINT(105.8050668 20.9992508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787484>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787484"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 53 (Petrolimex)"@vi ,
+                "Cua Hang Xang Dau So 53 (Petrolimex) Gas Station"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:operator "Cua Hang Xang Dau So 53 (Petrolimex)" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8414483 20.9891791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787523>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787523"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 59. ( Cây xăng gần Cầu Mai Động)"@vi ,
+                "Cua Hang Xang Dau So 59. ( Cây xăng gần Cầu Mai Động) Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 59. ( Cây xăng gần Cầu Mai Động)" ;
+    geo:asWKT "POINT(105.863024 20.9935966)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787534>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787534"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 55"@vi ,
+                "Cua Hang Xang Dau So 55 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 55" ;
+    geo:asWKT "POINT(105.8309716 20.9813056)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787536>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787536"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Thanh Huy"@vi ,
+                "Cua Hang Xang Dau Thanh Huy Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Thanh Huy" ;
+    geo:asWKT "POINT(105.8423173 20.9634233)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787537>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787537"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Dai Ly Ban Le Xang Dau Bao Anh"@vi ,
+                "Dai Ly Ban Le Xang Dau Bao Anh Gas Station"@en ;
+    schema:operator "Dai Ly Ban Le Xang Dau Bao Anh" ;
+    geo:asWKT "POINT(105.8055281 20.9983644)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787543>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787543"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau 54"@vi ,
+                "Cua Hang Xang Dau 54 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau 54" ;
+    geo:asWKT "POINT(105.8499938 20.9949588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787581>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787581"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Công Ty CP Dệt May Công Nghiệp Hà Nội"@vi ,
+                "Cay Xang Cong Ty CP Det May Cong Nghiep Ha Noi"@en ;
+    schema:operator "Công ty CP Dệt may công nghiệp Hà Nội" ;
+    geo:asWKT "POINT(105.8664787 20.988518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787593>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787593"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 58"@vi ,
+                "Cua Hang Xang Dau So 58 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 58" ;
+    geo:asWKT "POINT(105.8798491 20.9818502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787596>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787596"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cua Hang Ban Le Xang Dau Vu Trong Phung (Petrolimex)" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8084142 20.9993059)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787601>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787601"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 71"@vi ,
+                "Cua Hang Xang Dau So 71 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 71" ;
+    geo:asWKT "POINT(105.8660817 20.9755855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787613>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787613"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Petrolimex"@vi ,
+                "Cua Hang Xang Dau Petrolimex Gas Station"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:operator "Cua Hang Xang Dau Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8687489 20.9984148)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1927580768>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1927580768"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #1927580768"@vi ,
+                "Gas Station #1927580768"@en ;
+    geo:asWKT "POINT(105.8466168 20.9341185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4437494394>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4437494394"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8526605 20.9128787)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4437509190>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4437509190"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8526096 20.9183268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4437511890>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4437511890"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.8533301 20.9079623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4578683195>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4578683195"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Cầu Đền Lừ"@vi ,
+                "Cay Xang Cau Den Lu"@en ;
+    geo:asWKT "POINT(105.8635296 20.9819861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6605926926>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6605926926"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Lĩnh Nam" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8786378 20.9822479)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6606361363>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6606361363"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Mipec"@vi ,
+                "Cua Hang Xang Dau Mipec"@en ;
+    schema:brand "Mipec" ;
+    ext:addr_street "Đường Lĩnh Nam" ;
+    geo:asWKT "POINT(105.8806099 20.9819204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6641776757>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6641776757"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Red River Petroleum"@vi ,
+                "Red River Petroleum"@en ;
+    geo:asWKT "POINT(105.8770265 20.9677438)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:8557069330>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "8557069330"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Việt Vương"@vi ,
+                "Cay Xang Viet Vuong"@en ;
+    geo:asWKT "POINT(105.8955479 20.9857442)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:8888307573>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "8888307573"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Vạn Thuận"@vi ,
+                "Cay Xang Van Thuan"@en ;
+    schema:brand "PV Oil" ;
+    schema:operator "PetroVietnam" ;
+    ext:addr_street "Nguyễn Xiển Xa La" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8092199 20.9745938)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9369325905>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9369325905"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8426363 20.9794574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9369398513>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9369398513"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.8741559 20.9122791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11101923027>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11101923027"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8290876 20.9462885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11101923032>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11101923032"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8481152 20.9305039)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:12231662472>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "12231662472"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "634 phố Kim Giang" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8216303 20.9668877)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:701386723>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "701386723"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Tam Trinh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8658815 20.9742527)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:703227289>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "703227289"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cây Xăng Đại Kim"@vi ,
+                "Cay Xang Dai Kim"@en ;
+    schema:brand "TotalEnergies" ;
+    ext:addr_street "Nguyễn Cảnh Dị" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8361931 20.9763412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:704603037>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "704603037"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_housenumber "32" ;
+    ext:addr_street "Phố Tân Mai" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "100000" ;
+    schema:openingHours "Mo-Su 00:00-12:00+" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8470254 20.9834378)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:704671645>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "704671645"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng #704671645"@vi ,
+                "Gas Station #704671645"@en ;
+    geo:asWKT "POINT(105.8707379 20.9646716)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:706513396>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "706513396"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng tại Trần Điền"@vi ,
+                "Gas Station at Tran Dien"@en ;
+    ext:addr_street "Trần Điền" ;
+    geo:asWKT "POINT(105.8279577 20.9858687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:707456936>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "707456936"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8384754 20.9440774)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:707957569>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "707957569"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PVOIL Cầu Bươu"@vi ,
+                "PVOIL Cau Buou"@en ;
+    schema:brand "PV Oil" ;
+    ext:addr_housenumber "45" ;
+    ext:addr_street "Phan Trọng Tuệ" ;
+    schema:telephone "02432001909" ;
+    geo:asWKT "POINT(105.8061486 20.9582556)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708658607>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708658607"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Định Công" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.838314 20.9841822)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709258848>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709258848"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cây xăng Hà Thành"@vi ,
+                "Cay xang Ha Thanh"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Nghiêm Xuân Yêm" ;
+    ext:addr_district "Thanh Trì" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8199376 20.9718919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711123909>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711123909"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Tam Trinh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8628068 20.9945392)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015753653>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015753653"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Nghiêm Xuân Yêm" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8259698 20.9698913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015753655>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015753655"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8413126 20.9849868)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015763199>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015763199"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.8429533 20.9590468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1087641056>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1087641056"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng dầu số 1"@vi ,
+                "Gas Station dau so 1"@en ;
+    schema:brand "MIPECORP" ;
+    ext:addr_housenumber "259" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8417446 20.9982576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:2517309626>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "2517309626"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9202505 20.9826498)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4435984990>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4435984990"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.96999 20.998543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5928119980>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5928119980"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9531083 20.9120639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13175011676>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13175011676"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex - Cửa hàng 57"@vi ,
+                "Petrolimex - Cua hang 57"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9460386 20.9327122)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13318821077>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13318821077"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex  Gas Station Store No.57"@vi ,
+                "Petrolimex  Gas Station Store No.57"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9463854 20.9325819)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13318821078>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13318821078"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex  Gas Station Store No.57"@vi ,
+                "Petrolimex  Gas Station Store No.57"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9464106 20.9327605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13318821079>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13318821079"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex Gas Station Store No.57"@vi ,
+                "Petrolimex Gas Station Store No.57"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9465649 20.9327217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13325635578>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13325635578"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Hưng Hải"@vi ,
+                "Cua Hang Xang Dau Hung Hai"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9492802 20.9535105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:627949996>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "627949996"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.9654705 20.901833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015739243>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015739243"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9963802 20.9608968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015739254>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015739254"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng #1015739254"@vi ,
+                "Gas Station #1015739254"@en ;
+    geo:asWKT "POINT(105.997074 20.9610072)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015739267>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015739267"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9857092 20.9801839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1196405928>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1196405928"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.919596 20.997274)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1433526192>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1433526192"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9463779 20.932543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1433526193>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1433526193"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9464515 20.932718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1433526194>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1433526194"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9465476 20.9327067)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1453028468>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1453028468"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.949253 20.9535677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1453028469>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1453028469"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9491662 20.9536084)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1453028471>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1453028471"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9492109 20.9535214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787547>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787547"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Mai Dich"@vi ,
+                "Cua Hang Xang Dau Mai Dich Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Mai Dich" ;
+    geo:asWKT "POINT(105.7723063 21.0378661)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787632>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787632"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #729787632"@vi ,
+                "Gas Station #729787632"@en ;
+    geo:asWKT "POINT(105.7986055 21.0459171)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1316134567>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1316134567"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "TotalEnergies"@vi ,
+                "TotalEnergies"@en ;
+    schema:brand "TotalEnergies" ;
+    ext:addr_street "Nguyễn Hoàng Tôn" ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7986459 21.0741351)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4047783404>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4047783404"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Hải Linh"@vi ,
+                "Cua Hang Xang Dau Hai Linh"@en ;
+    geo:asWKT "POINT(105.7725359 21.0250965)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4212583092>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4212583092"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #4212583092"@vi ,
+                "Gas Station #4212583092"@en ;
+    geo:asWKT "POINT(105.7056171 21.0468819)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5296714134>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5296714134"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Xăng Xuân Phương"@vi ,
+                "Tram Xang Xuan Phuong"@en ;
+    schema:brand "MC Petrol" ;
+    ext:addr_street "Đường Xuân Phương" ;
+    geo:asWKT "POINT(105.7380136 21.0359399)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5304647964>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5304647964"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Xăng Lại Yên"@vi ,
+                "Tram Xang Lai Yen"@en ;
+    geo:asWKT "POINT(105.7166249 21.026021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5485717692>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5485717692"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Cổ Nhuế"@vi ,
+                "Cua Hang Xang Dau Co Nhue"@en ;
+    schema:brand "Total" ;
+    ext:addr_street "Phan Bá Vành" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7730135 21.0613988)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5527201503>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5527201503"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #5527201503"@vi ,
+                "Gas Station #5527201503"@en ;
+    geo:asWKT "POINT(105.7703769 21.0829383)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5527201504>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5527201504"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #5527201504"@vi ,
+                "Gas Station #5527201504"@en ;
+    geo:asWKT "POINT(105.7702477 21.0830373)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:8303360354>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "8303360354"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng dầu Sông Hồng"@vi ,
+                "Gas Station dau Song Hong"@en ;
+    ext:addr_housenumber "68" ;
+    ext:addr_street "Đường Lê Văn Lương" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7989816 21.0014988)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9370395215>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9370395215"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7219543 21.0614538)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:12518451308>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "12518451308"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.7993281 21.0268928)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:588630036>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "588630036"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng #588630036"@vi ,
+                "Gas Station #588630036"@en ;
+    geo:asWKT "POINT(105.7918653 21.0249462)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:701454351>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "701454351"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa hàng Xăng dầu Nghĩa Tân"@vi ,
+                "Cua hang Xang dau Nghia Tan"@en ;
+    schema:brand "PV Oil" ;
+    schema:operator "Công ty Cổ phần Xăng dầu Dầu khí Hà Nội" ;
+    ext:addr_housenumber "148" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84437840382" ;
+    geo:asWKT "POINT(105.7904436 21.0464113)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:703989459>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "703989459"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Eneos"@vi ,
+                "Eneos"@en ;
+    schema:brand "Eneos" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    geo:asWKT "POINT(105.7854214 21.0753504)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:704063248>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "704063248"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng tại Đường Phạm Văn Đồng"@vi ,
+                "Gas Station at Duong Pham Van Dong"@en ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    geo:asWKT "POINT(105.7850289 21.0697074)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:705253265>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "705253265"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Xuân Thủy" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7857528 21.0362255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708562432>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708562432"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng tại Vũ Phạm Hàm"@vi ,
+                "Gas Station at Vu Pham Ham"@en ;
+    ext:addr_street "Vũ Phạm Hàm" ;
+    geo:asWKT "POINT(105.7949921 21.0135322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708622824>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708622824"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Mipec"@vi ,
+                "Mipec"@en ;
+    schema:brand "Mipec" ;
+    ext:addr_street "Đường Xuân Phương" ;
+    geo:asWKT "POINT(105.7376051 21.0438075)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708977863>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708977863"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa hàng xăng dầu Trung Thượng"@vi ,
+                "Cua hang xang dau Trung Thuong"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7328903 21.011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:708989204>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "708989204"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7416633 21.0270227)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709672589>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709672589"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Cầu Diễn" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7431985 21.0483406)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709709087>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709709087"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Total"@vi ,
+                "Total"@en ;
+    schema:brand "TotalEnergies" ;
+    ext:addr_street "Phố Trần Vỹ" ;
+    geo:asWKT "POINT(105.7729394 21.0417452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709750269>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709750269"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Pvoil"@vi ,
+                "Pvoil"@en ;
+    schema:brand "PV Oil" ;
+    ext:addr_street "Đường Cầu Diễn" ;
+    geo:asWKT "POINT(105.754813 21.044573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015753650>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015753650"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7858509 21.0719453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015753651>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015753651"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7772983 21.0277604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015879342>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015879342"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7281517 21.0579071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1052684742>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1052684742"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng dầu số 8"@vi ,
+                "Gas Station dau so 8"@en ;
+    schema:brand "MIPECORP" ;
+    ext:addr_housenumber "125" ;
+    ext:addr_street "Đường Nguyễn Phong Sắc" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7902523 21.0398246)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1052686267>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1052686267"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng dầu số 38"@vi ,
+                "Gas Station dau so 38"@en ;
+    schema:brand "MIPECORP" ;
+    ext:addr_street "Phố Phan Văn Trường" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.786224 21.0400922)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1210086043>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1210086043"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa hàng Mipec số 6"@vi ,
+                "Cua hang Mipec so 6"@en ;
+    schema:brand "Mipec" ;
+    schema:operator "Công ty Cổ phần Nhà dầu Quân đội" ;
+    ext:addr_street "Phố Tôn Quang Phiệt" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Su 06:00-22:00" ;
+    geo:asWKT "POINT(105.7846254 21.0499309)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1212972791>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1212972791"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa Hàng Xăng Dầu 117 Trần Cung"@vi ,
+                "Cua Hang Xang Dau 117 Tran Cung"@en ;
+    schema:operator "Công ty Cổ phần Đầu tư Thương mại & Dịch vụ Bảo Minh" ;
+    ext:addr_housenumber "117" ;
+    ext:addr_street "Trần Cung" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.7886125 21.0528184)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1213199883>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1213199883"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Nix Petro"@vi ,
+                "Nix Petro"@en ;
+    geo:asWKT "POINT(105.7914824 21.0458685)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1298934869>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1298934869"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Mipecorp"@vi ,
+                "Mipecorp"@en ;
+    schema:brand "Mipecorp" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_city "Phường Mễ Trì" ;
+    geo:asWKT "POINT(105.7882623 21.0124156)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:481838440>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "481838440"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Dốc Tam Đa"@vi ,
+                "Cay Xang Doc Tam Da"@en ;
+    ext:addr_street "Dốc Tam Đa" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8184609 21.0433351)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:481838466>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "481838466"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu số 14"@vi ,
+                "Cua hang xang dau so 14"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8155123 21.0441979)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787433>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787433"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cua Hang Dai Ly Ban Le Xang Dau So 2 (Petrolimex)" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8091008 21.0153211)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787441>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787441"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Ban Le Xang Dau So 1"@vi ,
+                "Cua Hang Ban Le Xang Dau So 1 Gas Station"@en ;
+    schema:operator "Cua Hang Ban Le Xang Dau So 1" ;
+    geo:asWKT "POINT(105.807127 21.013919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787473>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787473"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Cong Vi"@vi ,
+                "Cua Hang Xang Dau Cong Vi Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Cong Vi" ;
+    geo:asWKT "POINT(105.8129446 21.04076)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787477>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787477"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cong Ty CP Xang Dau Chat Dot Hn - Ch Kinh Doanh DV Tong Hop"@vi ,
+                "Cong Ty CP Xang Dau Chat Dot Hn - Ch Kinh Doanh DV Tong Hop Gas Station"@en ;
+    schema:operator "Cong Ty CP Xang Dau Chat Dot Hn - Ch Kinh Doanh DV Tong Hop" ;
+    geo:asWKT "POINT(105.8626846 21.023288)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787494>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787494"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Trạm xăng dầu số 10"@vi ,
+                "Trạm xăng dầu số 10 Gas Station"@en ;
+    schema:operator "Trạm xăng dầu số 10" ;
+    geo:asWKT "POINT(105.8171153 21.079775)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787498>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787498"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng My Hoang Co., Ltd"@vi ,
+                "My Hoang Co., Ltd Gas Station"@en ;
+    schema:operator "My Hoang Co., Ltd" ;
+    geo:asWKT "POINT(105.8312559 21.0207492)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787504>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787504"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8949573 21.0638951)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787509>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787509"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Dai Ly Xang Dau So 88 - Cong Ty Xang Dau Quan Doi"@vi ,
+                "Dai Ly Xang Dau So 88 - Cong Ty Xang Dau Quan Doi Gas Station"@en ;
+    schema:operator "Dai Ly Xang Dau So 88 - Cong Ty Xang Dau Quan Doi" ;
+    geo:asWKT "POINT(105.8913609 21.0583964)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787512>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787512"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Quân Đội"@vi ,
+                "Cua Hang Xang Dau Quan Doi"@en ;
+    schema:brand "MIPECo" ;
+    schema:operator "Cua Hang Dai Ly Ban Le Xang Dau Quan Doi" ;
+    geo:asWKT "POINT(105.8097676 21.0379944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787516>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787516"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_housenumber "01" ;
+    ext:addr_street "Phố Hàng Bún" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8461178 21.0444482)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787518>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787518"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau So 18"@vi ,
+                "Cua Hang Xang Dau So 18 Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau So 18" ;
+    geo:asWKT "POINT(105.8159405 21.0240141)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787540>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787540"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Chat Dot Dong Da"@vi ,
+                "Cua Hang Chat Dot Dong Da Gas Station"@en ;
+    schema:operator "Cua Hang Chat Dot Dong Da" ;
+    geo:asWKT "POINT(105.8326989 21.0193772)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787554>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787554"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cong Ty Thiet Bi Phu Tung - Xang Dau - Tong Cong Ty May - Phu Tung"@vi ,
+                "Cong Ty Thiet Bi Phu Tung - Xang Dau - Tong Cong Ty May - Phu Tung Gas Station"@en ;
+    schema:operator "Cong Ty Thiet Bi Phu Tung - Xang Dau - Tong Cong Ty May - Phu Tung" ;
+    geo:asWKT "POINT(105.859751 21.0188586)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787557>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787557"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Duc Nhat Pte."@vi ,
+                "Duc Nhat Pte. Gas Station"@en ;
+    schema:operator "Duc Nhat Pte." ;
+    geo:asWKT "POINT(105.8758503 21.0458518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787569>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787569"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Petro Viet Nam"@vi ,
+                "Cua Hang Xang Dau Petro Viet Nam Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Petro Viet Nam" ;
+    geo:asWKT "POINT(105.8187998 21.0101847)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787574>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787574"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cua Hang Xang Dau Nguyen Dinh Chieu"@vi ,
+                "Cua Hang Xang Dau Nguyen Dinh Chieu Gas Station"@en ;
+    schema:operator "Cua Hang Xang Dau Nguyen Dinh Chieu" ;
+    geo:asWKT "POINT(105.8469203 21.0146821)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787575>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787575"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "CHXD số 1"@vi ,
+                "CHXD so 1"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8941288 21.0645151)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787583>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787583"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Trung Tam Dai Ly Kinh Doanh Xang Dau"@vi ,
+                "Trung Tam Dai Ly Kinh Doanh Xang Dau Gas Station"@en ;
+    schema:operator "Trung Tam Dai Ly Kinh Doanh Xang Dau" ;
+    geo:asWKT "POINT(105.863893 21.0119159)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787587>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787587"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Ha Noi Petroleum Fuel J.S.C"@vi ,
+                "Ha Noi Petroleum Fuel J.S.C Gas Station"@en ;
+    schema:operator "Ha Noi Petroleum Fuel J.S.C" ;
+    geo:asWKT "POINT(105.8626806 21.023293)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787595>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787595"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cua Hang Xang Dau So 16 (Petrolimex)" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8300864 21.0317251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787599>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787599"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng dầu số 9 - CTXD Quân đội"@vi ,
+                "Gas Station dau so 9 - CTXD Quan doi"@en ;
+    schema:operator "Công ty Xăng dầu Quân đội - Bộ Tư lệnh Biên phòng" ;
+    geo:asWKT "POINT(105.8612833 21.0183281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787606>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787606"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Military Petroleum Chemical J.S.C"@vi ,
+                "Military Petroleum Chemical J.S.C Gas Station"@en ;
+    schema:operator "Military Petroleum Chemical J.S.C" ;
+    geo:asWKT "POINT(105.8402037 21.0407676)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787609>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787609"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cua Hang Xang Dau So 37 (Petrolimex)" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8036302 21.0173223)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787624>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787624"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.8841708 21.0441883)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787630>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787630"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng Cong Ty Xang Dau Chat Dot"@vi ,
+                "Cong Ty Xang Dau Chat Dot Gas Station"@en ;
+    schema:operator "Cong Ty Xang Dau Chat Dot" ;
+    geo:asWKT "POINT(105.8543229 21.0178449)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1692799421>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1692799421"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #1692799421"@vi ,
+                "Gas Station #1692799421"@en ;
+    geo:asWKT "POINT(105.8157554 21.0268833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:2302087707>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "2302087707"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_housenumber "01" ;
+    ext:addr_street "Đường Trần Quang Khải" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.859295 21.0260413)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4578730791>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4578730791"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8698631 21.0072808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5485764296>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5485764296"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Làng Nha"@vi ,
+                "Cay Xang Lang Nha"@en ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8954606 21.0217717)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6670716126>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6670716126"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu Bách Khoa"@vi ,
+                "Cua hang xang dau Bach Khoa"@en ;
+    schema:brand "HFC" ;
+    ext:addr_housenumber "29" ;
+    ext:addr_street "Phố Tạ Quang Bửu" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8493485 21.0019826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6703664633>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6703664633"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cây Xăng Bồ Đề"@vi ,
+                "Bo De Gas Station"@en ;
+    ext:addr_housenumber "124" ;
+    ext:addr_street "Phú Viên" ;
+    ext:addr_postcode "100000" ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.8699276 21.0348842)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9369325891>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9369325891"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8154104 21.0237486)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9674282469>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9674282469"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Xăng Dầu Số 31"@vi ,
+                "Tram Xang Dau So 31"@en ;
+    schema:brand "MIPECORP" ;
+    ext:addr_housenumber "463" ;
+    ext:addr_street "Phố Đội Cấn" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8084292 21.037803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9766564006>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9766564006"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #9766564006"@vi ,
+                "Gas Station #9766564006"@en ;
+    geo:asWKT "POINT(105.8525401 21.0135166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:12398929145>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "12398929145"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu Bồ Đề"@vi ,
+                "Cua hang xang dau Bo De"@en ;
+    geo:asWKT "POINT(105.8698983 21.0367485)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:570570880>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "570570880"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cửa hàng xăng dầu số 30" ;
+    ext:addr_housenumber "185" ;
+    ext:addr_street "Phố Nguyễn Lương Bằng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "24/7" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8273337 21.0137661)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:699905164>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "699905164"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa hàng Xăng dầu 19 Thuỵ Khuê"@vi ,
+                "Cua hang Xang dau 19 Thuy Khue"@en ;
+    schema:brand "Total" ;
+    schema:operator "Bộ Tư lệnh Cảnh vệ" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_city "Hà Nội" ;
+    schema:openingHours "Mo-Su 05:00-24:00" ;
+    geo:asWKT "POINT(105.8296526 21.0415839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:702796631>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "702796631"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng tại Đường Lạc Long Quân"@vi ,
+                "Gas Station at Duong Lac Long Quan"@en ;
+    ext:addr_housenumber "697" ;
+    ext:addr_street "Đường Lạc Long Quân" ;
+    geo:asWKT "POINT(105.8168479 21.0801487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:702920706>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "702920706"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8902245 21.0680375)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:702924874>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "702924874"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Eneos"@vi ,
+                "Eneos"@en ;
+    schema:brand "Eneos" ;
+    ext:addr_street "Võ Thị Sáu" ;
+    geo:asWKT "POINT(105.8547552 21.0029702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:704568443>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "704568443"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Total"@vi ,
+                "Total"@en ;
+    schema:brand "TotalEnergies" ;
+    ext:addr_street "Đường Lạc Long Quân" ;
+    geo:asWKT "POINT(105.8071615 21.0501025)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:706816407>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "706816407"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Nguyễn Văn Cừ" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8838793 21.0503966)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:707347012>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "707347012"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Ngọc Thụy" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8777164 21.0684025)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:707894759>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "707894759"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "GARAGE LÁNG HẠ"@vi ,
+                "GARAGE LANG HA"@en ;
+    ext:addr_street "Đường Láng" ;
+    geo:asWKT "POINT(105.8082857 21.0130629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:709271919>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "709271919"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil Thái Thịnh"@vi ,
+                "PV Oil Thai Thinh"@en ;
+    schema:brand "PV Oil" ;
+    ext:addr_housenumber "194" ;
+    ext:addr_street "Thái Thịnh" ;
+    geo:asWKT "POINT(105.8155628 21.0136658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:710355837>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "710355837"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Cửa hàng Xăng dầu số 31 (Petrolimex)" ;
+    ext:addr_housenumber "111" ;
+    ext:addr_street "Đường Láng" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.81716 21.004814)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711028665>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711028665"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Total"@vi ,
+                "Total"@en ;
+    schema:brand "TotalEnergies" ;
+    geo:asWKT "POINT(105.8545637 21.0093097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711140637>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711140637"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_housenumber "09" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8581596 21.0191048)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711372338>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711372338"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8631973 21.0128832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711519580>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711519580"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Total"@vi ,
+                "Total"@en ;
+    schema:brand "TotalEnergies" ;
+    ext:addr_street "Phố Khâm Thiên" ;
+    geo:asWKT "POINT(105.8323801 21.0192617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:711526323>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "711526323"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng Mipec"@vi ,
+                "Mipec Gas Station"@en ;
+    schema:brand "Mipec" ;
+    geo:asWKT "POINT(105.8127173 21.0077181)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015763200>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015763200"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.8926967 21.0943503)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1035930664>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1035930664"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng dầu số 14"@vi ,
+                "Gas Station dau so 14"@en ;
+    schema:brand "Mipecorp" ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Đường Nguyễn Tri Phương" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8415093 21.0393069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1302111854>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1302111854"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng #1302111854"@vi ,
+                "Gas Station #1302111854"@en ;
+    geo:asWKT "POINT(105.8445354 21.0382204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:446043006>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "446043006"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9431245 21.0180191)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:481837970>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "481837970"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng"@vi ,
+                "Gas Station"@en ;
+    geo:asWKT "POINT(105.963495 21.003484)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:481838137>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "481838137"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng"@vi ,
+                "Gas Station"@en ;
+    geo:asWKT "POINT(105.961097 21.005136)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787499>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787499"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9094638 21.0798251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787546>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787546"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9063135 21.0338318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:729787558>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "729787558"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Phố Sài Đồng" ;
+    ext:addr_district "Long Biên" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.909576 21.0337234)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:993196878>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "993196878"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:operator "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9350919 21.0365709)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:2517415060>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "2517415060"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9348882 21.0226069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4753071319>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4753071319"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.931748 21.099318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:4755946691>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "4755946691"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #4755946691"@vi ,
+                "Gas Station #4755946691"@en ;
+    geo:asWKT "POINT(105.9556709 21.0711917)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5927859026>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5927859026"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Yên Viên"@vi ,
+                "Cua Hang Xang Dau Yen Vien"@en ;
+    schema:operator "HFC" ;
+    geo:asWKT "POINT(105.9260939 21.0946558)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5928104784>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5928104784"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Xăng Dầu Caltex"@vi ,
+                "Tram Xang Dau Caltex"@en ;
+    schema:brand "Caltex" ;
+    geo:asWKT "POINT(105.9161636 21.0012492)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6185887753>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6185887753"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Quân đội T608"@vi ,
+                "Cua Hang Xang Dau Quan doi T608"@en ;
+    geo:asWKT "POINT(105.921749 21.0902592)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:9875849052>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "9875849052"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9952925 21.0268331)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103953090>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103953090"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9640198 21.0196101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103953098>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103953098"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9751732 21.0234682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:907192871>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "907192871"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng số 84"@vi ,
+                "Petrolimex – Cua hang so 84"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9240197 21.0407636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015763209>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015763209"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.9580546 21.0073573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1180205877>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1180205877"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng 100"@vi ,
+                "Petrolimex – Cua hang 100"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9358561 21.0132472)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1233230014>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1233230014"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex Sài Đồng"@vi ,
+                "Petrolimex Sai Dong"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9102296 21.0340108)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:963363866>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "963363866"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #963363866"@vi ,
+                "Gas Station #963363866"@en ;
+    geo:asWKT "POINT(105.781022 21.1911268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5568555371>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5568555371"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng #5568555371"@vi ,
+                "Gas Station #5568555371"@en ;
+    geo:asWKT "POINT(105.7716712 21.1166606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11101923158>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11101923158"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7768035 21.1244832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959284>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959284"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7303905 21.17702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11203075430>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11203075430"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu Quang Minh"@vi ,
+                "Cua hang xang dau Quang Minh"@en ;
+    schema:brand "Hà Sơn" ;
+    geo:asWKT "POINT(105.7760851 21.1983492)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11204387960>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11204387960"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa hàng xăng dầu Đại Mạch"@vi ,
+                "Cua hang xang dau Dai Mach"@en ;
+    geo:asWKT "POINT(105.7601381 21.1324839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:702945491>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "702945491"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.7872724 21.1162751)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:6180693687>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "6180693687"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8135045 21.1542778)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:7087861769>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "7087861769"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Cửa Hàng Xăng Dầu Petrolimex"@vi ,
+                "Cua Hang Xang Dau Petrolimex"@en ;
+    geo:asWKT "POINT(105.8464362 21.1495441)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959226>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959226"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8675639 21.1275352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959246>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959246"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.874199 21.1412736)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959256>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959256"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.863737 21.1453576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959257>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959257"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.845233 21.1420478)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959266>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959266"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8451362 21.1488112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959276>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959276"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8367227 21.1483884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:11103959297>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "11103959297"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8483362 21.1989816)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:12369553654>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "12369553654"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Mipec"@vi ,
+                "Mipec"@en ;
+    schema:brand "Mipec" ;
+    geo:asWKT "POINT(105.8448846 21.1996291)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1015763205>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1015763205"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "PV Oil"@vi ,
+                "PV Oil"@en ;
+    schema:brand "PV Oil" ;
+    geo:asWKT "POINT(105.836054 21.1982268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1196405921>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1196405921"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8688006 21.1025159)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1196680557>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1196680557"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.8778652 21.1691596)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1200034625>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1200034625"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Total"@vi ,
+                "Total"@en ;
+    schema:brand "Total" ;
+    geo:asWKT "POINT(105.8194018 21.198019)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:2090705707>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "2090705707"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm xăng dầu"@vi ,
+                "Gas Station dau"@en ;
+    geo:asWKT "POINT(105.9295253 21.167053)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:5926941721>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "5926941721"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex"@vi ,
+                "Petrolimex"@en ;
+    geo:asWKT "POINT(105.9911804 21.1320826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13041512665>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13041512665"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex – Cửa hàng số 12"@vi ,
+                "Petrolimex – Cua hang so 12"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9572889 21.150857)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13041538638>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13041538638"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex – Cửa hàng số 11"@vi ,
+                "Petrolimex – Cua hang so 11"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9630187 21.1324871)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:13043144465>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "13043144465"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Petrolimex – Cửa hàng số 17"@vi ,
+                "Petrolimex – Cua hang so 17"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường An Dương Vương" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9982032 21.1890498)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1222650343>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1222650343"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng số 10"@vi ,
+                "Petrolimex – Cua hang so 10"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Minh Khai" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9731805 21.1252004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1382947510>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1382947510"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Cửa Hàng Xăng Dầu Long Khánh"@vi ,
+                "Cua Hang Xang Dau Long Khanh"@en ;
+    geo:asWKT "POINT(105.9972211 21.1939678)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1419194434>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1419194434"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng số 12"@vi ,
+                "Petrolimex – Cua hang so 12"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9572879 21.1508499)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1419194456>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1419194456"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng số 11"@vi ,
+                "Petrolimex – Cua hang so 11"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9629591 21.132549)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1419396189>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1419396189"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Petrolimex – Cửa hàng số 17"@vi ,
+                "Petrolimex – Cua hang so 17"@en ;
+    schema:legalName "Tập đoàn Xăng dầu Việt Nam"@vi ;
+    schema:legalName "Vietnam National Petroleum Group"@en ;
+    schema:brand "Petrolimex" ;
+    ext:addr_street "Đường An Dương Vương" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_city "Bắc Ninh" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q7179041> ;
+    schema:url <https://www.petrolimex.com.vn> ;
+    schema:image <https://upload.wikimedia.org/wikipedia/commons/2/22/Petrolimex_logo.svg> ;
+    geo:asWKT "POINT(105.9981982 21.1890551)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:fuel_station:1424958547>
+    a fiware:PointOfInterest, schema:GasStation ;
+    ext:osm_id "1424958547"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm xăng #1424958547"@vi ,
+                "Gas Station #1424958547"@en ;
+    geo:asWKT "POINT(105.9774344 21.1275598)"^^geo:wktLiteral .
+

@@ -1,0 +1,403 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1040778678> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040778678 ;
+    ext:osm_type "way" ;
+    schema:name "Toa B"@en,
+        "Toà B"@vi ;
+    schema:openingHours "Mo-Sa 07:00-20:00" ;
+    schema:operator "Diplomatic Academy of Vietnam" ;
+    geo:asWKT "POINT(105.805988 21.0224984)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1058111000> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1058111000 ;
+    ext:osm_type "way" ;
+    schema:name "Toa Nha Library"@en,
+        "Toà nhà thư viện"@vi ;
+    geo:asWKT "POINT(105.7465958 20.9683822)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1118081920> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Phố Viên" ;
+    ext:osm_id 1118081920 ;
+    ext:osm_type "way" ;
+    schema:name "Library Tai Pho Vien"@en,
+        "Thư viện tại Phố Viên"@vi ;
+    geo:asWKT "POINT(105.7737758 21.072605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:11240619610> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "128" ;
+    ext:addr_street "Đường Xuân Thủy" ;
+    ext:osm_id 11240619610 ;
+    ext:osm_type "node" ;
+    schema:name "Vuon Tri Thuc Viet"@en,
+        "Vườn Tri Thức Việt"@vi ;
+    geo:asWKT "POINT(105.7854064 21.0368134)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:11357953726> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 11357953726 ;
+    ext:osm_type "node" ;
+    schema:name "Library Vinuni"@en,
+        "Thư viện VinUni"@vi ;
+    schema:operator "VinUni" ;
+    geo:asWKT "POINT(105.9448093 20.9892713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1210110873> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210110873 ;
+    ext:osm_type "way" ;
+    schema:name "D"@en,
+        "D"@vi ;
+    geo:asWKT "POINT(105.7854655 21.046912)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1233190532> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1233190532 ;
+    ext:osm_type "way" ;
+    schema:name "Library at Ngo 418 Duong La Thanh"@en,
+        "Thư viện tại Ngõ 418 Đường La Thành"@vi ;
+    geo:asWKT "POINT(105.8227354 21.0242405)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1272791313> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Đường Cao Lỗ" ;
+    ext:osm_id 1272791313 ;
+    ext:osm_type "way" ;
+    schema:name "Library Huyen Dong Anh"@en,
+        "Thư viện huyện Đông Anh"@vi ;
+    geo:asWKT "POINT(105.8468504 21.1412454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1282701991> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1282701991 ;
+    ext:osm_type "way" ;
+    schema:name "Library at Ngo 203 Pho Chua Boc"@en,
+        "Thư viện tại Ngõ 203 Phố Chùa Bộc"@vi ;
+    geo:asWKT "POINT(105.8255595 21.0072065)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1282834050> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Từ Sơn" ;
+    ext:addr_street "Nguyên Phi Ỷ Lan" ;
+    ext:osm_id 1282834050 ;
+    ext:osm_type "way" ;
+    schema:name "Library Thanh Pho Tu Son"@en,
+        "Thư viện Thành phố Từ Sơn"@vi ;
+    schema:operator "Ủy ban nhân dân thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9683626 21.1107622)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1303522938> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Hoàn Kiếm" ;
+    ext:addr_housenumber "83" ;
+    ext:addr_street "Phố Lý Nam Đế" ;
+    ext:osm_id 1303522938 ;
+    ext:osm_type "way" ;
+    schema:name "Library Quan Doi"@en,
+        "Thư viện Quân đội"@vi ;
+    schema:openingHours "Mo-Sa 07:30-17:00" ;
+    schema:operator "Tổng cục Chính trị Quân đội nhân dân Việt Nam" ;
+    schema:telephone "+84 69 554 546" ;
+    schema:url <http://thuvienquandoi.vn> ;
+    geo:asWKT "POINT(105.8448391 21.0326093)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:13208185918> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 13208185918 ;
+    ext:osm_type "node" ;
+    schema:name "Library Truong University Mo Ha Noi Co So Van Giang"@en,
+        "Thư viện Trường Đại học Mở Hà Nội cơ sở Văn Giang"@vi ;
+    geo:asWKT "POINT(105.946431 20.9427236)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:1437064262> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 1437064262 ;
+    ext:osm_type "way" ;
+    schema:name "Library at Duong Do Tong"@en,
+        "Thư viện tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9464257 20.942799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:14995334> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 14995334 ;
+    ext:osm_type "relation" ;
+    schema:name "Trung Tam Thong Tin - Library Su Pham"@en,
+        "Trung tâm Thông tin - Thư viện Sư phạm"@vi ;
+    schema:operator "Trường Đại học Sư phạm Hà Nội" ;
+    geo:asWKT "POINT(105.7836893 21.0402093)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:158465680> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:osm_id 158465680 ;
+    ext:osm_type "way" ;
+    schema:email "tvtqb@hust.edu.vn" ;
+    schema:name "Library Ta Quang Buu"@en,
+        "Thư viện Tạ Quang Bửu"@vi ;
+    schema:operator "Đại học Bách Khoa Hà Nội" ;
+    schema:url <https://library.hust.edu.vn/> ;
+    geo:asWKT "POINT(105.8441347 21.0044369)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:4685321091> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 4685321091 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Co Xuan"@en,
+        "nhà cô Xuân"@vi ;
+    schema:openingHours "Tu 14:00-16:00" ;
+    geo:asWKT "POINT(105.8697692 21.0439833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:5164774422> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 5164774422 ;
+    ext:osm_type "node" ;
+    schema:name "Library at Ngo Nui Truc"@en,
+        "Thư viện tại Ngõ Núi Trúc"@vi ;
+    geo:asWKT "POINT(105.8232621 21.0301932)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:5680517418> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 5680517418 ;
+    ext:osm_type "node" ;
+    schema:name "Library Truong Dh Ngoai Thuong"@en,
+        "Thư viện Trường ĐH Ngoại thương"@vi ;
+    geo:asWKT "POINT(105.8045811 21.0221168)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:571030204> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 571030204 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Bat Giac"@en,
+        "Nhà Bát Giác"@vi ;
+    geo:asWKT "POINT(105.8311262 21.0437977)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:605977394> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 605977394 ;
+    ext:osm_type "way" ;
+    schema:name "C1t"@en,
+        "C1T"@vi ;
+    schema:operator "Đại học Quốc gia Hà Nội" ;
+    geo:asWKT "POINT(105.7833339 21.0383847)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:608061244> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 608061244 ;
+    ext:osm_type "way" ;
+    schema:name "Library Cau Giay"@en,
+        "Thư viện Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7908149 21.0379368)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:691424464> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 691424464 ;
+    ext:osm_type "way" ;
+    schema:name "Library Truong University Ha Noi"@en,
+        "Thư viện trường Đại học Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7947481 20.9889717)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:701605944> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "42" ;
+    ext:addr_street "Phố Nhà Chung" ;
+    ext:osm_id 701605944 ;
+    ext:osm_type "way" ;
+    schema:name "Library Hoan Kiem"@en,
+        "Thư viện Hoàn Kiếm"@vi ;
+    schema:operator "Trung tâm Văn hóa - Thông tin và Thể thao phường Hoàn Kiếm" ;
+    geo:asWKT "POINT(105.8494857 21.0273645)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:701882910> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "31" ;
+    ext:addr_street "Phố Tràng Thi" ;
+    ext:osm_id 701882910 ;
+    ext:osm_type "way" ;
+    schema:name "Library Quoc Gia Viet Nam"@en,
+        "Thư viện Quốc gia Việt Nam"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q618661> ;
+    geo:asWKT "POINT(105.8492213 21.0260053)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Th%C6%B0%20vi%E1%BB%87n%20Qu%E1%BB%91c%20gia%20Vi%E1%BB%87t%20Nam> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:704147290> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "54E" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:osm_id 704147290 ;
+    ext:osm_type "way" ;
+    schema:email "thuvien_sovhtt@hanoi.gov.vn" ;
+    schema:name "Library Ha Noi"@en,
+        "Thư viện Hà Nội"@vi ;
+    schema:url <https://www.thuvienhanoi.org.vn/> ;
+    geo:asWKT "POINT(105.8507249 21.0217722)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:731984536> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 731984536 ;
+    ext:osm_type "way" ;
+    schema:name "Library University Xay Dung Ha Noi"@en,
+        "Thư viện Đại học Xây dựng Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8424222 21.0030809)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:8133093198> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 8133093198 ;
+    ext:osm_type "node" ;
+    schema:name "Library at Ngo Lien Viet"@en,
+        "Thư viện tại Ngõ Liên Việt"@vi ;
+    geo:asWKT "POINT(105.8283184 21.0130635)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:826025410> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Phố Chùa Bộc" ;
+    ext:osm_id 826025410 ;
+    ext:osm_type "way" ;
+    schema:name "Library Hvnh B3"@en,
+        "Thư Viện HVNH B3"@vi ;
+    schema:openingHours "Mo-Sa 07:30-20:45, Sa 07:30-17:00; Su,PH off" ;
+    geo:asWKT "POINT(105.8280435 21.0091687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:826041737> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 826041737 ;
+    ext:osm_type "way" ;
+    schema:name "Library at Ngo 167 Pho Tay Son"@en,
+        "Thư viện tại Ngõ 167 Phố Tây Sơn"@vi ;
+    geo:asWKT "POINT(105.8269868 21.0092052)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:828397360> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 828397360 ;
+    ext:osm_type "way" ;
+    schema:name "Library at Pho Trieu Khuc"@en,
+        "Thư viện tại Phố Triều Khúc"@vi ;
+    geo:asWKT "POINT(105.798593 20.9841699)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:828687102> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 828687102 ;
+    ext:osm_type "way" ;
+    schema:name "M"@en,
+        "M"@vi ;
+    geo:asWKT "POINT(105.7620769 21.0453652)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:828693695> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 828693695 ;
+    ext:osm_type "way" ;
+    schema:name "A11"@en,
+        "A11"@vi ;
+    geo:asWKT "POINT(105.7347113 21.0555939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:842611513> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 842611513 ;
+    ext:osm_type "way" ;
+    schema:name "Library Phuong Nghia"@en,
+        "Thư Viện Phượng Nghĩa"@vi ;
+    geo:asWKT "POINT(105.7096422 20.9504041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:8589112743> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "17" ;
+    ext:addr_street "Ngõ 90 Láng Hạ" ;
+    ext:osm_id 8589112743 ;
+    ext:osm_type "node" ;
+    schema:name "Tu Sach Cai Gieng"@en,
+        "Tủ sách Cái Giếng"@vi ;
+    geo:asWKT "POINT(105.8112697 21.0119082)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:863234966> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 863234966 ;
+    ext:osm_type "way" ;
+    schema:name "Library Khoa Hoc Va Cong Nghe Quoc Gia"@en,
+        "Thư viện Khoa học và Công nghệ Quốc gia"@vi ;
+    schema:operator "Cục Thông tin, Thống kê - Bộ Khoa học và Công nghệ" ;
+    geo:asWKT "POINT(105.8535212 21.0227751)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:863712774> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 863712774 ;
+    ext:osm_type "way" ;
+    schema:name "Library Truong University Thang Long"@en,
+        "Thư viện Trường Đại học Thăng Long"@vi ;
+    schema:operator "Trường Đại học Thăng Long" ;
+    geo:asWKT "POINT(105.8151344 20.9764919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:872102504> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_housenumber "5A" ;
+    ext:addr_street "Phố Thành Công" ;
+    ext:osm_id 872102504 ;
+    ext:osm_type "way" ;
+    schema:name "Library Ba Dinh"@en,
+        "Thư viện Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8150072 21.0202944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:8860031363> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Võ Quý Huân" ;
+    ext:osm_id 8860031363 ;
+    ext:osm_type "node" ;
+    schema:name "Library Quan Bac Tu Liem"@en,
+        "Thư viện quận Bắc Từ Liêm"@vi ;
+    geo:asWKT "POINT(105.7508232 21.0477677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:947549827> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 947549827 ;
+    ext:osm_type "way" ;
+    schema:name "E"@en,
+        "E"@vi ;
+    geo:asWKT "POINT(105.806816 20.9957456)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:957527738> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:addr_housenumber "2B" ;
+    ext:addr_street "Đường Quang Trung" ;
+    ext:osm_id 957527738 ;
+    ext:osm_type "way" ;
+    schema:name "Library Ha Noi (co So 2)"@en,
+        "Thư viện Hà Nội (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.7790305 20.9745963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:library:958579311> a schema:Library,
+        fiware:PointOfInterest ;
+    ext:osm_id 958579311 ;
+    ext:osm_type "way" ;
+    schema:name "Library"@en,
+        "Thư Viện"@vi ;
+    geo:asWKT "POINT(105.8922893 21.1532224)"^^geo:wktLiteral .
+

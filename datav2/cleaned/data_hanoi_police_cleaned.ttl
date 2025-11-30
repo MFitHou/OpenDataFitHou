@@ -1,0 +1,2347 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1023474787> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1023474787 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Liet"@en,
+        "Công an phường Thanh Liệt"@vi ;
+    geo:asWKT "POINT(105.8006361 20.988779)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1023474788> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1023474788 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Liet"@en,
+        "Công an phường Thanh Liệt"@vi ;
+    geo:asWKT "POINT(105.8003682 20.9885593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030860266> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030860266 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong My Dinh 1"@en,
+        "Công an phường Mỹ Đình 1"@vi ;
+    geo:asWKT "POINT(105.7712232 21.0202112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872133> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030872133 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Huyen Thanh Tri"@en,
+        "Công an huyện Thanh Trì"@vi ;
+    geo:asWKT "POINT(105.8497836 20.9373615)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872135> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030872135 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thi Tran Van Dien"@en,
+        "Công an thị trấn Văn Điển"@vi ;
+    geo:asWKT "POINT(105.8449299 20.9447311)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872138> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "96" ;
+    ext:addr_street "Phố Tô Hiến Thành" ;
+    ext:osm_id 1030872138 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Canh Sat Quan Ly Hanh Chinh Ve Trat Tu Xa Hoi"@en,
+        "Phòng Cảnh sát Quản lý hành chính về trật tự xã hội"@vi ;
+    geo:asWKT "POINT(105.8480449 21.0135958)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872139> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030872139 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Dong Anh"@en,
+        "Công an xã Đông Anh"@vi ;
+    geo:asWKT "POINT(105.8461794 21.1404647)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872141> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030872141 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Quan Bac Tu Liem"@en,
+        "Công an quận Bắc Từ Liêm"@vi ;
+    geo:asWKT "POINT(105.7496619 21.0653846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030872142> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030872142 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Huyen Chuong My"@en,
+        "Công an huyện Chương Mỹ"@vi ;
+    geo:asWKT "POINT(105.7080657 20.925718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1030873344> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030873344 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Dai Thanh"@en,
+        "Công an xã Đại Thanh"@vi ;
+    geo:asWKT "POINT(105.8105374 20.9560435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040480729> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "55" ;
+    ext:addr_street "Phố Tương Mai" ;
+    ext:osm_id 1040480729 ;
+    ext:osm_type "way" ;
+    schema:name "Bo Tu Lenh Canh Sat Co Dong - Doan Nghi Le Police Station Nhan Dan"@en,
+        "Bộ Tư Lệnh Cảnh Sát Cơ Động - Đoàn Nghi lễ Công An Nhân Dân"@vi ;
+    geo:asWKT "POINT(105.8420778 20.9916093)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040511320> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040511320 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bach Mai"@en,
+        "Công an phường Bạch Mai"@vi ;
+    geo:asWKT "POINT(105.8520064 20.9988698)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040721470> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040721470 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Van Mieu - Quoc Tu Giam"@en,
+        "Công an phường Văn Miếu - Quốc Tử Giám"@vi ;
+    schema:telephone "+84 024 38524871" ;
+    geo:asWKT "POINT(105.8370718 21.0120071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040724494> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "59" ;
+    ext:addr_street "Phố Huế" ;
+    ext:osm_id 1040724494 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Pham Dinh Ho"@en,
+        "Công an phường Phạm Đình Hổ"@vi ;
+    geo:asWKT "POINT(105.851815 21.0178578)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040732530> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "48" ;
+    ext:addr_street "Phố Cửa Bắc" ;
+    ext:osm_id 1040732530 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ba Dinh"@en,
+        "Công an phường Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8428956 21.0442907)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040776479> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "96" ;
+    ext:addr_street "Phố Ô Chợ Dừa" ;
+    ext:osm_id 1040776479 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong O Market Dua"@en,
+        "Công an phường Ô Chợ Dừa"@vi ;
+    geo:asWKT "POINT(105.8266751 21.0205512)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1040806940> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "252" ;
+    ext:addr_street "Phố Kim Mã" ;
+    ext:osm_id 1040806940 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Ma"@en,
+        "Công an phường Kim Mã"@vi ;
+    geo:asWKT "POINT(105.8233369 21.0317784)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1041112516> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1041112516 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 14"@en,
+        "Đội Cảnh sát Giao thông số 14"@vi ;
+    geo:asWKT "POINT(105.8436392 20.9628722)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1042538555> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 4 Kim Đồng" ;
+    ext:osm_id 1042538555 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Giap Bat"@en,
+        "Công an phường Giáp Bát"@vi ;
+    geo:asWKT "POINT(105.8420765 20.982615)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1046122139> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1046122139 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Trong"@en,
+        "Công an phường Hàng Trống"@vi ;
+    geo:asWKT "POINT(105.8500198 21.0292374)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1054693221> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1054693221 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 4"@en,
+        "Đội Cảnh sát Giao thông số 4"@vi ;
+    geo:asWKT "POINT(105.8650151 21.016418)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1071065168> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Ngõ 387 phố Bình Minh" ;
+    ext:osm_id 1071065168 ;
+    ext:osm_type "way" ;
+    schema:name "Doanh Trai Canh Sat Co Dong Thanh Pho Ha Noi"@en,
+        "Doanh trại Cảnh sát cơ động thành phố Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9431237 21.019359)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1071065169> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1071065169 ;
+    ext:osm_type "way" ;
+    schema:name "Dai Doi 3 Tieu Doan Canh Sat Co Dong So 2"@en,
+        "Đại đội 3 Tiểu đoàn Cảnh sát cơ động số 2"@vi ;
+    geo:asWKT "POINT(105.9432881 21.0193399)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1071065170> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1071065170 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Gia Lam"@en,
+        "Công an xã Gia Lâm"@vi ;
+    geo:asWKT "POINT(105.9429769 21.0194638)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1086185741> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "43" ;
+    ext:addr_street "Phố Trần Quốc Toản" ;
+    ext:osm_id 1086185741 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tran Hung Dao"@en,
+        "Công an phường Trần Hưng Đạo"@vi ;
+    geo:asWKT "POINT(105.8489093 21.0197265)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1097438440> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1097438440 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Van Canh"@en,
+        "Công an xã Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7293291 21.035898)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1104046465> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "497" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:osm_id 1104046465 ;
+    ext:osm_type "way" ;
+    schema:name "Cuc Canh Sat Hinh Su"@en,
+        "Cục Cảnh sát Hình sự"@vi ;
+    schema:url <https://bocongan.gov.vn/> ;
+    geo:asWKT "POINT(105.7987672 20.9874983)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1104046467> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "499" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:osm_id 1104046467 ;
+    ext:osm_type "way" ;
+    schema:name "Van Phong Co Quan Canh Sat Dieu Tra"@en,
+        "Văn phòng Cơ quan Cảnh sát Điều tra"@vi ;
+    schema:url <https://bocongan.gov.vn/> ;
+    geo:asWKT "POINT(105.7980202 20.9872242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1108074619> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "62" ;
+    ext:addr_street "Đường Kim Giang" ;
+    ext:osm_id 1108074619 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Khuong Dinh"@en,
+        "Công an phường Khương Đình"@vi ;
+    geo:asWKT "POINT(105.8148736 20.9833017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1118121718> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_housenumber "253" ;
+    ext:addr_street "Đường Nguyễn Đức Thuận" ;
+    ext:osm_id 1118121718 ;
+    ext:osm_type "way" ;
+    schema:legalName "Phòng Cảnh sát giao thông, Công an thành phố Hà Nội"@vi ;
+    schema:name "Phong Canh Sat Giao Thong"@en,
+        "Phòng Cảnh sát giao thông"@vi ;
+    geo:asWKT "POINT(105.9393111 21.0208548)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1118312966> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "45B" ;
+    ext:addr_street "Phố Nghĩa Tân" ;
+    ext:osm_id 1118312966 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nghia Do"@en,
+        "Công an phường Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.7929573 21.0432263)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1118795754> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "89" ;
+    ext:addr_street "Phố Lý Thường Kiệt" ;
+    ext:osm_id 1118795754 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cua Nam"@en,
+        "Công an phường Cửa Nam"@vi ;
+    geo:asWKT "POINT(105.8421905 21.025528)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11202169266> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 11202169266 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station at Pho Xa Dan"@en,
+        "Đồn công an tại Phố Xã Đàn"@vi ;
+    geo:asWKT "POINT(105.8325 21.0156411)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11212821597> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 11212821597 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station at Duong Pham Van Dong"@en,
+        "Đồn công an tại Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7815423 21.0464577)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1122937026> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2A" ;
+    ext:addr_street "Đường Phạm Hùng" ;
+    ext:osm_id 1122937026 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 6"@en,
+        "Đội Cảnh sát Giao thông số 6"@vi ;
+    geo:asWKT "POINT(105.7797877 21.0357208)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1124817463> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "45" ;
+    ext:addr_street "Ngõ 215 đường Trâu Quỳ" ;
+    ext:osm_id 1124817463 ;
+    ext:osm_type "way" ;
+    schema:legalName "Trụ sở chính Công an xã Gia Lâm"@vi ;
+    schema:name "Police Station Xa Gia Lam"@en,
+        "Công an xã Gia Lâm"@vi ;
+    geo:asWKT "POINT(105.9393123 21.0071993)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1127713395> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "52" ;
+    ext:addr_street "Phố Nguyễn Du" ;
+    ext:osm_id 1127713395 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nguyen Du"@en,
+        "Công an phường Nguyễn Du"@vi ;
+    geo:asWKT "POINT(105.8479704 21.019199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1157172122> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172122 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Tu Hiep"@en,
+        "Công an xã Tứ Hiệp"@vi ;
+    geo:asWKT "POINT(105.8493433 20.947845)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11590941891> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "109" ;
+    ext:addr_street "Phố Láng Hạ" ;
+    ext:osm_id 11590941891 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Lang"@en,
+        "Công an phường Láng"@vi ;
+    schema:telephone "+84 024 38533528" ;
+    geo:asWKT "POINT(105.8125853 21.0125432)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11590966806> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 11590966806 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Vinh Phuc"@en,
+        "Công an phường Vĩnh Phúc"@vi ;
+    geo:asWKT "POINT(105.8087405 21.0423014)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11625397935> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "61" ;
+    ext:addr_street "Phố Tuệ Tĩnh" ;
+    ext:osm_id 11625397935 ;
+    ext:osm_type "node" ;
+    schema:name "Diem Khai Bao Luu Tru"@en,
+        "Điểm khai báo lưu trú"@vi ;
+    geo:asWKT "POINT(105.8493667 21.0150388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11633344425> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "147" ;
+    ext:addr_street "Phố Ngọc Lâm" ;
+    ext:osm_id 11633344425 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Ngoc Lam"@en,
+        "Công an phường Ngọc Lâm"@vi ;
+    geo:asWKT "POINT(105.8691113 21.0455068)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1168580667> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1168580667 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuong Liet"@en,
+        "Công an phường Phương Liệt"@vi ;
+    geo:asWKT "POINT(105.8316722 20.9878843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:11690446912> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 11690446912 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Phu Luong"@en,
+        "Công an phường Phú Lương"@vi ;
+    geo:asWKT "POINT(105.7697165 20.9380573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1187339505> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187339505 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuc Loi"@en,
+        "Công an phường Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.9263357 21.0475478)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1187339518> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187339518 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thuong Thanh"@en,
+        "Công an phường Thượng Thanh"@vi ;
+    schema:operator "Công an quận Long Biên" ;
+    geo:asWKT "POINT(105.9002657 21.0710845)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1187339532> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Thành phố Hà Nội" ;
+    ext:addr_district "Quận Long Biên" ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Phố Đặng Vũ Hỷ" ;
+    ext:osm_id 1187339532 ;
+    ext:osm_type "way" ;
+    schema:name "Cuc Canh Sat Giao Thong"@en,
+        "Cục Cảnh sát Giao thông"@vi ;
+    schema:operator "Bộ Công an" ;
+    geo:asWKT "POINT(105.8986617 21.0720318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1188004492> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1188004492 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station at Pho Tran Dang Khoa"@en,
+        "Đồn công an tại Phố Trần Đăng Khoa"@vi ;
+    geo:asWKT "POINT(105.8888087 21.0232606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1198061248> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Đường Châu Văn Liêm" ;
+    ext:osm_id 1198061248 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tu Liem"@en,
+        "Công an phường Từ Liêm"@vi ;
+    geo:asWKT "POINT(105.771017 21.0101477)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1201121660> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "593" ;
+    ext:addr_street "Đường Bát Khối" ;
+    ext:osm_id 1201121660 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Long Bien"@en,
+        "Công an phường Long Biên"@vi ;
+    geo:asWKT "POINT(105.9046183 21.0114515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1201121672> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "607" ;
+    ext:addr_street "Đường Bát Khối" ;
+    ext:osm_id 1201121672 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cu Khoi"@en,
+        "Công an phường Cự Khối"@vi ;
+    geo:asWKT "POINT(105.9053589 21.0099628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1205117604> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "416" ;
+    ext:addr_street "Đường Ỷ Lan" ;
+    ext:osm_id 1205117604 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Thuan an"@en,
+        "Công an xã Thuận An"@vi ;
+    geo:asWKT "POINT(105.9596006 21.0303984)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:12084554886> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Lê Hồng Phong" ;
+    ext:osm_id 12084554886 ;
+    ext:osm_type "node" ;
+    schema:name "Bo Tu Lenh Canh Ve"@en,
+        "Bộ Tư lệnh Cảnh vệ"@vi ;
+    schema:operator "Bộ Công an" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q18456164> ;
+    geo:asWKT "POINT(105.838091 21.0331374)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/B%E1%BB%99%20T%C6%B0%20l%E1%BB%87nh%20C%E1%BA%A3nh%20v%E1%BB%87%20%28Vi%E1%BB%87t%20Nam%29> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1212917313> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1212917313 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 1"@en,
+        "Đội Cảnh sát Giao thông số 1"@vi ;
+    geo:asWKT "POINT(105.8506747 21.0396875)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1213059861> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "188" ;
+    ext:addr_street "Đường Nguyễn Khánh Toàn" ;
+    ext:osm_id 1213059861 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cau Giay"@en,
+        "Công an phường Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7950132 21.0380251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1213238764> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213238764 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Quan Hoa"@en,
+        "Công an phường Quan Hoa"@vi ;
+    geo:asWKT "POINT(105.7999099 21.0345266)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1213878338> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213878338 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nghia Do"@en,
+        "Công an phường Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.8066475 21.0502019)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1215063368> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "23" ;
+    ext:addr_street "Đường Nguyễn Khang" ;
+    ext:osm_id 1215063368 ;
+    ext:osm_type "way" ;
+    schema:name "Bo Tu Lenh Canh Sat Co Dong"@en,
+        "Bộ Tư lệnh Cảnh sát Cơ động"@vi ;
+    schema:operator "Bộ Công an" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q18456162> ;
+    geo:asWKT "POINT(105.8026965 21.0161676)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/B%E1%BB%99%20T%C6%B0%20l%E1%BB%87nh%20C%E1%BA%A3nh%20s%C3%A1t%20C%C6%A1%20%C4%91%E1%BB%99ng%20%28Vi%E1%BB%87t%20Nam%29> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1215063371> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215063371 ;
+    ext:osm_type "way" ;
+    schema:name "Kho Vat Chung Police Station Quan Cau Giay"@en,
+        "Kho vật chứng Công an quận Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.8032807 21.0156373)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1216036350> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "37" ;
+    ext:addr_street "Đường Điện Biên Phủ" ;
+    ext:osm_id 1216036350 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi - Co So Ba Dinh"@en,
+        "Công an thành phố Hà Nội - Cơ sở Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8383553 21.0330847)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1216872012> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216872012 ;
+    ext:osm_type "way" ;
+    schema:name "Tru So Thon Vang, Police Station Xa Co Bi"@en,
+        "Trụ sở thôn Vàng, Công an xã Cổ Bi"@vi ;
+    schema:operator "Công an xã Cổ Bi" ;
+    geo:asWKT "POINT(105.9380981 21.0329756)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1217807982> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "72" ;
+    ext:addr_street "Phố Đặng Trần Đức" ;
+    ext:osm_id 1217807982 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Vinh Hung"@en,
+        "Công an phường Vĩnh Hưng"@vi ;
+    geo:asWKT "POINT(105.8835806 20.9946145)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1217817536> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "112" ;
+    ext:addr_street "Đường Lê Duẩn" ;
+    ext:osm_id 1217817536 ;
+    ext:osm_type "way" ;
+    schema:email "csgtvn@mps.gov.vn" ;
+    schema:name "Cuc Canh Sat Giao Thong"@en,
+        "Cục Cảnh sát giao thông"@vi ;
+    schema:operator "Bộ Công an" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q16480386> ;
+    schema:telephone "+84 69 2342608" ;
+    schema:url <https://www.csgt.vn/> ;
+    geo:asWKT "POINT(105.8412155 21.0259897)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%E1%BB%A5c%20C%E1%BA%A3nh%20s%C3%A1t%20giao%20th%C3%B4ng%20%28Vi%E1%BB%87t%20Nam%29> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1230360615> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1230360615 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Xuan Tao"@en,
+        "Công an phường Xuân Tảo"@vi ;
+    geo:asWKT "POINT(105.8012377 21.063182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1231386921> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "48" ;
+    ext:addr_street "Phố Lưu Quang Vũ" ;
+    ext:osm_id 1231386921 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Canh Sat Thi Hanh an Hinh Su Va Ho Tro Tu Phap"@en,
+        "Phòng Cảnh sát Thi hành án hình sự và Hỗ trợ tư pháp"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.7997702 21.0150668)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1235163096> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1235163096 ;
+    ext:osm_type "way" ;
+    schema:name "Tieu Doan 1/e22 Bo Tu Lenh Canh Sat Co Dong"@en,
+        "Tiểu đoàn 1/E22 Bộ Tư lệnh Cảnh sát cơ động"@vi ;
+    geo:asWKT "POINT(105.8598799 20.996584)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1239627902> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Đường Nguyễn Gia Bồng" ;
+    ext:osm_id 1239627902 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bo De"@en,
+        "Công an phường Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8679094 21.0584737)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1242851147> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1242851147 ;
+    ext:osm_type "way" ;
+    schema:name "Canh Sat Bao Ve Hang Dac Biet"@en,
+        "Cảnh sát bảo vệ Hàng đặc biệt"@vi ;
+    schema:operator "Bộ Công an" ;
+    geo:asWKT "POINT(105.7840457 21.0443418)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1243950301> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243950301 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Dong My"@en,
+        "Công an xã Đông Mỹ"@vi ;
+    geo:asWKT "POINT(105.8722992 20.9166454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1243950302> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "128" ;
+    ext:addr_street "Phố Vọng" ;
+    ext:osm_id 1243950302 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tuong Mai"@en,
+        "Công an phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8425155 20.9966755)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1243950303> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243950303 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hoang Liet"@en,
+        "Công an phường Hoàng Liệt"@vi ;
+    geo:asWKT "POINT(105.8415258 20.9599144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1243950304> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "162" ;
+    ext:addr_street "Đường Hoàng Mai" ;
+    ext:osm_id 1243950304 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hoang Van Thu"@en,
+        "Công an phường Hoàng Văn Thụ"@vi ;
+    geo:asWKT "POINT(105.853436 20.9906506)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1245995568> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Hồ Đắc Di" ;
+    ext:osm_id 1245995568 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Lien"@en,
+        "Công an phường Kim Liên"@vi ;
+    schema:telephone "+84 024 38532676" ;
+    geo:asWKT "POINT(105.8282086 21.0126032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1246015335> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "266" ;
+    ext:addr_street "Phố Khâm Thiên" ;
+    ext:osm_id 1246015335 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Van Mieu - Quoc Tu Giam"@en,
+        "Công an phường Văn Miếu - Quốc Tử Giám"@vi ;
+    schema:telephone "+84 024 38519503" ;
+    geo:asWKT "POINT(105.834324 21.0194073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1246015336> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "72" ;
+    ext:addr_street "Phố Tôn Đức Thắng" ;
+    ext:osm_id 1246015336 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Quoc Tu Giam"@en,
+        "Công an phường Quốc Tử Giám"@vi ;
+    geo:asWKT "POINT(105.8339416 21.0276515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1246762482> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1246762482 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Da"@en,
+        "Công an phường Đống Đa"@vi ;
+    geo:asWKT "POINT(105.8200652 21.012589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1246769489> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "162" ;
+    ext:addr_street "Phố Tôn Đức Thắng" ;
+    ext:osm_id 1246769489 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Bot"@en,
+        "Công an phường Hàng Bột"@vi ;
+    geo:asWKT "POINT(105.8324196 21.024354)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1246769491> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "7" ;
+    ext:addr_street "Phố Thành Công" ;
+    ext:osm_id 1246769491 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Cong"@en,
+        "Công an phường Thành Công"@vi ;
+    geo:asWKT "POINT(105.8156265 21.0222208)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249840990> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249840990 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 5"@en,
+        "Đội Cảnh sát Giao thông số 5"@vi ;
+    geo:asWKT "POINT(105.8995041 21.0391629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249840991> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1234" ;
+    ext:addr_street "Đường Láng" ;
+    ext:osm_id 1249840991 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 3"@en,
+        "Đội Cảnh sát Giao thông số 3"@vi ;
+    geo:asWKT "POINT(105.8009118 21.0284401)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249840993> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "611" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:osm_id 1249840993 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 7"@en,
+        "Đội Cảnh sát Giao thông số 7"@vi ;
+    geo:asWKT "POINT(105.794766 20.9851612)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249840994> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "8A" ;
+    ext:addr_street "Đường Xuân La" ;
+    ext:osm_id 1249840994 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 2"@en,
+        "Đội Cảnh sát Giao thông số 2"@vi ;
+    geo:asWKT "POINT(105.8088168 21.0614939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249931330> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249931330 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Canh Sat Giao Thong So 10"@en,
+        "Đội Cảnh sát Giao thông số 10"@vi ;
+    geo:asWKT "POINT(105.7590101 20.9572608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249932103> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "656" ;
+    ext:addr_street "Đường Hoàng Hoa Thám" ;
+    ext:osm_id 1249932103 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Buoi"@en,
+        "Công an phường Bưởi"@vi ;
+    geo:asWKT "POINT(105.8084605 21.0474981)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249932104> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249932104 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Lieu Giai"@en,
+        "Công an phường Liễu Giai"@vi ;
+    geo:asWKT "POINT(105.8154914 21.0410637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249932107> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "95" ;
+    ext:addr_street "Ngõ 158 Ngọc Hà" ;
+    ext:osm_id 1249932107 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ngoc Ha"@en,
+        "Công an phường Ngọc Hà"@vi ;
+    geo:asWKT "POINT(105.8279735 21.0370453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1249932109> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249932109 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thuy Khue"@en,
+        "Công an phường Thuỵ Khuê"@vi ;
+    geo:asWKT "POINT(105.8281901 21.0407976)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177226> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "72" ;
+    ext:addr_street "Phố Ngọc Hà" ;
+    ext:osm_id 1250177226 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ba Dinh"@en,
+        "Công an phường Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8311385 21.0355868)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177227> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "61" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    ext:osm_id 1250177227 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ba Dinh"@en,
+        "Công an phường Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8422645 21.0422502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177228> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Lê Trực" ;
+    ext:osm_id 1250177228 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ba Dinh"@en,
+        "Công an phường Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8328468 21.0325073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177229> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250177229 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuc Xa"@en,
+        "Công an phường Phúc Xá"@vi ;
+    geo:asWKT "POINT(105.8500214 21.0456143)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177231> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Bạch Đằng" ;
+    ext:osm_id 1250177231 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Chuong Duong"@en,
+        "Công an phường Chương Dương"@vi ;
+    geo:asWKT "POINT(105.8598564 21.029514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177232> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250177232 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ly Thai to"@en,
+        "Công an phường Lý Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.8566691 21.0288836)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177236> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250177236 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Bong"@en,
+        "Công an phường Hàng Bông"@vi ;
+    geo:asWKT "POINT(105.8458491 21.02939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250177238> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Hàng Cá" ;
+    ext:osm_id 1250177238 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Dao"@en,
+        "Công an phường Hàng Đào"@vi ;
+    geo:asWKT "POINT(105.8493903 21.0363556)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1250198550> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngõ 15 phố Tân Thụy" ;
+    ext:osm_id 1250198550 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuc Loi"@en,
+        "Công an phường Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.8971445 21.0433578)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1251537949> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537949 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Giang Bien"@en,
+        "Công an phường Giang Biên"@vi ;
+    geo:asWKT "POINT(105.9166253 21.0630507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1256790912> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Tiên Du" ;
+    ext:osm_id 1256790912 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Khu Cong Nghiep Tien Son"@en,
+        "Đồn Công an Khu công nghiệp Tiên Sơn"@vi ;
+    geo:asWKT "POINT(105.9996912 21.1200766)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1256790922> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256790922 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Nguyen"@en,
+        "Công an phường Đồng Nguyên"@vi ;
+    geo:asWKT "POINT(105.9731507 21.1238395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1256792770> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Hoàn Kiếm" ;
+    ext:osm_id 1256792770 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Xuan"@en,
+        "Công an phường Đồng Xuân"@vi ;
+    geo:asWKT "POINT(105.8475998 21.039899)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1265527322> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1265527322 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Kim Chung"@en,
+        "Công an xã Kim Chung"@vi ;
+    geo:asWKT "POINT(105.7745537 21.127144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1265704601> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Bùi Thiện Ngộ" ;
+    ext:osm_id 1265704601 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Viet Hung"@en,
+        "Công an phường Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.9071296 21.0573605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:12662265317> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 12662265317 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Xa Lai Yen"@en,
+        "Công an xã Lại Yên"@vi ;
+    geo:asWKT "POINT(105.7091561 21.0268975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267683418> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "41" ;
+    ext:addr_street "Phố Nguyễn Đình Chiểu" ;
+    ext:osm_id 1267683418 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hai Ba Trung"@en,
+        "Công an phường Hai Bà Trưng"@vi ;
+    geo:asWKT "POINT(105.8469648 21.0137401)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267683420> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "33" ;
+    ext:addr_street "Phố Hương Viên" ;
+    ext:osm_id 1267683420 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hai Ba Trung"@en,
+        "Công an phường Hai Bà Trưng"@vi ;
+    geo:asWKT "POINT(105.8566519 21.0116185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267837944> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "143" ;
+    ext:addr_street "Phố Lò Đúc" ;
+    ext:osm_id 1267837944 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Mac"@en,
+        "Công an phường Đống Mác"@vi ;
+    geo:asWKT "POINT(105.8599491 21.0110707)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267837946> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "49B" ;
+    ext:addr_street "Phố Hàng Bài" ;
+    ext:osm_id 1267837946 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Bai"@en,
+        "Công an phường Hàng Bài"@vi ;
+    geo:asWKT "POINT(105.8523361 21.0207712)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267837947> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "73" ;
+    ext:addr_street "Đường Lê Duẩn" ;
+    ext:osm_id 1267837947 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cua Nam"@en,
+        "Công an phường Cửa Nam"@vi ;
+    geo:asWKT "POINT(105.8416744 21.0257137)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267837948> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "9" ;
+    ext:addr_street "Phố Phan Chu Trinh" ;
+    ext:osm_id 1267837948 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cua Nam"@en,
+        "Công an phường Cửa Nam"@vi ;
+    geo:asWKT "POINT(105.8567114 21.0224559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267845402> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Phố Lương Yên" ;
+    ext:osm_id 1267845402 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bach Dang"@en,
+        "Công an phường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8630779 21.0105455)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267845405> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1267845405 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bach Mai"@en,
+        "Công an phường Bạch Mai"@vi ;
+    geo:asWKT "POINT(105.8485742 21.0008858)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267845406> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "127" ;
+    ext:addr_street "Phố Bạch Mai" ;
+    ext:osm_id 1267845406 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bach Mai"@en,
+        "Công an phường Bạch Mai"@vi ;
+    geo:asWKT "POINT(105.8513795 21.0062239)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267845407> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "4" ;
+    ext:osm_id 1267845407 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Nhan"@en,
+        "Công an phường Thanh Nhàn"@vi ;
+    geo:asWKT "POINT(105.8530664 21.0033601)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1267846719> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1267846719 ;
+    ext:osm_type "way" ;
+    schema:name "Doi Tuan Tra, Kiem Soat Giao Thong Duong Bo Cao Toc So 2"@en,
+        "Đội Tuần tra, kiểm soát giao thông đường bộ cao tốc số 2"@vi ;
+    geo:asWKT "POINT(105.9177353 21.0861254)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269075371> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1269075371 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Nam Hong"@en,
+        "Công an xã Nam Hồng"@vi ;
+    geo:asWKT "POINT(105.780414 21.1599182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269075373> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1269075373 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Mai Lam"@en,
+        "Công an xã Mai Lâm"@vi ;
+    geo:asWKT "POINT(105.8834132 21.1005404)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269299605> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1269299605 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thuy Phuong"@en,
+        "Công an phường Thuỵ Phương"@vi ;
+    geo:asWKT "POINT(105.7773429 21.0907153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269315171> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1269315171 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Ngac"@en,
+        "Công an phường Đông Ngạc"@vi ;
+    geo:asWKT "POINT(105.7774701 21.0870803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269371912> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "261" ;
+    ext:addr_street "Phố Vọng" ;
+    ext:osm_id 1269371912 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tuong Mai"@en,
+        "Công an phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8427729 20.9949458)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1269371914> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "50" ;
+    ext:addr_street "Đường Trương Định" ;
+    ext:osm_id 1269371914 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tuong Mai"@en,
+        "Công an phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8495411 20.9946382)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271711422> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1271711422 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Quynh Loi"@en,
+        "Công an phường Quỳnh Lôi"@vi ;
+    geo:asWKT "POINT(105.8559156 20.9990583)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271711424> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "11" ;
+    ext:addr_street "Phố Vĩnh Tuy" ;
+    ext:osm_id 1271711424 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Vinh Tuy"@en,
+        "Công an phường Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8712394 21.0003594)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271711425> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1271711425 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Minh Khai"@en,
+        "Công an phường Minh Khai"@vi ;
+    geo:asWKT "POINT(105.8553219 20.9972933)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271711436> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "359" ;
+    ext:addr_street "Đường Trường Chinh" ;
+    ext:osm_id 1271711436 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Khuong Dinh"@en,
+        "Công an phường Khương Đình"@vi ;
+    geo:asWKT "POINT(105.8217332 21.002391)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271723050> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "330" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:osm_id 1271723050 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Xuan"@en,
+        "Công an phường Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.8094985 20.9963134)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271723051> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "188" ;
+    ext:addr_street "Phố Quan Nhân" ;
+    ext:osm_id 1271723051 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thanh Xuan"@en,
+        "Công an phường Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.8104031 21.0021737)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1271990242> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1271990242 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi, Co So Me Linh"@en,
+        "Công an thành phố Hà Nội, cơ sở Mê Linh"@vi ;
+    geo:asWKT "POINT(105.7197035 21.1845552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1272219345> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "326" ;
+    ext:addr_street "Đường Hà Huy Tập" ;
+    ext:osm_id 1272219345 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thi Tran Yen Vien"@en,
+        "Công an thị trấn Yên Viên"@vi ;
+    geo:asWKT "POINT(105.917104 21.084468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1278002283> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278002283 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa an Khanh"@en,
+        "Công an xã An Khánh"@vi ;
+    geo:asWKT "POINT(105.7190141 21.0020227)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:12880166665> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 12880166665 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Xa Yen My"@en,
+        "Công an xã Yên Mỹ"@vi ;
+    geo:asWKT "POINT(105.8701503 20.9465177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1289671754> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1289671754 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station at Duong Hung Vuong"@en,
+        "Đồn công an tại Đường Hùng Vương"@vi ;
+    geo:asWKT "POINT(105.8349825 21.0383977)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:13111998601> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Phố Nguyễn Đình Chiểu" ;
+    ext:osm_id 13111998601 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Hai Ba Trung"@en,
+        "Công an phường Hai Bà Trưng"@vi ;
+    geo:asWKT "POINT(105.8457618 21.0098192)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1313648028> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "110" ;
+    ext:addr_street "Đường Kim Lan" ;
+    ext:osm_id 1313648028 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Kim Duc"@en,
+        "Công an xã Kim Đức"@vi ;
+    geo:asWKT "POINT(105.9048203 20.963572)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1315300398> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "649" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:osm_id 1315300398 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Tai Nguyen Van Linh"@en,
+        "Đồn công an tại Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.9135192 21.0304693)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1318024645> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "229" ;
+    ext:addr_street "Đường Nguyễn Trãi" ;
+    ext:osm_id 1318024645 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Khuong Dinh"@en,
+        "Công an phường Khương Đình"@vi ;
+    geo:asWKT "POINT(105.8131552 20.9978285)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:13197041120> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 13197041120 ;
+    ext:osm_type "node" ;
+    schema:name "Tru So Police Station Nghia Tru"@en,
+        "Trụ sở Công An Nghĩa Trụ"@vi ;
+    geo:asWKT "POINT(105.9861698 20.9549522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:13229881816> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 13229881816 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Vinh Tuy"@en,
+        "Công an phường Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8653632 21.0048512)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1327886559> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "212" ;
+    ext:addr_street "Đường Kiêu Kỵ" ;
+    ext:osm_id 1327886559 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Gia Lam"@en,
+        "Công an xã Gia Lâm"@vi ;
+    geo:asWKT "POINT(105.9582936 20.9775777)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1327886560> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Bát Khối" ;
+    ext:osm_id 1327886560 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Bat Trang"@en,
+        "Công an xã Bát Tràng"@vi ;
+    geo:asWKT "POINT(105.9204871 20.98305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1328090704> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1328090704 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Huyen Me Linh"@en,
+        "Công an huyện Mê Linh"@vi ;
+    geo:asWKT "POINT(105.7208642 21.1853271)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1329802283> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Phù Lộc" ;
+    ext:osm_id 1329802283 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phu Chan"@en,
+        "Công an phường Phù Chẩn"@vi ;
+    geo:asWKT "POINT(105.9689954 21.0942947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1348720009> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Trang Liệt 3" ;
+    ext:osm_id 1348720009 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Trang Ha"@en,
+        "Công an phường Trang Hạ"@vi ;
+    geo:asWKT "POINT(105.9489788 21.1181715)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1350645039> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "63" ;
+    ext:addr_street "Phố Hoàng Cầu" ;
+    ext:osm_id 1350645039 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Da"@en,
+        "Công an phường Đống Đa"@vi ;
+    schema:telephone "+84 024 38574980" ;
+    geo:asWKT "POINT(105.8241549 21.0168901)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1363521918> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1363521918 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Phu Dong"@en,
+        "Công an xã Phù Đổng"@vi ;
+    geo:asWKT "POINT(105.9647573 21.0611309)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1363604339> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1363604339 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Bat Trang"@en,
+        "Công an xã Bát Tràng"@vi ;
+    geo:asWKT "POINT(105.9179267 20.9817886)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1363604340> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1363604340 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Xuan Quan"@en,
+        "Công an xã Xuân Quan"@vi ;
+    geo:asWKT "POINT(105.9161321 20.9577012)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1363776262> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1363776262 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Ngu Hiep"@en,
+        "Công an xã Ngũ Hiệp"@vi ;
+    geo:asWKT "POINT(105.8594888 20.9235508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1426763334> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Phố Yên Phụ" ;
+    ext:osm_id 1426763334 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Ho"@en,
+        "Công an phường Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8393135 21.0511428)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1427647359> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 169 Đường Đại Mỗ" ;
+    ext:osm_id 1427647359 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Mo - Co So 2"@en,
+        "Công an phường Tây Mỗ - Cơ sở 2"@vi ;
+    geo:asWKT "POINT(105.7597695 20.993175)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1428541248> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "601" ;
+    ext:addr_street "Đường Phạm Văn Đồng" ;
+    ext:osm_id 1428541248 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nghia Do"@en,
+        "Công an phường Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.782587 21.0544259)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1428541249> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1428541249 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nghia Do"@en,
+        "Công an phường Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.7831793 21.0533507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1429641327> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Phố Gia Thụy" ;
+    ext:osm_id 1429641327 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bo De"@en,
+        "Công an phường Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8846227 21.0485947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1429642374> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "366" ;
+    ext:addr_street "Đường Ngô Gia Tự" ;
+    ext:osm_id 1429642374 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Viet Hung"@en,
+        "Công an phường Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.9012104 21.0679314)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1429642375> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "308" ;
+    ext:addr_street "Phố Ngọc Trì" ;
+    ext:osm_id 1429642375 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Long Bien"@en,
+        "Công an phường Long Biên"@vi ;
+    geo:asWKT "POINT(105.915713 21.0229236)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1429642376> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Đường Lý Sơn" ;
+    ext:osm_id 1429642376 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Viet Hung"@en,
+        "Công an phường Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.8858776 21.0578801)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1429652446> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "44" ;
+    ext:addr_street "Phố Nguyễn An Ninh" ;
+    ext:osm_id 1429652446 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tuong Mai"@en,
+        "Công an phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8460409 20.989115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1435144892> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Đường Nguyễn Bỉnh Khiêm" ;
+    ext:osm_id 1435144892 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Huyen Yen Phong"@en,
+        "Công an huyện Yên Phong"@vi ;
+    geo:asWKT "POINT(105.951611 21.2001953)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1435809197> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435809197 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station at Duong to Quyen"@en,
+        "Đồn công an tại Đường Tô Quyền"@vi ;
+    geo:asWKT "POINT(105.9862978 20.9551315)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1435809198> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435809198 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station at Duong to Quyen"@en,
+        "Đồn công an tại Đường Tô Quyền"@vi ;
+    geo:asWKT "POINT(105.9861062 20.955312)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1441817480> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Ngõ 230 Phố Lạc Trung" ;
+    ext:osm_id 1441817480 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Vinh Tuy"@en,
+        "Công an phường Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8658478 21.0037246)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1443936472> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1443936472 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Xuan Phuong"@en,
+        "Công an phường Xuân Phương"@vi ;
+    geo:asWKT "POINT(105.7460517 21.0292762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1443936474> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1443936474 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Tuu"@en,
+        "Công an phường Tây Tựu"@vi ;
+    geo:asWKT "POINT(105.7311758 21.0685694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1443936475> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1443936475 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Tuu"@en,
+        "Công an phường Tây Tựu"@vi ;
+    geo:asWKT "POINT(105.7429209 21.0491735)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1443936477> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1443936477 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Tuu"@en,
+        "Công an phường Tây Tựu"@vi ;
+    geo:asWKT "POINT(105.7285549 21.0688895)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444629301> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "256" ;
+    ext:addr_street "Đường Ỷ Lan" ;
+    ext:osm_id 1444629301 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Thuan an"@en,
+        "Công an xã Thuận An"@vi ;
+    geo:asWKT "POINT(105.9653981 21.0201675)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444629302> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444629302 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Bat Trang"@en,
+        "Công an xã Bát Tràng"@vi ;
+    geo:asWKT "POINT(105.8999224 20.9437315)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444632087> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444632087 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Phu Dong"@en,
+        "Công an xã Phù Đổng"@vi ;
+    geo:asWKT "POINT(105.9264692 21.0741674)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444632088> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444632088 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Phu Dong"@en,
+        "Công an xã Phù Đổng"@vi ;
+    geo:asWKT "POINT(105.9430146 21.077166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444633687> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444633687 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Thu Lam"@en,
+        "Công an xã Thư Lâm"@vi ;
+    geo:asWKT "POINT(105.8958785 21.1734443)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1444634266> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444634266 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Vinh Thanh"@en,
+        "Công an xã Vĩnh Thanh"@vi ;
+    geo:asWKT "POINT(105.7881384 21.1158226)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1446706910> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "522" ;
+    ext:addr_street "Đường Trương Định" ;
+    ext:osm_id 1446706910 ;
+    ext:osm_type "way" ;
+    schema:name "Tru So Police Station Phuong Tuong Mai"@en,
+        "Trụ sở Công an phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8458382 20.98445)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1448136427> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "201" ;
+    ext:addr_street "Phố Minh Khai" ;
+    ext:osm_id 1448136427 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bach Mai"@en,
+        "Công an phường Bạch Mai"@vi ;
+    schema:operator "Công an phường Bạch Mai" ;
+    geo:asWKT "POINT(105.8605137 20.9973065)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1451379317> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Hoàng Trình Thanh" ;
+    ext:osm_id 1451379317 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kien Hung"@en,
+        "Công an phường Kiến Hưng"@vi ;
+    geo:asWKT "POINT(105.7826101 20.9577206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:1685289349> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 1685289349 ;
+    ext:osm_type "node" ;
+    schema:name "Sch E218"@en,
+        "SCH e218"@vi ;
+    geo:asWKT "POINT(105.7274347 20.9994067)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:324548611> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "20" ;
+    ext:addr_street "Phố Khương Hạ" ;
+    ext:osm_id 324548611 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Khuong Dinh"@en,
+        "Công an phường Khương Đình"@vi ;
+    geo:asWKT "POINT(105.8146462 20.9928494)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:335347845> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 335347845 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Co Nhue 2"@en,
+        "Công an phường Cổ Nhuế 2"@vi ;
+    geo:asWKT "POINT(105.7823099 21.0671281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:337920899> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "62" ;
+    ext:addr_street "Đường Nguyễn Văn Huyên" ;
+    ext:osm_id 337920899 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Canh Sat Hinh Su"@en,
+        "Phòng Cảnh sát hình sự"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.7983917 21.0439971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:4539826442> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 4539826442 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Thanh Xuan"@en,
+        "Công an phường Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.7989402 20.9896253)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:4551148209> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "28" ;
+    ext:addr_street "Tây Hồ" ;
+    ext:osm_id 4551148209 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Quang an"@en,
+        "Công An Phường Quảng An"@vi ;
+    geo:asWKT "POINT(105.8247815 21.0656439)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:548262261> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 548262261 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Xuan Phuong"@en,
+        "Công An Phường Xuân Phương"@vi ;
+    geo:asWKT "POINT(105.7396888 21.0351096)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:5485810346> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Giảng Võ" ;
+    ext:osm_id 5485810346 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Giang Vo"@en,
+        "Công an phường Giảng Võ"@vi ;
+    geo:asWKT "POINT(105.8227694 21.0263262)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:570600192> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 570600192 ;
+    ext:osm_type "way" ;
+    schema:name "Tru So Police Station Phuong Mai Dich"@en,
+        "Trụ sở công an phường Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7785613 21.0355745)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:576742553> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Nguyễn Văn Trỗi" ;
+    ext:osm_id 576742553 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dinh Bang"@en,
+        "Công an phường Đình Bảng"@vi ;
+    geo:asWKT "POINT(105.9514388 21.1085559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:577155259> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 577155259 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dinh Bang"@en,
+        "Công an Phường Đình Bảng"@vi ;
+    geo:asWKT "POINT(105.9463059 21.1095106)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:642181129> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 642181129 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Huyen Hoai Duc"@en,
+        "Công an huyện Hoài Đức"@vi ;
+    geo:asWKT "POINT(105.7098352 21.069333)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:648728968> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Đường Lý Thái Tổ" ;
+    ext:osm_id 648728968 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Tu Son"@en,
+        "Công an thành phố Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9589494 21.1124986)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:650435938> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 650435938 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Yen So"@en,
+        "Công an phường Yên Sở"@vi ;
+    geo:asWKT "POINT(105.8712207 20.9680454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:661138412> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 661138412 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Xa Yen Thuong"@en,
+        "Công An Xã Yên Thường"@vi ;
+    geo:asWKT "POINT(105.9167728 21.0978761)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:697791128> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 697791128 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Doan 600 Bo Tu Lenh Canh Ve"@en,
+        "Trung đoàn 600 Bộ Tư lệnh Cảnh vệ"@vi ;
+    geo:asWKT "POINT(105.8319066 21.0379944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:700620986> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Hoàn Kiếm" ;
+    ext:osm_id 700620986 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Ma"@en,
+        "Công an phường Hàng Mã"@vi ;
+    geo:asWKT "POINT(105.8473363 21.0397596)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:700654148> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 700654148 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nguyen Trung Truc"@en,
+        "Công an phường Nguyễn Trung Trực"@vi ;
+    geo:asWKT "POINT(105.8473228 21.0408422)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:700840690> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 700840690 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Bac"@en,
+        "Công an phường Hàng Bạc"@vi ;
+    geo:asWKT "POINT(105.851928 21.0341101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:700840709> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "64" ;
+    ext:addr_street "Phố Hàng Buồm" ;
+    ext:osm_id 700840709 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hang Buom"@en,
+        "Công an phường Hàng Buồm"@vi ;
+    geo:asWKT "POINT(105.8513163 21.0359961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:702456255> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 702456255 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Doan Canh Sat Co Dong"@en,
+        "Trung đoàn Cảnh sát Cơ động"@vi ;
+    geo:asWKT "POINT(105.8370551 21.0268827)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:704147258> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 704147258 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Trang Tien"@en,
+        "Công an phường Tràng Tiền"@vi ;
+    geo:asWKT "POINT(105.8573382 21.0250474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:704147323> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "87" ;
+    ext:addr_postcode "10149" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:osm_id 704147323 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi"@en,
+        "Công an Thành phố Hà Nội"@vi ;
+    geo:asWKT "POINT(105.846242 21.0220784)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:704147369> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "55A" ;
+    ext:addr_street "Phố Lý Thường Kiệt" ;
+    ext:osm_id 704147369 ;
+    ext:osm_type "way" ;
+    schema:name "Phong an Ninh Mang Va Phong, Chong Toi Pham Su Dung Cong Nghe Cao"@en,
+        "Phòng An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.8486061 21.0236387)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:704250764> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250764 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bo De"@en,
+        "Công an phường Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8725257 21.0385032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:704250768> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "101" ;
+    ext:addr_street "Phố Bồ Đề" ;
+    ext:osm_id 704250768 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bo De"@en,
+        "Công an phường Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8719495 21.038036)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:8259365775> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Minh Khai" ;
+    ext:osm_id 8259365775 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Dong Ngan"@en,
+        "Công an phường Đông Ngàn"@vi ;
+    geo:asWKT "POINT(105.9647635 21.120719)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:838404510> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 838404510 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi"@en,
+        "Công an Thành phố Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8515596 21.021823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:842605284> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Tràng Thi" ;
+    ext:osm_id 842605284 ;
+    ext:osm_type "way" ;
+    schema:name "Van Phong Co Quan Canh Sat Dieu Tra"@en,
+        "Văn phòng Cơ quan Cảnh sát điều tra"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.851374 21.0262138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:858242834> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 4A Đặng Văn Ngữ" ;
+    ext:osm_id 858242834 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Lien"@en,
+        "Công an phường Kim Liên"@vi ;
+    schema:telephone "+84 024 38523820" ;
+    geo:asWKT "POINT(105.8320685 21.0088295)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:860294718> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "382" ;
+    ext:addr_street "Phố Khâm Thiên" ;
+    ext:osm_id 860294718 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Canh Sat Dieu Tra Toi Pham Ve Tham Nhung, Kinh Te, Buon Lau, Moi Truong"@en,
+        "Phòng Cảnh sát điều tra tội phạm về tham nhũng, kinh tế, buôn lậu, môi trường"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.831008 21.0196295)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:860294722> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 860294722 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Van Mieu - Quoc Tu Giam"@en,
+        "Công an phường Văn Miếu - Quốc Tử Giám"@vi ;
+    geo:asWKT "POINT(105.836614 21.022281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:860295271> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:osm_id 860295271 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Lien"@en,
+        "Công an phường Kim Liên"@vi ;
+    schema:telephone "+84 024 38523855" ;
+    geo:asWKT "POINT(105.8359055 21.0064662)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:861296600> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "27-29" ;
+    ext:addr_street "Phố Phan Chu Trinh" ;
+    ext:osm_id 861296600 ;
+    ext:osm_type "way" ;
+    schema:name "Phong an Ninh Kinh Te"@en,
+        "Phòng An ninh kinh tế"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.8562403 21.0204765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:863312533> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "739" ;
+    ext:addr_street "Đường Lạc Long Quân" ;
+    ext:osm_id 863312533 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi - Co So Tay Ho"@en,
+        "Công an thành phố Hà Nội - Cơ sở Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8156396 21.0791334)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:874998864> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 874998864 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Quan Nam Tu Liem"@en,
+        "Công an quận Nam Từ Liêm"@vi ;
+    geo:asWKT "POINT(105.7682037 21.0365172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:874998872> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 874998872 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cau Dien"@en,
+        "Công an phường Cầu Diễn"@vi ;
+    geo:asWKT "POINT(105.7651451 21.040017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:886608517> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 886608517 ;
+    ext:osm_type "way" ;
+    schema:name "Tieu Doan Canh Sat Co Dong"@en,
+        "Tiểu đoàn Cảnh sát Cơ động"@vi ;
+    geo:asWKT "POINT(105.7530405 21.0399922)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:890901068> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 890901068 ;
+    ext:osm_type "way" ;
+    schema:name "Phong an Ninh Dieu Tra"@en,
+        "Phòng An ninh điều tra"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.8087333 20.999763)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:891419024> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 292 Đường Kim Giang" ;
+    ext:osm_id 891419024 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dinh Cong"@en,
+        "Công an phường Định Công"@vi ;
+    geo:asWKT "POINT(105.8226504 20.9764203)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:895806285> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngõ 84 Phố Trần Thái Tông" ;
+    ext:osm_id 895806285 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cau Giay"@en,
+        "Công an phường Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7879972 21.031619)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:897569125> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Đức Thắng" ;
+    ext:osm_id 897569125 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Duc Thang"@en,
+        "Công an phường Đức Thắng"@vi ;
+    geo:asWKT "POINT(105.7774734 21.078569)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:9009764731> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 9009764731 ;
+    ext:osm_type "node" ;
+    schema:name "Police Station Phuong Thinh Liet"@en,
+        "Công an phường Thịnh Liệt"@vi ;
+    schema:operator "Công an quận Hoàng Mai" ;
+    geo:asWKT "POINT(105.8468519 20.9705156)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:904135123> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "44" ;
+    ext:addr_street "Phố Phạm Ngọc Thạch" ;
+    ext:osm_id 904135123 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Quan Ly Xuat Nhap Canh"@en,
+        "Phòng Quản lý Xuất nhập cảnh"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.8361168 21.0106338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:914040101> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_housenumber "114" ;
+    ext:addr_street "Đường Cổ Bi" ;
+    ext:osm_id 914040101 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi, Co So Gia Lam"@en,
+        "Công an thành phố Hà Nội, cơ sở Gia Lâm"@vi ;
+    geo:asWKT "POINT(105.9403943 21.0240885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:914126563> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Cầu Bây" ;
+    ext:osm_id 914126563 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuc Loi"@en,
+        "Công an phường Phúc Lợi"@vi ;
+    schema:operator "Công an phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9230317 21.0278378)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:922520644> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_street "Đường Cổ Bi" ;
+    ext:osm_id 922520644 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Tai Duong Co Bi"@en,
+        "Đồn công an tại Đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9405464 21.0284511)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:933680052> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Lê Văn Hiến" ;
+    ext:osm_id 933680052 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Tai Duong Le Van Hien"@en,
+        "Đồn công an tại Đường Lê Văn Hiến"@vi ;
+    geo:asWKT "POINT(105.7763827 21.0740968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:942477945> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 942477945 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Quan Ha Dong"@en,
+        "Công an quận Hà Đông"@vi ;
+    geo:asWKT "POINT(105.769493 20.967388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:944513303> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 944513303 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Quynh Mai"@en,
+        "Công an phường Quỳnh Mai"@vi ;
+    geo:asWKT "POINT(105.8608852 20.9993694)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:947208601> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 947208601 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phuong Liet"@en,
+        "Công an phường Phương Liệt"@vi ;
+    geo:asWKT "POINT(105.8255979 20.9981053)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996491> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996491 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Dong Da"@en,
+        "Công an phường Đống Đa"@vi ;
+    geo:asWKT "POINT(105.8154793 21.0088482)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996501> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1180" ;
+    ext:addr_street "Đường Láng" ;
+    ext:osm_id 956996501 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Lang"@en,
+        "Công an phường Láng"@vi ;
+    schema:telephone "+84 024 37663580" ;
+    geo:asWKT "POINT(105.7997788 21.0273683)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996504> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996504 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ha Cau"@en,
+        "Công an phường Hà Cầu"@vi ;
+    geo:asWKT "POINT(105.7750676 20.9671188)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996505> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "321" ;
+    ext:addr_street "Phố Tây Sơn" ;
+    ext:osm_id 956996505 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Lien"@en,
+        "Công an phường Kim Liên"@vi ;
+    schema:telephone "+84 024 38521546" ;
+    geo:asWKT "POINT(105.8213871 21.0035071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996507> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "163" ;
+    ext:addr_street "Phố Lê Hồng Phong" ;
+    ext:osm_id 956996507 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Ha Dong"@en,
+        "Công an phường Hà Đông"@vi ;
+    geo:asWKT "POINT(105.7749898 20.9662429)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996509> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996509 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Cong Vi"@en,
+        "Công an phường Cống Vị"@vi ;
+    geo:asWKT "POINT(105.8101406 21.0376415)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996512> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996512 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Nguyen Trai"@en,
+        "Công an phường Nguyễn Trãi"@vi ;
+    geo:asWKT "POINT(105.7800391 20.9684552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996516> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "29" ;
+    ext:addr_street "Đường Nguyễn Chí Thanh" ;
+    ext:osm_id 956996516 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Giang Vo"@en,
+        "Công an phường Giảng Võ"@vi ;
+    geo:asWKT "POINT(105.8129182 21.0289566)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:956996530> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996530 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Kim Lien"@en,
+        "Công an phường Kim Liên"@vi ;
+    schema:telephone "+84 024 38521524" ;
+    geo:asWKT "POINT(105.8373406 21.0039072)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:957814762> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "37" ;
+    ext:addr_street "Phố Tứ Liên" ;
+    ext:osm_id 957814762 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Hong Ha"@en,
+        "Công an phường Hồng Hà"@vi ;
+    geo:asWKT "POINT(105.8332434 21.0639988)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:964908476> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 964908476 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Phu Thuong"@en,
+        "Công an phường Phú Thượng"@vi ;
+    geo:asWKT "POINT(105.8091452 21.0884916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:964908478> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "32" ;
+    ext:addr_street "Đường Xuân La" ;
+    ext:osm_id 964908478 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Ho"@en,
+        "Công an phường Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8067781 21.0642256)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:964908481> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "10" ;
+    ext:addr_street "Phố Vũ Tuấn Chiêu" ;
+    ext:osm_id 964908481 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Ho"@en,
+        "Công an phường Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8194205 21.077682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:964908486> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "99" ;
+    ext:addr_street "Đường Xuân La" ;
+    ext:osm_id 964908486 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Ho"@en,
+        "Công an phường Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8060817 21.0640384)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:965530855> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Đoàn Khuê" ;
+    ext:osm_id 965530855 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Thanh Pho Ha Noi - Co So Long Bien"@en,
+        "Công an thành phố Hà Nội - Cơ sở Long Biên"@vi ;
+    schema:operator "Công an thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.901191 21.0630971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:966177535> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:osm_id 966177535 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Bien Giang"@en,
+        "Công an phường Biên Giang"@vi ;
+    schema:operator "Công an quận Hà Đông" ;
+    geo:asWKT "POINT(105.7180844 20.9293079)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:966381885> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 966381885 ;
+    ext:osm_type "way" ;
+    schema:name "Bo Police Station Trung Hoa"@en,
+        "Bộ Công An Trung Hoà"@vi ;
+    geo:asWKT "POINT(105.7997774 21.0114358)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:973471779> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Hoàng Mai" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Bùi Huy Bích" ;
+    ext:osm_id 973471779 ;
+    ext:osm_type "way" ;
+    schema:name "Phong Canh Sat Dieu Tra Toi Pham Ve Ma Tuy"@en,
+        "Phòng Cảnh sát điều tra tội phạm về ma túy"@vi ;
+    geo:asWKT "POINT(105.8456082 20.9674196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:974596752> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 320 Khương Đình" ;
+    ext:osm_id 974596752 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Khuong Dinh"@en,
+        "Công an phường Khương Đình"@vi ;
+    schema:telephone "+84 24338585597" ;
+    geo:asWKT "POINT(105.812758 20.9905556)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:975967860> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:osm_id 975967860 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Thuong Cat"@en,
+        "Công an phường Thượng Cát"@vi ;
+    geo:asWKT "POINT(105.733633 21.0895459)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:976255169> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 976255169 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Tay Mo"@en,
+        "Công an phường Tây Mỗ"@vi ;
+    geo:asWKT "POINT(105.7438864 21.0061441)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:976633068> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:osm_id 976633068 ;
+    ext:osm_type "way" ;
+    schema:name "Police Station Phuong Mo Lao"@en,
+        "Công an phường Mỗ Lao"@vi ;
+    geo:asWKT "POINT(105.7840464 20.9853339)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:police:9974294432> a schema:PoliceStation,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "342" ;
+    ext:addr_street "Phố Thái Hà" ;
+    ext:osm_id 9974294432 ;
+    ext:osm_type "node" ;
+    schema:name "Co So Dang Ky Xe So 1 - Doi Quan Ly Xe"@en,
+        "Cơ sở đăng ký xe số 1 - Đội quản lý xe"@vi ;
+    geo:asWKT "POINT(105.8171397 21.0160716)"^^geo:wktLiteral .
+

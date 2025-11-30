@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Môi trường ảo
+venv/
+.env
+
+# Dữ liệu
+raw_data/
+cleaned_data/
+data/raw/
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# Khác
+.DS_Store
+*.log
+a.md
+translation_cache.json

@@ -1,0 +1,1153 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1040732273> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040732273 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Ton That Thuyet"@en,
+        "Nhà kho tại Phố Tôn Thất Thuyết"@vi ;
+    geo:asWKT "POINT(105.7815101 21.0271237)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1040732654> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040732654 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Ton That Thuyet"@en,
+        "Nhà kho tại Phố Tôn Thất Thuyết"@vi ;
+    geo:asWKT "POINT(105.7805763 21.0270486)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1092144105> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1092144105 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Van Linh"@en,
+        "Nhà kho tại Đường Nguyễn Văn Linh"@vi ;
+    geo:asWKT "POINT(105.8942318 21.050873)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1208965895> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208965895 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Dao Dinh Luyen"@en,
+        "Nhà kho tại Phố Đào Đình Luyện"@vi ;
+    geo:asWKT "POINT(105.8950712 21.046722)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1208965896> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208965896 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Dao Dinh Luyen"@en,
+        "Nhà kho tại Phố Đào Đình Luyện"@vi ;
+    geo:asWKT "POINT(105.8954586 21.0469176)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1216878750> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216878750 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo Xa Dan 2"@en,
+        "Nhà kho tại Ngõ Xã Đàn 2"@vi ;
+    geo:asWKT "POINT(105.8311211 21.01446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1416992351> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1416992351 ;
+    ext:osm_type "way" ;
+    schema:name "Kho hang Nam Chau Foods"@en,
+        "Kho hàng Năm Châu Foods"@vi ;
+    geo:asWKT "POINT(105.8017714 20.9758846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1433522995> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433522995 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Duong Quang Ham"@en,
+        "Nhà kho tại Đường Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.941261 20.9281608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1433523004> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433523004 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Duong Quang Ham"@en,
+        "Nhà kho tại Đường Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.9414319 20.9288048)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1437064255> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1437064255 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Do Tong"@en,
+        "Nhà kho tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9472652 20.942545)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436565> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436565 ;
+    ext:osm_type "way" ;
+    schema:name "Kho GHTK"@en,
+        "Kho GHTK"@vi ;
+    geo:asWKT "POINT(105.8618896 20.9800909)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436566> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436566 ;
+    ext:osm_type "way" ;
+    schema:name "Aquatech"@en,
+        "Aquatech"@vi ;
+    geo:asWKT "POINT(105.8618571 20.9796878)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436567> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436567 ;
+    ext:osm_type "way" ;
+    schema:name "Cong ty Thiet bi Hoang Phong"@en,
+        "Công ty Thiết bị Hoàng Phong"@vi ;
+    geo:asWKT "POINT(105.8620176 20.9795122)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1445436568> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1445436568 ;
+    ext:osm_type "way" ;
+    schema:name "Kho Dien may Viet Phat"@en,
+        "Kho Điện máy Việt Phát"@vi ;
+    geo:asWKT "POINT(105.8618806 20.9804899)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1447891825> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1447891825 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Pho Duc Chinh"@en,
+        "Nhà kho tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.9583125 20.9411348)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1450289481> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1450289481 ;
+    ext:osm_type "way" ;
+    schema:name "Kho"@en,
+        "Kho"@vi ;
+    geo:asWKT "POINT(105.9605342 20.9297544)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1452265184> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1452265184 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Do Tong"@en,
+        "Nhà kho tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9520273 20.9436064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:1452265185> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 1452265185 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Do Tong"@en,
+        "Nhà kho tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9521405 20.9435658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:812492625> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 812492625 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Quoc Lo 23"@en,
+        "Nhà kho tại Quốc lộ 23"@vi ;
+    geo:asWKT "POINT(105.7689824 21.1192367)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:812492626> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 812492626 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Quoc Lo 23"@en,
+        "Nhà kho tại Quốc lộ 23"@vi ;
+    geo:asWKT "POINT(105.7692088 21.1192939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768434> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768434 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8716596 21.0046883)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768435> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768435 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8717455 21.0049696)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768436> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768436 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.87133 21.0050936)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768437> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768437 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8719246 21.0037078)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768438> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768438 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8715359 21.0038529)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768439> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768439 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8716931 21.0037578)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768440> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768440 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8713407 21.0039403)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768441> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768441 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8707832 21.0043582)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768442> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768442 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8710208 21.0042165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768443> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768443 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8716045 21.0044414)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768444> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768444 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8713588 21.0045727)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768445> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768445 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.871129 21.0046605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768446> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768446 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8699653 21.005323)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768447> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768447 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8700968 21.0050636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768448> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768448 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8702129 21.0049323)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768449> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768449 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8705173 21.0052139)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768450> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768450 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8706402 21.0054352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768451> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768451 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8706793 21.0058779)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768452> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768452 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8703427 21.0059127)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768453> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768453 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8708259 21.0055454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768454> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768454 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8709575 21.0057497)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768455> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768455 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8710148 21.0052346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768456> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768456 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 934 Duong Bach Dang"@en,
+        "Nhà kho tại Ngõ 934 Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8711023 21.0054897)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768457> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768457 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8725723 21.0040218)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768458> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768458 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8723293 21.0035527)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768459> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768459 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8721719 21.0033543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840768460> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840768460 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8725514 21.003346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867181> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867181 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.872822 21.0031932)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867182> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867182 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8732809 21.0030608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867183> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867183 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8735299 21.0034677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867184> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867184 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8739803 21.0032874)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867187> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867187 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8762727 21.0026334)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867188> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867188 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.875715 21.002682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867189> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867189 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8755094 21.0028991)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867190> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867190 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8765476 21.0025258)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867191> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867191 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8767638 21.002464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867192> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867192 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8769591 21.0023946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867193> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867193 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8772977 21.0022823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867194> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867194 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8774942 21.0021218)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867195> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867195 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8776391 21.0020684)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867196> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867196 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8778114 21.002061)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867197> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867197 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8779663 21.0020079)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840867198> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840867198 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8787349 21.0017899)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868654> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868654 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8784546 21.0019346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868655> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868655 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.87823 21.0019844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868656> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868656 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8783307 21.0015316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868657> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868657 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8781383 21.0016275)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868658> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868658 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8785032 21.0014041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868659> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868659 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8790132 21.0017516)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868660> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868660 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8787305 21.0013004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868661> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868661 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8792856 21.0015345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868662> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868662 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8790514 21.0011156)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868663> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868663 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 313 Nguyen Khoai"@en,
+        "Nhà kho tại Ngõ 313 Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.879343 21.0010337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868664> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868664 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8797321 21.0016297)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868665> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868665 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8802428 21.0016242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868666> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868666 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8806206 21.0013181)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868667> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868667 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Nguyen Khoai"@en,
+        "Nhà kho tại Đường Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8810162 21.0013256)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868668> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868668 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Duong Bach Dang"@en,
+        "Nhà kho tại Đường Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8792315 21.0017181)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:840868669> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 840868669 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 313 Nguyen Khoai"@en,
+        "Nhà kho tại Ngõ 313 Nguyễn Khoái"@vi ;
+    geo:asWKT "POINT(105.8796681 21.0013248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:893874547> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 893874547 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngach 95/8 Pho Chua Boc"@en,
+        "Nhà kho tại Ngách 95/8 Phố Chùa Bộc"@vi ;
+    geo:asWKT "POINT(105.8273725 21.0075896)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899163626> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 449 Cổ Nhuế" ;
+    ext:osm_id 899163626 ;
+    ext:osm_type "way" ;
+    schema:name "Point at Ngo 449 Co Nhue"@en,
+        "Điểm tại Ngõ 449 Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.7783443 21.0673922)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899165226> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 899165226 ;
+    ext:osm_type "way" ;
+    schema:name "Point at Duong Co Nhue"@en,
+        "Điểm tại Đường Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.7779709 21.0675537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:899520312> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 899520312 ;
+    ext:osm_type "way" ;
+    schema:name "Point at Duong Co Nhue"@en,
+        "Điểm tại Đường Cổ Nhuế"@vi ;
+    geo:asWKT "POINT(105.777525 21.0685435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590433> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 908590433 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8711651 21.0314909)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590434> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 908590434 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8710441 21.0313622)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590435> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 908590435 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8710129 21.0312333)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:908590437> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 908590437 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.871285 21.0315951)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446624> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446624 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8706871 21.0312522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446625> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446625 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8709112 21.0310283)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446626> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446626 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.870852 21.0311736)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446627> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446627 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8707567 21.0310743)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446629> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446629 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.871218 21.0307746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446630> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446630 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8713431 21.0307105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446631> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446631 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8714712 21.0305837)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446632> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446632 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.870808 21.0318448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446633> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446633 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8706391 21.0319329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446634> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446634 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8705381 21.0323099)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913446635> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913446635 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8704992 21.0322222)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913700028> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913700028 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8707428 21.0311796)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757669> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757669 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.870605 21.0315815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757673> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757673 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8702762 21.0318975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757674> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757674 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8701348 21.0321574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757675> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757675 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.870026 21.032362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757676> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757676 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8701762 21.031856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757677> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757677 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8700811 21.0320296)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757678> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757678 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8700106 21.0321537)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757679> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757679 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8700578 21.0315955)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757680> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757680 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8702191 21.0316888)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757681> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757681 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 156 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 156 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8704264 21.0321634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757682> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757682 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8699665 21.0322337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757683> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757683 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8699501 21.0317547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757684> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757684 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8698141 21.0318004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757685> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757685 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.869815 21.0316026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757686> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757686 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8698148 21.0319357)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757687> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757687 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.869612 21.0317898)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757700> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757700 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8711609 21.0327816)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757733> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757733 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.869318 21.0333223)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757734> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757734 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 138 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 138 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8690898 21.0332041)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757738> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757738 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8708516 21.0329243)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757739> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757739 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8667968 21.0368457)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757740> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757740 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 82 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 82 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.866639 21.0371326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757741> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757741 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8669594 21.037277)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913757742> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913757742 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 82 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 82 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8668804 21.0372208)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765768> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913765768 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngach 22/3 Phu Vien"@en,
+        "Nhà kho tại Ngách 22/3 Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8659585 21.0375838)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765769> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913765769 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 22 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 22 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.865894 21.0375217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765774> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913765774 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Phu Vien"@en,
+        "Nhà kho tại Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8671766 21.0361803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913765777> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913765777 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Pho Trinh to Tam"@en,
+        "Nhà kho tại Phố Trịnh Tố Tâm"@vi ;
+    geo:asWKT "POINT(105.8698845 21.035088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770424> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770424 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 142 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 142 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8692511 21.0330144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770425> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770425 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 142 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 142 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8687887 21.032748)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770426> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770426 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 142 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 142 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8688358 21.0329238)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770428> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770428 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 138 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 138 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8687204 21.0331712)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770430> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770430 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 142 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 142 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8685287 21.0327365)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770431> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770431 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 138 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 138 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8685626 21.032934)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913770432> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913770432 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ngo 138 Pho Phu Vien"@en,
+        "Nhà kho tại Ngõ 138 Phố Phú Viên"@vi ;
+    geo:asWKT "POINT(105.8684258 21.0328876)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799967> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913799967 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8699035 21.0314815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799968> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913799968 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8700633 21.0313749)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799969> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913799969 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8701473 21.0311732)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799971> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913799971 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8697054 21.0312313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:913799973> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 913799973 ;
+    ext:osm_type "way" ;
+    schema:name "Warehouse at Ha Noi"@en,
+        "Nhà kho tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8698886 21.0309428)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362670> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 954362670 ;
+    ext:osm_type "way" ;
+    schema:name "Kho Eco3D"@en,
+        "Kho Eco3D"@vi ;
+    geo:asWKT "POINT(105.8618976 20.9792342)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362671> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 954362671 ;
+    ext:osm_type "way" ;
+    schema:name "Cong ty TNHH TMDV Phu tung Oto P&S"@en,
+        "Công ty TNHH TMDV Phụ tùng Ôtô P&S"@vi ;
+    geo:asWKT "POINT(105.861698 20.9795142)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362673> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 954362673 ;
+    ext:osm_type "way" ;
+    schema:name "Kho Cong ty ENTECH Viet Nam"@en,
+        "Kho Công ty ENTECH Việt Nam"@vi ;
+    geo:asWKT "POINT(105.8618513 20.979916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:warehouse:954362674> a schema:Warehouse,
+        fiware:PointOfInterest ;
+    ext:osm_id 954362674 ;
+    ext:osm_type "way" ;
+    schema:name "Tong kho Dien may 68"@en,
+        "Tổng kho Điện máy 68"@vi ;
+    geo:asWKT "POINT(105.8618795 20.9803242)"^^geo:wktLiteral .
+
