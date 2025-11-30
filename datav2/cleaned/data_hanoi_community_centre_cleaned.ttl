@@ -1,0 +1,2636 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1007899330> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "38A" ;
+    ext:addr_street "Đường Đặng Thùy Trâm" ;
+    ext:osm_id 1007899330 ;
+    ext:osm_type "way" ;
+    schema:name "Nha to Dan Pho 1 Dich Vong Hau"@en,
+        "Nhà tổ dân phố 1 Dịch Vọng Hậu"@vi ;
+    geo:asWKT "POINT(105.7852137 21.0439892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1008406414> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1008406414 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Tinh 378, Xuan Quan"@en,
+        "Trung tâm cộng đồng tại Đường tỉnh 378, Xuân Quan"@vi ;
+    geo:asWKT "POINT(105.9219296 20.9659847)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1008406415> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1008406415 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Tinh 378, Xuan Quan"@en,
+        "Trung tâm cộng đồng tại Đường tỉnh 378, Xuân Quan"@vi ;
+    geo:asWKT "POINT(105.9218089 20.9659201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1021332445> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1021332445 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Sinh Hoat Cong Dong"@en,
+        "Nhà Sinh hoạt cộng đồng"@vi ;
+    geo:asWKT "POINT(105.8369398 21.0066571)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1030860270> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1030860270 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong My Dinh 1"@en,
+        "Nhà văn hoá phường Mỹ Đình 1"@vi ;
+    geo:asWKT "POINT(105.771222 21.0198117)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1040794885> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1040794885 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa So 36"@en,
+        "Nhà văn hoá số 36"@vi ;
+    geo:asWKT "POINT(105.8014627 21.034833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1067819613> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_street "Ngõ 134 phố Sài Đồng" ;
+    ext:osm_id 1067819613 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Phuong Sai Dong"@en,
+        "Trung tâm văn hóa phường Sài Đồng"@vi ;
+    schema:operator "UBND phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9152959 21.0357244)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1097438439> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1097438439 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Trung Tam Xa Van Canh"@en,
+        "Nhà văn hoá trung tâm xã Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7294729 21.0361458)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1104873479> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1104873479 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Linh Dam"@en,
+        "Nhà văn hóa Linh Đàm"@vi ;
+    geo:asWKT "POINT(105.835176 20.963887)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1117758826> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1117758826 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Splendora"@en,
+        "Trung tâm cộng đồng tại Đường SPLENDORA"@vi ;
+    geo:asWKT "POINT(105.7240972 21.0138458)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1119231788> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Đoàn Quang Dung" ;
+    ext:osm_id 1119231788 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Xa Gia Lam"@en,
+        "Nhà văn hóa xã Gia Lâm"@vi ;
+    schema:operator "Ủy ban nhân dân xã Gia Lâm" ;
+    geo:asWKT "POINT(105.9459966 21.0144474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1120284602> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1120284602 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Co Khi"@en,
+        "Nhà văn hóa Tổ dân phố Cơ Khí"@vi ;
+    geo:asWKT "POINT(105.9395647 21.0283937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11231110309> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11231110309 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Ngo 195 Duong Hong Ha"@en,
+        "Trung tâm cộng đồng tại Ngõ 195 Đường Hồng Hà"@vi ;
+    geo:asWKT "POINT(105.8540897 21.0397138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1123282982> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1123282982 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngo 37 Tran Quoc Hoan"@en,
+        "Trung tâm cộng đồng tại Ngõ 37 Trần Quốc Hoàn"@vi ;
+    geo:asWKT "POINT(105.787695 21.0400182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1124152119> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1124152119 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 12"@en,
+        "Nhà văn hóa Tổ dân phố số 12"@vi ;
+    schema:operator "UBND phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9175814 21.0340504)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1124152131> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_district "Gia  Lâm" ;
+    ext:addr_housenumber "45" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Ngõ 272 đường Cổ Bi" ;
+    ext:osm_id 1124152131 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Hoi"@en,
+        "Nhà văn hóa thôn Hội"@vi ;
+    schema:operator "Ủy ban nhân dân xã Gia Lâm" ;
+    geo:asWKT "POINT(105.9456574 21.0319946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1137567851> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1137567851 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 1"@en,
+        "Nhà văn hóa Tổ dân phố số 1"@vi ;
+    geo:asWKT "POINT(105.895476 21.0149135)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11397893948> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11397893948 ;
+    ext:osm_type "node" ;
+    schema:name "To 23 Phuong Dich Vong"@en,
+        "Tổ 23 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7887623 21.0347801)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1141562512> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngách 102/31" ;
+    ext:osm_id 1141562512 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Ngach 102/31"@en,
+        "Điểm tại Ngách 102/31"@vi ;
+    geo:asWKT "POINT(105.9492644 21.0328268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1142005105> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "100" ;
+    ext:addr_street "Ngõ 405 đường Ỷ Lan" ;
+    ext:osm_id 1142005105 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Dang"@en,
+        "Nhà văn hóa thôn Đặng"@vi ;
+    geo:asWKT "POINT(105.952929 21.0311626)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1147083167> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1147083167 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Lo"@en,
+        "Nhà văn hóa thôn Lở"@vi ;
+    geo:asWKT "POINT(105.9534393 21.034144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1153416084> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153416084 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - the Thao Xa Tu Hiep"@en,
+        "Trung tâm Văn hoá - Thể thao xã Tứ Hiệp"@vi ;
+    geo:asWKT "POINT(105.852495 20.947302)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1155357391> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155357391 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Huu Tu"@en,
+        "Nhà văn hoá thôn Hữu Từ"@vi ;
+    geo:asWKT "POINT(105.8048085 20.9523195)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1155357394> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155357394 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Huu Le"@en,
+        "Nhà văn hoá thôn Hữu Lê"@vi ;
+    geo:asWKT "POINT(105.8029036 20.9555978)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1155857414> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155857414 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 11"@en,
+        "Nhà văn hóa Tổ dân phố số 11"@vi ;
+    schema:operator "Ủy ban nhân dân phường Cự Khối" ;
+    geo:asWKT "POINT(105.9112164 21.01247)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172106> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172106 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Pin Van Dien"@en,
+        "Nhà văn hoá Pin Văn Điển"@vi ;
+    geo:asWKT "POINT(105.8429143 20.9458437)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172110> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172110 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Ga"@en,
+        "Nhà văn hoá Tổ dân phố Ga"@vi ;
+    geo:asWKT "POINT(105.8458677 20.941077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172127> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172127 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Co Dien B"@en,
+        "Nhà văn hoá thôn Cổ Điển B"@vi ;
+    geo:asWKT "POINT(105.8534461 20.9463256)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172129> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172129 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Cuong Ngo"@en,
+        "Nhà văn hoá thôn Cương Ngô"@vi ;
+    geo:asWKT "POINT(105.8496289 20.9445464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172132> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172132 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Van Dien"@en,
+        "Nhà văn hoá thôn Văn Điển"@vi ;
+    geo:asWKT "POINT(105.8480162 20.9484939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172134> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172134 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Co Dien a"@en,
+        "Nhà văn hoá thôn Cổ Điển A"@vi ;
+    geo:asWKT "POINT(105.8519232 20.9413849)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172144> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172144 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Dong Tri"@en,
+        "Nhà văn hoá thôn Đồng Trì"@vi ;
+    geo:asWKT "POINT(105.8628682 20.9406293)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1157172153> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172153 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 4"@en,
+        "Nhà văn hoá thôn 4"@vi ;
+    geo:asWKT "POINT(105.8457309 20.9286278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11625397942> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "118" ;
+    ext:addr_street "Phố Triệu Việt Vương" ;
+    ext:osm_id 11625397942 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Sinh Hoat Cong Dong Phuong Nguyen Du"@en,
+        "Nhà sinh hoạt cộng đồng phường Nguyễn Du"@vi ;
+    schema:operator "Ủy ban nhân dân phường Nguyễn Du" ;
+    geo:asWKT "POINT(105.8502911 21.0147122)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11629371672> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11629371672 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Ngo 255 Duong Cau Giay"@en,
+        "Trung tâm cộng đồng tại Ngõ 255 Đường Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7954654 21.0329889)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1163316773> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1163316773 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngo 268"@en,
+        "Trung tâm cộng đồng tại Ngõ 268"@vi ;
+    geo:asWKT "POINT(105.8434707 20.9516458)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1164592874> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "564" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    ext:osm_id 1164592874 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Sinh Hoat to Dan Pho So 10"@en,
+        "Nhà sinh hoạt Tổ dân phố số 10"@vi ;
+    geo:asWKT "POINT(105.8076762 21.0485616)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11655061817> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:osm_id 11655061817 ;
+    ext:osm_type "node" ;
+    schema:name "To Dan Pho Hoang 5 & 19"@en,
+        "Tổ dân phố Hoàng 5 & 19"@vi ;
+    geo:asWKT "POINT(105.7842994 21.0449487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11655073086> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11655073086 ;
+    ext:osm_type "node" ;
+    schema:name "To 20 Phuong Dich Vong"@en,
+        "Tổ 20 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7847954 21.0342882)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11655073088> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11655073088 ;
+    ext:osm_type "node" ;
+    schema:name "To 26 Phuong Dich Vong"@en,
+        "Tổ 26 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7855886 21.0338082)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11655073090> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 11655073090 ;
+    ext:osm_type "node" ;
+    schema:name "To 27 Phuong Dich Vong"@en,
+        "Tổ 27 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7867698 21.0326187)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1171597390> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1171597390 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - the Thao Phuong Trung Hoa"@en,
+        "Trung tâm Văn hoá - Thể thao phường Trung Hoà"@vi ;
+    geo:asWKT "POINT(105.8085258 21.0096839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1171597400> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 89 Lạc Long Quân" ;
+    ext:osm_id 1171597400 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Nghia Do"@en,
+        "Nhà văn hoá phường Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.8072943 21.0511255)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:11775084796> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_district "Huyện Thanh Trì" ;
+    ext:osm_id 11775084796 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Khu C Cum 591"@en,
+        "Nhà văn hoá khu C cụm 591"@vi ;
+    geo:asWKT "POINT(105.8478172 20.9073357)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1179985316> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1179985316 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Chinh Trung"@en,
+        "Nhà văn hóa Tổ dân phố Chính Trung"@vi ;
+    geo:asWKT "POINT(105.938315 21.0163525)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1181726342> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1181726342 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 8 Phuong Thach Ban"@en,
+        "Nhà văn hóa tổ dân phố số 8 phường Thạch Bàn"@vi ;
+    geo:asWKT "POINT(105.9071904 21.01481)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1181726343> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1181726343 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 7 Phuong Thach Ban"@en,
+        "Nhà văn hóa tổ dân phố số 7 phường Thạch Bàn"@vi ;
+    geo:asWKT "POINT(105.9092032 21.0209224)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1181726344> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1181726344 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 9 Phuong Thach Ban"@en,
+        "Nhà văn hóa tổ dân phố số 9 phường Thạch Bàn"@vi ;
+    geo:asWKT "POINT(105.9093792 21.0177859)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1182143679> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182143679 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Chu Xa"@en,
+        "Nhà văn hoá thôn Chử Xá"@vi ;
+    geo:asWKT "POINT(105.9030554 20.9401534)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1185727096> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185727096 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Huyen Dong Anh"@en,
+        "Nhà văn hoá huyện Đông Anh"@vi ;
+    geo:asWKT "POINT(105.8508699 21.1419211)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1185901823> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185901823 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 2-3-4"@en,
+        "Nhà văn hoá tổ dân phố số 2-3-4"@vi ;
+    geo:asWKT "POINT(105.8478388 21.1376976)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1185901861> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185901861 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Dan Di"@en,
+        "Nhà văn hoá thôn Đản Dị"@vi ;
+    geo:asWKT "POINT(105.8543268 21.1419087)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1185911647> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185911647 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 5"@en,
+        "Nhà văn hoá tổ dân phố số 5"@vi ;
+    geo:asWKT "POINT(105.8437075 21.1412628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1185911650> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185911650 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 6"@en,
+        "Nhà văn hoá tổ dân phố số 6"@vi ;
+    geo:asWKT "POINT(105.8501454 21.1484242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1187339550> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 201 Đường Phúc Lợi" ;
+    ext:osm_id 1187339550 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa the Thao Phuong Phuc Loi"@en,
+        "Trung tâm văn hóa thể thao phường Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.9268513 21.0417916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1187726806> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187726806 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Kim Quan"@en,
+        "Nhà văn hóa Kim Quan"@vi ;
+    geo:asWKT "POINT(105.9003455 21.0585416)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1189163522> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1189163522 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Thuan Tien"@en,
+        "Nhà văn hoá thôn Thuận Tiến"@vi ;
+    geo:asWKT "POINT(105.9701942 21.0006318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1194656081> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1194656081 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho an Lac"@en,
+        "Nhà văn hóa Tổ dân phố An Lạc"@vi ;
+    geo:asWKT "POINT(105.9260177 21.0149468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1197139583> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197139583 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 3"@en,
+        "Nhà văn hóa Thôn 3"@vi ;
+    geo:asWKT "POINT(105.9158403 20.9971142)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1197414130> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197414130 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 1"@en,
+        "Nhà văn hoá thôn 1"@vi ;
+    geo:asWKT "POINT(105.9078497 20.9699259)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1197414132> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197414132 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 5"@en,
+        "Nhà văn hoá thôn 5"@vi ;
+    geo:asWKT "POINT(105.9010238 20.9583557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1197414133> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197414133 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 4"@en,
+        "Nhà văn hoá thôn 4"@vi ;
+    geo:asWKT "POINT(105.9027208 20.9600026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1197414134> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197414134 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon 1"@en,
+        "Nhà văn hoá thôn 1"@vi ;
+    geo:asWKT "POINT(105.9119057 20.9999273)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1201133035> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Xuân Khôi" ;
+    ext:osm_id 1201133035 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 4"@en,
+        "Nhà văn hóa Tổ dân phố số 4"@vi ;
+    schema:operator "Ủy ban nhân dân phường Cự Khối" ;
+    geo:asWKT "POINT(105.9026066 21.0021384)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1205258217> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1205258217 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 5"@en,
+        "Nhà văn hóa Tổ dấn phố số 5"@vi ;
+    geo:asWKT "POINT(105.9083771 21.0073539)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12069918127> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "28" ;
+    ext:addr_street "Phố Ông Ích Khiêm" ;
+    ext:osm_id 12069918127 ;
+    ext:osm_type "node" ;
+    schema:name "To Dan Pho 7 Phuong Dien Bien"@en,
+        "Tổ dân phố 7 phường Điện Biên"@vi ;
+    geo:asWKT "POINT(105.833468 21.033553)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1209822362> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1209822362 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Pho Me Tri Ha"@en,
+        "Trung tâm cộng đồng tại Phố Mễ Trì Hạ"@vi ;
+    geo:asWKT "POINT(105.7813701 21.014038)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1210271468> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_street "Ngõ 238 Hoàng Quốc Việt" ;
+    ext:osm_id 1210271468 ;
+    ext:osm_type "way" ;
+    schema:name "Nha to Dan Pho Hoang 18"@en,
+        "Nhà tổ dân phố Hoàng 18"@vi ;
+    schema:operator "Ủy ban nhân dân Cổ Nhuế 1" ;
+    geo:asWKT "POINT(105.7833276 21.0473517)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1211613046> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:osm_id 1211613046 ;
+    ext:osm_type "way" ;
+    schema:name "Nha to Dan Pho Hoang 16"@en,
+        "Nhà tổ dân phố Hoàng 16"@vi ;
+    schema:operator "Ủy ban nhân dân Cổ Nhuế 1" ;
+    geo:asWKT "POINT(105.7842893 21.049371)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1213059860> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213059860 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Dich Vong"@en,
+        "Nhà văn hoá phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7950186 21.039422)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1213225185> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213225185 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Nghia Tan"@en,
+        "Nhà văn hoá phường Nghĩa Tân"@vi ;
+    geo:asWKT "POINT(105.7938505 21.0428366)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1213245431> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213245431 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Quan Hoa"@en,
+        "Nhà văn hoá phường Quan Hoa"@vi ;
+    geo:asWKT "POINT(105.7984218 21.0348149)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12135169104> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 12135169104 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa the Thao Va Sinh Hoat Cong Dong Phuong Vinh Tuy"@en,
+        "Nhà văn hóa thể thao và sinh hoạt cộng đồng phường Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8749826 20.9952163)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1213885334> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213885334 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngach 60 Ngo 381 Duong Nguyen Khang"@en,
+        "Trung tâm cộng đồng tại Ngách 60 Ngõ 381 Đường Nguyễn Khang"@vi ;
+    geo:asWKT "POINT(105.797111 21.0287727)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1214031949> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1214031949 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Hoang Long"@en,
+        "Nhà văn hóa thôn Hoàng Long"@vi ;
+    geo:asWKT "POINT(105.9606701 21.0323614)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1216789414> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216789414 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Binh Minh"@en,
+        "Nhà văn hóa Tổ dân phố Bình Minh"@vi ;
+    schema:operator "Ủy ban nhân dân thị trấn Trâu Quỳ" ;
+    geo:asWKT "POINT(105.9409918 21.0200001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1217825601> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217825601 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Cuu Viet"@en,
+        "Nhà văn hóa Tổ dân phố Cửu Việt"@vi ;
+    geo:asWKT "POINT(105.9391629 21.0084812)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1220475763> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1220475763 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Kien Thanh"@en,
+        "Nhà văn hóa Tổ dân phố Kiên Thành"@vi ;
+    geo:asWKT "POINT(105.9512292 21.0083074)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1221316628> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221316628 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Ktt Cau 12"@en,
+        "Nhà văn hóa KTT Cầu 12"@vi ;
+    geo:asWKT "POINT(105.949269 21.0328059)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1221715766> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "8" ;
+    ext:addr_street "Ngõ 215 đường Trâu Quỳ" ;
+    ext:osm_id 1221715766 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Dao Nguyen"@en,
+        "Nhà văn hóa Tổ dân phố Đào Nguyên"@vi ;
+    geo:asWKT "POINT(105.9386048 21.0052588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1222284710> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222284710 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Cu Da"@en,
+        "Nhà văn hóa thôn Cự Đà"@vi ;
+    geo:asWKT "POINT(105.9572756 21.027366)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1222783979> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222783979 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon an Da"@en,
+        "Nhà văn hóa thôn An Đà"@vi ;
+    geo:asWKT "POINT(105.9599093 21.025963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1222783989> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222783989 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon an Da"@en,
+        "Nhà văn hóa thôn An Đà"@vi ;
+    geo:asWKT "POINT(105.9583287 21.0258144)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1223159245> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223159245 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Hoang Xa"@en,
+        "Nhà văn hóa thôn Hoàng Xá"@vi ;
+    geo:asWKT "POINT(105.9610991 20.9660937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1223159259> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223159259 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Chu Xa"@en,
+        "Nhà văn hóa thôn Chu Xá"@vi ;
+    geo:asWKT "POINT(105.9547589 20.9694035)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1223159274> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223159274 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Bao Dap"@en,
+        "Nhà văn hóa thôn Báo Đáp"@vi ;
+    geo:asWKT "POINT(105.9492629 20.9684593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1223814218> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223814218 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon to Khe"@en,
+        "Nhà văn hóa thôn Tô Khê"@vi ;
+    geo:asWKT "POINT(105.967292 21.0302101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1224542087> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224542087 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Kim Au"@en,
+        "Nhà văn hóa thôn Kim Âu"@vi ;
+    geo:asWKT "POINT(105.9588419 21.0234566)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1224796548> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224796548 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Han Lac"@en,
+        "Nhà văn hóa thôn Hàn Lạc"@vi ;
+    geo:asWKT "POINT(105.9705283 21.0299732)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1226550884> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1226550884 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 14"@en,
+        "Nhà văn hóa Tổ dân phố số 14"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9157014 21.0362338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1227308465> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1227308465 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 17"@en,
+        "Nhà văn hóa Tổ dân phố số 17"@vi ;
+    schema:operator "Ủy ban nhân dân phường Thạch Bàn" ;
+    geo:asWKT "POINT(105.9309691 21.0243665)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1227564856> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1227564856 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 11 + 12 + 21"@en,
+        "Nhà văn hóa Tổ dân phố số 11 + 12 + 21"@vi ;
+    schema:operator "Ủy ban nhân dân phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9119822 21.0330006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1228585404> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228585404 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Sinh Hoat Cong Dong Dia Ban Dan Cu So 1"@en,
+        "Nhà sinh hoạt cộng đồng Địa bàn dân cư số 1"@vi ;
+    geo:asWKT "POINT(105.84163 21.0045057)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1229058060> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229058060 ;
+    ext:osm_type "way" ;
+    schema:name "To 21 Phuong Dich Vong"@en,
+        "Tổ 21 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7896945 21.0354337)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1229267964> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229267964 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 6"@en,
+        "Nhà văn hóa Tổ dân phố số 6"@vi ;
+    geo:asWKT "POINT(105.8958952 21.0608589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1230360616> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1230360616 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 8"@en,
+        "Nhà văn hóa Tổ dân phố số 8"@vi ;
+    geo:asWKT "POINT(105.8014795 21.0629641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1231318498> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1231318498 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Uy Ban Nhan Dan Phuong Sai Dong"@en,
+        "Điểm Ủy ban nhân dân phường Sài Đồng"@vi ;
+    schema:operator "Ủy ban nhân dân phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9194845 21.0318243)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1231318501> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1231318501 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 2"@en,
+        "Nhà văn hóa Tổ dân phố số 2"@vi ;
+    schema:operator "Ủy ban nhân dân phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9220603 21.0293947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1231318502> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1231318502 ;
+    ext:osm_type "way" ;
+    schema:name "Khoi Nghiep"@en,
+        "Khởi nghiệp"@vi ;
+    schema:operator "Chi hội phụ nữ Tổ dân phố số 1, phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9221936 21.029237)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1235868915> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1235868915 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Vuon Dau"@en,
+        "Nhà văn hóa Tổ dân phố Vườn Dâu"@vi ;
+    geo:asWKT "POINT(105.9353915 21.0079172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1238050543> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "87" ;
+    ext:addr_street "Phố Triệu Việt Vương" ;
+    ext:osm_id 1238050543 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Sinh Hoat Cong Dong Phuong Nguyen Du"@en,
+        "Nhà sinh hoạt cộng đồng phường Nguyễn Du"@vi ;
+    geo:asWKT "POINT(105.8505535 21.0148542)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1241284768> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "36" ;
+    ext:addr_street "Ngõ 339 đường Đa Tốn" ;
+    ext:osm_id 1241284768 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Le Xa"@en,
+        "Nhà văn hóa thôn Lê Xá"@vi ;
+    geo:asWKT "POINT(105.9360233 20.987832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1243455283> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1243455283 ;
+    ext:osm_type "way" ;
+    schema:name "Nha to Dan Pho 1 Dich Vong Hau"@en,
+        "Nhà tổ dân phố 1 Dịch Vọng Hậu"@vi ;
+    geo:asWKT "POINT(105.7867744 21.0429129)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1243476210> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Phố Trần Quốc Hoàn" ;
+    ext:osm_id 1243476210 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - the Thao Dich Vong Hau"@en,
+        "Trung tâm Văn hoá - Thể thao Dịch Vọng Hậu"@vi ;
+    geo:asWKT "POINT(105.7881974 21.0422229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1244647218> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1244647218 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 8"@en,
+        "Nhà văn hóa Tổ dân phố số 8"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Đồng" ;
+    geo:asWKT "POINT(105.9031855 21.0365483)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1246953688> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "92" ;
+    ext:osm_id 1246953688 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Ngoc Dong"@en,
+        "Nhà văn hóa thôn Ngọc Động"@vi ;
+    geo:asWKT "POINT(105.9430276 20.9810392)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12492022116> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_street "Ngõ 145 Đường Liên Mạc" ;
+    ext:osm_id 12492022116 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to Dan Pho Dai Cat 3"@en,
+        "Nhà văn hóa tổ dân phố Đại Cát 3"@vi ;
+    geo:asWKT "POINT(105.7453627 21.0851957)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1249531151> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249531151 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 19"@en,
+        "Nhà văn hóa Tổ dân phố số 19"@vi ;
+    schema:operator "Ủy ban nhân dân phường Thượng Thanh" ;
+    geo:asWKT "POINT(105.8863615 21.0732126)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1249531165> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1249531165 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Sinh Hoat Cong Dong to Dan Pho So 19"@en,
+        "Điểm sinh hoạt cộng đồng Tổ dân phố số 19"@vi ;
+    schema:operator "Ủy ban nhân dân phường Thượng Thanh" ;
+    geo:asWKT "POINT(105.8871948 21.0741884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1250198525> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngõ 62 phố Tân Thụy" ;
+    ext:osm_id 1250198525 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 1"@en,
+        "Nhà văn hóa Tổ dân phố số 1"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Đồng" ;
+    geo:asWKT "POINT(105.8989186 21.0438032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1250198542> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250198542 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 2"@en,
+        "Nhà văn hóa Tổ dân phố số 2"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Đồng" ;
+    geo:asWKT "POINT(105.8992113 21.0426271)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12508512455> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 12508512455 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to Dan Pho Vien 1"@en,
+        "Nhà văn hóa tổ dân phố Viên 1"@vi ;
+    geo:asWKT "POINT(105.7820516 21.0668393)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12508554078> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 136 Đường Cầu Diễn" ;
+    ext:osm_id 12508554078 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to Dan Pho Van Tri 4"@en,
+        "Nhà văn hóa tổ dân phố Văn Trì 4"@vi ;
+    geo:asWKT "POINT(105.7410393 21.0556306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1251028882> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251028882 ;
+    ext:osm_type "way" ;
+    schema:name "Nha to 22 Phuong Dich Vong"@en,
+        "Nhà tổ 22 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.791943 21.0349713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1251537898> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537898 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 18"@en,
+        "Nhà văn hóa Tổ dân phố số 18"@vi ;
+    schema:operator "Ủy ban nhân dân phường Giang Biên" ;
+    geo:asWKT "POINT(105.9164887 21.0642481)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1251537951> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537951 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 5"@en,
+        "Nhà văn hóa Tổ dân phố số 5"@vi ;
+    schema:operator "Ủy ban nhân dân phường Giang BIên" ;
+    geo:asWKT "POINT(105.9175327 21.0623305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1251887340> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251887340 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 6"@en,
+        "Nhà văn hóa Tổ dân phố số 6"@vi ;
+    schema:operator "Ủy ban nhân dân phường Giang Biên" ;
+    geo:asWKT "POINT(105.9175238 21.058808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1251887344> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251887344 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 7"@en,
+        "Nhà văn hóa Tổ dân phố số 7"@vi ;
+    geo:asWKT "POINT(105.9150492 21.0603362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12535622203> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "xã Đại Mạch, huyện Đông Anh, thành phố Hà Nội" ;
+    ext:osm_id 12535622203 ;
+    ext:osm_type "node" ;
+    schema:name "Trung Tam Van Hoa Thon Mach Lung"@en,
+        "Trung tâm văn hoá Thôn Mạch Lũng"@vi ;
+    geo:asWKT "POINT(105.7445619 21.1228674)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1253824079> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1253824079 ;
+    ext:osm_type "way" ;
+    schema:name "To 21 Phuong Dich Vong"@en,
+        "Tổ 21 phường Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7854401 21.0349902)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12564194858> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Nam Yên Lũng, xã An Khánh, huyện Hoài Đức, thành phố Hà Nội" ;
+    ext:osm_id 12564194858 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Yen Lung"@en,
+        "Nhà văn hóa thôn Yên lũng"@vi ;
+    geo:asWKT "POINT(105.7121404 21.0075125)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12595041061> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 12595041061 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Khu Dan Cu Thang Long - Hai Boi"@en,
+        "Nhà văn hoá Khu dân cư Thăng Long - Hải Bối"@vi ;
+    geo:asWKT "POINT(105.7889918 21.110975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1265527325> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1265527325 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa the Thao - Khu Nha O Cong Nhan Kim Chung"@en,
+        "Trung tâm Văn hoá thể thao - Khu nhà ở công nhân Kim Chung"@vi ;
+    geo:asWKT "POINT(105.7743444 21.1274048)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12686435122> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 12686435122 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to Dan Pho Phuc Tien"@en,
+        "Nhà văn hóa tổ dân phố Phúc Tiến"@vi ;
+    geo:asWKT "POINT(105.7135933 20.9301017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:12944133240> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 12944133240 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to Dan Pho Quyet Tam"@en,
+        "Nhà văn hoá Tổ dân phố Quyết Tâm"@vi ;
+    geo:asWKT "POINT(105.7442023 20.9777926)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13083866882> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13083866882 ;
+    ext:osm_type "node" ;
+    schema:name "Uy Ban Xa Nghia Tru"@en,
+        "Ủy Ban xã Nghĩa Trụ"@vi ;
+    geo:asWKT "POINT(105.9877407 20.9550148)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13095941718> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13095941718 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Thu Phap"@en,
+        "Nhà văn hóa thôn Thủ Pháp"@vi ;
+    geo:asWKT "POINT(105.9938574 20.9407844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1315054629> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "45" ;
+    ext:addr_street "Ngõ 195 phố Vũ Xuân Thiều" ;
+    ext:osm_id 1315054629 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 13"@en,
+        "Nhà văn hóa Tổ dân phố số 13"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9161452 21.0337182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13161516088> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13161516088 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Dai Tai"@en,
+        "Nhà văn hóa Đại Tài"@vi ;
+    geo:asWKT "POINT(105.9807504 20.9661046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13162029176> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13162029176 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Dong Tinh"@en,
+        "Nhà văn hoá thôn Đồng Tỉnh"@vi ;
+    geo:asWKT "POINT(105.9949607 20.9495359)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1318588884> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1318588884 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - the Thao Phuong My Dinh 2"@en,
+        "Trung tâm Văn hoá - Thể thao phường Mỹ Đình 2"@vi ;
+    geo:asWKT "POINT(105.773848 21.0326581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13200430976> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13200430976 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon 14"@en,
+        "Nhà văn hóa thôn 14"@vi ;
+    geo:asWKT "POINT(105.9796792 20.941558)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1322156153> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:osm_id 1322156153 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa an Dao"@en,
+        "Nhà văn hóa An Đào"@vi ;
+    geo:asWKT "POINT(105.9405428 21.0009579)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13266291242> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13266291242 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Nhan Vuc"@en,
+        "Nhà văn hoá thôn Nhân Vực"@vi ;
+    geo:asWKT "POINT(105.9533409 20.9369439)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13266709071> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13266709071 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Duong Duong Tuoi"@en,
+        "Trung tâm cộng đồng tại Đường Dương Tươi"@vi ;
+    geo:asWKT "POINT(105.99621 20.9435604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13282510263> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13282510263 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Ngoc Bo"@en,
+        "Nhà văn hoá thôn Ngọc Bộ"@vi ;
+    geo:asWKT "POINT(105.9591473 20.9305372)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13286931344> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13286931344 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon So Dong"@en,
+        "Nhà văn hóa thôn Sở Đông"@vi ;
+    geo:asWKT "POINT(105.9504777 20.9322326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13287231420> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13287231420 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Xom Thuy Chinh"@en,
+        "Trung tâm cộng đồng tại Xóm Thủy Chính"@vi ;
+    geo:asWKT "POINT(105.9521264 20.9318623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13288458666> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13288458666 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Nhu Phuong Ha"@en,
+        "Nhà Văn Hoá Như Phượng Hạ"@vi ;
+    geo:asWKT "POINT(105.9591825 20.9377289)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13310357659> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13310357659 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Lai Oc"@en,
+        "Nhà văn hoá thôn Lai Ốc"@vi ;
+    geo:asWKT "POINT(105.9528434 20.944033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:13310844679> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 13310844679 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Nhu Lan"@en,
+        "Nhà Văn Hoá Thôn Như Lân"@vi ;
+    geo:asWKT "POINT(105.95357 20.9500437)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1365938692> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "58" ;
+    ext:addr_street "Phố Vo Trung" ;
+    ext:osm_id 1365938692 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 7 + 8"@en,
+        "Nhà văn hóa Tổ dân phố số 7 + 8"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9299487 21.0412252)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1366539303> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "14" ;
+    ext:addr_street "Ngõ 321 đường Phúc Lợi" ;
+    ext:osm_id 1366539303 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 9 - 10 - 11"@en,
+        "Nhà văn hóa Tổ dân phố số 9 - 10 - 11"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9336661 21.0371194)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1388268086> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Đồng Kỵ 2" ;
+    ext:osm_id 1388268086 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Thanh Nhan"@en,
+        "Nhà văn hóa Khu phố Thanh Nhàn"@vi ;
+    geo:asWKT "POINT(105.9463097 21.1358798)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1395755660> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Tiêu Tương" ;
+    ext:osm_id 1395755660 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Ta Xa"@en,
+        "Nhà văn hóa Khu phố Tạ Xá"@vi ;
+    geo:asWKT "POINT(105.9956906 21.1361519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1412518402> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngách 27/9 Đường Tây Mỗ" ;
+    ext:osm_id 1412518402 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Khach Dinh Phu Thu"@en,
+        "Nhà khách Đình Phú Thứ"@vi ;
+    geo:asWKT "POINT(105.750825 21.0024442)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1413039667> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 14 Phố Nguyễn Lân" ;
+    ext:osm_id 1413039667 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Hoi Hop Khu Dan Cu 13 & 14"@en,
+        "Nhà hội họp Khu dân cư 13 & 14"@vi ;
+    geo:asWKT "POINT(105.8359245 20.9923118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1415874152> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "20" ;
+    ext:addr_street "Hẻm 193/17/25 Phố Cầu Cốc" ;
+    ext:osm_id 1415874152 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Lo"@en,
+        "Nhà văn hóa Tổ dân phố Lò"@vi ;
+    geo:asWKT "POINT(105.7452016 21.0021184)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1416106099> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 121 Đường Tây Mỗ" ;
+    ext:osm_id 1416106099 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho 1 Dinh"@en,
+        "Nhà văn hóa Tổ dân phố 1 Đình"@vi ;
+    geo:asWKT "POINT(105.7556249 20.9972941)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1416106100> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Quang Tiến" ;
+    ext:osm_id 1416106100 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho 2 Dinh"@en,
+        "Nhà văn hóa Tổ dân phố 2 Đình"@vi ;
+    geo:asWKT "POINT(105.7559911 20.9972065)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1418817193> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1418817193 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at D. Duong Quang Ham"@en,
+        "Trung tâm cộng đồng tại Đ. Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.9532577 20.9370587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1418833807> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1418833807 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Xom Thuy Chinh"@en,
+        "Trung tâm cộng đồng tại Xóm Thủy Chính"@vi ;
+    geo:asWKT "POINT(105.9521033 20.931884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1419540869> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1419540869 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Do Tong"@en,
+        "Trung tâm cộng đồng tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9592302 20.9303885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1422856212> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "63" ;
+    ext:addr_street "Phố Trang Liệt 1" ;
+    ext:osm_id 1422856212 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Khu Pho Trang Liet"@en,
+        "Trung tâm Văn hóa Khu phố Trang Liệt"@vi ;
+    geo:asWKT "POINT(105.9505937 21.12097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1422856228> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "222" ;
+    ext:addr_street "Phố Đồng Kỵ 2" ;
+    ext:osm_id 1422856228 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Nghe"@en,
+        "Nhà văn hóa Khu phố Nghè"@vi ;
+    geo:asWKT "POINT(105.9442604 21.140289)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1423063990> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Phố Bính Hạ" ;
+    ext:osm_id 1423063990 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Binh Ha"@en,
+        "Nhà văn hóa Khu phố Bính Hạ"@vi ;
+    geo:asWKT "POINT(105.9524117 21.1160932)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1424745680> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1424745680 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Dai Lo Ngoc Trai"@en,
+        "Trung tâm cộng đồng tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9938833 20.9406676)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1424745681> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1424745681 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Dai Lo Ngoc Trai"@en,
+        "Trung tâm cộng đồng tại Đại lộ Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9939298 20.9405097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1424958541> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "67" ;
+    ext:addr_street "Phố Tam Lư 1" ;
+    ext:osm_id 1424958541 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Khu Pho Tam Lu"@en,
+        "Trung tâm Văn hóa Khu phố Tam Lư"@vi ;
+    geo:asWKT "POINT(105.9784887 21.122637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1425907445> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425907445 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Xuan Thuy"@en,
+        "Nhà văn hóa thôn Xuân Thụy"@vi ;
+    geo:asWKT "POINT(105.9465872 20.9766177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1427503847> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 250 Phan Trọng Tuệ" ;
+    ext:osm_id 1427503847 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa – Thong Tin Va the Thao Phuong Thanh Liet"@en,
+        "Trung tâm Văn hóa – Thông tin và Thể thao phường Thanh Liệt"@vi ;
+    geo:asWKT "POINT(105.8130366 20.9574554)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1430824163> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1430824163 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Sau Tien"@en,
+        "Trung tâm cộng đồng tại Đường Sáu Tiền"@vi ;
+    geo:asWKT "POINT(106.0000107 20.9404121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431081734> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431081734 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Duong Tuoi"@en,
+        "Trung tâm cộng đồng tại Đường Dương Tươi"@vi ;
+    geo:asWKT "POINT(105.9964602 20.9422614)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431216239> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 1431216239 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Da Hoi"@en,
+        "Nhà văn hóa Khu phố Đa Hội"@vi ;
+    geo:asWKT "POINT(105.921932 21.1268345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431216248> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Trịnh Xá" ;
+    ext:osm_id 1431216248 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Trinh Xa"@en,
+        "Nhà văn hóa Khu phố Trịnh Xá"@vi ;
+    geo:asWKT "POINT(105.9314622 21.1129157)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431434597> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431434597 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Duong Tuoi"@en,
+        "Trung tâm cộng đồng tại Đường Dương Tươi"@vi ;
+    geo:asWKT "POINT(105.996259 20.9437442)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431434598> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431434598 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Duong Tuoi"@en,
+        "Trung tâm cộng đồng tại Đường Dương Tươi"@vi ;
+    geo:asWKT "POINT(105.9963611 20.9437755)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431906541> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431906541 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong to Hieu"@en,
+        "Trung tâm cộng đồng tại Đường Tô Hiệu"@vi ;
+    geo:asWKT "POINT(105.9809538 20.966233)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431967843> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431967843 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong to Hieu"@en,
+        "Trung tâm cộng đồng tại Đường Tô Hiệu"@vi ;
+    geo:asWKT "POINT(105.9948826 20.9494546)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1431967844> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431967844 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong to Hieu"@en,
+        "Trung tâm cộng đồng tại Đường Tô Hiệu"@vi ;
+    geo:asWKT "POINT(105.9949195 20.9493419)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1433521176> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433521176 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Truc a"@en,
+        "Trung tâm cộng đồng tại Đường Trục A"@vi ;
+    geo:asWKT "POINT(105.9589718 20.9423133)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1433521177> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433521177 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Truc a"@en,
+        "Trung tâm cộng đồng tại Đường Trục A"@vi ;
+    geo:asWKT "POINT(105.9590797 20.9424676)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1433740835> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Ngõ 38 Phố Cổ Pháp" ;
+    ext:osm_id 1433740835 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Thuong"@en,
+        "Nhà văn hóa Khu phố Thượng"@vi ;
+    geo:asWKT "POINT(105.9583641 21.1087136)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1433740848> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 1433740848 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Tien Bao"@en,
+        "Nhà văn hóa Khu phố Tiến Bào"@vi ;
+    geo:asWKT "POINT(105.934851 21.1360277)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1433954405> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433954405 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngo 279 Duong Van Tien Dung"@en,
+        "Trung tâm cộng đồng tại Ngõ 279 Đường Văn Tiến Dũng"@vi ;
+    geo:asWKT "POINT(105.9549641 21.1909393)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1435144875> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_street "Đường Nguyễn Bỉnh Khiêm" ;
+    ext:osm_id 1435144875 ;
+    ext:osm_type "way" ;
+    schema:name "Hoi Truong Trung Tam Huyen Yen Phong"@en,
+        "Hội trường Trung tâm huyện Yên Phong"@vi ;
+    geo:asWKT "POINT(105.9473329 21.1990599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1436145064> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1436145064 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Dai Duong"@en,
+        "Trung tâm cộng đồng tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9796391 20.9414547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1436145065> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1436145065 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Dai Duong"@en,
+        "Trung tâm cộng đồng tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.979147 20.9413699)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1441817478> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "5" ;
+    ext:addr_street "Ngách 95/121 Kim Ngưu" ;
+    ext:osm_id 1441817478 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Vinh Tuy"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao phường Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8643343 21.006322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1441931918> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:osm_id 1441931918 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho 1 Cam Giang"@en,
+        "Nhà văn hóa Khu phố 1 Cẩm Giang"@vi ;
+    geo:asWKT "POINT(105.971248 21.1288478)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1444629299> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "151" ;
+    ext:addr_street "Đường Dương Đức Hiền" ;
+    ext:osm_id 1444629299 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Xa Thuan an"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao xã Thuận An"@vi ;
+    geo:asWKT "POINT(105.9703957 21.0222308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1446571351> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "81" ;
+    ext:addr_street "Ngõ 151 Đường Nguyễn Đức Cảnh" ;
+    ext:osm_id 1446571351 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Ngo 151 Duong Nguyen Duc Canh"@en,
+        "Điểm tại Ngõ 151 Đường Nguyễn Đức Cảnh"@vi ;
+    geo:asWKT "POINT(105.8526472 20.9891442)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1447145284> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Sùng Ân" ;
+    ext:osm_id 1447145284 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Pho Sung an"@en,
+        "Điểm tại Phố Sùng Ân"@vi ;
+    geo:asWKT "POINT(105.9935353 21.144866)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1447156805> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Yên Lã" ;
+    ext:osm_id 1447156805 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Hoang Quoc Viet"@en,
+        "Nhà văn hóa Khu phố Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.963998 21.1169568)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1447348318> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1447348318 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at D. Duong Quang Ham"@en,
+        "Trung tâm cộng đồng tại Đ. Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.9531116 20.9370149)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1447626069> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1447626069 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at D. Duong Quang Ham"@en,
+        "Trung tâm cộng đồng tại Đ. Dương Quảng Hàm"@vi ;
+    geo:asWKT "POINT(105.950401 20.9322217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1448340253> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1448340253 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Pho Duc Chinh"@en,
+        "Trung tâm cộng đồng tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.959069 20.9377102)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1450696923> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "47" ;
+    ext:addr_street "Phố Viềng A" ;
+    ext:osm_id 1450696923 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Vinh Kieu 1"@en,
+        "Nhà văn hóa Khu phố Vĩnh Kiều 1"@vi ;
+    geo:asWKT "POINT(105.9828744 21.1263446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1450696927> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "57" ;
+    ext:addr_street "Phố Viềng B" ;
+    ext:osm_id 1450696927 ;
+    ext:osm_type "way" ;
+    schema:name "Tru So Bao Ve Khu Pho 3 Vinh Kieu"@en,
+        "Trụ sở bảo vệ khu phố 3 Vĩnh Kiều"@vi ;
+    geo:asWKT "POINT(105.9791713 21.1312817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1450696929> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "50" ;
+    ext:addr_street "Phố Viềng B" ;
+    ext:osm_id 1450696929 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Cong Cong Khu Pho Vinh Kieu 3"@en,
+        "Trung tâm văn hóa công cộng khu phố Vĩnh Kiều 3"@vi ;
+    geo:asWKT "POINT(105.9793285 21.1317148)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1451285690> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451285690 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Dai Tuong Niem Ho Chu Tich"@en,
+        "Trung tâm cộng đồng tại Đài tưởng niệm Hồ Chủ Tịch"@vi ;
+    geo:asWKT "POINT(105.9530031 20.9442002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1451335678> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451335678 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Pho Duc Chinh"@en,
+        "Trung tâm cộng đồng tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.9535284 20.950179)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1451374616> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451374616 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho 9"@en,
+        "Nhà văn hóa Tổ dân phố 9"@vi ;
+    geo:asWKT "POINT(105.7784992 20.9781677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1451988286> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Nguyễn Quý Đức" ;
+    ext:osm_id 1451988286 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Thanh Thieu Nien Trung Uong"@en,
+        "Trung tâm Thanh thiếu niên Trung Ương"@vi ;
+    geo:asWKT "POINT(105.8002433 20.9905943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1452665541> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "81" ;
+    ext:addr_street "Ngõ 151 Đường Nguyễn Đức Cảnh" ;
+    ext:osm_id 1452665541 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Phia Bac Phuong Tuong Mai"@en,
+        "Trung Tâm Văn hóa Phía Bắc phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8525801 20.9891868)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1452792253> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1452792253 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Pho Duc Chinh"@en,
+        "Trung tâm cộng đồng tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.9533421 20.9502587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1452915867> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Bà La" ;
+    ext:osm_id 1452915867 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Ba La"@en,
+        "Nhà văn hóa Khu phố Bà La"@vi ;
+    geo:asWKT "POINT(105.955789 21.1084745)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1453030977> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453030977 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngach 105/64 Pho Doan Ke Thien"@en,
+        "Trung tâm cộng đồng tại Ngách 105/64 Phố Doãn Kế Thiện"@vi ;
+    geo:asWKT "POINT(105.7773591 21.0391318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1453263736> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Di Trạch" ;
+    ext:osm_id 1453263736 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Dau 1"@en,
+        "Nhà văn hóa thôn Dậu 1"@vi ;
+    geo:asWKT "POINT(105.7153838 21.0517908)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1453263737> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453263737 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Dau 2"@en,
+        "Nhà văn hóa thôn Dậu 2"@vi ;
+    geo:asWKT "POINT(105.7185378 21.0512691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1453703077> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "85" ;
+    ext:addr_street "Ngõ 126 Phố Nguyễn An Ninh" ;
+    ext:osm_id 1453703077 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Tuong Mai"@en,
+        "Nhà văn hoá phường Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8459174 20.9927856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1453703078> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "85" ;
+    ext:addr_street "Ngách 91 Ngõ Trại Cá" ;
+    ext:osm_id 1453703078 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Ngach 91 Ngo Trai Ca"@en,
+        "Điểm tại Ngách 91 Ngõ Trại Cá"@vi ;
+    geo:asWKT "POINT(105.8459485 20.9927693)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1454584033> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngách 27/9 Đường Tây Mỗ" ;
+    ext:osm_id 1454584033 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Phu Thu"@en,
+        "Nhà văn hóa Tổ dân phố Phú Thứ"@vi ;
+    geo:asWKT "POINT(105.7516897 21.0051433)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:1454584034> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngách 27/54 Đường Tây Mỗ" ;
+    ext:osm_id 1454584034 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho Phu Ha"@en,
+        "Nhà văn hóa Tổ dân phố Phú Hà"@vi ;
+    geo:asWKT "POINT(105.7528527 21.0009116)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:228075195> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "91" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:osm_id 228075195 ;
+    ext:osm_type "way" ;
+    schema:name "Cung Van Hoa Lao Dong Huu Nghi Viet Xo"@en,
+        "Cung Văn hóa Lao động Hữu nghị Việt Xô"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10751146> ;
+    schema:url <https://cungvanhoalaodonghuunghivietxo.vn/> ;
+    geo:asWKT "POINT(105.8442397 21.0222196)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Cung%20V%C4%83n%20h%C3%B3a%20Lao%20%C4%91%E1%BB%99ng%20H%E1%BB%AFu%20ngh%E1%BB%8B%20Vi%E1%BB%87t%20X%C3%B4> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:2701030465> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "LOng Hưng" ;
+    ext:osm_id 2701030465 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Nhu Phuong Thuong"@en,
+        "Nhà văn hoá thôn Như Phượng Thượng"@vi ;
+    geo:asWKT "POINT(105.95911 20.942468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:309425922> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "36" ;
+    ext:addr_street "Phố Lý Thái Tổ" ;
+    ext:osm_id 309425922 ;
+    ext:osm_type "way" ;
+    schema:name "Cung Thieu Nhi Ha Noi"@en,
+        "Cung Thiếu nhi Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8551753 21.0282599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:3387043431> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 3387043431 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Tdp Hoang Ii"@en,
+        "Nhà văn hoá TDP Hoàng II"@vi ;
+    geo:asWKT "POINT(105.7835482 21.058208)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4280807465> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_street "Phố Lương Yên" ;
+    ext:osm_id 4280807465 ;
+    ext:osm_type "node" ;
+    schema:name "Hanoi Creative City"@en,
+        "Hanoi Creative City"@vi ;
+    geo:asWKT "POINT(105.8632341 21.0125728)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:430134015> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "40" ;
+    ext:addr_street "Ngõ 83" ;
+    ext:osm_id 430134015 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Xom an"@en,
+        "Nhà văn hóa Xóm Án"@vi ;
+    geo:asWKT "POINT(105.8029482 20.9786284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4388678292> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 4388678292 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Phuong Phuc Dong"@en,
+        "Nhà văn hoá Phường Phúc Đồng"@vi ;
+    geo:asWKT "POINT(105.8990889 21.0386918)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4548834591> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "50" ;
+    ext:addr_street "Đào Duy Từ" ;
+    ext:osm_id 4548834591 ;
+    ext:osm_type "node" ;
+    schema:name "Trung Tam Giao Luu Van Hoa Pho Co Ha Noi"@en,
+        "Trung tâm Giao lưu văn hoá phố cổ Hà Nội"@vi ;
+    schema:openingHours "Mo-Su 08:00-17:30" ;
+    geo:asWKT "POINT(105.8528385 21.0361799)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4578677493> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "khu đô thị vĩnh Hoàng" ;
+    ext:osm_id 4578677493 ;
+    ext:osm_type "node" ;
+    schema:name "Toa Nha Hoa Binh. Khu Do Thi Vinh Hoang"@en,
+        "Tòa nhà Hòa Bình. Khu đô thị Vĩnh Hoàng"@vi ;
+    geo:asWKT "POINT(105.8647677 20.9834473)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4582653390> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "86" ;
+    ext:addr_street "Thợ Nhuộm" ;
+    ext:osm_id 4582653390 ;
+    ext:osm_type "node" ;
+    schema:name "Trung Tam Giam Dinh Y Khoa Ha Noi"@en,
+        "Trung tâm giám định y khoa Hà nội"@vi ;
+    schema:openingHours "Mo-Fr 08:00-04:00" ;
+    schema:telephone "0439411083" ;
+    geo:asWKT "POINT(105.8487767 21.022731)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4721389690> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 4721389690 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Duong Ts7"@en,
+        "Trung tâm cộng đồng tại Đường TS7"@vi ;
+    geo:asWKT "POINT(105.9908148 21.1278169)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4789594921> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "Ngõ 231" ;
+    ext:addr_street "Nguyễn Văn Linh" ;
+    ext:osm_id 4789594921 ;
+    ext:osm_type "node" ;
+    schema:name "Trung Tam Quoc Gia Huan Luyen Tim Kiem Cuu Nan Duong Khong"@en,
+        "Trung tâm Quốc gia huấn luyện tìm kiếm cứu nạn đường không"@vi ;
+    geo:asWKT "POINT(105.8985374 21.039696)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:4809622926> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 4809622926 ;
+    ext:osm_type "node" ;
+    schema:name "Community Centre at Pho Cua Nam"@en,
+        "Trung tâm cộng đồng tại Phố Cửa Nam"@vi ;
+    geo:asWKT "POINT(105.8418635 21.0276748)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:498550264> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 498550264 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Yen Be"@en,
+        "Nhà văn hoá thôn Yên Bệ"@vi ;
+    geo:asWKT "POINT(105.7087175 21.04733)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:524889036> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "45" ;
+    ext:addr_street "Đường Tô Ngọc Vân" ;
+    ext:osm_id 524889036 ;
+    ext:osm_type "way" ;
+    schema:name "Quang Ba Community Center"@en,
+        "Quang Ba community center"@vi ;
+    schema:openingHours "24/7" ;
+    schema:operator "none" ;
+    geo:asWKT "POINT(105.823774 21.0684656)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:570595075> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "30" ;
+    ext:addr_street "Nguyễn Phong Sắc" ;
+    ext:osm_id 570595075 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Quan Cau Giay"@en,
+        "Nhà văn hoá quận Cầu Giấy"@vi ;
+    schema:telephone "+84 24 3833 0705" ;
+    geo:asWKT "POINT(105.7907225 21.0370793)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:576742560> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Cổ Pháp" ;
+    ext:osm_id 576742560 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Dinh"@en,
+        "Nhà văn hóa Khu phố Đình"@vi ;
+    geo:asWKT "POINT(105.952312 21.1083318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:577155262> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Lý Khánh Văn" ;
+    ext:osm_id 577155262 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Xuan Dai"@en,
+        "Nhà Văn hóa khu phố Xuân Đài"@vi ;
+    geo:asWKT "POINT(105.9471588 21.108161)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:593653791> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 593653791 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Yen Phu"@en,
+        "Nhà văn hóa phường Yên Phụ"@vi ;
+    geo:asWKT "POINT(105.8386385 21.0552094)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:647253453> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Mai Động 3" ;
+    ext:osm_id 647253453 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Mai Dong"@en,
+        "Nhà văn hóa khu phố Mai Động"@vi ;
+    geo:asWKT "POINT(105.9441491 21.154346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:650062437> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 650062437 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Nghia Lap"@en,
+        "Nhà văn hóa Khu phố Nghĩa Lập"@vi ;
+    geo:asWKT "POINT(105.9300231 21.1345028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:650062700> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 650062700 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Thanh Binh"@en,
+        "Nhà văn hóa Khu phố Thanh Bình"@vi ;
+    geo:asWKT "POINT(105.9446235 21.1352352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:650062730> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "71" ;
+    ext:addr_street "Phố Đồng Kỵ 1" ;
+    ext:osm_id 650062730 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Tu"@en,
+        "Nhà văn hóa Khu phố Tư"@vi ;
+    geo:asWKT "POINT(105.9481956 21.1386754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:651503568> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Nguyễn Đức Đôn" ;
+    ext:osm_id 651503568 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Tieu Thuong"@en,
+        "Nhà văn hóa Khu phố Tiêu Thượng"@vi ;
+    geo:asWKT "POINT(105.9826166 21.1355768)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:6516239587> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 6516239587 ;
+    ext:osm_type "node" ;
+    schema:name "San Van Dong Duongnoi"@en,
+        "sân vận động DươngNội"@vi ;
+    geo:asWKT "POINT(105.7488709 20.9802801)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:659860791> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860791 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Thuong"@en,
+        "Nhà văn hóa Thôn Thượng"@vi ;
+    geo:asWKT "POINT(105.9300751 21.0753063)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:659860830> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860830 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa De Ca"@en,
+        "Nhà văn hóa Đê Ca"@vi ;
+    geo:asWKT "POINT(105.9242951 21.079245)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:659909931> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 659909931 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Cong Dinh"@en,
+        "Nhà văn hóa Thôn Công Đình"@vi ;
+    geo:asWKT "POINT(105.937061 21.074553)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:659909991> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 659909991 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Ha"@en,
+        "Nhà văn hóa Thôn Hạ"@vi ;
+    geo:asWKT "POINT(105.9338814 21.0620496)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:660703573> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 660703573 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Du Ngoai"@en,
+        "Nhà văn hóa Thôn Du Ngoại"@vi ;
+    geo:asWKT "POINT(105.9043874 21.0850112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:660703578> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 660703578 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Ai Mo"@en,
+        "Nhà Văn hóa thôn Ái Mộ"@vi ;
+    geo:asWKT "POINT(105.9060828 21.086215)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:6610502444> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "87" ;
+    ext:addr_street "Phố Trịnh Công Sơn" ;
+    ext:osm_id 6610502444 ;
+    ext:osm_type "node" ;
+    schema:name "Quan Tay Ho Ubnd Phuong Nhat Tan - Nha Van Hoa Phuong Nhat Tan"@en,
+        "Quận Tây Hồ UBND Phường Nhật Tân - Nhà Văn Hóa Phường Nhật Tân"@vi ;
+    geo:asWKT "POINT(105.8178469 21.07802)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:661138432> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 661138432 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Do Xa"@en,
+        "Nhà văn hóa thôn Đỗ Xá"@vi ;
+    geo:asWKT "POINT(105.9222654 21.1065008)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:661161556> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 661161556 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Phu Khe"@en,
+        "Nhà văn hóa khu phố Phù Khê"@vi ;
+    geo:asWKT "POINT(105.9323476 21.1465009)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:661161580> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 661161580 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa"@en,
+        "Nhà văn hóa"@vi ;
+    geo:asWKT "POINT(105.9289406 21.1553754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:661161687> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Song Tháp" ;
+    ext:osm_id 661161687 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Song Thap"@en,
+        "Nhà văn hóa khu phố Song Tháp"@vi ;
+    geo:asWKT "POINT(105.9284806 21.1168359)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:661165874> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 661165874 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thanh Xuan"@en,
+        "Nhà văn hóa Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.7973032 21.0017529)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:6666587319> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Ngõ 310 Nghi Tàm" ;
+    ext:osm_id 6666587319 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Sinh Hoat Khu Dan Cu"@en,
+        "Nhà Sinh Hoạt Khu Dân Cư"@vi ;
+    geo:asWKT "POINT(105.8361094 21.0589785)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:6849163864> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hanoi" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:addr_street "Ngõ 15 Bằng Liệt" ;
+    ext:osm_id 6849163864 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Bang a"@en,
+        "Nhà văn hóa Bằng A"@vi ;
+    geo:asWKT "POINT(105.821473 20.9613516)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:697791110> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 697791110 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Ngoc Ha"@en,
+        "Nhà văn hoá phường Ngọc Hà"@vi ;
+    geo:asWKT "POINT(105.8291328 21.0377142)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:698018259> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 698018259 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Ba Dinh"@en,
+        "Trung tâm Văn hoá - Thông tin và Thể thao phường Ba Đình"@vi ;
+    geo:asWKT "POINT(105.8392683 21.0431592)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:699055686> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 699055686 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Dong Ngac"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao phường Đông Ngạc"@vi ;
+    geo:asWKT "POINT(105.7803967 21.058791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:699079319> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 699079319 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Tdp Tru I"@en,
+        "Nhà văn hoá TDP Trù I"@vi ;
+    geo:asWKT "POINT(105.7808926 21.0619834)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:699218396> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 699218396 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Vien"@en,
+        "Nhà văn hoá Thôn Viên"@vi ;
+    geo:asWKT "POINT(105.7796016 21.0656405)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:701882953> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Lê Thái Tổ" ;
+    ext:osm_id 701882953 ;
+    ext:osm_type "way" ;
+    schema:name "Khong Gian Van Hoa Viet"@en,
+        "Không gian Văn hoá Việt"@vi ;
+    schema:operator "Nhà hát Nghệ thuật Đương đại Việt Nam" ;
+    geo:asWKT "POINT(105.8510985 21.0286502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:704159175> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 704159175 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Ngoc Lam"@en,
+        "Nhà văn hoá phường Ngọc Lâm"@vi ;
+    geo:asWKT "POINT(105.8769026 21.0477559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:704250750> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250750 ;
+    ext:osm_type "way" ;
+    schema:name "Tru So Tdp So 5+30"@en,
+        "Trụ sở TDP số 5+30"@vi ;
+    geo:asWKT "POINT(105.8720223 21.0397013)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:704250767> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250767 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa the Thao Phuong Bo De"@en,
+        "Nhà văn hoá Thể thao phường Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8718369 21.0383604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:7087736275> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 7087736275 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Xom Duong"@en,
+        "Nhà Văn hoá Xóm Đường"@vi ;
+    geo:asWKT "POINT(105.8412754 21.1744239)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:755090162> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:osm_id 755090162 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Thap"@en,
+        "Nhà Văn hoá thôn Tháp"@vi ;
+    geo:asWKT "POINT(105.754981 20.9929607)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:755123064> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 755123064 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Le Trong Tan"@en,
+        "Trung tâm cộng đồng tại Đường Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.7596214 20.9626358)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:7771875985> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hanoi" ;
+    ext:addr_housenumber "164-166 Pho Bac Cau" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Ngoc Thuy, Long Bien" ;
+    ext:osm_id 7771875985 ;
+    ext:osm_type "node" ;
+    schema:email "contact@titops.com" ;
+    schema:name "Titops"@en,
+        "Titops"@vi ;
+    schema:openingHours "Mo-Fr 08:00:18:00" ;
+    schema:url <https://titops.com/> ;
+    geo:asWKT "POINT(105.8576457 21.0675913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:792416737> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 792416737 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phung Chau"@en,
+        "Nhà văn hóa Phụng Châu"@vi ;
+    geo:asWKT "POINT(105.709846 20.9503335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:8025708496> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 8025708496 ;
+    ext:osm_type "node" ;
+    schema:name "Phong Hop to Dan Pho So 27"@en,
+        "Phòng họp Tổ dân phố số 27"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9198836 21.0304713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:825567108> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "B6b" ;
+    ext:osm_id 825567108 ;
+    ext:osm_type "way" ;
+    schema:name "Hoi Truong B6"@en,
+        "Hội trường B6"@vi ;
+    geo:asWKT "POINT(105.8461438 21.0062361)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:826421975> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 826421975 ;
+    ext:osm_type "way" ;
+    schema:name "Sunwah"@en,
+        "Sunwah"@vi ;
+    schema:operator "Sunwah Group" ;
+    geo:asWKT "POINT(105.782291 21.037357)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:840066514> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Hồ Đắc Di" ;
+    ext:osm_id 840066514 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Pho Ho Dac Di"@en,
+        "Điểm tại Phố Hồ Đắc Di"@vi ;
+    geo:asWKT "POINT(105.8283554 21.0129892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:842611515> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 842611515 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Dong"@en,
+        "Nhà Văn Hóa Phượng Đồng"@vi ;
+    geo:asWKT "POINT(105.708131 20.941345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:861103427> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_street "Ngõ 113 đường Cổ Bi" ;
+    ext:osm_id 861103427 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Vang"@en,
+        "Nhà văn hóa thôn Vàng"@vi ;
+    schema:operator "Uỷ ban nhân dân xã Gia Lâm" ;
+    geo:asWKT "POINT(105.9381579 21.0326376)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:861103430> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Cầu Bây" ;
+    ext:osm_id 861103430 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 27 + 28 + 29"@en,
+        "Nhà văn hóa Tổ dân phố số 27 + 28 + 29"@vi ;
+    schema:operator "Ủy ban nhân dân phường Phúc Lợi" ;
+    geo:asWKT "POINT(105.9229418 21.0280484)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:865855240> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 865855240 ;
+    ext:osm_type "way" ;
+    schema:name "Cung Thanh Nien Ha Noi (co So 2)"@en,
+        "Cung Thanh niên Hà Nội (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.8444057 21.0180757)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:892230829> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "255-257" ;
+    ext:addr_street "Phố Bạch Mai" ;
+    ext:osm_id 892230829 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Bach Mai"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao phường Bạch Mai"@vi ;
+    geo:asWKT "POINT(105.8513489 21.0033969)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:902641919> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "20" ;
+    ext:addr_street "Đường Lý Cao Tông" ;
+    ext:osm_id 902641919 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Khu Pho Tram"@en,
+        "Nhà văn hóa Khu phố Trầm"@vi ;
+    geo:asWKT "POINT(105.9470779 21.0979464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:914040089> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 142 Đường Cổ Bi" ;
+    ext:osm_id 914040089 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Thon Cam"@en,
+        "Nhà văn hóa thôn Cam"@vi ;
+    schema:operator "Ủy ban nhân dân xã Gia Lâm" ;
+    geo:asWKT "POINT(105.9412245 21.0272465)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:914126564> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_street "Phố Cầu Bây" ;
+    ext:osm_id 914126564 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to Dan Pho So 7"@en,
+        "Nhà văn hóa Tổ dân phố số 7"@vi ;
+    schema:operator "Ủy ban nhân dân phường Sài Đồng" ;
+    geo:asWKT "POINT(105.9192801 21.0322379)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:914894811> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 914894811 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Huyen Thanh Tri"@en,
+        "Nhà văn hoá huyện Thanh Trì"@vi ;
+    geo:asWKT "POINT(105.8466545 20.9445744)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:9237323779> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 9237323779 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa to 9 Phuong Long Bien"@en,
+        "Nhà văn hóa tổ 9 phường Long Biên"@vi ;
+    geo:asWKT "POINT(105.8861376 21.0311508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:932758885> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 932758885 ;
+    ext:osm_type "way" ;
+    schema:name "Cung Thieu Nhi Ha Noi"@en,
+        "Cung thiếu nhi Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7807792 21.0252432)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:938765473> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 938765473 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Tinh 378, Xuan Quan"@en,
+        "Trung tâm cộng đồng tại Đường tỉnh 378, Xuân Quan"@vi ;
+    geo:asWKT "POINT(105.9163362 20.9633506)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:940307978> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "12" ;
+    ext:addr_postcode "100000" ;
+    ext:addr_street "Phố Hoà Mã" ;
+    ext:osm_id 940307978 ;
+    ext:osm_type "way" ;
+    schema:name "Agohub"@en,
+        "AgoHub"@vi ;
+    schema:url <https://www.facebook.com/agohub> ;
+    geo:asWKT "POINT(105.8556855 21.0158372)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:942415516> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 942415516 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Mai Dich"@en,
+        "Nhà văn hoá phường Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7793387 21.0354248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:943911447> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Phố Đặng Tiến Đông" ;
+    ext:osm_id 943911447 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin & the Thao Dong Da"@en,
+        "Trung tâm Văn hóa - Thông tin & Thể thao Đống Đa"@vi ;
+    schema:operator "Ủy ban nhân dân quận Đống Đa" ;
+    geo:asWKT "POINT(105.8223531 21.0143947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:954924142> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 954924142 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Bac Mai Dich"@en,
+        "Nhà văn hoá Bắc Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.776167 21.0429245)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:956996490> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 956996490 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa Thanh Pho Ha Noi"@en,
+        "Trung tâm Văn hoá thành phố Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7833134 20.9728547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:957527737> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Võ Quý Huân" ;
+    ext:osm_id 957527737 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Quan Bac Tu Liem"@en,
+        "Nhà Văn hoá quận Bắc Từ Liêm"@vi ;
+    schema:operator "Trung tâm Văn hoá - Thông tin và Thể thao quận Bắc Từ Liêm" ;
+    geo:asWKT "POINT(105.7508607 21.0479209)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:958652608> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "75" ;
+    ext:addr_street "Phố Đặng Văn Ngữ" ;
+    ext:osm_id 958652608 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Kim Lien"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao phường Kim Liên"@vi ;
+    schema:operator "Ủy ban nhân dân phường Kim Liên" ;
+    geo:asWKT "POINT(105.8313013 21.0088092)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:964908480> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Phố Phú Gia" ;
+    ext:osm_id 964908480 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Phu Thuong"@en,
+        "Trung tâm Văn hoá - Thông tin và Thể thao phường Phú Thượng"@vi ;
+    geo:asWKT "POINT(105.8090687 21.0887133)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:966204369> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:osm_id 966204369 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to 11 Phuong Dong Mai"@en,
+        "Nhà văn hoá tổ 11 phường Đồng Mai"@vi ;
+    geo:asWKT "POINT(105.7388833 20.9244855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:966677798> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 966677798 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Pho Trung Kinh"@en,
+        "Trung tâm cộng đồng tại Phố Trung Kính"@vi ;
+    geo:asWKT "POINT(105.8012485 21.0134873)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:974596731> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 974596731 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Tay Ho"@en,
+        "Trung tâm Văn hóa - Thông tin và Thể thao phường Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8152844 21.0785813)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:974596758> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 974596758 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa Phuong Ha Dinh"@en,
+        "Nhà văn hoá phường Hạ Đình"@vi ;
+    geo:asWKT "POINT(105.8126127 20.9901287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:975967862> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Tân Dân" ;
+    ext:osm_id 975967862 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa - Thong Tin Va the Thao Phuong Thuong Cat"@en,
+        "Trung tâm Văn hoá - Thông tin và Thể thao phường Thượng Cát"@vi ;
+    geo:asWKT "POINT(105.7320974 21.0897235)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:975967870> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 975967870 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngo Thuong Cat"@en,
+        "Trung tâm cộng đồng tại Ngõ Thượng Cát"@vi ;
+    geo:asWKT "POINT(105.7320828 21.09687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:976255170> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 976255170 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Van Hoa the Thao Phuong Tay Mo"@en,
+        "Trung tâm Văn hoá Thế thao phường Tây Mỗ"@vi ;
+    geo:asWKT "POINT(105.7435431 21.0063264)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:976255176> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 976255176 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Ngo 40 Pho Do Nha"@en,
+        "Trung tâm cộng đồng tại Ngõ 40 Phố Do Nha"@vi ;
+    geo:asWKT "POINT(105.7387736 21.0185473)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:community_centre:987523665> a schema:CommunityCenter,
+        fiware:PointOfInterest ;
+    ext:osm_id 987523665 ;
+    ext:osm_type "way" ;
+    schema:name "Community Centre at Duong Kim Lan"@en,
+        "Trung tâm cộng đồng tại Đường Kim Lan"@vi ;
+    geo:asWKT "POINT(105.9110234 20.9463539)"^^geo:wktLiteral .
+

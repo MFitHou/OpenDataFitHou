@@ -1,0 +1,4278 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1002534081> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1002534081 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7827357 20.9858176)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1002535124> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1002535124 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.787771 20.9847704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:10069606> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 10069606 ;
+    ext:osm_type "relation" ;
+    schema:name "Park at Hoang Lan"@en,
+        "Công viên tại Hoàng Lan"@vi ;
+    geo:asWKT "POINT(105.7885173 21.0005377)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1007898597> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:osm_id 1007898597 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Quan Cau Giay"@en,
+        "Công viên tại Quận Cầu Giấy"@vi ;
+    schema:openingHours "24/7" ;
+    schema:telephone "+84 969546018" ;
+    geo:asWKT "POINT(105.7853315 21.0438938)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044480535> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044480535 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7424329 20.9780013)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044483277> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044483277 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7391494 20.9797342)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044483520> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044483520 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7392998 20.9791224)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044484317> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044484317 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7394449 20.9783298)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044485137> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044485137 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7401857 20.9780788)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044485853> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044485853 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7407955 20.9855136)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1044486077> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1044486077 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7387624 20.9853002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1068888906> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1068888906 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Van Lang 2"@en,
+        "Công viên tại Văn Lang 2"@vi ;
+    geo:asWKT "POINT(105.7383659 21.0082199)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1074257032> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1074257032 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9515321 21.0197823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1082721438> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1082721438 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Nguyen Chi Thanh"@en,
+        "Công viên tại Đường Nguyễn Chí Thanh"@vi ;
+    geo:asWKT "POINT(105.8117118 21.0275771)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1082884776> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1082884776 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 3"@en,
+        "Công viên tại Ngọc Trai 3"@vi ;
+    geo:asWKT "POINT(105.9484967 20.9947967)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1082884777> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1082884777 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Hai Au 3"@en,
+        "Công viên tại Hải Âu 3"@vi ;
+    geo:asWKT "POINT(105.9536693 20.9909837)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1085752101> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1085752101 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Sunrise a"@en,
+        "Công viên tại Sunrise A"@vi ;
+    geo:asWKT "POINT(105.8124381 20.973797)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1087731715> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_street "Phố Lê Thánh Tông" ;
+    ext:osm_id 1087731715 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tao Dan"@en,
+        "Vườn hoa Tao Đàn"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.857773 21.0215626)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1087927571> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1087927571 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 11"@en,
+        "Công viên tại Ngọc Trai 11"@vi ;
+    geo:asWKT "POINT(105.9470493 20.9969329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1087927572> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1087927572 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 20"@en,
+        "Công viên tại Ngọc Trai 20"@vi ;
+    geo:asWKT "POINT(105.9467045 20.9980782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1093939457> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1093939457 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 253 Pho Thuy Linh"@en,
+        "Công viên tại Ngõ 253 Phố Thúy Lĩnh"@vi ;
+    geo:asWKT "POINT(105.9023903 20.9771327)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1097438441> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1097438441 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7293105 21.0364406)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1097438442> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1097438442 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Tinh 422b"@en,
+        "Công viên tại Đường Tỉnh 422B"@vi ;
+    geo:asWKT "POINT(105.7302599 21.0358275)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1101783086> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1101783086 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7568472 21.0036634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1103182086> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Võ Thị Sáu" ;
+    ext:osm_id 1103182086 ;
+    ext:osm_type "way" ;
+    schema:name "Park Vo Thi Sau"@en,
+        "Công viên Võ Thị Sáu"@vi ;
+    schema:openingHours "24/7" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10752060> ;
+    geo:asWKT "POINT(105.8570519 21.0055401)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%C3%B4ng%20vi%C3%AAn%20Tu%E1%BB%95i%20Tr%E1%BA%BB> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1104597411> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1104597411 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 43 Dich Vong Hau"@en,
+        "Công viên tại Ngõ 43 Dịch Vọng Hậu"@vi ;
+    geo:asWKT "POINT(105.7873485 21.0312992)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1106866558> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1106866558 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7873374 20.9837317)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1107405638> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1107405638 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7422977 20.9770356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1107407506> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1107407506 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7418384 20.9756034)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1108118623> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1108118623 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tang Bat Ho"@en,
+        "Vườn hoa Tăng Bạt Hổ"@vi ;
+    geo:asWKT "POINT(105.8585899 21.0184147)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1108445943> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1108445943 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Yersin"@en,
+        "Vườn hoa Yersin"@vi ;
+    geo:asWKT "POINT(105.8606026 21.013426)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1110149616> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1110149616 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7688397 20.9544505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1110149617> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1110149617 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7652509 20.9542589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1111949860> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1111949860 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Le Truc"@en,
+        "Vườn hoa Lê Trực"@vi ;
+    geo:asWKT "POINT(105.8331805 21.0326442)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1112643378> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1112643378 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Hoang Cau"@en,
+        "Vườn hoa Hoàng Cầu"@vi ;
+    geo:asWKT "POINT(105.8211697 21.01687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1115152665> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1115152665 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Nam Trung Yen"@en,
+        "Công viên tại Nam Trung Yên"@vi ;
+    geo:asWKT "POINT(105.7913504 21.010353)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1115152672> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1115152672 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7939508 21.0121284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1115516733> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1115516733 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7879037 21.0190182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1116412196> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116412196 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Dinh Nup"@en,
+        "Công viên tại Phố Đinh Núp"@vi ;
+    geo:asWKT "POINT(105.789348 21.01456)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1116412998> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116412998 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Chanh"@en,
+        "Công viên tại Phố Nguyễn Chánh"@vi ;
+    geo:asWKT "POINT(105.7904036 21.0132212)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1116419874> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1116419874 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Thi Due"@en,
+        "Công viên tại Phố Nguyễn Thị Duệ"@vi ;
+    geo:asWKT "POINT(105.7887237 21.0179388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1118223283> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118223283 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 144 Pho Mai Dich"@en,
+        "Công viên tại Ngõ 144 Phố Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7761958 21.0440865)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1118308342> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118308342 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nghia Tan"@en,
+        "Vườn hoa Nghĩa Tân"@vi ;
+    geo:asWKT "POINT(105.7929793 21.0428861)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1118788849> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118788849 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 75 Duong Ho Tung Mau"@en,
+        "Công viên tại Ngõ 75 Đường Hồ Tùng Mậu"@vi ;
+    geo:asWKT "POINT(105.7764006 21.0352846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119201319> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119201319 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 127 Ngo Xuan Quang"@en,
+        "Công viên tại Ngõ 127 Ngô Xuân Quảng"@vi ;
+    geo:asWKT "POINT(105.9393657 21.0172592)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119231769> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119231769 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon an Vien"@en,
+        "Vườn An Viên"@vi ;
+    geo:asWKT "POINT(105.9457403 21.0068185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119231770> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119231770 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Lam Vien"@en,
+        "Vườn Lam Viên"@vi ;
+    geo:asWKT "POINT(105.9464702 21.0076923)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119231771> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119231771 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Long Vien"@en,
+        "Vườn Long Viên"@vi ;
+    geo:asWKT "POINT(105.9472382 21.0086073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119319683> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119319683 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Truong Cong Giai"@en,
+        "Công viên tại Phố Trương Công Giai"@vi ;
+    geo:asWKT "POINT(105.7905401 21.0321754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1119385385> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119385385 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Cuu Viet"@en,
+        "Công viên tại Phố Cửu Việt"@vi ;
+    geo:asWKT "POINT(105.9393285 21.0143676)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1122937024> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1122937024 ;
+    ext:osm_type "way" ;
+    schema:name "Dai Tuong Niem Liet Si Phuong Mai Dich"@en,
+        "Đài tưởng niệm Liệt sĩ Phường Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7793437 21.0361687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1124152135> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1124152135 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 270/45 Duong Co Bi"@en,
+        "Công viên tại Ngách 270/45 Đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9453295 21.0300782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1124817471> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1124817471 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 215 Duong Trau Quy"@en,
+        "Công viên tại Ngõ 215 đường Trâu Quỳ"@vi ;
+    geo:asWKT "POINT(105.9393413 21.0065894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1134239168> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1134239168 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9533553 21.0184338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1137325945> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1137325945 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Cu Khoi"@en,
+        "Vườn hoa Cự Khối"@vi ;
+    geo:asWKT "POINT(105.913213 21.0080316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1143839539> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1143839539 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Dai Viet"@en,
+        "Công viên tại Đường Đại Việt"@vi ;
+    geo:asWKT "POINT(105.7401098 21.0033702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1144267155> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1144267155 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8780761 21.0601736)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1144267156> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1144267156 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Nguyen Gia Bong"@en,
+        "Công viên tại Đường Nguyễn Gia Bồng"@vi ;
+    geo:asWKT "POINT(105.8795464 21.0604906)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1144267157> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1144267157 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Quang Truong Mat Troi"@en,
+        "Công viên tại Quảng trường Mặt Trời"@vi ;
+    geo:asWKT "POINT(105.8715107 21.0610509)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1144267188> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1144267188 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Thuong Thanh"@en,
+        "Vườn hoa Thượng Thanh"@vi ;
+    geo:asWKT "POINT(105.8744313 21.0568604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1148275988> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1148275988 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Cha La 13"@en,
+        "Công viên tại Chà Là 13"@vi ;
+    geo:asWKT "POINT(105.982996 20.9374715)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1148275989> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1148275989 ;
+    ext:osm_type "way" ;
+    schema:name "Park Cha La 3"@en,
+        "Công viên Chà Là 3"@vi ;
+    geo:asWKT "POINT(105.985123 20.9386353)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1148275990> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1148275990 ;
+    ext:osm_type "way" ;
+    schema:name "Park Cha La 1"@en,
+        "Công viên Chà Là 1"@vi ;
+    geo:asWKT "POINT(105.9835516 20.9408304)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1148278384> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1148278384 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9127081 21.0337817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1149372974> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1149372974 ;
+    ext:osm_type "way" ;
+    schema:name "Park Hai Au"@en,
+        "Công viên Hải Âu"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9535159 20.9886347)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:11506138278> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 11506138278 ;
+    ext:osm_type "node" ;
+    schema:name "Park Bella"@en,
+        "Công viên Bella"@vi ;
+    geo:asWKT "POINT(105.9776201 20.9541097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1151686619> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1151686619 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Kim Giang"@en,
+        "Công viên tại Đường Kim Giang"@vi ;
+    geo:asWKT "POINT(105.8232644 20.9685063)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1151686636> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1151686636 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Kim Giang"@en,
+        "Công viên tại Đường Kim Giang"@vi ;
+    geo:asWKT "POINT(105.8199762 20.9649697)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1157972684> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157972684 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo Vuon Ho 2"@en,
+        "Công viên tại Ngõ Vườn Hồ 2"@vi ;
+    geo:asWKT "POINT(105.9106186 21.0055094)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1162630364> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1162630364 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 1 Pho Phung Chi Kien"@en,
+        "Công viên tại Ngõ 1 Phố Phùng Chí Kiên"@vi ;
+    geo:asWKT "POINT(105.8032329 21.0442001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1162837200> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1162837200 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nguyen Dinh Thi"@en,
+        "Vườn hoa Nguyễn Đình Thi"@vi ;
+    geo:asWKT "POINT(105.8252031 21.043241)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1163529227> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1163529227 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Dinh Thi"@en,
+        "Công viên tại Phố Nguyễn Đình Thi"@vi ;
+    geo:asWKT "POINT(105.8317695 21.0439425)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1163614000> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1163614000 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Thuy Khue"@en,
+        "Công viên tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8303581 21.0430499)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1169679745> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1169679745 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ngo Xuan Quang"@en,
+        "Công viên tại Phố Ngô Xuân Quảng"@vi ;
+    geo:asWKT "POINT(105.9322198 21.0089168)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173092161> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173092161 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Van Ninh"@en,
+        "Công viên tại Phố Nguyễn Văn Ninh"@vi ;
+    geo:asWKT "POINT(105.9125026 21.0588423)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173092162> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173092162 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Viet Hung"@en,
+        "Vườn hoa Việt Hưng"@vi ;
+    geo:asWKT "POINT(105.8975282 21.0500652)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173092164> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173092164 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Phuc Dong"@en,
+        "Vườn hoa Phúc Đồng"@vi ;
+    geo:asWKT "POINT(105.9008478 21.0473723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173092165> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173092165 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tan Thuy"@en,
+        "Vườn hoa Tân Thụy"@vi ;
+    geo:asWKT "POINT(105.8971886 21.045004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173415441> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173415441 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 3 Duong Thach Ban"@en,
+        "Công viên tại Ngõ 3 Đường Thạch Bàn"@vi ;
+    geo:asWKT "POINT(105.9125181 21.0256429)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173732824> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732824 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 61 Pho Nguyen Khac Vien"@en,
+        "Công viên tại Ngõ 61 phố Nguyễn Khắc Viện"@vi ;
+    geo:asWKT "POINT(105.913814 21.0638125)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173732839> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732839 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 71 Pho Pham Khac Quang"@en,
+        "Công viên tại Ngõ 71 phố Phạm Khắc Quảng"@vi ;
+    geo:asWKT "POINT(105.9146183 21.0649417)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173732840> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732840 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 71 Pho Pham Khac Quang"@en,
+        "Công viên tại Ngõ 71 phố Phạm Khắc Quảng"@vi ;
+    geo:asWKT "POINT(105.9149896 21.0652197)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173732847> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732847 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 83 Pho Nguyen Khac Vien"@en,
+        "Công viên tại Ngõ 83 phố Nguyễn Khắc Viện"@vi ;
+    geo:asWKT "POINT(105.9130528 21.0645479)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1173732861> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732861 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 140/8 Pho Pham Khac Quang"@en,
+        "Công viên tại Ngách 140/8 phố Phạm Khắc Quảng"@vi ;
+    geo:asWKT "POINT(105.915982 21.0651026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1174290221> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1174290221 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Gia Quat"@en,
+        "Vườn hoa Gia Quất"@vi ;
+    geo:asWKT "POINT(105.8708376 21.0551679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1174490259> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1174490259 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ai Mo"@en,
+        "Vườn hoa Ái Mộ"@vi ;
+    geo:asWKT "POINT(105.8722168 21.0388595)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1175724557> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1175724557 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.872652 21.0562232)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1175724558> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1175724558 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ngoc Thuy"@en,
+        "Công viên Ngọc Thụy"@vi ;
+    geo:asWKT "POINT(105.8728589 21.0584947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1175934359> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1175934359 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Ngoc Thuy"@en,
+        "Công viên tại Đường Ngọc Thụy"@vi ;
+    geo:asWKT "POINT(105.8754593 21.0659994)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1175934361> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1175934361 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Ngoc Thuy"@en,
+        "Công viên tại Đường Ngọc Thụy"@vi ;
+    geo:asWKT "POINT(105.8751893 21.0666815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1175934383> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1175934383 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8760647 21.0644948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1180263386> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1180263386 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 1/2 Pho Cuu Viet"@en,
+        "Công viên tại Ngách 1/2 phố Cửu Việt"@vi ;
+    geo:asWKT "POINT(105.939693 21.011821)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1182143661> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182143661 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8433061 21.1760373)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1182376980> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182376980 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nho Den Lu"@en,
+        "Vườn hoa nhỏ Đền Lừ"@vi ;
+    geo:asWKT "POINT(105.8610331 20.9858409)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1182376981> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182376981 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Kdt Den Lu I"@en,
+        "Công viên tại KĐT Đền Lừ I"@vi ;
+    geo:asWKT "POINT(105.8600852 20.9845933)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1183925289> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1183925289 ;
+    ext:osm_type "way" ;
+    schema:name "Park at San Ho 17"@en,
+        "Công viên tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9809084 20.9457416)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1183925290> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1183925290 ;
+    ext:osm_type "way" ;
+    schema:name "Park Sao Bien 1"@en,
+        "Công viên Sao Biển 1"@vi ;
+    geo:asWKT "POINT(105.9739005 20.9479619)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1183925291> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1183925291 ;
+    ext:osm_type "way" ;
+    schema:name "Park Sao Bien 2"@en,
+        "Công viên Sao Biển 2"@vi ;
+    geo:asWKT "POINT(105.9754725 20.9447205)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1185727122> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185727122 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8470382 21.1372011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1185901826> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185901826 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8460853 21.1390453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1185901853> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185901853 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.852457 21.1387877)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1185911643> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185911643 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8521858 21.1410499)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1185911644> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185911644 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8520544 21.1429237)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1187726805> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187726805 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Kim Quan"@en,
+        "Vườn hoa Kim Quan"@vi ;
+    geo:asWKT "POINT(105.9014389 21.0580937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1188004485> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1188004485 ;
+    ext:osm_type "way" ;
+    schema:name "Du an Cai Tao Ho Dau Bang"@en,
+        "Dự án cải tạo hồ Đầu Băng"@vi ;
+    geo:asWKT "POINT(105.8885658 21.0270502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1188004491> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1188004491 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 189 Duong Bat Khoi"@en,
+        "Công viên tại Ngõ 189 Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.8882335 21.0243581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1190841554> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1190841554 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Mai Phuc"@en,
+        "Vườn hoa Mai Phúc"@vi ;
+    geo:asWKT "POINT(105.9026106 21.0448072)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1194836328> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1194836328 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Bien Ho"@en,
+        "Công viên tại Đường Biển Hồ"@vi ;
+    geo:asWKT "POINT(105.9443409 20.9973582)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1196688060> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196688060 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7941967 21.0291702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1196731954> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196731954 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Van Lang"@en,
+        "Công viên tại Đường Văn Lang"@vi ;
+    geo:asWKT "POINT(105.737736 21.0066383)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1197414131> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1197414131 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9082609 20.9693508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1206082740> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206082740 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7108553 21.0726024)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1209822359> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1209822359 ;
+    ext:osm_type "way" ;
+    schema:name "Park - Bai Xe Ngam Me Tri Ha"@en,
+        "Công viên - Bãi xe ngầm Mễ Trì Hạ"@vi ;
+    geo:asWKT "POINT(105.781639 21.0139448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1210089640> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210089640 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Nguyen Hoang Ton"@en,
+        "Công viên tại Đường Nguyễn Hoàng Tôn"@vi ;
+    geo:asWKT "POINT(105.8118677 21.0688204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1210984005> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1210984005 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa 1-6"@en,
+        "Vườn hoa 1-6"@vi ;
+    geo:asWKT "POINT(105.8273126 21.0164554)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1211556646> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1211556646 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo Xa Dan 2"@en,
+        "Công viên tại Ngõ Xã Đàn 2"@vi ;
+    geo:asWKT "POINT(105.8308662 21.0127166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1212182621> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1212182621 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8953207 21.1532987)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1213883583> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1213883583 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 89 Duong Lac Long Quan"@en,
+        "Công viên tại Ngõ 89 Đường Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8074528 21.0515568)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1215489700> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1215489700 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tram"@en,
+        "Vườn hoa Trạm"@vi ;
+    geo:asWKT "POINT(105.8928088 21.0260345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1216804010> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1216804010 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 202/16 Duong Co Linh"@en,
+        "Công viên tại Ngõ 202/16 Đường Cổ Linh"@vi ;
+    geo:asWKT "POINT(105.8929694 21.0272302)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1217694043> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217694043 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 6 Duong Dinh Nghe"@en,
+        "Công viên tại Ngõ 6 Dương Đình Nghệ"@vi ;
+    geo:asWKT "POINT(105.7875336 21.0225614)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1217933369> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217933369 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Lam Ha"@en,
+        "Vườn hoa Lâm Hạ"@vi ;
+    geo:asWKT "POINT(105.8817488 21.0408478)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1218848971> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218848971 ;
+    ext:osm_type "way" ;
+    schema:name "Anh Duong Garden"@en,
+        "Ánh Dương Garden"@vi ;
+    schema:operator "Bình Minh Garden" ;
+    geo:asWKT "POINT(105.886591 21.068044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1220021925> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1220021925 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Dinh Tien Hoang"@en,
+        "Công viên tại Phố Đinh Tiên Hoàng"@vi ;
+    geo:asWKT "POINT(105.8533738 21.0297527)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1220299383> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1220299383 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Le Thai to"@en,
+        "Công viên tại Phố Lê Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.8522694 21.0268982)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1222467960> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222467960 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Vinhomes Ocean Park"@en,
+        "Điểm Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9398096 20.9942884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1222467980> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222467980 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Vinhomes Ocean Park"@en,
+        "Điểm Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9402728 20.9922898)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1222468025> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222468025 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 5 Duong D"@en,
+        "Công viên tại Ngõ 5 đường D"@vi ;
+    geo:asWKT "POINT(105.9438076 20.9967086)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223137470> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223137470 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Hai Dang 5"@en,
+        "Công viên tại Hải Đăng 5"@vi ;
+    geo:asWKT "POINT(105.9443476 20.9942795)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223169237> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223169237 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Sao Bien 18"@en,
+        "Công viên tại Sao Biển 18"@vi ;
+    geo:asWKT "POINT(105.9560367 20.9940891)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223169238> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223169238 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ho Ngoc Trai-san Ho"@en,
+        "Công viên Hồ Ngọc Trai-San Hô"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.949798 20.9912806)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223169255> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223169255 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 3"@en,
+        "Công viên tại Ngọc Trai 3"@vi ;
+    geo:asWKT "POINT(105.9491521 20.9951121)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223384698> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223384698 ;
+    ext:osm_type "way" ;
+    schema:name "Tonkin's Park"@en,
+        "Tonkin's park"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7388959 20.9973654)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223408391> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223408391 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 21"@en,
+        "Công viên tại Ngọc Trai 21"@vi ;
+    geo:asWKT "POINT(105.9457708 20.9971984)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223490916> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223490916 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9483399 20.9989)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223490974> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223490974 ;
+    ext:osm_type "way" ;
+    schema:name "Park Bien Ho"@en,
+        "Công Viên Biển Hồ"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9482202 21.0000855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223678132> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223678132 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Bien Ho"@en,
+        "Công viên tại Đường Biển Hồ"@vi ;
+    geo:asWKT "POINT(105.9429703 20.9999305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1223996604> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996604 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8303353 21.1118006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1224032232> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224032232 ;
+    ext:osm_type "way" ;
+    schema:name "Park at San Ho 11"@en,
+        "Công viên tại San Hô 11"@vi ;
+    geo:asWKT "POINT(105.9470772 20.9916249)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1224032281> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224032281 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Hai Au 1"@en,
+        "Công viên tại Hải Âu 1"@vi ;
+    geo:asWKT "POINT(105.9503366 20.9898539)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1226672997> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1226672997 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Vinhomes Ocean Park"@en,
+        "Điểm Vinhomes Ocean Park"@vi ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.9560222 20.9970976)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1227397537> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1227397537 ;
+    ext:osm_type "way" ;
+    schema:name "Park San Ho 1"@en,
+        "Công viên San Hô 1"@vi ;
+    geo:asWKT "POINT(105.9783288 20.9510363)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1228401032> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228401032 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.800912 20.9626218)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1228784727> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228784727 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7339859 21.0063803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1228803820> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228803820 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7307851 21.0076203)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1229858803> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1229858803 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ton That Tung"@en,
+        "Công viên tại Phố Tôn Thất Tùng"@vi ;
+    geo:asWKT "POINT(105.8311161 21.0025033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1231837152> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1231837152 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 39 Pho Doan Quang Dung"@en,
+        "Công viên tại Ngõ 39 phố Đoàn Quang Dung"@vi ;
+    geo:asWKT "POINT(105.9462509 21.0129181)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1238633834> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238633834 ;
+    ext:osm_type "way" ;
+    schema:name "Park Trung Tam Empire Park"@en,
+        "Công viên Trung tâm Empire Park"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.9736819 20.9449958)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1238640240> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238640240 ;
+    ext:osm_type "way" ;
+    schema:name "Park Co Xanh 1"@en,
+        "Công viên Cọ Xanh 1"@vi ;
+    geo:asWKT "POINT(105.9684195 20.9478309)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1238640241> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238640241 ;
+    ext:osm_type "way" ;
+    schema:name "Park Co Xanh 2"@en,
+        "Công viên Cọ Xanh 2"@vi ;
+    geo:asWKT "POINT(105.9697398 20.945099)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1238640242> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238640242 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Hai Au 4"@en,
+        "Công viên tại Hải Âu 4"@vi ;
+    geo:asWKT "POINT(105.9714494 20.9415913)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1238640642> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1238640642 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ngoc Trai"@en,
+        "Công viên Ngọc Trai"@vi ;
+    geo:asWKT "POINT(105.9869955 20.9447397)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:124877385> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 124877385 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Pasteur"@en,
+        "Vườn hoa Pasteur"@vi ;
+    geo:asWKT "POINT(105.8595057 21.0141767)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1250193564> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1250193564 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Dan Nam"@en,
+        "Vườn hoa Đàn Nam"@vi ;
+    geo:asWKT "POINT(105.8500103 21.0108471)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1251537900> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537900 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 71 Pho Pham Khac Quang"@en,
+        "Công viên tại Ngõ 71 phố Phạm Khắc Quảng"@vi ;
+    geo:asWKT "POINT(105.915195 21.0644796)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1251887323> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251887323 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Quan Tinh"@en,
+        "Công viên tại Phố Quán Tình"@vi ;
+    geo:asWKT "POINT(105.9156249 21.0595868)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1253839879> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:osm_id 1253839879 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ho Can"@en,
+        "Công viên hồ Cần"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.8753215 20.9966886)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1253905584> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1253905584 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Canh Quan"@en,
+        "Khu cảnh quan"@vi ;
+    geo:asWKT "POINT(105.9336867 21.018929)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1256790914> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Tam Lư 1" ;
+    ext:osm_id 1256790914 ;
+    ext:osm_type "way" ;
+    schema:name "Park Tam Lu"@en,
+        "Công viên Tam Lư"@vi ;
+    geo:asWKT "POINT(105.9757766 21.1237446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1256790915> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Tam Lư 1" ;
+    ext:osm_id 1256790915 ;
+    ext:osm_type "way" ;
+    schema:name "Park Tam Lu"@en,
+        "Công viên Tam Lư"@vi ;
+    geo:asWKT "POINT(105.9763919 21.1230746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1256790917> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256790917 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Dong Nguyen"@en,
+        "Công viên tại Phường Đồng Nguyên"@vi ;
+    geo:asWKT "POINT(105.9747494 21.1234211)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1256790921> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1256790921 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9743705 21.121344)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1257492050> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1257492050 ;
+    ext:osm_type "way" ;
+    schema:name "San Betong Bong Ro + Da Bong Mini"@en,
+        "Sân betong bóng rổ + đá bóng mini"@vi ;
+    geo:asWKT "POINT(105.8019076 20.9620552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1258166110> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 64 phố Ngô Xuân Quảng" ;
+    ext:osm_id 1258166110 ;
+    ext:osm_type "way" ;
+    schema:name "Trung Tam Sinh Thai Giao Duc V-eco"@en,
+        "Trung tâm sinh thái giáo dục V-Eco"@vi ;
+    schema:operator "Học viện Nông nghiệp Việt Nam" ;
+    schema:telephone "+84 243 201 0647;+84 987 278 998" ;
+    geo:asWKT "POINT(105.9304332 21.0159872)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1259638510> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1259638510 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7240805 21.1930019)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1259638511> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1259638511 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Quoc Lo 23"@en,
+        "Công viên tại Quốc lộ 23"@vi ;
+    geo:asWKT "POINT(105.722307 21.1909515)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:12690384420> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 12690384420 ;
+    ext:osm_type "node" ;
+    schema:name "Kho 02"@en,
+        "kho 02"@vi ;
+    geo:asWKT "POINT(105.9439386 21.0025332)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1271711426> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1271711426 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8549911 20.9972057)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1276674298> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674298 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8248019 20.967377)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1276674299> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674299 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8237166 20.9662629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1276674300> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674300 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8247633 20.9638285)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277765302> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277765302 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7897202 20.9495657)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277765303> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277765303 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7911324 20.947939)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277765304> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277765304 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7920558 20.947635)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277765305> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277765305 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7894903 20.9490479)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277765306> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277765306 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Hoang Cong"@en,
+        "Công viên tại Phố Hoàng Công"@vi ;
+    geo:asWKT "POINT(105.7909342 20.9468942)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1277766296> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1277766296 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7911493 20.9461845)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1278002275> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278002275 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Chua Tong"@en,
+        "Công viên tại Đường Chùa Tổng"@vi ;
+    geo:asWKT "POINT(105.733155 20.9942391)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1278806798> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278806798 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9345824 21.061963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1289605166> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1289605166 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Cong Doan"@en,
+        "Vườn hoa Công đoàn"@vi ;
+    geo:asWKT "POINT(105.8251991 21.0100785)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1290167945> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1290167945 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Hoang Van Thu"@en,
+        "Vườn hoa Hoàng Văn Thụ"@vi ;
+    geo:asWKT "POINT(105.8394833 21.0386837)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1291683335> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291683335 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7078353 21.0675627)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1292544276> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1292544276 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ba Mau"@en,
+        "Công viên Ba Mẫu"@vi ;
+    geo:asWKT "POINT(105.8401129 21.0125196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1292544286> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1292544286 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Hang Voi"@en,
+        "Vườn hoa Hàng Vôi"@vi ;
+    geo:asWKT "POINT(105.8567293 21.0292528)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1295967064> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1295967064 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Vinhomes Ocean Park"@en,
+        "Điểm Vinhomes Ocean Park"@vi ;
+    schema:openingHours "24/7" ;
+    schema:operator "Vinhomes Ocean Park" ;
+    geo:asWKT "POINT(105.953488 20.9985854)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1303095703> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303095703 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Hoang Hoa Tham"@en,
+        "Công viên tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8215011 21.0420606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1303095705> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303095705 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Hoang Hoa Tham"@en,
+        "Công viên tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.82212 21.0410803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1303095706> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303095706 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Hoang Hoa Tham"@en,
+        "Công viên tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.82231 21.0414726)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1303107850> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303107850 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Hoang Hoa Tham"@en,
+        "Công viên tại Đường Hoàng Hoa Thám"@vi ;
+    geo:asWKT "POINT(105.8217972 21.0401114)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1304386629> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Đường Hoàng Diệu" ;
+    ext:osm_id 1304386629 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Khao Co Hoc 18 Hoang Dieu"@en,
+        "Khu khảo cổ học 18 Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.8382297 21.0375421)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1304796989> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1304796989 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Dien Bien Phu"@en,
+        "Công viên tại Đường Điện Biên Phủ"@vi ;
+    geo:asWKT "POINT(105.8405915 21.030997)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1305895368> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305895368 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Kinh Thien"@en,
+        "Vườn hoa Kính Thiên"@vi ;
+    geo:asWKT "POINT(105.8379074 21.0350765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1307631429> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1307631429 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nghe Ngo"@en,
+        "Vườn hoa Nghè Ngô"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.9054356 21.0149182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1307642369> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1307642369 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 539 Duong Bat Khoi"@en,
+        "Công viên tại Ngõ 539 Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.9069972 21.019108)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1307642370> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1307642370 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 537 Duong Bat Khoi"@en,
+        "Công viên tại Ngõ 537 Đường Bát Khối"@vi ;
+    geo:asWKT "POINT(105.9070421 21.0197786)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:13083692966> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 13083692966 ;
+    ext:osm_type "node" ;
+    schema:name "Park Cha La 1"@en,
+        "Công viên Chà Là 1"@vi ;
+    geo:asWKT "POINT(105.9836638 20.9406014)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1311727644> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1311727644 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9482213 21.0101475)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1315344013> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315344013 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8290562 21.0316839)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1315473371> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315473371 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9053958 21.0201517)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1315473372> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315473372 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9060142 21.0201999)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1315473373> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1315473373 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9069073 21.0202297)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:13161385861> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 13161385861 ;
+    ext:osm_type "node" ;
+    schema:name "Park Ngoc Trai 2"@en,
+        "Công viên Ngọc Trai 2"@vi ;
+    geo:asWKT "POINT(105.9895251 20.9412881)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1320956049> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1320956049 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Au Lac"@en,
+        "Công viên tại Đường Âu Lạc"@vi ;
+    geo:asWKT "POINT(105.7387128 21.000061)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1325573594> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1325573594 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ngo Viet Thu"@en,
+        "Công viên tại Phố Ngô Viết Thụ"@vi ;
+    geo:asWKT "POINT(105.911749 21.0580118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1326230608> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1326230608 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Phuc Loi"@en,
+        "Vườn hoa Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.9197634 21.054476)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1327204797> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1327204797 ;
+    ext:osm_type "way" ;
+    schema:name "Landmark72 Garden"@en,
+        "Landmark72 Garden"@vi ;
+    geo:asWKT "POINT(105.7842265 21.0178763)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1328191516> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1328191516 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Xa Yen Trung"@en,
+        "Công viên tại Xã Yên Trung"@vi ;
+    geo:asWKT "POINT(105.9873393 21.2010597)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1328191542> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1328191542 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Xa Yen Trung"@en,
+        "Công viên tại Xã Yên Trung"@vi ;
+    geo:asWKT "POINT(105.9920939 21.1997152)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1328336046> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1328336046 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Dai Lo Thang Long"@en,
+        "Công viên tại Đại lộ Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7696356 21.0067204)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1329665512> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1329665512 ;
+    ext:osm_type "way" ;
+    schema:name "Park Vsip"@en,
+        "Công viên VSIP"@vi ;
+    geo:asWKT "POINT(105.9672033 21.0763064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:13301629649> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 13301629649 ;
+    ext:osm_type "node" ;
+    schema:name "Park Ngoc Trai 3"@en,
+        "Công viên Ngọc Trai 3"@vi ;
+    geo:asWKT "POINT(105.9831833 20.942924)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:13335466013> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 13335466013 ;
+    ext:osm_type "node" ;
+    schema:name "Park San Ho 2"@en,
+        "Công viên San Hô 2"@vi ;
+    geo:asWKT "POINT(105.9805717 20.945441)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:13335466014> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 13335466014 ;
+    ext:osm_type "node" ;
+    schema:name "Park Hai Au"@en,
+        "Công viên Hải Âu"@vi ;
+    geo:asWKT "POINT(105.971808 20.9415683)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1333760607> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1333760607 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Man Xa"@en,
+        "Vườn hoa Mẫn Xá"@vi ;
+    geo:asWKT "POINT(105.9870455 21.1957345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1337578715> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1337578715 ;
+    ext:osm_type "way" ;
+    schema:name "The Matrix One Private Park"@en,
+        "The Matrix One Private Park"@vi ;
+    schema:operator "The Matrix One" ;
+    geo:asWKT "POINT(105.7743705 21.0093608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1339401945> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1339401945 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Xa Phung Cong"@en,
+        "Công viên tại Xã Phụng Công"@vi ;
+    geo:asWKT "POINT(105.9346398 20.9468752)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1341826764> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1341826764 ;
+    ext:osm_type "way" ;
+    schema:name "Park Khu Pho Hung Phuc"@en,
+        "Công viên Khu phố Hưng Phúc"@vi ;
+    geo:asWKT "POINT(105.9900411 21.1386927)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1351157610> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1351157610 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Phuong Thuong Thanh"@en,
+        "Vườn hoa phường Thượng Thanh"@vi ;
+    geo:asWKT "POINT(105.8963591 21.0667475)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1351157615> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1351157615 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9087173 21.0706636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1359824052> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Phố Chùa Láng" ;
+    ext:osm_id 1359824052 ;
+    ext:osm_type "way" ;
+    schema:name "Quang Truong Asean"@en,
+        "Quảng trường ASEAN"@vi ;
+    schema:operator "Học viện Ngoại giao" ;
+    geo:asWKT "POINT(105.8062935 21.0224872)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:136176176> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 136176176 ;
+    ext:osm_type "way" ;
+    schema:name "Park Den Lu"@en,
+        "Công viên Đền Lừ"@vi ;
+    schema:openingHours "24/7" ;
+    schema:operator "Công ty TNHH MTV Thoát nước Hà Nội" ;
+    geo:asWKT "POINT(105.8556888 20.9851142)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1365437934> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Xã Tân Lập" ;
+    ext:addr_district "Huyện Đan Phượng" ;
+    ext:addr_housenumber "23" ;
+    ext:addr_postcode "153360" ;
+    ext:addr_street "Đường Bát Phúc" ;
+    ext:osm_id 1365437934 ;
+    ext:osm_type "way" ;
+    schema:name "Playground Khu Do Thi Tan Tay Do"@en,
+        "Sân chơi khu đô thị Tân Tây Đô"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.7015252 21.0742571)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1368360537> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1368360537 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 264 Pho Au Co"@en,
+        "Công viên tại Ngõ 264 Phố Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8361081 21.078874)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1370518266> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1370518266 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Quang an"@en,
+        "Công viên tại Phố Quảng An"@vi ;
+    geo:asWKT "POINT(105.8216364 21.0556733)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1370518272> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1370518272 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Quang Ba"@en,
+        "Công viên tại Phố Quảng Bá"@vi ;
+    geo:asWKT "POINT(105.8210914 21.0624446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1371658512> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1371658512 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7439616 20.9820584)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1371659811> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1371659811 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7398422 20.981249)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1382947513> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1382947513 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Xa Yen Phong"@en,
+        "Công viên tại Xã Yên Phong"@vi ;
+    geo:asWKT "POINT(105.9921366 21.1903749)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1386623789> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386623789 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 19 Duong Ly Hue Tong"@en,
+        "Công viên tại Ngõ 19 Đường Lý Huệ Tông"@vi ;
+    geo:asWKT "POINT(105.9431274 21.0905131)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1386623790> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386623790 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 21 Duong Ly Hue Tong"@en,
+        "Công viên tại Ngõ 21 Đường Lý Huệ Tông"@vi ;
+    geo:asWKT "POINT(105.9436341 21.0905006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1386623830> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386623830 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9407573 21.0894794)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1387326083> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1387326083 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9716645 21.0715929)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1387326084> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1387326084 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9730038 21.0745721)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1390007834> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1390007834 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Thuy Phuong"@en,
+        "Công viên tại Đường Thụy Phương"@vi ;
+    geo:asWKT "POINT(105.7748316 21.0943001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1394892367> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1394892367 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.963177 21.0817379)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1394892368> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1394892368 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9630146 21.0824815)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1394916031> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1394916031 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9632871 21.0809709)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1412509585> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1412509585 ;
+    ext:osm_type "way" ;
+    schema:name "Center Musical Park"@en,
+        "Center Musical Park"@vi ;
+    geo:asWKT "POINT(105.729538 21.0250486)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1419194460> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1419194460 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Ngo Gia Tu"@en,
+        "Công viên tại Đường Ngô Gia Tự"@vi ;
+    geo:asWKT "POINT(105.9643665 21.1284279)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1419424145> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1419424145 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9570645 20.9797082)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1419551833> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1419551833 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9548349 21.1113574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1422856210> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1422856210 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9549924 21.1110023)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1423063986> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1423063986 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 491 Duong Tran Phu"@en,
+        "Công viên tại Ngõ 491 Đường Trần Phú"@vi ;
+    geo:asWKT "POINT(105.9478991 21.1093973)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1423063987> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1423063987 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9447052 21.1075636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1424410345> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1424410345 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Co Bi"@en,
+        "Công viên tại Đường Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9414606 21.0333116)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1431889732> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1431889732 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngoc Trai 1"@en,
+        "Công viên tại Ngọc Trai 1"@vi ;
+    geo:asWKT "POINT(105.9894722 20.9419214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1433951301> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433951301 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Xa Yen Phong"@en,
+        "Công viên tại Xã Yên Phong"@vi ;
+    geo:asWKT "POINT(105.9542533 21.1847672)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1435144916> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435144916 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Chu Van Nghi"@en,
+        "Công viên tại Phố Chu Văn Nghị"@vi ;
+    geo:asWKT "POINT(105.9499419 21.1993454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1435347654> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435347654 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Chu Dich Huan"@en,
+        "Công viên tại Phố Chu Địch Huấn"@vi ;
+    geo:asWKT "POINT(105.9490411 21.1985398)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1435347655> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435347655 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Chu Dich Huan"@en,
+        "Công viên tại Phố Chu Địch Huấn"@vi ;
+    geo:asWKT "POINT(105.9505765 21.1983986)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1435347656> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1435347656 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Chu Dich Huan"@en,
+        "Công viên tại Phố Chu Địch Huấn"@vi ;
+    geo:asWKT "POINT(105.9498506 21.1984574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1444241100> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Phố Chùa Bộc" ;
+    ext:osm_id 1444241100 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Hoc Vien Ngan Hang"@en,
+        "Vườn hoa Học viện Ngân Hàng"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.8288524 21.0090835)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1444241101> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444241101 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Hoc Vien Ngan Hang"@en,
+        "Điểm Học viện Ngân Hàng"@vi ;
+    schema:operator "Học viện Ngân Hàng" ;
+    geo:asWKT "POINT(105.8292555 21.0098749)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1445464959> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "321" ;
+    ext:addr_street "Ngõ 90 Đường Phúc Diễn" ;
+    ext:osm_id 1445464959 ;
+    ext:osm_type "way" ;
+    schema:name "Park Viet Le"@en,
+        "Công viên Việt Lê"@vi ;
+    schema:operator "Việt Lê" ;
+    geo:asWKT "POINT(105.7572616 21.040685)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446455180> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446455180 ;
+    ext:osm_type "way" ;
+    schema:name "Park Rose Park"@en,
+        "Công Viên Rose Park"@vi ;
+    geo:asWKT "POINT(105.8565195 21.0954152)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446455181> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446455181 ;
+    ext:osm_type "way" ;
+    schema:name "Park Swan Park"@en,
+        "Công Viên Swan Park"@vi ;
+    geo:asWKT "POINT(105.8545135 21.0975678)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446455182> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446455182 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Thanh Pho Tp5.1"@en,
+        "Công viên tại Đường Thành Phố TP5.1"@vi ;
+    geo:asWKT "POINT(105.8575404 21.0907389)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446781469> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446781469 ;
+    ext:osm_type "way" ;
+    schema:name "Park Pearl Park"@en,
+        "Công Viên Pearl Park"@vi ;
+    geo:asWKT "POINT(105.8545243 21.0916339)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446967923> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446967923 ;
+    ext:osm_type "way" ;
+    schema:name "Park Boutique Park"@en,
+        "Công Viên Boutique Park"@vi ;
+    geo:asWKT "POINT(105.8586149 21.1006663)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446967932> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446967932 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Thanh Pho Tp4"@en,
+        "Công viên tại Đường Thành Phố TP4"@vi ;
+    geo:asWKT "POINT(105.8625773 21.0947823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1446967948> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1446967948 ;
+    ext:osm_type "way" ;
+    schema:name "Park the Indochine Park"@en,
+        "Công Viên The Indochine Park"@vi ;
+    geo:asWKT "POINT(105.8668229 21.0905248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1449258911> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1449258911 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8747868 21.052141)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1451727983> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1451727983 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8367899 21.0616992)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453329154> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453329154 ;
+    ext:osm_type "way" ;
+    schema:name "Park Cay Xanh Vien Nhiet Doi"@en,
+        "Công viên cây xanh Viện Nhiệt Đới"@vi ;
+    geo:asWKT "POINT(105.774895 21.1311398)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453331761> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453331761 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7821769 21.1646267)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522513> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522513 ;
+    ext:osm_type "way" ;
+    schema:name "Park Royal Park"@en,
+        "Công Viên Royal Park"@vi ;
+    geo:asWKT "POINT(105.8604291 21.0981026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522524> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522524 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8557522 21.1008893)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522525> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522525 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8569053 21.0994773)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522526> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522526 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.85844 21.0978196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522527> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522527 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8601139 21.0960367)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453522531> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453522531 ;
+    ext:osm_type "way" ;
+    schema:name "Park Wonderland"@en,
+        "Công viên Wonderland"@vi ;
+    geo:asWKT "POINT(105.8587511 21.0930258)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:1453735878> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 1453735878 ;
+    ext:osm_type "way" ;
+    schema:name "Park Tropical Oasis Park"@en,
+        "Công Viên Tropical Oasis Park"@vi ;
+    geo:asWKT "POINT(105.8750388 21.0927141)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:16798725> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 16798725 ;
+    ext:osm_type "relation" ;
+    schema:name "Park Mo Lao"@en,
+        "Công viên Mỗ Lao"@vi ;
+    geo:asWKT "POINT(105.7811009 20.9826817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:17678514> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 17678514 ;
+    ext:osm_type "relation" ;
+    schema:name "Park at Pho Tay Son"@en,
+        "Công viên tại Phố Tây Sơn"@vi ;
+    geo:asWKT "POINT(105.8252993 21.0102718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:178995315> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 178995315 ;
+    ext:osm_type "way" ;
+    schema:name "Ho Van"@en,
+        "Hồ Văn"@vi ;
+    geo:asWKT "POINT(105.8352215 21.0267232)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:181575389> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Thành Thái" ;
+    ext:osm_id 181575389 ;
+    ext:osm_type "way" ;
+    schema:name "Park Cau Giay"@en,
+        "Công viên Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7910525 21.0280329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:185540946> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 185540946 ;
+    ext:osm_type "way" ;
+    schema:name "Park Le-nin"@en,
+        "Công viên Lê-nin"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10752053> ;
+    geo:asWKT "POINT(105.8395837 21.0317824)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%C3%B4ng%20vi%C3%AAn%20L%C3%AA%20Nin> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:19533046> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 19533046 ;
+    ext:osm_type "relation" ;
+    schema:name "Park at Xa Nghia Tru"@en,
+        "Công viên tại Xã Nghĩa Trụ"@vi ;
+    geo:asWKT "POINT(105.9830951 20.94322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:196085431> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 196085431 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Quang Ba"@en,
+        "Công viên tại Phố Quảng Bá"@vi ;
+    geo:asWKT "POINT(105.8227512 21.0659513)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:199297683> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 199297683 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Vinh Phuc"@en,
+        "Công viên tại Phố Vĩnh Phúc"@vi ;
+    geo:asWKT "POINT(105.807715 21.0439703)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:199297696> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 199297696 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Vinh Phuc"@en,
+        "Công viên tại Phố Vĩnh Phúc"@vi ;
+    geo:asWKT "POINT(105.8084927 21.0438996)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:200132468> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 200132468 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Noi Khu Tap the Vinh Phuc"@en,
+        "Công viên tại Đường Nội Khu Tập Thể Vĩnh Phúc"@vi ;
+    geo:asWKT "POINT(105.8074478 21.0435635)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208188482> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208188482 ;
+    ext:osm_type "way" ;
+    schema:name "Park Hoa Binh"@en,
+        "Công viên Hòa Bình"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10752048> ;
+    geo:asWKT "POINT(105.7872988 21.0654087)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%C3%B4ng%20vi%C3%AAn%20H%C3%B2a%20B%C3%ACnh> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208197731> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208197731 ;
+    ext:osm_type "way" ;
+    schema:name "Park Nghia Do"@en,
+        "Công viên Nghĩa Đô"@vi ;
+    geo:asWKT "POINT(105.7959964 21.0408778)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208259681> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208259681 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Khuat Duy Tien"@en,
+        "Công viên tại Đường Khuất Duy Tiến"@vi ;
+    geo:asWKT "POINT(105.7922834 21.0039985)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208502895> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208502895 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Hoa Phuong"@en,
+        "Công viên tại Hoa Phượng"@vi ;
+    geo:asWKT "POINT(105.9177747 21.0440679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208572134> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208572134 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9077256 21.0660617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208572135> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208572135 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Cao Luyen"@en,
+        "Công viên tại Phố Nguyễn Cao Luyện"@vi ;
+    geo:asWKT "POINT(105.9086049 21.0645035)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208572136> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208572136 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Bui Thien Ngo"@en,
+        "Công viên tại Phố Bùi Thiện Ngộ"@vi ;
+    geo:asWKT "POINT(105.9095796 21.0626968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208572137> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208572137 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9100945 21.0586688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:208572138> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 208572138 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ngo Huy Quynh"@en,
+        "Vườn hoa Ngô Huy Quỳnh"@vi ;
+    geo:asWKT "POINT(105.9092864 21.0566267)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:217341345> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 217341345 ;
+    ext:osm_type "way" ;
+    schema:name "Park Bac Linh Dam"@en,
+        "Công viên Bắc Linh Đàm"@vi ;
+    geo:asWKT "POINT(105.8278611 20.9667879)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:218414273> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 218414273 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Hang Trong"@en,
+        "Vườn hoa Hàng Trống"@vi ;
+    geo:asWKT "POINT(105.8495861 21.0274264)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:223798542> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Tây Hồ" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Đường Thụy Khuê" ;
+    ext:osm_id 223798542 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ly Tu Trong"@en,
+        "Vườn hoa Lý Tự Trọng"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.835163 21.0431812)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:232850958> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 232850958 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ngoai Thuong"@en,
+        "Công viên tại Phố Ngoại Thương"@vi ;
+    geo:asWKT "POINT(105.9605893 21.115246)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:255651174> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 255651174 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 209 Pho Doi Can"@en,
+        "Công viên tại Ngõ 209 Phố Đội Cấn"@vi ;
+    geo:asWKT "POINT(105.8224435 21.0354929)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:287219720> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 287219720 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9621843 21.0864021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:287824852> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 287824852 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Nguyen Van Cu"@en,
+        "Công viên tại Đường Nguyễn Văn Cừ"@vi ;
+    geo:asWKT "POINT(105.9596698 21.1216438)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:288271959> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 288271959 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9527696 21.0715297)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:28869502> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 28869502 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Mai Xuan Thuong"@en,
+        "Vườn hoa Mai Xuân Thưởng"@vi ;
+    geo:asWKT "POINT(105.8356773 21.0421915)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:28869503> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 28869503 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Van Xuan"@en,
+        "Vườn hoa Vạn Xuân"@vi ;
+    geo:asWKT "POINT(105.8462897 21.0401453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:28869505> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 28869505 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa 19-8"@en,
+        "Vườn hoa 19-8"@vi ;
+    geo:asWKT "POINT(105.857029 21.0234923)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:29133247> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 29133247 ;
+    ext:osm_type "way" ;
+    schema:legalName "Công viên Văn hoá Đống Đa"@vi ;
+    schema:name "Go Dong Da"@en,
+        "Gò Đống Đa"@vi ;
+    geo:asWKT "POINT(105.8243998 21.012079)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:316013412> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 316013412 ;
+    ext:osm_type "way" ;
+    schema:name "Pomelo Park"@en,
+        "Pomelo Park"@vi ;
+    geo:asWKT "POINT(105.799314 21.0766919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:316013428> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 316013428 ;
+    ext:osm_type "way" ;
+    schema:name "Pineapple Park"@en,
+        "Pineapple Park"@vi ;
+    geo:asWKT "POINT(105.7965816 21.0777637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:316518839> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 316518839 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Bac Co"@en,
+        "Vườn hoa Bác Cổ"@vi ;
+    geo:asWKT "POINT(105.8595112 21.025276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:37933849> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:osm_id 37933849 ;
+    ext:osm_type "way" ;
+    schema:name "Park Thong Nhat"@en,
+        "Công viên Thống Nhất"@vi ;
+    schema:openingHours "Mo-Su 06:00-22:00" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10752058> ;
+    geo:asWKT "POINT(105.8445342 21.0124594)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%C3%B4ng%20vi%C3%AAn%20Th%E1%BB%91ng%20Nh%E1%BA%A5t> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:38137267> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 38137267 ;
+    ext:osm_type "way" ;
+    schema:name "Park Indira Gandhi"@en,
+        "Công viên Indira Gandhi"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10752050> ;
+    geo:asWKT "POINT(105.8140975 21.0188015)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/C%C3%B4ng%20vi%C3%AAn%20Indira%20Gandhi> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:384671184> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 384671184 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9081404 21.0360441)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:384671185> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 384671185 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 20/1 Pho Huynh Van Nghe"@en,
+        "Công viên tại Ngách 20/1 Phố Huỳnh Văn Nghệ"@vi ;
+    geo:asWKT "POINT(105.9102419 21.0398418)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:384671191> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 384671191 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Thach Ban"@en,
+        "Vườn hoa Thạch Bàn"@vi ;
+    geo:asWKT "POINT(105.9114046 21.0288911)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:384671209> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 384671209 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Sai Dong"@en,
+        "Vườn hoa Sài Đồng"@vi ;
+    geo:asWKT "POINT(105.905785 21.0372405)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:412757511> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 412757511 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Tran Vu"@en,
+        "Công viên tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8402929 21.0435341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:479019015> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Ngõ 76 Phố An Dương" ;
+    ext:osm_id 479019015 ;
+    ext:osm_type "way" ;
+    schema:name "An Duong Tennis Courts"@en,
+        "An Duong Tennis Courts"@vi ;
+    geo:asWKT "POINT(105.8403338 21.0549487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:479832644> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 479832644 ;
+    ext:osm_type "way" ;
+    schema:name "Viglacera Community Park"@en,
+        "Viglacera Community Park"@vi ;
+    geo:asWKT "POINT(105.950976 21.017399)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:497037748> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 497037748 ;
+    ext:osm_type "way" ;
+    schema:name "Park Thanh Xuan"@en,
+        "Công viên Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.7972423 21.0027115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:497328755> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 497328755 ;
+    ext:osm_type "way" ;
+    schema:name "Gieng Trong Thuy"@en,
+        "Giếng Trọng Thủy"@vi ;
+    geo:asWKT "POINT(105.8711712 21.1115261)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:500736455> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 500736455 ;
+    ext:osm_type "way" ;
+    schema:name "Phim Truong Smiley Ville"@en,
+        "Phim trường Smiley Ville"@vi ;
+    geo:asWKT "POINT(105.8746753 21.0951238)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:502234354> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 502234354 ;
+    ext:osm_type "way" ;
+    schema:name "Park Mua Ha"@en,
+        "Công viên mùa Hạ"@vi ;
+    geo:asWKT "POINT(105.9293871 20.9706782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:502234355> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 502234355 ;
+    ext:osm_type "way" ;
+    schema:name "Park Mua Xuan"@en,
+        "Công viên mùa Xuân"@vi ;
+    geo:asWKT "POINT(105.9311674 20.9705535)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:505820385> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 505820385 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Thuy Khue"@en,
+        "Công viên tại Đường Thụy Khuê"@vi ;
+    geo:asWKT "POINT(105.8314443 21.0434403)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:523643145> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:osm_id 523643145 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ngoai Giao Doan"@en,
+        "Công viên Ngoại giao Đoàn"@vi ;
+    geo:asWKT "POINT(105.795653 21.064955)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:528023809> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 528023809 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8009592 21.0652196)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:542382168> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 542382168 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nguyen Trai"@en,
+        "Vườn hoa Nguyễn Trãi"@vi ;
+    geo:asWKT "POINT(105.7817135 20.972723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:542382170> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 542382170 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ha Dong"@en,
+        "Vườn hoa Hà Đông"@vi ;
+    geo:asWKT "POINT(105.7796534 20.9732071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548066437> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548066437 ;
+    ext:osm_type "way" ;
+    schema:name "Park a Khu Chung Cu Van Canh"@en,
+        "Công Viên A Khu Chung Cư Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7328079 21.0410494)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548066438> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548066438 ;
+    ext:osm_type "way" ;
+    schema:name "Park B Khu Chung Cu Van Canh"@en,
+        "Công Viên B Khu Chung Cư Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7325528 21.0377219)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548076504> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548076504 ;
+    ext:osm_type "way" ;
+    schema:name "Lang Van Hoa Park Yen So"@en,
+        "Làng Văn Hóa Công Viên Yên Sở"@vi ;
+    geo:asWKT "POINT(105.8546042 20.9556803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548076505> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548076505 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Tre"@en,
+        "Vườn Tre"@vi ;
+    geo:asWKT "POINT(105.8505011 20.9647143)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548079302> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "289" ;
+    ext:addr_street "Đường Phương Canh" ;
+    ext:osm_id 548079302 ;
+    ext:osm_type "way" ;
+    schema:name "1"@en,
+        "1"@vi ;
+    geo:asWKT "POINT(105.739698 21.0347423)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548079306> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548079306 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong So 12a"@en,
+        "Công viên tại Đường số 12A"@vi ;
+    geo:asWKT "POINT(105.7748438 21.0512717)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548081097> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548081097 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7823851 21.0667344)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548084110> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548084110 ;
+    ext:osm_type "way" ;
+    schema:name "Park Mai Dich"@en,
+        "Công viên Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7695272 21.0381485)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548086177> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548086177 ;
+    ext:osm_type "way" ;
+    schema:name "Dai Tuong Niem Liet Si Van Canh"@en,
+        "Đài tưởng niệm Liệt sĩ Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7297128 21.0364154)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548258526> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548258526 ;
+    ext:osm_type "way" ;
+    schema:name "Park C Khu Chung Cu Van Canh"@en,
+        "Công Viên C Khu Chung Cư Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7361586 21.0368745)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548258540> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548258540 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7342264 21.0378572)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548258547> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548258547 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7338852 21.0407123)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548262244> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548262244 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Tinh 422b"@en,
+        "Công viên tại Đường Tỉnh 422B"@vi ;
+    geo:asWKT "POINT(105.7286128 21.0382655)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548262304> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548262304 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7215554 21.0287242)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548266973> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548266973 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 3 Pho Thanh Thai"@en,
+        "Công viên tại Ngõ 3 Phố Thành Thái"@vi ;
+    geo:asWKT "POINT(105.7934394 21.0284174)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548268837> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548268837 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong So 3"@en,
+        "Công viên tại Đường Số 3"@vi ;
+    geo:asWKT "POINT(105.7313821 21.0009161)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:5485779585> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 5485779585 ;
+    ext:osm_type "node" ;
+    schema:name "Tuong Dai Le Nin"@en,
+        "Tượng đài Lê Nin"@vi ;
+    geo:asWKT "POINT(105.8272512 21.0320621)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548828763> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548828763 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 392 Duong Phuong Canh"@en,
+        "Công viên tại Ngõ 392 Đường Phương Canh"@vi ;
+    geo:asWKT "POINT(105.7396942 21.0363598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548846063> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548846063 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 9 Pho Hoang Quan Chi"@en,
+        "Công viên tại Ngõ 9 Phố Hoàng Quán Chi"@vi ;
+    geo:asWKT "POINT(105.7939271 21.0295892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:548846068> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 548846068 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 55 Pho Dich Vong"@en,
+        "Công viên tại Ngõ 55 Phố Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7926958 21.0300783)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550029056> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550029056 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7157377 21.0707335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550034565> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550034565 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Foresa 6"@en,
+        "Công viên tại Đường Foresa 6"@vi ;
+    geo:asWKT "POINT(105.7433218 21.0272934)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550034566> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550034566 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Foresa 6"@en,
+        "Công viên tại Đường Foresa 6"@vi ;
+    geo:asWKT "POINT(105.7452763 21.0261583)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550034572> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550034572 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.744096 21.0252557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550034579> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550034579 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7451244 21.0246047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:550543433> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 550543433 ;
+    ext:osm_type "way" ;
+    schema:name "Park Nam an Khanh"@en,
+        "Công viên Nam An Khánh"@vi ;
+    geo:asWKT "POINT(105.7127759 20.9990639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:554200324> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 554200324 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8711982 21.0736289)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:556174775> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 556174775 ;
+    ext:osm_type "way" ;
+    schema:name "Park Linh Dam"@en,
+        "Công viên Linh Đàm"@vi ;
+    geo:asWKT "POINT(105.8360619 20.964743)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:560585059> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 560585059 ;
+    ext:osm_type "way" ;
+    schema:name "Park Nghia Trang Mai Dich"@en,
+        "Công viên Nghĩa trang Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7707892 21.0407649)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:561810063> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 561810063 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Den Lu"@en,
+        "Vườn hoa Đền Lừ"@vi ;
+    geo:asWKT "POINT(105.8605142 20.9851711)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:561810340> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 561810340 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Kdt Den Lu Ii"@en,
+        "Công viên tại KĐT Đền Lừ II"@vi ;
+    geo:asWKT "POINT(105.8590033 20.9868894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:569804205> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 569804205 ;
+    ext:osm_type "way" ;
+    schema:name "San Cay De"@en,
+        "Sân Cây Đề"@vi ;
+    geo:asWKT "POINT(105.7791971 21.0175095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:569804207> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 569804207 ;
+    ext:osm_type "way" ;
+    schema:name "Park Yen Hoa"@en,
+        "Công viên Yên Hòa"@vi ;
+    geo:asWKT "POINT(105.7982889 21.0197261)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:570596477> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 570596477 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ho Giang Vo"@en,
+        "Vườn hoa hồ Giảng Võ"@vi ;
+    geo:asWKT "POINT(105.8201019 21.0288174)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:576742583> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Lý Thái Tổ" ;
+    ext:osm_id 576742583 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ly Thai to"@en,
+        "Công viên Lý Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.9563327 21.1131639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:576742665> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 576742665 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9650137 21.1172623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:577203325> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 577203325 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Hoang Tich Chu"@en,
+        "Công viên tại Phố Hoàng Tích Chu"@vi ;
+    geo:asWKT "POINT(105.9642368 21.1188517)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:577203418> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 577203418 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Duc Lan"@en,
+        "Công viên tại Phố Nguyễn Đức Lân"@vi ;
+    geo:asWKT "POINT(105.9574578 21.1105827)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:589969496> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 589969496 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Vui Choi Giai Tri Cong Cong"@en,
+        "khu vui chơi giải trí công cộng"@vi ;
+    geo:asWKT "POINT(105.9352303 21.0040145)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:590074862> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 590074862 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Vui Choi Giai Tri Cong Cong"@en,
+        "khu vui chơi giải trí công cộng"@vi ;
+    geo:asWKT "POINT(105.9342492 21.0042092)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:591023030> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 591023030 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Thanh Xuan Bac"@en,
+        "Vườn hoa Thanh Xuân Bắc"@vi ;
+    geo:asWKT "POINT(105.7996884 20.9913131)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:642231203> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 642231203 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tay Son"@en,
+        "Vườn hoa Tây Sơn"@vi ;
+    geo:asWKT "POINT(105.8503352 21.0265997)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:642301575> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 642301575 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Tulip 1"@en,
+        "Công viên tại Tulip 1"@vi ;
+    geo:asWKT "POINT(105.9051239 21.0481916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:646860265> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Nguyễn Văn Cừ" ;
+    ext:osm_id 646860265 ;
+    ext:osm_type "way" ;
+    schema:name "Park Phu Khe"@en,
+        "Công viên Phù Khê"@vi ;
+    geo:asWKT "POINT(105.9306271 21.1475175)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:647253515> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 647253515 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Phu Khe"@en,
+        "Công viên tại Phường Phù Khê"@vi ;
+    geo:asWKT "POINT(105.9467478 21.1503843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:647396906> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 647396906 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Dong Nguyen"@en,
+        "Công viên tại Phường Đồng Nguyên"@vi ;
+    geo:asWKT "POINT(105.9786614 21.127032)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:647397131> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 647397131 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ngo Tham"@en,
+        "Công viên tại Phố Ngô Thầm"@vi ;
+    geo:asWKT "POINT(105.9743672 21.145651)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:647397162> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Nghìn Việc Tốt" ;
+    ext:osm_id 647397162 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ngo Gia Tu"@en,
+        "Công viên Ngô Gia Tự"@vi ;
+    geo:asWKT "POINT(105.975955 21.1454362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:648728928> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 648728928 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Co Phap"@en,
+        "Công viên tại Phố Cổ Pháp"@vi ;
+    geo:asWKT "POINT(105.9546308 21.1086892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:649534746> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 649534746 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9422913 21.0931596)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:650430490> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 650430490 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Vui Choi Tre Em"@en,
+        "Khu vui chơi trẻ em"@vi ;
+    geo:asWKT "POINT(105.8772101 20.9716061)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:650430536> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 650430536 ;
+    ext:osm_type "way" ;
+    schema:name "Park Noi Bo"@en,
+        "Công viên nội bộ"@vi ;
+    geo:asWKT "POINT(105.878823 20.9722628)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:650430788> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 650430788 ;
+    ext:osm_type "way" ;
+    schema:name "Park"@en,
+        "Công viên"@vi ;
+    geo:asWKT "POINT(105.8790164 20.9735665)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:651520318> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 651520318 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tam Son"@en,
+        "Công viên tại Phường Tam Sơn"@vi ;
+    geo:asWKT "POINT(105.9913727 21.1352959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410956> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410956 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9718982 21.120936)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410957> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410957 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9716237 21.1208097)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410958> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410958 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.971131 21.1204764)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410959> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410959 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9713062 21.1205505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410960> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410960 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9712268 21.12052)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410961> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410961 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9713739 21.1207073)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410962> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410962 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9714579 21.12074)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:6546410963> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 6546410963 ;
+    ext:osm_type "node" ;
+    schema:name "Park at Duong Le Quang Dao"@en,
+        "Công viên tại Đường Lê Quang Đạo"@vi ;
+    geo:asWKT "POINT(105.9715467 21.1207792)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:661138331> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 661138331 ;
+    ext:osm_type "way" ;
+    schema:name "Park Xuan Duc"@en,
+        "Công viên Xuân Dục"@vi ;
+    geo:asWKT "POINT(105.9061057 21.0922987)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:661165879> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Tố Hữu" ;
+    ext:osm_id 661165879 ;
+    ext:osm_type "way" ;
+    schema:name "Park Phung Khoang"@en,
+        "Công viên Phùng Khoang"@vi ;
+    geo:asWKT "POINT(105.7910732 20.9973583)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:661451888> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 661451888 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Ly Thanh Tong"@en,
+        "Công viên tại Đường Lý Thánh Tông"@vi ;
+    geo:asWKT "POINT(105.9733835 21.1226963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:675949349> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 675949349 ;
+    ext:osm_type "way" ;
+    schema:name "Nui Chua"@en,
+        "Núi chùa"@vi ;
+    geo:asWKT "POINT(105.8702291 20.9483992)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:682239123> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 682239123 ;
+    ext:osm_type "way" ;
+    schema:name "Park at San Bat Giac"@en,
+        "Công viên tại Sân Bát Giác"@vi ;
+    geo:asWKT "POINT(105.9001069 21.0522513)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:682239142> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 682239142 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Van Ninh"@en,
+        "Công viên tại Phố Nguyễn Văn Ninh"@vi ;
+    geo:asWKT "POINT(105.9105721 21.0597062)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:696298498> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 696298498 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7411974 20.9595217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:696298499> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 696298499 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Trac"@en,
+        "Công viên tại Phố Nguyễn Trác"@vi ;
+    geo:asWKT "POINT(105.7416788 20.9595341)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:696298500> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 696298500 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Trac"@en,
+        "Công viên tại Phố Nguyễn Trác"@vi ;
+    geo:asWKT "POINT(105.7432361 20.9603426)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:696797095> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 696797095 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Phuong Tu Son"@en,
+        "Công viên tại Phường Từ Sơn"@vi ;
+    geo:asWKT "POINT(105.9737487 21.1189296)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:697055247> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 697055247 ;
+    ext:osm_type "way" ;
+    schema:name "Park Phu Dien"@en,
+        "Công viên Phú Điền"@vi ;
+    geo:asWKT "POINT(105.9706132 21.1183928)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:699218421> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 699218421 ;
+    ext:osm_type "way" ;
+    schema:name "Park Oct1"@en,
+        "Công viên OCT1"@vi ;
+    geo:asWKT "POINT(105.782324 21.0654206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:700671924> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 700671924 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Truc Bach"@en,
+        "Công viên tại Phố Trúc Bạch"@vi ;
+    geo:asWKT "POINT(105.8418358 21.0468987)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:700671925> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 700671925 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Truc Bach"@en,
+        "Công viên tại Phố Trúc Bạch"@vi ;
+    geo:asWKT "POINT(105.8417977 21.0454523)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:700671929> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 700671929 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Tran Vu"@en,
+        "Công viên tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8400844 21.046905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:701544807> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "quận Long Biên" ;
+    ext:addr_street "ngõ 268/56/7" ;
+    ext:osm_id 701544807 ;
+    ext:osm_type "way" ;
+    schema:name "Nha Van Hoa to 16"@en,
+        "nhà văn hóa tổ 16"@vi ;
+    schema:openingHours "06:00-22:00" ;
+    geo:asWKT "POINT(105.8694202 21.0561711)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:702241252> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 702241252 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Giam"@en,
+        "Vườn Giám"@vi ;
+    geo:asWKT "POINT(105.8353279 21.0289084)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:702651470> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 702651470 ;
+    ext:osm_type "way" ;
+    schema:name "Park Yen So"@en,
+        "Công viên Yên Sở"@vi ;
+    geo:asWKT "POINT(105.8557052 20.9602278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704134606> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704134606 ;
+    ext:osm_type "way" ;
+    schema:legalName "Vườn hoa Mê Linh"@vi ;
+    schema:name "Vuon Hoa Quan Su"@en,
+        "Vườn hoa Quán Sứ"@vi ;
+    geo:asWKT "POINT(105.8453432 21.0261908)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704147262> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704147262 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Co Tan"@en,
+        "Vườn hoa Cổ Tân"@vi ;
+    geo:asWKT "POINT(105.8578518 21.0249845)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704153590> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704153590 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ly Thai to"@en,
+        "Vườn hoa Lý Thái Tổ"@vi ;
+    schema:sameAs <http://www.wikidata.org/entity/Q25418011> ;
+    geo:asWKT "POINT(105.854748 21.0274523)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn%20hoa%20Ch%C3%AD%20Linh> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704159177> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704159177 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Ngoc Lam"@en,
+        "Vườn hoa Ngọc Lâm"@vi ;
+    geo:asWKT "POINT(105.8762017 21.0489746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704250698> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250698 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Bo De"@en,
+        "Vườn hoa Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8777141 21.0397487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704250762> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250762 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Bo De"@en,
+        "Công viên tại Phố Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8716507 21.0380927)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704252312> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704252312 ;
+    ext:osm_type "way" ;
+    schema:name "Park Gia Thuy"@en,
+        "Công viên Gia Thuỵ"@vi ;
+    geo:asWKT "POINT(105.8853132 21.0485383)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:704292580> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 704292580 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Gia Quat"@en,
+        "Vườn hoa Gia Quất"@vi ;
+    geo:asWKT "POINT(105.8788873 21.0530385)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:711077091> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 711077091 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 377 Duong Lam Du"@en,
+        "Công viên tại Ngõ 377 Đường Lâm Du"@vi ;
+    geo:asWKT "POINT(105.878682 21.032162)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:737165013> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 737165013 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Kdt Nam Thang Long"@en,
+        "Công viên tại Đường KĐT Nam Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7917046 21.0823842)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:737314086> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 737314086 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Luu Co"@en,
+        "Công viên tại Phố Lưu Cơ"@vi ;
+    geo:asWKT "POINT(105.7962038 21.0543115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738602791> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738602791 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Luu Khanh Dam"@en,
+        "Công viên tại Phố Lưu Khánh Đàm"@vi ;
+    geo:asWKT "POINT(105.9116572 21.0606647)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738602794> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738602794 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Mai Chi Tho"@en,
+        "Công viên tại Phố Mai Chí Thọ"@vi ;
+    geo:asWKT "POINT(105.9111246 21.06545)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738808114> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738808114 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9113303 21.062306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738808123> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738808123 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.907824 21.0673338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738808130> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738808130 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 638 Duong Ngo Gia Tu"@en,
+        "Công viên tại Ngõ 638 Đường Ngô Gia Tự"@vi ;
+    geo:asWKT "POINT(105.906502 21.072069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:738808142> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 738808142 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Thep Moi"@en,
+        "Công viên tại Phố Thép Mới"@vi ;
+    geo:asWKT "POINT(105.9096357 21.0646351)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:739493712> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 739493712 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9077128 21.0591611)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:750651737> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 750651737 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Tran Quang Dieu"@en,
+        "Vườn hoa Trần Quang Diệu"@vi ;
+    geo:asWKT "POINT(105.8246786 21.0141519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:755359595> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 755359595 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Dinh Cong"@en,
+        "Vườn hoa Định Công"@vi ;
+    geo:asWKT "POINT(105.8315889 20.9868016)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:755376841> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Số 1" ;
+    ext:osm_id 755376841 ;
+    ext:osm_type "way" ;
+    schema:name "Diem Tai Duong So 1"@en,
+        "Điểm tại Đường Số 1"@vi ;
+    geo:asWKT "POINT(105.8682942 20.9924397)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:769918656> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "15" ;
+    ext:addr_street "Phố Lương Khánh Thiện" ;
+    ext:osm_id 769918656 ;
+    ext:osm_type "way" ;
+    schema:name "Park Hoang Van Thu"@en,
+        "Công viên Hoàng Văn Thụ"@vi ;
+    geo:asWKT "POINT(105.8508951 20.9864507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770272739> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770272739 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ban Dao Linh Dam"@en,
+        "Công viên Bán đảo Linh Đàm"@vi ;
+    geo:asWKT "POINT(105.8289829 20.9637893)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299541> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299541 ;
+    ext:osm_type "way" ;
+    schema:name "Van Quan Lake Park"@en,
+        "Văn Quán Lake Park"@vi ;
+    geo:asWKT "POINT(105.7912115 20.9769808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299542> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299542 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Viet Kieu"@en,
+        "Vườn hoa Việt Kiều"@vi ;
+    geo:asWKT "POINT(105.7854366 20.9839775)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299543> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299543 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Trung Van"@en,
+        "Vườn Trung Văn"@vi ;
+    geo:asWKT "POINT(105.7891955 20.9917495)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299544> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299544 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Biet Thu Quoc Hoi"@en,
+        "Vườn hoa Biệt thự Quốc Hội"@vi ;
+    geo:asWKT "POINT(105.7940487 20.9934875)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299545> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299545 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Trung Hoa - Nhan Chinh"@en,
+        "Vườn hoa Trung Hòa - Nhân Chính"@vi ;
+    geo:asWKT "POINT(105.8019155 21.0050052)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299546> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299546 ;
+    ext:osm_type "way" ;
+    schema:name "Park Trung Yen"@en,
+        "Công viên Trung Yên"@vi ;
+    geo:asWKT "POINT(105.7993205 21.0155495)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299547> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299547 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Yen Hoa"@en,
+        "Vườn hoa Yên Hòa"@vi ;
+    geo:asWKT "POINT(105.7957157 21.0203043)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299549> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299549 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Cua Nam"@en,
+        "Vườn hoa Cửa Nam"@vi ;
+    geo:asWKT "POINT(105.8432825 21.0281177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299550> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299550 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Tran Hung Dao"@en,
+        "Công viên tại Phố Trần Hưng Đạo"@vi ;
+    geo:asWKT "POINT(105.8439996 21.0230036)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299551> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299551 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Du"@en,
+        "Công viên tại Phố Nguyễn Du"@vi ;
+    geo:asWKT "POINT(105.8456568 21.0184553)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299552> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299552 ;
+    ext:osm_type "way" ;
+    schema:name "Park Kdt Vinh Hoang"@en,
+        "Công viên KĐT Vĩnh Hoàng"@vi ;
+    geo:asWKT "POINT(105.8676933 20.9847404)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299553> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299553 ;
+    ext:osm_type "way" ;
+    schema:name "Park Yen So"@en,
+        "Công viên Yên Sở"@vi ;
+    geo:asWKT "POINT(105.8578546 20.9700729)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770299554> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770299554 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Bac Long Bien"@en,
+        "Vườn hoa Bắc Long Biên"@vi ;
+    geo:asWKT "POINT(105.8655984 21.0464695)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770328955> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770328955 ;
+    ext:osm_type "way" ;
+    schema:name "Park Van Phu"@en,
+        "Công viên Văn Phú"@vi ;
+    geo:asWKT "POINT(105.7664386 20.9559582)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770328956> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770328956 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ha Cau"@en,
+        "Công viên Hà Cầu"@vi ;
+    geo:asWKT "POINT(105.7790983 20.9593428)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770328958> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770328958 ;
+    ext:osm_type "way" ;
+    schema:name "Park to 9 Mo Lao"@en,
+        "Công viên tổ 9 Mỗ Lao"@vi ;
+    geo:asWKT "POINT(105.7822826 20.9785978)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770328959> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770328959 ;
+    ext:osm_type "way" ;
+    schema:name "Park Thien Van Hoc"@en,
+        "Công viên Thiên văn học"@vi ;
+    geo:asWKT "POINT(105.7575951 20.98072)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770328960> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770328960 ;
+    ext:osm_type "way" ;
+    schema:name "Park Am Nhac Do Nghia"@en,
+        "Công viên Âm nhạc Đô Nghĩa"@vi ;
+    geo:asWKT "POINT(105.7363469 20.9603597)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770332326> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770332326 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Dinh Tien Hoang"@en,
+        "Công viên tại Phố Đinh Tiên Hoàng"@vi ;
+    geo:asWKT "POINT(105.8536917 21.0309677)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770336404> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770336404 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8540841 21.0070871)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:770336406> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 770336406 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa University Kinh Te Quoc Dan"@en,
+        "Vườn hoa Đại học Kinh tế Quốc dân"@vi ;
+    geo:asWKT "POINT(105.8443941 20.9994882)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:782864077> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 782864077 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Van Quan"@en,
+        "Vườn hoa Văn Quán"@vi ;
+    geo:asWKT "POINT(105.7906708 20.9756007)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:784386961> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 784386961 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 43 Duong Nguyen Phong Sac"@en,
+        "Công viên tại Ngõ 43 Đường Nguyễn Phong Sắc"@vi ;
+    geo:asWKT "POINT(105.7889448 21.0376814)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:786580801> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 786580801 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7814345 20.9717117)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:795140970> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 795140970 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7414327 20.9758408)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:795142588> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 795142588 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7393633 20.9804751)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:795142945> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 795142945 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.739931 20.9821637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:801517528> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 801517528 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Giai Phong"@en,
+        "Công viên tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.843671 20.9999146)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:801517534> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 801517534 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Giai Phong"@en,
+        "Công viên tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8451612 20.9993889)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:801517535> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 801517535 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Giai Phong"@en,
+        "Công viên tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.844982 20.9989637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:801517537> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 801517537 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Giai Phong"@en,
+        "Công viên tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.843622 20.9993099)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:838432349> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 838432349 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Giai Phong"@en,
+        "Công viên tại Đường Giải Phóng"@vi ;
+    geo:asWKT "POINT(105.8426315 20.9993948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:839663173> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 839663173 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Nhat"@en,
+        "Vườn Nhật"@vi ;
+    schema:operator "Vingroup" ;
+    geo:asWKT "POINT(105.7550288 21.0036872)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:839675222> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 839675222 ;
+    ext:osm_type "way" ;
+    schema:name "Park Con Voi"@en,
+        "Công viên Con Voi"@vi ;
+    geo:asWKT "POINT(105.8331479 21.0103882)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:839881659> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 839881659 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 34a Hoang Cau"@en,
+        "Công viên tại Ngõ 34A Hoàng Cầu"@vi ;
+    geo:asWKT "POINT(105.8235064 21.0189072)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:839899602> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 839899602 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Kim Lien"@en,
+        "Vườn hoa Kim Liên"@vi ;
+    geo:asWKT "POINT(105.8395109 21.0081284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:840876878> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 840876878 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 27/9 Duong Tay Mo"@en,
+        "Công viên tại Ngách 27/9 Đường Tây Mỗ"@vi ;
+    geo:asWKT "POINT(105.7520631 21.0055734)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:840934114> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 840934114 ;
+    ext:osm_type "way" ;
+    schema:name "Park Trung Tam"@en,
+        "Công viên Trung tâm"@vi ;
+    geo:asWKT "POINT(105.7416025 20.9999101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:840934121> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 840934121 ;
+    ext:osm_type "way" ;
+    schema:name "Park the Thao"@en,
+        "Công viên Thể thao"@vi ;
+    geo:asWKT "POINT(105.7413909 21.0034473)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:841154650> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 841154650 ;
+    ext:osm_type "way" ;
+    schema:name "Park Cv1 Cau Giay"@en,
+        "Công viên CV1 Cầu Giấy"@vi ;
+    geo:asWKT "POINT(105.7826279 21.0235172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:841190406> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 841190406 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Hoa"@en,
+        "Công viên tại Đường Hoa"@vi ;
+    geo:asWKT "POINT(105.7070791 20.9474531)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:841190407> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 841190407 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7071457 20.9473027)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:845447100> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 845447100 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Minh Tao"@en,
+        "Công viên tại Phố Minh Tảo"@vi ;
+    geo:asWKT "POINT(105.7996816 21.0664412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:854251685> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 854251685 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8485886 20.9577783)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:863740276> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 863740276 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8079397 20.960866)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:8678902014> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 8678902014 ;
+    ext:osm_type "node" ;
+    schema:name "Tap the 829"@en,
+        "Tập thể 829"@vi ;
+    geo:asWKT "POINT(105.7946049 20.9716632)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:867981975> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 867981975 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Hoang Tich Tri"@en,
+        "Công viên tại Phố Hoàng Tích Trí"@vi ;
+    geo:asWKT "POINT(105.8358984 21.0082543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:867981977> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 867981977 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Hoang Tich Tri"@en,
+        "Công viên tại Phố Hoàng Tích Trí"@vi ;
+    geo:asWKT "POINT(105.83643 21.0086888)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:875161079> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 875161079 ;
+    ext:osm_type "way" ;
+    schema:name "Park Ho Thien Nga"@en,
+        "Công viên Hồ Thiên Nga"@vi ;
+    schema:operator "Ecopark" ;
+    geo:asWKT "POINT(105.9329933 20.9557784)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:875488225> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 875488225 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Xuan Nguyen"@en,
+        "Công viên tại Phố Nguyễn Xuân Nguyên"@vi ;
+    geo:asWKT "POINT(105.7665748 21.0310742)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:879841441> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 879841441 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Dien Hong"@en,
+        "Vườn hoa Diên Hồng"@vi ;
+    schema:openingHours "24/7" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q10834022> ;
+    geo:asWKT "POINT(105.8560132 21.0264805)"^^geo:wktLiteral ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/V%C6%B0%E1%BB%9Dn%20hoa%20Di%C3%AAn%20H%E1%BB%93ng> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:8850427515> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "HaNoi" ;
+    ext:addr_district "DongAnh" ;
+    ext:addr_postcode "84000" ;
+    ext:addr_street "XomHa" ;
+    ext:osm_id 8850427515 ;
+    ext:osm_type "node" ;
+    schema:name "Nha Van Hoa Thon Huong Tram"@en,
+        "Nhà Văn Hóa Thôn Hương trầm"@vi ;
+    schema:operator "Thôn Hương trầm" ;
+    geo:asWKT "POINT(105.8943227 21.1689544)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:889113701> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 889113701 ;
+    ext:osm_type "way" ;
+    schema:name "Park Me Tri"@en,
+        "Công viên Mễ Trì"@vi ;
+    schema:operator "The Matrix One" ;
+    geo:asWKT "POINT(105.7713219 21.0076503)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:892583617> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 892583617 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa"@en,
+        "Vườn hoa"@vi ;
+    geo:asWKT "POINT(105.7474675 20.961507)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:892583620> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 892583620 ;
+    ext:osm_type "way" ;
+    schema:name "Quang Truong"@en,
+        "Quảng trường"@vi ;
+    geo:asWKT "POINT(105.7470287 20.9608949)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:896414896> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 896414896 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Dai Duong"@en,
+        "Công viên tại Đường Đại Dương"@vi ;
+    geo:asWKT "POINT(105.9376838 20.9927067)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:905067686> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 905067686 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nguyen Huu Tho"@en,
+        "Công viên tại Phố Nguyễn Hữu Thọ"@vi ;
+    geo:asWKT "POINT(105.827941 20.9688927)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:905364044> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 905364044 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.823473 20.9606185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:905364045> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 905364045 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8248304 20.9602005)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:905364046> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 905364046 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8252398 20.9628211)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:908417669> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_district "Long Biên" ;
+    ext:osm_id 908417669 ;
+    ext:osm_type "way" ;
+    schema:name "Park Long Bien"@en,
+        "Công viên Long Biên"@vi ;
+    schema:openingHours "24/7" ;
+    geo:asWKT "POINT(105.9045388 21.0611919)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:909833221> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 909833221 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Nong Vu"@en,
+        "Công viên tại Phố Nông Vụ"@vi ;
+    geo:asWKT "POINT(105.9328522 21.0371973)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:911561441> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 911561441 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Lac Long Quan"@en,
+        "Vườn hoa Lạc Long Quân"@vi ;
+    geo:asWKT "POINT(105.8120332 21.0691322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:913167465> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 913167465 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 201/2 Duong Phuc Loi"@en,
+        "Công viên tại Ngách 201/2 Đường Phúc Lợi"@vi ;
+    geo:asWKT "POINT(105.9287988 21.0405471)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:914297402> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 914297402 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngach 293/2 Duong Ngoc Thuy"@en,
+        "Công viên tại Ngách 293/2 Đường Ngọc Thụy"@vi ;
+    geo:asWKT "POINT(105.863802 21.056618)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:916528084> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 916528084 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Thuy Loi"@en,
+        "Vườn hoa Thuỷ lợi"@vi ;
+    geo:asWKT "POINT(105.8239901 21.0075771)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:932101144> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 932101144 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Pham Khac Quang"@en,
+        "Vườn hoa Phạm Khắc Quảng"@vi ;
+    geo:asWKT "POINT(105.9153231 21.0635894)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:935022897> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "195 Sông Nhuệ/Đức Thắng" ;
+    ext:osm_id 935022897 ;
+    ext:osm_type "way" ;
+    schema:name "Park No. 195 Sông Nhuệ/Đức Thắng"@en,
+        "Công viên số 195 Sông Nhuệ/Đức Thắng"@vi ;
+    geo:asWKT "POINT(105.771926 21.0808626)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:935868508> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 935868508 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 125 Duong Quang Tien"@en,
+        "Công viên tại Ngõ 125 Đường Quang Tiến"@vi ;
+    geo:asWKT "POINT(105.7605967 20.9994425)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:935868523> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 935868523 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Duong Quang Tien 2"@en,
+        "Công viên tại Đường Quang Tiến 2"@vi ;
+    geo:asWKT "POINT(105.7616626 21.0009878)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:938437558> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 938437558 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.8026834 20.9617138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:942762464> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 942762464 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Phung Hung"@en,
+        "Vườn hoa Phùng Hưng"@vi ;
+    geo:asWKT "POINT(105.8456922 21.033991)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:959984228> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Huyện Gia Lâm" ;
+    ext:osm_id 959984228 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Nong Dan"@en,
+        "Vườn hoa Nông dân"@vi ;
+    schema:openingHours "24/7" ;
+    schema:operator "Hội nông dân xã Yên Viên" ;
+    geo:asWKT "POINT(105.9161721 21.0956817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:959985390> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Huyện Gia Lâm" ;
+    ext:addr_street "Hà Huy Tập" ;
+    ext:osm_id 959985390 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Thi Tran Yen Vien"@en,
+        "Vườn hoa Thị trấn Yên Viên"@vi ;
+    geo:asWKT "POINT(105.9225537 21.0903028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:959988676> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 959988676 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Dinh La Coi"@en,
+        "Vườn đình Lã Côi"@vi ;
+    geo:asWKT "POINT(105.9235295 21.0980447)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:960170470> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 960170470 ;
+    ext:osm_type "way" ;
+    schema:name "Khu Vui Choi"@en,
+        "Khu vui chơi"@vi ;
+    geo:asWKT "POINT(105.9213392 21.0959599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:960175796> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 960175796 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.9232132 21.0981269)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:960783874> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 960783874 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 21 Dang Phuc Thong"@en,
+        "Công viên tại Ngõ 21 Đặng Phúc Thông"@vi ;
+    geo:asWKT "POINT(105.9209096 21.0954162)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:960784073> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 960784073 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 21 Dang Phuc Thong"@en,
+        "Công viên tại Ngõ 21 Đặng Phúc Thông"@vi ;
+    geo:asWKT "POINT(105.9211763 21.0955335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:960798530> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 960798530 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ngo 41 Duong Dang Phuc Thong"@en,
+        "Công viên tại Ngõ 41 Đường Đặng Phúc Thông"@vi ;
+    geo:asWKT "POINT(105.923962 21.0978956)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:961664400> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 961664400 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Market Phuc Dong"@en,
+        "Vườn hoa Chợ Phúc Đồng"@vi ;
+    geo:asWKT "POINT(105.9033153 21.0395165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:962108578> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 962108578 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Phu Nu Tu Quan"@en,
+        "Vườn hoa Phụ nữ tự quản"@vi ;
+    geo:asWKT "POINT(105.7950675 20.978618)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:964908485> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 964908485 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Phu Gia"@en,
+        "Công viên tại Phố Phú Gia"@vi ;
+    geo:asWKT "POINT(105.8087585 21.0875266)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:965856881> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Tú Mỡ" ;
+    ext:osm_id 965856881 ;
+    ext:osm_type "way" ;
+    schema:name "Playground Trung Kinh Ha"@en,
+        "Sân chơi Trung Kính Hạ"@vi ;
+    schema:openingHours "sunrise-sunset" ;
+    geo:asWKT "POINT(105.7952684 21.012577)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:966177541> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 966177541 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Quoc Lo 6 Mo Rong (ba La - Xuan Mai)"@en,
+        "Công viên tại Quốc lộ 6 mở rộng (Ba La - Xuân Mai)"@vi ;
+    geo:asWKT "POINT(105.7166878 20.9306028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:974063070> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 974063070 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Ha Noi"@en,
+        "Công viên tại Hà Nội"@vi ;
+    geo:asWKT "POINT(105.7997719 21.0781354)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:976633078> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 976633078 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Pho Ha Cau"@en,
+        "Công viên tại Phố Hà Cầu"@vi ;
+    geo:asWKT "POINT(105.7679439 20.9611905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:977375279> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 977375279 ;
+    ext:osm_type "way" ;
+    schema:name "Vuon Hoa Dao Duy Anh"@en,
+        "Vườn hoa Đào Duy Anh"@vi ;
+    geo:asWKT "POINT(105.8382532 21.0090474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:park:980624329> a schema:Park,
+        fiware:PointOfInterest ;
+    ext:osm_id 980624329 ;
+    ext:osm_type "way" ;
+    schema:name "Park at Lake Road"@en,
+        "Công viên tại Lake Road"@vi ;
+    geo:asWKT "POINT(105.792255 21.0790706)"^^geo:wktLiteral .
+

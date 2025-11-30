@@ -1,289 +1,196 @@
-
-@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
-@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
-@prefix schema: <https://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
 
-# OpenData FitHou - Fire_Station data from OpenStreetMap
-# Generated on 2025-11-30 09:14:17
-# Total records: 20
-
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1420732643
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1420732643>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 15" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7519595 20.9516986)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1420732643"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1420732643"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 15"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 15"@en ;
+    geo:asWKT "POINT(105.7519595 20.9516986)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000954420
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000954420>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Cảnh sát PCCC & CNCH huyện Thanh Trì" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8538902 20.9116911)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1000954420"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1000954420"^^xsd:integer .
+    schema:name "Đội Cảnh sát PCCC & CNCH huyện Thanh Trì"@vi ,
+                "Doi Canh sat PCCC & CNCH huyen Thanh Tri"@en ;
+    geo:asWKT "POINT(105.8538902 20.9116911)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000954428
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000954428>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 13" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8071796 20.9877912)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1000954428"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1000954428"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 13"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 13"@en ;
+    geo:asWKT "POINT(105.8071796 20.9877912)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444116711
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444116711>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 31" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8188483 20.9479649)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Đại Thanh" ;
+    ext:osm_id "1444116711"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 31"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 31"@en ;
     ext:addr_street "Đường Đại Thanh" ;
-    ext:addr_street "Đường Đại Thanh" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1444116711"^^xsd:integer .
+    geo:asWKT "POINT(105.8188483 20.9479649)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444116721
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444116721>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 5" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8417305 20.954642)"^^geo:wktLiteral
-    ] ;
-    schema:address "21 Đường Tựu Liệt" ;
+    ext:osm_id "1444116721"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 5"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 5"@en ;
     ext:addr_housenumber "21" ;
     ext:addr_street "Đường Tựu Liệt" ;
-    ext:addr_housenumber "21" ;
-    ext:addr_street "Đường Tựu Liệt" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1444116721"^^xsd:integer .
+    geo:asWKT "POINT(105.8417305 20.954642)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444838247
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1444838247>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 12" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8619137 20.9808983)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1444838247"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1444838247"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 12"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 12"@en ;
+    geo:asWKT "POINT(105.8619137 20.9808983)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1229581958
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1229581958>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Cảnh sát Chữa cháy và Cứu nạn cứu hộ Văn Giang" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9376533 20.9570517)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1229581958"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1229581958"^^xsd:integer .
+    schema:name "Đội Cảnh sát Chữa cháy và Cứu nạn cứu hộ Văn Giang"@vi ,
+                "Doi Canh sat Chua chay va Cuu nan cuu ho Van Giang"@en ;
+    geo:asWKT "POINT(105.9376533 20.9570517)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:588629125
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:588629125>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Phòng Cảnh sát PCCC và CNCH - Công an thành phố Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7919964 21.0253104)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Dương Đình Nghệ, Cầu Giấy, Hà Nội" ;
+    ext:osm_id "588629125"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng Cảnh sát PCCC và CNCH - Công an thành phố Hà Nội"@vi ,
+                "Phong Canh sat PCCC va CNCH - Cong an thanh pho Ha Noi"@en ;
     ext:addr_street "Phố Dương Đình Nghệ" ;
     ext:addr_district "Cầu Giấy" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Cầu Giấy" ;
-    ext:addr_street "Phố Dương Đình Nghệ" ;
-    ext:addr_subdistrict "Yên Hòa" ;
-    ext:osm_type "way" ;
-    ext:osm_id "588629125"^^xsd:integer .
+    geo:asWKT "POINT(105.7919964 21.0253104)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:641558816
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:641558816>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 23" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7070224 21.0684256)"^^geo:wktLiteral
-    ] ;
-    ext:old_name "Đội Cảnh sát PCCC và CNCH huyện Hoài Đức" ;
+    ext:osm_id "641558816"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "641558816"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 23"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 23"@en ;
+    geo:asWKT "POINT(105.7070224 21.0684256)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:953738013
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:953738013>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 11" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7909745 21.0428082)"^^geo:wktLiteral
-    ] ;
-    schema:address "36 Đường Nguyễn Phong Sắc, Cầu Giấy, Hà Nội" ;
+    ext:osm_id "953738013"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 11"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 11"@en ;
     ext:addr_housenumber "36" ;
     ext:addr_street "Đường Nguyễn Phong Sắc" ;
     ext:addr_district "Cầu Giấy" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Cầu Giấy" ;
-    ext:addr_housenumber "36" ;
-    ext:addr_street "Đường Nguyễn Phong Sắc" ;
-    ext:addr_subdistrict "Nghĩa Tân" ;
-    ext:osm_type "way" ;
-    ext:osm_id "953738013"^^xsd:integer .
+    geo:asWKT "POINT(105.7909745 21.0428082)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:975967898
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:975967898>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 16" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.747822 21.0309758)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "975967898"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "975967898"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 16"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 16"@en ;
+    geo:asWKT "POINT(105.747822 21.0309758)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:9238285928
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:9238285928>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Cảnh Sát PCCC & CNCH Quận Tây Hồ" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8091725 21.0720411)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Võ Chí Công, Quận Tây Hồ" ;
-    ext:addr_street "Đường Võ Chí Công" ;
-    ext:addr_district "Quận Tây Hồ" ;
-    ext:addr_district "Quận Tây Hồ" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Đường Võ Chí Công" ;
+    ext:osm_id "9238285928"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "9238285928"^^xsd:integer .
+    schema:name "Đội Cảnh Sát PCCC & CNCH Quận Tây Hồ"@vi ,
+                "Doi Canh Sat PCCC & CNCH Quan Tay Ho"@en ;
+    ext:addr_street "Đường Võ Chí Công" ;
+    ext:addr_district "Quận Tây Hồ" ;
+    geo:asWKT "POINT(105.8091725 21.0720411)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828748
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828748>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 8" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8489958 21.0425309)"^^geo:wktLiteral
-    ] ;
-    schema:address "131 Đường Hồng Hà, Ba Đình, Hà Nội" ;
+    ext:osm_id "1000828748"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 8"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 8"@en ;
     ext:addr_housenumber "131" ;
     ext:addr_street "Đường Hồng Hà" ;
     ext:addr_district "Ba Đình" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Ba Đình" ;
-    ext:addr_housenumber "131" ;
-    ext:addr_street "Đường Hồng Hà" ;
-    ext:addr_subdistrict "Phúc Xá" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1000828748"^^xsd:integer .
+    geo:asWKT "POINT(105.8489958 21.0425309)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828750
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828750>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 10" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8261908 21.0284052)"^^geo:wktLiteral
-    ] ;
-    schema:address "147 Phố Giảng Võ, Đống Đa, Hà Nội" ;
+    ext:osm_id "1000828750"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 10"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 10"@en ;
     ext:addr_housenumber "147" ;
     ext:addr_street "Phố Giảng Võ" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "147" ;
-    ext:addr_street "Phố Giảng Võ" ;
-    ext:addr_subdistrict "Cát Linh" ;
-    ext:building "fire_station" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1000828750"^^xsd:integer .
+    geo:asWKT "POINT(105.8261908 21.0284052)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828751
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828751>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 1 & 18" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8886949 21.0565233)"^^geo:wktLiteral
-    ] ;
-    schema:address "3 Đường Ngô Gia Tự, Quận Long Biên, Thành phố Hà Nội" ;
+    ext:osm_id "1000828751"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 1 & 18"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 1 & 18"@en ;
     ext:addr_housenumber "3" ;
     ext:addr_street "Đường Ngô Gia Tự" ;
     ext:addr_district "Quận Long Biên" ;
     ext:addr_city "Thành phố Hà Nội" ;
-    ext:addr_city "Thành phố Hà Nội" ;
-    ext:addr_district "Quận Long Biên" ;
-    ext:addr_housenumber "3" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Ngô Gia Tự" ;
-    ext:addr_subdistrict "Phường Đức Giang" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1000828751"^^xsd:integer .
+    geo:asWKT "POINT(105.8886949 21.0565233)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254895527
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254895527>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 7" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8597855 21.0254776)"^^geo:wktLiteral
-    ] ;
-    schema:address "1A Đường Trần Quang Khải" ;
+    ext:osm_id "1254895527"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 7"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 7"@en ;
     ext:addr_housenumber "1A" ;
     ext:addr_street "Đường Trần Quang Khải" ;
-    ext:addr_housenumber "1A" ;
-    ext:addr_street "Đường Trần Quang Khải" ;
-    ext:building "yes" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1254895527"^^xsd:integer .
+    geo:asWKT "POINT(105.8597855 21.0254776)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254895528
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254895528>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 9" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8665873 21.0087949)"^^geo:wktLiteral
-    ] ;
-    schema:address "2 Ngõ 51 Lãng Yên" ;
+    ext:osm_id "1254895528"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 9"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 9"@en ;
     ext:addr_housenumber "2" ;
     ext:addr_street "Ngõ 51 Lãng Yên" ;
-    ext:addr_housenumber "2" ;
-    ext:addr_street "Ngõ 51 Lãng Yên" ;
-    ext:building "yes" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1254895528"^^xsd:integer .
+    geo:asWKT "POINT(105.8665873 21.0087949)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828756
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828756>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 19" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9566009 21.0106437)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1000828756"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1000828756"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 19"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 19"@en ;
+    geo:asWKT "POINT(105.9566009 21.0106437)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254903224
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1254903224>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực 3" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7737081 21.1211093)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1254903224"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1254903224"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực 3"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc 3"@en ;
+    geo:asWKT "POINT(105.7737081 21.1211093)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828760
+<urn:ngsi-ld:PointOfInterest:Hanoi:fire_station:1000828760>
     a fiware:PointOfInterest, schema:FireStation ;
-    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 20" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8586593 21.1494908)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1000828760"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1000828760"^^xsd:integer .
+    schema:name "Đội Chữa cháy và Cứu nạn cứu hộ khu vực số 20"@vi ,
+                "Doi Chua chay va Cuu nan cuu ho khu vuc so 20"@en ;
+    geo:asWKT "POINT(105.8586593 21.1494908)"^^geo:wktLiteral .
 

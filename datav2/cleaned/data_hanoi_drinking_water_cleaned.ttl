@@ -1,0 +1,158 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10114776470> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 10114776470 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Tran Dai Nghia"@en,
+        "Nguồn nước uống tại Phố Trần Đại Nghĩa"@vi ;
+    geo:asWKT "POINT(105.8445302 21.0038661)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:10660753505> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 10660753505 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Le Thach"@en,
+        "Nguồn nước uống tại Phố Lê Thạch"@vi ;
+    geo:asWKT "POINT(105.8538234 21.0273522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11191573737> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 11191573737 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Dinh Tien Hoang"@en,
+        "Nguồn nước uống tại Phố Đinh Tiên Hoàng"@vi ;
+    geo:asWKT "POINT(105.853708 21.0298177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11676700469> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 11676700469 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Ong Ich Khiem"@en,
+        "Nguồn nước uống tại Phố Ông Ích Khiêm"@vi ;
+    geo:asWKT "POINT(105.8340434 21.0367523)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11834019569> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 11834019569 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Le Thai to"@en,
+        "Nguồn nước uống tại Phố Lê Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.8514172 21.0280465)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11865316771> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 11865316771 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Hang Da"@en,
+        "Nguồn nước uống tại Phố Hàng Da"@vi ;
+    geo:asWKT "POINT(105.8466528 21.031276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:11893374272> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 11893374272 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Hang Khay"@en,
+        "Nguồn nước uống tại Phố Hàng Khay"@vi ;
+    geo:asWKT "POINT(105.8519581 21.0261536)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12086821054> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 12086821054 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Le Hong Phong"@en,
+        "Nguồn nước uống tại Phố Lê Hồng Phong"@vi ;
+    geo:asWKT "POINT(105.8323055 21.03464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12129133501> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 12129133501 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Le Thach"@en,
+        "Nguồn nước uống tại Phố Lê Thạch"@vi ;
+    geo:asWKT "POINT(105.854721 21.0272682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12278326273> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 12278326273 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Hang Dau"@en,
+        "Nguồn nước uống tại Phố Hàng Dầu"@vi ;
+    geo:asWKT "POINT(105.853901 21.0311419)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:12690411001> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 12690411001 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Tran Nhan Tong"@en,
+        "Nguồn nước uống tại Phố Trần Nhân Tông"@vi ;
+    geo:asWKT "POINT(105.8462172 21.0173765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:13005736901> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 13005736901 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Quang Trung"@en,
+        "Nguồn nước uống tại Phố Quang Trung"@vi ;
+    geo:asWKT "POINT(105.8472437 21.0180172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4748316721> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 4748316721 ;
+    ext:osm_type "node" ;
+    schema:name "54 vu trong phung"@en,
+        "54 vũ trọng phụng"@vi ;
+    geo:asWKT "POINT(105.809002 20.9985524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:4758991221> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 4758991221 ;
+    ext:osm_type "node" ;
+    schema:name "Cafe tra da"@en,
+        "Quán trà đá"@vi ;
+    geo:asWKT "POINT(105.8650398 21.0051308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:5942473585> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 5942473585 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho 19 Thang 12"@en,
+        "Nguồn nước uống tại Phố 19 Tháng 12"@vi ;
+    geo:asWKT "POINT(105.8477823 21.0248917)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6292723885> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 6292723885 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Trang Thi"@en,
+        "Nguồn nước uống tại Phố Tràng Thi"@vi ;
+    geo:asWKT "POINT(105.8502495 21.0263777)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:6698948887> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 6698948887 ;
+    ext:osm_type "node" ;
+    schema:name "Tea"@en,
+        "Trà đá Nước mia đá"@vi ;
+    geo:asWKT "POINT(105.7782313 21.0656762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931507054> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931507054 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Dinh Le"@en,
+        "Nguồn nước uống tại Phố Đinh Lễ"@vi ;
+    geo:asWKT "POINT(105.8534447 21.0260995)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:drinking_water:9931530710> a schema:DrinkingWaterDispenser,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931530710 ;
+    ext:osm_type "node" ;
+    schema:name "Drinking Water at Pho Le Lai"@en,
+        "Nguồn nước uống tại Phố Lê Lai"@vi ;
+    geo:asWKT "POINT(105.8547899 21.0275822)"^^geo:wktLiteral .
+

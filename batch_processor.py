@@ -1,6 +1,7 @@
 """
 Batch processor for fetching all OSM amenity types
-Processes multiple amenity types with error handling and progress tracking
+Clean orchestrator - delegates all data fetching and file writing to osm_data_fetcher.py
+Handles only progress tracking, error handling, and batch coordination
 """
 
 import json
@@ -9,12 +10,27 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any
 
+# CRITICAL: Import the centralized processing function
+# This is the ONLY function that should handle data fetching and writing
 from osm_data_fetcher import process_amenity_data
 from config_amenity_types import AMENITY_TYPES, BATCH_CONFIG
 
 
 class BatchProcessor:
-    """Process multiple amenity types with progress tracking and error recovery"""
+    """
+    Clean batch orchestrator for OSM data processing
+    
+    Responsibilities:
+    - Progress tracking (completed/failed categories)
+    - Error handling and logging
+    - Batch coordination and timing
+    - Summary reporting
+    
+    NOT Responsible For:
+    - Data fetching (delegated to osm_data_fetcher.fetch_osm_data)
+    - Data enrichment (delegated to osm_data_fetcher.enrich_with_wikidata)
+    - File writing (delegated to osm_data_fetcher.write_turtle_file)
+    """
     
     def __init__(self, output_dir: str = "datav2"):
         self.output_dir = Path(output_dir)
@@ -34,6 +50,9 @@ class BatchProcessor:
             'skipped': 0,
             'details': []
         }
+        
+        print(f"[BatchProcessor] Initialized with output directory: {self.output_dir.absolute()}")
+        print(f"[BatchProcessor] Progress will be saved to: {self.progress_file}")
     
     def _load_progress(self) -> Dict[str, Any]:
         """Load processing progress from file"""
@@ -85,32 +104,68 @@ class BatchProcessor:
     
     def process_category(self, category_name: str, osm_key: str, osm_value: str, schema_type: str) -> bool:
         """
-        Process a single category with error handling
+        Process a single category by delegating to osm_data_fetcher.process_amenity_data
+        
+        This method ONLY handles:
+        - Progress tracking
+        - Error handling
+        - Performance measurement
+        
+        All data fetching, enrichment, and file writing is delegated to:
+        osm_data_fetcher.process_amenity_data()
+        
+        Args:
+            category_name: Category identifier (e.g., "atm", "fuel_station")
+            osm_key: OpenStreetMap key (e.g., "amenity")
+            osm_value: OpenStreetMap value (e.g., "atm")
+            schema_type: Schema.org type (e.g., "schema:FinancialService")
         
         Returns:
             True if successful, False otherwise
         """
         print(f"\n{'='*60}")
-        print(f"Processing: {category_name.upper()}")
-        print(f"Key: {osm_key}={osm_value}")
-        print(f"Schema: {schema_type}")
+        print(f"[BatchProcessor] Processing: {category_name.upper()}")
+        print(f"[BatchProcessor] OSM Query: {osm_key}={osm_value}")
+        print(f"[BatchProcessor] Schema Type: {schema_type}")
+        print(f"[BatchProcessor] Output Dir: {self.output_dir}")
         print(f"{'='*60}")
         
         start_time = time.time()
         
         try:
-            # Process the amenity data
-            elements = process_amenity_data(category_name, osm_key, osm_value, schema_type)
+            # CRITICAL: Delegate ALL processing to osm_data_fetcher
+            # This function handles:
+            # 1. fetch_osm_data() - API calls to Overpass
+            # 2. enrich_with_wikidata() - Wikidata enrichment
+            # 3. write_turtle_file() - RDF/Turtle generation with Linked Data
+            print(f"[BatchProcessor] Calling process_amenity_data() from osm_data_fetcher...")
+            
+            elements = process_amenity_data(
+                category_name=category_name,
+                osm_key=osm_key,
+                osm_value=osm_value,
+                schema_type=schema_type,
+                output_dir=str(self.output_dir),
+                area_name="Hanoi"
+            )
             
             elapsed_time = time.time() - start_time
+            
+            # Count elements with Wikidata enrichment
+            enriched_count = len([e for e in elements 
+                                 if e.get('multilingual_labels') or e.get('multilingual_descriptions')])
+            
+            # Count elements with Wikidata links (from original tags)
+            wikidata_count = len([e for e in elements 
+                                 if e.get('tags', {}).get('wikidata')])
             
             # Record success
             result = {
                 'category': category_name,
                 'status': 'success',
                 'elements_count': len(elements),
-                'enriched_count': len([e for e in elements 
-                                      if e.get('multilingual_labels') or e.get('multilingual_descriptions')]),
+                'enriched_count': enriched_count,
+                'wikidata_links': wikidata_count,
                 'processing_time': round(elapsed_time, 2),
                 'timestamp': datetime.now().isoformat()
             }
@@ -123,14 +178,21 @@ class BatchProcessor:
             self.summary['successful'] += 1
             self.summary['details'].append(result)
             
-            print(f"\n✓ Successfully processed {category_name}: {len(elements)} elements in {elapsed_time:.2f}s")
+            print(f"\n[BatchProcessor] ✓ SUCCESS: {category_name}")
+            print(f"  - Total elements: {len(elements)}")
+            print(f"  - Wikidata-enriched: {enriched_count}")
+            print(f"  - Wikidata links: {wikidata_count}")
+            print(f"  - Processing time: {elapsed_time:.2f}s")
             return True
             
         except Exception as e:
             elapsed_time = time.time() - start_time
             error_msg = str(e)
             
-            print(f"\n✗ Error processing {category_name}: {error_msg}")
+            print(f"\n[BatchProcessor] ✗ FAILED: {category_name}")
+            print(f"  - Error: {error_msg}")
+            print(f"  - Processing time: {elapsed_time:.2f}s")
+            
             self._log_error(category_name, error_msg)
             
             # Record failure

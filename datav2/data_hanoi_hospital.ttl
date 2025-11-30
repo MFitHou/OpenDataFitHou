@@ -1,3176 +1,1773 @@
-
-@prefix ngsi-ld: <https://uri.etsi.org/ngsi-ld/> .
-@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
-@prefix schema: <https://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
 
-# OpenData FitHou - Hospital data from OpenStreetMap
-# Generated on 2025-11-30 09:12:02
-# Total records: 161
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5243867642
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5243867642>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm y tế dự phòng quận Hà Đông" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7789877 20.9677609)"^^geo:wktLiteral
-    ] ;
-    schema:address "Tô Hiệu, Hà Đông" ;
-    ext:addr_street "Tô Hiệu" ;
-    ext:addr_district "Hà Đông" ;
-    ext:addr_district "Hà Đông" ;
-    ext:addr_street "Tô Hiệu" ;
-    ext:addr_subdistrict "Hà Cầu" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "community;general" ;
+    ext:osm_id "5243867642"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "5243867642"^^xsd:integer .
+    schema:name "Trung tâm y tế dự phòng quận Hà Đông"@vi ,
+                "Trung tam y te du phong quan Ha Dong"@en ;
+    ext:addr_street "Tô Hiệu" ;
+    ext:addr_district "Hà Đông" ;
+    geo:asWKT "POINT(105.7789877 20.9677609)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:7409549828
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:7409549828>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế Phụng Châu" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7078282 20.9471543)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phượng Nghĩa, Chương Mỹ, Hà Nội" ;
+    ext:osm_id "7409549828"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế Phụng Châu"@vi ,
+                "Tram Y te Phung Chau"@en ;
     ext:addr_street "Phượng Nghĩa" ;
     ext:addr_district "Chương Mỹ" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Chương Mỹ" ;
-    ext:addr_province "Việt Nam" ;
-    ext:addr_street "Phượng Nghĩa" ;
-    ext:addr_subdistrict "Phụng Châu" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "7409549828"^^xsd:integer .
+    geo:asWKT "POINT(105.7078282 20.9471543)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9587108043
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9587108043>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y Tế Phường KIến Hưng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7884888 20.960142)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "9587108043"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "9587108043"^^xsd:integer .
+    schema:name "Trạm Y Tế Phường KIến Hưng"@vi ,
+                "Tram Y Te Phuong KIen Hung"@en ;
+    geo:asWKT "POINT(105.7884888 20.960142)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9875885617
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9875885617>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tuệ Tĩnh" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7928536 20.984612)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "9875885617"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "9875885617"^^xsd:integer .
+    schema:name "Bệnh viện Tuệ Tĩnh"@vi ,
+                "Hospital Tue Tinh"@en ;
+    geo:asWKT "POINT(105.7928536 20.984612)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10893013871
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10893013871>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đại học Quốc gia Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7965721 20.9908736)"^^geo:wktLiteral
-    ] ;
-    schema:address "182 Đường Lương Thế Vinh" ;
+    ext:osm_id "10893013871"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Đại học Quốc gia Hà Nội"@vi ,
+                "Hospital University Quoc gia Ha Noi"@en ;
     ext:addr_housenumber "182" ;
     ext:addr_street "Đường Lương Thế Vinh" ;
-    ext:addr_housenumber "182" ;
-    ext:addr_street "Đường Lương Thế Vinh" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "10893013871"^^xsd:integer .
+    geo:asWKT "POINT(105.7965721 20.9908736)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12135053693
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12135053693>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế Phường Vạn Phúc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7751087 20.9789324)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "12135053693"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "12135053693"^^xsd:integer .
+    schema:name "Trạm y tế Phường Vạn Phúc"@vi ,
+                "Tram y te Phuong Van Phuc"@en ;
+    geo:asWKT "POINT(105.7751087 20.9789324)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12999257910
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12999257910>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế phường Tây Mỗ (Cơ sở 1)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7560256 20.9954672)"^^geo:wktLiteral
-    ] ;
-    schema:address "371 Đường Đại Mỗ" ;
+    ext:osm_id "12999257910"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế phường Tây Mỗ (Cơ sở 1)"@vi ,
+                "Tram y te phuong Tay Mo (Co so 1)"@en ;
     ext:addr_housenumber "371" ;
     ext:addr_street "Đường Đại Mỗ" ;
-    ext:addr_housenumber "371" ;
-    ext:addr_province "thành phố Hà Nội" ;
-    ext:addr_street "Đường Đại Mỗ" ;
-    ext:addr_subdistrict "phường Tây Mỗ" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12999257910"^^xsd:integer .
+    geo:asWKT "POINT(105.7560256 20.9954672)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:591338735
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:591338735>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đại học Y Dược" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7974841 20.993668)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "591338735"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đại học Y Dược"@vi ,
+                "Medical and Pharmaceutical University Hospital"@en ;
     schema:operator "Trường Đại học Y Dược, Đại học Quốc gia Hà Nội" ;
-    schema:address "Nguyễn Quý Đức, Thanh Xuân, Hà Nội" ;
     ext:addr_street "Nguyễn Quý Đức" ;
     ext:addr_district "Thanh Xuân" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Xuân" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Nguyễn Quý Đức" ;
-    ext:addr_subdistrict "Thanh Xuân Bắc" ;
-    ext:contact_phone "+84 24 3553 0621" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Medical and Pharmaceutical University Hospital" ;
-    ext:name_tr "Tıp ve Eczacılık Üniversitesi Hastanesi" ;
-    ext:opening_hours "Mo-Fr 08:00-12:00, 13:30-17:00; Sa 08:00-12:00" ;
-    ext:osm_type "way" ;
-    ext:osm_id "591338735"^^xsd:integer .
+    schema:telephone "+84 24 3553 0621" ;
+    schema:openingHours "Mo-Fr 08:00-12:00, 13:30-17:00; Sa 08:00-12:00" ;
+    geo:asWKT "POINT(105.7974841 20.993668)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:755118878
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:755118878>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Công an thành phố Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7688713 20.9628226)"^^geo:wktLiteral
-    ] ;
-    ext:building "yes" ;
-    ext:building_levels "8" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "755118878"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "755118878"^^xsd:integer .
+    schema:name "Bệnh viện Công an thành phố Hà Nội"@vi ,
+                "Hospital Cong an thanh pho Ha Noi"@en ;
+    geo:asWKT "POINT(105.7688713 20.9628226)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:849686727
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:849686727>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Y học cổ truyền Bộ Công an" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7892377 20.9961682)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "849686727"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Y học cổ truyền Bộ Công an"@vi ,
+                "Hospital Y hoc co truyen Bo Cong an"@en ;
     schema:operator "Bộ Công an" ;
-    schema:address "278 Đường Lương Thế Vinh, Nam Từ Liêm, Hà Nội" ;
     ext:addr_housenumber "278" ;
     ext:addr_street "Đường Lương Thế Vinh" ;
     ext:addr_district "Nam Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Nam Từ Liêm" ;
-    ext:addr_housenumber "278" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Lương Thế Vinh" ;
-    ext:addr_subdistrict "Trung Văn" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "849686727"^^xsd:integer .
+    geo:asWKT "POINT(105.7892377 20.9961682)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:879842500
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:879842500>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Hà Đông" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7791314 20.9676018)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Tô Hiệu, Hà Đông" ;
+    ext:osm_id "879842500"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế quận Hà Đông"@vi ,
+                "Trung tam Y te quan Ha Dong"@en ;
     ext:addr_street "Phố Tô Hiệu" ;
     ext:addr_district "Hà Đông" ;
-    ext:addr_district "Hà Đông" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Tô Hiệu" ;
-    ext:addr_subdistrict "Nguyễn Trãi" ;
-    ext:building_levels "2" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "879842500"^^xsd:integer .
+    geo:asWKT "POINT(105.7791314 20.9676018)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:881184688
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:881184688>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Quân y 103" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7900215 20.9676247)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Phùng Hưng, Quận Hà Đông" ;
+    ext:osm_id "881184688"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Quân y 103"@vi ,
+                "Hospital Quan y 103"@en ;
     ext:addr_street "Đường Phùng Hưng" ;
     ext:addr_district "Quận Hà Đông" ;
-    ext:addr_district "Quận Hà Đông" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Đường Phùng Hưng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "881184688"^^xsd:integer .
+    geo:asWKT "POINT(105.7900215 20.9676247)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:881515775
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:881515775>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bỏng Quốc gia Lê Hữu Trác" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7924112 20.9667742)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Phùng Hưng, Quận Hà Đông" ;
+    ext:osm_id "881515775"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bỏng Quốc gia Lê Hữu Trác"@vi ,
+                "Hospital Bong Quoc gia Le Huu Trac"@en ;
     ext:addr_street "Đường Phùng Hưng" ;
     ext:addr_district "Quận Hà Đông" ;
-    ext:addr_district "Quận Hà Đông" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Đường Phùng Hưng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "881515775"^^xsd:integer .
+    geo:asWKT "POINT(105.7924112 20.9667742)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914749544
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914749544>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hà Đông" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7744735 20.9713454)"^^geo:wktLiteral
-    ] ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Ha Dong General Hospital" ;
-    ext:name_tr "Ha Dong Hastanesi" ;
+    ext:osm_id "914749544"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "914749544"^^xsd:integer .
+    schema:name "Bệnh viện Đa khoa Hà Đông"@vi ,
+                "Ha Dong General Hospital"@en ;
+    geo:asWKT "POINT(105.7744735 20.9713454)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:938437548
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:938437548>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện K - Cơ sở Tân Triều" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7995597 20.9636109)"^^geo:wktLiteral
-    ] ;
-    schema:address "30 Đường Cầu Bươu, Thanh Trì, Hà Nội" ;
+    ext:osm_id "938437548"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện K - Cơ sở Tân Triều"@vi ,
+                "Vietnam National Cancer Hospital - Campus 3"@en ;
     ext:addr_housenumber "30" ;
     ext:addr_street "Đường Cầu Bươu" ;
     ext:addr_district "Thanh Trì" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Trì" ;
-    ext:addr_housenumber "30" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Cầu Bươu" ;
-    ext:addr_subdistrict "Tân Triều" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vietnam National Cancer Hospital - Campus 3" ;
-    ext:name_tr "Vietnam Ulusal Kanser Hastanesi 3. Yerleşkesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "938437548"^^xsd:integer .
+    geo:asWKT "POINT(105.7995597 20.9636109)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415500
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415500>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Da liễu Hà Nội (cơ sở 2)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7729964 20.970065)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "942415500"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "942415500"^^xsd:integer .
+    schema:name "Bệnh viện Da liễu Hà Nội (cơ sở 2)"@vi ,
+                "Hospital Da lieu Ha Noi (co so 2)"@en ;
+    geo:asWKT "POINT(105.7729964 20.970065)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942477938
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942477938>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Y học cổ truyền Hà Đông" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7715441 20.9708813)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "942477938"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "942477938"^^xsd:integer .
+    schema:name "Bệnh viện Y học cổ truyền Hà Đông"@vi ,
+                "Hospital Y hoc co truyen Ha Dong"@en ;
+    geo:asWKT "POINT(105.7715441 20.9708813)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1296804724
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1296804724>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Nhi Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7440708 20.9621783)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1296804724"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Nhi Hà Nội"@vi ,
+                "Hospital Nhi Ha Noi"@en ;
     schema:operator "Sở Y tế Hà Nội" ;
-    schema:address "Phố Nguyễn Trác, Hà Đông, Hà Nội" ;
     ext:addr_street "Phố Nguyễn Trác" ;
     ext:addr_district "Hà Đông" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hà Đông" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Nguyễn Trác" ;
-    ext:addr_subdistrict "Dương Nội" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "paediatrics" ;
-    ext:operator_type "public/government" ;
-    ext:start_date "2024-10-09" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1296804724"^^xsd:integer .
+    geo:asWKT "POINT(105.7440708 20.9621783)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1313139535
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1313139535>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Hà Nội (Cơ sở Hà Đông)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7730029 20.9716065)"^^geo:wktLiteral
-    ] ;
-    schema:address "2D Phố Nguyễn Viết Xuân" ;
+    ext:osm_id "1313139535"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Mắt Hà Nội (Cơ sở Hà Đông)"@vi ,
+                "Hospital Mat Ha Noi (Co so Ha Dong)"@en ;
     ext:addr_housenumber "2D" ;
     ext:addr_street "Phố Nguyễn Viết Xuân" ;
-    ext:addr_housenumber "2D" ;
-    ext:addr_street "Phố Nguyễn Viết Xuân" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1313139535"^^xsd:integer .
+    geo:asWKT "POINT(105.7730029 20.9716065)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1395275680
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1395275680>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phụ sản Hà Nội (cơ sở 3)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7765643 20.9721687)"^^geo:wktLiteral
-    ] ;
-    schema:address "10 Đường Quang Trung, Quận Hà Đông" ;
+    ext:osm_id "1395275680"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phụ sản Hà Nội (cơ sở 3)"@vi ,
+                "Hospital Phu san Ha Noi (co so 3)"@en ;
     ext:addr_housenumber "10" ;
     ext:addr_street "Đường Quang Trung" ;
     ext:addr_district "Quận Hà Đông" ;
-    ext:addr_district "Quận Hà Đông" ;
-    ext:addr_housenumber "10" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Đường Quang Trung" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1395275680"^^xsd:integer .
+    geo:asWKT "POINT(105.7765643 20.9721687)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1424527847
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1424527847>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Yên Nghĩa" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7376105 20.9544907)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngách 234/22 Đường Quyết Thắng" ;
-    ext:addr_street "Ngách 234/22 Đường Quyết Thắng" ;
-    ext:addr_street "Ngách 234/22 Đường Quyết Thắng" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1424527847"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1424527847"^^xsd:integer .
+    schema:name "Trạm Y tế phường Yên Nghĩa"@vi ,
+                "Tram Y te phuong Yen Nghia"@en ;
+    ext:addr_street "Ngách 234/22 Đường Quyết Thắng" ;
+    geo:asWKT "POINT(105.7376105 20.9544907)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:2874225019
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:2874225019>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh Viện Đa Khoa Thăng Long" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8384237 20.9542742)"^^geo:wktLiteral
-    ] ;
-    schema:address "60 Tựu Liệt, Tam Hiệp, Thanh Trì, Hà Nội" ;
+    ext:osm_id "2874225019"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh Viện Đa Khoa Thăng Long"@vi ,
+                "Benh Vien Da Khoa Thang Long"@en ;
     ext:addr_housenumber "60" ;
     ext:addr_street "Tựu Liệt, Tam Hiệp, Thanh Trì" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_country "VN" ;
-    ext:addr_housenumber "60" ;
-    ext:addr_street "Tựu Liệt, Tam Hiệp, Thanh Trì" ;
-    ext:ele "4" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:phone "+84 4 3687 3058" ;
-    ext:osm_type "node" ;
-    ext:osm_id "2874225019"^^xsd:integer .
+    schema:telephone "+84 4 3687 3058" ;
+    geo:asWKT "POINT(105.8384237 20.9542742)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5620874321
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5620874321>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.882146 20.921967)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "5620874321"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "5620874321"^^xsd:integer .
+    schema:name "Bệnh viện #5620874321"@vi ,
+                "Hospital #5620874321"@en ;
+    geo:asWKT "POINT(105.882146 20.921967)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9005878157
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9005878157>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm tiêm ᴄhủng Fivevac" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8481456 20.9301069)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "9005878157"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trung tâm tiêm ᴄhủng Fivevac"@vi ,
+                "Trung tam tiem ᴄhung Fivevac"@en ;
     schema:operator "person" ;
-    schema:address "Km 13 Đường Ngọc Hồi, Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam, Hanoi" ;
     ext:addr_housenumber "Km 13" ;
     ext:addr_street "Đường Ngọc Hồi" ;
     ext:addr_district "Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam" ;
     ext:addr_city "Hanoi" ;
-    ext:addr_city "Hanoi" ;
-    ext:addr_district "Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam" ;
-    ext:addr_housenumber "Km 13" ;
     ext:addr_postcode "100000" ;
-    ext:addr_street "Đường Ngọc Hồi" ;
-    ext:addr_subdistrict "Km 13 Đ. Ngọc Hồi, Ngọc Hồi, Thanh Trì, Hà Nội 100000, Vietnam" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:operator_type "government" ;
-    ext:osm_type "node" ;
-    ext:osm_id "9005878157"^^xsd:integer .
+    geo:asWKT "POINT(105.8481456 20.9301069)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9658535627
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9658535627>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Thu Cúc TCI Thanh Xuân" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8141044 20.9992267)"^^geo:wktLiteral
-    ] ;
-    schema:address "136 Nguyễn Trãi, Thanh Xuân, Hà Nội" ;
+    ext:osm_id "9658535627"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Thu Cúc TCI Thanh Xuân"@vi ,
+                "Thu Cuc International General Hospital"@en ;
     ext:addr_housenumber "136" ;
     ext:addr_street "Nguyễn Trãi" ;
     ext:addr_district "Thanh Xuân" ;
     ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 936 188 584" ;
+    schema:openingHours "Mo-Su 08:00-17:00" ;
+    schema:url <https://benhvienthucuc.vn/> ;
+    geo:asWKT "POINT(105.8141044 20.9992267)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10316420839>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "10316420839"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế Khương Hạ"@vi ,
+                "Tram y te Khuong Ha"@en ;
+    geo:asWKT "POINT(105.8166469 20.9920389)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10855401102>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "10855401102"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện #10855401102"@vi ,
+                "Hospital #10855401102"@en ;
+    geo:asWKT "POINT(105.8885189 20.9245983)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10855443211>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "10855443211"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nhà thuốc đông y Bùi Tộc"@vi ,
+                "Nha thuoc dong y Bui Toc"@en ;
+    ext:addr_district "Duyên Hà" ;
+    ext:addr_city "Thanh Trì" ;
+    geo:asWKT "POINT(105.8908793 20.924333)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12595017771>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "12595017771"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện chuyên khoa Nam học và Hiếm muộn Việt - Bỉ"@vi ,
+                "Vietnam - Belgium Andrology and Infertility Hospital"@en ;
+    ext:addr_housenumber "23" ;
+    ext:addr_street "Phố Nguyễn Văn Trỗi, quận Thanh Xuân, thành phố Hà Nội" ;
+    geo:asWKT "POINT(105.8399598 20.9868669)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12651700759>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "12651700759"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện phục hồi chức năng"@vi ,
+                "Hospital phuc hoi chuc nang"@en ;
+    ext:addr_housenumber "35" ;
+    ext:addr_street "Phố Lê Văn Thiêm" ;
+    geo:asWKT "POINT(105.8048434 20.9994521)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12944186097>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "12944186097"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Dệt May"@vi ,
+                "Hospital Det May"@en ;
+    ext:addr_street "Ngõ 454 Minh Khai" ;
+    geo:asWKT "POINT(105.8651351 20.9965075)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:218625367>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "218625367"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bạch Mai"@vi ,
+                "Bach Mai Hospital"@en ;
+    ext:addr_housenumber "78" ;
+    ext:addr_street "Đường Giải Phóng" ;
+    ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Xuân" ;
-    ext:addr_housenumber "136" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Nguyễn Trãi" ;
-    ext:addr_subdistrict "Thanh Xuân Trung" ;
-    ext:description "Cơ sở Nguyễn Trãi của hệ thống bệnh viện đa khoa quốc tế Thu Cúc" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Thu Cuc International General Hospital" ;
-    ext:opening_hours "Mo-Su 08:00-17:00" ;
-    ext:phone "+84 936 188 584" ;
-    ext:website "https://benhvienthucuc.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "9658535627"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10316420839
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế Khương Hạ" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8166469 20.9920389)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "10316420839"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10855401102
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8885189 20.9245983)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "10855401102"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10855443211
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Nhà thuốc đông y Bùi Tộc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8908793 20.924333)"^^geo:wktLiteral
-    ] ;
-    schema:address "Duyên Hà, Thanh Trì" ;
-    ext:addr_district "Duyên Hà" ;
-    ext:addr_city "Thanh Trì" ;
-    ext:addr_city "Thanh Trì" ;
-    ext:addr_district "Duyên Hà" ;
-    ext:addr_province "Hà Nội" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "10855443211"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12595017771
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện chuyên khoa Nam học và Hiếm muộn Việt - Bỉ" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8399598 20.9868669)"^^geo:wktLiteral
-    ] ;
-    schema:address "23 Phố Nguyễn Văn Trỗi, quận Thanh Xuân, thành phố Hà Nội" ;
-    ext:addr_housenumber "23" ;
-    ext:addr_street "Phố Nguyễn Văn Trỗi, quận Thanh Xuân, thành phố Hà Nội" ;
-    ext:addr_housenumber "23" ;
-    ext:addr_street "Phố Nguyễn Văn Trỗi, quận Thanh Xuân, thành phố Hà Nội" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vietnam - Belgium Andrology and Infertility Hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12595017771"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12651700759
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện phục hồi chức năng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8048434 20.9994521)"^^geo:wktLiteral
-    ] ;
-    schema:address "35 Phố Lê Văn Thiêm" ;
-    ext:addr_housenumber "35" ;
-    ext:addr_street "Phố Lê Văn Thiêm" ;
-    ext:addr_housenumber "35" ;
-    ext:addr_street "Phố Lê Văn Thiêm" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12651700759"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12944186097
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Dệt May" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8651351 20.9965075)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 454 Minh Khai" ;
-    ext:addr_street "Ngõ 454 Minh Khai" ;
-    ext:addr_street "Ngõ 454 Minh Khai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12944186097"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:218625367
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bạch Mai" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8394004 21.0018102)"^^geo:wktLiteral
-    ] ;
     schema:sameAs <http://www.wikidata.org/entity/Q1074095> ;
-    schema:legalName "Bệnh viện Bạch Mai"@vi , "Bach Mai Hospital"@en ;
-    schema:description "hospital in Vietnam"@en , "Bệnh viện thuộc BYT"@vi ;
-    schema:url <http://www.ecdoh.gov.za/hospitals/41/BJ_Voster_Hospital> ;
-    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BB%87nh%20vi%E1%BB%87n%20B%E1%BA%A1ch%20Mai-IMG%200458.jpg> ;
-    schema:address "78 Đường Giải Phóng, Đống Đa, Hà Nội" ;
-    ext:addr_housenumber "78" ;
-    ext:addr_street "Đường Giải Phóng" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "78" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Giải Phóng" ;
-    ext:addr_subdistrict "Phương Mai" ;
-    ext:designation "Ministry of Health" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Bach Mai Hospital" ;
-    ext:name_fr "L\\'Hôpitale de Bach Mai" ;
-    ext:name_id "Rumah Sakit Bach Mai" ;
-    ext:name_tr "Bach Mai Hastanesi" ;
-    ext:name_zh "白梅医院" ;
-    ext:wikimedia_commons "Category:Bạch Mai Hospital" ;
-    ext:wikipedia "vi:Bệnh viện Bạch Mai" ;
-    ext:osm_type "way" ;
-    ext:osm_id "218625367"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Bạch Mai> ;
+    geo:asWKT "POINT(105.8394004 21.0018102)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:856220237
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:856220237>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Viện Y học cổ truyền Quân đội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8233726 20.9727944)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "856220237"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Viện Y học cổ truyền Quân đội"@vi ,
+                "Military Institute of Traditional Medicine"@en ;
     schema:operator "Bộ Quốc phòng" ;
-    schema:address "442 Đường Kim Giang, Hoàng Mai, Hà Nội" ;
     ext:addr_housenumber "442" ;
     ext:addr_street "Đường Kim Giang" ;
     ext:addr_district "Hoàng Mai" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàng Mai" ;
-    ext:addr_housenumber "442" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Kim Giang" ;
-    ext:addr_subdistrict "Đại Kim" ;
-    ext:contact_website "http://yhoccotruyenqd.vn/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Military Institute of Traditional Medicine" ;
-    ext:name_tr "Askeri Geleneksel Tıp Enstitüsü" ;
-    ext:operator_type "military" ;
-    ext:osm_type "way" ;
-    ext:osm_id "856220237"^^xsd:integer .
+    schema:url <http://yhoccotruyenqd.vn/> ;
+    geo:asWKT "POINT(105.8233726 20.9727944)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:885744682
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:885744682>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Viện Y học phóng xạ và U bướu Quân đội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8200923 20.980888)"^^geo:wktLiteral
-    ] ;
-    schema:address "18 Định Công Thượng, Hoàng Mai, Hà Nội" ;
+    ext:osm_id "885744682"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Viện Y học phóng xạ và U bướu Quân đội"@vi ,
+                "Military Institute of Medical Radiology and Oncology"@en ;
     ext:addr_housenumber "18" ;
     ext:addr_street "Định Công Thượng" ;
     ext:addr_district "Hoàng Mai" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàng Mai" ;
-    ext:addr_housenumber "18" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Định Công Thượng" ;
-    ext:addr_subdistrict "Định Công" ;
-    ext:contact_phone "+84 24 3855 2353" ;
-    ext:contact_website "https://ungthutuyengiap.org/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "oncology;radiology" ;
-    ext:name_en "Military Institute of Medical Radiology and Oncology" ;
-    ext:name_tr "Askeri Tıbbi Radyoloji ve Onkoloji Enstitüsü" ;
-    ext:opening_hours "Mo-Fr 07:30-17:00" ;
-    ext:osm_type "way" ;
-    ext:osm_id "885744682"^^xsd:integer .
+    schema:telephone "+84 24 3855 2353" ;
+    schema:openingHours "Mo-Fr 07:30-17:00" ;
+    schema:url <https://ungthutuyengiap.org/> ;
+    geo:asWKT "POINT(105.8200923 20.980888)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:891004233
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:891004233>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Nội tiết Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8510255 20.9522962)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Nguyễn Bồ, Thanh Trì, Hà Nội" ;
+    ext:osm_id "891004233"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Nội tiết Trung ương"@vi ,
+                "National Hospital of Endocrinology"@en ;
     ext:addr_street "Đường Nguyễn Bồ" ;
     ext:addr_district "Thanh Trì" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Trì" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Nguyễn Bồ" ;
-    ext:addr_subdistrict "Tứ Hiệp" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "National Hospital of Endocrinology" ;
-    ext:name_tr "Ulusal Endokrinoloji Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "891004233"^^xsd:integer .
+    geo:asWKT "POINT(105.8510255 20.9522962)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:903697302
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:903697302>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Viện Y học Phòng không - Không quân" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8257561 21.0002165)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "903697302"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "903697302"^^xsd:integer .
+    schema:name "Viện Y học Phòng không - Không quân"@vi ,
+                "Vien Y hoc Phong khong - Khong quan"@en ;
+    geo:asWKT "POINT(105.8257561 21.0002165)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914889895
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914889895>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Thanh Trì" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8463085 20.9487155)"^^geo:wktLiteral
-    ] ;
-    schema:address "Thanh Trì, Hà Nội" ;
+    ext:osm_id "914889895"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Thanh Trì"@vi ,
+                "Thanh Tri General Hospital"@en ;
     ext:addr_district "Thanh Trì" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Trì" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Thanh Tri General Hospital" ;
-    ext:name_tr "Thanh Tri Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "914889895"^^xsd:integer .
+    geo:asWKT "POINT(105.8463085 20.9487155)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942477943
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942477943>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện 09" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8019723 20.9605402)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "942477943"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "942477943"^^xsd:integer .
+    schema:name "Bệnh viện 09"@vi ,
+                "Hospital 09"@en ;
+    geo:asWKT "POINT(105.8019723 20.9605402)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:965302176
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:965302176>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện K (cơ sở 2)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8322985 20.9546381)"^^geo:wktLiteral
-    ] ;
-    schema:address "Thanh Trì, Hà Nội" ;
+    ext:osm_id "965302176"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện K (cơ sở 2)"@vi ,
+                "Hospital K (co so 2)"@en ;
     ext:addr_district "Thanh Trì" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Trì" ;
-    ext:addr_subdistrict "Tam Hiệp" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "965302176"^^xsd:integer .
+    geo:asWKT "POINT(105.8322985 20.9546381)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:973471796
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:973471796>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Hoàng Mai" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8464991 20.9682141)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "973471796"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế quận Hoàng Mai"@vi ,
+                "Trung tam Y te quan Hoang Mai"@en ;
     schema:operator "Sở Y tế Hà Nội" ;
-    schema:address "Hoàng Mai, Hà Nội" ;
     ext:addr_district "Hoàng Mai" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàng Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "973471796"^^xsd:integer .
+    geo:asWKT "POINT(105.8464991 20.9682141)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:974596748
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:974596748>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Thanh Xuân" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8123873 20.9909108)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "974596748"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế quận Thanh Xuân"@vi ,
+                "Thanh Xuan district Medical Center"@en ;
     schema:operator "Sở Y tế Hà Nội" ;
-    schema:address "23 Ngõ 282 Đường Khương Đình, Thanh Xuân, Hà Nội" ;
     ext:addr_housenumber "23" ;
     ext:addr_street "Ngõ 282 Đường Khương Đình" ;
     ext:addr_district "Thanh Xuân" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Thanh Xuân" ;
-    ext:addr_housenumber "23" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Ngõ 282 Đường Khương Đình" ;
-    ext:addr_subdistrict "Hạ Đình" ;
-    ext:contact_phone "+84 24 3858 7155" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Thanh Xuan district Medical Center" ;
-    ext:name_tr "Thanh Xuan Bölge Tıp Merkezi" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "974596748"^^xsd:integer .
+    schema:telephone "+84 24 3858 7155" ;
+    geo:asWKT "POINT(105.8123873 20.9909108)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1066900817
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1066900817>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Nông nghiệp" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8533418 20.9211478)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1066900817"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1066900817"^^xsd:integer .
+    schema:name "Bệnh viện Đa khoa Nông nghiệp"@vi ,
+                "Hospital Da khoa Nong nghiep"@en ;
+    geo:asWKT "POINT(105.8533418 20.9211478)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1149665138
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1149665138>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Phòng Khám Đa Khoa Linh Đàm" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8289681 20.9703122)"^^geo:wktLiteral
-    ] ;
-    schema:address "M4TT6 Bắc Linh Đàm, Hoàng Mai, Hà Nội" ;
+    ext:osm_id "1149665138"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Phòng Khám Đa Khoa Linh Đàm"@vi ,
+                "Phong Kham Da Khoa Linh Dam"@en ;
     ext:addr_housenumber "M4TT6" ;
     ext:addr_street "Bắc Linh Đàm" ;
     ext:addr_district "Hoàng Mai" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàng Mai" ;
-    ext:addr_housenumber "M4TT6" ;
     ext:addr_postcode "100000" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Bắc Linh Đàm" ;
-    ext:addr_subdistrict "Đại Kim" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1149665138"^^xsd:integer .
+    geo:asWKT "POINT(105.8289681 20.9703122)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868593
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868593>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tai-Mũi-Họng Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8405781 20.9996733)"^^geo:wktLiteral
-    ] ;
-    schema:address "78 Đường Giải Phóng, Đống Đa, Hà Nội" ;
+    ext:osm_id "1192868593"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Tai-Mũi-Họng Trung ương"@vi ,
+                "Hospital Tai-Mui-Hong Trung uong"@en ;
     ext:addr_housenumber "78" ;
     ext:addr_street "Đường Giải Phóng" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "78" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Giải Phóng" ;
-    ext:addr_subdistrict "Phương Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1192868593"^^xsd:integer .
+    geo:asWKT "POINT(105.8405781 20.9996733)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1205244304
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1205244304>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Quốc tế Vinmec Times City" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8666473 20.9959685)"^^geo:wktLiteral
-    ] ;
-    schema:address "458 Phố Minh Khai" ;
+    ext:osm_id "1205244304"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Quốc tế Vinmec Times City"@vi ,
+                "Vinmec Times City International Hospital"@en ;
     ext:addr_housenumber "458" ;
     ext:addr_street "Phố Minh Khai" ;
-    ext:addr_housenumber "458" ;
-    ext:addr_street "Phố Minh Khai" ;
-    ext:contact_website "https://www.vinmec.com/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Vinmec Times City International Hospital" ;
-    ext:name_tr "Uluslararası Vinmec Times City Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1205244304"^^xsd:integer .
+    schema:url <https://www.vinmec.com/> ;
+    geo:asWKT "POINT(105.8666473 20.9959685)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1208987601
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1208987601>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đại học Y Hà Nội - Cơ sở Hoàng Mai" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8690338 20.9786327)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 587 Tam Trinh, Hoàng Mai, Hà Nội" ;
+    ext:osm_id "1208987601"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đại học Y Hà Nội - Cơ sở Hoàng Mai"@vi ,
+                "Hanoi Medical University Hospital - Hoang Mai Campus"@en ;
     ext:addr_street "Ngõ 587 Tam Trinh" ;
     ext:addr_district "Hoàng Mai" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàng Mai" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Ngõ 587 Tam Trinh" ;
-    ext:addr_subdistrict "Yên Sở" ;
-    ext:contact_email "benhviendaihocyhanoi@hmuh.vn" ;
-    ext:contact_facebook "https://www.facebook.com/HMUHospital" ;
-    ext:contact_phone "+84 19006422" ;
-    ext:contact_website "http://benhviendaihocyhanoi.com/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hanoi Medical University Hospital - Hoang Mai Campus" ;
-    ext:name_tr "Hanoi Tıp Üniversitesi Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1208987601"^^xsd:integer .
+    schema:telephone "+84 19006422" ;
+    schema:email "benhviendaihocyhanoi@hmuh.vn" ;
+    schema:url <http://benhviendaihocyhanoi.com/> ;
+    geo:asWKT "POINT(105.8690338 20.9786327)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1318933629
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1318933629>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bưu điện" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.831309 20.990462)"^^geo:wktLiteral
-    ] ;
-    schema:address "49 Phố Trần Điền" ;
+    ext:osm_id "1318933629"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bưu điện"@vi ,
+                "Hospital of Post and Telecommunications"@en ;
     ext:addr_housenumber "49" ;
     ext:addr_street "Phố Trần Điền" ;
-    ext:addr_housenumber "49" ;
-    ext:addr_street "Phố Trần Điền" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hospital of Post and Telecommunications" ;
-    ext:name_vi "Bệnh viện Bưu điện" ;
-    ext:phone "+84 24 36402308" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1318933629"^^xsd:integer .
+    schema:telephone "+84 24 36402308" ;
+    geo:asWKT "POINT(105.831309 20.990462)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1321543806
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1321543806>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Than - Khoáng sản" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8393028 20.9887265)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 1 Phan Đình Giót" ;
+    ext:osm_id "1321543806"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Than - Khoáng sản"@vi ,
+                "Vinacomin Hospital"@en ;
     ext:addr_street "Ngõ 1 Phan Đình Giót" ;
-    ext:addr_street "Ngõ 1 Phan Đình Giót" ;
-    ext:email "benhvienthankhoangsan@gmail.com" ;
-    ext:emergency "yes" ;
-    ext:fax "+84 24 36646186" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vinacomin Hospital" ;
-    ext:name_vi "Bệnh viện Than - Khoáng sản" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1321543806"^^xsd:integer .
+    schema:email "benhvienthankhoangsan@gmail.com" ;
+    geo:asWKT "POINT(105.8393028 20.9887265)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1451587785
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1451587785>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tâm thần ban ngày Mai Hương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8512988 20.9987722)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Hồng Mai" ;
+    ext:osm_id "1451587785"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Tâm thần ban ngày Mai Hương"@vi ,
+                "Hospital Tam than ban ngay Mai Huong"@en ;
     ext:addr_street "Phố Hồng Mai" ;
-    ext:addr_street "Phố Hồng Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1451587785"^^xsd:integer .
+    geo:asWKT "POINT(105.8512988 20.9987722)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10019105710
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10019105710>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9018259 20.9777275)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "10019105710"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "10019105710"^^xsd:integer .
+    schema:name "Bệnh viện #10019105710"@vi ,
+                "Hospital #10019105710"@en ;
+    geo:asWKT "POINT(105.9018259 20.9777275)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13208170056
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13208170056>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh Viện Đa Khoa Quốc tế Phúc Lâm" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9478414 20.9429462)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "13208170056"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "13208170056"^^xsd:integer .
+    schema:name "Bệnh Viện Đa Khoa Quốc tế Phúc Lâm"@vi ,
+                "Benh Vien Da Khoa Quoc te Phuc Lam"@en ;
+    geo:asWKT "POINT(105.9478414 20.9429462)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:242483921
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:242483921>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế Văn Giang" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9441322 20.9510699)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Van Giang Medical Centre" ;
+    ext:osm_id "242483921"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "242483921"^^xsd:integer .
+    schema:name "Trung tâm Y tế Văn Giang"@vi ,
+                "Van Giang Medical Centre"@en ;
+    geo:asWKT "POINT(105.9441322 20.9510699)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:244408869
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:244408869>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Sông Hồng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9231751 20.9832401)"^^geo:wktLiteral
-    ] ;
-    ext:building "yes" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "244408869"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "244408869"^^xsd:integer .
+    schema:name "Bệnh viện Sông Hồng"@vi ,
+                "Hospital Song Hong"@en ;
+    geo:asWKT "POINT(105.9231751 20.9832401)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570594021
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570594021>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện sông Hồng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9217564 20.9825824)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "570594021"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "570594021"^^xsd:integer .
+    schema:name "Bệnh viện sông Hồng"@vi ,
+                "Hospital song Hong"@en ;
+    geo:asWKT "POINT(105.9217564 20.9825824)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1339401910
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1339401910>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện KUSUMI" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9326261 20.9635258)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1339401910"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện KUSUMI"@vi ,
+                "Hospital KUSUMI"@en ;
     schema:operator "Trường Đại học Y khoa Tokyo Việt Nam" ;
-    schema:address "Văn Giang" ;
     ext:addr_housenumber "ST-01" ;
     ext:addr_district "Văn Giang" ;
-    ext:addr_district "Văn Giang" ;
-    ext:addr_housenumber "ST-01" ;
-    ext:addr_place "Khu đô thị Ecopark" ;
-    ext:addr_province "Hưng Yên" ;
-    ext:email "info@tokyo-human.edu.vn" ;
-    ext:healthcare "hospital" ;
-    ext:operator_type "private" ;
-    ext:phone "+84 1900 86 86 90" ;
-    ext:website "https://kusumihospital.vn/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1339401910"^^xsd:integer .
+    schema:telephone "+84 1900 86 86 90" ;
+    schema:email "info@tokyo-human.edu.vn" ;
+    schema:url <https://kusumihospital.vn/> ;
+    geo:asWKT "POINT(105.9326261 20.9635258)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1432272636
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1432272636>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9572254 20.9402137)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1432272636"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1432272636"^^xsd:integer .
+    schema:name "Bệnh viện #1432272636"@vi ,
+                "Hospital #1432272636"@en ;
+    geo:asWKT "POINT(105.9572254 20.9402137)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1437064254
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1437064254>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9481006 20.9426253)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1437064254"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1437064254"^^xsd:integer .
+    schema:name "Bệnh viện #1437064254"@vi ,
+                "Hospital #1437064254"@en ;
+    geo:asWKT "POINT(105.9481006 20.9426253)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8317321610
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8317321610>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Chăm sóc Sức khoẻ Người cao tuổi Hoa Sen - Lotus Care" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7472566 21.039913)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Trịnh Văn Bô, quận Nam Từ Liêm" ;
+    ext:osm_id "8317321610"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trung tâm Chăm sóc Sức khoẻ Người cao tuổi Hoa Sen - Lotus Care"@vi ,
+                "Lotus Care"@en ;
     ext:addr_street "Phố Trịnh Văn Bô" ;
-    ext:addr_district "quận Nam Từ Liêm" ;
     ext:addr_district "quận Nam Từ Liêm" ;
     ext:addr_postcode "10000" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trịnh Văn Bô" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "geriatrics;elderly_care" ;
-    ext:name_en "Lotus Care" ;
-    ext:osm_type "node" ;
-    ext:osm_id "8317321610"^^xsd:integer .
+    geo:asWKT "POINT(105.7472566 21.039913)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8360208001
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8360208001>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Nha Khoa" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7628554 21.0651797)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "8360208001"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "8360208001"^^xsd:integer .
+    schema:name "Nha Khoa"@vi ,
+                "Nha Khoa"@en ;
+    geo:asWKT "POINT(105.7628554 21.0651797)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9788576207
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9788576207>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Nghiên cứu và Ứng dụng Y học cổ truyền CTA" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.790782 21.0511017)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "9788576207"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trung tâm Nghiên cứu và Ứng dụng Y học cổ truyền CTA"@vi ,
+                "Trung tam Nghien cuu va Ung dung Y hoc co truyen CTA"@en ;
     schema:operator "Lương y Đỗ Tuấn Nam" ;
-    schema:address "25 An Sinh Ngõ 208 Trần Cung, Quận Bắc Từ Liêm, Hà Nội" ;
     ext:addr_housenumber "25 An Sinh" ;
     ext:addr_street "Ngõ 208 Trần Cung" ;
     ext:addr_district "Quận Bắc Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Bắc Từ Liêm" ;
-    ext:addr_housenumber "25 An Sinh" ;
     ext:addr_postcode "10000" ;
-    ext:addr_street "Ngõ 208 Trần Cung" ;
-    ext:addr_subdistrict "Phường Cổ Nhuế 1" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "health" ;
-    ext:operator_type "public" ;
-    ext:osm_type "node" ;
-    ext:osm_id "9788576207"^^xsd:integer .
+    geo:asWKT "POINT(105.790782 21.0511017)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10166537628
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:10166537628>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7616027 21.0689223)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "10166537628"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "10166537628"^^xsd:integer .
+    schema:name "Bệnh viện #10166537628"@vi ,
+                "Hospital #10166537628"@en ;
+    geo:asWKT "POINT(105.7616027 21.0689223)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11104405789
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11104405789>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Quốc tế Dolife" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7714164 21.0334322)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "11104405789"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Quốc tế Dolife"@vi ,
+                "Hospital Quoc te Dolife"@en ;
     schema:operator "Công ty Cổ phần Trung Tín" ;
-    schema:address "108 Phố Nguyễn Hoàng, Nam Từ Liêm, Hà Nội" ;
     ext:addr_housenumber "108" ;
     ext:addr_street "Phố Nguyễn Hoàng" ;
     ext:addr_district "Nam Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Nam Từ Liêm" ;
-    ext:addr_housenumber "108" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Nguyễn Hoàng" ;
-    ext:addr_subdistrict "Mỹ Đình 2" ;
-    ext:email "info@dolifehospital.vn" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:opening_hours "Mo-Su 07:00-16:30" ;
-    ext:operator_type "private" ;
-    ext:phone "+84 1900 1984" ;
-    ext:website "https://dolifehospital.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11104405789"^^xsd:integer .
+    schema:telephone "+84 1900 1984" ;
+    schema:email "info@dolifehospital.vn" ;
+    schema:openingHours "Mo-Su 07:00-16:30" ;
+    schema:url <https://dolifehospital.vn/> ;
+    geo:asWKT "POINT(105.7714164 21.0334322)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11152952450
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11152952450>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Unknown" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7760138 21.0701905)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "11152952450"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "11152952450"^^xsd:integer .
+    schema:name "Bệnh viện #11152952450"@vi ,
+                "Hospital #11152952450"@en ;
+    geo:asWKT "POINT(105.7760138 21.0701905)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11169202590
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11169202590>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Duck\\'s Hospital" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7819381 21.0662593)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "dentist" ;
+    ext:osm_id "11169202590"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "11169202590"^^xsd:integer .
+    schema:name "Duck's Hospital"@vi ,
+                "Duck's Hospital"@en ;
+    geo:asWKT "POINT(105.7819381 21.0662593)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11190957339
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11190957339>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Tram Xa Co Nhue" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7836205 21.0576234)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Trần Cung" ;
+    ext:osm_id "11190957339"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Tram Xa Co Nhue"@vi ,
+                "Tram Xa Co Nhue"@en ;
     ext:addr_street "Đường Trần Cung" ;
-    ext:addr_street "Đường Trần Cung" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11190957339"^^xsd:integer .
+    geo:asWKT "POINT(105.7836205 21.0576234)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11591853849
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11591853849>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế phường Tây Mỗ (Cơ sở 2)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7512096 21.0018973)"^^geo:wktLiteral
-    ] ;
-    schema:address "11 Ngõ 27 Đường Tây Mỗ" ;
+    ext:osm_id "11591853849"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế phường Tây Mỗ (Cơ sở 2)"@vi ,
+                "Tram y te phuong Tay Mo (Co so 2)"@en ;
     ext:addr_housenumber "11" ;
     ext:addr_street "Ngõ 27 Đường Tây Mỗ" ;
-    ext:addr_housenumber "11" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Ngõ 27 Đường Tây Mỗ" ;
-    ext:addr_subdistrict "Phường Tây Mỗ" ;
-    ext:healthcare "hospital" ;
-    ext:wheelchair "limited" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11591853849"^^xsd:integer .
+    geo:asWKT "POINT(105.7512096 21.0018973)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11882973176
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11882973176>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Hữu nghị Quốc tế Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7496348 21.0040429)"^^geo:wktLiteral
-    ] ;
-    schema:address "68 Tây Mỗ, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội, Quận Nam Từ Liêm, Phường Tây Mỗ" ;
+    ext:osm_id "11882973176"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Hữu nghị Quốc tế Hà Nội"@vi ,
+                "Hospital Huu nghi Quoc te Ha Noi"@en ;
     ext:addr_housenumber "68" ;
     ext:addr_street "Tây Mỗ, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội" ;
     ext:addr_district "Quận Nam Từ Liêm" ;
     ext:addr_city "Phường Tây Mỗ" ;
-    ext:addr_city "Phường Tây Mỗ" ;
-    ext:addr_district "Quận Nam Từ Liêm" ;
-    ext:addr_housenumber "68" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Tây Mỗ, phường Tây Mỗ, quận Nam Từ Liêm, Hà Nội" ;
-    ext:addr_subdistrict "Phường Tây Mỗ" ;
-    ext:healthcare "hospital" ;
-    ext:wheelchair "yes" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11882973176"^^xsd:integer .
+    geo:asWKT "POINT(105.7496348 21.0040429)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13124579065
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13124579065>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Phòng khám đa khoa Bệnh viện Đại học Y Hà Nội - Cơ sở Cầu Giấy" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7910343 21.0350951)"^^geo:wktLiteral
-    ] ;
-    schema:address "10 phố Trương Công Giai" ;
+    ext:osm_id "13124579065"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám đa khoa Bệnh viện Đại học Y Hà Nội - Cơ sở Cầu Giấy"@vi ,
+                "Phong kham da khoa Hospital University Y Ha Noi - Co so Cau Giay"@en ;
     ext:addr_housenumber "10" ;
     ext:addr_street "phố Trương Công Giai" ;
-    ext:addr_housenumber "10" ;
-    ext:addr_street "phố Trương Công Giai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "13124579065"^^xsd:integer .
+    geo:asWKT "POINT(105.7910343 21.0350951)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136271003
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136271003>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Thể thao Việt Nam" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7614767 21.0231218)"^^geo:wktLiteral
-    ] ;
-    ext:building "yes" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "136271003"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "136271003"^^xsd:integer .
+    schema:name "Bệnh viện Thể thao Việt Nam"@vi ,
+                "Hospital The thao Viet Nam"@en ;
+    geo:asWKT "POINT(105.7614767 21.0231218)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570572630
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570572630>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Phương Đông" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7750912 21.0699424)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Viên, Hà Nội" ;
+    ext:osm_id "570572630"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Phương Đông"@vi ,
+                "Hospital Da khoa Phuong Dong"@en ;
     ext:addr_street "Phố Viên" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_street "Phố Viên" ;
-    ext:addr_subdistrict "Cổ Nhuế 2" ;
-    ext:healthcare "hospital" ;
-    ext:layer "1" ;
-    ext:name_zh "东方多科医院" ;
-    ext:osm_type "way" ;
-    ext:osm_id "570572630"^^xsd:integer .
+    geo:asWKT "POINT(105.7750912 21.0699424)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:874998865
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:874998865>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Nam Từ Liêm" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7657416 21.0387889)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "874998865"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "874998865"^^xsd:integer .
+    schema:name "Trung tâm Y tế quận Nam Từ Liêm"@vi ,
+                "Trung tam Y te quan Nam Tu Liem"@en ;
+    geo:asWKT "POINT(105.7657416 21.0387889)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:896079120
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:896079120>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện E" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7883827 21.0504338)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "896079120"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện E"@vi ,
+                "Hospital E"@en ;
     schema:operator "Bộ Y tế" ;
-    schema:address "87-89 Đường Trần Cung, Quận Bắc Từ Liêm, Hà Nội" ;
     ext:addr_housenumber "87-89" ;
     ext:addr_street "Đường Trần Cung" ;
     ext:addr_district "Quận Bắc Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Bắc Từ Liêm" ;
-    ext:addr_housenumber "87-89" ;
-    ext:addr_street "Đường Trần Cung" ;
-    ext:addr_subdistrict "Phường Cổ Nhuế 1" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hospital E" ;
-    ext:name_tr "Hastane E" ;
-    ext:name_vi "Bệnh viện E" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "896079120"^^xsd:integer .
+    geo:asWKT "POINT(105.7883827 21.0504338)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:905275452
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:905275452>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Viện Huyết học - Truyền máu Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7883187 21.0246967)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Phạm Văn Bạch, Cầu Giấy, Hà Nội" ;
+    ext:osm_id "905275452"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Viện Huyết học - Truyền máu Trung ương"@vi ,
+                "National Institute of Hematology and Blood Transfusion"@en ;
     ext:addr_street "Phố Phạm Văn Bạch" ;
     ext:addr_district "Cầu Giấy" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Cầu Giấy" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Phạm Văn Bạch" ;
-    ext:addr_subdistrict "Yên Hòa" ;
-    ext:contact_mobile "+84 967 891 616" ;
-    ext:contact_website "https://vienhuyethoc.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "haematology;blood_check" ;
-    ext:name_en "National Institute of Hematology and Blood Transfusion" ;
-    ext:name_tr "Ulusal Hematoloji ve Kan Nakli Enstitüsü" ;
-    ext:osm_type "way" ;
-    ext:osm_id "905275452"^^xsd:integer .
+    schema:url <https://vienhuyethoc.vn/> ;
+    geo:asWKT "POINT(105.7883187 21.0246967)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415511
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415511>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Y học cổ truyền Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7794551 21.0346916)"^^geo:wktLiteral
-    ] ;
-    schema:address "8 Đường Phạm Hùng, Cầu Giấy, Hà Nội" ;
+    ext:osm_id "942415511"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Y học cổ truyền Hà Nội"@vi ,
+                "Hanoi Hospital of Traditional Medicine"@en ;
     ext:addr_housenumber "8" ;
     ext:addr_street "Đường Phạm Hùng" ;
     ext:addr_district "Cầu Giấy" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Cầu Giấy" ;
-    ext:addr_housenumber "8" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Phạm Hùng" ;
-    ext:addr_subdistrict "Mai Dịch" ;
-    ext:contact_website "http://bvdkyhoccotruyenhanoi.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Hanoi Hospital of Traditional Medicine" ;
-    ext:name_tr "Hanoi Geleneksel Tıp Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "942415511"^^xsd:integer .
+    schema:url <http://bvdkyhoccotruyenhanoi.vn/> ;
+    geo:asWKT "POINT(105.7794551 21.0346916)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:992727740
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:992727740>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hoài Đức" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7021556 21.0563858)"^^geo:wktLiteral
-    ] ;
-    schema:address "Hoài Đức, Hà Nội" ;
+    ext:osm_id "992727740"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Hoài Đức"@vi ,
+                "Hoai Duc General Hospital"@en ;
     ext:addr_district "Hoài Đức" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoài Đức" ;
-    ext:addr_subdistrict "Đức Giang" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Hoai Duc General Hospital" ;
-    ext:name_tr "Hoai Duc Bölge Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "992727740"^^xsd:integer .
+    geo:asWKT "POINT(105.7021556 21.0563858)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1011384362
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1011384362>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Quốc tế Vinmec Smart City" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7473049 21.0078176)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1011384362"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Quốc tế Vinmec Smart City"@vi ,
+                "Vinmec Smart City International Hospital"@en ;
     schema:operator "Công ty Cổ phần Bệnh viện Đa khoa Quốc tế Vinmec" ;
-    schema:address "Đường Tây Mỗ, Nam Từ Liêm, Hà Nội" ;
     ext:addr_street "Đường Tây Mỗ" ;
     ext:addr_district "Nam Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Nam Từ Liêm" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Tây Mỗ" ;
-    ext:addr_subdistrict "Tây Mỗ" ;
-    ext:contact_facebook "https://www.facebook.com/Vinmec/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Vinmec Smart City International Hospital" ;
-    ext:operator_type "private" ;
-    ext:phone "+84 24 3208 5678" ;
-    ext:start_date "2024-10-21" ;
-    ext:website "https://www.vinmec.com/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1011384362"^^xsd:integer .
+    schema:telephone "+84 24 3208 5678" ;
+    schema:url <https://www.vinmec.com/> ;
+    geo:asWKT "POINT(105.7473049 21.0078176)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1164641686
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1164641686>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hồng Ngọc - Phúc Trường Minh" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7692152 21.009478)"^^geo:wktLiteral
-    ] ;
-    schema:address "8 Đường Châu Văn Liêm, Nam Từ Liêm, Hà Nội" ;
+    ext:osm_id "1164641686"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Hồng Ngọc - Phúc Trường Minh"@vi ,
+                "Hospital Da khoa Hong Ngoc - Phuc School Minh"@en ;
     ext:addr_housenumber "8" ;
     ext:addr_street "Đường Châu Văn Liêm" ;
     ext:addr_district "Nam Từ Liêm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Nam Từ Liêm" ;
-    ext:addr_housenumber "8" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Châu Văn Liêm" ;
-    ext:addr_subdistrict "Phú Đô" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:website "https://hongngochospital.vn/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1164641686"^^xsd:integer .
+    schema:url <https://hongngochospital.vn/> ;
+    geo:asWKT "POINT(105.7692152 21.009478)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1251028877
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1251028877>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Dịch Vọng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.793479 21.0332587)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Dịch Vọng, Quận Cầu Giấy" ;
+    ext:osm_id "1251028877"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Dịch Vọng"@vi ,
+                "Tram Y te phuong Dich Vong"@en ;
     ext:addr_street "Phố Dịch Vọng" ;
     ext:addr_district "Quận Cầu Giấy" ;
-    ext:addr_district "Quận Cầu Giấy" ;
-    ext:addr_province "Thành phố Hà Nội" ;
-    ext:addr_street "Phố Dịch Vọng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1251028877"^^xsd:integer .
+    geo:asWKT "POINT(105.793479 21.0332587)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1318805350
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1318805350>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đại Học Phenikaa" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7520043 21.0387401)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Kiều Mai" ;
+    ext:osm_id "1318805350"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đại Học Phenikaa"@vi ,
+                "Hospital Dai Hoc Phenikaa"@en ;
     ext:addr_street "Phố Kiều Mai" ;
-    ext:addr_street "Phố Kiều Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1318805350"^^xsd:integer .
+    geo:asWKT "POINT(105.7520043 21.0387401)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1413271461
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1413271461>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế Mễ Trì" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7757929 21.0117954)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1413271461"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1413271461"^^xsd:integer .
+    schema:name "Trạm y tế Mễ Trì"@vi ,
+                "Tram y te Me Tri"@en ;
+    geo:asWKT "POINT(105.7757929 21.0117954)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1453265869
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1453265869>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế xã Hoài Đức - Điểm y tế Di Trạch" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.72273 21.0479052)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Văn Minh" ;
+    ext:osm_id "1453265869"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm y tế xã Hoài Đức - Điểm y tế Di Trạch"@vi ,
+                "Tram y te xa Hoai Duc - Diem y te Di Trach"@en ;
     ext:addr_street "Đường Văn Minh" ;
-    ext:addr_street "Đường Văn Minh" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1453265869"^^xsd:integer .
+    geo:asWKT "POINT(105.72273 21.0479052)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:16842443
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:16842443>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện 19-8" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7778031 21.0332206)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "16842443"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Bệnh viện 19-8"@vi ,
+                "Hospital 19-8"@en ;
     schema:operator "Bộ Công an" ;
-    schema:address "9 Phố Trần Bình, Cầu Giấy, Hà Nội" ;
     ext:addr_housenumber "9" ;
     ext:addr_street "Phố Trần Bình" ;
     ext:addr_district "Cầu Giấy" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Cầu Giấy" ;
-    ext:addr_housenumber "9" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trần Bình" ;
-    ext:addr_subdistrict "Mai Dịch" ;
-    ext:healthcare "hospital" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "relation" ;
-    ext:osm_id "16842443"^^xsd:integer .
+    geo:asWKT "POINT(105.7778031 21.0332206)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:3752331075
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:3752331075>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Paris Miki Vietnam" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8400348 21.0492003)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "3752331075"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Paris Miki Vietnam"@vi ,
+                "Paris Miki Vietnam"@en ;
     schema:operator "Paris Miki Vietnam" ;
-    schema:address "32 Phố Đức Chính, Quận Ba Đình, Hanoi" ;
     ext:addr_housenumber "32" ;
     ext:addr_street "Phố Đức Chính" ;
     ext:addr_district "Quận Ba Đình" ;
     ext:addr_city "Hanoi" ;
-    ext:addr_city "Hanoi" ;
-    ext:addr_country "VN" ;
-    ext:addr_district "Quận Ba Đình" ;
-    ext:addr_housenumber "32" ;
-    ext:addr_street "Phố Đức Chính" ;
-    ext:addr_subdistrict "Phường Trúc Bạch" ;
-    ext:healthcare "hospital" ;
-    ext:website "https://www.paris-miki.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "3752331075"^^xsd:integer .
+    schema:url <https://www.paris-miki.vn/> ;
+    geo:asWKT "POINT(105.8400348 21.0492003)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:4886715161
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:4886715161>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế xã Xuân Canh" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8521434 21.0933795)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "4886715161"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm y tế xã Xuân Canh"@vi ,
+                "Tram y te xa Xuan Canh"@en ;
     schema:operator "Xã Xuân Canh" ;
-    schema:address "Đông Anh, Hà Nội" ;
     ext:addr_district "Đông Anh" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đông Anh" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_subdistrict "Xuân Canh" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "4886715161"^^xsd:integer .
+    geo:asWKT "POINT(105.8521434 21.0933795)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5808582515
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5808582515>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Phòng khám Đa khoa Quốc tế Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8382699 21.0101268)"^^geo:wktLiteral
-    ] ;
-    schema:address "152 Phố Xã Đàn, Hà Nội, Hà Nội" ;
+    ext:osm_id "5808582515"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng khám Đa khoa Quốc tế Hà Nội"@vi ,
+                "Phong kham Da khoa Quoc te Ha Noi"@en ;
     ext:addr_housenumber "152" ;
     ext:addr_street "Phố Xã Đàn" ;
     ext:addr_district "Hà Nội" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hà Nội" ;
-    ext:addr_housenumber "152" ;
     ext:addr_postcode "100000" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Xã Đàn" ;
-    ext:addr_subdistrict "Đống Đa" ;
-    ext:description "Địa chỉ phòng khám đa khoa quốc tế Hà nội chuyên điều trị bệnh nam khoa, phụ khoa bệnh xã hội uy tín tại Việt Nam" ;
-    ext:emergency "no" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "clinic" ;
-    ext:website "https://ytequocte.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "5808582515"^^xsd:integer .
+    schema:url <https://ytequocte.vn/> ;
+    geo:asWKT "POINT(105.8382699 21.0101268)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5839478946
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:5839478946>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Nhà hộ sinh A" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8548261 21.024432)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "5839478946"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Nhà hộ sinh A"@vi ,
+                "Nha ho sinh A"@en ;
     schema:operator "Trung tâm y tế Hoàn Kiếm" ;
-    schema:address "36 Ngô Quyền, Hoàn Kiếm, Hà Nội" ;
     ext:addr_housenumber "36" ;
     ext:addr_street "Ngô Quyền" ;
     ext:addr_district "Hoàn Kiếm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_housenumber "36" ;
     ext:addr_postcode "10000" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Ngô Quyền" ;
-    ext:addr_subdistrict "Hàng Bài" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general;internal" ;
-    ext:osm_type "node" ;
-    ext:osm_id "5839478946"^^xsd:integer .
+    geo:asWKT "POINT(105.8548261 21.024432)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8588635222
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:8588635222>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Phòng Khám Đa Khoa Medlatec" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8140405 21.0472605)"^^geo:wktLiteral
-    ] ;
-    schema:address "99 Phố Trích Sài, Phường Bưởi" ;
+    ext:osm_id "8588635222"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Phòng Khám Đa Khoa Medlatec"@vi ,
+                "Phong Kham Da Khoa Medlatec"@en ;
     ext:addr_housenumber "99" ;
     ext:addr_street "Phố Trích Sài" ;
     ext:addr_city "Phường Bưởi" ;
-    ext:addr_city "Phường Bưởi" ;
-    ext:addr_housenumber "99" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trích Sài" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "8588635222"^^xsd:integer .
+    geo:asWKT "POINT(105.8140405 21.0472605)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9587086998
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9587086998>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh Viện Đa Khoa Quốc Tế Bắc Hà" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8711851 21.0431119)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "9587086998"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "9587086998"^^xsd:integer .
+    schema:name "Bệnh Viện Đa Khoa Quốc Tế Bắc Hà"@vi ,
+                "Benh Vien Da Khoa Quoc Te Bac Ha"@en ;
+    geo:asWKT "POINT(105.8711851 21.0431119)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11601353636
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11601353636>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Kỹ thuật cao Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.849466 21.0168006)"^^geo:wktLiteral
-    ] ;
-    schema:address "51-53-55 Phố Trần Nhân Tông, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "11601353636"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Mắt Kỹ thuật cao Hà Nội"@vi ,
+                "Hospital Mat Ky thuat cao Ha Noi"@en ;
     ext:addr_housenumber "51-53-55" ;
     ext:addr_street "Phố Trần Nhân Tông" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "51-53-55" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trần Nhân Tông" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "ophthalmology" ;
-    ext:opening_hours "Mo-Fr 07:30-12:00,13:30-17:00; Sa-Su 07:30-12:00,13:30-18:00" ;
-    ext:phone "+84 984 122 153" ;
-    ext:website "https://benhvienmat.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11601353636"^^xsd:integer .
+    schema:telephone "+84 984 122 153" ;
+    schema:openingHours "Mo-Fr 07:30-12:00,13:30-17:00; Sa-Su 07:30-12:00,13:30-18:00" ;
+    schema:url <https://benhvienmat.vn/> ;
+    geo:asWKT "POINT(105.849466 21.0168006)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11625397936
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11625397936>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Việt Nhật" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8502987 21.0145775)"^^geo:wktLiteral
-    ] ;
-    schema:address "122 Phố Triệu Việt Vương, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "11625397936"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Mắt Việt Nhật"@vi ,
+                "Vietnam - Japan Eye Hospital"@en ;
     ext:addr_housenumber "122" ;
     ext:addr_street "Phố Triệu Việt Vương" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "122" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Triệu Việt Vương" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:contact_email "info@matvietnhat.com.vn" ;
-    ext:contact_facebook "https://www.facebook.com/matvietnhat" ;
-    ext:contact_phone "+84 24 3974 8307" ;
-    ext:contact_website "https://matvietnhat.com.vn/" ;
-    ext:emergency "no" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "ophthalmology" ;
-    ext:name_en "Vietnam - Japan Eye Hospital" ;
-    ext:name_tr "Vietnam-Japonya Göz Hastanesi" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11625397936"^^xsd:integer .
+    schema:telephone "+84 24 3974 8307" ;
+    schema:email "info@matvietnhat.com.vn" ;
+    schema:url <https://matvietnhat.com.vn/> ;
+    geo:asWKT "POINT(105.8502987 21.0145775)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11683961268
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11683961268>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Hàng Mã" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8472708 21.039512)"^^geo:wktLiteral
-    ] ;
-    schema:address "5 Phố Hàng Cót, Quận Hoàn Kiếm, Hà Nội" ;
+    ext:osm_id "11683961268"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Trạm Y tế phường Hàng Mã"@vi ,
+                "Tram Y te phuong Hang Ma"@en ;
     ext:addr_housenumber "5" ;
     ext:addr_street "Phố Hàng Cót" ;
     ext:addr_district "Quận Hoàn Kiếm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Hoàn Kiếm" ;
-    ext:addr_housenumber "5" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Hàng Cót" ;
-    ext:addr_subdistrict "Phường Hàng Mã" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "11683961268"^^xsd:integer .
+    geo:asWKT "POINT(105.8472708 21.039512)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11949875397
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:11949875397>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện đa khoa Nông nghiệp 2" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8209988 21.0135889)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "11949875397"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "11949875397"^^xsd:integer .
+    schema:name "Bệnh viện đa khoa Nông nghiệp 2"@vi ,
+                "Hospital da khoa Nong nghiep 2"@en ;
+    geo:asWKT "POINT(105.8209988 21.0135889)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12000027489
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12000027489>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hoè Nhai - Cơ sở 2" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8458691 21.0471714)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 53 Tân Ấp" ;
+    ext:osm_id "12000027489"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Đa khoa Hoè Nhai - Cơ sở 2"@vi ,
+                "Hospital Da khoa Hoe Nhai - Co so 2"@en ;
     ext:addr_street "Ngõ 53 Tân Ấp" ;
-    ext:addr_street "Ngõ 53 Tân Ấp" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12000027489"^^xsd:integer .
+    geo:asWKT "POINT(105.8458691 21.0471714)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12621772111
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:12621772111>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện mắt Sài Gòn Hà Nội 1" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8104566 21.0115478)"^^geo:wktLiteral
-    ] ;
-    schema:address "532 đường Láng" ;
+    ext:osm_id "12621772111"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện mắt Sài Gòn Hà Nội 1"@vi ,
+                "Hospital mat Sai Gon Ha Noi 1"@en ;
     ext:addr_housenumber "532" ;
     ext:addr_street "đường Láng" ;
-    ext:addr_housenumber "532" ;
-    ext:addr_street "đường Láng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "node" ;
-    ext:osm_id "12621772111"^^xsd:integer .
+    geo:asWKT "POINT(105.8104566 21.0115478)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13136496646
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:13136496646>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hà Thành" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8265759 21.026761)"^^geo:wktLiteral
-    ] ;
-    schema:address "57-63 Phố Vũ Thạnh" ;
+    ext:osm_id "13136496646"^^xsd:integer ;
+    ext:osm_type "node" ;
+    schema:name "Bệnh viện Đa khoa Hà Thành"@vi ,
+                "Hospital Da khoa Ha Thanh"@en ;
     ext:addr_housenumber "57-63" ;
     ext:addr_street "Phố Vũ Thạnh" ;
-    ext:addr_housenumber "57-63" ;
-    ext:addr_street "Phố Vũ Thạnh" ;
-    ext:contact_facebook "https://www.facebook.com/benhvienhathanh" ;
-    ext:email "info@benhvienhathanh.vn" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:phone "+84 24 3765 5599" ;
-    ext:website "https://benhvienhathanh.vn/" ;
-    ext:osm_type "node" ;
-    ext:osm_id "13136496646"^^xsd:integer .
+    schema:telephone "+84 24 3765 5599" ;
+    schema:email "info@benhvienhathanh.vn" ;
+    schema:url <https://benhvienhathanh.vn/> ;
+    geo:asWKT "POINT(105.8265759 21.026761)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136258986
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136258986>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bệnh Nhiệt đới Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8388831 21.0021332)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "136258986"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bệnh Nhiệt đới Trung ương"@vi ,
+                "Hospital Benh Nhiet doi Trung uong"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q61132632> ;
-    schema:legalName "Bệnh viện Bệnh nhiệt đới Trung ương"@vi , "National Hospital of Tropical Diseases"@en ;
-    schema:description "hospital"@en , "Bệnh viện thuộc BYT"@vi ;
-    schema:url <http://benhnhietdoi.vn/> ;
-    ext:building "hospital" ;
-    ext:healthcare "hospital" ;
-    ext:wheelchair "yes" ;
-    ext:wikipedia "vi:Bệnh viện Bệnh nhiệt đới Trung ương" ;
-    ext:osm_type "way" ;
-    ext:osm_id "136258986"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Bệnh nhiệt đới Trung ương> ;
+    geo:asWKT "POINT(105.8388831 21.0021332)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136259226
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:136259226>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Nội tiết Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8150138 21.0123966)"^^geo:wktLiteral
-    ] ;
-    schema:address "80 Ngõ 82 Yên Lãng" ;
+    ext:osm_id "136259226"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Nội tiết Trung ương"@vi ,
+                "Hospital Noi tiet Trung uong"@en ;
     ext:addr_housenumber "80" ;
     ext:addr_street "Ngõ 82 Yên Lãng" ;
-    ext:addr_housenumber "80" ;
-    ext:addr_street "Ngõ 82 Yên Lãng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "136259226"^^xsd:integer .
+    geo:asWKT "POINT(105.8150138 21.0123966)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:159949212
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:159949212>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Quân y 354" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8120457 21.0400936)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "159949212"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Quân y 354"@vi ,
+                "Hospital Quan y 354"@en ;
     schema:operator "Bộ Quốc phòng" ;
-    schema:address "120 Phố Đốc Ngữ, Quận Ba Đình, Hà Nội" ;
     ext:addr_housenumber "120" ;
     ext:addr_street "Phố Đốc Ngữ" ;
     ext:addr_district "Quận Ba Đình" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Ba Đình" ;
-    ext:addr_housenumber "120" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Đốc Ngữ" ;
-    ext:addr_subdistrict "Phường Vĩnh Phúc" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:operator_type "military" ;
-    ext:osm_type "way" ;
-    ext:osm_id "159949212"^^xsd:integer .
+    geo:asWKT "POINT(105.8120457 21.0400936)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:163711327
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:163711327>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Đống Đa" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8267948 21.0155559)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 180 Nguyễn Lương Bằng, Đống Đa, Hà Nội" ;
+    ext:osm_id "163711327"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Đống Đa"@vi ,
+                "Dong Da General Hospital"@en ;
     ext:addr_street "Ngõ 180 Nguyễn Lương Bằng" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_street "Ngõ 180 Nguyễn Lương Bằng" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Dong Da General Hospital" ;
-    ext:name_tr "Dong Da Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "163711327"^^xsd:integer .
+    geo:asWKT "POINT(105.8267948 21.0155559)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:163764047
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:163764047>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phổi Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8134109 21.0423434)"^^geo:wktLiteral
-    ] ;
-    schema:address "463 Đường Hoàng Hoa Thám, Quận Ba Đình, Hà Nội" ;
+    ext:osm_id "163764047"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phổi Trung ương"@vi ,
+                "Hospital Phoi Trung uong"@en ;
     ext:addr_housenumber "463" ;
     ext:addr_street "Đường Hoàng Hoa Thám" ;
     ext:addr_district "Quận Ba Đình" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Ba Đình" ;
-    ext:addr_housenumber "463" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Hoàng Hoa Thám" ;
-    ext:addr_subdistrict "Phường Vĩnh Phúc" ;
-    ext:healthcare "hospital" ;
-    ext:name_vi "Bệnh viện Phổi Trung ương" ;
-    ext:website "https://bvptw.org/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "163764047"^^xsd:integer .
+    schema:url <https://bvptw.org/> ;
+    geo:asWKT "POINT(105.8134109 21.0423434)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:196084598
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:196084598>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Phòng Khám Y Tế Nha Khoa Quốc Tế SOS" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8274354 21.0637284)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "196084598"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "196084598"^^xsd:integer .
+    schema:name "Phòng Khám Y Tế Nha Khoa Quốc Tế SOS"@vi ,
+                "Phong Kham Y Te Nha Khoa Quoc Te SOS"@en ;
+    geo:asWKT "POINT(105.8274354 21.0637284)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:199148844
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:199148844>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phụ sản Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8074644 21.0268213)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ 933 Đê La Thành, Đống Đa, Hà Nội" ;
+    ext:osm_id "199148844"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phụ sản Hà Nội"@vi ,
+                "Hanoi Obstetrics & Gynecology Hospital"@en ;
     ext:addr_street "Ngõ 933 Đê La Thành" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Ngõ 933 Đê La Thành" ;
-    ext:addr_subdistrict "Ngọc Khánh" ;
-    ext:contact_phone "+84 24 3211 5944" ;
-    ext:contact_website "https://benhvienphusanhanoi.vn/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "maternity;gynaecology" ;
-    ext:name_en "Hanoi Obstetrics & Gynecology Hospital" ;
-    ext:name_ru "Родильный дом Ханоя" ;
-    ext:name_tr "Hanoi Obstetri ve Jinekoloji Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "199148844"^^xsd:integer .
+    schema:telephone "+84 24 3211 5944" ;
+    schema:url <https://benhvienphusanhanoi.vn/> ;
+    geo:asWKT "POINT(105.8074644 21.0268213)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:199148846
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:199148846>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Nhi Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8083673 21.0249118)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "199148846"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Nhi Trung ương"@vi ,
+                "Vietnam National Children's Hospital"@en ;
+    ext:addr_housenumber "18" ;
+    ext:addr_street "Ngõ 879 La Thành" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Hà Nội" ;
+    schema:telephone "+84 24 6273 8532" ;
+    schema:email "chamsockhachhang@nch.gov.vn" ;
     schema:sameAs <http://www.wikidata.org/entity/Q7928527> ;
-    schema:legalName "Bệnh viện Nhi Trung Ương"@vi , "Vietnam National Children's Hospital"@en ;
-    schema:description "hospital"@en , "bệnh viện ở Việt Nam"@vi ;
-    schema:url <http://www.nhp.org.vn/> ;
-    schema:address "18 Ngõ 879 La Thành, Đống Đa, Hà Nội" ;
-    ext:addr_housenumber "18" ;
-    ext:addr_street "Ngõ 879 La Thành" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "18" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Ngõ 879 La Thành" ;
-    ext:addr_subdistrict "Láng Thượng" ;
-    ext:contact_email "chamsockhachhang@nch.gov.vn" ;
-    ext:contact_fax "+84 24 6273 8573" ;
-    ext:contact_phone "+84 24 6273 8532" ;
-    ext:contact_website "https://benhviennhitrunguong.gov.vn/" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "paediatrics" ;
-    ext:name_en "Vietnam National Children\\'s Hospital" ;
-    ext:name_ru "Вьетнамский Национальный центр педиатрии" ;
-    ext:name_tr "Viyetnam Ulusal Çocuk Hastalıkları Hastanesi" ;
-    ext:name_vi "Bệnh viện Nhi Trung ương" ;
-    ext:wikipedia "vi:Bệnh viện Nhi Trung ương" ;
-    ext:osm_type "way" ;
-    ext:osm_id "199148846"^^xsd:integer .
+    schema:url <https://benhviennhitrunguong.gov.vn/> ;
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Nhi Trung ương> ;
+    geo:asWKT "POINT(105.8083673 21.0249118)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:217792888
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:217792888>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Xanh Pôn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8351549 21.0312292)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "217792888"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Xanh Pôn"@vi ,
+                "Saint Paul's Hospital"@en ;
+    ext:addr_housenumber "12" ;
+    ext:addr_street "Phố Chu Văn An" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_city "Hà Nội" ;
     schema:sameAs <http://www.wikidata.org/entity/Q7402043> ;
-    schema:legalName "Bệnh viện đa khoa Xanh Pôn"@vi , "Saint Paul Hospital"@en ;
-    schema:description "hospital in Vietnam"@en , "bệnh viện đa khoa tuyến cuối tại Hà Nội, Việt Nam"@vi ;
     schema:url <http://bvxanhpon.vn/> ;
-    schema:address "12 Phố Chu Văn An, Quận Ba Đình, Hà Nội" ;
-    ext:addr_housenumber "12" ;
-    ext:addr_street "Phố Chu Văn An" ;
-    ext:addr_district "Quận Ba Đình" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Quận Ba Đình" ;
-    ext:addr_housenumber "12" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Chu Văn An" ;
-    ext:addr_subdistrict "Phường Điện Biên" ;
-    ext:contact_website "http://bvxanhpon.vn/" ;
-    ext:designation "Department of Health Hanoi" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Saint Paul\\'s Hospital" ;
-    ext:name_fr "L’Hôpital à Saint Paul" ;
-    ext:name_id "Rumah Sakit Saint Paul" ;
-    ext:name_ja "セントポール病院" ;
-    ext:name_ms "Rumah Sehat Saint Paul" ;
-    ext:name_ru "больница Сен-Поль" ;
-    ext:name_tr "Aziz Paul Hastanesi" ;
-    ext:name_zh-Hant "聖保羅多科醫院" ;
-    ext:wikimedia_commons "Category:Saint Paul Hospital, Hanoi" ;
-    ext:wikipedia "vi:Bệnh viện Đa khoa Xanh Pôn" ;
-    ext:osm_type "way" ;
-    ext:osm_id "217792888"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Đa khoa Xanh Pôn> ;
+    geo:asWKT "POINT(105.8351549 21.0312292)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:218631146
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:218631146>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Trung ương Quân đội 108" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8606157 21.0163854)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "218631146"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Trung ương Quân đội 108"@vi ,
+                "108 Military Central Hospital"@en ;
     schema:operator "Bộ Quốc phòng" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Trần Hưng Đạo" ;
+    ext:addr_district "Hai Ba Trung" ;
+    ext:addr_city "Hà Nội" ;
     schema:sameAs <http://www.wikidata.org/entity/Q4546769> ;
-    schema:legalName "Bệnh viện Trung ương Quân đội 108"@vi , "108 Hospital"@en ;
-    schema:description "hospital in Hanoi, Vietnam"@en , "bệnh viện ở Hà Nội, Việt Nam"@vi ;
-    schema:url <http://www.benhvien108.vn/> ;
-    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Army%20Central%20Hospital%20108.JPG> ;
-    schema:address "1 Phố Trần Hưng Đạo, Hai Ba Trung, Hà Nội" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_street "Phố Trần Hưng Đạo" ;
-    ext:addr_district "Hai Ba Trung" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Ba Trung" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trần Hưng Đạo" ;
-    ext:addr_subdistrict "Bạch Đằng" ;
-    ext:designation "Ministry of Health" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "108 Military Central Hospital" ;
-    ext:name_tr "108. Askeri Merkez Hastanesi" ;
-    ext:operator_type "military" ;
-    ext:wikimedia_commons "Category:108 Hospital" ;
-    ext:wikipedia "vi:Bệnh viện Trung ương Quân đội 108" ;
-    ext:osm_type "way" ;
-    ext:osm_id "218631146"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Trung ương Quân đội 108> ;
+    geo:asWKT "POINT(105.8606157 21.0163854)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:438373210
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:438373210>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đại học Y Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8301557 21.0021905)"^^geo:wktLiteral
-    ] ;
-    schema:address "1 Phố Tôn Thất Tùng, Đống Đa, Hà Nội" ;
+    ext:osm_id "438373210"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đại học Y Hà Nội"@vi ,
+                "Hospital University Y Ha Noi"@en ;
     ext:addr_housenumber "1" ;
     ext:addr_street "Phố Tôn Thất Tùng" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Tôn Thất Tùng" ;
-    ext:addr_subdistrict "Kim Liên" ;
-    ext:building "hospital" ;
-    ext:ele "20m" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "438373210"^^xsd:integer .
+    geo:asWKT "POINT(105.8301557 21.0021905)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570573930
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:570573930>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Giao thông Vận tải" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8025875 21.0261377)"^^geo:wktLiteral
-    ] ;
-    schema:address "169 Phố Huỳnh Thúc Kháng" ;
+    ext:osm_id "570573930"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Giao thông Vận tải"@vi ,
+                "Hospital Giao thong Van tai"@en ;
     ext:addr_housenumber "169" ;
     ext:addr_street "Phố Huỳnh Thúc Kháng" ;
-    ext:addr_housenumber "169" ;
-    ext:addr_street "Phố Huỳnh Thúc Kháng" ;
-    ext:email "info@giaothonghospital.vn" ;
-    ext:healthcare "hospital" ;
-    ext:phone "+84 91 123 32 09" ;
-    ext:website "https://giaothonghospital.vn/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "570573930"^^xsd:integer .
+    schema:telephone "+84 91 123 32 09" ;
+    schema:email "info@giaothonghospital.vn" ;
+    schema:url <https://giaothonghospital.vn/> ;
+    geo:asWKT "POINT(105.8025875 21.0261377)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:581439612
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:581439612>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Tâm Anh" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8768692 21.040591)"^^geo:wktLiteral
-    ] ;
-    schema:address "108 Phố Hoàng Như Tiếp, Long Biên, Hà Nội" ;
+    ext:osm_id "581439612"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Tâm Anh"@vi ,
+                "Tam Anh Hospital"@en ;
     ext:addr_housenumber "108" ;
     ext:addr_street "Phố Hoàng Như Tiếp" ;
     ext:addr_district "Long Biên" ;
     ext:addr_city "Hà Nội" ;
+    geo:asWKT "POINT(105.8768692 21.040591)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:699905197>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "699905197"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Quốc tế Thu Cúc"@vi ,
+                "Hospital Da khoa Quoc te Thu Cuc"@en ;
+    ext:addr_housenumber "286" ;
+    ext:addr_street "Phố Thụy Khuê" ;
+    geo:asWKT "POINT(105.8144621 21.0451209)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:700671946>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "700671946"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh Viện Đa Khoa Hồng Ngọc"@vi ,
+                "Benh Vien Da Khoa Hong Ngoc"@en ;
+    geo:asWKT "POINT(105.8443367 21.0424358)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:700840699>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "700840699"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế quận Hoàn Kiếm"@vi ,
+                "Trung tam Y te quan Hoan Kiem"@en ;
+    ext:addr_housenumber "26" ;
+    ext:addr_street "Phố Lương Ngọc Quyết" ;
+    geo:asWKT "POINT(105.8523965 21.0350369)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:702456216>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "702456216"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Da liễu Hà Nội"@vi ,
+                "Hospital Da lieu Ha Noi"@en ;
+    ext:addr_housenumber "79B" ;
+    ext:addr_street "Phố Nguyễn Khuyến" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_city "Ha Noi" ;
+    geo:asWKT "POINT(105.8385861 21.0281103)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:702456223>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "702456223"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Quốc tế Hồng Hà"@vi ,
+                "Hospital Da khoa Quoc te Hong Ha"@en ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Nguyễn Như Đổ" ;
+    geo:asWKT "POINT(105.8390572 21.0268166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386640>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "703386640"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phụ sản Trung ương"@vi ,
+                "National Hospital of Obstetrics and Gynecology"@en ;
+    ext:addr_housenumber "43" ;
+    ext:addr_street "Phố Tràng Thi" ;
+    ext:addr_district "Hoàn Kiếm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_district "Long Biên" ;
-    ext:addr_housenumber "108" ;
-    ext:addr_street "Phố Hoàng Như Tiếp" ;
-    ext:addr_subdistrict "Bồ Đề" ;
-    ext:emergency "no" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Tam Anh Hospital" ;
-    ext:name_tr "Tam Anh Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "581439612"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:699905197
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Quốc tế Thu Cúc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8144621 21.0451209)"^^geo:wktLiteral
-    ] ;
-    schema:address "286 Phố Thụy Khuê" ;
-    ext:addr_housenumber "286" ;
-    ext:addr_street "Phố Thụy Khuê" ;
-    ext:addr_housenumber "286" ;
-    ext:addr_street "Phố Thụy Khuê" ;
-    ext:building "yes" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "699905197"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:700671946
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh Viện Đa Khoa Hồng Ngọc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8443367 21.0424358)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "700671946"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:700840699
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Hoàn Kiếm" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8523965 21.0350369)"^^geo:wktLiteral
-    ] ;
-    schema:address "26 Phố Lương Ngọc Quyết" ;
-    ext:addr_housenumber "26" ;
-    ext:addr_street "Phố Lương Ngọc Quyết" ;
-    ext:addr_housenumber "26" ;
-    ext:addr_street "Phố Lương Ngọc Quyết" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "700840699"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:702456216
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Da liễu Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8385861 21.0281103)"^^geo:wktLiteral
-    ] ;
-    schema:address "79B Phố Nguyễn Khuyến, Đống Đa, Ha Noi" ;
-    ext:addr_housenumber "79B" ;
-    ext:addr_street "Phố Nguyễn Khuyến" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_city "Ha Noi" ;
-    ext:addr_city "Ha Noi" ;
-    ext:addr_country "VN" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "79B" ;
-    ext:addr_street "Phố Nguyễn Khuyến" ;
-    ext:addr_subdistrict "Văn Miếu" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "702456216"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:702456223
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Quốc tế Hồng Hà" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8390572 21.0268166)"^^geo:wktLiteral
-    ] ;
-    schema:address "16 Phố Nguyễn Như Đổ" ;
-    ext:addr_housenumber "16" ;
-    ext:addr_street "Phố Nguyễn Như Đổ" ;
-    ext:addr_housenumber "16" ;
-    ext:addr_street "Phố Nguyễn Như Đổ" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "702456223"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386640
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phụ sản Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8469248 21.0266842)"^^geo:wktLiteral
-    ] ;
     schema:sameAs <http://www.wikidata.org/entity/Q10743502> ;
-    schema:legalName "Bệnh viện Phụ Sản Trung ương"@vi , "National hospital of obstetrics and gynecology"@en ;
-    schema:description "hospital in Vietnam"@en , "bệnh viện ở Việt Nam"@vi ;
-    schema:url <http://benhvienphusantrunguong.org.vn/news/trang-chu> ;
-    schema:address "43 Phố Tràng Thi, Hoàn Kiếm, Hà Nội" ;
-    ext:addr_housenumber "43" ;
-    ext:addr_street "Phố Tràng Thi" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_housenumber "43" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Tràng Thi" ;
-    ext:addr_subdistrict "Hàng Bông" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "National Hospital of Obstetrics and Gynecology" ;
-    ext:name_fr "Hôpital National de Gynécologie Obstétrique" ;
-    ext:name_tr "Ulusal Obstetri ve Jinekoloji Hastanesi" ;
-    ext:wikipedia "vi:Bệnh viện Phụ sản Trung ương" ;
-    ext:osm_type "way" ;
-    ext:osm_id "703386640"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Phụ sản Trung ương> ;
+    geo:asWKT "POINT(105.8469248 21.0266842)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386650
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386650>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện K" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8461355 21.0268963)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "703386650"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện K"@vi ,
+                "Vietnam National Cancer Hospital"@en ;
+    ext:addr_housenumber "43" ;
+    ext:addr_street "Phố Quán Sứ" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
     schema:sameAs <http://www.wikidata.org/entity/Q49055374> ;
-    schema:legalName "Bệnh viện K Trung Ương"@vi ;
-    schema:description "hospital"@en , "bệnh viện thuộc Bộ Y tế Việt Nam"@vi ;
-    schema:url <http://benhvienk.vn/> ;
-    schema:address "43 Phố Quán Sứ, Hoàn Kiếm, Hà Nội" ;
-    ext:addr_housenumber "43" ;
-    ext:addr_street "Phố Quán Sứ" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_housenumber "43" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Quán Sứ" ;
-    ext:addr_subdistrict "Hàng Bông" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vietnam National Cancer Hospital" ;
-    ext:name_tr "Viyetnam Ulusal Kanser Hastanesi" ;
-    ext:wikipedia "vi:Bệnh viện K" ;
-    ext:osm_type "way" ;
-    ext:osm_id "703386650"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện K> ;
+    geo:asWKT "POINT(105.8461355 21.0268963)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386657
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386657>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Hữu nghị Việt Đức" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8470046 21.0285801)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "703386657"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Hữu nghị Việt Đức"@vi ,
+                "Vietnam - Germany Hospital"@en ;
+    ext:addr_housenumber "40" ;
+    ext:addr_street "Phố Phủ Doãn" ;
     schema:sameAs <http://www.wikidata.org/entity/Q4456887> ;
-    schema:legalName "Bệnh viện Việt Đức"@vi , "Vietnam - Germany Hospital"@en ;
-    schema:description "bệnh viện trực thuộc Bộ Y tế"@vi , "hospital in Vietnam, Vietnam"@en ;
-    schema:url <http://www.vietduchospital.edu.vn/> ;
-    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BB%87nh%20vi%E1%BB%87n%20Vi%E1%BB%87t%20%C4%90%E1%BB%A9c%2C%20Ph%E1%BB%A7%20Do%C3%A3n%2C%20H%C3%A0%20N%E1%BB%99i%20003.JPG> ;
-    schema:address "40 Phố Phủ Doãn" ;
-    ext:addr_housenumber "40" ;
-    ext:addr_street "Phố Phủ Doãn" ;
-    ext:addr_country "VN" ;
-    ext:addr_housenumber "40" ;
-    ext:addr_street "Phố Phủ Doãn" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vietnam - Germany Hospital" ;
-    ext:name_id "Rumah Sakit Vietnam - Jerman" ;
-    ext:name_tr "Viyetnam - Almanya Hastanesi" ;
-    ext:name_zh "越德医院" ;
-    ext:old_name_vi "Nhà thương Phủ Doãn" ;
-    ext:wikipedia "vi:Bệnh viện Việt Đức" ;
-    ext:osm_type "way" ;
-    ext:osm_id "703386657"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Việt Đức> ;
+    geo:asWKT "POINT(105.8470046 21.0285801)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386658
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:703386658>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8464388 21.0277635)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "703386658"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội"@vi ,
+                "National Hospital of Odonto-Stomatology"@en ;
+    ext:addr_housenumber "40B" ;
+    ext:addr_street "Phố Tràng Thi" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_city "Hà Nội" ;
     schema:sameAs <http://www.wikidata.org/entity/Q10743507> ;
-    schema:legalName "Bệnh viện Răng Hàm Mặt Trung ương Hà Nội"@vi ;
-    schema:description "hospital in Vietnam"@en , "Bệnh viện thuộc BYT"@vi ;
-    schema:url <http://www.ranghammat.org.vn/> ;
-    schema:address "40B Phố Tràng Thi, Hoàn Kiếm, Hà Nội" ;
-    ext:addr_housenumber "40B" ;
-    ext:addr_street "Phố Tràng Thi" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_country "VN" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_housenumber "40B" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Tràng Thi" ;
-    ext:addr_subdistrict "Hàng Bông" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "National Hospital of Odonto-Stomatology" ;
-    ext:name_tr "Ulusal Odonto-Stomatoloji Hastanesi" ;
-    ext:wikipedia "vi:Bệnh viện Răng Hàm Mặt Trung ương Hà Nội" ;
-    ext:osm_type "way" ;
-    ext:osm_id "703386658"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Răng Hàm Mặt Trung ương Hà Nội> ;
+    geo:asWKT "POINT(105.8464388 21.0277635)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:704147393
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:704147393>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Hà Nội (Trụ sở chính)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8503409 21.024085)"^^geo:wktLiteral
-    ] ;
-    schema:address "37 Phố Hai Bà Trưng" ;
+    ext:osm_id "704147393"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Mắt Hà Nội (Trụ sở chính)"@vi ,
+                "Hospital Mat Ha Noi (Tru so chinh)"@en ;
     ext:addr_housenumber "37" ;
     ext:addr_street "Phố Hai Bà Trưng" ;
-    ext:addr_housenumber "37" ;
-    ext:addr_street "Phố Hai Bà Trưng" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "704147393"^^xsd:integer .
+    geo:asWKT "POINT(105.8503409 21.024085)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:838076289
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:838076289>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Hữu Nghị" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8617595 21.0154534)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "838076289"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Hữu Nghị"@vi ,
+                "Friendship Hospital"@en ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Đường Trần Khánh Dư" ;
+    ext:addr_district "Hai Ba Trung" ;
+    ext:addr_city "Hà Nội" ;
     schema:sameAs <http://www.wikidata.org/entity/Q49055113> ;
-    schema:legalName "Bệnh viện Hữu Nghị"@vi , "Viet Xo Friendship Hospital"@en ;
-    schema:description "bệnh viện tại Hà Nội"@vi , "hospital"@en ;
-    schema:url <http://huunghihospital.vn/index.php?lang=vi> ;
-    schema:address "1 Đường Trần Khánh Dư, Hai Ba Trung, Hà Nội" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_street "Đường Trần Khánh Dư" ;
-    ext:addr_district "Hai Ba Trung" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Ba Trung" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Trần Khánh Dư" ;
-    ext:addr_subdistrict "Bạch Đằng" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Friendship Hospital" ;
-    ext:name_tr "Dostluk Hastanesi" ;
-    ext:wikipedia "vi:Bệnh viện Hữu Nghị" ;
-    ext:osm_type "way" ;
-    ext:osm_id "838076289"^^xsd:integer .
+    rdfs:seeAlso <https://vi.wikipedia.org/wiki/Bệnh viện Hữu Nghị> ;
+    geo:asWKT "POINT(105.8617595 21.0154534)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:842605269
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:842605269>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8495995 21.0176301)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "842605269"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Mắt Trung ương"@vi ,
+                "Vietnam National Eye Hospital"@en ;
     schema:operator "Bộ Y tế" ;
-    schema:address "85 Phố Bà Triệu, Hai Bà Trưng, Hà Nội" ;
     ext:addr_housenumber "85" ;
     ext:addr_street "Phố Bà Triệu" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "85" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Bà Triệu" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:contact_email "bvmtw@vnio.vn" ;
-    ext:contact_fax "+84 24 3945 4956" ;
-    ext:contact_phone "+84 24 3826 3966" ;
-    ext:contact_website "https://vnio.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "ophthalmology" ;
-    ext:name_en "Vietnam National Eye Hospital" ;
-    ext:name_tr "Viyetnam Ulusal Göz Hastanesi" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "842605269"^^xsd:integer .
+    schema:telephone "+84 24 3826 3966" ;
+    schema:email "bvmtw@vnio.vn" ;
+    schema:url <https://vnio.vn/> ;
+    geo:asWKT "POINT(105.8495995 21.0176301)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:857438584
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:857438584>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đông Đô" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8379891 21.0093319)"^^geo:wktLiteral
-    ] ;
-    schema:address "5 Phố Xã Đàn, Đống Đa, Hà Nội" ;
+    ext:osm_id "857438584"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đông Đô"@vi ,
+                "Hospital Dong Do"@en ;
     ext:addr_housenumber "5" ;
     ext:addr_street "Phố Xã Đàn" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "5" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Xã Đàn" ;
-    ext:addr_subdistrict "Phương Liên – Trung Tự" ;
-    ext:building "hospital" ;
-    ext:building_levels "10" ;
-    ext:contact_facebook "https://www.facebook.com/benhviendongdoHN/" ;
-    ext:email "dongdohospital@gmail.com" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:phone "+84 1900 1965" ;
-    ext:website "http://benhviendongdo.com.vn/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "857438584"^^xsd:integer .
+    schema:telephone "+84 1900 1965" ;
+    schema:email "dongdohospital@gmail.com" ;
+    schema:url <http://benhviendongdo.com.vn/> ;
+    geo:asWKT "POINT(105.8379891 21.0093319)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863234980
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863234980>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Mắt Quốc tế DND" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8496681 21.0129915)"^^geo:wktLiteral
-    ] ;
-    schema:address "126-128 Phố Bùi Thị Xuân, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "863234980"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Mắt Quốc tế DND"@vi ,
+                "DND International Eye Hospital"@en ;
     ext:addr_housenumber "126-128" ;
     ext:addr_street "Phố Bùi Thị Xuân" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "126-128" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Bùi Thị Xuân" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:building "hospital" ;
-    ext:contact_mobile "+84 969 128 128" ;
-    ext:contact_website "https://matquocte.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "ophthalmology" ;
-    ext:name_en "DND International Eye Hospital" ;
-    ext:name_tr "DND Uluslararası Göz Hastanesi" ;
-    ext:opening_hours "Mo-Sa 08:00-17:00, Su 08:00-12:00" ;
-    ext:osm_type "way" ;
-    ext:osm_id "863234980"^^xsd:integer .
+    schema:openingHours "Mo-Sa 08:00-17:00, Su 08:00-12:00" ;
+    schema:url <https://matquocte.vn/> ;
+    geo:asWKT "POINT(105.8496681 21.0129915)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796136
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796136>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Thanh Nhàn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8590785 21.0038701)"^^geo:wktLiteral
-    ] ;
-    schema:address "42 Phố Thanh Nhàn, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "863796136"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Thanh Nhàn"@vi ,
+                "Thanh Nhan Hospital"@en ;
     ext:addr_housenumber "42" ;
     ext:addr_street "Phố Thanh Nhàn" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "42" ;
-    ext:addr_street "Phố Thanh Nhàn" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Thanh Nhan Hospital" ;
-    ext:name_tr "Thanh Nhan Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "863796136"^^xsd:integer .
+    geo:asWKT "POINT(105.8590785 21.0038701)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796137
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796137>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Ung bướu Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8593391 21.0040116)"^^geo:wktLiteral
-    ] ;
-    schema:address "42A Phố Thanh Nhàn, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "863796137"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Ung bướu Hà Nội"@vi ,
+                "Hanoi Oncology Hospital"@en ;
     ext:addr_housenumber "42A" ;
     ext:addr_street "Phố Thanh Nhàn" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "42A" ;
-    ext:addr_street "Phố Thanh Nhàn" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "oncology" ;
-    ext:name_en "Hanoi Oncology Hospital" ;
-    ext:name_tr "Hanoi Onkoloji Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "863796137"^^xsd:integer .
+    geo:asWKT "POINT(105.8593391 21.0040116)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796138
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863796138>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phổi Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8583866 21.0033713)"^^geo:wktLiteral
-    ] ;
-    schema:address "44 Phố Thanh Nhàn, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "863796138"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phổi Hà Nội"@vi ,
+                "Hospital Phoi Ha Noi"@en ;
     ext:addr_housenumber "44" ;
     ext:addr_street "Phố Thanh Nhàn" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "44" ;
-    ext:addr_street "Phố Thanh Nhàn" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "863796138"^^xsd:integer .
+    geo:asWKT "POINT(105.8583866 21.0033713)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863797895
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:863797895>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Đức Giang" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8982071 21.0613371)"^^geo:wktLiteral
-    ] ;
-    schema:address "57 Phố Trường Lâm, Long Biên, Hà Nội" ;
+    ext:osm_id "863797895"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Đức Giang"@vi ,
+                "Hospital Da khoa Duc Giang"@en ;
     ext:addr_housenumber "57" ;
     ext:addr_street "Phố Trường Lâm" ;
     ext:addr_district "Long Biên" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Long Biên" ;
-    ext:addr_housenumber "57" ;
-    ext:addr_street "Phố Trường Lâm" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:osm_type "way" ;
-    ext:osm_id "863797895"^^xsd:integer .
+    geo:asWKT "POINT(105.8982071 21.0613371)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:871151846
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:871151846>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tim Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8439728 21.0240047)"^^geo:wktLiteral
-    ] ;
-    schema:address "92 Phố Trần Hưng Đạo, Hoàn Kiếm, Hà Nội" ;
+    ext:osm_id "871151846"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Tim Hà Nội"@vi ,
+                "Hanoi Heart Hospital"@en ;
     ext:addr_housenumber "92" ;
     ext:addr_street "Phố Trần Hưng Đạo" ;
     ext:addr_district "Hoàn Kiếm" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hoàn Kiếm" ;
-    ext:addr_housenumber "92" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trần Hưng Đạo" ;
-    ext:addr_subdistrict "Cửa Nam" ;
-    ext:building "hospital" ;
-    ext:building_levels "4" ;
-    ext:contact_website "http://benhvientimhanoi.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hanoi Heart Hospital" ;
-    ext:name_tr "Hanoi Kalp Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "871151846"^^xsd:integer .
+    schema:url <http://benhvientimhanoi.vn/> ;
+    geo:asWKT "POINT(105.8439728 21.0240047)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:900842178
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:900842178>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Thẩm mỹ Kangnam Hàn Quốc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.830624 21.000572)"^^geo:wktLiteral
-    ] ;
-    schema:address "190 Đường Trường Chinh, Đống Đa, Hà Nội" ;
+    ext:osm_id "900842178"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Thẩm mỹ Kangnam Hàn Quốc"@vi ,
+                "Hospital Tham my Kangnam Han Quoc"@en ;
     ext:addr_housenumber "190" ;
     ext:addr_street "Đường Trường Chinh" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "190" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Trường Chinh" ;
-    ext:addr_subdistrict "Khương Thượng" ;
-    ext:building "hospital" ;
-    ext:building_levels "9" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "900842178"^^xsd:integer .
+    geo:asWKT "POINT(105.830624 21.000572)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:906732062
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:906732062>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Thận Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8064109 21.0189013)"^^geo:wktLiteral
-    ] ;
-    schema:address "70 Đường Nguyễn Chí Thanh, Đống Đa, Hà Nội" ;
+    ext:osm_id "906732062"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Thận Hà Nội"@vi ,
+                "Hanoi Nephrology Hospital"@en ;
     ext:addr_housenumber "70" ;
     ext:addr_street "Đường Nguyễn Chí Thanh" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "70" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Nguyễn Chí Thanh" ;
-    ext:addr_subdistrict "Láng Thượng" ;
-    ext:building "hospital" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hanoi Nephrology Hospital" ;
-    ext:name_tr "Hanoi Nefroloji Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "906732062"^^xsd:integer .
+    geo:asWKT "POINT(105.8064109 21.0189013)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914894808
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914894808>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hoè Nhai" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8460314 21.040858)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "914894808"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "914894808"^^xsd:integer .
+    schema:name "Bệnh viện Đa khoa Hoè Nhai"@vi ,
+                "Hospital Da khoa Hoe Nhai"@en ;
+    geo:asWKT "POINT(105.8460314 21.040858)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415491
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415491>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tim Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8072261 21.0683662)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Võ Chí Công, Tây Hồ, Hà Nội" ;
+    ext:osm_id "942415491"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Tim Hà Nội"@vi ,
+                "Hanoi Heart Hospital"@en ;
     ext:addr_street "Đường Võ Chí Công" ;
     ext:addr_district "Tây Hồ" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Tây Hồ" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Võ Chí Công" ;
-    ext:addr_subdistrict "Xuân La" ;
-    ext:contact_website "http://benhvientimhanoi.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "cardiology" ;
-    ext:name_en "Hanoi Heart Hospital" ;
-    ext:name_tr "Hanoi Kalp Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "942415491"^^xsd:integer .
+    schema:url <http://benhvientimhanoi.vn/> ;
+    geo:asWKT "POINT(105.8072261 21.0683662)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1051883527
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1051883527>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Hồng Phát" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.841644 21.0183636)"^^geo:wktLiteral
-    ] ;
-    schema:address "219 Đường Lê Duẩn, Hai Bà Trưng, Hà Nội" ;
+    ext:osm_id "1051883527"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Đa khoa Hồng Phát"@vi ,
+                "Hospital Da khoa Hong Phat"@en ;
     ext:addr_housenumber "219" ;
     ext:addr_street "Đường Lê Duẩn" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "219" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Đường Lê Duẩn" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:opening_hours "24/7" ;
-    ext:phone "+84 962 279 115" ;
-    ext:website "https://benhvienhongphat.vn/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1051883527"^^xsd:integer .
+    schema:telephone "+84 962 279 115" ;
+    schema:openingHours "24/7" ;
+    schema:url <https://benhvienhongphat.vn/> ;
+    geo:asWKT "POINT(105.841644 21.0183636)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1051883528
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1051883528>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh Viện Đức Phúc" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8408994 21.014218)"^^geo:wktLiteral
-    ] ;
-    schema:address "48 Phố Ô Đồng Lầm, Đống Đa, Hà Nội" ;
+    ext:osm_id "1051883528"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh Viện Đức Phúc"@vi ,
+                "Benh Vien Duc Phuc"@en ;
     ext:addr_housenumber "48" ;
     ext:addr_street "Phố Ô Đồng Lầm" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "48" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Ô Đồng Lầm" ;
-    ext:addr_subdistrict "Phương Liên" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "maternity" ;
-    ext:opening_hours "24/7" ;
-    ext:phone "+84 971 295 050" ;
-    ext:website "https://benhvienducphuc.com/" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1051883528"^^xsd:integer .
+    schema:telephone "+84 971 295 050" ;
+    schema:openingHours "24/7" ;
+    schema:url <https://benhvienducphuc.com/> ;
+    geo:asWKT "POINT(105.8408994 21.014218)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1063191491
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1063191491>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bưu Điện" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8521234 21.0112634)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1063191491"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1063191491"^^xsd:integer .
+    schema:name "Bệnh viện Bưu Điện"@vi ,
+                "Hospital Buu Dien"@en ;
+    geo:asWKT "POINT(105.8521234 21.0112634)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1158639496
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1158639496>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Việt Pháp" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8404443 21.0036321)"^^geo:wktLiteral
-    ] ;
-    schema:address "1 Phố Phương Mai, Đống Đa, Hà Nội" ;
+    ext:osm_id "1158639496"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Việt Pháp"@vi ,
+                "Hanoi French Hospital"@en ;
     ext:addr_housenumber "1" ;
     ext:addr_street "Phố Phương Mai" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "1" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Phương Mai" ;
-    ext:addr_subdistrict "Phương Mai" ;
-    ext:contact_phone "+84 24 3577 1100" ;
-    ext:contact_website "https://www.hfh.com.vn" ;
-    ext:emergency "yes" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Hanoi French Hospital" ;
-    ext:name_tr "Hanoi Fransız Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1158639496"^^xsd:integer .
+    schema:telephone "+84 24 3577 1100" ;
+    schema:url <https://www.hfh.com.vn> ;
+    geo:asWKT "POINT(105.8404443 21.0036321)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1165535247
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1165535247>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế quận Tây Hồ" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8103421 21.0480654)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1165535247"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế quận Tây Hồ"@vi ,
+                "Trung tam Y te quan Tay Ho"@en ;
     schema:operator "Bộ Y tế Hà Nội" ;
-    ext:healthcare "hospital" ;
-    ext:operator_type "government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1165535247"^^xsd:integer .
+    geo:asWKT "POINT(105.8103421 21.0480654)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868591
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868591>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Lão khoa Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8395966 21.0036323)"^^geo:wktLiteral
-    ] ;
-    schema:address "1A Phố Phương Mai, Đống Đa, Hà Nội" ;
+    ext:osm_id "1192868591"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Lão khoa Trung ương"@vi ,
+                "Hospital Lao khoa Trung uong"@en ;
     ext:addr_housenumber "1A" ;
     ext:addr_street "Phố Phương Mai" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "1A" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Phương Mai" ;
-    ext:addr_subdistrict "Phương Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1192868591"^^xsd:integer .
+    geo:asWKT "POINT(105.8395966 21.0036323)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868592
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1192868592>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Da liễu Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8387631 21.003801)"^^geo:wktLiteral
-    ] ;
-    schema:address "15A Phố Phương Mai, Đống Đa, Hà Nội" ;
+    ext:osm_id "1192868592"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Da liễu Trung ương"@vi ,
+                "Hospital Da lieu Trung uong"@en ;
     ext:addr_housenumber "15A" ;
     ext:addr_street "Phố Phương Mai" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "15A" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Phương Mai" ;
-    ext:addr_subdistrict "Phương Mai" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1192868592"^^xsd:integer .
+    geo:asWKT "POINT(105.8387631 21.003801)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1215063381
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1215063381>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Viện Y học dự phòng Quân đội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8217867 21.0121436)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1215063381"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Viện Y học dự phòng Quân đội"@vi ,
+                "Vien Y hoc du phong Quan doi"@en ;
     schema:operator "Cục Quân y" ;
-    schema:address "21 Phố Trung Liệt, Đống Đa, Hà Nội" ;
     ext:addr_housenumber "21" ;
     ext:addr_street "Phố Trung Liệt" ;
     ext:addr_district "Đống Đa" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đống Đa" ;
-    ext:addr_housenumber "21" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Trung Liệt" ;
-    ext:addr_subdistrict "Trung Liệt" ;
-    ext:healthcare "hospital" ;
-    ext:landuse "military" ;
-    ext:operator_type "military" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1215063381"^^xsd:integer .
+    geo:asWKT "POINT(105.8217867 21.0121436)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1245995569
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1245995569>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Nhà hộ sinh Đống Đa" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8332492 21.0169494)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1245995569"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1245995569"^^xsd:integer .
+    schema:name "Nhà hộ sinh Đống Đa"@vi ,
+                "Nha ho sinh Dong Da"@en ;
+    geo:asWKT "POINT(105.8332492 21.0169494)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1395273007
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1395273007>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Phụ sản Hà Nội (cơ sở 2)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8602894 21.0110832)"^^geo:wktLiteral
-    ] ;
-    schema:address "38 Phố Cảm Hội" ;
+    ext:osm_id "1395273007"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Phụ sản Hà Nội (cơ sở 2)"@vi ,
+                "Hospital Phu san Ha Noi (co so 2)"@en ;
     ext:addr_housenumber "38" ;
     ext:addr_street "Phố Cảm Hội" ;
-    ext:addr_housenumber "38" ;
-    ext:addr_street "Phố Cảm Hội" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1395273007"^^xsd:integer .
+    geo:asWKT "POINT(105.8602894 21.0110832)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1421773641
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1421773641>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Tràng An" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8353259 21.0256896)"^^geo:wktLiteral
-    ] ;
-    schema:address "Ngõ Thông Phong" ;
-    ext:addr_street "Ngõ Thông Phong" ;
-    ext:addr_street "Ngõ Thông Phong" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1421773641"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1421773641"^^xsd:integer .
+    schema:name "Bệnh viện Đa khoa Tràng An"@vi ,
+                "Hospital Da khoa Trang An"@en ;
+    ext:addr_street "Ngõ Thông Phong" ;
+    geo:asWKT "POINT(105.8353259 21.0256896)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9790506
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:9790506>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Việt Nam - Cuba" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8502197 21.0246213)"^^geo:wktLiteral
-    ] ;
-    schema:address "37 Phố Hai Bà Trưng" ;
-    ext:addr_housenumber "37" ;
-    ext:addr_street "Phố Hai Bà Trưng" ;
-    ext:addr_country "VN" ;
-    ext:addr_housenumber "37" ;
-    ext:addr_street "Phố Hai Bà Trưng" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "Vietnam Cuba Hospital" ;
-    ext:name_id "Rumah Sakit Vietnam - Kuba" ;
-    ext:name_zh "越南古巴医院" ;
+    ext:osm_id "9790506"^^xsd:integer ;
     ext:osm_type "relation" ;
-    ext:osm_id "9790506"^^xsd:integer .
+    schema:name "Bệnh viện Việt Nam - Cuba"@vi ,
+                "Vietnam Cuba Hospital"@en ;
+    ext:addr_housenumber "37" ;
+    ext:addr_street "Phố Hai Bà Trưng" ;
+    geo:asWKT "POINT(105.8502197 21.0246213)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:17177480
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:17177480>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Y học cổ truyền Trung ương" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8482711 21.0161461)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "17177480"^^xsd:integer ;
+    ext:osm_type "relation" ;
+    schema:name "Bệnh viện Y học cổ truyền Trung ương"@vi ,
+                "National Hospital of Traditional Medicine"@en ;
     schema:operator "Bộ Y tế" ;
-    schema:address "29 Phố Nguyễn Bỉnh Khiêm, Hai Bà Trưng, Hà Nội" ;
     ext:addr_housenumber "29" ;
     ext:addr_street "Phố Nguyễn Bỉnh Khiêm" ;
     ext:addr_district "Hai Bà Trưng" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Hai Bà Trưng" ;
-    ext:addr_housenumber "29" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_street "Phố Nguyễn Bỉnh Khiêm" ;
-    ext:addr_subdistrict "Nguyễn Du" ;
-    ext:emergency "yes" ;
-    ext:fax "+84 24 38229353" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "National Hospital of Traditional Medicine" ;
-    ext:operator_type "public/government" ;
-    ext:phone "+84 24 38263616" ;
-    ext:website "https://nhtm.gov.vn/" ;
-    ext:wheelchair "yes" ;
-    ext:osm_type "relation" ;
-    ext:osm_id "17177480"^^xsd:integer .
+    schema:telephone "+84 24 38263616" ;
+    schema:url <https://nhtm.gov.vn/> ;
+    geo:asWKT "POINT(105.8482711 21.0161461)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:384534300
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:384534300>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Gia Lâm" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9439877 21.0093543)"^^geo:wktLiteral
-    ] ;
-    schema:operator "Sở Y tế Hà Nội" ;
-    schema:address "Gia Lâm" ;
-    ext:addr_district "Gia Lâm" ;
-    ext:addr_district "Gia Lâm" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_subdistrict "Trâu Quỳ" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Gia Lam General Hospital" ;
-    ext:name_tr "Gia Lam Hastanesi" ;
+    ext:osm_id "384534300"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "384534300"^^xsd:integer .
-
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415496
-    a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Tâm thần Hà Nội" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9095715 21.034976)"^^geo:wktLiteral
-    ] ;
+    schema:name "Bệnh viện Đa khoa Gia Lâm"@vi ,
+                "Gia Lam General Hospital"@en ;
     schema:operator "Sở Y tế Hà Nội" ;
-    schema:address "Ngõ 467 Nguyễn Văn Linh, Long Biên, Hà Nội" ;
+    ext:addr_district "Gia Lâm" ;
+    geo:asWKT "POINT(105.9439877 21.0093543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:942415496>
+    a fiware:PointOfInterest, schema:Hospital ;
+    ext:osm_id "942415496"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Tâm thần Hà Nội"@vi ,
+                "Hanoi Psychiatric Hospital"@en ;
+    schema:operator "Sở Y tế Hà Nội" ;
     ext:addr_street "Ngõ 467 Nguyễn Văn Linh" ;
     ext:addr_district "Long Biên" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Long Biên" ;
-    ext:addr_street "Ngõ 467 Nguyễn Văn Linh" ;
-    ext:addr_subdistrict "Sài Đồng" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "psychiatry" ;
-    ext:name_en "Hanoi Psychiatric Hospital" ;
-    ext:name_tr "Hanoi Psikiyatri Hastanesi" ;
-    ext:operator_type "public/government" ;
-    ext:osm_type "way" ;
-    ext:osm_id "942415496"^^xsd:integer .
+    geo:asWKT "POINT(105.9095715 21.034976)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1329802284
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1329802284>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Phù Chẩn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9694159 21.094283)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Trần Cố, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "1329802284"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Phù Chẩn"@vi ,
+                "Tram Y te phuong Phu Chan"@en ;
     ext:addr_street "Đường Trần Cố" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Trần Cố" ;
-    ext:addr_subdistrict "Phường Phù Chẩn" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1329802284"^^xsd:integer .
+    geo:asWKT "POINT(105.9694159 21.094283)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1370266208
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1370266208>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "area 09" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9435612 21.0023669)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1370266208"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1370266208"^^xsd:integer .
+    schema:name "area 09"@vi ,
+                "area 09"@en ;
+    geo:asWKT "POINT(105.9435612 21.0023669)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:267919727
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:267919727>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế Xã Tiền Phong" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7603327 21.1539788)"^^geo:wktLiteral
-    ] ;
-    ext:building "yes" ;
+    ext:osm_id "267919727"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "267919727"^^xsd:integer .
+    schema:name "Trạm y tế Xã Tiền Phong"@vi ,
+                "Tram y te Xa Tien Phong"@en ;
+    geo:asWKT "POINT(105.7603327 21.1539788)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:951487924
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:951487924>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bệnh nhiệt đới Trung ương (cơ sở 2)" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.7743775 21.1314341)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đông Anh" ;
+    ext:osm_id "951487924"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bệnh nhiệt đới Trung ương (cơ sở 2)"@vi ,
+                "National Hospital for Tropical Diseases"@en ;
     ext:addr_district "Đông Anh" ;
-    ext:addr_district "Đông Anh" ;
-    ext:addr_province "Hà Nội" ;
-    ext:addr_subdistrict "Kim Chung" ;
-    ext:contact_website "https://benhnhietdoi.vn/" ;
-    ext:healthcare "hospital" ;
-    ext:name_en "National Hospital for Tropical Diseases" ;
-    ext:name_tr "Ulusal Tropikal Hastalıklar Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "951487924"^^xsd:integer .
+    schema:url <https://benhnhietdoi.vn/> ;
+    geo:asWKT "POINT(105.7743775 21.1314341)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914889884
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:914889884>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Bắc Thăng Long" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8576581 21.1633283)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đông Anh, Hà Nội" ;
+    ext:osm_id "914889884"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Bệnh viện Bắc Thăng Long"@vi ,
+                "Bac Thang Long Hospital"@en ;
     ext:addr_district "Đông Anh" ;
     ext:addr_city "Hà Nội" ;
-    ext:addr_city "Hà Nội" ;
-    ext:addr_district "Đông Anh" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Bac Thang Long Hospital" ;
-    ext:name_tr "Bac Thang Long Hastanesi" ;
-    ext:osm_type "way" ;
-    ext:osm_id "914889884"^^xsd:integer .
+    geo:asWKT "POINT(105.8576581 21.1633283)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:915814813
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:915814813>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Bệnh viện Đa khoa Đông Anh" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.8532536 21.1392083)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Dong Anh General Hospital" ;
-    ext:name_tr "Dong Anh Hastanesi" ;
+    ext:osm_id "915814813"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "915814813"^^xsd:integer .
+    schema:name "Bệnh viện Đa khoa Đông Anh"@vi ,
+                "Dong Anh General Hospital"@en ;
+    geo:asWKT "POINT(105.8532536 21.1392083)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1926545806
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1926545806>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm y tế Văn Môn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9301084 21.1676281)"^^geo:wktLiteral
-    ] ;
+    ext:osm_id "1926545806"^^xsd:integer ;
     ext:osm_type "node" ;
-    ext:osm_id "1926545806"^^xsd:integer .
+    schema:name "Trạm y tế Văn Môn"@vi ,
+                "Tram y te Van Mon"@en ;
+    geo:asWKT "POINT(105.9301084 21.1676281)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:576742571
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:576742571>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế phường Đình Bảng" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.953696 21.1123583)"^^geo:wktLiteral
-    ] ;
-    schema:address "Phố Vạn Hạnh, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "576742571"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế phường Đình Bảng"@vi ,
+                "Trung tam Y te phuong Dinh Bang"@en ;
     ext:addr_street "Phố Vạn Hạnh" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Phố Vạn Hạnh" ;
-    ext:addr_subdistrict "Phường Đình Bảng" ;
-    ext:building_levels "2" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "576742571"^^xsd:integer .
+    geo:asWKT "POINT(105.953696 21.1123583)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:577155075
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:577155075>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế thành phố Từ Sơn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9722042 21.1239128)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Minh Khai, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "577155075"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế thành phố Từ Sơn"@vi ,
+                "Tu Son City Medical Centre"@en ;
     ext:addr_street "Đường Minh Khai" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Minh Khai" ;
-    ext:addr_subdistrict "Phường Đồng Nguyên" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:name_en "Tu Son City Medical Centre" ;
-    ext:osm_type "way" ;
-    ext:osm_id "577155075"^^xsd:integer .
+    geo:asWKT "POINT(105.9722042 21.1239128)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:647253537
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:647253537>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Phù Khê" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9352137 21.1414976)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Nguyễn Văn Cừ, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "647253537"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Phù Khê"@vi ,
+                "Tram Y te phuong Phu Khe"@en ;
     ext:addr_street "Đường Nguyễn Văn Cừ" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Nguyễn Văn Cừ" ;
-    ext:addr_subdistrict "Phường Phù Khê" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "647253537"^^xsd:integer .
+    geo:asWKT "POINT(105.9352137 21.1414976)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:993373128
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:993373128>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trung tâm Y tế huyện Yên Phong" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9543014 21.1992903)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Huỳnh Thúc Kháng, Huyện Yên Phong, Bắc Ninh" ;
+    ext:osm_id "993373128"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trung tâm Y tế huyện Yên Phong"@vi ,
+                "Trung tam Y te huyen Yen Phong"@en ;
     ext:addr_street "Đường Huỳnh Thúc Kháng" ;
     ext:addr_district "Huyện Yên Phong" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Huyện Yên Phong" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Huỳnh Thúc Kháng" ;
-    ext:addr_subdistrict "Thị trấn Chờ" ;
-    ext:healthcare "hospital" ;
-    ext:healthcare_speciality "general" ;
-    ext:osm_type "way" ;
-    ext:osm_id "993373128"^^xsd:integer .
+    geo:asWKT "POINT(105.9543014 21.1992903)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1337346596
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1337346596>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Trang Hạ" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.952939 21.1200809)"^^geo:wktLiteral
-    ] ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1337346596"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1337346596"^^xsd:integer .
+    schema:name "Trạm Y tế phường Trang Hạ"@vi ,
+                "Tram Y te phuong Trang Ha"@en ;
+    geo:asWKT "POINT(105.952939 21.1200809)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1337759918
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1337759918>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Châu Khê" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9287852 21.1140789)"^^geo:wktLiteral
-    ] ;
-    schema:address "129 Đường Lý Thường Kiệt, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "1337759918"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Châu Khê"@vi ,
+                "Tram Y te phuong Chau Khe"@en ;
     ext:addr_housenumber "129" ;
     ext:addr_street "Đường Lý Thường Kiệt" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_housenumber "129" ;
-    ext:addr_province "Bắc Ninh" ;
-    ext:addr_street "Đường Lý Thường Kiệt" ;
-    ext:addr_subdistrict "Phường Châu Khê" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1337759918"^^xsd:integer .
+    geo:asWKT "POINT(105.9287852 21.1140789)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1418941444
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1418941444>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Tam Sơn" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9707744 21.1468655)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Nghìn Việc Tốt, Thành phố Từ Sơn, Bắc Ninh" ;
+    ext:osm_id "1418941444"^^xsd:integer ;
+    ext:osm_type "way" ;
+    schema:name "Trạm Y tế phường Tam Sơn"@vi ,
+                "Tram Y te phuong Tam Son"@en ;
     ext:addr_street "Đường Nghìn Việc Tốt" ;
     ext:addr_district "Thành phố Từ Sơn" ;
     ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Nghìn Việc Tốt" ;
-    ext:addr_subdistrict "Phường Tam Sơn" ;
-    ext:healthcare "hospital" ;
-    ext:osm_type "way" ;
-    ext:osm_id "1418941444"^^xsd:integer .
+    geo:asWKT "POINT(105.9707744 21.1468655)"^^geo:wktLiteral .
 
-urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1423823582
+<urn:ngsi-ld:PointOfInterest:Hanoi:hospital:1423823582>
     a fiware:PointOfInterest, schema:Hospital ;
-    schema:name "Trạm Y tế phường Đồng Nguyên" ;
-    geo:hasGeometry [
-        a geo:Point ;
-        geo:asWKT "POINT(105.9728589 21.1274214)"^^geo:wktLiteral
-    ] ;
-    schema:address "Đường Nguyễn Quán Quang, Thành phố Từ Sơn, Bắc Ninh" ;
-    ext:addr_street "Đường Nguyễn Quán Quang" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_city "Bắc Ninh" ;
-    ext:addr_district "Thành phố Từ Sơn" ;
-    ext:addr_province "Bac Ninh" ;
-    ext:addr_street "Đường Nguyễn Quán Quang" ;
-    ext:addr_subdistrict "Phường Đồng Nguyên" ;
-    ext:healthcare "hospital" ;
+    ext:osm_id "1423823582"^^xsd:integer ;
     ext:osm_type "way" ;
-    ext:osm_id "1423823582"^^xsd:integer .
+    schema:name "Trạm Y tế phường Đồng Nguyên"@vi ,
+                "Tram Y te phuong Dong Nguyen"@en ;
+    ext:addr_street "Đường Nguyễn Quán Quang" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_city "Bắc Ninh" ;
+    geo:asWKT "POINT(105.9728589 21.1274214)"^^geo:wktLiteral .
 

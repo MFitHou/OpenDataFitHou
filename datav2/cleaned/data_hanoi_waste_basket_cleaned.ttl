@@ -1,0 +1,326 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11308870555> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11308870555 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Le Thai to"@en,
+        "Thùng rác tại Phố Lê Thái Tổ"@vi ;
+    geo:asWKT "POINT(105.851378 21.0282315)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11578133307> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11578133307 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Hoang Quoc Viet"@en,
+        "Thùng rác tại Đường Hoàng Quốc Việt"@vi ;
+    geo:asWKT "POINT(105.7820138 21.0459259)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11597711898> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11597711898 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Pham Van Dong"@en,
+        "Thùng rác tại Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7819911 21.0397047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11597711899> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11597711899 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Pham Van Dong"@en,
+        "Thùng rác tại Đường Phạm Văn Đồng"@vi ;
+    geo:asWKT "POINT(105.7822791 21.0396955)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11609372862> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11609372862 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Xuan Thuy"@en,
+        "Thùng rác tại Đường Xuân Thủy"@vi ;
+    geo:asWKT "POINT(105.7834077 21.0367785)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11819176214> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11819176214 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Cao Lo"@en,
+        "Thùng rác tại Đường Cao Lỗ"@vi ;
+    geo:asWKT "POINT(105.8468734 21.1408637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11871144869> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11871144869 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Ly Thuong Kiet"@en,
+        "Thùng rác tại Phố Lý Thường Kiệt"@vi ;
+    geo:asWKT "POINT(105.8535533 21.0224693)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886588769> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886588769 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Thanh Nien"@en,
+        "Thùng rác tại Đường Thanh Niên"@vi ;
+    geo:asWKT "POINT(105.8397965 21.0503624)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886590069> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886590069 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Thanh Nien"@en,
+        "Thùng rác tại Đường Thanh Niên"@vi ;
+    geo:asWKT "POINT(105.8394385 21.0500771)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886807569> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886807569 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Truc Bach"@en,
+        "Thùng rác tại Phố Trúc Bạch"@vi ;
+    geo:asWKT "POINT(105.8402926 21.0484978)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886818269> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886818269 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Truc Bach"@en,
+        "Thùng rác tại Phố Trúc Bạch"@vi ;
+    geo:asWKT "POINT(105.8413329 21.0479455)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886844169> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886844169 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Tran Vu"@en,
+        "Thùng rác tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8400622 21.0456195)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886845669> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886845669 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Tran Vu"@en,
+        "Thùng rác tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8402598 21.0451924)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886845671> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886845671 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Tran Vu"@en,
+        "Thùng rác tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.8410348 21.0446322)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:11886849569> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 11886849569 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Tran Vu"@en,
+        "Thùng rác tại Phố Trấn Vũ"@vi ;
+    geo:asWKT "POINT(105.840794 21.0447056)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321985> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321985 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9496493 20.9916206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321987> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321987 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9493891 20.9915993)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321988> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321988 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9495256 20.9914794)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321989> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321989 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9496832 20.9913989)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321990> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321990 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9494253 20.9916988)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321997> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321997 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.949816 20.9914823)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000321998> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000321998 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9501053 20.9913258)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322002> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000322002 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9498381 20.9912754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322003> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000322003 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9500477 20.9912061)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322005> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000322005 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.95031 20.9912494)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12000322009> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12000322009 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong San Ho"@en,
+        "Thùng rác tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9504481 20.9909698)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725946> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12005725946 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Bien Ho 5"@en,
+        "Thùng rác tại Biển Hồ 5"@vi ;
+    geo:asWKT "POINT(105.9486028 20.9997058)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725948> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12005725948 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Bien Ho 5"@en,
+        "Thùng rác tại Biển Hồ 5"@vi ;
+    geo:asWKT "POINT(105.9482718 20.9999025)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12005725956> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12005725956 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Bien Ho 5"@en,
+        "Thùng rác tại Biển Hồ 5"@vi ;
+    geo:asWKT "POINT(105.9478267 21.0003709)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12007163117> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12007163117 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Hai Dang 1"@en,
+        "Thùng rác tại Hải Đăng 1"@vi ;
+    geo:asWKT "POINT(105.9441718 20.9948028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12007163118> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12007163118 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Hai Dang 1"@en,
+        "Thùng rác tại Hải Đăng 1"@vi ;
+    geo:asWKT "POINT(105.944101 20.9946476)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12093721781> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12093721781 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Ngoc Ha"@en,
+        "Thùng rác tại Phố Ngọc Hà"@vi ;
+    geo:asWKT "POINT(105.8328161 21.0356188)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12093721782> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12093721782 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Chua Mot Cot"@en,
+        "Thùng rác tại Phố Chùa Một Cột"@vi ;
+    geo:asWKT "POINT(105.8328014 21.0355435)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12495501500> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12495501500 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Ngo 32 Duong Buoi"@en,
+        "Thùng rác tại Ngõ 32 Đường Bưởi"@vi ;
+    geo:asWKT "POINT(105.8053023 21.0307332)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:12535756761> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 12535756761 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Tran Nhan Tong"@en,
+        "Thùng rác tại Phố Trần Nhân Tông"@vi ;
+    geo:asWKT "POINT(105.8448243 21.0160584)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6549314206> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 6549314206 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Hung Vuong"@en,
+        "Thùng rác tại Đường Hùng Vương"@vi ;
+    geo:asWKT "POINT(105.8349453 21.0377597)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6549314207> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 6549314207 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Hung Vuong"@en,
+        "Thùng rác tại Đường Hùng Vương"@vi ;
+    geo:asWKT "POINT(105.8349976 21.0380414)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6924038648> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924038648 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Mai Chi Tho"@en,
+        "Thùng rác tại Phố Mai Chí Thọ"@vi ;
+    geo:asWKT "POINT(105.9115272 21.0641752)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:6924038673> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 6924038673 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Pho Mai Chi Tho"@en,
+        "Thùng rác tại Phố Mai Chí Thọ"@vi ;
+    geo:asWKT "POINT(105.9116118 21.0644102)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:waste_basket:7085692613> a schema:WasteContainer,
+        fiware:PointOfInterest ;
+    ext:osm_id 7085692613 ;
+    ext:osm_type "node" ;
+    schema:name "Waste Basket at Duong Hoang Dieu"@en,
+        "Thùng rác tại Đường Hoàng Diệu"@vi ;
+    geo:asWKT "POINT(105.8397259 21.0336686)"^^geo:wktLiteral .
+

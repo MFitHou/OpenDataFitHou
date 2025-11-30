@@ -1,0 +1,4501 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1034967043> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1034967043 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.8492103 20.9798526)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1040727585> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 90 Nguyễn Tuân" ;
+    ext:osm_id 1040727585 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Song Ngu Sasuke Thanh Xuan"@en,
+        "Trường Mầm non song ngữ Sasuke Thanh Xuân"@vi ;
+    geo:asWKT "POINT(105.8057356 20.9969634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1041128115> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 660 La Thành" ;
+    ext:osm_id 1041128115 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 7"@en,
+        "Trường Mẫu giáo số 7"@vi ;
+    geo:asWKT "POINT(105.8169505 21.0242881)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1063191486> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1063191486 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Nguyen Cong Tru"@en,
+        "Trường Mẫu giáo Nguyễn Công Trứ"@vi ;
+    geo:asWKT "POINT(105.8540402 21.0126641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1063191489> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1063191489 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Cong Tru"@en,
+        "Trường Mầm non Nguyễn Công Trứ"@vi ;
+    geo:asWKT "POINT(105.8540804 21.0122434)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1070976306> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Gia Lâm" ;
+    ext:addr_street "Đường Cổ Bi" ;
+    ext:osm_id 1070976306 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Co Bi"@en,
+        "Trường Mầm non Cổ Bi"@vi ;
+    geo:asWKT "POINT(105.9405182 21.0295194)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1070976320> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1070976320 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Phuong"@en,
+        "Trường Mầm non Hoa Phượng"@vi ;
+    geo:asWKT "POINT(105.9415223 21.022095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1074490410> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1074490410 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuc Dong"@en,
+        "Trường Mầm Non Phúc Đồng"@vi ;
+    geo:asWKT "POINT(105.9038476 21.0379608)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1078843858> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1078843858 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Huyen - Chuong My"@en,
+        "Trường Mầm non Huyện - Chương Mỹ"@vi ;
+    geo:asWKT "POINT(105.7045513 20.9187388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1088736396> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Nguyễn Xuân Linh" ;
+    ext:osm_id 1088736396 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo quận Cầu Giấy" ;
+    schema:url <http://mnhoasencaugiay.edu.vn/> ;
+    geo:asWKT "POINT(105.7994105 21.0084643)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1089001005> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Ngõ 4D Đặng Văn Ngữ" ;
+    ext:osm_id 1089001005 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Chich Bong"@en,
+        "Trường Mầm non Chích Bông"@vi ;
+    geo:asWKT "POINT(105.8325435 21.0107352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1090377179> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1090377179 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Dien a"@en,
+        "Trường Mầm non Phú Diễn A"@vi ;
+    geo:asWKT "POINT(105.7599825 21.0500791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1096357861> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1096357861 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuc Loc"@en,
+        "Trường Mầm non Phúc Lộc"@vi ;
+    geo:asWKT "POINT(105.8468998 21.1339704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1096926605> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1096926605 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.9068554 21.0228546)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1101799521> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàng Mai" ;
+    ext:osm_id 1101799521 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Linh Dam"@en,
+        "Trường Mầm non Linh Đàm"@vi ;
+    schema:telephone "+84 243 641 1683" ;
+    schema:url <http://mamnonlinhdam.edu.vn/> ;
+    geo:asWKT "POINT(105.8283273 20.9702589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1103248427> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_street "Phố Nguyên Hồng" ;
+    ext:osm_id 1103248427 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mi"@en,
+        "Trường Mầm non Họa Mi"@vi ;
+    schema:url <https://mamnonhoami.edu.vn/> ;
+    geo:asWKT "POINT(105.8114815 21.0196746)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1104046461> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_street "Ngõ 469 Nguyễn Trãi" ;
+    ext:osm_id 1104046461 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Xuan Nam"@en,
+        "Trường Mầm Non Thanh Xuân Nam"@vi ;
+    schema:telephone "+84 243 854 2378" ;
+    geo:asWKT "POINT(105.8023574 20.9895975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1108011364> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_street "Ngõ 58 Phố Hoàng Đạo Thành" ;
+    ext:osm_id 1108011364 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Sao Sang"@en,
+        "Trường Mầm Non Sao Sáng"@vi ;
+    geo:asWKT "POINT(105.8135176 20.9839541)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11082608292> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "9" ;
+    ext:addr_street "Phố Lý Thường Kiệt" ;
+    ext:osm_id 11082608292 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Mau Giao Mang Non"@en,
+        "Trường Mẫu giáo Măng Non"@vi ;
+    geo:asWKT "POINT(105.856883 21.0211868)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1113297539> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1113297539 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Tra My"@en,
+        "Trường Mầm non Hoa Trà My"@vi ;
+    geo:asWKT "POINT(105.800339 21.0039947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1114922913> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Vọng Hà" ;
+    ext:osm_id 1114922913 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Tien Hoang"@en,
+        "Trường Mầm non Đinh Tiên Hoàng"@vi ;
+    geo:asWKT "POINT(105.8568053 21.032165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1117395546> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1117395546 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuy Huong"@en,
+        "Trường Mầm non Thuỵ Hương"@vi ;
+    geo:asWKT "POINT(105.7196565 20.9049428)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1117941605> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Trần Quốc Hoàn" ;
+    ext:osm_id 1117941605 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dich Vong Hau"@en,
+        "Trường Mầm non Dịch Vọng Hậu"@vi ;
+    schema:url <http://mndichvonghau.caugiay.edu.vn/> ;
+    geo:asWKT "POINT(105.7892147 21.0421974)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1118223281> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118223281 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mi"@en,
+        "Trường Mầm non Hoạ Mi"@vi ;
+    geo:asWKT "POINT(105.776568 21.042291)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1118223286> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "243" ;
+    ext:addr_street "Phố Mai Dịch" ;
+    ext:osm_id 1118223286 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Mai Dich"@en,
+        "Trường Mầm non Mai Dịch"@vi ;
+    geo:asWKT "POINT(105.7750209 21.0439824)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1118308348> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118308348 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    geo:asWKT "POINT(105.7957306 21.0438474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1118788846> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118788846 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Sao Mai"@en,
+        "Trường Mầm non Sao Mai"@vi ;
+    geo:asWKT "POINT(105.7737835 21.0341329)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1118788848> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1118788848 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Ngach 58/23 Pho Tran Binh"@en,
+        "Trường mầm non tại Ngách 58/23 Phố Trần Bình"@vi ;
+    geo:asWKT "POINT(105.7757208 21.034532)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1119187734> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1119187734 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten My Dinh 2"@en,
+        "Trường Mầm non Mỹ Đình 2"@vi ;
+    schema:url <http://mnmydinh2-ntl.edu.vn/> ;
+    geo:asWKT "POINT(105.7753057 21.0273601)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1119809327> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_street "Đường Hoàng Diệu" ;
+    ext:osm_id 1119809327 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten Hoa Dao"@en,
+        "Mầm non Hoa Đào"@vi ;
+    geo:asWKT "POINT(105.8405384 21.0420232)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1119809328> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "hà nội" ;
+    ext:addr_district "ba đình" ;
+    ext:addr_street "Ngõ 120 Đào Tấn" ;
+    ext:osm_id 1119809328 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten Hoa Huong Duong"@en,
+        "Mầm non Hoa Hướng Dương"@vi ;
+    geo:asWKT "POINT(105.8058109 21.0341248)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1121941107> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1121941107 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Canh"@en,
+        "Trường Mầm non Xuân Canh"@vi ;
+    geo:asWKT "POINT(105.8508741 21.0876905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1123277039> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1123277039 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ha Noi Montessori"@en,
+        "Trường mầm non Hà Nội Montessori"@vi ;
+    geo:asWKT "POINT(105.7893756 21.0399017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1125993919> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1125993919 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a"@en,
+        "Trường Mầm non A"@vi ;
+    geo:asWKT "POINT(105.9475776 21.0169105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1125993920> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1125993920 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    geo:asWKT "POINT(105.9505356 21.0203896)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1125993929> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1125993929 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Binh Minh"@en,
+        "Trường Mầm non Bình Minh"@vi ;
+    geo:asWKT "POINT(105.9457028 21.075581)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11389939281> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "25-26" ;
+    ext:osm_id 11389939281 ;
+    ext:osm_type "node" ;
+    schema:name "Red Bean Kindergarten"@en,
+        "Red Bean Kindergarten"@vi ;
+    schema:url <https://redbeankindergarten.edu.vn/> ;
+    geo:asWKT "POINT(105.7321817 21.0080335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11395688196> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "2" ;
+    ext:osm_id 11395688196 ;
+    ext:osm_type "node" ;
+    schema:email "info@viethome.edu.vn" ;
+    schema:name "Kindergarten Viethome"@en,
+        "Mầm non VietHome"@vi ;
+    schema:telephone "+84 918 168 783;+84 39 6688 396" ;
+    schema:url <https://viethome.edu.vn/> ;
+    geo:asWKT "POINT(105.7331109 21.0052498)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11395688197> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "1" ;
+    ext:osm_id 11395688197 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Lapland Ha Noi"@en,
+        "Trường Mầm non Lapland Hà Nội"@vi ;
+    geo:asWKT "POINT(105.73304 21.005128)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11395688198> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:osm_id 11395688198 ;
+    ext:osm_type "node" ;
+    schema:name "Finland Preschool"@en,
+        "Finland Preschool"@vi ;
+    schema:url <https://www.finlandpreschool.org/> ;
+    geo:asWKT "POINT(105.7337171 21.0051332)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11395688199> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:osm_id 11395688199 ;
+    ext:osm_type "node" ;
+    schema:name "Little Friends 5 Preschool"@en,
+        "Little Friends 5 Preschool"@vi ;
+    geo:asWKT "POINT(105.7338429 21.0052203)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11395688304> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "4" ;
+    ext:osm_id 11395688304 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten Edison"@en,
+        "Mầm non Edison"@vi ;
+    geo:asWKT "POINT(105.7309521 21.0076518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11482335148> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "175" ;
+    ext:addr_street "Phố Bà Triệu" ;
+    ext:osm_id 11482335148 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Sao Sang"@en,
+        "Trường Mầm non Sao Sáng"@vi ;
+    geo:asWKT "POINT(105.8492757 21.012547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1149566487> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1149566487 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Chuc Son B"@en,
+        "Trường Mầm non Thị trấn Chúc Sơn B"@vi ;
+    geo:asWKT "POINT(105.720912 20.9257826)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1151213252> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1151213252 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Liet (co So Tu Ky)"@en,
+        "Trường Mầm non Hoàng Liệt (cơ sở Tứ Kỳ)"@vi ;
+    geo:asWKT "POINT(105.8391042 20.9600576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153435551> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153435551 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Pham Tu"@en,
+        "Trường Mầm non Phạm Tu"@vi ;
+    geo:asWKT "POINT(105.8516213 20.9505548)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153435554> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153435554 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Tu Hiep"@en,
+        "Trường Mầm non A Tứ Hiệp"@vi ;
+    geo:asWKT "POINT(105.8491344 20.9490044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153435555> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153435555 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Tu Hiep (diem Cuong Ngo 1)"@en,
+        "Trường Mầm non A Tứ Hiệp (điểm Cương Ngô 1)"@vi ;
+    geo:asWKT "POINT(105.8506944 20.9466223)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153435557> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153435557 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tu Hiep (diem Co Dien B)"@en,
+        "Trường Mầm non Tứ Hiệp (điểm Cổ Điển B)"@vi ;
+    geo:asWKT "POINT(105.8545313 20.9448983)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153680275> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153680275 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Cuc Chi"@en,
+        "Trường Mầm non Cúc Chi"@vi ;
+    geo:asWKT "POINT(105.837736 20.9517989)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1153680279> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1153680279 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Thanh"@en,
+        "Trường Mầm non Đại Thanh"@vi ;
+    geo:asWKT "POINT(105.8424059 20.9441227)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1154456682> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1154456682 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Dai Ang"@en,
+        "Trường Mầm non xã Đại Áng"@vi ;
+    geo:asWKT "POINT(105.8280916 20.9061977)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155206475> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155206475 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Chu Van an"@en,
+        "Trường Mầm non Chu Văn An"@vi ;
+    geo:asWKT "POINT(105.8538877 20.9396214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155206477> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155206477 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tu Hiep (diem Dong Tri)"@en,
+        "Trường Mầm non Tứ Hiệp (điểm Đồng Trì)"@vi ;
+    geo:asWKT "POINT(105.8617744 20.9407141)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155240108> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155240108 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Dong My"@en,
+        "Trường Mầm non B xã Đông Mỹ"@vi ;
+    geo:asWKT "POINT(105.8787509 20.9201427)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155240112> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155240112 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Duyen Ha (diem Van Khuc)"@en,
+        "Trường Mầm non xã Duyên Hà (điểm Văn Khúc)"@vi ;
+    geo:asWKT "POINT(105.8851033 20.9253817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155240114> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155240114 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Duyen Ha (diem Dai Lan)"@en,
+        "Trường Mầm non xã Duyên Hà (điểm Đại Lan)"@vi ;
+    geo:asWKT "POINT(105.8725129 20.9282005)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155357389> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155357389 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Huu Hoa"@en,
+        "Trường Mầm non xã Hữu Hoà"@vi ;
+    geo:asWKT "POINT(105.8046323 20.945402)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1155357393> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1155357393 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Huu Hoa"@en,
+        "Trường Mầm non xã Hữu Hoà"@vi ;
+    geo:asWKT "POINT(105.8045719 20.9518593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11563520040> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "27" ;
+    ext:addr_street "Ngõ 61 Phạm Tuấn Tài" ;
+    ext:osm_id 11563520040 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten Nang Ban Mai"@en,
+        "Mầm non Nắng Ban Mai"@vi ;
+    geo:asWKT "POINT(105.7854091 21.0451889)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1156580288> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1156580288 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Lien Ninh"@en,
+        "Trường Mầm non A xã Liên Ninh"@vi ;
+    geo:asWKT "POINT(105.8657267 20.9164413)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1156580303> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1156580303 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Lien Ninh"@en,
+        "Trường Mầm non B xã Liên Ninh"@vi ;
+    geo:asWKT "POINT(105.8564761 20.9098793)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1156580311> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1156580311 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Thanh Liet"@en,
+        "Trường Mầm non A xã Thanh Liệt"@vi ;
+    geo:asWKT "POINT(105.8211782 20.9681547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1156580313> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1156580313 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Thanh Liet"@en,
+        "Trường Mầm non B xã Thanh Liệt"@vi ;
+    geo:asWKT "POINT(105.8119574 20.9614617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1157115924> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157115924 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Vinh Quynh (diem 3)"@en,
+        "Trường Mầm non xã Vĩnh Quỳnh (điểm 3)"@vi ;
+    geo:asWKT "POINT(105.8245274 20.9345403)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1157115927> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157115927 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Vinh Quynh"@en,
+        "Trường Mầm non xã Vĩnh Quỳnh"@vi ;
+    geo:asWKT "POINT(105.8338007 20.9332132)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1157115928> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157115928 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Quynh Do"@en,
+        "Trường Mầm non Quỳnh Đô"@vi ;
+    geo:asWKT "POINT(105.8354657 20.9377975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11571556923> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "53" ;
+    ext:addr_street "Ngõ 3 Phạm Tuấn Tài" ;
+    ext:osm_id 11571556923 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten Nasa"@en,
+        "Mầm non NASA"@vi ;
+    geo:asWKT "POINT(105.784675 21.0439107)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11571556933> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Ngõ 3 Phạm Tuấn Tài" ;
+    ext:osm_id 11571556933 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten Happy School"@en,
+        "Mầm non Happy School"@vi ;
+    geo:asWKT "POINT(105.7854653 21.0433003)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1157172154> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172154 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ngu Hiep"@en,
+        "Trường Mầm non Ngũ Hiệp"@vi ;
+    geo:asWKT "POINT(105.8552459 20.9269921)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1157172169> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1157172169 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Ngu Hiep"@en,
+        "Trường Mầm non B xã Ngũ Hiệp"@vi ;
+    geo:asWKT "POINT(105.8600062 20.9302077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1160855843> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1160855843 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen Xa"@en,
+        "Trường Mầm non Yên Xá"@vi ;
+    geo:asWKT "POINT(105.7976453 20.9683699)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1160855857> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1160855857 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Tan Trieu"@en,
+        "Trường Mầm non xã Tân Triều"@vi ;
+    geo:asWKT "POINT(105.8030026 20.9801809)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11625397941> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "54" ;
+    ext:addr_street "Phố Mai Hắc Đế" ;
+    ext:osm_id 11625397941 ;
+    ext:osm_type "node" ;
+    schema:name "Winston International School"@en,
+        "Winston International School"@vi ;
+    geo:asWKT "POINT(105.8508573 21.0143514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1164792126> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1164792126 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Tao B"@en,
+        "Trường Mầm non Xuân Tảo B"@vi ;
+    geo:asWKT "POINT(105.8036867 21.0653613)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1165327433> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1165327433 ;
+    ext:osm_type "way" ;
+    schema:email "admissions@stmarysintl.org" ;
+    schema:name "Truong Quoc Te St. Mary's"@en,
+        "Trường Quốc tế St. Mary's"@vi ;
+    schema:telephone "+84 243 203 2006" ;
+    schema:url <https://kinder.stmarysintl.org/> ;
+    geo:asWKT "POINT(105.7973774 21.0193336)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1167288804> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1167288804 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tay Ho"@en,
+        "Trường Mầm non Tây Hồ"@vi ;
+    geo:asWKT "POINT(105.8098604 21.0560541)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1171597394> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1171597394 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen Hoa"@en,
+        "Trường Mầm non Yên Hoà"@vi ;
+    geo:asWKT "POINT(105.7945664 21.0206849)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1171975677> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1171975677 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ly Thai to 2"@en,
+        "Trường Mầm non Lý Thái Tổ 2"@vi ;
+    geo:asWKT "POINT(105.8040821 21.0083762)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1171975682> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Phố Hoàng Quán Chi" ;
+    ext:osm_id 1171975682 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vietkids"@en,
+        "Trường Mầm non Vietkids"@vi ;
+    geo:asWKT "POINT(105.791974 21.0262963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1172381243> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1172381243 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Dong"@en,
+        "Trường Mầm non Thành Đông"@vi ;
+    geo:asWKT "POINT(105.7943462 20.994793)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1172381257> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1172381257 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trieu Khuc"@en,
+        "Trường Mầm non Triều Khúc"@vi ;
+    geo:asWKT "POINT(105.7974074 20.9821017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1173423561> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173423561 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Moc Lan"@en,
+        "Trường Mầm non Hoa Mộc Lan"@vi ;
+    geo:asWKT "POINT(105.883156 21.0564704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1173423563> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173423563 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Gia Quat"@en,
+        "Trường Mầm non Gia Quất"@vi ;
+    geo:asWKT "POINT(105.8784332 21.0529222)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1173732826> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1173732826 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trang an"@en,
+        "Trường Mầm non Tràng An"@vi ;
+    geo:asWKT "POINT(105.9148282 21.0643906)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1174290217> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1174290217 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyet Que"@en,
+        "Trường Mầm non Nguyệt Quế"@vi ;
+    geo:asWKT "POINT(105.8713712 21.0561937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1181138804> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Ngõ 100 Đội Cấn" ;
+    ext:osm_id 1181138804 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 10"@en,
+        "Trường Mẫu giáo số 10"@vi ;
+    geo:asWKT "POINT(105.8288371 21.0337659)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1181138806> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "33" ;
+    ext:addr_street "Phố Vĩnh Phúc" ;
+    ext:osm_id 1181138806 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Sao Mai"@en,
+        "Trường Mầm non Sao Mai"@vi ;
+    geo:asWKT "POINT(105.8109942 21.0450459)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1182143642> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182143642 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Co Loa"@en,
+        "Trường Mầm non Cổ Loa"@vi ;
+    geo:asWKT "POINT(105.8690166 21.1199029)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1182143676> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182143676 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Duc"@en,
+        "Trường Mầm non Văn Đức"@vi ;
+    geo:asWKT "POINT(105.8991623 20.9433737)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1182143678> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182143678 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Duc (diem Chu Xa)"@en,
+        "Trường Mầm non Văn Đức (điểm Chử Xá)"@vi ;
+    geo:asWKT "POINT(105.9030064 20.9398031)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1182376982> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1182376982 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Tho"@en,
+        "Trường Mầm non Tuổi Thơ"@vi ;
+    geo:asWKT "POINT(105.8614278 20.9846376)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1184921786> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "27" ;
+    ext:addr_street "Phố Hương Viên" ;
+    ext:osm_id 1184921786 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Viet-bun"@en,
+        "Trường Mầm non Việt-Bun"@vi ;
+    geo:asWKT "POINT(105.8571945 21.0120352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185266867> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185266867 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Thi Minh Khai"@en,
+        "Trường Mầm non Nguyễn Thị Minh Khai"@vi ;
+    geo:asWKT "POINT(105.7359212 21.0785937)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185266878> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185266878 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bac Tu Liem"@en,
+        "Trường Mầm non Bắc Từ Liêm"@vi ;
+    geo:asWKT "POINT(105.734693 21.0725326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185298826> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185298826 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Minh"@en,
+        "Trường Mầm non Phú Minh"@vi ;
+    geo:asWKT "POINT(105.7450937 21.0503201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185629549> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185629549 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duc Tu"@en,
+        "Trường Mầm non Dục Tú"@vi ;
+    geo:asWKT "POINT(105.8986116 21.1225636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185629561> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185629561 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sua"@en,
+        "Trường Mầm non Hoa Sữa"@vi ;
+    geo:asWKT "POINT(105.91049 21.1339644)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185631607> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185631607 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.9021114 21.139098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185631609> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185631609 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lien Ha"@en,
+        "Trường Mầm non Liên Hà"@vi ;
+    geo:asWKT "POINT(105.8986852 21.1512637)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185678702> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185678702 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Tuoi Tho"@en,
+        "Trường Mẫu giáo Tuổi Thơ"@vi ;
+    geo:asWKT "POINT(105.8142665 21.0288409)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185678703> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "120" ;
+    ext:addr_street "Phố Đào Tấn" ;
+    ext:osm_id 1185678703 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Huong Duong"@en,
+        "Trường Mầm non Hoa Hướng Dương"@vi ;
+    geo:asWKT "POINT(105.8057468 21.0343903)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1185911637> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1185911637 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Tho"@en,
+        "Trường Mầm non Tuổi Thơ"@vi ;
+    geo:asWKT "POINT(105.8558929 21.1444859)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1186653119> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "110" ;
+    ext:addr_street "Phố Quán Thánh" ;
+    ext:osm_id 1186653119 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Hoa Hong"@en,
+        "Trường Mẫu giáo Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.8436038 21.0424437)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1186653122> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "105" ;
+    ext:addr_street "Ngõ 158 Ngọc Hà" ;
+    ext:osm_id 1186653122 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 5"@en,
+        "Trường Mẫu giáo số 5"@vi ;
+    geo:asWKT "POINT(105.8276009 21.0369702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1186653125> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "7" ;
+    ext:addr_street "Ngõ 379 Đội Cấn" ;
+    ext:osm_id 1186653125 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 9"@en,
+        "Trường Mẫu giáo số 9"@vi ;
+    geo:asWKT "POINT(105.8137344 21.0387155)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1186653132> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "111" ;
+    ext:addr_street "Phố Nguyễn Trường Tộ" ;
+    ext:osm_id 1186653132 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.8431293 21.0430961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1186653134> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "62" ;
+    ext:addr_street "Phố Phó Đức Chính" ;
+    ext:osm_id 1186653134 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 2"@en,
+        "Trường Mẫu giáo số 2"@vi ;
+    geo:asWKT "POINT(105.841026 21.0487539)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1187339502> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187339502 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Hoa"@en,
+        "Trường Mầm non Tuổi Hoa"@vi ;
+    schema:operator "Ủy ban nhân dân quận Long Biên" ;
+    geo:asWKT "POINT(105.9262853 21.0479635)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1187339510> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1187339510 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    schema:operator "Ủy ban nhân dân quận Long Biên" ;
+    geo:asWKT "POINT(105.8987575 21.0705175)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1188004479> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1188004479 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Long Bien a"@en,
+        "Trường Mầm non Long Biên A"@vi ;
+    geo:asWKT "POINT(105.8898091 21.0261582)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1189166192> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1189166192 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Hoi B"@en,
+        "Trường Mầm non Tân Hội B"@vi ;
+    geo:asWKT "POINT(105.7086828 21.0912943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1190841553> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1190841553 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Do Thi Sai Dong"@en,
+        "Trường Mầm non Đô thị Sài Đồng"@vi ;
+    geo:asWKT "POINT(105.9021418 21.0453921)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11927404782> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 11927404782 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Ha Noi - Thang Long"@en,
+        "Trường Mầm non Hà Nội - Thăng Long"@vi ;
+    geo:asWKT "POINT(105.7904982 20.9627865)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11932050181> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 11932050181 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Vinschool Gardenia"@en,
+        "Trường Mầm non Vinschool Gardenia"@vi ;
+    geo:asWKT "POINT(105.7623285 21.0382789)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1193283045> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoang Mai" ;
+    ext:addr_housenumber "Lô NT1" ;
+    ext:addr_street "Khu Đô Thị Mới Định Công" ;
+    ext:osm_id 1193283045 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten May - May Kindergarten"@en,
+        "Trường Mầm non May - May Kindergarten"@vi ;
+    geo:asWKT "POINT(105.8298243 20.9872853)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1193904954> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "43" ;
+    ext:addr_street "Phố Quang Trung" ;
+    ext:osm_id 1193904954 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Quang Trung"@en,
+        "Trường Mẫu giáo Quang Trung"@vi ;
+    geo:asWKT "POINT(105.8481249 21.0196276)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1193904955> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "88" ;
+    ext:addr_street "Phố Thợ Nhuộm" ;
+    ext:osm_id 1193904955 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Kindergarten a"@en,
+        "Trường Mẫu giáo Mầm non A"@vi ;
+    geo:asWKT "POINT(105.8484396 21.0227775)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1195546189> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Ngõ 23 Phố Đỗ Quang" ;
+    ext:osm_id 1195546189 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ly Thai to 2"@en,
+        "Trường Mầm non Lý Thái Tổ 2"@vi ;
+    schema:telephone "+84 246 2511874" ;
+    schema:url <https://lythaito.edu.vn/> ;
+    geo:asWKT "POINT(105.8026482 21.0112643)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1196682595> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1196682595 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Thuy Tien"@en,
+        "Trường Mầm non Hoa Thủy Tiên"@vi ;
+    schema:url <https://mnhoathuytien.longbien.edu.vn/> ;
+    geo:asWKT "POINT(105.9005438 21.051584)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:11974253905> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "74" ;
+    ext:addr_street "Số 74, Đường 23, Khu Đô thị Thành phố Giao Lưu" ;
+    ext:osm_id 11974253905 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Viet My"@en,
+        "Trường Mầm non Việt Mỹ"@vi ;
+    geo:asWKT "POINT(105.7798241 21.0555186)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198548274> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198548274 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bvis Early Years Centre"@en,
+        "Trường Mầm non BVIS Early Years Centre"@vi ;
+    geo:asWKT "POINT(105.8156919 21.0011866)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857565> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857565 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Dien"@en,
+        "Trường Mầm non Phú Diễn"@vi ;
+    geo:asWKT "POINT(105.7697891 21.0483326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857568> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857568 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Co Nhue 1"@en,
+        "Trường Mầm non Cổ Nhuế 1"@vi ;
+    geo:asWKT "POINT(105.7872571 21.0546444)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857571> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857571 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Ngac a"@en,
+        "Trường Mầm non Đông Ngạc A"@vi ;
+    geo:asWKT "POINT(105.7799493 21.0860113)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857576> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "52" ;
+    ext:addr_street "Ngõ 463 đường An Dương Vương" ;
+    ext:osm_id 1198857576 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nhat Tao"@en,
+        "Trường Mầm non Nhật Tảo"@vi ;
+    geo:asWKT "POINT(105.78953 21.0890974)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857580> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857580 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lien Mac"@en,
+        "Trường Mầm non Liên Mạc"@vi ;
+    geo:asWKT "POINT(105.7562425 21.085077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857581> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857581 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Duong Tay Tuu"@en,
+        "Trường mầm non tại Đường Tây Tựu"@vi ;
+    geo:asWKT "POINT(105.7270424 21.0692781)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857586> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857586 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuc Ly"@en,
+        "Trường Mầm non Phúc Lý"@vi ;
+    geo:asWKT "POINT(105.7444668 21.0664357)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1198857587> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1198857587 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuong Cat"@en,
+        "Trường Mầm non Thượng Cát"@vi ;
+    geo:asWKT "POINT(105.7343074 21.0944917)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1201121662> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Phố Xuân Đỗ" ;
+    ext:osm_id 1201121662 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten Minh Phu"@en,
+        "Mầm non Minh Phú"@vi ;
+    geo:asWKT "POINT(105.9050697 21.0110891)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1202447563> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1202447563 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kieu Mai"@en,
+        "Trường Mầm non Kiều Mai"@vi ;
+    geo:asWKT "POINT(105.7499391 21.0422893)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1202447565> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1202447565 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Tao"@en,
+        "Trường Mầm non Xuân Tảo"@vi ;
+    geo:asWKT "POINT(105.79929 21.0715415)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1202447569> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1202447569 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Dinh a"@en,
+        "Trường Mầm non Xuân Đỉnh A"@vi ;
+    geo:asWKT "POINT(105.7886645 21.0685556)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1202447570> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1202447570 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Dinh B"@en,
+        "Trường Mầm non Xuân Đỉnh B"@vi ;
+    geo:asWKT "POINT(105.7890738 21.0744422)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1202493029> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1202493029 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.8008272 21.0339497)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203397053> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203397053 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dich Vong"@en,
+        "Trường Mầm non Dịch Vọng"@vi ;
+    geo:asWKT "POINT(105.7930704 21.0371228)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203397056> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203397056 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trung Hoa"@en,
+        "Trường Mầm non Trung Hoà"@vi ;
+    geo:asWKT "POINT(105.8051177 21.011632)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203397057> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "24" ;
+    ext:addr_street "Phố Đinh Núp" ;
+    ext:osm_id 1203397057 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nam Trung Yen"@en,
+        "Trường Mầm non Nam Trung Yên"@vi ;
+    geo:asWKT "POINT(105.7916709 21.0099358)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203397068> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203397068 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Huong Duong"@en,
+        "Trường Mầm non Hoa Hướng Dương"@vi ;
+    geo:asWKT "POINT(105.7860061 21.0264305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203397070> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "16" ;
+    ext:addr_street "Phố Đinh Núp" ;
+    ext:osm_id 1203397070 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Tho"@en,
+        "Trường Mầm non Tuổi Thơ"@vi ;
+    geo:asWKT "POINT(105.7896272 21.012529)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12035280084> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:addr_street "Phố Mễ Trì Hạ" ;
+    ext:osm_id 12035280084 ;
+    ext:osm_type "node" ;
+    schema:name "Sakura Montessori"@en,
+        "Sakura Montessori"@vi ;
+    schema:operator "Sakura Montessori" ;
+    schema:telephone "024 7100 9968" ;
+    geo:asWKT "POINT(105.7823979 21.0144088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203863635> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203863635 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Cu Khoi"@en,
+        "Trường Mầm non Cự Khối"@vi ;
+    geo:asWKT "POINT(105.9076255 21.012731)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203863636> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203863636 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Anh Dao"@en,
+        "Trường Mầm non Hoa Anh Đào"@vi ;
+    geo:asWKT "POINT(105.9054948 21.0157497)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203930407> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203930407 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Linh - Baby Home"@en,
+        "Trường Mầm non Hoa Linh - Baby Home"@vi ;
+    geo:asWKT "POINT(105.7916404 21.0404912)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1203930410> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1203930410 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trang Do"@en,
+        "Trường Mầm non Trăng Đỏ"@vi ;
+    geo:asWKT "POINT(105.7982166 21.0150263)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1205258223> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1205258223 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Phuong"@en,
+        "Trường Mầm non Hoa Phượng"@vi ;
+    geo:asWKT "POINT(105.8986852 21.0125381)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1205426180> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1205426180 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Binh Minh"@en,
+        "Trường Mầm non Bình Minh"@vi ;
+    geo:asWKT "POINT(105.8095774 21.0526513)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12065631392> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Phường Trung Hòa" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "10" ;
+    ext:addr_street "Ngõ 52 Đỗ Quang" ;
+    ext:osm_id 12065631392 ;
+    ext:osm_type "node" ;
+    schema:name "Amy School"@en,
+        "Amy School"@vi ;
+    geo:asWKT "POINT(105.8024296 21.010206)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1206569671> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1206569671 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Gp Academy"@en,
+        "Trường Mầm non GP Academy"@vi ;
+    schema:operator "Tràng An Complex" ;
+    geo:asWKT "POINT(105.8036084 21.044902)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12067202478> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 12067202478 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Phung Khoang"@en,
+        "Trường Mầm non Phùng Khoang"@vi ;
+    geo:asWKT "POINT(105.7913264 20.9891467)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1206778599> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Cầu Giấy" ;
+    ext:addr_housenumber "93" ;
+    ext:addr_street "Đường Hoàng Quốc Việt" ;
+    ext:osm_id 1206778599 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 59 - Cau Giay"@en,
+        "Trường Mầm non 59 - Cầu Giấy"@vi ;
+    schema:operator "Cục Hậu cần - Bộ Tổng Tham mưu" ;
+    geo:asWKT "POINT(105.8010623 21.045892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1208800256> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Phố Đào Duy Anh" ;
+    ext:osm_id 1208800256 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuong Lien"@en,
+        "Trường Mầm non Phương Liên"@vi ;
+    geo:asWKT "POINT(105.8374972 21.0099412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1210280546> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Ngách 238/2 Hoàng Quốc Việt" ;
+    ext:osm_id 1210280546 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hasuko Hoa Sen"@en,
+        "Trường mầm non Hasuko Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.7837129 21.0476214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1212915406> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1212915406 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 1-6"@en,
+        "Trường Mầm Non 1-6"@vi ;
+    geo:asWKT "POINT(105.8460128 21.0319103)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12156837851> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "55" ;
+    ext:addr_street "Ngõ 255 Phố Vọng" ;
+    ext:osm_id 12156837851 ;
+    ext:osm_type "node" ;
+    schema:email "itdse.edu@gmail.com" ;
+    schema:name "Truong Kindergarten Anh Sao Mai"@en,
+        "Trường mầm non Ánh Sao Mai"@vi ;
+    schema:telephone "+84 97 906 03 83;+84 98 608 86 58" ;
+    geo:asWKT "POINT(105.8443288 20.9945779)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1217754337> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_street "Ngõ 8A Phố Hoàng Ngọc Phách" ;
+    ext:osm_id 1217754337 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Hoa"@en,
+        "Trường Mầm non Tuổi Hoa"@vi ;
+    geo:asWKT "POINT(105.8131169 21.0163202)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1217807981> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Đặng Trần Đức" ;
+    ext:osm_id 1217807981 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Tri"@en,
+        "Trường Mầm non Thanh Trì"@vi ;
+    geo:asWKT "POINT(105.885854 20.9952753)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1217825598> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1217825598 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Quang Trung"@en,
+        "Trường Mầm non Quang Trung"@vi ;
+    geo:asWKT "POINT(105.9402546 21.0082835)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1218514404> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218514404 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Duong"@en,
+        "Trường Mầm non Ánh Dương"@vi ;
+    geo:asWKT "POINT(105.8289111 21.1405131)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1218545780> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1218545780 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sua"@en,
+        "Trường Mầm non Hoa Sữa"@vi ;
+    geo:asWKT "POINT(105.8214445 20.9748336)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12189275702> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Tôn Thất Thiệp" ;
+    ext:osm_id 12189275702 ;
+    ext:osm_type "node" ;
+    schema:name "Vuon Tri Tue"@en,
+        "Vườn Trí Tuệ"@vi ;
+    geo:asWKT "POINT(105.8444116 21.0340701)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12213825778> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Tổ dân phố số 5 Mễ Trì Thượng" ;
+    ext:osm_id 12213825778 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Me Tri"@en,
+        "Trường mầm non Mễ Trì"@vi ;
+    geo:asWKT "POINT(105.7775958 21.0050564)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1221908304> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221908304 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bac Hong"@en,
+        "Trường Mầm non Bắc Hồng"@vi ;
+    geo:asWKT "POINT(105.8054935 21.178393)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1221908310> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221908310 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Loa"@en,
+        "Trường Mầm non Thành Loa"@vi ;
+    geo:asWKT "POINT(105.8684561 21.1157476)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1221908318> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221908318 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Mach"@en,
+        "Trường Mầm non Đại Mạch"@vi ;
+    geo:asWKT "POINT(105.7582058 21.1265368)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1221908328> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1221908328 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vong La"@en,
+        "Trường Mầm non Võng La"@vi ;
+    geo:asWKT "POINT(105.7727944 21.1081411)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222284720> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222284720 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dang Xa"@en,
+        "Trường Mầm non Đặng Xá"@vi ;
+    geo:asWKT "POINT(105.959542 21.0283873)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222380560> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222380560 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Chung a"@en,
+        "Trường Mầm non Kim Chung A"@vi ;
+    geo:asWKT "POINT(105.7748817 21.1275711)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222380572> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222380572 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Chung"@en,
+        "Trường Mầm non Kim Chung"@vi ;
+    geo:asWKT "POINT(105.7832336 21.1313221)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222380577> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222380577 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hai Boi"@en,
+        "Trường Mầm non Hải Bối"@vi ;
+    geo:asWKT "POINT(105.7930495 21.1115865)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222403197> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222403197 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tien Duong"@en,
+        "Trường Mầm non Tiên Dương"@vi ;
+    geo:asWKT "POINT(105.8290841 21.1535055)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222468015> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222468015 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinschool"@en,
+        "Trường Mầm non Vinschool"@vi ;
+    geo:asWKT "POINT(105.9431833 20.9961182)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497617> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497617 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim No"@en,
+        "Trường Mầm non Kim Nỗ"@vi ;
+    geo:asWKT "POINT(105.7939029 21.1318754)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497618> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497618 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ban Mai"@en,
+        "Trường Mầm non Ban Mai"@vi ;
+    geo:asWKT "POINT(105.7987269 21.1426967)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497635> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497635 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Hoi (diem Lai Da)"@en,
+        "Trường Mầm non Đông Hội (điểm Lại Đà)"@vi ;
+    geo:asWKT "POINT(105.866997 21.0791458)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497642> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497642 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Hoi (diem Tien Hoi)"@en,
+        "Trường Mầm non Đông Hội (điểm Tiên Hội)"@vi ;
+    geo:asWKT "POINT(105.8623297 21.100916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497646> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497646 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Hoi (diem Hoi Phu)"@en,
+        "Trường Mầm non Đông Hội (điểm Hội Phụ)"@vi ;
+    geo:asWKT "POINT(105.8724705 21.0854808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497647> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497647 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Hoi (diem Dong Tru)"@en,
+        "Trường Mầm non Đông Hội (điểm Đông Trù)"@vi ;
+    geo:asWKT "POINT(105.8765769 21.0759998)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497657> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497657 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Mai Lam"@en,
+        "Trường Mầm non Mai Lâm"@vi ;
+    geo:asWKT "POINT(105.8912438 21.0900687)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497672> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497672 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.8720646 21.1361361)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497676> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497676 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Viet Hung (khu Gia Loc)"@en,
+        "Trường Mầm non Việt Hùng (khu Gia Lộc)"@vi ;
+    geo:asWKT "POINT(105.88605 21.1243748)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222497678> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222497678 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Viet Hung (khu Dong)"@en,
+        "Trường Mầm non Việt Hùng (khu Đông)"@vi ;
+    geo:asWKT "POINT(105.8783907 21.1353464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222516184> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222516184 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Mai Lam (khu Le Xa)"@en,
+        "Trường Mầm non Mai Lâm (khu Lê Xá)"@vi ;
+    geo:asWKT "POINT(105.8797987 21.0851364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222516188> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222516188 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Mai Lam (khu Du Ngoai)"@en,
+        "Trường Mầm non Mai Lâm (khu Du Ngoại)"@vi ;
+    geo:asWKT "POINT(105.9027445 21.0895364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1222516189> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1222516189 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinh Ngoc (khu Phuong Trach)"@en,
+        "Trường Mầm non Vĩnh Ngọc (khu Phương Trạch)"@vi ;
+    geo:asWKT "POINT(105.8146806 21.1163467)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996606> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996606 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa My"@en,
+        "Trường Mầm non Hoạ My"@vi ;
+    geo:asWKT "POINT(105.8303834 21.117208)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996607> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996607 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinh Ngoc (khu Vinh Thanh)"@en,
+        "Trường Mầm non Vĩnh Ngọc (khu Vĩnh Thanh)"@vi ;
+    geo:asWKT "POINT(105.8330392 21.1129272)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996615> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996615 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nang Hong (khu Tang My)"@en,
+        "Trường Mầm non Nắng Hồng (khu Tằng My)"@vi ;
+    geo:asWKT "POINT(105.7942053 21.1668316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996619> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996619 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nang Hong (khu Ve)"@en,
+        "Trường Mầm non Nắng Hồng (khu Vệ)"@vi ;
+    geo:asWKT "POINT(105.7847787 21.1706035)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996622> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996622 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nam Hong"@en,
+        "Trường Mầm non Nam Hồng"@vi ;
+    geo:asWKT "POINT(105.7831407 21.1648069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996640> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996640 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Khe (khu Khe Nu)"@en,
+        "Trường Mầm non Nguyên Khê (khu Khê Nữ)"@vi ;
+    geo:asWKT "POINT(105.8372681 21.178055)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996643> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996643 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Khe (khu Son Du)"@en,
+        "Trường Mầm non Nguyên Khê (khu Sơn Du)"@vi ;
+    geo:asWKT "POINT(105.823084 21.1749527)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1223996646> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1223996646 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Khe"@en,
+        "Trường Mầm non Nguyên Khê"@vi ;
+    geo:asWKT "POINT(105.8474211 21.175679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224476698> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224476698 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tam Xa"@en,
+        "Trường Mầm non Tàm Xá"@vi ;
+    geo:asWKT "POINT(105.8452766 21.1091824)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224476702> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224476702 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thu Lam"@en,
+        "Trường Mầm non Thư Lâm"@vi ;
+    geo:asWKT "POINT(105.8795176 21.1703689)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224476706> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224476706 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuy Lam"@en,
+        "Trường Mầm non Thuỵ Lâm"@vi ;
+    geo:asWKT "POINT(105.9026234 21.1733275)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224476709> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224476709 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Uy No"@en,
+        "Trường Mầm non Uy Nỗ"@vi ;
+    geo:asWKT "POINT(105.8566336 21.1359474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224675753> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224675753 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Sao Mai"@en,
+        "Trường Mầm non Sao Mai"@vi ;
+    geo:asWKT "POINT(105.8474078 21.138788)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224675761> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224675761 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Ha"@en,
+        "Trường Mầm non Vân Hà"@vi ;
+    geo:asWKT "POINT(105.9148641 21.1480133)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224785754> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224785754 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Noi"@en,
+        "Trường Mầm non Vân Nội"@vi ;
+    geo:asWKT "POINT(105.8138106 21.1457493)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224785775> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224785775 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Canh (khu Van Loc)"@en,
+        "Trường Mầm non Xuân Canh (khu Vạn Lộc)"@vi ;
+    geo:asWKT "POINT(105.8501316 21.1106519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224785776> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224785776 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Non"@en,
+        "Trường Mầm non Xuân Nộn"@vi ;
+    geo:asWKT "POINT(105.8680965 21.1848934)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927891> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927891 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Dong"@en,
+        "Trường Mầm non Phù Đổng"@vi ;
+    geo:asWKT "POINT(105.9648197 21.0603769)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927895> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927895 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trung Mau"@en,
+        "Trường Mầm non Trung Mầu"@vi ;
+    geo:asWKT "POINT(105.9897382 21.0608287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927897> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927897 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Duong"@en,
+        "Trường Mầm non Ánh Dương"@vi ;
+    geo:asWKT "POINT(105.9160868 21.0801844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927899> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927899 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sua"@en,
+        "Trường Mầm non Hoa Sữa"@vi ;
+    geo:asWKT "POINT(105.9119185 21.0909783)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927902> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927902 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ninh Hiep"@en,
+        "Trường Mầm non Ninh Hiệp"@vi ;
+    geo:asWKT "POINT(105.9427615 21.0838574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224927915> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224927915 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duong Xa"@en,
+        "Trường Mầm non Dương Xá"@vi ;
+    geo:asWKT "POINT(105.9692169 21.0016217)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224934225> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224934225 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Son"@en,
+        "Trường Mầm non Kim Sơn"@vi ;
+    geo:asWKT "POINT(105.9885096 21.024554)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224934250> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224934250 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duong Quang"@en,
+        "Trường Mầm non Dương Quang"@vi ;
+    geo:asWKT "POINT(105.985143 21.0068287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224934252> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224934252 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Thi"@en,
+        "Trường Mầm non Phú Thị"@vi ;
+    geo:asWKT "POINT(105.970375 21.0230887)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224936755> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224936755 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Lan"@en,
+        "Trường Mầm non Kim Lan"@vi ;
+    geo:asWKT "POINT(105.902957 20.9620572)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1224936769> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1224936769 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bat Trang"@en,
+        "Trường Mầm non Bát Tràng"@vi ;
+    geo:asWKT "POINT(105.9165574 20.9779364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1225109176> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225109176 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Du"@en,
+        "Trường Mầm non Đông Dư"@vi ;
+    geo:asWKT "POINT(105.9152241 20.9969287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1225109185> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225109185 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Da Ton"@en,
+        "Trường Mầm non Đa Tốn"@vi ;
+    geo:asWKT "POINT(105.9275879 20.9871519)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1225109190> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225109190 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kieu Ky"@en,
+        "Trường Mầm non Kiêu Kỵ"@vi ;
+    geo:asWKT "POINT(105.958279 20.9795377)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1225570530> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1225570530 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Chuc Son a"@en,
+        "Trường Mầm non Thị trấn Chúc Sơn A"@vi ;
+    geo:asWKT "POINT(105.7048176 20.9214574)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1227564851> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1227564851 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Man Non Cong Ty Co Phan 22"@en,
+        "Trường Mần non Công ty Cổ phần 22"@vi ;
+    geo:asWKT "POINT(105.9141844 21.0318666)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784692> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:osm_id 1228784692 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lomonoxop an Khanh"@en,
+        "Trường Mầm non Lômônôxốp An Khánh"@vi ;
+    schema:telephone "+84 24 6326 5917" ;
+    schema:url <https://lomonoxop.vn/> ;
+    geo:asWKT "POINT(105.7333117 21.0068026)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784703> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "18" ;
+    ext:osm_id 1228784703 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten Reco Kids"@en,
+        "Mầm non RECO Kids"@vi ;
+    geo:asWKT "POINT(105.7333579 21.007313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784706> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:osm_id 1228784706 ;
+    ext:osm_type "way" ;
+    schema:name "Capokids"@en,
+        "CapoKids"@vi ;
+    geo:asWKT "POINT(105.7340474 21.0073576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784711> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "3" ;
+    ext:osm_id 1228784711 ;
+    ext:osm_type "way" ;
+    schema:name "Nhom Tre Mau Giao Doc Lap Nhat an"@en,
+        "Nhóm trẻ mẫu giáo độc lập Nhật An"@vi ;
+    geo:asWKT "POINT(105.7339136 21.0068549)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784713> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1228784713 ;
+    ext:osm_type "way" ;
+    schema:name "Lop Kindergarten Doc Lap Tomoe"@en,
+        "Lớp mầm non độc lập Tomoe"@vi ;
+    geo:asWKT "POINT(105.7340857 21.0068487)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784714> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "6-7" ;
+    ext:osm_id 1228784714 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nhung Canh Dieu Bay"@en,
+        "Trường Mầm non Những Cánh Diều Bay"@vi ;
+    geo:asWKT "POINT(105.7340789 21.0066353)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228784720> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "9" ;
+    ext:osm_id 1228784720 ;
+    ext:osm_type "way" ;
+    schema:name "Lop Mau Giao Doc Lap the Gioi Tuoi Tho"@en,
+        "Lớp mẫu giáo độc lập Thế Giới Tuổi Thơ"@vi ;
+    schema:operator "Babylons Singapore International Preschool" ;
+    geo:asWKT "POINT(105.7335337 21.0062115)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1228803800> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoài Đức" ;
+    ext:addr_housenumber "7" ;
+    ext:osm_id 1228803800 ;
+    ext:osm_type "way" ;
+    schema:email "info@scholarvietnam.edu.vn" ;
+    schema:name "Truong Kindergarten Nhat Ban Haruki"@en,
+        "Trường Mầm non Nhật Bản Haruki"@vi ;
+    schema:openingHours "Mo-Fr 08:00-17:00" ;
+    schema:telephone "+84385802268" ;
+    schema:url <https://harukischool.edu.vn/> ;
+    geo:asWKT "POINT(105.7337511 21.0053518)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1230069759> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "5" ;
+    ext:addr_street "Phố Phan Chu Trinh" ;
+    ext:osm_id 1230069759 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B"@en,
+        "Trường Mầm non B"@vi ;
+    geo:asWKT "POINT(105.8567695 21.0226395)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1234955630> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hai Bà Trưng" ;
+    ext:addr_housenumber "31" ;
+    ext:addr_street "Phố Bùi Thị Xuân" ;
+    ext:osm_id 1234955630 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Le Dai Hanh"@en,
+        "Trường Mầm non Lê Đại Hành"@vi ;
+    geo:asWKT "POINT(105.8499988 21.0132916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1242741034> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Bắc Từ Liêm" ;
+    ext:addr_housenumber "14" ;
+    ext:addr_street "Ngõ 26 Đặng Thùy Trâm" ;
+    ext:osm_id 1242741034 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten Dang Thuy Tram"@en,
+        "Mầm non Đặng Thuỳ Trâm"@vi ;
+    geo:asWKT "POINT(105.7844979 21.0443029)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1247966962> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1247966962 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bup Sen Xanh"@en,
+        "Trường Mầm non Búp sen Xanh"@vi ;
+    geo:asWKT "POINT(105.7831279 21.0391172)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12508979547> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "LK34-35" ;
+    ext:addr_street "Khu đô thị IA 20 Ciputra" ;
+    ext:osm_id 12508979547 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Cuoc Song Xanh (green Life Preschool)"@en,
+        "Lớp Mầm non Cuộc sống xanh (Green Life Preschool)"@vi ;
+    geo:asWKT "POINT(105.7896007 21.0857189)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1251537940> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1251537940 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Giang Bien"@en,
+        "Trường Mầm non Giang Biên"@vi ;
+    geo:asWKT "POINT(105.9173963 21.0620748)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12552961450> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "L2.05" ;
+    ext:addr_street "An Khang Villa, Khu đô thị Dương Nội" ;
+    ext:osm_id 12552961450 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Happytime - Co So 2"@en,
+        "Trường Mầm non HappyTime - Cơ sở 2"@vi ;
+    geo:asWKT "POINT(105.7590549 20.9776971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12558502901> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 12558502901 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten at Ngach 310/50 Duong Nghi Tam"@en,
+        "Trường mầm non tại Ngách 310/50 Đường Nghi Tàm"@vi ;
+    geo:asWKT "POINT(105.8384527 21.0575046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12582267437> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Dự án 173 Xuân Thuỷ" ;
+    ext:osm_id 12582267437 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Doc Lap Tu Thuc Viet My (american Montessori School)"@en,
+        "Lớp mầm non độc lập tư thục Việt Mỹ (American Montessori School)"@vi ;
+    geo:asWKT "POINT(105.7849025 21.0358499)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1259622905> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1259622905 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.7869685 20.9740448)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12597080227> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Trung Kiên, quận Bắc Từ Liêm, thành phố Hà Nội" ;
+    ext:osm_id 12597080227 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Tay Tuu - Co So 3"@en,
+        "Trường Mầm non Tây Tựu - Cơ sở 3"@vi ;
+    geo:asWKT "POINT(105.7354806 21.067468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12655533120> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "25-BT2" ;
+    ext:addr_street "Khu đô thị Trung Văn" ;
+    ext:osm_id 12655533120 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Doc Lap Vuon Hong"@en,
+        "Lớp mầm non độc lập Vườn Hồng"@vi ;
+    geo:asWKT "POINT(105.7783512 20.9932943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12655589944> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "27-BT2" ;
+    ext:addr_street "Khu đô thị Trung Văn" ;
+    ext:osm_id 12655589944 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Tu Thuc Xu So Than Tien"@en,
+        "Lớp mầm non tư thục Xứ sở thần tiên"@vi ;
+    geo:asWKT "POINT(105.7784399 20.9934732)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12662434904> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Chung cư Thăng Long Tower" ;
+    ext:osm_id 12662434904 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Doc Lap La Phong Xanh"@en,
+        "Lớp mầm non độc lập Lá Phong Xanh"@vi ;
+    geo:asWKT "POINT(105.7907472 21.0176476)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1268930201> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Kim Quan Thượng" ;
+    ext:osm_id 1268930201 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Huong Duong"@en,
+        "Trường Mầm non Hoa Hướng Dương"@vi ;
+    geo:asWKT "POINT(105.9009639 21.0611391)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1272942341> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "8" ;
+    ext:osm_id 1272942341 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Bach Mai"@en,
+        "Trường Mẫu giáo Bạch Mai"@vi ;
+    geo:asWKT "POINT(105.8517927 21.0078001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1273246709> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1273246709 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Hoi a"@en,
+        "Trường Mầm non Tân Hội A"@vi ;
+    geo:asWKT "POINT(105.6995709 21.0939326)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1274582364> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1274582364 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lien Ha"@en,
+        "Trường Mầm non Liên Hà"@vi ;
+    geo:asWKT "POINT(105.719518 21.1092771)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1274582375> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1274582375 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lien Ha"@en,
+        "Trường Mầm non Liên Hà"@vi ;
+    geo:asWKT "POINT(105.7153599 21.1140201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1274587508> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1274587508 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lien Trung"@en,
+        "Trường Mầm non Liên Trung"@vi ;
+    geo:asWKT "POINT(105.7228234 21.1055331)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450039> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "135" ;
+    ext:addr_street "Phố Nguyễn An Ninh" ;
+    ext:osm_id 1276450039 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuong Mai"@en,
+        "Trường Mầm non Tương Mai"@vi ;
+    geo:asWKT "POINT(105.8443398 20.9924528)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450040> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "55" ;
+    ext:addr_street "Phố Nguyễn An Ninh" ;
+    ext:osm_id 1276450040 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 10-10"@en,
+        "Trường Mầm non 10-10"@vi ;
+    geo:asWKT "POINT(105.8450567 20.989658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450046> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "121" ;
+    ext:addr_street "Đường Hoàng Mai" ;
+    ext:osm_id 1276450046 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Van Thu"@en,
+        "Trường Mầm non Hoàng Văn Thụ"@vi ;
+    geo:asWKT "POINT(105.8528012 20.9921579)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450048> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 94 Phố Tân Mai" ;
+    ext:osm_id 1276450048 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Mai"@en,
+        "Trường Mầm non Tân Mai"@vi ;
+    geo:asWKT "POINT(105.848934 20.9830601)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450050> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Ngõ 389 Đường Trương Định" ;
+    ext:osm_id 1276450050 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường Mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.8472377 20.9855053)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450052> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276450052 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Mai Dong"@en,
+        "Trường Mầm non Mai Động"@vi ;
+    geo:asWKT "POINT(105.8608948 20.989106)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450054> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276450054 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Giap Bat"@en,
+        "Trường Mầm non Giáp Bát"@vi ;
+    geo:asWKT "POINT(105.8426848 20.985511)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450056> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276450056 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Binh Minh"@en,
+        "Trường Mầm non Bình Minh"@vi ;
+    geo:asWKT "POINT(105.8437618 20.9871576)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450057> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "31" ;
+    ext:addr_street "Ngõ 245 Định Công" ;
+    ext:osm_id 1276450057 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Cong"@en,
+        "Trường Mầm non Định Công"@vi ;
+    geo:asWKT "POINT(105.8334381 20.9813858)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450059> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "99" ;
+    ext:addr_street "Phố Yên Duyên" ;
+    ext:osm_id 1276450059 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen So"@en,
+        "Trường Mầm non Yên Sở"@vi ;
+    geo:asWKT "POINT(105.8692821 20.9715311)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276450061> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "208" ;
+    ext:addr_street "Phố Yên Duyên" ;
+    ext:osm_id 1276450061 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen So (co So 2)"@en,
+        "Trường Mầm non Yên Sở (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.8728086 20.9663825)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276457541> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276457541 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen So (co So 3)"@en,
+        "Trường Mầm non Yên Sở (cơ sở 3)"@vi ;
+    geo:asWKT "POINT(105.8640444 20.9612599)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276457545> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276457545 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Kim"@en,
+        "Trường Mầm non Đại Kim"@vi ;
+    geo:asWKT "POINT(105.8155596 20.9789381)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276457548> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276457548 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thinh Liet"@en,
+        "Trường Mầm non Thịnh Liệt"@vi ;
+    geo:asWKT "POINT(105.8460919 20.9744944)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276457552> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276457552 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tran Phu"@en,
+        "Trường Mầm non Trần Phú"@vi ;
+    geo:asWKT "POINT(105.8844754 20.974153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276457555> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276457555 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Son Ca"@en,
+        "Trường Mầm non Sơn Ca"@vi ;
+    geo:asWKT "POINT(105.8883599 20.9957562)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276674287> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674287 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Liet (co So Linh Dam)"@en,
+        "Trường Mầm non Hoàng Liệt (cơ sở Linh Đàm)"@vi ;
+    geo:asWKT "POINT(105.8356447 20.9669878)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276674290> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674290 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinh Hung"@en,
+        "Trường Mầm non Vĩnh Hưng"@vi ;
+    geo:asWKT "POINT(105.8776332 20.9877356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276674292> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674292 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Linh Nam (co So 2)"@en,
+        "Trường Mầm non Lĩnh Nam (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.8861812 20.9864265)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1276674294> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1276674294 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Linh Nam (co So 3)"@en,
+        "Trường Mầm non Lĩnh Nam (cơ sở 3)"@vi ;
+    geo:asWKT "POINT(105.8935539 20.9757524)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278002255> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278002255 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lomonoxop Duong Noi"@en,
+        "Trường Mầm non Lômônôxốp Dương Nội"@vi ;
+    geo:asWKT "POINT(105.7429577 20.9839785)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278002262> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278002262 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Froebel"@en,
+        "Trường Mầm non Froebel"@vi ;
+    geo:asWKT "POINT(105.7430548 20.9866802)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278002274> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278002274 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Thoi Dai - Fun Academy"@en,
+        "Trường Mầm non Tân Thời Đại - Fun Academy"@vi ;
+    geo:asWKT "POINT(105.7327906 20.9942358)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051289> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051289 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bach Khoa"@en,
+        "Trường Mầm non Bách Khoa"@vi ;
+    geo:asWKT "POINT(105.8486525 21.0012921)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051292> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "53" ;
+    ext:addr_street "Phố Lê Đại Hành" ;
+    ext:osm_id 1278051292 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Le Dai Hanh"@en,
+        "Trường Mầm non Lê Đại Hành"@vi ;
+    geo:asWKT "POINT(105.847497 21.0117186)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051294> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051294 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường Mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.8526836 21.0047884)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051296> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "20B" ;
+    ext:addr_street "Ngõ 874 Minh Khai" ;
+    ext:osm_id 1278051296 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    geo:asWKT "POINT(105.8700292 21.0035047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051298> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051298 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Luong"@en,
+        "Trường Mầm non Thanh Lương"@vi ;
+    geo:asWKT "POINT(105.8674838 21.0050726)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051299> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Ngõ 19 Phố Lạc Trung" ;
+    ext:osm_id 1278051299 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lac Trung"@en,
+        "Trường Mầm non Lạc Trung"@vi ;
+    geo:asWKT "POINT(105.8623827 21.0019145)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051302> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051302 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Phuong"@en,
+        "Trường Mầm non Hoa Phượng"@vi ;
+    geo:asWKT "POINT(105.8706741 20.9986879)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051305> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051305 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Quynh Loi"@en,
+        "Trường Mầm non Quỳnh Lôi"@vi ;
+    geo:asWKT "POINT(105.8547084 20.9992975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051310> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051310 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Truong Dinh"@en,
+        "Trường Mầm non Trương Định"@vi ;
+    geo:asWKT "POINT(105.846197 20.9958724)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051312> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051312 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Minh Khai"@en,
+        "Trường Mầm non Minh Khai"@vi ;
+    geo:asWKT "POINT(105.8558393 20.9961185)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051314> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "38" ;
+    ext:addr_street "Ngõ Giếng Mứt" ;
+    ext:osm_id 1278051314 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Tam"@en,
+        "Trường Mầm non Đồng Tâm"@vi ;
+    geo:asWKT "POINT(105.849131 20.9983213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051315> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051315 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bach Dang"@en,
+        "Trường Mầm non Bạch Đằng"@vi ;
+    geo:asWKT "POINT(105.8651017 21.0112338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051316> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1278051316 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Dong Mac"@en,
+        "Trường Mẫu giáo Đống Mác"@vi ;
+    geo:asWKT "POINT(105.8580644 21.0126858)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1278051319> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "31" ;
+    ext:addr_street "Phố Thi Sách" ;
+    ext:osm_id 1278051319 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ngo Thi Nham"@en,
+        "Trường Mầm non Ngô Thì Nhậm"@vi ;
+    geo:asWKT "POINT(105.8543341 21.0162659)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12786296775> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 12786296775 ;
+    ext:osm_type "node" ;
+    schema:name "Lop Kindergarten Doc Lap Khai Minh Duc"@en,
+        "Lớp mầm non độc lập Khai Minh Đức"@vi ;
+    geo:asWKT "POINT(105.7546334 20.9826387)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12816605235> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 12816605235 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Ngoc Thuy"@en,
+        "Trường Mầm non Ngọc Thuỵ"@vi ;
+    geo:asWKT "POINT(105.8704758 21.0529053)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12836590802> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 12836590802 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Bup Sen Hong"@en,
+        "Trường Mầm non Búp Sen Hồng"@vi ;
+    geo:asWKT "POINT(105.7819623 20.9784317)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12855851469> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_district "quận Nam Từ Liêm" ;
+    ext:addr_street "Phố Mễ Trì Hạ" ;
+    ext:osm_id 12855851469 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Lomonoxop"@en,
+        "Trường Mầm non Lômônôxốp"@vi ;
+    geo:asWKT "POINT(105.7805396 21.0152071)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12857790361> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "323" ;
+    ext:addr_street "Đường Lương Thế Vinh" ;
+    ext:osm_id 12857790361 ;
+    ext:osm_type "node" ;
+    schema:name "Casa Dei Piccioni"@en,
+        "Casa Dei Piccioni"@vi ;
+    geo:asWKT "POINT(105.7921977 20.9935153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874284> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874284 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Vinh Quynh"@en,
+        "Trường Mầm non xã Vĩnh Quỳnh"@vi ;
+    geo:asWKT "POINT(105.8303022 20.9329464)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874287> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874287 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Quynh Do"@en,
+        "Trường Mầm non Quỳnh Đô"@vi ;
+    geo:asWKT "POINT(105.8352031 20.9358038)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874289> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874289 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Van Phuc (co So 2)"@en,
+        "Trường Mầm non A xã Vạn Phúc (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.8957363 20.9234514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874290> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874290 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Van Phuc"@en,
+        "Trường Mầm non A xã Vạn Phúc"@vi ;
+    geo:asWKT "POINT(105.9015916 20.9199346)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874293> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874293 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Van Phuc"@en,
+        "Trường Mầm non B xã Vạn Phúc"@vi ;
+    geo:asWKT "POINT(105.8868122 20.9104933)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285874323> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285874323 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Ngoc Hoi"@en,
+        "Trường Mầm non A xã Ngọc Hồi"@vi ;
+    geo:asWKT "POINT(105.8469338 20.9223753)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885819> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885819 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten B Xa Ngoc Hoi"@en,
+        "Trường Mầm non B xã Ngọc Hồi"@vi ;
+    geo:asWKT "POINT(105.8335274 20.9240843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885822> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885822 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ta Thanh Oai a"@en,
+        "Trường Mầm non Tả Thanh Oai A"@vi ;
+    geo:asWKT "POINT(105.809608 20.9432577)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885823> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885823 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ta Thanh Oai a"@en,
+        "Trường Mầm non Tả Thanh Oai A"@vi ;
+    geo:asWKT "POINT(105.8076803 20.9451603)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885838> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885838 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xa Huu Hoa (co So Thon Phu Dien)"@en,
+        "Trường Mầm non xã Hữu Hoà (cơ sở thôn Phú Diễn)"@vi ;
+    geo:asWKT "POINT(105.8007726 20.9375213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885839> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885839 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ta Thanh Oai B"@en,
+        "Trường Mầm non Tả Thanh Oai B"@vi ;
+    geo:asWKT "POINT(105.8047389 20.931757)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885841> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885841 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ta Thanh Oai B (co So 3)"@en,
+        "Trường Mầm non Tả Thanh Oai B (cơ sở 3)"@vi ;
+    geo:asWKT "POINT(105.8073091 20.9224671)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1285885843> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1285885843 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ta Thanh Oai B (co So 2)"@en,
+        "Trường Mầm non Tả Thanh Oai B (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.7933212 20.9279609)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1286150997> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "3" ;
+    ext:addr_street "Phố Nguyễn Xuân Nham" ;
+    ext:osm_id 1286150997 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Binh Minh"@en,
+        "Trường Mầm non Bình Minh"@vi ;
+    geo:asWKT "POINT(105.7893604 21.0193671)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1287008825> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "6" ;
+    ext:addr_street "Ngõ 55 Dịch Vọng" ;
+    ext:osm_id 1287008825 ;
+    ext:osm_type "way" ;
+    schema:name "Nhom Tre Nu Cuoi Be Tho"@en,
+        "Nhóm trẻ Nụ Cười Bé Thơ"@vi ;
+    geo:asWKT "POINT(105.7926195 21.0305202)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288212356> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288212356 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Than Dong - Bright School"@en,
+        "Trường Mầm non Thần Đồng - Bright School"@vi ;
+    geo:asWKT "POINT(105.7871709 20.9730075)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288257795> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288257795 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Cong (co So 3)"@en,
+        "Trường Mầm non Định Công (cơ sở 3)"@vi ;
+    geo:asWKT "POINT(105.8283929 20.9793961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288257798> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288257798 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Cong (co So 3)"@en,
+        "Trường Mầm non Định Công (cơ sở 3)"@vi ;
+    geo:asWKT "POINT(105.8235768 20.9833118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288280929> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288280929 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Khanh a"@en,
+        "Trường Mầm non An Khánh A"@vi ;
+    geo:asWKT "POINT(105.7120476 21.0079324)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288280940> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288280940 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Khanh C"@en,
+        "Trường Mầm non An Khánh C"@vi ;
+    geo:asWKT "POINT(105.7255381 21.0056188)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288280943> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288280943 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Khanh a"@en,
+        "Trường Mầm non An Khánh A"@vi ;
+    geo:asWKT "POINT(105.7197942 21.0072596)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288280945> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288280945 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Khanh B"@en,
+        "Trường Mầm non An Khánh B"@vi ;
+    geo:asWKT "POINT(105.7230517 20.9923455)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1288280946> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1288280946 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Khanh C"@en,
+        "Trường Mầm non An Khánh C"@vi ;
+    geo:asWKT "POINT(105.7179176 21.0027797)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12890263429> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Khu biệt thự Roman Plaza" ;
+    ext:osm_id 12890263429 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Shining Star"@en,
+        "Trường Mầm non Shining Star"@vi ;
+    geo:asWKT "POINT(105.7777515 20.9857985)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12912125108> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "ngõ 34 Phố Vũ Trọng Khánh" ;
+    ext:osm_id 12912125108 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Mo Lao (co So 2)"@en,
+        "Trường Mầm non Mỗ Lao (cơ sở 2)"@vi ;
+    geo:asWKT "POINT(105.784364 20.9818327)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:12913952632> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 102 Trần Phú" ;
+    ext:osm_id 12913952632 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Mo Lao (co So 1)"@en,
+        "Trường Mầm non Mỗ Lao (cơ sở 1)"@vi ;
+    geo:asWKT "POINT(105.784649 20.9792099)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291637449> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291637449 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Thuong a"@en,
+        "Trường Mầm non An Thượng A"@vi ;
+    geo:asWKT "POINT(105.7043444 20.9935505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291637459> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291637459 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten an Thuong B"@en,
+        "Trường Mầm non An Thượng B"@vi ;
+    geo:asWKT "POINT(105.7060359 20.9910696)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291637473> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291637473 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Di Trach"@en,
+        "Trường Mầm non Di Trạch"@vi ;
+    geo:asWKT "POINT(105.7219812 21.0454086)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291637483> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291637483 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong La a"@en,
+        "Trường Mầm non Đông La A"@vi ;
+    geo:asWKT "POINT(105.7235683 20.968087)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291637485> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291637485 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong La B"@en,
+        "Trường Mầm non Đông La B"@vi ;
+    geo:asWKT "POINT(105.7252888 20.9625737)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291683314> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291683314 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duc Giang a"@en,
+        "Trường Mầm non Đức Giang A"@vi ;
+    geo:asWKT "POINT(105.7028948 21.056916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1291683318> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1291683318 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duc Giang a"@en,
+        "Trường Mầm non Đức Giang A"@vi ;
+    geo:asWKT "POINT(105.7052221 21.0601742)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1296054200> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296054200 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Ngach 164/61 Duong Y La"@en,
+        "Trường mầm non tại Ngách 164/61 Đường Ỷ La"@vi ;
+    geo:asWKT "POINT(105.7351228 20.9720557)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1296054206> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296054206 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten La Phu"@en,
+        "Trường Mầm non La Phù"@vi ;
+    geo:asWKT "POINT(105.7315312 20.9817386)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1296054218> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1296054218 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lai Yen"@en,
+        "Trường Mầm non Lại Yên"@vi ;
+    geo:asWKT "POINT(105.7087922 21.0260735)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1302810938> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Đường Hoàng Diệu" ;
+    ext:osm_id 1302810938 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Dao"@en,
+        "Trường Mầm non Hoa Đào"@vi ;
+    schema:telephone "+84 438436513" ;
+    schema:url <https://mnhoadao.badinh.edu.vn/> ;
+    geo:asWKT "POINT(105.8394725 21.0404843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1303219022> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303219022 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ngo Thi Nham"@en,
+        "Trường Mầm non Ngô Thì Nhậm"@vi ;
+    geo:asWKT "POINT(105.8538991 21.0167362)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1303224796> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1303224796 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nga Tu So"@en,
+        "Trường Mầm non Ngã Tư Sở"@vi ;
+    geo:asWKT "POINT(105.8247868 21.0052429)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1305667335> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1305667335 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 59"@en,
+        "Trường Mầm non 59"@vi ;
+    geo:asWKT "POINT(105.8420951 21.0320092)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1306087175> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Quận Ba Đình" ;
+    ext:addr_housenumber "147" ;
+    ext:addr_street "Phố Nguyễn Thái Học" ;
+    ext:osm_id 1306087175 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 1/6"@en,
+        "Trường Mầm non 1/6"@vi ;
+    geo:asWKT "POINT(105.8334441 21.0310011)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1307642368> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1307642368 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hat De Cuoi"@en,
+        "Trường mầm non Hạt Dẻ Cười"@vi ;
+    geo:asWKT "POINT(105.9063772 21.0197268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1313139537> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1313139537 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ngo Thi Nham"@en,
+        "Trường Mầm non Ngô Thì Nhậm"@vi ;
+    geo:asWKT "POINT(105.770103 20.9710218)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1314119672> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1314119672 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuong Mai"@en,
+        "Trường Mầm non Phương Mai"@vi ;
+    geo:asWKT "POINT(105.8368269 21.0005769)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:13185444841> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Tô Hiệu" ;
+    ext:osm_id 13185444841 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten to Quyen"@en,
+        "Trường mầm Non Tô Quyền"@vi ;
+    geo:asWKT "POINT(105.9923258 20.9564505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1318588383> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Cao Xuân Huy" ;
+    ext:osm_id 1318588383 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Le Quy Don"@en,
+        "Trường Mầm non Lê Quý Đôn"@vi ;
+    geo:asWKT "POINT(105.7670993 21.0324737)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1318588409> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1318588409 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Anh Dao"@en,
+        "Trường Mầm non Hoa Anh Đào"@vi ;
+    geo:asWKT "POINT(105.7629209 21.0315291)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1318588410> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1318588410 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Cau Dien"@en,
+        "Trường Mầm non Cầu Diễn"@vi ;
+    geo:asWKT "POINT(105.7627966 21.0337593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1318588424> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1318588424 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hat Giong Vang"@en,
+        "Trường Mầm non Hạt Giống Vàng"@vi ;
+    geo:asWKT "POINT(105.760909 21.0321691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1326230587> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1326230587 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ban Mai Xanh"@en,
+        "Trường Mầm non Ban Mai Xanh"@vi ;
+    geo:asWKT "POINT(105.9202266 21.0534655)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:13282395201> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "61" ;
+    ext:addr_street "Vườn Đào" ;
+    ext:osm_id 13282395201 ;
+    ext:osm_type "node" ;
+    schema:name "Thuc Nghiem"@en,
+        "Thực Nghiệm"@vi ;
+    geo:asWKT "POINT(105.814401 21.078093)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:13323325341> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 13323325341 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten Hoa Sua"@en,
+        "MẦM NON HOA SỮA"@vi ;
+    geo:asWKT "POINT(105.9563391 20.9457843)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1363278231> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1363278231 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Canh B"@en,
+        "Trường Mầm non Vân Canh B"@vi ;
+    geo:asWKT "POINT(105.7328112 21.0277833)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1364763394> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 124 Phố Hòe Thị" ;
+    ext:osm_id 1364763394 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuong Canh 2"@en,
+        "Trường Mầm non Phương Canh 2"@vi ;
+    geo:asWKT "POINT(105.7451049 21.0392002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1376687639> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1376687639 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duc Thang"@en,
+        "Trường Mầm non Đức Thắng"@vi ;
+    geo:asWKT "POINT(105.7740484 21.0802675)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1376687641> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1376687641 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Tang Bi"@en,
+        "Trường Mầm non Hoàng Tăng Bí"@vi ;
+    geo:asWKT "POINT(105.7822385 21.0804846)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1384378027> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Nguyệt Quế 18" ;
+    ext:osm_id 1384378027 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinschool the Harmony"@en,
+        "Trường Mầm non Vinschool The Harmony"@vi ;
+    geo:asWKT "POINT(105.9080438 21.0436253)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1384713638> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 193 Cầu Cốc" ;
+    ext:osm_id 1384713638 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tay Mo a"@en,
+        "Trường Mầm non Tây Mỗ A"@vi ;
+    geo:asWKT "POINT(105.7441598 20.9989905)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1386134009> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386134009 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hang Dao"@en,
+        "Trường Mầm non Hàng Đào"@vi ;
+    geo:asWKT "POINT(105.7914969 20.9467588)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1386134010> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386134010 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Binh Minh"@en,
+        "Trường Mầm non Bình Minh"@vi ;
+    geo:asWKT "POINT(105.7890373 20.9499513)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1386134011> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386134011 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Cong"@en,
+        "Trường Mầm non Hoàng Công"@vi ;
+    geo:asWKT "POINT(105.7913403 20.9482768)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1386134012> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386134012 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường Mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.7769566 20.9668472)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1386515334> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1386515334 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Lap B"@en,
+        "Trường Mầm non Tân Lập B"@vi ;
+    geo:asWKT "POINT(105.7059408 21.0804282)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1395904789> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_district "quận Nam Từ Liêm" ;
+    ext:addr_street "Ngõ 223 Đường Phương Canh" ;
+    ext:osm_id 1395904789 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Xuan Phuong"@en,
+        "Trường Mầm non Xuân Phương"@vi ;
+    geo:asWKT "POINT(105.7416123 21.0329109)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1411925705> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Cổ Pháp" ;
+    ext:osm_id 1411925705 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Bang 2"@en,
+        "Trường Mầm non Đình Bảng 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9528154 21.1084948)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1413269777> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1413269777 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nguyen Tuan"@en,
+        "Trường Mầm non Nguyễn Tuân"@vi ;
+    geo:asWKT "POINT(105.8049601 20.9956629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1416268917> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1416268917 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mai"@en,
+        "Trường Mầm non Hoa Mai"@vi ;
+    geo:asWKT "POINT(105.7682543 20.9776959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1416778183> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Tiền Thành" ;
+    ext:osm_id 1416778183 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Sen Hong"@en,
+        "Trường Mầm non Sen Hồng"@vi ;
+    geo:asWKT "POINT(105.7435086 20.9899024)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1419396171> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_housenumber "255" ;
+    ext:addr_street "Đường Văn Tiến Dũng" ;
+    ext:osm_id 1419396171 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Market So 2"@en,
+        "Trường Mầm non Thị trấn Chờ số 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Huyện Yên Phong" ;
+    geo:asWKT "POINT(105.9547768 21.1930562)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1420982261> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1420982261 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Asg to Huu"@en,
+        "Trường Mầm non ASG Tố Hữu"@vi ;
+    geo:asWKT "POINT(105.776374 20.9830552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1422108006> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Tiên Du" ;
+    ext:osm_id 1422108006 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Lam 2"@en,
+        "Trường Mầm non Phú Lâm 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Huyện Tiên Du" ;
+    geo:asWKT "POINT(105.9828677 21.1689413)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1423063985> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Kim Đài" ;
+    ext:osm_id 1423063985 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ly Khanh Van"@en,
+        "Trường Mầm non Lý Khánh Văn"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9461237 21.1081578)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1424958540> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "69" ;
+    ext:addr_street "Phố Tam Lư 1" ;
+    ext:osm_id 1424958540 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Nguyen 2"@en,
+        "Trường Mầm non Đồng Nguyên 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9788944 21.1225554)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1424958566> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 1424958566 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Hong 1"@en,
+        "Trường Mầm non Tân Hồng 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9668828 21.1030033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1426348039> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Chung Cư Nam Đô Complex CT1" ;
+    ext:osm_id 1426348039 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vuon Xanh Nam Do"@en,
+        "Trường Mầm non Vườn Xanh Nam Đô"@vi ;
+    geo:asWKT "POINT(105.8450163 20.9788532)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1429021193> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Tổ 7, Khu C - Đất dịch vụ Yên Nghĩa" ;
+    ext:osm_id 1429021193 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Le Trong Tan"@en,
+        "Trường Mầm non Lê Trọng Tấn"@vi ;
+    geo:asWKT "POINT(105.7432668 20.9576597)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1431183769> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Phố Tu Hoàng" ;
+    ext:osm_id 1431183769 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuong Canh"@en,
+        "Trường Mầm non Phương Canh"@vi ;
+    geo:asWKT "POINT(105.7295081 21.0522132)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1432249316> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Đỗ Tông" ;
+    ext:osm_id 1432249316 ;
+    ext:osm_type "way" ;
+    schema:name "Mau Giao Tai Duong Do Tong"@en,
+        "Mẫu giáo tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9569461 20.9404942)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1432249317> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Đường Đỗ Tông" ;
+    ext:osm_id 1432249317 ;
+    ext:osm_type "way" ;
+    schema:name "Mau Giao Tai Duong Do Tong"@en,
+        "Mẫu giáo tại Đường Đỗ Tông"@vi ;
+    geo:asWKT "POINT(105.9567824 20.9408542)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1433526116> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1433526116 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    geo:asWKT "POINT(105.84607 20.9541025)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1433954417> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_street "Phố Lương Nhượng" ;
+    ext:osm_id 1433954417 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Market So 1"@en,
+        "Trường Mầm non Thị trấn Chờ số 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Huyện Yên Phong" ;
+    geo:asWKT "POINT(105.9484301 21.1922233)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1433954427> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:addr_street "Ngõ 417 Đường Văn Tiến Dũng" ;
+    ext:osm_id 1433954427 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Market So 2"@en,
+        "Trường Mầm non Thị trấn Chờ số 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Huyện Yên Phong" ;
+    geo:asWKT "POINT(105.9554223 21.1887038)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1434535538> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1434535538 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Duong to Hieu"@en,
+        "Trường mầm non tại Đường Tô Hiệu"@vi ;
+    geo:asWKT "POINT(105.9924314 20.9564212)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1434819116> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1434819116 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Tu Hiep (diem Cuong Ngo 2)"@en,
+        "Trường Mầm non A Tứ Hiệp (điểm Cương Ngô 2)"@vi ;
+    geo:asWKT "POINT(105.8503804 20.9448201)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1435261838> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Huyện Yên Phong" ;
+    ext:osm_id 1435261838 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trung Nghia"@en,
+        "Trường Mầm non Trung Nghĩa"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Huyện Yên Phong" ;
+    geo:asWKT "POINT(105.9632543 21.1843445)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1436337183> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1436337183 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thach Cau"@en,
+        "Trường Mầm non Thạch Cầu"@vi ;
+    geo:asWKT "POINT(105.8788116 21.0231947)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1436337184> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1436337184 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Long Bien"@en,
+        "Trường Mầm non Long Biên"@vi ;
+    geo:asWKT "POINT(105.8937928 21.0269552)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1441947154> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Đồng Cẩm" ;
+    ext:osm_id 1441947154 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Nguyen 1"@en,
+        "Trường Mầm non Đồng Nguyên 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9659959 21.1269305)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1444628974> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444628974 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Tien"@en,
+        "Trường Mầm non Tân Tiến"@vi ;
+    geo:asWKT "POINT(105.9589912 20.9198138)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1444628983> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1444628983 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Binh Ha"@en,
+        "Trường Màm non Hòa Bình Hạ"@vi ;
+    geo:asWKT "POINT(105.9654277 20.92745)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1447145285> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Sùng Ân" ;
+    ext:osm_id 1447145285 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuong Giang 2"@en,
+        "Trường Mầm non Tương Giang 2"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9926988 21.1448757)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1447156799> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Tiêu Tương" ;
+    ext:osm_id 1447156799 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuong Giang 1"@en,
+        "Trường Mầm non Tương Giang 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9855319 21.1361249)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1447156802> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Nghiêm Xá" ;
+    ext:osm_id 1447156802 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuong Giang 1"@en,
+        "Trường Mầm non Tương Giang 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9936138 21.1341567)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1447728092> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 1447728092 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Khe"@en,
+        "Trường Mầm non Phù Khê"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9329814 21.1459916)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1448609502> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Me" ;
+    ext:osm_id 1448609502 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Huong Mac"@en,
+        "Trường Mầm non Hương Mạc"@vi ;
+    geo:asWKT "POINT(105.9315888 21.155116)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:1452766641> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 1452766641 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Duong Pho Duc Chinh"@en,
+        "Trường mầm non tại Đường Phó Đức Chính"@vi ;
+    geo:asWKT "POINT(105.9562784 20.9457606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:17536868> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 381 Phố Bạch Mai" ;
+    ext:osm_id 17536868 ;
+    ext:osm_type "relation" ;
+    schema:name "Truong Kindergarten Tuoi Hoa"@en,
+        "Trường Mầm non Tuổi Hoa"@vi ;
+    geo:asWKT "POINT(105.8509352 20.9995732)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:18314367> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_street "Ngõ 48 Phố Nguyễn Chánh" ;
+    ext:osm_id 18314367 ;
+    ext:osm_type "relation" ;
+    schema:name "Truong Kindergarten Son Ca"@en,
+        "Trường Mầm non Sơn Ca"@vi ;
+    geo:asWKT "POINT(105.7950215 21.0098658)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:2136318869> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 2136318869 ;
+    ext:osm_type "node" ;
+    schema:name "Qsi School"@en,
+        "QSI School"@vi ;
+    geo:asWKT "POINT(105.8234341 21.0662671)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:2136318889> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 2136318889 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Quoc Te Morning Star"@en,
+        "Trường Quốc Tế Morning Star"@vi ;
+    geo:asWKT "POINT(105.8206957 21.0675757)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:246257102> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 246257102 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoang Liet (co So Bang A)"@en,
+        "Trường Mầm non Hoàng Liệt (cơ sở Bằng A)"@vi ;
+    geo:asWKT "POINT(105.8202199 20.9624027)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:2701031043> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 2701031043 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Mau Giao Long Hung"@en,
+        "Trường Mẫu Giáo Long Hưng"@vi ;
+    geo:asWKT "POINT(105.957013 20.9408583)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:291267016> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_postcode "10000" ;
+    ext:addr_street "Ngõ 100 Hoàng Quốc Việt" ;
+    ext:osm_id 291267016 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Hoa"@en,
+        "Trường Mầm non Tuổi Hoa"@vi ;
+    geo:asWKT "POINT(105.7952876 21.0493543)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:324549027> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:addr_housenumber "Ngõ 54" ;
+    ext:addr_street "Ngõ 54 Bùi Xương Trạch" ;
+    ext:osm_id 324549027 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Khuong Dinh"@en,
+        "Trường Mầm non Khương Đình"@vi ;
+    geo:asWKT "POINT(105.8168091 20.9911224)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:3477864693> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 3477864693 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Tt Kid's House"@en,
+        "Trường Mầm non TT Kid's House"@vi ;
+    geo:asWKT "POINT(105.8120138 21.0080664)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:398276489> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_street "Phú Diễn" ;
+    ext:osm_id 398276489 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ho Tung Mau"@en,
+        "Trường Mầm non Hồ Tùng Mậu"@vi ;
+    geo:asWKT "POINT(105.7649768 21.0472004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:4066099003> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "B11 dự án 181" ;
+    ext:addr_street "Nguyễn Lương Bằng" ;
+    ext:osm_id 4066099003 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Magic Star"@en,
+        "Trường Mầm Non Magic Star"@vi ;
+    geo:asWKT "POINT(105.8288002 21.0145449)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:426733615> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:osm_id 426733615 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuc Nghiem Hoa Hong"@en,
+        "Trường Mầm non Thực nghiệm Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.8200265 21.0064339)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:457741993> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:osm_id 457741993 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trang an"@en,
+        "Trường Mầm non Tràng An"@vi ;
+    geo:asWKT "POINT(105.8011343 20.9917383)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:4631390666> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 4631390666 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Hoa Thuy Tien"@en,
+        "Trường Mầm Non Hoa Thuỷ Tiên"@vi ;
+    geo:asWKT "POINT(105.8642926 21.0126114)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:4631390668> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 4631390668 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Thang Long"@en,
+        "Trường Mầm Non Thăng Long"@vi ;
+    geo:asWKT "POINT(105.8653655 21.0120681)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:4886771716> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:osm_id 4886771716 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten My Dinh 1"@en,
+        "Trường Mầm non Mỹ Đình 1"@vi ;
+    geo:asWKT "POINT(105.7751898 21.0220567)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:4941327921> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "230" ;
+    ext:addr_street "Tựu Liệt" ;
+    ext:osm_id 4941327921 ;
+    ext:osm_type "node" ;
+    schema:email "mamnonhoami2015@gmail.com" ;
+    schema:name "Truong Kindergarten Hoa Mi"@en,
+        "Trường Mầm Non Hoạ Mi"@vi ;
+    schema:openingHours "Mo-Sa" ;
+    schema:telephone "0984227060" ;
+    geo:asWKT "POINT(105.8351471 20.9529434)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:527458655> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 527458655 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Phuc - Khu B"@en,
+        "Trường Mầm non Vạn Phúc - khu B"@vi ;
+    geo:asWKT "POINT(105.7752737 20.9800943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:527458969> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 527458969 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Van Phuc"@en,
+        "Trường Mầm non Vạn Phúc"@vi ;
+    geo:asWKT "POINT(105.7749238 20.9805817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:5296714078> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 5296714078 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Mau Giao Van Canh"@en,
+        "Trường Mẫu Giáo Vân Canh"@vi ;
+    geo:asWKT "POINT(105.7311405 21.0357119)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:5485875444> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 5485875444 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Ngoi Sao Xanh"@en,
+        "Trường Mầm Non Ngôi Sao Xanh"@vi ;
+    geo:asWKT "POINT(105.9058378 21.0364282)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:5662972422> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 5662972422 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Ngoi Sao Sang"@en,
+        "Trường mầm non Ngôi sao sáng"@vi ;
+    geo:asWKT "POINT(105.8382808 21.0517639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:569806136> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Đào Duy Anh" ;
+    ext:osm_id 569806136 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Da"@en,
+        "Trường Mầm non Đống Đa"@vi ;
+    geo:asWKT "POINT(105.8373917 21.0089275)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:576213260> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 576213260 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuong Cat"@en,
+        "Trường Mầm non Thượng Cát"@vi ;
+    geo:asWKT "POINT(105.7323133 21.0964836)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:577155264> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Lý Khánh Văn" ;
+    ext:osm_id 577155264 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Bang 1"@en,
+        "Trường Mầm non Đình Bảng 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.949764 21.1076696)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:582087502> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_street "Hẻm 640/21/16 Nguyễn Văn Cừ" ;
+    ext:osm_id 582087502 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Gia Thuy"@en,
+        "Trường mầm non Gia Thụy"@vi ;
+    geo:asWKT "POINT(105.8887356 21.0523399)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:582711689> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Long Biên" ;
+    ext:addr_street "Ngách 66/92 Ngọc Lâm" ;
+    ext:osm_id 582711689 ;
+    ext:osm_type "way" ;
+    schema:name "San Truong Kindergarten Son Ca"@en,
+        "sân trường mầm non Sơn ca"@vi ;
+    geo:asWKT "POINT(105.8687227 21.0418723)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:642181125> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 642181125 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.7065954 21.0676666)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:646377850> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 646377850 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Ngo 71 Duong Kim Chung"@en,
+        "Trường mầm non tại Ngõ 71 Đường Kim Chung"@vi ;
+    geo:asWKT "POINT(105.7069929 21.0514002)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:646377852> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 646377852 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Chung a"@en,
+        "Trường Mầm non Kim Chung A"@vi ;
+    geo:asWKT "POINT(105.706693 21.0508768)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:647397165> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Ngô Dịch" ;
+    ext:osm_id 647397165 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tam Son So 1"@en,
+        "Trường Mầm non Tam Sơn số 1"@vi ;
+    geo:asWKT "POINT(105.9761422 21.1481629)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:648729038> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_housenumber "1" ;
+    ext:addr_street "Phố Nội Trì" ;
+    ext:osm_id 648729038 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Hong 1"@en,
+        "Trường Mầm non Tân Hồng 1"@vi ;
+    geo:asWKT "POINT(105.9722151 21.1090176)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:650062378> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 650062378 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Duong Ly Thuong Kiet"@en,
+        "Trường mầm non tại Đường Lý Thường Kiệt"@vi ;
+    geo:asWKT "POINT(105.9272323 21.1189598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:650062440> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 650062440 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Nghia Lap"@en,
+        "Trường Mầm non Nghĩa Lập"@vi ;
+    geo:asWKT "POINT(105.9304276 21.1345882)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:651503561> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Phố Nguyễn Đức Đôn" ;
+    ext:osm_id 651503561 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuong Giang 1"@en,
+        "Trường Mầm non Tương Giang 1"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.98285 21.1354969)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:651520265> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 651520265 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Noi Due"@en,
+        "Trường Mầm non Nội Duệ"@vi ;
+    geo:asWKT "POINT(105.9996698 21.1348165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:6516239586> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 6516239586 ;
+    ext:osm_type "node" ;
+    schema:name "Tran Quoc Toan"@en,
+        "Trần Quốc Toản"@vi ;
+    geo:asWKT "POINT(105.7485758 20.9800852)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:653161623> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:addr_street "Đường Nguyễn Thì Phùng" ;
+    ext:osm_id 653161623 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phu Loc"@en,
+        "Trường Mầm non Phù Lộc"@vi ;
+    geo:asWKT "POINT(105.9754005 21.0990598)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:6579800157> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 6579800157 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Nang Mai"@en,
+        "Trường Mầm non Nắng Mai"@vi ;
+    geo:asWKT "POINT(105.8484596 21.0388525)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659860788> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860788 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duong Ha"@en,
+        "Trường Mầm non Dương Hà"@vi ;
+    geo:asWKT "POINT(105.9275942 21.0753902)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659860793> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860793 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thon Thuong"@en,
+        "Trường Mầm non Thôn Thượng"@vi ;
+    geo:asWKT "POINT(105.9299344 21.0749209)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659860828> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860828 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.9247082 21.0793508)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659860849> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860849 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường Mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.919578 21.084955)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659860852> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659860852 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thi Tran Yen Vien"@en,
+        "Trường Mầm non Thị trấn Yên Viên"@vi ;
+    geo:asWKT "POINT(105.9202527 21.085804)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:659915631> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 659915631 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dinh Xuyen"@en,
+        "Trường Mầm non Đình Xuyên"@vi ;
+    geo:asWKT "POINT(105.9344029 21.0779968)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:660703659> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 660703659 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sua"@en,
+        "Trường Mầm non Hoa Sữa"@vi ;
+    geo:asWKT "POINT(105.9200156 21.0953229)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:661138318> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 661138318 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen Thuong"@en,
+        "Trường Mầm non Yên Thường"@vi ;
+    geo:asWKT "POINT(105.9047487 21.0949489)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:661138403> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 661138403 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen Thuong"@en,
+        "Trường Mầm non Yên Thường"@vi ;
+    geo:asWKT "POINT(105.9148664 21.1002604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:661161571> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Bắc Ninh" ;
+    ext:addr_district "Thành phố Từ Sơn" ;
+    ext:osm_id 661161571 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Huong Mac"@en,
+        "Trường Mầm non Hương Mạc"@vi ;
+    schema:operator "Phòng Giáo dục và Đào tạo Thành phố Từ Sơn" ;
+    geo:asWKT "POINT(105.9276468 21.1505597)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:661451794> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 661451794 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Dong"@en,
+        "Trường Mầm non Đại Đồng"@vi ;
+    geo:asWKT "POINT(105.991023 21.0893782)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:661451825> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 661451825 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thon Duong Huc"@en,
+        "Trường Mầm non Thôn Dương Húc"@vi ;
+    geo:asWKT "POINT(105.9857626 21.096999)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:6666528207> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "17" ;
+    ext:addr_street "Ngõ 103 Lý Sơn" ;
+    ext:osm_id 6666528207 ;
+    ext:osm_type "node" ;
+    schema:name "Z Kids Preschool"@en,
+        "Z Kids Preschool"@vi ;
+    geo:asWKT "POINT(105.8799179 21.0652911)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:677797196> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 677797196 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Yen My"@en,
+        "Trường Mầm non Yên Mỹ"@vi ;
+    geo:asWKT "POINT(105.8712624 20.9425726)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:6812118285> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 6812118285 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten at Duong Le Dinh Thiep"@en,
+        "Trường mầm non tại Đường Lê Đình Thiệp"@vi ;
+    geo:asWKT "POINT(105.846746 21.1391376)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:682239143> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 682239143 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thien Duong Tre Tho"@en,
+        "Trường Mầm Non Thiên Đường Trẻ Thơ"@vi ;
+    geo:asWKT "POINT(105.9101533 21.0624104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:6840536785> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 6840536785 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten at Pho Hoai Thanh"@en,
+        "Trường mầm non tại Phố Hoài Thanh"@vi ;
+    geo:asWKT "POINT(105.7663588 21.0295452)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:689353214> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "123" ;
+    ext:addr_street "Phố An Xá" ;
+    ext:osm_id 689353214 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 8"@en,
+        "Trường Mẫu giáo số 8"@vi ;
+    geo:asWKT "POINT(105.8510785 21.0447269)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:699065682> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 699065682 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Co Nhue 2"@en,
+        "Trường Mầm non Cổ Nhuế 2"@vi ;
+    geo:asWKT "POINT(105.7783044 21.0620641)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:699218310> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "7" ;
+    ext:addr_postcode "1000" ;
+    ext:addr_street "Cầu Vồng" ;
+    ext:osm_id 699218310 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tuoi Hoa"@en,
+        "Trường Mầm non Tuổi Hoa"@vi ;
+    schema:openingHours "Mo-Sa 08:00-18:00" ;
+    geo:asWKT "POINT(105.775576 21.0772942)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:699905158> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 699905158 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Chu Van an"@en,
+        "Trường Mầm non Chu Văn An"@vi ;
+    geo:asWKT "POINT(105.8312835 21.0420006)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:700145148> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "23" ;
+    ext:addr_street "Phố Chu Văn An" ;
+    ext:osm_id 700145148 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a"@en,
+        "Trường Mầm non A"@vi ;
+    geo:asWKT "POINT(105.8364519 21.0307559)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:700654159> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 700654159 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Mi"@en,
+        "Trường Mầm non Hoạ Mi"@vi ;
+    geo:asWKT "POINT(105.8485102 21.0391784)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:700671966> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_housenumber "2" ;
+    ext:addr_street "Phố Phan Huy Ích" ;
+    ext:osm_id 700671966 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao So 3"@en,
+        "Trường Mẫu giáo số 3"@vi ;
+    geo:asWKT "POINT(105.8457637 21.0418286)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:700840704> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "22" ;
+    ext:addr_street "Phố Hàng Buồm" ;
+    ext:osm_id 700840704 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Tuoi Tho"@en,
+        "Trường Mẫu giáo Tuổi thơ"@vi ;
+    geo:asWKT "POINT(105.8522196 21.0363706)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:702456219> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "58" ;
+    ext:addr_street "Phố Ngô Sĩ Liên" ;
+    ext:osm_id 702456219 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Dong"@en,
+        "Trường Mầm non Kim Đồng"@vi ;
+    geo:asWKT "POINT(105.8384625 21.0269432)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:704134607> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "40" ;
+    ext:addr_street "Phố Thợ Nhuộm" ;
+    ext:osm_id 704134607 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 20-10"@en,
+        "Trường Mầm non 20-10"@vi ;
+    geo:asWKT "POINT(105.8444437 21.0260007)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:704250745> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250745 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hong Tien"@en,
+        "Trường Mầm non Hồng Tiến"@vi ;
+    geo:asWKT "POINT(105.8730527 21.039325)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:704250752> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 704250752 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Bo De"@en,
+        "Trường Mầm non Bồ Đề"@vi ;
+    geo:asWKT "POINT(105.8704795 21.0393046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:704292562> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 704292562 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuong Thanh"@en,
+        "Trường Mầm non Thượng Thanh"@vi ;
+    geo:asWKT "POINT(105.8785429 21.0562617)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:711128158> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_housenumber "171" ;
+    ext:addr_street "Phố Hoàng Ngân" ;
+    ext:osm_id 711128158 ;
+    ext:osm_type "way" ;
+    schema:email "louiskindergarten@edu.vn" ;
+    schema:name "Truong Kindergarten Nang Khieu Louis"@en,
+        "Trường Mầm non Năng khiếu Louis"@vi ;
+    schema:telephone "+84 243 960 6666" ;
+    schema:url <http://louiskindergarten.edu.vn/> ;
+    geo:asWKT "POINT(105.8000018 21.0060338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:738808141> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 738808141 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Do Thi Viet Hung"@en,
+        "Trường Mầm non Đô thị Việt Hưng"@vi ;
+    schema:url <https://mndothiviethung.longbien.edu.vn/> ;
+    geo:asWKT "POINT(105.9096838 21.0656094)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:812557719> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "19" ;
+    ext:addr_street "Phố Hoàng Tích Trí" ;
+    ext:osm_id 812557719 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Kim Lien"@en,
+        "Trường Mầm non Kim Liên"@vi ;
+    geo:asWKT "POINT(105.8356056 21.0071708)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:814968070> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "27" ;
+    ext:addr_street "Phố Lương Định Của" ;
+    ext:osm_id 814968070 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sua"@en,
+        "Trường Mầm non Hoa Sữa"@vi ;
+    geo:asWKT "POINT(105.8359384 21.0053719)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:826029900> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 826029900 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.8155775 21.010705)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:839655656> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "100" ;
+    ext:addr_street "Ngõ Xã Đàn 2" ;
+    ext:osm_id 839655656 ;
+    ext:osm_type "way" ;
+    schema:email "c12xadan-dd@hanoiedu.vn" ;
+    schema:name "Truong Ptcs Xa Dan"@en,
+        "Trường PTCS Xã Đàn"@vi ;
+    schema:telephone "+84 24 35725503" ;
+    schema:url <https://ptcsxadanhanoi.com/> ;
+    geo:asWKT "POINT(105.8306027 21.0158765)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:839675221> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 839675221 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Viet Trieu Huu Nghi"@en,
+        "Trường Mẫu giáo Việt Triều Hữu nghị"@vi ;
+    geo:asWKT "POINT(105.8345769 21.0097883)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:840063164> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "4" ;
+    ext:addr_street "Phố Đặng Văn Ngữ" ;
+    ext:osm_id 840063164 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Trung Tu"@en,
+        "Trường Mầm non Trung Tự"@vi ;
+    schema:url <https://mntrungtu.com/> ;
+    geo:asWKT "POINT(105.8326479 21.0084384)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:840613326> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 840613326 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Mau Giao Bach Khoa"@en,
+        "Trường Mẫu giáo Bách Khoa"@vi ;
+    geo:asWKT "POINT(105.8450465 21.0029655)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:8447602009> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:addr_housenumber "323" ;
+    ext:addr_street "Đường Cổ Nhuế" ;
+    ext:osm_id 8447602009 ;
+    ext:osm_type "node" ;
+    schema:name "V34-lop Mau Giao Doc Lap"@en,
+        "V34-Lớp mẫu giáo độc lập"@vi ;
+    geo:asWKT "POINT(105.7793815 21.0652565)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:869731376> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 869731376 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Xuan Trung"@en,
+        "Trường Mầm non Thanh Xuân Trung"@vi ;
+    geo:asWKT "POINT(105.8019714 20.9979474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:871887394> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_housenumber "21" ;
+    ext:addr_street "Phố Nguyên Hồng" ;
+    ext:osm_id 871887394 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Cong"@en,
+        "Trường Mầm non Thành Công"@vi ;
+    geo:asWKT "POINT(105.8125943 21.0213154)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:880261004> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Cầu Giấy" ;
+    ext:addr_street "Phố Trần Tử Bình" ;
+    ext:osm_id 880261004 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Hong"@en,
+        "Trường Mầm non Hoa Hồng"@vi ;
+    geo:asWKT "POINT(105.7922885 21.0425605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:886608539> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 886608539 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Lang Thuong"@en,
+        "Trường Mầm non Láng Thượng"@vi ;
+    geo:asWKT "POINT(105.8025964 21.0225522)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:888367953> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 888367953 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Xuan Bac"@en,
+        "Trường Mầm non Thanh Xuân Bắc"@vi ;
+    geo:asWKT "POINT(105.8003806 20.992878)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:899388710> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 899388710 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Quynh Mai"@en,
+        "Trường Mầm non Quỳnh Mai"@vi ;
+    geo:asWKT "POINT(105.8611841 21.0007573)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:905067705> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 905067705 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Huong Duong"@en,
+        "Trường Mầm non Hoa Hướng Dương"@vi ;
+    geo:asWKT "POINT(105.8244026 20.9667025)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:939977307> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Đống Đa" ;
+    ext:addr_housenumber "28" ;
+    ext:addr_street "Ngõ 27 Phố Cát Linh" ;
+    ext:osm_id 939977307 ;
+    ext:osm_type "way" ;
+    schema:email "mncatlinh-dd@hanoiedu.vn" ;
+    schema:name "Truong Kindergarten Cat Linh"@en,
+        "Trường Mầm non Cát Linh"@vi ;
+    schema:telephone "+84 24 3823 6749" ;
+    schema:url <http://mncatlinhdd.edu.vn/> ;
+    geo:asWKT "POINT(105.8293012 21.0278021)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:939977308> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "79" ;
+    ext:addr_street "Ngõ Cẩm Vân" ;
+    ext:osm_id 939977308 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Son Ca"@en,
+        "Trường Mầm non Sơn Ca"@vi ;
+    geo:asWKT "POINT(105.8289506 21.0214328)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:944300324> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 944300324 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinh Tuy"@en,
+        "Trường Mầm non Vĩnh Tuy"@vi ;
+    geo:asWKT "POINT(105.8740509 20.9975831)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:944513298> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 944513298 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten 8-3"@en,
+        "Trường Mầm non 8-3"@vi ;
+    geo:asWKT "POINT(105.8597135 20.9996648)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:947549858> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 947549858 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thanh Xuan Nam"@en,
+        "Trường Mầm non Thanh Xuân Nam"@vi ;
+    geo:asWKT "POINT(105.8016881 20.9862125)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:947559485> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 947559485 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thang Long"@en,
+        "Trường Mầm non Thăng Long"@vi ;
+    geo:asWKT "POINT(105.8148231 20.9980307)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:957814760> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "39" ;
+    ext:addr_street "Phố Tứ Liên" ;
+    ext:osm_id 957814760 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tu Lien"@en,
+        "Trường Mầm non Tứ Liên"@vi ;
+    geo:asWKT "POINT(105.833319 21.0641956)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:958579270> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Trì" ;
+    ext:osm_id 958579270 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten a Xa Dong My"@en,
+        "Trường Mầm non A xã Đông Mỹ"@vi ;
+    geo:asWKT "POINT(105.8706615 20.9124924)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:958579298> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 958579298 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tan Lap"@en,
+        "Trường Mầm non Tân Lập"@vi ;
+    geo:asWKT "POINT(105.7163424 21.0871728)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:9593958098> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 9593958098 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Kindergarten Kim Chung"@en,
+        "Trường Mầm Non Kim Chung"@vi ;
+    geo:asWKT "POINT(105.7775309 21.13222)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:963227367> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Ba Đình" ;
+    ext:addr_housenumber "81E" ;
+    ext:addr_street "Ngõ 189 Hoàng Hoa Thám" ;
+    ext:osm_id 963227367 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten So 6"@en,
+        "Trường Mầm non số 6"@vi ;
+    schema:url <http://mamnonso6-bd.edu.vn> ;
+    geo:asWKT "POINT(105.8202166 21.039468)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:963227377> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "87" ;
+    ext:addr_street "Vọng Hà" ;
+    ext:osm_id 963227377 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Hoa Sen"@en,
+        "Trường Mầm non Hoa Sen"@vi ;
+    geo:asWKT "POINT(105.8579506 21.0307278)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:963227380> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hoàn Kiếm" ;
+    ext:addr_housenumber "65" ;
+    ext:addr_street "Phố Bà Triệu" ;
+    ext:osm_id 963227380 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Ba Trieu"@en,
+        "Trường Mầm non Bà Triệu"@vi ;
+    geo:asWKT "POINT(105.8496926 21.0190532)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:966177549> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:osm_id 966177549 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Mai"@en,
+        "Trường Mầm non Đồng Mai"@vi ;
+    geo:asWKT "POINT(105.7359166 20.9347046)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:966204367> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:osm_id 966204367 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dong Duong"@en,
+        "Trường Mầm non Đồng Dương"@vi ;
+    geo:asWKT "POINT(105.7384558 20.9245821)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:966204381> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Hà Đông" ;
+    ext:osm_id 966204381 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Duong Noi"@en,
+        "Trường Mầm non Dương Nội"@vi ;
+    geo:asWKT "POINT(105.7460052 20.9751592)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:967020813> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 967020813 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Tay Mo B"@en,
+        "Trường Mầm non Tây Mỗ B"@vi ;
+    geo:asWKT "POINT(105.7392914 21.0169688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:973038813> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:osm_id 973038813 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Mo B"@en,
+        "Trường Mầm non Đại Mỗ B"@vi ;
+    geo:asWKT "POINT(105.7688045 20.9925604)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:973038821> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Nam Từ Liêm" ;
+    ext:osm_id 973038821 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Dai Mo a"@en,
+        "Trường Mầm non Đại Mỗ A"@vi ;
+    geo:asWKT "POINT(105.7552058 20.9924587)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:973197788> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Bắc Từ Liêm" ;
+    ext:osm_id 973197788 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Phuc Dien"@en,
+        "Trường Mầm non Phúc Diễn"@vi ;
+    geo:asWKT "POINT(105.7548198 21.0512429)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:974596754> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_city "Hà Nội" ;
+    ext:addr_district "Thanh Xuân" ;
+    ext:osm_id 974596754 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Anh Sao"@en,
+        "Trường Mầm non Ánh Sao"@vi ;
+    geo:asWKT "POINT(105.8121818 20.9905862)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:974924299> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 974924299 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Vinschool"@en,
+        "Trường Mầm non Vinschool"@vi ;
+    geo:asWKT "POINT(105.7378966 21.0001786)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:975967882> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 975967882 ;
+    ext:osm_type "way" ;
+    schema:name "Truong Kindergarten Thuy Phuong"@en,
+        "Trường Mầm non Thuỵ Phương"@vi ;
+    geo:asWKT "POINT(105.7766658 21.0900165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:991839273> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 991839273 ;
+    ext:osm_type "way" ;
+    schema:name "Kindergarten at Ngo 4 Pho Hoa Dong"@en,
+        "Trường mầm non tại Ngõ 4 Phố Hoa Động"@vi ;
+    geo:asWKT "POINT(105.9098061 21.0119198)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:9931488173> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931488173 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten at Duong Au Co"@en,
+        "Trường mầm non tại Đường Âu Cơ"@vi ;
+    geo:asWKT "POINT(105.8293526 21.0649262)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:9931536200> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 9931536200 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten at Pho Van Mieu"@en,
+        "Trường mầm non tại Phố Văn Miếu"@vi ;
+    geo:asWKT "POINT(105.8361233 21.0276819)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:9931539949> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "123" ;
+    ext:osm_id 9931539949 ;
+    ext:osm_type "node" ;
+    schema:name "Kindergarten No. 123"@en,
+        "Trường mầm non số 123"@vi ;
+    geo:asWKT "POINT(105.8316422 21.063485)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:kindergarten:9976440313> a schema:Preschool,
+        fiware:PointOfInterest ;
+    ext:osm_id 9976440313 ;
+    ext:osm_type "node" ;
+    schema:name "Truong Mau Giao Thuy Tien"@en,
+        "Trường Mẫu giáo Thủy Tiên"@vi ;
+    geo:asWKT "POINT(105.8328549 21.010763)"^^geo:wktLiteral .
+

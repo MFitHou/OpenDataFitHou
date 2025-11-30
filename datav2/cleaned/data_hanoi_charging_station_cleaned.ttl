@@ -1,0 +1,3541 @@
+@prefix ext: <http://opendatafithou.org/def/extension/> .
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062857> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062857 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7531876 21.0062731)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062864> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062864 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7511818 21.0071044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062869> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062869 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7561945 21.0035106)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062870> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062870 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7429849 21.0087306)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062871> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062871 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7422541 21.0081158)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062872> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062872 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7391453 21.0090064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062876> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062876 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7377803 21.0088396)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062895> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062895 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7383447 21.007159)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062896> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062896 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7398249 21.0076943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062936> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062936 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7390631 21.0046844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062941> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062941 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7407158 21.0029381)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062942> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062942 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7378925 21.0027151)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062943> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062943 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7380468 21.0015855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062947> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062947 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7378592 20.9977004)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062985> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062985 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7426371 21.0088387)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062986> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062986 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7422817 21.0082609)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062987> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062987 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7391917 21.0046119)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062988> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062988 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7379718 21.0014106)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062989> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062989 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7387332 21.0036675)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062990> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062990 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7379423 20.9979431)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11200062991> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11200062991 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7379678 20.9975095)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075391> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075391 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9955353 21.0267848)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075392> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075392 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9193656 20.9974213)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075393> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075393 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9597978 20.9945812)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075396> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075396 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.960978 20.9938704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075397> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075397 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9603343 20.9943031)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075399> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075399 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 05:00-15:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9585283 20.9941819)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075400> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075400 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 08:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9605032 20.9931775)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075401> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075401 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9557446 20.9913935)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075402> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075402 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.956663 20.9910168)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075403> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075403 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9562681 20.9911691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075404> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075404 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9484704 20.9893244)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075405> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075405 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9486491 20.9894068)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075406> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075406 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9438542 20.9898045)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075407> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075407 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9489796 20.9892123)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075408> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075408 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.943669 20.9914424)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075409> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075409 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9425232 20.9896532)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075410> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075410 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9418339 20.9887216)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075411> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075411 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9415068 20.9887862)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075412> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075412 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9420271 20.9887586)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075413> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075413 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.940081 20.990359)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075414> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075414 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9405285 20.9904634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075415> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075415 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-18:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.94064 20.9905761)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075416> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075416 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9428084 20.993725)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075417> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075417 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9409847 20.991982)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075418> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075418 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.941358 20.9917656)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075419> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075419 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9414338 20.9945946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075420> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075420 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-18:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9427937 20.9936422)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075421> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075421 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-18:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9441007 20.9957352)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075422> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075422 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9416588 20.9944171)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075423> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075423 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-18:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9428671 21.0010903)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075424> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075424 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9430585 21.0010474)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075425> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075425 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7227587 21.0164064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075426> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075426 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7211257 20.998382)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075427> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075427 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7312517 21.1552909)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075428> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075428 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7312632 21.1966076)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203075429> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203075429 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 05:00-22:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7762525 21.1982952)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11203078943> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11203078943 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8196466 21.1980847)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387937> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387937 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7848078 20.929402)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387938> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387938 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7847583 20.9304856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387939> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387939 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7846771 20.9323831)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387940> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387940 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.784641 20.9337751)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387941> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387941 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7884238 20.9300958)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387942> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387942 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7917322 20.9333702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387943> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387943 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7776408 20.929959)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387944> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387944 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8292135 20.946147)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387945> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387945 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8535402 20.9505966)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387946> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387946 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8532125 20.9487446)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387947> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387947 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8513042 20.9330665)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387948> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387948 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8504211 20.9323069)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387959> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387959 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7600791 21.1329664)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387961> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387961 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8284485 21.112381)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387962> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387962 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8365487 21.1483607)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387963> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387963 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8676893 21.127481)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387964> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387964 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8740299 21.141312)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387966> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387966 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.819124 21.0345817)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387967> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387967 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8143599 21.0318593)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387968> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387968 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8143033 21.03163)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387969> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387969 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7591934 21.042177)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387970> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387970 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7803964 21.0518173)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387973> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387973 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 07:00-22:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7851026 21.0717119)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387974> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387974 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7862281 21.0682996)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387975> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387975 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.796396 21.0639605)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387976> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387976 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8053982 21.0390193)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387977> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387977 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7947678 21.0355197)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387978> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387978 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7949235 21.035453)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387979> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387979 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 07:00-19:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.779678 21.0337047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387980> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387980 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7811902 21.0310639)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387981> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387981 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7909211 21.0129356)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387982> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387982 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7939337 21.0070676)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387984> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387984 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7943858 21.0040704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387985> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387985 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7942311 21.0045718)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387986> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387986 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7944223 21.0052433)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387987> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387987 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8474603 21.0095758)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387988> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387988 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8680793 20.9980806)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387989> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387989 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8671593 20.9969716)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387990> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387990 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8667127 20.9969835)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387991> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387991 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8670164 20.9954803)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387992> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387992 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8669909 20.9952992)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387994> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387994 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.869389 20.9967679)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387995> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387995 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8695778 20.996663)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387996> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387996 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8683757 20.997501)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387997> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387997 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8682409 20.9906469)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387998> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387998 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8696944 20.9906469)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204387999> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204387999 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.867194 20.9917349)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388000> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388000 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8464213 20.9850391)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388001> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388001 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8465131 20.9852571)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388011> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388011 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8384642 20.9731509)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388012> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388012 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.839331 20.9727668)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388013> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388013 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8382899 20.9737961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388014> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388014 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8137416 20.9805775)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388015> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388015 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8769823 20.9724956)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388016> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388016 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8790261 20.9710014)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388017> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388017 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8780777 20.9704104)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388018> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388018 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 07:00-19:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.853345 20.9647702)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388031> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388031 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 00:00-23:59; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8598868 20.9611752)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388032> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388032 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.844595 20.9640591)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388033> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388033 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8447358 20.9631627)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388034> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388034 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8445494 20.9640153)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388035> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388035 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8447231 20.9630498)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388082> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388082 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8220043 20.9642832)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11204388083> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11204388083 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8240304 20.9640139)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463890> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463890 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.787769 20.9747509)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463891> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463891 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7926404 20.9679613)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463892> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463892 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-22:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7666676 20.9808112)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463893> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463893 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:openingHours "Mo-Su 06:00-22:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7666889 20.9809855)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463894> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463894 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7628467 20.9760445)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463912> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463912 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7377467 20.9866529)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463917> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463917 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7699121 20.9668086)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463918> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463918 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 06:00-22:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7593465 20.9629422)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463924> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463924 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.756534 20.9568709)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463926> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463926 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7515475 20.9525991)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463928> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463928 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7407354 20.9605816)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463929> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463929 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7418127 20.9601509)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463930> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463930 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8948789 21.0264214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463931> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463931 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9064403 21.0188214)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463932> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463932 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9333772 21.035589)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463933> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463933 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:openingHours "PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9335284 21.0357454)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463934> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463934 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9274084 21.0408088)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463935> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463935 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9240032 21.0405809)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207463936> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207463936 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9178718 21.045837)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515037> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515037 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9181168 21.0460514)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515038> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515038 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9168564 21.0490564)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515040> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515040 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9157827 21.0505281)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515041> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515041 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9154164 21.0508851)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515042> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515042 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 00:00-23:59; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9167751 21.0513785)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515043> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515043 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9035624 21.0429064)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515044> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515044 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9030661 21.0477251)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515045> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515045 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9112741 21.0440943)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515046> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515046 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9089476 21.0482716)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515047> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515047 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9082591 21.0511529)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515048> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515048 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9084245 21.0515791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515049> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515049 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9098139 21.0514118)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515050> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515050 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9096207 21.0516381)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515051> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515051 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.907767 21.0433412)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515052> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515052 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9077533 21.0435253)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515053> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515053 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9049556 21.0459154)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515054> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515054 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9032371 21.0431705)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515055> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515055 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9072825 21.0415572)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515056> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515056 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9066833 21.03931)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11207515057> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11207515057 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9080502 21.0374179)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353264> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353264 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9112879 21.0557105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353265> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353265 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9120926 21.0560856)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353282> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353282 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9143705 21.0595766)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353283> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353283 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9140556 21.0593811)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353284> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353284 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9135807 21.0628941)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353285> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353285 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9050962 21.0680098)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353286> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353286 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8846786 21.0561808)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353287> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353287 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 06:00-21:00; PH off" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8761257 21.0537975)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353288> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353288 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.879475 21.0649569)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353289> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353289 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7681693 21.0449062)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353291> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353291 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7413163 21.0402763)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353292> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353292 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7598233 21.0355101)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353293> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353293 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7599585 21.0356363)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353294> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353294 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7615384 21.0347282)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353316> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353316 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7596078 21.0338511)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353317> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353317 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7477388 21.0166523)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353318> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353318 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.781753 21.0202922)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353319> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353319 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7814648 21.0203686)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353320> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353320 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7815678 21.0144259)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208353321> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208353321 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.78139 21.0143704)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375935> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375935 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7907696 21.0060202)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375936> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375936 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7829848 21.0035042)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375937> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375937 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7853277 21.0008463)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375938> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375938 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7832254 21.0007024)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375939> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375939 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.791333 21.0005623)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375940> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375940 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7884789 20.9926606)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375941> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375941 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7877886 20.9909791)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375942> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375942 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8157156 21.000863)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375943> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375943 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8157871 21.0009885)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375944> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375944 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8143601 21.0003345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375945> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375945 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8145789 21.0002724)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375946> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375946 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8023139 21.0024869)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375947> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375947 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Su 08:30-22:00" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7999944 21.0001043)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375949> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375949 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8039611 21.0005399)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375950> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375950 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8038529 21.0006713)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375951> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375951 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7989441 20.9837682)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375952> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375952 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8133106 21.0755478)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375953> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375953 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8095734 21.0707561)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375954> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375954 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8115546 21.0698553)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375955> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375955 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8261229 21.0663165)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375956> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375956 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8260258 21.0663547)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375957> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375957 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8269546 21.0658044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375958> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375958 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.818662 21.044122)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375959> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375959 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8086192 21.0232202)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375960> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375960 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.808697 21.0231166)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375961> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375961 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:openingHours "Mo-Sa 08:00-17:30" ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8150227 21.0089892)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375962> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375962 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8322732 21.0063691)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11208375963> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11208375963 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.8306058 21.0058318)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:11367995432> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 11367995432 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9423992 20.987621)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1208800265> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1208800265 ;
+    ext:osm_type "way" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7546052 21.0051105)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:12240739583> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 12240739583 ;
+    ext:osm_type "node" ;
+    schema:brand "Charge+" ;
+    schema:name "Charge+"@en,
+        "Charge+"@vi ;
+    schema:url <https://www.chargeplus.com/> ;
+    geo:asWKT "POINT(105.7557656 20.965844)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:12311675103> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 12311675103 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9602975 21.0919961)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:12311675104> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 12311675104 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9624048 21.1030388)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:12311675112> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 12311675112 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.9565941 21.17809)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:12344217036> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 12344217036 ;
+    ext:osm_type "node" ;
+    schema:brand "PV Power" ;
+    schema:name "PV Power"@en,
+        "PV Power"@vi ;
+    schema:operator "Tổng Công ty Điện lực Dầu khí Việt Nam" ;
+    schema:url <https://pvpower.vn/> ;
+    geo:asWKT "POINT(105.8133155 21.0179338)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13099744432> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13099744432 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9811659 20.9461)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13099744433> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13099744433 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9811049 20.9460769)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13099744434> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13099744434 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.981037 20.9460502)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13099744435> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13099744435 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9809848 20.9460283)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927638> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927638 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9819465 20.9491635)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927643> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927643 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9819646 20.9491288)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927740> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927740 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.981979 20.9490946)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927741> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927741 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9819937 20.9490642)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927742> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927742 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820102 20.9490301)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927743> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927743 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820259 20.9489966)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927744> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927744 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.982041 20.9489631)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927745> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927745 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9820588 20.9489268)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927749> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927749 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9821205 20.9487971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927750> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927750 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9821396 20.9487636)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927751> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927751 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821543 20.9487308)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927752> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927752 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821704 20.9486938)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927753> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927753 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821865 20.9486612)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927754> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927754 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.982204 20.9486284)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927755> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927755 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822184 20.9485983)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927756> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927756 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822331 20.9485683)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927757> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927757 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822499 20.9485316)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927758> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927758 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822643 20.9485047)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927759> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927759 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822811 20.9484712)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927760> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927760 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822972 20.9484364)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927761> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927761 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9823126 20.9484029)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927762> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927762 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9823277 20.9483688)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:13102927763> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 13102927763 ;
+    ext:osm_type "node" ;
+    schema:name "VinGroup Charging Station"@en,
+        "Trạm sạc xe VinGroup"@vi ;
+    schema:operator "VinGroup" ;
+    geo:asWKT "POINT(105.9823404 20.948345)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425204631> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425204631 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9809848 20.946029)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425204632> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425204632 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.981037 20.9460505)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425204633> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425204633 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9811049 20.946077)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425204634> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425204634 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 17"@en,
+        "Trạm sạc tại San Hô 17"@vi ;
+    geo:asWKT "POINT(105.9811663 20.9461001)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491438> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491438 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9819468 20.9491646)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491439> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491439 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9819639 20.9491287)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491440> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491440 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9819798 20.9490951)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491441> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491441 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9819941 20.9490634)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491442> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491442 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820105 20.9490304)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491443> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491443 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820253 20.9489976)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491444> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491444 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9820414 20.9489638)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491445> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491445 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9820588 20.948928)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491446> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491446 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9820735 20.9488974)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491447> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491447 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.98209 20.9488642)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491448> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491448 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9821054 20.9488313)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491449> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491449 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9821204 20.9487979)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491450> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491450 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at San Ho 8b"@en,
+        "Trạm sạc tại San Hô 8B"@vi ;
+    geo:asWKT "POINT(105.9821393 20.9487644)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491451> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491451 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821534 20.9487312)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491452> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491452 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821697 20.9486964)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491453> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491453 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9821862 20.9486625)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491454> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491454 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822036 20.9486294)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491455> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491455 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822171 20.9485996)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491456> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491456 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822328 20.9485698)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491457> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491457 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822499 20.9485335)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491458> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491458 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.982264 20.9485044)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491459> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491459 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822808 20.9484715)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491460> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491460 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9822971 20.9484367)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491461> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491461 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9823119 20.948403)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491462> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491462 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.982327 20.9483707)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:1425491463> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 1425491463 ;
+    ext:osm_type "way" ;
+    schema:name "Charging Station at Duong San Ho"@en,
+        "Trạm sạc tại Đường San Hô"@vi ;
+    geo:asWKT "POINT(105.9823397 20.9483466)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:6924855573> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:addr_housenumber "D4" ;
+    ext:osm_id 6924855573 ;
+    ext:osm_type "node" ;
+    schema:name "Charging Station No. D4"@en,
+        "Trạm sạc số D4"@vi ;
+    geo:asWKT "POINT(105.8550444 21.024143)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:9424945491> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 9424945491 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast"@en,
+        "VinFast"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7530759 21.0064811)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:PointOfInterest:Hanoi:charging_station:9705391237> a schema:AutomotiveBusiness,
+        fiware:PointOfInterest ;
+    ext:osm_id 9705391237 ;
+    ext:osm_type "node" ;
+    schema:brand "VinFast" ;
+    schema:legalName "VinFast"@en,
+        "VinFast"@vi ;
+    schema:name "VinFast (xe may dien)"@en,
+        "VinFast (xe máy điện)"@vi ;
+    schema:operator "VinFast" ;
+    schema:sameAs <http://www.wikidata.org/entity/Q56660561> ;
+    schema:url <https://vinfastauto.com> ;
+    geo:asWKT "POINT(105.7536328 21.0068699)"^^geo:wktLiteral .
+
