@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  # InfluxDB Time Series Database
+  influxdb:
+    image: influxdb:2.7-alpine
+    container_name: influxdb
+    restart: unless-stopped
+    ports:
+      - "8086:8086"
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=admin
+      - DOCKER_INFLUXDB_INIT_PASSWORD=${INFLUXDB_ADMIN_PASSWORD}
+      - DOCKER_INFLUXDB_INIT_ORG=opendata_fithou
+      - DOCKER_INFLUXDB_INIT_BUCKET=smartcity
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUXDB_TOKEN}
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+      - influxdb-config:/etc/influxdb2
+    networks:
+      - iot-network
+    healthcheck:
+      test: ["CMD", "influx", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # IoT Data Collector
+  iot-collector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: iot-collector
+    restart: unless-stopped
+    depends_on:
+      influxdb:
+        condition: service_healthy
+    environment:
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_TOKEN=${INFLUXDB_TOKEN}
+      - INFLUXDB_ORG=opendata_fithou
+      - INFLUXDB_BUCKET=smartcity
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY}
+      - OPENAQ_API_KEY=${OPENAQ_API_KEY:-}
+      - COLLECTION_INTERVAL=${COLLECTION_INTERVAL:-300}
+      - TZ=Asia/Ho_Chi_Minh
+    networks:
+      - iot-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  influxdb-data:
+  influxdb-config:
+
+networks:
+  iot-network:
+    driver: bridge

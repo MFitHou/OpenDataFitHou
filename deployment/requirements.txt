@@ -1,0 +1,8 @@
+# OpenDataFitHou IoT Collector - Minimal Dependencies
+
+# Core libraries
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# InfluxDB client
+influxdb-client>=1.18.0
