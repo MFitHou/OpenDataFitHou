@@ -52,7 +52,7 @@ services:
       DOCKER_INFLUXDB_INIT_USERNAME: admin
       DOCKER_INFLUXDB_INIT_PASSWORD: admin123456
       DOCKER_INFLUXDB_INIT_ORG: opendata_fithou
-      DOCKER_INFLUXDB_INIT_BUCKET: weather_air_quality
+      DOCKER_INFLUXDB_INIT_BUCKET: smartcity
       DOCKER_INFLUXDB_INIT_RETENTION: 30d
       DOCKER_INFLUXDB_INIT_ADMIN_TOKEN: opendata_fithou_token_secret
     volumes:
@@ -64,32 +64,6 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
-    restart: unless-stopped
-
-  # ============================================
-  # Data Ingestion Pipeline (NEW)
-  # ============================================
-  data-ingestion:
-    build: .
-    container_name: opendata-ingestion
-    depends_on:
-      influxdb:
-        condition: service_healthy
-    volumes:
-      # Mount thư mục data để lưu file JSON ra máy thật
-      - ./data:/app/data
-    networks:
-      - opendata-network
-    environment:
-      # Cấu hình API Keys (Lấy từ file .env hoặc set cứng nếu test)
-      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY}
-      - OPENAQ_API_KEY=${OPENAQ_API_KEY}
-      
-      # Cấu hình InfluxDB (Kết nối nội bộ Docker qua tên service 'influxdb')
-      - INFLUXDB_URL=http://influxdb:8086
-      - INFLUXDB_TOKEN=opendata_fithou_token_secret
-      - INFLUXDB_ORG=opendata_fithou
-      - INFLUXDB_BUCKET=weather_air_quality
     restart: unless-stopped
 
 networks:

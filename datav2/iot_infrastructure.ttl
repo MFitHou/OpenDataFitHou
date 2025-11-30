@@ -1,0 +1,742 @@
+@prefix fiware: <https://uri.fiware.org/ns/data-models#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix property: <http://opendatafithou.org/property/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://opendatafithou.org/sensor/CauGiay:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Cầu Giấy - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:CauGiay> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/CauGiay:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Cầu Giấy - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:CauGiay> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/CauGiay:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Cầu Giấy - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:CauGiay> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/CauGiay:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Cầu Giấy - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:CauGiay> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/CauGiay:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Cầu Giấy - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:CauGiay> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/HaDong:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hà Đông - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HaDong> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/HaDong:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hà Đông - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HaDong> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/HaDong:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hà Đông - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HaDong> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/HaDong:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hà Đông - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HaDong> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/HaDong:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hà Đông - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HaDong> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/HoGuom:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hồ Gươm - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoGuom> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/HoGuom:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hồ Gươm - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoGuom> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/HoGuom:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hồ Gươm - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoGuom> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/HoGuom:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hồ Gươm - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoGuom> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/HoGuom:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hồ Gươm - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoGuom> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/HoangMai:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hoàng Mai - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoangMai> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/HoangMai:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hoàng Mai - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoangMai> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/HoangMai:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hoàng Mai - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoangMai> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/HoangMai:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hoàng Mai - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoangMai> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/HoangMai:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Hoàng Mai - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:HoangMai> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/Lang:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Láng - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:Lang> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/Lang:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Láng - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:Lang> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/Lang:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Láng - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:Lang> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/Lang:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Láng - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:Lang> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/Lang:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Láng - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:Lang> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/LongBien:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Long Biên - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:LongBien> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/LongBien:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Long Biên - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:LongBien> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/LongBien:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Long Biên - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:LongBien> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/LongBien:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Long Biên - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:LongBien> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/LongBien:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Long Biên - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:LongBien> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/MyDinh:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Mỹ Đình - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:MyDinh> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/MyDinh:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Mỹ Đình - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:MyDinh> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/MyDinh:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Mỹ Đình - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:MyDinh> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/MyDinh:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Mỹ Đình - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:MyDinh> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/MyDinh:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Mỹ Đình - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:MyDinh> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/RoyalCity:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Ngã Tư Sở - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:RoyalCity> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/RoyalCity:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Ngã Tư Sở - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:RoyalCity> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/RoyalCity:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Ngã Tư Sở - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:RoyalCity> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/RoyalCity:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Ngã Tư Sở - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:RoyalCity> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/RoyalCity:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Ngã Tư Sở - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:RoyalCity> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/TayHo:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Tây Hồ - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TayHo> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/TayHo:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Tây Hồ - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TayHo> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/TayHo:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Tây Hồ - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TayHo> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/TayHo:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Tây Hồ - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TayHo> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/TayHo:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Tây Hồ - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TayHo> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<http://opendatafithou.org/sensor/TimeCity:AirQuality> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Minh Khai - Air Quality Sensor"@vi ;
+    schema1:description "Multi-parameter air quality monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TimeCity> ;
+    sosa:observes property:AQI,
+        property:PM10,
+        property:PM2.5 ;
+    fiware:controlledProperty "PM2.5, PM10, AQI" .
+
+<http://opendatafithou.org/sensor/TimeCity:Flood> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Minh Khai - Flood Monitoring Sensor"@vi ;
+    schema1:description "Water level and flood risk assessment sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TimeCity> ;
+    sosa:observes property:FloodRisk,
+        property:WaterLevel ;
+    fiware:controlledProperty "WaterLevel, FloodRisk" .
+
+<http://opendatafithou.org/sensor/TimeCity:Noise> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Minh Khai - Noise Level Sensor"@vi ;
+    schema1:description "Environmental noise monitoring sensor"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TimeCity> ;
+    sosa:observes property:NoiseLevel ;
+    fiware:controlledProperty "NoiseLevel" .
+
+<http://opendatafithou.org/sensor/TimeCity:Traffic> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Minh Khai - Traffic Flow Sensor"@vi ;
+    schema1:description "Traffic monitoring sensor using simulation"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TimeCity> ;
+    sosa:observes property:TrafficIntensity,
+        property:VehicleSpeed ;
+    fiware:controlledProperty "TrafficIntensity, VehicleSpeed" .
+
+<http://opendatafithou.org/sensor/TimeCity:Weather> a sosa:Sensor,
+        ssn:System ;
+    rdfs:label "Trạm Minh Khai - Weather Sensor"@vi ;
+    schema1:description "Meteorological sensor station"@en ;
+    sosa:isHostedBy <urn:ngsi-ld:Device:Hanoi:station:TimeCity> ;
+    sosa:observes property:Humidity,
+        property:Rainfall,
+        property:Temperature,
+        property:WindSpeed ;
+    fiware:controlledProperty "Temperature, Humidity, WindSpeed, Rainfall" .
+
+<urn:ngsi-ld:Device:Hanoi:station:CauGiay/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.8 21.033)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:HaDong/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.776 20.971)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:HoGuom/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.852 21.028)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:HoangMai/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.843 20.963)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:Lang/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.8 21.017)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:LongBien/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.894 21.036)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:MyDinh/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.763 21.02)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:RoyalCity/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.813 21.003)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:TayHo/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.823 21.07)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:TimeCity/geometry> a sf:Point ;
+    geo:asWKT "POINT(105.868 20.995)"^^geo:wktLiteral .
+
+<urn:ngsi-ld:Device:Hanoi:station:CauGiay> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Cầu Giấy"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.033 ;
+    schema1:longitude 105.8 ;
+    schema1:name "Trạm Cầu Giấy"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:CauGiay/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/CauGiay:AirQuality>,
+        <http://opendatafithou.org/sensor/CauGiay:Flood>,
+        <http://opendatafithou.org/sensor/CauGiay:Noise>,
+        <http://opendatafithou.org/sensor/CauGiay:Traffic>,
+        <http://opendatafithou.org/sensor/CauGiay:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:HaDong> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Hà Đông"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 20.971 ;
+    schema1:longitude 105.776 ;
+    schema1:name "Trạm Hà Đông"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:HaDong/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/HaDong:AirQuality>,
+        <http://opendatafithou.org/sensor/HaDong:Flood>,
+        <http://opendatafithou.org/sensor/HaDong:Noise>,
+        <http://opendatafithou.org/sensor/HaDong:Traffic>,
+        <http://opendatafithou.org/sensor/HaDong:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:HoGuom> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Hồ Gươm"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.028 ;
+    schema1:longitude 105.852 ;
+    schema1:name "Trạm Hồ Gươm"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:HoGuom/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/HoGuom:AirQuality>,
+        <http://opendatafithou.org/sensor/HoGuom:Flood>,
+        <http://opendatafithou.org/sensor/HoGuom:Noise>,
+        <http://opendatafithou.org/sensor/HoGuom:Traffic>,
+        <http://opendatafithou.org/sensor/HoGuom:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:HoangMai> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Hoàng Mai"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 20.963 ;
+    schema1:longitude 105.843 ;
+    schema1:name "Trạm Hoàng Mai"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:HoangMai/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/HoangMai:AirQuality>,
+        <http://opendatafithou.org/sensor/HoangMai:Flood>,
+        <http://opendatafithou.org/sensor/HoangMai:Noise>,
+        <http://opendatafithou.org/sensor/HoangMai:Traffic>,
+        <http://opendatafithou.org/sensor/HoangMai:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:Lang> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Láng"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.017 ;
+    schema1:longitude 105.8 ;
+    schema1:name "Trạm Láng"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:Lang/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/Lang:AirQuality>,
+        <http://opendatafithou.org/sensor/Lang:Flood>,
+        <http://opendatafithou.org/sensor/Lang:Noise>,
+        <http://opendatafithou.org/sensor/Lang:Traffic>,
+        <http://opendatafithou.org/sensor/Lang:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:LongBien> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Long Biên"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.036 ;
+    schema1:longitude 105.894 ;
+    schema1:name "Trạm Long Biên"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:LongBien/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/LongBien:AirQuality>,
+        <http://opendatafithou.org/sensor/LongBien:Flood>,
+        <http://opendatafithou.org/sensor/LongBien:Noise>,
+        <http://opendatafithou.org/sensor/LongBien:Traffic>,
+        <http://opendatafithou.org/sensor/LongBien:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:MyDinh> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Mỹ Đình"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.02 ;
+    schema1:longitude 105.763 ;
+    schema1:name "Trạm Mỹ Đình"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:MyDinh/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/MyDinh:AirQuality>,
+        <http://opendatafithou.org/sensor/MyDinh:Flood>,
+        <http://opendatafithou.org/sensor/MyDinh:Noise>,
+        <http://opendatafithou.org/sensor/MyDinh:Traffic>,
+        <http://opendatafithou.org/sensor/MyDinh:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:RoyalCity> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Ngã Tư Sở"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.003 ;
+    schema1:longitude 105.813 ;
+    schema1:name "Trạm Ngã Tư Sở"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:RoyalCity/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/RoyalCity:AirQuality>,
+        <http://opendatafithou.org/sensor/RoyalCity:Flood>,
+        <http://opendatafithou.org/sensor/RoyalCity:Noise>,
+        <http://opendatafithou.org/sensor/RoyalCity:Traffic>,
+        <http://opendatafithou.org/sensor/RoyalCity:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:TayHo> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Tây Hồ"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 21.07 ;
+    schema1:longitude 105.823 ;
+    schema1:name "Trạm Tây Hồ"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:TayHo/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/TayHo:AirQuality>,
+        <http://opendatafithou.org/sensor/TayHo:Flood>,
+        <http://opendatafithou.org/sensor/TayHo:Noise>,
+        <http://opendatafithou.org/sensor/TayHo:Traffic>,
+        <http://opendatafithou.org/sensor/TayHo:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+<urn:ngsi-ld:Device:Hanoi:station:TimeCity> a sosa:Platform,
+        ssn:System,
+        fiware:Device ;
+    rdfs:label "Trạm Minh Khai"@vi ;
+    schema1:address "Hanoi, Vietnam" ;
+    schema1:latitude 20.995 ;
+    schema1:longitude 105.868 ;
+    schema1:name "Trạm Minh Khai"@vi ;
+    geo:hasGeometry <urn:ngsi-ld:Device:Hanoi:station:TimeCity/geometry> ;
+    sosa:hosts <http://opendatafithou.org/sensor/TimeCity:AirQuality>,
+        <http://opendatafithou.org/sensor/TimeCity:Flood>,
+        <http://opendatafithou.org/sensor/TimeCity:Noise>,
+        <http://opendatafithou.org/sensor/TimeCity:Traffic>,
+        <http://opendatafithou.org/sensor/TimeCity:Weather> ;
+    fiware:category "IoT Monitoring Station" .
+
+property:AQI a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Air Quality Index"@en ;
+    schema1:description "Vietnam Air Quality Index (0-500 scale)"@en ;
+    schema1:unitText "index" .
+
+property:FloodRisk a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Flood Risk Level"@en ;
+    schema1:description "Flood risk assessment (Low, Moderate, High, Critical)"@en ;
+    schema1:unitText "categorical" .
+
+property:Humidity a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Relative Humidity"@en ;
+    schema1:description "Relative humidity percentage"@en ;
+    schema1:unitText "%" .
+
+property:NoiseLevel a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Environmental Noise Level"@en ;
+    schema1:description "Ambient noise level"@en ;
+    schema1:unitText "dB" .
+
+property:PM10 a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "PM10 Particulate Matter"@en ;
+    schema1:description "Particulate matter with diameter < 10 micrometers"@en ;
+    schema1:unitText "µg/m³" .
+
+property:PM2.5 a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "PM2.5 Particulate Matter"@en ;
+    schema1:description "Fine particulate matter with diameter < 2.5 micrometers"@en ;
+    schema1:unitText "µg/m³" .
+
+property:Rainfall a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Rainfall"@en ;
+    schema1:description "Precipitation amount in 1 hour"@en ;
+    schema1:unitText "mm" .
+
+property:Temperature a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Air Temperature"@en ;
+    schema1:description "Ambient air temperature"@en ;
+    schema1:unitText "°C" .
+
+property:TrafficIntensity a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Traffic Intensity"@en ;
+    schema1:description "Traffic congestion intensity (0=empty, 100=jam)"@en ;
+    schema1:unitText "0-100" .
+
+property:VehicleSpeed a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Average Vehicle Speed"@en ;
+    schema1:description "Average speed of vehicles on road"@en ;
+    schema1:unitText "km/h" .
+
+property:WaterLevel a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Flood Water Level"@en ;
+    schema1:description "Height of flood water accumulation"@en ;
+    schema1:unitText "cm" .
+
+property:WindSpeed a sosa:ObservableProperty,
+        ssn:Property ;
+    rdfs:label "Wind Speed"@en ;
+    schema1:description "Wind speed at surface level"@en ;
+    schema1:unitText "m/s" .
+
