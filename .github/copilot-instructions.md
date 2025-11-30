@@ -898,6 +898,205 @@ const OVERPASS_ENDPOINT = 'https://overpass-api.de/api/interpreter';
 
 ---
 
-**Last Updated:** November 19, 2025  
-**Version:** 1.1.0  
+## 🐍 Python - Quy tắc sinh code
+
+### 1. File Headers - License & Copyright
+
+✅ **LUÔN thêm GPL-3.0 header cho mọi file Python mới:**
+
+```python
+# -*- coding: utf-8 -*-
+"""
+@File    : filename.py
+@Project : OpenDataFitHou
+@Date    : 2025-11-30 18:00:00
+@Author  : MFitHou Team
+
+Part of OpenDataFitHou - Ứng dụng dữ liệu mở liên kết phục vụ chuyển đổi số
+
+Copyright (C) 2025 FITHOU
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+"""
+```
+
+### 2. Code Style
+
+✅ **Tuân theo PEP 8:**
+- Indentation: 4 spaces
+- Line length: 100 characters max
+- Naming: `snake_case` cho functions/variables, `PascalCase` cho classes
+- Docstrings: Triple quotes cho tất cả public functions/classes
+
+```python
+def fetch_osm_data(amenity: str, location: str) -> dict:
+    """
+    Thu thập dữ liệu từ OpenStreetMap Overpass API.
+    
+    Args:
+        amenity: Loại địa điểm (atm, hospital, school, etc.)
+        location: Tên địa điểm tìm kiếm
+        
+    Returns:
+        Dictionary chứa dữ liệu GeoJSON
+        
+    Raises:
+        requests.RequestException: Khi API call thất bại
+    """
+    # Implementation here
+    pass
+```
+
+### 3. Type Hints
+
+✅ **LUÔN sử dụng type hints:**
+
+```python
+from typing import List, Dict, Optional, Union
+
+def process_data(
+    data: List[Dict[str, any]], 
+    filter_key: Optional[str] = None
+) -> Union[List[Dict], None]:
+    """Process và filter data."""
+    pass
+```
+
+### 4. Error Handling
+
+✅ **Pattern chuẩn:**
+
+```python
+import logging
+
+logger = logging.getLogger(__name__)
+
+def fetch_data(url: str) -> Optional[dict]:
+    """Fetch data từ API với error handling."""
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        return response.json()
+    except requests.Timeout:
+        logger.error(f"Timeout khi fetch từ {url}")
+        return None
+    except requests.RequestException as e:
+        logger.error(f"Lỗi khi fetch data: {e}")
+        return None
+```
+
+### 5. Imports Organization
+
+✅ **Thứ tự import:**
+
+```python
+# 1. Standard library
+import os
+import sys
+from datetime import datetime
+
+# 2. Third-party packages
+import requests
+import pandas as pd
+from rdflib import Graph
+
+# 3. Local imports
+from src.fetchers.osm_data_fetcher import fetch_osm_data
+from src.utils.smart_translate_lookup import translate
+```
+
+### 6. Constants
+
+✅ **Định nghĩa ở đầu module:**
+
+```python
+# Constants
+API_BASE_URL = "https://overpass-api.de/api/interpreter"
+DEFAULT_TIMEOUT = 30
+MAX_RETRIES = 3
+```
+
+### 7. Main Guard
+
+✅ **LUÔN có main guard:**
+
+```python
+def main():
+    """Entry point của script."""
+    # Main logic here
+    pass
+
+if __name__ == "__main__":
+    main()
+```
+
+### 8. Configuration
+
+✅ **Sử dụng environment variables:**
+
+```python
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
+DATABASE_URL = os.getenv("DATABASE_URL")
+```
+
+### 9. Logging
+
+✅ **Setup logging đúng cách:**
+
+```python
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+```
+
+### 10. Testing
+
+✅ **Viết tests với pytest:**
+
+```python
+"""
+test_osm_fetcher.py
+
+Tests cho OSM data fetcher
+"""
+
+import pytest
+from src.fetchers.osm_data_fetcher import fetch_osm_data
+
+def test_fetch_osm_data_success():
+    """Test fetch data thành công."""
+    result = fetch_osm_data("atm", "Hanoi")
+    assert result is not None
+    assert "features" in result
+
+def test_fetch_osm_data_invalid_amenity():
+    """Test với amenity không hợp lệ."""
+    with pytest.raises(ValueError):
+        fetch_osm_data("invalid", "Hanoi")
+```
+
+---
+
+**Last Updated:** November 30, 2025  
+**Version:** 1.2.0  
 **Maintainer:** OpenDataFitHou Team
