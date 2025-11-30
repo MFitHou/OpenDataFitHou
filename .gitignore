@@ -11,6 +11,7 @@ venv/
 # Dữ liệu
 raw_data/
 cleaned_data/
+data/raw/
 
 # VSCode/IDE
 .vscode/
@@ -20,3 +21,4 @@ cleaned_data/
 .DS_Store
 *.log
 a.md
+translation_cache.json
