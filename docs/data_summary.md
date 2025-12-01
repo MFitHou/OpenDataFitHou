@@ -1,5 +1,72 @@
 # Tổng hợp dữ liệu và thuộc tính
 
+## 📋 Danh sách Prefix (@prefix) được sử dụng trong các file RDF/Turtle
+
+### **Prefix trong file cleaned (dữ liệu địa điểm)**
+```turtle
+@prefix ext: <http://opendatafithou.org/def/extension/> 
+# Định nghĩa các thuộc tính mở rộng tùy chỉnh cho dự án OpenDataFitHou
+
+@prefix fiware: <https://smartdatamodels.org/dataModel.PointOfInterest/> 
+# Mô hình dữ liệu FIWARE cho điểm quan tâm (Point of Interest)
+
+@prefix geo: <http://www.opengis.net/ont/geosparql#> 
+# Ontology GeoSPARQL cho dữ liệu không gian địa lý
+
+@prefix schema: <http://schema.org/> 
+# Từ vựng Schema.org cho dữ liệu có cấu trúc
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+# Các kiểu dữ liệu XML Schema
+```
+
+### **Prefix trong file topology (data_hanoi_topology.ttl)**
+```turtle
+@prefix ext: <http://opendatafithou.org/def/extension/> 
+# Định nghĩa các thuộc tính mở rộng
+
+@prefix schema: <http://schema.org/> 
+# Từ vựng Schema.org, sử dụng thuộc tính quan hệ không gian
+```
+
+### **Prefix trong file IoT Infrastructure (iot_infrastructure.ttl)**
+```turtle
+@prefix fiware: <https://uri.fiware.org/ns/data-models#> 
+# Mô hình dữ liệu FIWARE cho IoT
+
+@prefix geo: <http://www.opengis.net/ont/geosparql#> 
+# Ontology GeoSPARQL
+
+@prefix property: <http://opendatafithou.org/property/> 
+# Định nghĩa các thuộc tính IoT tùy chỉnh (nhiệt độ, độ ẩm, chất lượng không khí, v.v.)
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+# RDF Schema - cung cấp các thuộc tính như label, comment
+
+@prefix schema1: <http://schema.org/> 
+# Từ vựng Schema.org (sử dụng alias schema1 để tránh xung đột)
+
+@prefix sf: <http://www.opengis.net/ont/sf#> 
+# Simple Features - mô tả hình học địa lý (Point, LineString, Polygon)
+
+@prefix sosa: <http://www.w3.org/ns/sosa/> 
+# SOSA (Sensor, Observation, Sample, and Actuator) ontology
+
+@prefix ssn: <http://www.w3.org/ns/ssn/> 
+# Semantic Sensor Network ontology
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+# Các kiểu dữ liệu XML Schema
+```
+
+### **Prefix trong file IoT Coverage (iot_coverage.ttl)**
+```turtle
+@prefix sosa: <http://www.w3.org/ns/sosa/> 
+# SOSA ontology - mô tả mối quan hệ giữa địa điểm và trạm cảm biến
+```
+
+---
+
 ## 📂 Dữ liệu trong thư mục `cleaned`
 Dữ liệu trong thư mục `cleaned` thuộc thư mục `datav2` đã được xử lý và chuẩn hóa. Dưới đây là danh sách các loại dữ liệu và các thuộc tính chính:
 
@@ -42,18 +109,42 @@ Dữ liệu trong thư mục `cleaned` thuộc thư mục `datav2` đã được
 - `amenity`: Loại tiện ích (ATM, trường học, bệnh viện, v.v.).
 - `capacity` (nếu có): Sức chứa (áp dụng cho bãi đỗ xe, nhà vệ sinh, v.v.).
 
+#### **Chú thích ý nghĩa các thuộc tính chung:**
+
+- **`ext:osm_id`**: ID định danh duy nhất của đối tượng trong cơ sở dữ liệu OpenStreetMap (OSM).
+- **`ext:osm_type`**: Loại hình học của đối tượng OSM:
+  - `node`: Điểm đơn lẻ (có tọa độ kinh độ/vĩ độ)
+  - `way`: Đường nét hoặc vùng khép kín (tập hợp các node)
+  - `relation`: Quan hệ phức tạp giữa nhiều đối tượng
+- **`schema:name`**: Tên hiển thị của địa điểm (hỗ trợ đa ngôn ngữ với tag @en, @vi).
+- **`schema:brand`**: Thương hiệu/nhãn hiệu của cơ sở kinh doanh.
+- **`schema:legalName`**: Tên pháp lý chính thức của tổ chức/doanh nghiệp.
+- **`schema:operator`**: Đơn vị/tổ chức vận hành/quản lý địa điểm.
+- **`schema:sameAs`**: Liên kết đến cùng một thực thể trên Wikidata (để tích hợp dữ liệu).
+- **`schema:url`**: Địa chỉ website chính thức.
+- **`schema:telephone`**: Số điện thoại liên hệ.
+- **`schema:openingHours`**: Giờ mở cửa (định dạng chuẩn OSM).
+- **`ext:addr_city`**: Tên thành phố/tỉnh.
+- **`ext:addr_district`**: Tên quận/huyện.
+- **`ext:addr_street`**: Tên đường phố.
+- **`ext:addr_housenumber`**: Số nhà.
+- **`geo:asWKT`**: Tọa độ địa lý theo định dạng WKT (Well-Known Text), thường là POINT(kinh_độ vĩ_độ).
+- **`a schema:Type`**: Khai báo kiểu đối tượng theo Schema.org (VD: schema:FinancialService, schema:Hospital).
+- **`a fiware:PointOfInterest`**: Khai báo là điểm quan tâm theo mô hình FIWARE.
+
 #### **Thuộc tính cụ thể theo loại dữ liệu:**
 
 - **ATM (`data_hanoi_atm_cleaned.ttl`):**
-  - `osm_id`: ID của đối tượng trong OpenStreetMap.
-  - `osm_type`: Loại đối tượng (node, way, relation).
-  - `brand`: Thương hiệu của ngân hàng.
-  - `legalName`: Tên pháp lý của ngân hàng.
-  - `name`: Tên của trạm ATM.
-  - `operator`: Đơn vị vận hành.
-  - `sameAs`: Liên kết đến Wikidata.
-  - `url`: Trang web của ngân hàng.
+  - `ext:osm_id`: ID của đối tượng trong OpenStreetMap.
+  - `ext:osm_type`: Loại đối tượng (node, way, relation).
+  - `schema:brand`: Thương hiệu của ngân hàng.
+  - `schema:legalName`: Tên pháp lý của ngân hàng.
+  - `schema:name`: Tên của trạm ATM.
+  - `schema:operator`: Đơn vị vận hành.
+  - `schema:sameAs`: Liên kết đến Wikidata.
+  - `schema:url`: Trang web của ngân hàng.
   - `geo:asWKT`: Tọa độ địa lý (WKT).
+  - `a schema:FinancialService, fiware:PointOfInterest`: Khai báo kiểu là dịch vụ tài chính.
 
 - **Trạm xe buýt (`data_hanoi_bus_stop_cleaned.ttl`):**
   - `osm_id`: ID của đối tượng trong OpenStreetMap.
@@ -300,10 +391,122 @@ Dữ liệu trong thư mục `cleaned` thuộc thư mục `datav2` đã được
   - `geo:asWKT`: Tọa độ địa lý (WKT).
 
 - **Nhà kho (Warehouses):**
-  - `osm_id`: ID của đối tượng trong OpenStreetMap.
-  - `osm_type`: Loại đối tượng (node, way, relation).
-  - `name`: Tên của nhà kho.
+  - `ext:osm_id`: ID của đối tượng trong OpenStreetMap.
+  - `ext:osm_type`: Loại đối tượng (node, way, relation).
+  - `schema:name`: Tên của nhà kho.
   - `geo:asWKT`: Tọa độ địa lý (WKT).
+  - `a schema:Warehouse, fiware:PointOfInterest`: Khai báo kiểu là nhà kho.
+
+---
+
+## 📂 Dữ liệu Topology (data_hanoi_topology.ttl)
+
+### **Mô tả:**
+File topology chứa dữ liệu về mối quan hệ không gian giữa các địa điểm. Dữ liệu này mô tả các địa điểm nằm gần nhau hoặc chứa trong nhau.
+
+### **Thuộc tính quan hệ không gian:**
+
+- **`schema:isNextTo`**: Quan hệ "nằm kề bên" - chỉ ra hai địa điểm nằm gần nhau.
+  - **Ví dụ:** ATM nằm kề bên ngân hàng, ATM nằm kề bên trạm xăng.
+  - **Cú pháp:** `<địa_điểm_A> schema:isNextTo <địa_điểm_B>`
+
+- **`schema:containedInPlace`**: Quan hệ "chứa trong" - chỉ ra một địa điểm nằm bên trong địa điểm khác.
+  - **Ví dụ:** ATM nằm bên trong trạm xăng, ATM nằm trong chợ.
+  - **Cú pháp:** `<địa_điểm_A> schema:containedInPlace <địa_điểm_B>`
+
+### **Ứng dụng:**
+- Hỗ trợ tìm kiếm theo ngữ cảnh không gian (VD: tìm ATM gần ngân hàng).
+- Phân tích mối quan hệ giữa các loại dịch vụ.
+- Tối ưu hóa định tuyến và gợi ý địa điểm.
+
+---
+
+## 📂 Dữ liệu IoT Infrastructure (iot_infrastructure.ttl)
+
+### **Mô tả:**
+File này định nghĩa cơ sở hạ tầng cảm biến IoT bao gồm các trạm quan trắc, loại cảm biến và thuộc tính quan sát.
+
+### **Các thực thể chính:**
+
+#### **1. IoT Stations (Trạm quan trắc)**
+- **URI Pattern:** `urn:ngsi-ld:Device:Hanoi:station:{TênTrạm}`
+- **Kiểu:** `sosa:Platform`, `ssn:System`
+- **Thuộc tính:**
+  - `rdfs:label`: Tên hiển thị của trạm.
+  - `schema1:description`: Mô tả chức năng trạm.
+  - `fiware:serialNumber`: Số serial định danh thiết bị.
+  - `fiware:controlledAsset`: Khu vực/tài sản được giám sát.
+  - `geo:hasGeometry`: Liên kết đến hình học không gian (Point).
+  - `sosa:hosts`: Danh sách các cảm biến được lắp đặt tại trạm.
+
+#### **2. Sensors (Cảm biến)**
+- **URI Pattern:** `http://opendatafithou.org/sensor/{TênTrạm}:{LoạiCảmBiến}`
+- **Kiểu:** `sosa:Sensor`, `ssn:System`
+- **Thuộc tính:**
+  - `rdfs:label`: Tên cảm biến.
+  - `schema1:description`: Mô tả chức năng.
+  - `sosa:isHostedBy`: Trạm lắp đặt cảm biến.
+  - `sosa:observes`: Các thuộc tính quan sát được (nhiệt độ, độ ẩm, PM2.5, v.v.).
+  - `fiware:controlledProperty`: Danh sách thuộc tính được giám sát.
+
+#### **3. Observable Properties (Thuộc tính quan sát)**
+- **URI Pattern:** `property:{TênThuộcTính}`
+- **Kiểu:** `sosa:ObservableProperty`, `ssn:Property`
+- **Các thuộc tính IoT:**
+  - `property:Temperature`: Nhiệt độ (°C).
+  - `property:Humidity`: Độ ẩm (%).
+  - `property:WindSpeed`: Tốc độ gió (m/s).
+  - `property:Rainfall`: Lượng mưa (mm).
+  - `property:PM2.5`: Nồng độ bụi mịn PM2.5 (µg/m³).
+  - `property:PM10`: Nồng độ bụi PM10 (µg/m³).
+  - `property:AQI`: Chỉ số chất lượng không khí.
+  - `property:NoiseLevel`: Mức độ ồn (dB).
+  - `property:TrafficIntensity`: Mật độ giao thông (xe/phút).
+  - `property:VehicleSpeed`: Tốc độ xe trung bình (km/h).
+  - `property:WaterLevel`: Mực nước (cm).
+  - `property:FloodRisk`: Mức độ rủi ro lũ lụt (low/medium/high).
+
+#### **4. Geometry (Hình học không gian)**
+- **URI Pattern:** `urn:ngsi-ld:Device:Hanoi:station:{TênTrạm}/geometry`
+- **Kiểu:** `sf:Point`
+- **Thuộc tính:**
+  - `geo:asWKT`: Tọa độ WKT của trạm cảm biến.
+
+### **Danh sách trạm IoT:**
+1. **Cầu Giấy** (CauGiay) - Quận Cầu Giấy
+2. **Hà Đông** (HaDong) - Quận Hà Đông
+3. **Hồ Gươm** (HoGuom) - Quận Hoàn Kiếm
+4. **Hoàng Mai** (HoangMai) - Quận Hoàng Mai
+5. **Láng** (Lang) - Quận Đống Đa
+6. **Long Biên** (LongBien) - Quận Long Biên
+7. **Mỹ Đình** (MyDinh) - Quận Nam Từ Liêm
+8. **Royal City** (RoyalCity) - Quận Thanh Xuân
+9. **Tây Hồ** (TayHo) - Quận Tây Hồ
+10. **Times City** (TimeCity) - Quận Hai Bà Trưng
+
+---
+
+## 📂 Dữ liệu IoT Coverage (iot_coverage.ttl)
+
+### **Mô tả:**
+File này định nghĩa mối quan hệ giữa các địa điểm (POI) và các trạm cảm biến IoT, xác định địa điểm nào được trạm nào phủ sóng.
+
+### **Thuộc tính:**
+
+- **`sosa:isSampledBy`**: Quan hệ "được lấy mẫu bởi" - chỉ ra một địa điểm được quan trắc bởi trạm cảm biến nào.
+  - **Ví dụ:** ATM A được trạm Cầu Giấy quan trắc, Bệnh viện B được trạm Hồ Gươm quan trắc.
+  - **Cú pháp:** `<địa_điểm> sosa:isSampledBy <trạm_cảm_biến>`
+
+### **Ứng dụng:**
+- Xác định dữ liệu IoT nào áp dụng cho địa điểm cụ thể.
+- Phân tích môi trường xung quanh các địa điểm quan trọng.
+- Cảnh báo khi có biến động môi trường ảnh hưởng đến các POI.
+- Hỗ trợ ra quyết định dựa trên dữ liệu thời gian thực.
+
+### **Thống kê phủ sóng:**
+- Mỗi địa điểm được gán cho 1 trạm cảm biến gần nhất.
+- Tổng số quan hệ coverage: 28,573 (tương ứng số POI trong dữ liệu).
+- Trạm Hồ Gươm (trung tâm) có số POI phủ sóng nhiều nhất.
 
 ---
 
