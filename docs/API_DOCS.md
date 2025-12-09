@@ -15,6 +15,10 @@
    - [3.1 Retrieve Entity](#31-retrieve-entity)
    - [3.2 Query Entities](#32-query-entities)
    - [3.3 Temporal Evolution](#33-temporal-evolution)
+   - [3.4 Entity Types](#34-entity-types)
+   - [3.5 Attributes](#35-attributes)
+   - [3.6 Batch Temporal Query](#36-batch-temporal-query)
+   - [3.7 JSON-LD Contexts](#37-json-ld-contexts)
 4. [Data Models](#data-models)
 5. [Error Handling](#error-handling)
 6. [Vietnamese Version](#phần-tiếng-việt)
@@ -561,6 +565,375 @@ GET /ngsi-ld/v1/temporal/entities/urn:ngsi-ld:Device:Hanoi:station:Lang?timeAt=2
 | 404 | Not Found | Entity does not exist |
 | 413 | Payload Too Large | Time range too large (> 1 year) |
 | 500 | Internal Server Error | InfluxDB query error |
+
+---
+
+### 3.4 Entity Types
+
+**Get available entity types and their details**
+
+#### Endpoints
+
+```
+GET /ngsi-ld/v1/types
+GET /ngsi-ld/v1/types/{type}
+```
+
+#### Purpose
+- **List Types**: Discover all entity types available in the system
+- **Type Details**: Get detailed information about a specific entity type including available attributes and entity count
+
+#### Parameters (GET /types/{type})
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `type` | Path | ✅ Yes | Entity type name (e.g., `Device`, `PointOfInterest`) |
+
+#### Example Request - List Types
+
+```bash
+GET /ngsi-ld/v1/types
+Accept: application/ld+json
+```
+
+#### Example Response - List Types
+
+```json
+{
+  "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+  "types": ["Device", "PointOfInterest"]
+}
+```
+
+#### Example Request - Type Details
+
+```bash
+GET /ngsi-ld/v1/types/Device
+Accept: application/ld+json
+```
+
+#### Example Response - Type Details
+
+```json
+{
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    {
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "schema": "http://schema.org/",
+      "property": "http://opendatafithou.org/property/"
+    }
+  ],
+  "id": "urn:ngsi-ld:EntityTypeInfo:Device",
+  "type": "EntityTypeInformation",
+  "typeName": "Device",
+  "entityCount": 8,
+  "attributeDetails": [
+    {
+      "id": "urn:ngsi-ld:Attribute:name",
+      "type": "Attribute",
+      "attributeName": "name",
+      "attributeTypes": ["Property"]
+    },
+    {
+      "id": "urn:ngsi-ld:Attribute:location",
+      "type": "Attribute",
+      "attributeName": "location",
+      "attributeTypes": ["GeoProperty"]
+    },
+    {
+      "id": "urn:ngsi-ld:Attribute:temperature",
+      "type": "Attribute",
+      "attributeName": "temperature",
+      "attributeTypes": ["Property"]
+    }
+  ]
+}
+```
+
+#### HTTP Status Codes
+
+| Code | Meaning | Description |
+|------|---------|-------------|
+| 200 | Success | Type information retrieved |
+| 404 | Not Found | Entity type does not exist |
+
+---
+
+### 3.5 Attributes
+
+**Get available attributes and their details**
+
+#### Endpoints
+
+```
+GET /ngsi-ld/v1/attributes
+GET /ngsi-ld/v1/attributes/{attrName}
+```
+
+#### Purpose
+- **List Attributes**: Discover all attributes available for a given entity type
+- **Attribute Details**: Get detailed information about a specific attribute including which entity types use it
+
+#### Parameters (GET /attributes)
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `type` | Query | ❌ No | Filter by entity type (e.g., `Device`) |
+
+#### Parameters (GET /attributes/{attrName})
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `attrName` | Path | ✅ Yes | Attribute name (e.g., `temperature`, `location`) |
+
+#### Example Request - List Attributes
+
+```bash
+GET /ngsi-ld/v1/attributes?type=Device
+Accept: application/ld+json
+```
+
+#### Example Response - List Attributes
+
+```json
+{
+  "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+  "entityType": "Device",
+  "attributes": [
+    "name",
+    "location",
+    "temperature",
+    "humidity",
+    "windSpeed",
+    "rainfall",
+    "aqi",
+    "pm25",
+    "pm10",
+    "noiseLevel",
+    "trafficIntensity",
+    "avgSpeed",
+    "waterLevel"
+  ]
+}
+```
+
+#### Example Request - Attribute Details
+
+```bash
+GET /ngsi-ld/v1/attributes/temperature
+Accept: application/ld+json
+```
+
+#### Example Response - Attribute Details
+
+```json
+{
+  "@context": [
+    "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    {
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "schema": "http://schema.org/",
+      "property": "http://opendatafithou.org/property/"
+    }
+  ],
+  "id": "urn:ngsi-ld:Attribute:temperature",
+  "type": "Attribute",
+  "attributeName": "temperature",
+  "attributeCount": 8,
+  "typeNames": ["Device"],
+  "attributeTypes": ["Property"]
+}
+```
+
+#### HTTP Status Codes
+
+| Code | Meaning | Description |
+|------|---------|-------------|
+| 200 | Success | Attribute information retrieved |
+| 404 | Not Found | Attribute does not exist |
+
+---
+
+### 3.6 Batch Temporal Query
+
+**Query historical data for multiple entities at once**
+
+#### Endpoint
+
+```
+GET /ngsi-ld/v1/temporal/entities
+```
+
+#### Purpose
+Retrieve **historical values** for multiple entities in a single request. This is useful for comparing data across multiple IoT stations.
+
+#### Parameters
+
+| Parameter | Type | Required | Description | Example |
+|-----------|------|----------|-------------|---------|
+| `type` | Query | ❌ No | Entity type to filter (default: `Device`) | `Device` |
+| `id` | Query | ❌ No | Comma-separated entity IDs | `uri1,uri2,uri3` |
+| `idPattern` | Query | ❌ No | Pattern to match entity IDs | `.*station.*` |
+| `q` | Query | ❌ No | Query filter | `amenity=="atm"` |
+| `timeAt` | Query | ✅ Yes | Start time (ISO 8601) | `2025-11-01T00:00:00Z` |
+| `endTimeAt` | Query | ✅ Yes | End time (ISO 8601) | `2025-12-01T00:00:00Z` |
+| `attrs` | Query | ❌ No | Comma-separated attributes | `temperature,aqi` |
+| `lastN` | Query | ❌ No | Return only last N values per entity | `100` |
+| `aggrMethod` | Query | ❌ No | Aggregation method | `avg`, `min`, `max`, `sum` |
+| `aggrPeriodDuration` | Query | ❌ No | Aggregation period (ISO 8601 duration) | `PT1H` |
+
+#### Example Request
+
+```bash
+GET /ngsi-ld/v1/temporal/entities?type=Device&timeAt=2025-11-01T00:00:00Z&endTimeAt=2025-12-01T00:00:00Z&attrs=temperature,aqi&lastN=10
+Accept: application/ld+json
+```
+
+#### Example Response
+
+```json
+[
+  {
+    "@context": [...],
+    "id": "http://opendatafithou.org/sensor/station:Lang",
+    "type": "Device",
+    "temperature": [
+      {
+        "type": "Property",
+        "value": 25.3,
+        "unitCode": "CEL",
+        "observedAt": "2025-11-30T23:00:00Z"
+      }
+    ],
+    "aqi": [
+      {
+        "type": "Property",
+        "value": 78,
+        "observedAt": "2025-11-30T23:00:00Z"
+      }
+    ]
+  },
+  {
+    "@context": [...],
+    "id": "http://opendatafithou.org/sensor/station:CauGiay",
+    "type": "Device",
+    "temperature": [
+      {
+        "type": "Property",
+        "value": 24.8,
+        "unitCode": "CEL",
+        "observedAt": "2025-11-30T23:00:00Z"
+      }
+    ],
+    "aqi": [
+      {
+        "type": "Property",
+        "value": 65,
+        "observedAt": "2025-11-30T23:00:00Z"
+      }
+    ]
+  }
+]
+```
+
+#### HTTP Status Codes
+
+| Code | Meaning | Description |
+|------|---------|-------------|
+| 200 | Success | Temporal data retrieved |
+| 400 | Bad Request | Invalid time format or parameters |
+| 413 | Payload Too Large | Time range too large (> 1 year) |
+
+---
+
+### 3.7 JSON-LD Contexts
+
+**Discover and retrieve JSON-LD context definitions**
+
+#### Endpoints
+
+```
+GET /ngsi-ld/v1/jsonldContexts
+GET /ngsi-ld/v1/jsonldContexts/{contextId}
+```
+
+#### Purpose
+- **List Contexts**: Discover available JSON-LD contexts in the system
+- **Get Context**: Retrieve a specific context definition for semantic interoperability
+
+#### Parameters (GET /jsonldContexts/{contextId})
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `contextId` | Path | ✅ Yes | Context ID (e.g., `core`, `smartcity`, or full URN) |
+
+#### Example Request - List Contexts
+
+```bash
+GET /ngsi-ld/v1/jsonldContexts
+Accept: application/ld+json
+```
+
+#### Example Response - List Contexts
+
+```json
+[
+  {
+    "@context": [...],
+    "id": "urn:ngsi-ld:Context:core",
+    "type": "ContextSourceRegistration",
+    "url": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+    "kind": "Implicit"
+  },
+  {
+    "@context": [...],
+    "id": "urn:ngsi-ld:Context:smartcity",
+    "type": "ContextSourceRegistration",
+    "url": "http://opendatafithou.org/contexts/smartcity.jsonld",
+    "kind": "Hosted"
+  }
+]
+```
+
+#### Example Request - Get Context
+
+```bash
+GET /ngsi-ld/v1/jsonldContexts/smartcity
+Accept: application/ld+json
+```
+
+#### Example Response - Get Context
+
+```json
+{
+  "@context": {
+    "@vocab": "http://opendatafithou.org/ontology/",
+    "schema": "http://schema.org/",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "Device": "sosa:Sensor",
+    "PointOfInterest": "schema:Place",
+    "name": "schema:name",
+    "location": "geo:location",
+    "temperature": "sosa:observes",
+    "humidity": "sosa:observes",
+    "aqi": "property:airQualityIndex",
+    "pm25": "property:pm25Concentration",
+    "pm10": "property:pm10Concentration",
+    "noiseLevel": "property:noiseLevel",
+    "trafficIntensity": "property:trafficIntensity",
+    "waterLevel": "property:waterLevel"
+  }
+}
+```
+
+#### HTTP Status Codes
+
+| Code | Meaning | Description |
+|------|---------|-------------|
+| 200 | Success | Context retrieved |
+| 404 | Not Found | Context does not exist |
 
 ---
 
